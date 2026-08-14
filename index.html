@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-PT" data-theme="dark">
+<html lang="pt-PT" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -32,7 +32,8 @@
             --border-hover: rgba(255, 255, 255, 0.20);
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
-            --text-dim: #64748b;
+            /* #64748b only reaches ~3.8:1 on the raised dark surfaces */
+            --text-dim: #8496ad;
             --accent-blue: #38bdf8;
             --accent-indigo: #818cf8;
             --accent-gold: #fbbf24;
@@ -69,20 +70,42 @@
             --text-main: #0f172a;
             --text-muted: #475569;
             --text-dim: #64748b;
-            --accent-blue: #0284c7;
-            --accent-indigo: #6366f1;
-            --accent-gold: #d97706;
-            --accent-amber: #d97706;
-            --accent-emerald: #059669;
-            --accent-rose: #e11d48;
-            --accent-orange: #ea580c;
-            --accent-purple: #9333ea;
-            --glow-blue: rgba(2, 132, 199, 0.15);
-            --glow-gold: rgba(217, 119, 6, 0.15);
+            /* Accents are one step darker than their dark-theme counterparts:
+               they sit as TEXT on the pale rgba() tints defined further down,
+               which are keyed to the dark-theme RGB. The lighter 600-weights
+               (#0284c7, #d97706, #059669) land at 3.2-4.1:1 there — under AA. */
+            --accent-blue: #0369a1;
+            --accent-indigo: #4f46e5;
+            --accent-gold: #b45309;
+            --accent-amber: #b45309;
+            --accent-emerald: #047857;
+            --accent-rose: #be123c;
+            --accent-orange: #c2410c;
+            --accent-purple: #7e22ce;
+            --glow-blue: rgba(3, 105, 161, 0.15);
+            --glow-gold: rgba(180, 83, 9, 0.15);
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
         html { scroll-behavior: smooth; }
+
+        /* One visible focus ring for every keyboard-reachable control. The UA
+           default outline disappears against the darker accent surfaces. */
+        :focus-visible {
+            outline: 3px solid var(--accent-blue);
+            outline-offset: 2px;
+            border-radius: var(--radius-sm);
+        }
+        .enlargeable { cursor: zoom-in; }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
 
         body {
             background-color: var(--bg-base);
@@ -295,8 +318,8 @@
             animation: heroZoom 24s ease-in-out infinite alternate;
         }
         [data-theme="light"] .hero-bg-overlay {
-            opacity: 0.12;
-            filter: saturate(0.8) brightness(1.1);
+            opacity: 0.30;
+            filter: saturate(0.85) brightness(1.02);
         }
         @keyframes heroZoom {
             0% { transform: scale(1.02); }
@@ -309,7 +332,7 @@
             z-index: -1;
         }
         [data-theme="light"] .hero-gradient {
-            background: linear-gradient(180deg, rgba(244,246,251,0.2) 0%, rgba(244,246,251,0.85) 75%, var(--bg-base) 100%);
+            background: linear-gradient(180deg, rgba(244,246,251,0.35) 0%, rgba(244,246,251,0.88) 70%, var(--bg-base) 100%);
         }
 
         .hero-pill {
@@ -328,6 +351,13 @@
             backdrop-filter: blur(8px);
         }
         .hero-pill i { font-size: 0.9rem; }
+        /* The pill sits over the hero photo, so it needs more than the shared
+           amber accent to clear 4.5:1 on its own translucent tint. */
+        [data-theme="light"] .hero-pill {
+            color: #92400e;
+            background: rgba(255, 255, 255, 0.72);
+            border-color: rgba(180, 83, 9, 0.35);
+        }
 
         .hero-title {
             font-size: clamp(2.4rem, 7vw, 5.2rem);
@@ -469,7 +499,7 @@
         .metric-icon.amber { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); }
         .metric-icon.emerald { background: rgba(52, 211, 153, 0.15); color: var(--accent-emerald); }
         .metric-icon.indigo { background: rgba(129, 140, 248, 0.15); color: var(--accent-indigo); }
-        .metric-content h4 { font-size: 1.05rem; font-weight: 700; color: var(--text-main); }
+        .metric-content .metric-title { font-family: var(--font-heading); font-size: 1.05rem; font-weight: 700; color: var(--text-main); letter-spacing: -0.02em; }
         .metric-content p { font-size: 0.8rem; color: var(--text-muted); margin: 0; }
 
         /* ===== MAIN CONTAINER ===== */
@@ -623,10 +653,13 @@
         }
         .map-filter-btn.active {
             background: var(--accent-blue);
-            color: #fff;
+            /* Dark ink on the bright dark-theme blue; light theme's blue is
+               dark enough to take white text instead (override below). */
+            color: #04101e;
             border-color: var(--accent-blue);
             font-weight: 700;
         }
+        [data-theme="light"] .map-filter-btn.active { color: #fff; }
 
         /* Map Routes Quick Bar */
         .map-routes-bar {
@@ -710,7 +743,7 @@
             margin-bottom: 0.5rem;
             cursor: pointer;
         }
-        .popup-card h5 {
+        .popup-card h3 {
             font-size: 0.92rem;
             font-weight: 700;
             margin-bottom: 0.2rem;
@@ -1032,7 +1065,7 @@
 
         .category-pill {
             font-size: 0.72rem;
-            color: var(--text-dim);
+            color: var(--text-muted);
             text-transform: uppercase;
             font-weight: 700;
             letter-spacing: 0.5px;
@@ -1321,7 +1354,7 @@
             padding: 0.5rem;
             border-radius: 12px;
         }
-        .food-card h4 {
+        .food-card h3 {
             font-size: 1rem;
             font-weight: 700;
             margin-bottom: 0.2rem;
@@ -1362,10 +1395,12 @@
         }
         .phrase-tab-btn:hover, .phrase-tab-btn.active {
             background: var(--accent-blue);
-            color: #fff;
+            color: #04101e;
             border-color: var(--accent-blue);
             font-weight: 700;
         }
+        [data-theme="light"] .phrase-tab-btn:hover,
+        [data-theme="light"] .phrase-tab-btn.active { color: #fff; }
 
         .phrases-grid {
             display: grid;
@@ -1379,7 +1414,7 @@
             align-items: center;
             gap: 0.8rem;
         }
-        .phrase-info h5 {
+        .phrase-info h3 {
             font-size: 1rem;
             font-weight: 700;
             color: var(--text-main);
@@ -1550,7 +1585,7 @@
             color: var(--accent-blue);
             margin-bottom: 0.7rem;
         }
-        .dossier-card h4 {
+        .dossier-card h3 {
             font-size: 1.15rem;
             font-weight: 700;
             margin-bottom: 0.35rem;
@@ -1585,6 +1620,9 @@
             z-index: 2000;
             opacity: 0;
             pointer-events: none;
+            /* The `inert` attribute (toggled in JS) keeps the close button out
+               of the tab order while the overlay is dismissed — visibility
+               can't be used here because it is inherited and transitioned. */
             transition: opacity 0.3s ease;
             backdrop-filter: blur(12px);
             padding: 1rem;
@@ -1702,7 +1740,21 @@
         /* ===== RESPONSIVE BREAKPOINTS & MOBILE UX OPTIMIZATION ===== */
         @media (max-width: 860px) {
             .mobile-toggle { display: flex; }
-            
+
+            /* Keep the header on one line: without this the logo and the
+               PRO TRIP badge wrap onto three rows and the bar grows tall
+               enough to cover the top of the hero. */
+            header.site-header { padding: 0.7rem 1rem; gap: 0.5rem; flex-wrap: nowrap; }
+            header.site-header.scrolled { padding: 0.55rem 1rem; }
+            .brand-logo { font-size: 1.02rem; gap: 0.45rem; white-space: nowrap; flex-shrink: 0; }
+            .brand-logo .brand-badge { display: none; }
+            .header-actions { gap: 0.4rem; flex-shrink: 0; }
+            .btn-quick-label { display: none; }
+            .btn-quick { padding: 0; width: 44px; height: 44px; justify-content: center; }
+            /* Comfortable thumb targets for the two icon-only controls. */
+            .theme-toggle-btn, .mobile-toggle { width: 44px; height: 44px; }
+
+
             .nav-menu {
                 position: fixed;
                 top: 60px; left: 0; right: 0;
@@ -1717,6 +1769,9 @@
                 pointer-events: none;
                 gap: 0.5rem;
                 z-index: 1500;
+                /* The base rule centres items, which caps the links'
+                   width:100% and leaves a ragged column. */
+                align-items: stretch;
             }
             [data-theme="light"] .nav-menu {
                 background: #ffffff;
@@ -1771,7 +1826,8 @@
                 width: 100%;
             }
             .map-filters::-webkit-scrollbar { display: none; }
-            .map-filter-btn { flex-shrink: 0; font-size: 0.76rem; padding: 0.4rem 0.7rem; }
+            .map-filter-btn { flex-shrink: 0; font-size: 0.76rem; padding: 0.55rem 0.8rem; }
+            .map-route-pill { padding: 0.5rem 0.8rem; }
 
             #interactive-map { height: 380px; }
 
@@ -1810,11 +1866,11 @@
         <div class="header-actions">
             <!-- Light / Dark Theme Switcher -->
             <button class="theme-toggle-btn" id="theme-toggle" title="Alternar Modo Claro / Escuro" aria-label="Alternar Tema">
-                <i class="fa-solid fa-sun" id="theme-icon"></i>
+                <i class="fa-solid fa-moon" id="theme-icon"></i>
             </button>
 
-            <button class="btn-quick" id="btn-export-summary" title="Copiar sumário do roteiro">
-                <i class="fa-regular fa-copy"></i> WhatsApp
+            <button class="btn-quick" id="btn-export-summary" title="Copiar sumário do roteiro" aria-label="Copiar sumário do roteiro para WhatsApp">
+                <i class="fa-regular fa-copy"></i> <span class="btn-quick-label">WhatsApp</span>
             </button>
             <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menu">
                 <i class="fa-solid fa-bars" id="toggle-icon"></i>
@@ -1877,28 +1933,28 @@
         <div class="metric-card glass-panel glass-panel-interactive">
             <div class="metric-icon blue"><i class="fa-solid fa-plane-departure"></i></div>
             <div class="metric-content">
-                <h4>TAP TP1270 & TP555</h4>
+                <div class="metric-title">TAP TP1270 & TP555</div>
                 <p>LIS ➔ VIE | MUC ➔ LIS</p>
             </div>
         </div>
         <div class="metric-card glass-panel glass-panel-interactive">
             <div class="metric-icon emerald"><i class="fa-solid fa-users"></i></div>
             <div class="metric-content">
-                <h4>7 Viajantes</h4>
+                <div class="metric-title">7 Viajantes</div>
                 <p>4 Viena + 3 na Alemanha</p>
             </div>
         </div>
         <div class="metric-card glass-panel glass-panel-interactive">
             <div class="metric-icon amber"><i class="fa-solid fa-beer-mug-empty"></i></div>
             <div class="metric-content">
-                <h4>Oktoberfest 2026</h4>
+                <div class="metric-title">Oktoberfest 2026</div>
                 <p>Segunda, 28 Setembro</p>
             </div>
         </div>
         <div class="metric-card glass-panel glass-panel-interactive">
             <div class="metric-icon indigo"><i class="fa-solid fa-car-side"></i></div>
             <div class="metric-content">
-                <h4>Carro 7 Lugares</h4>
+                <div class="metric-title">Carro 7 Lugares</div>
                 <p>Alpes, Nymphenburg & Allianz Arena</p>
             </div>
         </div>
@@ -2042,7 +2098,7 @@
                                     <span class="category-pill">Voo TAP TP 1270</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Partida de Lisboa (LIS) ➔ Viena (VIE)</h4>
+                            <h4 class="node-title">Partida de Lisboa (LIS) ➔ Viena (VIE)</h3>
                             <p class="node-text">Encontro no Terminal 1 do Aeroporto Humberto Delgado em Lisboa às 06:15. Voo direto TAP TP 1270 com destino a Viena (3h 30m). Chegada ao meio-dia a Viena.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/lisbon_airport.jpg" alt="Aeroporto de Lisboa">
@@ -2064,7 +2120,7 @@
                                     <span class="category-pill">Transfer Aeroporto ➔ Judengasse 11</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Chegada ao Aeroporto VIE: Escolha do Transfer</h4>
+                            <h4 class="node-title">Chegada ao Aeroporto VIE: Escolha do Transfer</h3>
                             <p class="node-text"><em>⚠️ Nota sobre obras:</em> Desde <strong>7 de setembro de 2026</strong> a S-Bahn Stammstrecke está fechada (até out/2027). O <strong>CAT está suspenso</strong> (substituído por autocarros) e o <strong>S7 só vai até St. Marx</strong>, fora do centro. O Railjet não é afetado. As duas opções viáveis para o grupo:</p>
 
                             <div class="transfer-options-grid">
@@ -2107,7 +2163,7 @@
                                     <span class="category-pill">Check-in</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Central City Apartments (Judengasse 11)</h4>
+                            <h4 class="node-title">Central City Apartments (Judengasse 11)</h3>
                             <p class="node-text">Alojamento no coração histórico de Viena. Apenas 300m a pé da estação <em>Schwedenplatz</em> / <em>Morzinplatz</em> e a 50m dos melhores bares do Bermudadreieck!<br><br>⚠️ <strong>O check-in nestes apartamentos é tipicamente às 15:00.</strong> Pedir <em>early check-in</em> por email com antecedência, ou combinar deixar as malas.</p>
                             <div class="node-actions">
                                 <a href="https://maps.google.com/?q=Judengasse+11+1010+Wien+Austria" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Abrir Judengasse 11</a>
@@ -2125,7 +2181,7 @@
                                     <span class="category-pill">Monumentos a Pé</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Catedral Stephansdom, Graben, Hofburg & Volksgarten</h4>
+                            <h4 class="node-title">Catedral Stephansdom, Graben, Hofburg & Volksgarten</h3>
                             <p class="node-text">Tudo a menos de 500m do apartamento! Subida à <strong>Torre Sul da Stephansdom</strong> (€8, 343 degraus) para a vista 360°, passeio pelas ruas pedonais <em>Graben</em> e <em>Kohlmarkt</em>, complexo do Palácio Imperial dos Habsburgos e jardins do <em>Volksgarten</em>.<br><br>💡 Programa encurtado face ao plano original: com um despertar às 04:45, 4 horas a pé seria demais.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/vienna_stephansdom_1786477232698.jpg" alt="Stephansdom Viena">
@@ -2146,7 +2202,7 @@
                                     <span class="category-pill">Sunset & Pré-Copos</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Pré-Copos no Canal do Danúbio (Donaukanal)</h4>
+                            <h4 class="node-title">Pré-Copos no Canal do Danúbio (Donaukanal)</h3>
                             <p class="node-text">A 300m a pé (3 min) do apartamento. Esplanadas, graffiti street art, areia e cocktails à beira d'água. Bares recomendados: <em>Tel Aviv Beach</em> ou <em>Strandbar Herrmann</em>.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/donaukanal_vienna_1786477802836.jpg" alt="Donaukanal Viena">
@@ -2164,7 +2220,7 @@
                                     <span class="category-pill">Noite Épica</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Bermudadreieck & Clubbing (Volksgarten / FLEX)</h4>
+                            <h4 class="node-title">Bermudadreieck & Clubbing (Volksgarten / FLEX)</h3>
                             <p class="node-text">O "Triângulo das Bermudas" fica literalmente à porta de casa! Rota de bares com imperial austríaca (Ottakringer/Stiegl). Depois, clubbing no <strong>Volksgarten Club</strong> (nos jardins imperiais) ou <strong>FLEX</strong> (a 800m a pé ao longo do canal, Augartenbrücke 1).</p>
                         </div>
                     </div>
@@ -2197,7 +2253,7 @@
                                     <span class="category-pill">Brunch & Café</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Brunch no Haas & Haas & Provar Sachertorte</h4>
+                            <h4 class="node-title">Brunch no Haas & Haas & Provar Sachertorte</h3>
                             <p class="node-text">Acordar sem pressas e tomar um grande brunch no pátio escondido do <em>Haas & Haas</em> (Stephansplatz 4). A seguir, provar a icónica <strong>Sachertorte</strong> no Café Sacher ou na pastelaria imperial <em>Gerstner</em>.<br><br>🎫 Às <strong>12:20 ativar o bilhete de 24h</strong> (€10,20) — cobre Schönbrunn, o Prater e ainda a ida à estação amanhã de manhã.</p>
                         </div>
                     </div>
@@ -2211,7 +2267,7 @@
                                     <span class="category-pill">Palácio Imperial</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Palácio & Jardins de Schönbrunn</h4>
+                            <h4 class="node-title">Palácio & Jardins de Schönbrunn</h3>
                             <p class="node-text">Metro U4 de Schwedenplatz direto até Schönbrunn (~18 min + 5 min a pé até aos portões). Residência de verão dos Habsburgos e de Sissi. Caminhada pelos jardins barrocos até à <strong>Gloriette</strong> para uma vista inesquecível de Viena.<br><br>⚠️ <strong>Entrada com hora marcada — reservar a Grand Tour para as 13:00 em schoenbrunn.at.</strong> As faixas horárias esgotam com semanas de antecedência (~€28-34/pax).</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/schonbrunn_palace_1786477746840.jpg" alt="Schonbrunn">
@@ -2229,7 +2285,7 @@
                                     <span class="category-pill">Parque & Jantar</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Wiener Prater & Jantar de Grupo no Schweizerhaus</h4>
+                            <h4 class="node-title">Wiener Prater & Jantar de Grupo no Schweizerhaus</h3>
                             <p class="node-text">U4 + U1 até Praterstern (~45 min desde Schönbrunn). Entrada livre no parque. Andar na centenária <strong>Roda Gigante Riesenrad</strong> (€14,50). Jantar no lendário <strong>Schweizerhaus</strong> com pernis de porco estaladiços (<em>Stelze</em>) e cerveja Budweiser de pressão — <strong>reservar mesa</strong>.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/wiener_prater_1786477757000.jpg" alt="Wiener Prater">
@@ -2247,7 +2303,7 @@
                                     <span class="category-pill">Rooftop 360°</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Cocktails no Rooftop Das Loft (SO/ Vienna)</h4>
+                            <h4 class="node-title">Cocktails no Rooftop Das Loft (SO/ Vienna)</h3>
                             <p class="node-text">No 18º andar (Praterstraße 1, Leopoldstadt), a 650m a pé (8 min) do alojamento atravessando a ponte Schwedenbrücke. Vista panorâmica espetacular sobre a cidade iluminada e teto de vidro multicolorido.<br><br>👔 <strong>Reservar — e há dress code.</strong></p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/das_loft_vienna.jpg" alt="Das Loft Vienna">
@@ -2284,7 +2340,7 @@
                                     <span class="category-pill">Check-out & Metro</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Check-out em Viena ➔ Wien Hauptbahnhof</h4>
+                            <h4 class="node-title">Check-out em Viena ➔ Wien Hauptbahnhof</h3>
                             <p class="node-text">Check-out do apartamento na Judengasse às <strong>10:30</strong> <em>(confirmar a hora exata com o anfitrião)</em>. Sair às 10:45 e apanhar o <strong>Metro U1</strong> de Schwedenplatz até <em>Wien Hauptbahnhof</em> — chegada por volta das 11:05, com folga para encontrar a plataforma.</p>
                         </div>
                     </div>
@@ -2298,7 +2354,7 @@
                                     <span class="category-pill">Comboio Railjet Xpress + ICE</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Wien Hauptbahnhof ➔ Augsburg Hauptbahnhof (via München)</h4>
+                            <h4 class="node-title">Wien Hauptbahnhof ➔ Augsburg Hauptbahnhof (via München)</h3>
                             <p class="node-text">Viagem panorâmica a bordo do veloz <strong>ÖBB Railjet Xpress (RJX)</strong> de Wien Hbf até München Hbf (cruzando Linz e Salzburgo com Wi-Fi e restaurante a bordo), com <strong>1 mudança</strong> para a ligação a Augsburg Hbf. Total 5h01. São só as <strong>4 pessoas</strong> que vêm de Viena.</p>
 
                             <div class="callout-box critical">
@@ -2326,7 +2382,7 @@
                                     <span class="category-pill">Enterprise Rent-A-Car</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Levantamento do Carro de 7 Lugares (Aindlinger Str. 14)</h4>
+                            <h4 class="node-title">Levantamento do Carro de 7 Lugares (Aindlinger Str. 14)</h3>
                             <p class="node-text">Táxi da estação de Augsburg direto à agência Enterprise (5,5 km, ~8 min). Chegada por volta das <strong>16:50 — 70 minutos de margem</strong> antes do fecho. São só 4 pessoas neste comboio, por isso um táxi normal chega.</p>
 
                             <div class="callout-box warning">
@@ -2354,7 +2410,7 @@
                                     <span class="category-pill">Reunião do Grupo!</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Check-in no Lexapartments & Jantar dos 7 em Augsburg</h4>
+                            <h4 class="node-title">Check-in no Lexapartments & Jantar dos 7 em Augsburg</h3>
                             <p class="node-text">Check-in às 17:15 no apartamento espaçoso de 101m² no centro histórico de Augsburg (Am Bogen 6). Encontro com os 3 amigos que se juntam na Alemanha — <strong>grupo completo de 7 a partir daqui</strong>. Jantar e brinde inaugural bávaro na Rathausplatz às 18:30.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/augsburg_oldtown.jpg" alt="Augsburg Rathausplatz">
@@ -2395,7 +2451,7 @@
                                     <span class="category-pill">Condução Cénica</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Augsburg ➔ Castelo de Neuschwanstein (Füssen)</h4>
+                            <h4 class="node-title">Augsburg ➔ Castelo de Neuschwanstein (Füssen)</h3>
                             <p class="node-text"><strong>113 km pela estrada federal B17, ~1h35</strong> de condução cruzando aldeias alpinas. Paragem nos parques de estacionamento oficiais de Hohenschwangau aos pés do castelo.<br><br>💤 <strong>Único dia da semana em que se acorda antes das 10:00</strong> — 09:30, para o castelo caber no dia com margem.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/hohenschwangau.jpg" alt="Hohenschwangau e Alpsee">
@@ -2413,7 +2469,7 @@
                                     <span class="category-pill">Castelo de Conto de Fadas</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Castelo de Neuschwanstein & Ponte Marienbrücke</h4>
+                            <h4 class="node-title">Castelo de Neuschwanstein & Ponte Marienbrücke</h3>
                             <p class="node-text"><strong>12:00</strong> levantamento dos bilhetes no Ticket Center e subida ao castelo. <strong>13:00</strong> visita guiada (~35 min) ao castelo de conto de fadas do Rei Ludwig II que inspirou a Disney. A seguir, a <strong>Ponte Marienbrücke</strong> suspensa sobre a garganta do desfiladeiro para a foto inesquecível.</p>
 
                             <div class="callout-box critical">
@@ -2442,7 +2498,7 @@
                                     <span class="category-pill">Lago Alpino Turquesa</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Lago Eibsee aos pés da Zugspitze (2.962m)</h4>
+                            <h4 class="node-title">Lago Eibsee aos pés da Zugspitze (2.962m)</h3>
                             <p class="node-text"><strong>15:00-16:15 condução</strong>: ~63 km pela <strong>B179 Fernpass</strong>, via Reutte e Ehrwald — <strong>~1h15</strong>, é estrada de montanha. <em>(Alternativa 100% alemã pela B23 via Oberammergau: ~95 km, ~1h30.)</em><br><br>Lago de águas cristalinas aos pés da montanha mais alta da Alemanha. Passeio pelas margens, fotos com reflexos dos Alpes e cerveja na esplanada.</p>
 
                             <div class="callout-box info">
@@ -2465,7 +2521,7 @@
                                     <span class="category-pill">Aldeia dos Frescos & Abadia</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Aldeia Histórica de Oberammergau & Abadia de Ettal</h4>
+                            <h4 class="node-title">Aldeia Histórica de Oberammergau & Abadia de Ettal</h3>
                             <p class="node-text">No trajeto de regresso pela B23 (~25 km do Eibsee). Paragem de fotografia na famosa vila alpina célebre pelas fachadas pintadas (<em>Lüftlmalerei</em>) com contos tradicionais, e espreitar a imponente Abadia barroca de Ettal. <strong>Ainda com luz</strong> — o sol põe-se por volta das 19:05.<br><br>🚗 <strong>18:45-20:15 regresso a Augsburg</strong> (~110 km, ~1h30). Jantar às 20:30.</p>
 
                             <div class="callout-box info">
@@ -2507,7 +2563,7 @@
                                     <span class="category-pill">Viagem de Carro</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Augsburg ➔ Rothenburg ob der Tauber</h4>
+                            <h4 class="node-title">Augsburg ➔ Rothenburg ob der Tauber</h3>
                             <p class="node-text">Duas rotas possíveis — <strong>escolher uma</strong>:</p>
 
                             <div class="callout-box info">
@@ -2530,7 +2586,7 @@
                                     <span class="category-pill">Vila Medieval & Gastronomia</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Muralhas Históricas, Praça Plönlein & Schneeballen</h4>
+                            <h4 class="node-title">Muralhas Históricas, Praça Plönlein & Schneeballen</h3>
                             <p class="node-text">Caminhada ao longo das muralhas do século XIV, casas de enxaimel coloridas, almoço em taberna tradicional (<em>Fränkische Bratwurst</em>) e prova dos famosos doces <strong>Schneeballen</strong>.<br><br>🚗 <strong>17:30-19:20 regresso a Augsburg.</strong> Jantar e <strong>deitar cedo</strong> — amanhã é o grande dia.</p>
                             
                             <div class="callout-box info">
@@ -2574,7 +2630,7 @@
                                     <span class="category-pill">Comboio Regional RE</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Augsburg Hbf ➔ München Hbf (2x Bayern-Ticket)</h4>
+                            <h4 class="node-title">Augsburg Hbf ➔ München Hbf (2x Bayern-Ticket)</h3>
                             <p class="node-text">Viagem rápida de 38 min. Como cada Bayern-Ticket cobre no máximo 5 passageiros, compramos <strong>2 bilhetes</strong> (1 de 5 pax €74 + 1 de 2 pax €44 = <strong>€118 total grupo</strong>), com transporte ilimitado o dia inteiro em comboios regionais e em toda a rede MVV de Munique. Carro em segurança no apartamento.</p>
 
                             <div class="callout-box info">
@@ -2593,7 +2649,7 @@
                                     <span class="category-pill">Centro Histórico & Miradouro</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Marienplatz, Catedral Frauenkirche & Peterskirche</h4>
+                            <h4 class="node-title">Marienplatz, Catedral Frauenkirche & Peterskirche</h3>
                             <p class="node-text">A 10 min a pé da Hauptbahnhof. <strong>Marienplatz</strong> com a sua câmara neo-gótica e o Glockenspiel. Caminhada pelas ruas históricas até às icónicas torres com cúpulas da <strong>Frauenkirche</strong> e vista panorâmica a partir da igreja de São Pedro (<em>Alter Peter</em>).</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/marienplatz_munich_1786477812668.jpg" alt="Marienplatz e Centro de Munique">
@@ -2611,7 +2667,7 @@
                                     <span class="category-pill">Almoço Bávaro & Cervejaria 1589</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Almoço no Viktualienmarkt & Cervejaria Hofbräuhaus</h4>
+                            <h4 class="node-title">Almoço no Viktualienmarkt & Cervejaria Hofbräuhaus</h3>
                             <p class="node-text">Almoço no tradicional <strong>Viktualienmarkt</strong> com <em>Weißwurst</em>, mostarda doce, pretzels gigantes e queijo <em>Obatzda</em>. Paragem a 4 min na lendária cervejaria histórica <strong>Hofbräuhaus am Platzl</strong> (fundada em 1589) para fotos do salão abobadado.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/viktualienmarkt.jpg" alt="Viktualienmarkt">
@@ -2629,7 +2685,7 @@
                                     <span class="category-pill">Surf no Rio & Jardins</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Eisbachwelle (Surfistas no Rio) & Hofgarten</h4>
+                            <h4 class="node-title">Eisbachwelle (Surfistas no Rio) & Hofgarten</h3>
                             <p class="node-text">Uma das atrações mais espetaculares de Munique! Surfistas a apanhar a onda contínua de água doce no canal do rio Eisbach, mesmo à entrada do <em>Englischer Garten</em>, e passeio pelos jardins do <strong>Hofgarten</strong>.<br><br>🚇 <strong>16:00-16:30</strong>: S-Bahn até <strong>Hackerbrücke</strong>, a paragem da Wiesn (incluída no Bayern-Ticket).</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/eisbachwelle_munich.jpg" alt="Eisbachwelle Surf Urbano">
@@ -2647,7 +2703,7 @@
                                     <span class="category-pill">Festa Épica!</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">OKTOBERFEST 2026 na Theresienwiese!</h4>
+                            <h4 class="node-title">OKTOBERFEST 2026 na Theresienwiese!</h3>
                             <p class="node-text">O ponto alto da viagem, com <strong>mesa reservada</strong>. Tendas lendárias: <strong>Hacker-Pschorr</strong> (Himmel der Bayern), <strong>Augustiner</strong> e <strong>Hofbräu</strong>. Cerveja de litro <em>Maß</em> (€14,80-15,90), frango assado <em>Hendl</em> (€16-19), cantoria bávara e festa rija!<br><br>⏰ Última cerveja e última música às <strong>22:30</strong>. As tendas fecham às <strong>23:30</strong>.</p>
 
                             <div class="callout-box critical">
@@ -2676,7 +2732,7 @@
                                     <span class="category-pill">Comboio de Regresso</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Comboio RE: München Hbf ➔ Augsburg Hbf</h4>
+                            <h4 class="node-title">Comboio RE: München Hbf ➔ Augsburg Hbf</h3>
                             <p class="node-text">Regresso tranquilo no comboio regional incluído no Bayern-Ticket (alternativas às 23:36 ou 00:04 se nos atrasarmos). Descanso merecido em Augsburg.</p>
                         </div>
                     </div>
@@ -2710,7 +2766,7 @@
                                     <span class="category-pill">Palácio Real & Jardins</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Check-Out em Augsburg ➔ Palácio e Jardins de Nymphenburg</h4>
+                            <h4 class="node-title">Check-Out em Augsburg ➔ Palácio e Jardins de Nymphenburg</h3>
                             <p class="node-text">Check-out do apartamento em Augsburg às <strong>11:00</strong> com as malas já no carro <em>(confirmar a hora de check-out)</em>. Condução de ~1h (62 km) pela A8 até ao grandioso <strong>Palácio Nymphenburg</strong>, residência barroca de verão da realeza bávara. Caminhada ao longo do canal central com cisnes e pelos jardins barrocos.<br><br>🎟️ Palácio €8/pax · bilhete combinado €12-14/pax.<br><br>💤 <strong>Acordar às 10:00</strong> — depois da noite de Oktoberfest, vai fazer falta.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/nymphenburg_palace.jpg" alt="Palácio Nymphenburg">
@@ -2728,7 +2784,7 @@
                                     <span class="category-pill">Entrada Grátis</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">BMW Welt & Parque Olímpico (Olympiapark 1972)</h4>
+                            <h4 class="node-title">BMW Welt & Parque Olímpico (Olympiapark 1972)</h3>
                             <p class="node-text">A apenas <strong>10 min de Nymphenburg</strong> — é por isso que saiu do Dia 6, onde ficava a 45 min do centro e não cabia. Pavilhão futurista com superdesportivos BMW M, Rolls-Royce, MINI e motos de alta tecnologia (<strong>entrada gratuita</strong>). Caminhada pela passarela para ver a icónica cobertura em tenda do Parque Olímpico de 1972.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/bmw_welt_1786477793413.jpg" alt="BMW Welt e Olympiapark">
@@ -2746,7 +2802,7 @@
                                     <span class="category-pill">Estádio Futurista & Megastore</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Allianz Arena (Visita Exterior & FC Bayern Megastore)</h4>
+                            <h4 class="node-title">Allianz Arena (Visita Exterior & FC Bayern Megastore)</h3>
                             <p class="node-text">Condução de ~20 min até ao norte de Munique (Fröttmaning). Acesso livre e gratuito à gigantesca esplanada exterior para admirar as famosas almofadas de ETFE do estádio e tirar fotos de grupo. Visita à <strong>FC Bayern Megastore</strong> oficial para lembranças.</p>
 
                             <div class="callout-box info">
@@ -2769,7 +2825,7 @@
                                     <span class="category-pill">Entrega do Carro</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Allianz Arena ➔ Aeroporto MUC & Devolução Enterprise</h4>
+                            <h4 class="node-title">Allianz Arena ➔ Aeroporto MUC & Devolução Enterprise</h3>
                             <p class="node-text">Apenas ~25 min de condução direta pela autoestrada A92 (28 km). <strong>Reabastecer o depósito</strong> na bomba junto ao aeroporto e fazer a devolução no <em>Mietwagenzentrum</em> (Terminal 2). No Terminal 2 às <strong>17:15</strong> — folga confortável para um voo às 20:00.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/munich_airport.jpg" alt="Aeroporto de Munique">
@@ -2787,7 +2843,7 @@
                                     <span class="category-pill">Voo TAP Air Portugal</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Voo TAP TP 555: MUC ➔ LIS</h4>
+                            <h4 class="node-title">Voo TAP TP 555: MUC ➔ LIS</h3>
                             <p class="node-text">Embarque às 19:20. Voo direto de regresso a Lisboa (2h 25m). Chegada a Lisboa às 22:25 locais. Fim de uma EuroTrip lendária!</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/lisbon_airport.jpg" alt="Regresso a Lisboa">
@@ -3099,7 +3155,7 @@
                 <div class="food-card glass-panel glass-panel-interactive">
                     <div class="food-icon">🥩</div>
                     <div>
-                        <h4>Wiener Schnitzel</h4>
+                        <h3>Wiener Schnitzel</h3>
                         <p>O clássico bife panado fino austríaco, servido com salada de batata morna ou batatas fritas e limão fresco.</p>
                     </div>
                 </div>
@@ -3107,7 +3163,7 @@
                 <div class="food-card glass-panel glass-panel-interactive">
                     <div class="food-icon">🍰</div>
                     <div>
-                        <h4>Sachertorte Imperial</h4>
+                        <h3>Sachertorte Imperial</h3>
                         <p>Bolo de chocolate denso com camada de doce de damasco artesanal e cobertura de chocolate crocante com natas batidas.</p>
                     </div>
                 </div>
@@ -3115,7 +3171,7 @@
                 <div class="food-card glass-panel glass-panel-interactive">
                     <div class="food-icon">🍖</div>
                     <div>
-                        <h4>Stelze / Schweinshaxe</h4>
+                        <h3>Stelze / Schweinshaxe</h3>
                         <p>Pernil de porco assado no espeto com pele ultra estaladiça, raiz de rábano picante e mostarda. Estrela do Schweizerhaus!</p>
                     </div>
                 </div>
@@ -3123,7 +3179,7 @@
                 <div class="food-card glass-panel glass-panel-interactive">
                     <div class="food-icon">🥨</div>
                     <div>
-                        <h4>Weißwurst & Brezn</h4>
+                        <h3>Weißwurst & Brezn</h3>
                         <p>Pequeno-almoço bávaro por excelência: salsichas brancas cozidas, mostarda doce Händlmaier e pretzel gigante morno.</p>
                     </div>
                 </div>
@@ -3131,7 +3187,7 @@
                 <div class="food-card glass-panel glass-panel-interactive">
                     <div class="food-icon">🧀</div>
                     <div>
-                        <h4>Käsespätzle & Obatzda</h4>
+                        <h3>Käsespätzle & Obatzda</h3>
                         <p>Massa artesanal de ovo com queijo dos Alpes derretido e cebola frita crocante. A pasta de queijo Obatzda é imperdível na cervejaria.</p>
                     </div>
                 </div>
@@ -3139,7 +3195,7 @@
                 <div class="food-card glass-panel glass-panel-interactive">
                     <div class="food-icon">🍩</div>
                     <div>
-                        <h4>Schneeballen de Rothenburg</h4>
+                        <h3>Schneeballen de Rothenburg</h3>
                         <p>Doce tradicional de Rothenburg ob der Tauber: tiras de massa frita em forma de bola de neve, cobertas de açúcar em pó ou chocolate.</p>
                     </div>
                 </div>
@@ -3241,7 +3297,7 @@
             <div class="dossier-grid">
                 <div class="dossier-card glass-panel">
                     <div class="dossier-icon-top"><i class="fa-solid fa-hotel"></i></div>
-                    <h4>Alojamento Viena (23-25 Set.) — 4 pax</h4>
+                    <h3>Alojamento Viena (23-25 Set.) — 4 pax</h3>
                     <p style="font-size: 0.85rem; color: var(--accent-blue); font-weight: 600;">Central City Apartments (Judengasse 11)</p>
                     <ul class="dossier-meta-list">
                         <li><i class="fa-solid fa-location-dot"></i> Judengasse 11, 1010 Wien, Áustria</li>
@@ -3252,7 +3308,7 @@
 
                 <div class="dossier-card glass-panel">
                     <div class="dossier-icon-top"><i class="fa-solid fa-building-user"></i></div>
-                    <h4>Alojamento Alemanha (25-29 Set.) — 7 pax</h4>
+                    <h3>Alojamento Alemanha (25-29 Set.) — 7 pax</h3>
                     <p style="font-size: 0.85rem; color: var(--accent-emerald); font-weight: 600;">Lexapartments Zentral 101m² (Augsburg)</p>
                     <ul class="dossier-meta-list">
                         <li><i class="fa-solid fa-location-dot"></i> Am Bogen 6 (R/C), 86152 Augsburg</li>
@@ -3263,7 +3319,7 @@
 
                 <div class="dossier-card glass-panel">
                     <div class="dossier-icon-top"><i class="fa-solid fa-car-side" style="color: var(--accent-amber);"></i></div>
-                    <h4>Aluguer de Viatura (Enterprise)</h4>
+                    <h3>Aluguer de Viatura (Enterprise)</h3>
                     <p style="font-size: 0.85rem; color: var(--accent-amber); font-weight: 600;">Carrinha 7 Lugares — €440,01</p>
                     <ul class="dossier-meta-list">
                         <li><i class="fa-solid fa-location-dot"></i> Levantamento: Aindlinger Str. 14, Augsburg</li>
@@ -3275,7 +3331,7 @@
 
                 <div class="dossier-card glass-panel">
                     <div class="dossier-icon-top"><i class="fa-solid fa-triangle-exclamation" style="color: var(--accent-rose);"></i></div>
-                    <h4>Contactos de Emergência</h4>
+                    <h3>Contactos de Emergência</h3>
                     <ul class="dossier-meta-list">
                         <li><i class="fa-solid fa-phone"></i> <strong>112</strong> — Número Europeu Geral</li>
                         <li><i class="fa-solid fa-car-wrench"></i> Enterprise Assistência 24h: <strong>+49 800 3683777</strong></li>
@@ -3285,7 +3341,7 @@
 
                 <div class="dossier-card glass-panel">
                     <div class="dossier-icon-top"><i class="fa-solid fa-list-check" style="color: var(--accent-purple);"></i></div>
-                    <h4>Confirmar Antes de Fechar</h4>
+                    <h3>Confirmar Antes de Fechar</h3>
                     <ul class="dossier-meta-list">
                         <li><i class="fa-solid fa-key"></i> Hora de check-in/check-out dos dois apartamentos</li>
                         <li><i class="fa-solid fa-suitcase-rolling"></i> Classe da carrinha: 7 pax + bagagem de 4 voos não cabem num monovolume normal</li>
@@ -3315,9 +3371,9 @@
     </footer>
 
     <!-- Fullscreen Lightbox Modal -->
-    <div class="lightbox-modal" id="lightbox-modal">
+    <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
         <button class="lightbox-btn-close" id="lightbox-close" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
-        <img src="" alt="Imagem ampliada" id="lightbox-img">
+        <img alt="Imagem ampliada" id="lightbox-img">
     </div>
 
     <!-- Scroll to Top Floating Button -->
@@ -3338,7 +3394,7 @@
         // ================= 1. THEME SWITCHER (DARK / LIGHT) =================
         const themeToggle = document.getElementById('theme-toggle');
         const themeIcon = document.getElementById('theme-icon');
-        let currentTheme = localStorage.getItem('vm_theme_2026') || 'dark';
+        let currentTheme = localStorage.getItem('vm_theme_2026') || 'light';
 
         function applyTheme(theme) {
             document.documentElement.setAttribute('data-theme', theme);
@@ -3538,7 +3594,7 @@
                 const popupHtml = `
                     <div class="popup-card">
                         ${loc.img ? `<img src="${loc.img}" alt="${loc.name}" class="enlargeable">` : ''}
-                        <h5>${loc.name}</h5>
+                        <h3>${loc.name}</h3>
                         <p>${loc.desc}</p>
                         <a href="https://maps.google.com/?q=${encodeURIComponent(loc.name)}" target="_blank" class="popup-btn">
                             <i class="fa-solid fa-location-arrow"></i> Direções no Google Maps
@@ -3712,15 +3768,53 @@
         const dayTabs = document.querySelectorAll('.day-tab-card');
         const dayViews = document.querySelectorAll('.day-view-container');
 
-        dayTabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                const dayNum = tab.dataset.day;
-                dayTabs.forEach(t => t.classList.remove('active'));
-                dayViews.forEach(v => v.classList.remove('active'));
+        // The tabs are divs, so they need explicit tab/panel semantics and
+        // keyboard handling to be reachable without a mouse.
+        document.getElementById('day-selector')?.setAttribute('role', 'tablist');
+        dayViews.forEach(v => {
+            v.setAttribute('role', 'tabpanel');
+            v.setAttribute('aria-labelledby', `day-tab-${v.id.replace('day-view-', '')}`);
+        });
 
-                tab.classList.add('active');
-                const targetView = document.getElementById(`day-view-${dayNum}`);
-                if (targetView) targetView.classList.add('active');
+        function selectDay(tab, { focus = false } = {}) {
+            const dayNum = tab.dataset.day;
+            dayTabs.forEach(t => {
+                const on = t === tab;
+                t.classList.toggle('active', on);
+                t.setAttribute('aria-selected', on ? 'true' : 'false');
+                t.tabIndex = on ? 0 : -1;          // roving tabindex
+            });
+            dayViews.forEach(v => {
+                const on = v.id === `day-view-${dayNum}`;
+                v.classList.toggle('active', on);
+                v.hidden = !on;
+            });
+            if (focus) tab.focus();
+        }
+
+        dayTabs.forEach((tab, i) => {
+            tab.id = `day-tab-${tab.dataset.day}`;
+            tab.setAttribute('role', 'tab');
+            tab.setAttribute('aria-controls', `day-view-${tab.dataset.day}`);
+            const active = tab.classList.contains('active');
+            tab.setAttribute('aria-selected', active ? 'true' : 'false');
+            tab.tabIndex = active ? 0 : -1;
+
+            tab.addEventListener('click', () => selectDay(tab));
+            tab.addEventListener('keydown', e => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    selectDay(tab);
+                    return;
+                }
+                const step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+                if (step) {
+                    e.preventDefault();
+                    selectDay(dayTabs[(i + step + dayTabs.length) % dayTabs.length], { focus: true });
+                } else if (e.key === 'Home' || e.key === 'End') {
+                    e.preventDefault();
+                    selectDay(dayTabs[e.key === 'Home' ? 0 : dayTabs.length - 1], { focus: true });
+                }
             });
         });
 
@@ -3784,7 +3878,7 @@
                 card.className = 'phrase-card glass-panel';
                 card.innerHTML = `
                     <div class="phrase-info">
-                        <h5>${p.german}</h5>
+                        <h3>${p.german}</h3>
                         <div class="phrase-phonetic">${p.phonetic}</div>
                         <div class="phrase-pt">${p.pt}</div>
                     </div>
@@ -3938,26 +4032,60 @@
         const lightboxImg = document.getElementById('lightbox-img');
         const lightboxClose = document.getElementById('lightbox-close');
 
+        let lightboxOpener = null;
+
+        function openLightbox(el) {
+            const img = el.tagName === 'IMG' ? el : el.querySelector('img');
+            if (!img || !img.src) return;
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt || 'Imagem ampliada';
+            lightboxModal.classList.add('active');
+            lightboxModal.inert = false;
+            lightboxOpener = el;
+            lightboxClose.focus();
+        }
+
+        function closeLightbox() {
+            if (!lightboxModal.classList.contains('active')) return;
+            lightboxModal.classList.remove('active');
+            // Blur before going inert, or focus would land on <body>.
+            lightboxOpener?.focus();   // return focus where it came from
+            lightboxModal.inert = true;
+            lightboxOpener = null;
+        }
+
+        lightboxModal.inert = true;   // dismissed on load
+
         function setupLightboxListeners() {
             document.querySelectorAll('.enlargeable').forEach(el => {
-                el.addEventListener('click', (e) => {
-                    e.stopPropagation();
+                if (el.dataset.lightboxBound) return;
+                el.dataset.lightboxBound = '1';
+                // Non-button elements need explicit semantics to be reachable.
+                el.setAttribute('role', 'button');
+                el.setAttribute('tabindex', '0');
+                if (!el.getAttribute('aria-label')) {
                     const img = el.tagName === 'IMG' ? el : el.querySelector('img');
-                    if (img && img.src) {
-                        lightboxImg.src = img.src;
-                        lightboxModal.classList.add('active');
-                    }
+                    el.setAttribute('aria-label', `Ampliar imagem: ${img?.alt || 'fotografia'}`);
+                }
+                el.addEventListener('click', (e) => { e.stopPropagation(); openLightbox(el); });
+                el.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(el); }
                 });
             });
         }
         setupLightboxListeners();
 
-        lightboxClose.addEventListener('click', () => lightboxModal.classList.remove('active'));
+        lightboxClose.addEventListener('click', closeLightbox);
         lightboxModal.addEventListener('click', (e) => {
-            if (e.target !== lightboxImg) lightboxModal.classList.remove('active');
+            if (e.target !== lightboxImg) closeLightbox();
         });
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') lightboxModal.classList.remove('active');
+            if (e.key === 'Escape') closeLightbox();
+            // Trap focus on the only control while the overlay is open.
+            if (e.key === 'Tab' && lightboxModal.classList.contains('active')) {
+                e.preventDefault();
+                lightboxClose.focus();
+            }
         });
 
         // ================= 11. TOAST NOTIFICATION & UNIVERSAL CLIPBOARD =================
