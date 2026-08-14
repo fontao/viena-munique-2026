@@ -755,11 +755,17 @@
             margin-bottom: 0.6rem;
             line-height: 1.4;
         }
-        .popup-btn {
+        /* Selector is `.leaflet-container a.popup-btn` (0,2,1) on purpose: leaflet.css
+           ships `.leaflet-container a { color: #0078A8 }` at (0,1,1), which outranks a
+           bare `.popup-btn` (0,1,0) no matter the source order and paints this button's
+           label dark blue on the blue fill. Same reason for the icon rule below. */
+        .leaflet-container a.popup-btn {
             display: block;
             text-align: center;
             background: var(--accent-blue);
-            color: #fff;
+            /* Dark ink on the bright dark-theme accent (#38bdf8); white would be 2.2:1.
+               Light theme flips it below, where the accent is the deep #0369a1. */
+            color: #04101e;
             font-size: 0.75rem;
             font-weight: 700;
             padding: 0.45rem 0.6rem;
@@ -767,7 +773,9 @@
             text-decoration: none;
             transition: var(--transition-smooth);
         }
-        .popup-btn:hover { opacity: 0.9; }
+        [data-theme="light"] .leaflet-container a.popup-btn { color: #fff; }
+        .leaflet-container a.popup-btn:hover { opacity: 0.9; }
+        .leaflet-container a.popup-btn i { color: inherit; }
 
         /* ===== ITINERARY TABS & TIMELINE ===== */
         .itinerary-section {
@@ -1062,6 +1070,7 @@
         .time-pill.car { background: rgba(52, 211, 153, 0.15); color: var(--accent-emerald); border-color: rgba(52, 211, 153, 0.3); }
         .time-pill.party { background: rgba(251, 113, 133, 0.15); color: var(--accent-rose); border-color: rgba(251, 113, 133, 0.3); }
         .time-pill.oktober { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.3); }
+        .time-pill.food { background: rgba(251, 146, 60, 0.15); color: var(--accent-orange); border-color: rgba(251, 146, 60, 0.3); }
 
         .category-pill {
             font-size: 0.72rem;
@@ -2098,7 +2107,7 @@
                                     <span class="category-pill">Voo TAP TP 1270</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Partida de Lisboa (LIS) ➔ Viena (VIE)</h3>
+                            <h4 class="node-title">Partida de Lisboa (LIS) ➔ Viena (VIE)</h4>
                             <p class="node-text">Encontro no Terminal 1 do Aeroporto Humberto Delgado em Lisboa às 06:15. Voo direto TAP TP 1270 com destino a Viena (3h 30m). Chegada ao meio-dia a Viena.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/lisbon_airport.jpg" alt="Aeroporto de Lisboa">
@@ -2120,7 +2129,7 @@
                                     <span class="category-pill">Transfer Aeroporto ➔ Judengasse 11</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Chegada ao Aeroporto VIE: Escolha do Transfer</h3>
+                            <h4 class="node-title">Chegada ao Aeroporto VIE: Escolha do Transfer</h4>
                             <p class="node-text"><em>⚠️ Nota sobre obras:</em> Desde <strong>7 de setembro de 2026</strong> a S-Bahn Stammstrecke está fechada (até out/2027). O <strong>CAT está suspenso</strong> (substituído por autocarros) e o <strong>S7 só vai até St. Marx</strong>, fora do centro. O Railjet não é afetado. As duas opções viáveis para o grupo:</p>
 
                             <div class="transfer-options-grid">
@@ -2163,7 +2172,7 @@
                                     <span class="category-pill">Check-in</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Central City Apartments (Judengasse 11)</h3>
+                            <h4 class="node-title">Central City Apartments (Judengasse 11)</h4>
                             <p class="node-text">Alojamento no coração histórico de Viena. Apenas 300m a pé da estação <em>Schwedenplatz</em> / <em>Morzinplatz</em> e a 50m dos melhores bares do Bermudadreieck!<br><br>⚠️ <strong>O check-in nestes apartamentos é tipicamente às 15:00.</strong> Pedir <em>early check-in</em> por email com antecedência, ou combinar deixar as malas.</p>
                             <div class="node-actions">
                                 <a href="https://maps.google.com/?q=Judengasse+11+1010+Wien+Austria" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Abrir Judengasse 11</a>
@@ -2181,7 +2190,7 @@
                                     <span class="category-pill">Monumentos a Pé</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Catedral Stephansdom, Graben, Hofburg & Volksgarten</h3>
+                            <h4 class="node-title">Catedral Stephansdom, Graben, Hofburg & Volksgarten</h4>
                             <p class="node-text">Tudo a menos de 500m do apartamento! Subida à <strong>Torre Sul da Stephansdom</strong> (€8, 343 degraus) para a vista 360°, passeio pelas ruas pedonais <em>Graben</em> e <em>Kohlmarkt</em>, complexo do Palácio Imperial dos Habsburgos e jardins do <em>Volksgarten</em>.<br><br>💡 Programa encurtado face ao plano original: com um despertar às 04:45, 4 horas a pé seria demais.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/vienna_stephansdom_1786477232698.jpg" alt="Stephansdom Viena">
@@ -2202,7 +2211,7 @@
                                     <span class="category-pill">Sunset & Pré-Copos</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Pré-Copos no Canal do Danúbio (Donaukanal)</h3>
+                            <h4 class="node-title">Pré-Copos no Canal do Danúbio (Donaukanal)</h4>
                             <p class="node-text">A 300m a pé (3 min) do apartamento. Esplanadas, graffiti street art, areia e cocktails à beira d'água. Bares recomendados: <em>Tel Aviv Beach</em> ou <em>Strandbar Herrmann</em>.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/donaukanal_vienna_1786477802836.jpg" alt="Donaukanal Viena">
@@ -2220,7 +2229,7 @@
                                     <span class="category-pill">Noite Épica</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Bermudadreieck & Clubbing (Volksgarten / FLEX)</h3>
+                            <h4 class="node-title">Bermudadreieck & Clubbing (Volksgarten / FLEX)</h4>
                             <p class="node-text">O "Triângulo das Bermudas" fica literalmente à porta de casa! Rota de bares com imperial austríaca (Ottakringer/Stiegl). Depois, clubbing no <strong>Volksgarten Club</strong> (nos jardins imperiais) ou <strong>FLEX</strong> (a 800m a pé ao longo do canal, Augartenbrücke 1).</p>
                         </div>
                     </div>
@@ -2253,7 +2262,7 @@
                                     <span class="category-pill">Brunch & Café</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Brunch no Haas & Haas & Provar Sachertorte</h3>
+                            <h4 class="node-title">Brunch no Haas & Haas & Provar Sachertorte</h4>
                             <p class="node-text">Acordar sem pressas e tomar um grande brunch no pátio escondido do <em>Haas & Haas</em> (Stephansplatz 4). A seguir, provar a icónica <strong>Sachertorte</strong> no Café Sacher ou na pastelaria imperial <em>Gerstner</em>.<br><br>🎫 Às <strong>12:20 ativar o bilhete de 24h</strong> (€10,20) — cobre Schönbrunn, o Prater e ainda a ida à estação amanhã de manhã.</p>
                         </div>
                     </div>
@@ -2267,7 +2276,7 @@
                                     <span class="category-pill">Palácio Imperial</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Palácio & Jardins de Schönbrunn</h3>
+                            <h4 class="node-title">Palácio & Jardins de Schönbrunn</h4>
                             <p class="node-text">Metro U4 de Schwedenplatz direto até Schönbrunn (~18 min + 5 min a pé até aos portões). Residência de verão dos Habsburgos e de Sissi. Caminhada pelos jardins barrocos até à <strong>Gloriette</strong> para uma vista inesquecível de Viena.<br><br>⚠️ <strong>Entrada com hora marcada — reservar a Grand Tour para as 13:00 em schoenbrunn.at.</strong> As faixas horárias esgotam com semanas de antecedência (~€28-34/pax).</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/schonbrunn_palace_1786477746840.jpg" alt="Schonbrunn">
@@ -2285,7 +2294,7 @@
                                     <span class="category-pill">Parque & Jantar</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Wiener Prater & Jantar de Grupo no Schweizerhaus</h3>
+                            <h4 class="node-title">Wiener Prater & Jantar de Grupo no Schweizerhaus</h4>
                             <p class="node-text">U4 + U1 até Praterstern (~45 min desde Schönbrunn). Entrada livre no parque. Andar na centenária <strong>Roda Gigante Riesenrad</strong> (€14,50). Jantar no lendário <strong>Schweizerhaus</strong> com pernis de porco estaladiços (<em>Stelze</em>) e cerveja Budweiser de pressão — <strong>reservar mesa</strong>.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/wiener_prater_1786477757000.jpg" alt="Wiener Prater">
@@ -2303,7 +2312,7 @@
                                     <span class="category-pill">Rooftop 360°</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Cocktails no Rooftop Das Loft (SO/ Vienna)</h3>
+                            <h4 class="node-title">Cocktails no Rooftop Das Loft (SO/ Vienna)</h4>
                             <p class="node-text">No 18º andar (Praterstraße 1, Leopoldstadt), a 650m a pé (8 min) do alojamento atravessando a ponte Schwedenbrücke. Vista panorâmica espetacular sobre a cidade iluminada e teto de vidro multicolorido.<br><br>👔 <strong>Reservar — e há dress code.</strong></p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/das_loft_vienna.jpg" alt="Das Loft Vienna">
@@ -2320,12 +2329,13 @@
                     <img src="img/ice_train_austria.jpg" alt="Comboio Railjet" class="enlargeable">
                     <div class="day-banner-content">
                         <span class="day-banner-tag">SEX 25 SETEMBRO • DIA 3</span>
-                        <h3 class="day-banner-title">Comboio Railjet Xpress ➔ Augsburg & Levantamento do Carro</h3>
+                        <h3 class="day-banner-title">Comboio Railjet Xpress ➔ Augsburg, Carro & Noite na Cidade Velha</h3>
                         <div class="day-banner-meta">
                             <span><i class="fa-solid fa-bed"></i> Acordar 09:45</span>
                             <span><i class="fa-solid fa-train"></i> 11:28 ➔ 16:29 (5h01)</span>
                             <span><i class="fa-solid fa-car"></i> Enterprise 7 Lugares</span>
                             <span><i class="fa-solid fa-people-group"></i> 7 Amigos Reunidos</span>
+                            <span><i class="fa-solid fa-person-walking"></i> Noite a Pé: Fuggerei & Lechviertel</span>
                         </div>
                     </div>
                 </div>
@@ -2340,7 +2350,7 @@
                                     <span class="category-pill">Check-out & Metro</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Check-out em Viena ➔ Wien Hauptbahnhof</h3>
+                            <h4 class="node-title">Check-out em Viena ➔ Wien Hauptbahnhof</h4>
                             <p class="node-text">Check-out do apartamento na Judengasse às <strong>10:30</strong> <em>(confirmar a hora exata com o anfitrião)</em>. Sair às 10:45 e apanhar o <strong>Metro U1</strong> de Schwedenplatz até <em>Wien Hauptbahnhof</em> — chegada por volta das 11:05, com folga para encontrar a plataforma.</p>
                         </div>
                     </div>
@@ -2354,7 +2364,7 @@
                                     <span class="category-pill">Comboio Railjet Xpress + ICE</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Wien Hauptbahnhof ➔ Augsburg Hauptbahnhof (via München)</h3>
+                            <h4 class="node-title">Wien Hauptbahnhof ➔ Augsburg Hauptbahnhof (via München)</h4>
                             <p class="node-text">Viagem panorâmica a bordo do veloz <strong>ÖBB Railjet Xpress (RJX)</strong> de Wien Hbf até München Hbf (cruzando Linz e Salzburgo com Wi-Fi e restaurante a bordo), com <strong>1 mudança</strong> para a ligação a Augsburg Hbf. Total 5h01. São só as <strong>4 pessoas</strong> que vêm de Viena.</p>
 
                             <div class="callout-box critical">
@@ -2382,7 +2392,7 @@
                                     <span class="category-pill">Enterprise Rent-A-Car</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Levantamento do Carro de 7 Lugares (Aindlinger Str. 14)</h3>
+                            <h4 class="node-title">Levantamento do Carro de 7 Lugares (Aindlinger Str. 14)</h4>
                             <p class="node-text">Táxi da estação de Augsburg direto à agência Enterprise (5,5 km, ~8 min). Chegada por volta das <strong>16:50 — 70 minutos de margem</strong> antes do fecho. São só 4 pessoas neste comboio, por isso um táxi normal chega.</p>
 
                             <div class="callout-box warning">
@@ -2401,23 +2411,102 @@
                         </div>
                     </div>
 
-                    <div class="timeline-node" data-category="festa comida">
+                    <div class="timeline-node" data-category="festa">
                         <div class="node-bullet"></div>
                         <div class="node-card">
                             <div class="node-header">
                                 <div class="node-badges">
-                                    <span class="time-pill party">🔑 17:15 → Noite</span>
+                                    <span class="time-pill party">🔑 17:15 → 17:35</span>
                                     <span class="category-pill">Reunião do Grupo!</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Check-in no Lexapartments & Jantar dos 7 em Augsburg</h3>
-                            <p class="node-text">Check-in às 17:15 no apartamento espaçoso de 101m² no centro histórico de Augsburg (Am Bogen 6). Encontro com os 3 amigos que se juntam na Alemanha — <strong>grupo completo de 7 a partir daqui</strong>. Jantar e brinde inaugural bávaro na Rathausplatz às 18:30.</p>
+                            <h4 class="node-title">Check-in no Lexapartments & Encontro dos 7</h4>
+                            <p class="node-text">Check-in no apartamento de 101m² em Am Bogen 6, na Jakobervorstadt. Encontro com os 3 amigos que se juntam na Alemanha — <strong>grupo completo de 7 a partir daqui</strong>. Largar as malas e sair a pé: não se volta a mexer no carro hoje.</p>
+
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-person-walking"></i>
+                                <div><strong>Tudo o que se segue é a pé.</strong> O apartamento fica a <strong>300 m da Fuggerei</strong> (4 min) e a <strong>550 m da Rathausplatz</strong> (7 min). Augsburg é compacta — o centro histórico inteiro percorre-se em 15 minutos.</div>
+                            </div>
+
+                            <div class="node-actions">
+                                <a href="https://maps.google.com/?q=Am+Bogen+6+86152+Augsburg+Germany" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Lexapartments Augsburg</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🏘️ 17:40 → 18:20</span>
+                                    <span class="category-pill">Fuggerei • €8/pessoa</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Fuggerei — O Bairro Social Mais Antigo do Mundo (1521)</h4>
+                            <p class="node-text">Quatro minutos a pé do apartamento. Jakob Fugger, o banqueiro mais rico da Europa do Renascimento, mandou construir em <strong>1521</strong> um bairro murado para os cidadãos pobres de Augsburg. Continua a funcionar exatamente para o mesmo fim: <strong>67 casas, 142 apartamentos, ~150 residentes</strong>. A renda anual nunca mudou em 500 anos — <strong>0,88 € por ano</strong> (um florim renano), mais três orações diárias pela família fundadora. Entra-se por um portão e é uma cidade minúscula lá dentro: ruas, praças, a igreja de São Marcos.</p>
+
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-clock"></i>
+                                <div><strong>Aberta todos os dias das 9:00 às 20:00</strong> (horário de verão, até 30 de setembro) — por isso é a única visita paga de Augsburg que ainda encaixa depois do check-in. Bilhete <strong>€8</strong> (inclui o museu, o bunker da II Guerra e um apartamento-modelo mobilado). 40 minutos chegam para o essencial.</div>
+                            </div>
+
+                            <div class="callout-box warning">
+                                <i class="fa-solid fa-calendar-xmark"></i>
+                                <div><strong>É hoje ou nunca.</strong> Dia 4 regressam às 20:15, Dia 5 às 19:20, Dia 6 estão na Oktoberfest e Dia 7 saem para Munique às 11:00. A única alternativa é <strong>Dia 7 de manhã, 9:30-10:30</strong>, antes do check-out.</div>
+                            </div>
+
+                            <div class="node-actions">
+                                <a href="https://maps.google.com/?q=Fuggerei+56+86152+Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Fuggerei</a>
+                                <a href="https://www.fugger.de/en/fuggerei/info-for-visitors" target="_blank" class="btn-action-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Horários oficiais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="comida festa">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill food">🍺 18:30 → 20:00</span>
+                                    <span class="category-pill">Jantar & Brinde Inaugural</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Jantar Bávaro na Rathausplatz</h4>
+                            <p class="node-text">Da Fuggerei à Rathausplatz são 7 minutos a pé pelas ruelas do Lechviertel. Primeiro jantar dos 7 juntos, na praça monumental de Elias Holl. Sugestão: <strong>Altstadtgasthaus Bauerntanz</strong> (Bauerntanzgäßchen 1, no beco atrás da Câmara) — a taberna mais antiga da cidade, cozinha suábia-bávara, sexta 11:30-23:00. <strong>Reservar: +49 821 153644</strong> — mesa de 7 à sexta à noite não aparece sozinha.</p>
+
+                            <div class="callout-box warning">
+                                <i class="fa-solid fa-helmet-safety"></i>
+                                <div><strong>Não contem com a Câmara nem com a torre.</strong> O <strong>Rathaus e o Goldener Saal estão fechados para obras</strong> — reabrem a <strong>28 de setembro de 2026</strong>, três dias depois de vocês passarem por lá (e nesse dia estão na Oktoberfest). Só há uma exposição gratuita no átrio, 10:00-17:30. O <strong>Perlachturm está fechado desde 2017</strong> e só reabre no outono de 2027 — a vista panorâmica que os guias antigos prometem não existe.</div>
+                            </div>
+
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/augsburg_oldtown.jpg" alt="Augsburg Rathausplatz">
                                 <div class="timeline-img-overlay"><span>Centro Histórico de Augsburg (Rathausplatz)</span><i class="fa-solid fa-expand"></i></div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura festa">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🌙 20:00 → 21:15</span>
+                                    <span class="category-pill">Passeio Noturno • Grátis</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Lechviertel "Pequena Veneza" & Maximilianstraße Iluminada</h4>
+                            <p class="node-text">O sol põe-se às ~19:05, portanto isto faz-se com a cidade já iluminada — e é a melhor hora para o fazer. Circuito curto e circular, tudo em ruas de pedra: <strong>Rathausplatz</strong> com o Augustusbrunnen ➔ <strong>Maximilianstraße</strong>, a avenida renascentista com o <em>Merkurbrunnen</em> e o <em>Herkulesbrunnen</em> ➔ regresso pelo <strong>Lechviertel</strong>, o antigo bairro dos artesãos cortado por canais estreitos a que os locais chamam "Pequena Veneza", passando pela <strong>Augsburger Puppenkiste</strong>. Acaba a 5 minutos do apartamento.</p>
+
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-landmark-flag"></i>
+                                <div><strong>Isto é Património Mundial da UNESCO.</strong> O <em>Sistema de Gestão da Água de Augsburg</em> foi classificado em 2019: 22 monumentos e 199 km de canais que fizeram a riqueza da cidade. As três fontes da Maximilianstraße e os canais do Lechviertel fazem parte da classificação — não é só bonito, é o motivo pelo qual Augsburg existe.</div>
+                            </div>
+
                             <div class="node-actions">
-                                <a href="https://maps.google.com/?q=Am+Bogen+6+86152+Augsburg+Germany" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Lexapartments Augsburg</a>
+                                <a href="https://maps.google.com/?q=Maximilianstrasse+Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Maximilianstraße</a>
+                                <a href="https://maps.google.com/?q=Lechviertel+Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Lechviertel</a>
                             </div>
                         </div>
                     </div>
@@ -2451,7 +2540,7 @@
                                     <span class="category-pill">Condução Cénica</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Augsburg ➔ Castelo de Neuschwanstein (Füssen)</h3>
+                            <h4 class="node-title">Augsburg ➔ Castelo de Neuschwanstein (Füssen)</h4>
                             <p class="node-text"><strong>113 km pela estrada federal B17, ~1h35</strong> de condução cruzando aldeias alpinas. Paragem nos parques de estacionamento oficiais de Hohenschwangau aos pés do castelo.<br><br>💤 <strong>Único dia da semana em que se acorda antes das 10:00</strong> — 09:30, para o castelo caber no dia com margem.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/hohenschwangau.jpg" alt="Hohenschwangau e Alpsee">
@@ -2469,7 +2558,7 @@
                                     <span class="category-pill">Castelo de Conto de Fadas</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Castelo de Neuschwanstein & Ponte Marienbrücke</h3>
+                            <h4 class="node-title">Castelo de Neuschwanstein & Ponte Marienbrücke</h4>
                             <p class="node-text"><strong>12:00</strong> levantamento dos bilhetes no Ticket Center e subida ao castelo. <strong>13:00</strong> visita guiada (~35 min) ao castelo de conto de fadas do Rei Ludwig II que inspirou a Disney. A seguir, a <strong>Ponte Marienbrücke</strong> suspensa sobre a garganta do desfiladeiro para a foto inesquecível.</p>
 
                             <div class="callout-box critical">
@@ -2498,7 +2587,7 @@
                                     <span class="category-pill">Lago Alpino Turquesa</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Lago Eibsee aos pés da Zugspitze (2.962m)</h3>
+                            <h4 class="node-title">Lago Eibsee aos pés da Zugspitze (2.962m)</h4>
                             <p class="node-text"><strong>15:00-16:15 condução</strong>: ~63 km pela <strong>B179 Fernpass</strong>, via Reutte e Ehrwald — <strong>~1h15</strong>, é estrada de montanha. <em>(Alternativa 100% alemã pela B23 via Oberammergau: ~95 km, ~1h30.)</em><br><br>Lago de águas cristalinas aos pés da montanha mais alta da Alemanha. Passeio pelas margens, fotos com reflexos dos Alpes e cerveja na esplanada.</p>
 
                             <div class="callout-box info">
@@ -2521,7 +2610,7 @@
                                     <span class="category-pill">Aldeia dos Frescos & Abadia</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Aldeia Histórica de Oberammergau & Abadia de Ettal</h3>
+                            <h4 class="node-title">Aldeia Histórica de Oberammergau & Abadia de Ettal</h4>
                             <p class="node-text">No trajeto de regresso pela B23 (~25 km do Eibsee). Paragem de fotografia na famosa vila alpina célebre pelas fachadas pintadas (<em>Lüftlmalerei</em>) com contos tradicionais, e espreitar a imponente Abadia barroca de Ettal. <strong>Ainda com luz</strong> — o sol põe-se por volta das 19:05.<br><br>🚗 <strong>18:45-20:15 regresso a Augsburg</strong> (~110 km, ~1h30). Jantar às 20:30.</p>
 
                             <div class="callout-box info">
@@ -2563,7 +2652,7 @@
                                     <span class="category-pill">Viagem de Carro</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Augsburg ➔ Rothenburg ob der Tauber</h3>
+                            <h4 class="node-title">Augsburg ➔ Rothenburg ob der Tauber</h4>
                             <p class="node-text">Duas rotas possíveis — <strong>escolher uma</strong>:</p>
 
                             <div class="callout-box info">
@@ -2586,7 +2675,7 @@
                                     <span class="category-pill">Vila Medieval & Gastronomia</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Muralhas Históricas, Praça Plönlein & Schneeballen</h3>
+                            <h4 class="node-title">Muralhas Históricas, Praça Plönlein & Schneeballen</h4>
                             <p class="node-text">Caminhada ao longo das muralhas do século XIV, casas de enxaimel coloridas, almoço em taberna tradicional (<em>Fränkische Bratwurst</em>) e prova dos famosos doces <strong>Schneeballen</strong>.<br><br>🚗 <strong>17:30-19:20 regresso a Augsburg.</strong> Jantar e <strong>deitar cedo</strong> — amanhã é o grande dia.</p>
                             
                             <div class="callout-box info">
@@ -2630,7 +2719,7 @@
                                     <span class="category-pill">Comboio Regional RE</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Augsburg Hbf ➔ München Hbf (2x Bayern-Ticket)</h3>
+                            <h4 class="node-title">Augsburg Hbf ➔ München Hbf (2x Bayern-Ticket)</h4>
                             <p class="node-text">Viagem rápida de 38 min. Como cada Bayern-Ticket cobre no máximo 5 passageiros, compramos <strong>2 bilhetes</strong> (1 de 5 pax €74 + 1 de 2 pax €44 = <strong>€118 total grupo</strong>), com transporte ilimitado o dia inteiro em comboios regionais e em toda a rede MVV de Munique. Carro em segurança no apartamento.</p>
 
                             <div class="callout-box info">
@@ -2649,7 +2738,7 @@
                                     <span class="category-pill">Centro Histórico & Miradouro</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Marienplatz, Catedral Frauenkirche & Peterskirche</h3>
+                            <h4 class="node-title">Marienplatz, Catedral Frauenkirche & Peterskirche</h4>
                             <p class="node-text">A 10 min a pé da Hauptbahnhof. <strong>Marienplatz</strong> com a sua câmara neo-gótica e o Glockenspiel. Caminhada pelas ruas históricas até às icónicas torres com cúpulas da <strong>Frauenkirche</strong> e vista panorâmica a partir da igreja de São Pedro (<em>Alter Peter</em>).</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/marienplatz_munich_1786477812668.jpg" alt="Marienplatz e Centro de Munique">
@@ -2667,7 +2756,7 @@
                                     <span class="category-pill">Almoço Bávaro & Cervejaria 1589</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Almoço no Viktualienmarkt & Cervejaria Hofbräuhaus</h3>
+                            <h4 class="node-title">Almoço no Viktualienmarkt & Cervejaria Hofbräuhaus</h4>
                             <p class="node-text">Almoço no tradicional <strong>Viktualienmarkt</strong> com <em>Weißwurst</em>, mostarda doce, pretzels gigantes e queijo <em>Obatzda</em>. Paragem a 4 min na lendária cervejaria histórica <strong>Hofbräuhaus am Platzl</strong> (fundada em 1589) para fotos do salão abobadado.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/viktualienmarkt.jpg" alt="Viktualienmarkt">
@@ -2685,7 +2774,7 @@
                                     <span class="category-pill">Surf no Rio & Jardins</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Eisbachwelle (Surfistas no Rio) & Hofgarten</h3>
+                            <h4 class="node-title">Eisbachwelle (Surfistas no Rio) & Hofgarten</h4>
                             <p class="node-text">Uma das atrações mais espetaculares de Munique! Surfistas a apanhar a onda contínua de água doce no canal do rio Eisbach, mesmo à entrada do <em>Englischer Garten</em>, e passeio pelos jardins do <strong>Hofgarten</strong>.<br><br>🚇 <strong>16:00-16:30</strong>: S-Bahn até <strong>Hackerbrücke</strong>, a paragem da Wiesn (incluída no Bayern-Ticket).</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/eisbachwelle_munich.jpg" alt="Eisbachwelle Surf Urbano">
@@ -2703,7 +2792,7 @@
                                     <span class="category-pill">Festa Épica!</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">OKTOBERFEST 2026 na Theresienwiese!</h3>
+                            <h4 class="node-title">OKTOBERFEST 2026 na Theresienwiese!</h4>
                             <p class="node-text">O ponto alto da viagem, com <strong>mesa reservada</strong>. Tendas lendárias: <strong>Hacker-Pschorr</strong> (Himmel der Bayern), <strong>Augustiner</strong> e <strong>Hofbräu</strong>. Cerveja de litro <em>Maß</em> (€14,80-15,90), frango assado <em>Hendl</em> (€16-19), cantoria bávara e festa rija!<br><br>⏰ Última cerveja e última música às <strong>22:30</strong>. As tendas fecham às <strong>23:30</strong>.</p>
 
                             <div class="callout-box critical">
@@ -2732,7 +2821,7 @@
                                     <span class="category-pill">Comboio de Regresso</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Comboio RE: München Hbf ➔ Augsburg Hbf</h3>
+                            <h4 class="node-title">Comboio RE: München Hbf ➔ Augsburg Hbf</h4>
                             <p class="node-text">Regresso tranquilo no comboio regional incluído no Bayern-Ticket (alternativas às 23:36 ou 00:04 se nos atrasarmos). Descanso merecido em Augsburg.</p>
                         </div>
                     </div>
@@ -2766,7 +2855,7 @@
                                     <span class="category-pill">Palácio Real & Jardins</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Check-Out em Augsburg ➔ Palácio e Jardins de Nymphenburg</h3>
+                            <h4 class="node-title">Check-Out em Augsburg ➔ Palácio e Jardins de Nymphenburg</h4>
                             <p class="node-text">Check-out do apartamento em Augsburg às <strong>11:00</strong> com as malas já no carro <em>(confirmar a hora de check-out)</em>. Condução de ~1h (62 km) pela A8 até ao grandioso <strong>Palácio Nymphenburg</strong>, residência barroca de verão da realeza bávara. Caminhada ao longo do canal central com cisnes e pelos jardins barrocos.<br><br>🎟️ Palácio €8/pax · bilhete combinado €12-14/pax.<br><br>💤 <strong>Acordar às 10:00</strong> — depois da noite de Oktoberfest, vai fazer falta.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/nymphenburg_palace.jpg" alt="Palácio Nymphenburg">
@@ -2784,7 +2873,7 @@
                                     <span class="category-pill">Entrada Grátis</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">BMW Welt & Parque Olímpico (Olympiapark 1972)</h3>
+                            <h4 class="node-title">BMW Welt & Parque Olímpico (Olympiapark 1972)</h4>
                             <p class="node-text">A apenas <strong>10 min de Nymphenburg</strong> — é por isso que saiu do Dia 6, onde ficava a 45 min do centro e não cabia. Pavilhão futurista com superdesportivos BMW M, Rolls-Royce, MINI e motos de alta tecnologia (<strong>entrada gratuita</strong>). Caminhada pela passarela para ver a icónica cobertura em tenda do Parque Olímpico de 1972.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/bmw_welt_1786477793413.jpg" alt="BMW Welt e Olympiapark">
@@ -2802,7 +2891,7 @@
                                     <span class="category-pill">Estádio Futurista & Megastore</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Allianz Arena (Visita Exterior & FC Bayern Megastore)</h3>
+                            <h4 class="node-title">Allianz Arena (Visita Exterior & FC Bayern Megastore)</h4>
                             <p class="node-text">Condução de ~20 min até ao norte de Munique (Fröttmaning). Acesso livre e gratuito à gigantesca esplanada exterior para admirar as famosas almofadas de ETFE do estádio e tirar fotos de grupo. Visita à <strong>FC Bayern Megastore</strong> oficial para lembranças.</p>
 
                             <div class="callout-box info">
@@ -2825,7 +2914,7 @@
                                     <span class="category-pill">Entrega do Carro</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Allianz Arena ➔ Aeroporto MUC & Devolução Enterprise</h3>
+                            <h4 class="node-title">Allianz Arena ➔ Aeroporto MUC & Devolução Enterprise</h4>
                             <p class="node-text">Apenas ~25 min de condução direta pela autoestrada A92 (28 km). <strong>Reabastecer o depósito</strong> na bomba junto ao aeroporto e fazer a devolução no <em>Mietwagenzentrum</em> (Terminal 2). No Terminal 2 às <strong>17:15</strong> — folga confortável para um voo às 20:00.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/munich_airport.jpg" alt="Aeroporto de Munique">
@@ -2843,7 +2932,7 @@
                                     <span class="category-pill">Voo TAP Air Portugal</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Voo TAP TP 555: MUC ➔ LIS</h3>
+                            <h4 class="node-title">Voo TAP TP 555: MUC ➔ LIS</h4>
                             <p class="node-text">Embarque às 19:20. Voo direto de regresso a Lisboa (2h 25m). Chegada a Lisboa às 22:25 locais. Fim de uma EuroTrip lendária!</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/lisbon_airport.jpg" alt="Regresso a Lisboa">
@@ -3509,6 +3598,8 @@
 
             // Transit / Augsburg
             { name: "Augsburg (Base Alemanha & Rathausplatz)", city: "augsburg", iconType: "hotel", coords: [48.3721, 10.8955], desc: "Apartamento base dos 7 amigos (Am Bogen 6) e centro histórico medieval.", img: "img/augsburg_oldtown.jpg" },
+            { name: "Fuggerei (Augsburg)", city: "augsburg", iconType: "monument", coords: [48.3696, 10.9037], desc: "Bairro social mais antigo do mundo, fundado por Jakob Fugger em 1521. Renda de 0,88 €/ano desde então. Aberto 9:00-20:00, €8. A 4 min a pé do apartamento — visita da noite do Dia 3.", img: "img/augsburg_oldtown.jpg" },
+            { name: "Lechviertel & Maximilianstraße (Augsburg)", city: "augsburg", iconType: "monument", coords: [48.3660, 10.8975], desc: "Bairro dos artesãos com canais (\"Pequena Veneza\") e a avenida renascentista com as fontes UNESCO. Passeio noturno grátis do Dia 3.", img: "img/augsburg_oldtown.jpg" },
 
             // Bavarian Alps & Lakes
             { name: "Castelo de Hohenschwangau & Lago Alpsee", city: "alps", iconType: "castle", coords: [47.5558, 10.7360], desc: "Castelo de verão da família real bávara e lago de montanha Alpsee.", img: "img/hohenschwangau.jpg" },

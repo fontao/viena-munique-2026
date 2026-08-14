@@ -95,6 +95,7 @@
 | **Bilhete 24h Wien Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às ~11:00 |
 | **Torre Sul do Stephansdom** | 4 | €8/pax = €32 | 343 degraus |
 | **Riesenrad** (Prater) | 4 | €14,50/pax = €58 | |
+| **Fuggerei** (Dia 3, noite) | 7 | €8/pax = **€56** | Aberta até às 20:00; bilheteira no local |
 | **2× Bayern-Ticket** (Dia 6) | 7 | €74 (5 pax) + €44 (2 pax) = **€118** | |
 | **Palácio de Nymphenburg** | 7 | €8 (palácio) / €12–14 (combi) | |
 | **Allianz Arena** — esplanada + Megastore | 7 | **grátis** | Museu/tour ~€25 se quiserem entrar |
@@ -177,7 +178,7 @@ fechada (até outubro de 2027):
 
 ---
 
-### 🚆 🇩🇪 Dia 3: Sexta-feira, 25 de Setembro — Comboio para Augsburg & Levantamento do Carro
+### 🚆 🇩🇪 Dia 3: Sexta-feira, 25 de Setembro — Comboio para Augsburg, Carro & Noite na Cidade Velha
 **⏰ Acordar 09:45 · Este dia tem uma janela apertada. Ler o alerta abaixo.**
 
 > ### 🚨 Porque é que o comboio é às 11:28 e não às 12:50
@@ -203,9 +204,43 @@ fechada (até outubro de 2027):
   táxi normal chega.
   - ⚠️ **Reservar o táxi por telefone na véspera.** Não confiar na praça de táxis.
   - ✅ Chegada ~16:50, **70 minutos de margem** antes das 18:00.
-- **17:15 – 17:45**: Check-in no **Lexapartments Zentral 101m²** (*Am Bogen 6, Augsburg*) e
+- **17:15 – 17:35**: Check-in no **Lexapartments Zentral 101m²** (*Am Bogen 6, Augsburg*) e
   reunião com os 3 amigos vindos da Alemanha. **Grupo completo de 7 a partir daqui.**
-- **18:30 – Noite**: Jantar inaugural bávaro na Rathausplatz.
+  Largar as malas e sair — o resto da noite é **tudo a pé** e o carro não se volta a usar hoje.
+
+#### Noite em Augsburg — tudo à distância de caminhada
+
+O apartamento fica a **300 m da Fuggerei** (4 min) e a **550 m da Rathausplatz** (7 min).
+O centro histórico inteiro atravessa-se em 15 minutos.
+
+- **17:40 – 18:20**: **Fuggerei** — *Fuggerei 56*, **€8/pessoa**, aberta **todos os dias das
+  9:00 às 20:00** (horário de verão, até 30 de setembro).
+  O bairro social mais antigo do mundo ainda em funcionamento: Jakob Fugger mandou-o construir
+  em **1521** para os cidadãos pobres de Augsburg e continua a servir exatamente para isso —
+  **67 casas, 142 apartamentos, ~150 residentes**. A renda anual nunca mudou em 500 anos:
+  **0,88 €/ano** (um florim renano) mais três orações diárias pela família fundadora. O bilhete
+  inclui o museu, o bunker da II Guerra e um apartamento-modelo mobilado. 40 min chegam.
+  - 🎯 **É hoje ou nunca:** Dia 4 regressam às 20:15, Dia 5 às 19:20, Dia 6 estão na
+    Oktoberfest e Dia 7 saem às 11:00. Única alternativa: **Dia 7, 9:30–10:30**, antes do
+    check-out.
+- **18:30 – 20:00**: **Jantar bávaro na Rathausplatz** (7 min a pé pelas ruelas do Lechviertel).
+  Sugestão: **Altstadtgasthaus Bauerntanz**, *Bauerntanzgäßchen 1*, no beco atrás da Câmara —
+  a taberna mais antiga da cidade, cozinha suábia-bávara, sexta 11:30–23:00.
+  **Reservar: +49 821 153644** (mesa de 7 à sexta à noite não aparece sozinha).
+  - ⚠️ **Não contar com a Câmara nem com a torre.** O **Rathaus e o Goldener Saal estão
+    fechados para obras** e só reabrem a **28 de setembro de 2026** — três dias depois, e
+    nesse dia estão na Oktoberfest. Há apenas uma exposição gratuita no átrio (10:00–17:30).
+    O **Perlachturm está fechado desde 2017** e só reabre no **outono de 2027**: a vista
+    panorâmica que os guias antigos prometem não existe.
+- **20:00 – 21:15**: **Passeio noturno, grátis.** O sol põe-se às ~19:05, portanto a cidade já
+  está iluminada. Circuito curto e circular: **Rathausplatz** (Augustusbrunnen) ➔
+  **Maximilianstraße**, a avenida renascentista com o *Merkurbrunnen* e o *Herkulesbrunnen* ➔
+  regresso pelo **Lechviertel**, o antigo bairro dos artesãos cortado por canais estreitos a
+  que chamam "Pequena Veneza", passando pela **Augsburger Puppenkiste**. Acaba a 5 min do
+  apartamento.
+  - 🏛️ Isto é **Património Mundial da UNESCO**: o *Sistema de Gestão da Água de Augsburg* foi
+    classificado em 2019 — 22 monumentos e 199 km de canais. As três fontes da Maximilianstraße
+    e os canais do Lechviertel fazem parte da classificação.
 
 ---
 
