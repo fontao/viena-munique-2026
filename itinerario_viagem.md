@@ -3,7 +3,7 @@
 **Datas:** 23 a 29 de Setembro de 2026 (7 Dias / 6 Noites)
 **Viajantes:** 7 Amigos — **4 partem de Lisboa** (Viena, dias 1 a 3) + **3 juntam-se em Augsburg** (dia 3)
 **Voos Oficiais:** TAP Air Portugal (TP 1270 LIS ➔ VIE / TP 555 MUC ➔ LIS)
-**Revisto em:** 14 de agosto de 2026 — faltam ~6 semanas
+**Revisto em:** 14 de agosto de 2026 (2.ª revisão — preços e horários verificados um a um) — faltam ~6 semanas
 
 > ⚠️ **Atenção ao número de pessoas em cada bilhete.** Tudo o que é em Viena (transfers,
 > comboio para Augsburg, Schönbrunn, Riesenrad, Stephansdom) é para **4 pessoas**. Só a
@@ -18,7 +18,7 @@
 | 🔴 **1** | **Neuschwanstein** (7 pax) | A janela de reserva são 2 meses e **já está aberta**. É um sábado em plena Oktoberfest — esgota. | [shop.ticket-center-hohenschwangau.de](https://shop.ticket-center-hohenschwangau.de) |
 | 🔴 **2** | **Mesa na Oktoberfest** (mesa de 8–10) | 10 das 14 grandes tendas ainda têm disponibilidade, mas desaparece a cada semana. | Site próprio de cada tenda |
 | 🔴 **3** | **Comboio ÖBB Wien ➔ Augsburg** (4 pax) | Tarifa *Sparschiene* sobe todos os dias à medida que os escalões baratos esgotam. | [oebb.at](https://www.oebb.at) / app ÖBB |
-| 🔴 **4** | **Schönbrunn** (4 pax) | Entrada com hora marcada; as faixas horárias esgotam com semanas de antecedência. | [schoenbrunn.at](https://www.schoenbrunn.at) |
+| 🔴 **4** | **Schönbrunn** (4 pax) | Hora marcada e as faixas esgotam com semanas de antecedência. **Atenção: mudou de nome e subiu para €42/pax em 2026.** | [imperialtickets.com](https://www.imperialtickets.com) |
 
 ---
 
@@ -64,9 +64,16 @@
   **€39,90 a €59,90/pessoa** — e comprar hoje, porque sobe.
 - **Adicionar reserva de lugares** (€3–5/pessoa). É sexta à tarde num RJX: enche.
 
-#### 4. Palácio de Schönbrunn — 4 pax — **~€112 a €136**
-- Grand Tour ~€28–34/pessoa, **com hora marcada**. Reservar para as **13:00** de quinta 24.
-- Comprar em [schoenbrunn.at](https://www.schoenbrunn.at) — direto, sem intermediários.
+#### 4. Palácio de Schönbrunn — 4 pax — **€168** (ou €120)
+⚠️ **Schönbrunn mudou os bilhetes em 2026 e ficou mais caro do que o plano previa.**
+- A antiga "Grand Tour" já não existe. Agora é o **Schlossticket, €42/pessoa** — toda a
+  Beletage, ~75 min, audioguia incluído. **4 pax = €168.**
+- A versão curta chama-se **Staatsappartements, €30/pessoa** — 40 min, menos salas.
+  **4 pax = €120.** Se o objetivo é ver Sissi e seguir para o Prater, esta chega.
+- **Com hora marcada.** Reservar para as **13:00** de quinta 24.
+- Setembro: **08:30–17:30**, última entrada 45 min antes do fecho.
+- Portal oficial: **[imperialtickets.com](https://www.imperialtickets.com)** (é a plataforma
+  da própria Schloss Schönbrunn — o site schoenbrunn.at remete para lá).
 
 ---
 
@@ -93,12 +100,13 @@
 | **Transfer VIE ➔ cidade** — Railjet + U1 | 4 | €5,50/pax = **€22** | Recomendado |
 | … ou **autocarro VAL 2** (porta a porta) | 4 | €10,50/pax = **€42** | Sem transbordos, útil com malas |
 | **Bilhete 24h Wien Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às ~11:00 |
-| **Torre Sul do Stephansdom** | 4 | €8/pax = €32 | 343 degraus |
+| **Torre Sul do Stephansdom** | 4 | €6,50/pax = €26 | 343 degraus |
 | **Riesenrad** (Prater) | 4 | €14,50/pax = €58 | |
 | **Fuggerei** (Dia 3, noite) | 7 | €8/pax = **€56** | Aberta até às 20:00; bilheteira no local |
 | **2× Bayern-Ticket** (Dia 6) | 7 | €74 (5 pax) + €44 (2 pax) = **€118** | |
-| **Palácio de Nymphenburg** | 7 | €8 (palácio) / €12–14 (combi) | |
+| **Palácio de Nymphenburg** | 7 | Parque **grátis** · palácio €8/pax · *Gesamtkarte* €15 | Ver Dia 7: só há 75 min |
 | **Allianz Arena** — esplanada + Megastore | 7 | **grátis** | Museu/tour ~€25 se quiserem entrar |
+| **BMW Welt** | 7 | **grátis** | Museu BMW à parte: €17/pax, ter-dom 10:00–18:00 |
 
 **Bayern-Ticket — o que não estava escrito:** válido **a partir das 09:00** de segunda a
 sexta e até às **03:00** do dia seguinte, 2.ª classe. Cobre o RE Augsburg–Munique **e** toda
@@ -120,6 +128,26 @@ fechada (até outubro de 2027):
 - **S7: só vai até St. Marx**, fora do centro, obrigando a transbordo para tram/autocarro.
 - **Railjet: não é afetado.** É a única ligação ferroviária fiável ao centro — e é a que
   este roteiro usa.
+
+---
+
+## 🔄 Trocar dias? O que se mexeu e o que fica
+
+**Mexeu-se dentro dos dias, não entre dias.** A ordem dos 7 dias está certa e trocá-la piora
+o roteiro. As razões, para não voltar a discutir:
+
+| Troca considerada | Veredicto | Porquê |
+|---|---|---|
+| **Dia 4 ⇄ Dia 5** (Alpes ⇄ Rothenburg) | ❌ Não | O dia dos Alpes é o mais pesado (285 km, acaba às 20:30). Pô-lo na véspera da Oktoberfest era trocar o dia leve pelo dia duro antes do grande dia. E ao domingo os camiões estão proibidos nas autoestradas alemãs — o dia mais rodoviário (Rothenburg) fica melhor ao domingo. O "castigo" de domingo em Rothenburg é quase nulo: abre tudo o que interessa. |
+| **Neuschwanstein noutro dia** | ❌ Não | O bilhete é de hora marcada para sábado 26 e deve ser comprado esta semana. Mudar de dia é perder o bilhete. |
+| **Oktoberfest noutro dia** | ❌ Não | Segunda-feira é o dia mais fácil do festival e a mesa reserva-se para essa data. |
+| **Dias 1 e 2 (Viena)** | ❌ Não | Fixos pelos voos e pela hora marcada de Schönbrunn. |
+| **BMW Welt: Dia 6 ➔ Dia 7** | ✅ Já feito | Fica a 45 min do centro e não cabia no dia da Oktoberfest; no Dia 7 fica a 10 min de Nymphenburg, no caminho para o aeroporto. |
+| **Noite do Dia 3 em Augsburg** | ✅ Já feito | O dia acabava no check-in. Ganhou Fuggerei, jantar e passeio noturno — tudo a pé. |
+| **Neuschwanstein 13:00 ➔ 13:30 (Dia 4)** | ✅ Feito agora | Elimina o último despertar às 09:30. Toda a semana passa a acordar às 10:00. |
+
+**Ordem geográfica do Dia 7** (Nymphenburg ➔ BMW Welt ➔ Allianz Arena ➔ MUC) já é a ótima:
+é uma linha de oeste para nordeste que acaba no aeroporto, sem retrocessos.
 
 ---
 
@@ -180,6 +208,8 @@ fechada (até outubro de 2027):
 
 ### 🚆 🇩🇪 Dia 3: Sexta-feira, 25 de Setembro — Comboio para Augsburg, Carro & Noite na Cidade Velha
 **⏰ Acordar 09:45 · Este dia tem uma janela apertada. Ler o alerta abaixo.**
+*São os únicos 15 minutos a menos da semana, e são de propósito: o bilhete Sparschiene está
+preso àquele comboio e não se reembolsa. Fazer as malas na véspera resolve o resto.*
 
 > ### 🚨 Porque é que o comboio é às 11:28 e não às 12:50
 > O plano original dizia "12:50 ➔ 17:35". **Esse comboio não existe.** As ligações reais
@@ -245,27 +275,38 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 ---
 
 ### 🏔️ 🇩🇪 Dia 4: Sábado, 26 de Setembro — Alpes Bávaros, Lago Eibsee & Oberammergau
-**⏰ Acordar 09:30 — o único compromisso da semana, para o castelo caber no dia.**
+**⏰ Acordar 10:00 — já não é preciso madrugar. Ver a nota no fim do dia.**
 
-- **10:15 – 12:00**: Condução panorâmica pela **B17** de Augsburg até Hohenschwangau
+- **10:30 – 12:05**: Condução panorâmica pela **B17** de Augsburg até Hohenschwangau
   (**113 km, ~1h35**).
-- **12:00 – 13:00**: Levantamento dos bilhetes no **Ticket Center** e subida ao castelo
-  (shuttle 10 min, ou 40 min a pé).
-- **13:00 – 14:45**: **Castelo de Neuschwanstein** — visita guiada de ~35 min — e travessia
+- **12:05 – 13:30**: Levantamento dos bilhetes no **Ticket Center** e subida ao castelo
+  (shuttle 10 min, ou 40 min a pé). **85 minutos de folga.**
+  - ⏰ O **Ticket Center fecha às 16:00** (o castelo visita-se das 9:00 às 18:00, de 28 mar a
+    15 out). Mesmo com o bilhete comprado online, o levantamento é obrigatório e faz-se lá
+    em baixo — não se entra no castelo sem passar por lá.
+- **13:30 – 15:15**: **Castelo de Neuschwanstein** — visita guiada de ~35 min — e travessia
   da **Ponte Marienbrücke** suspensa sobre a garganta do desfiladeiro.
   - ⚠️ **Confirmar o estado da Marienbrücke em hohenschwangau.de na véspera.** Fecha por
     mau tempo ou obras, sem aviso.
-- **15:00 – 16:15**: Condução até ao **Lago Eibsee** pela **B179 Fernpass**, via Reutte e
+- **15:15 – 16:30**: Condução até ao **Lago Eibsee** pela **B179 Fernpass**, via Reutte e
   Ehrwald (~63 km, **~1h15** — estrada de montanha). Alternativa 100% alemã pela B23 via
   Oberammergau: ~95 km, ~1h30.
-- **16:15 – 17:45**: Volta pelas margens do Eibsee aos pés da **Zugspitze** (2.962m, ponto
+- **16:30 – 17:45**: Volta pelas margens do Eibsee aos pés da **Zugspitze** (2.962m, ponto
   mais alto da Alemanha) e cerveja na esplanada.
-- **18:00 – 18:45**: **Aldeia de Oberammergau** — fachadas pintadas com frescos tradicionais
-  (*Lüftlmalerei*) e Abadia barroca de Ettal. Paragem de fotografia, ainda com luz.
-- **18:45 – 20:15**: Regresso a Augsburg (~110 km, **~1h30**). Jantar às 20:30.
+- **18:15 – 19:00**: **Aldeia de Oberammergau** — fachadas pintadas com frescos tradicionais
+  (*Lüftlmalerei*) e Abadia barroca de Ettal. Paragem de fotografia, ainda com luz (o sol
+  põe-se às ~19:05).
+- **19:00 – 20:30**: Regresso a Augsburg (~110 km, **~1h30**). Jantar às 20:45.
+  - ⚠️ **Reservar o jantar de sábado de manhã, antes de sair.** Sábado à noite em plena época
+    de Oktoberfest, um grupo de 7 sem mesa não se senta em lado nenhum decente.
 
-> **Se preferirem acordar às 10:00 também neste dia:** marcar Neuschwanstein para as **14:00**
-> e **cortar Oberammergau** — chegariam lá já sem luz para ver os frescos.
+> **Porque é que este dia mudou.** A versão anterior marcava o castelo para as 13:00 e obrigava
+> a acordar às 09:30 — era o único dia madrugador da semana. Marcando a visita para as **13:30**,
+> o dia inteiro desliza 30 minutos, continua a caber todo (Oberammergau ainda com luz) e o
+> despertar volta às 10:00. O único custo é jantar 15 minutos mais tarde.
+>
+> **Se preferirem chegar mais cedo a casa:** voltar à versão das 13:00 com despertar às 09:30 —
+> tudo acontece meia hora antes e jantam às 20:30.
 
 ---
 
@@ -281,9 +322,21 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 - **12:50 – 17:30**: Visita à jóia medieval **Rothenburg ob der Tauber**: caminhada pelas
   muralhas do século XIV, fotografia na célebre praça **Plönlein**, almoço em taberna
   tradicional (*Fränkische Bratwurst*) e prova dos doces típicos **Schneeballen**.
-  - *ℹ️ Nota de Domingo (Sonntagsruhe):* O comércio comum fecha ao domingo, mas todos os
-    monumentos, muralhas, tabernas e lojas turísticas de Rothenburg funcionam normalmente.
+  - *ℹ️ Nota de Domingo (Sonntagsruhe):* O comércio comum fecha ao domingo, mas em Rothenburg
+    isso quase não se nota — monumentos, museus, muralhas, tabernas, pastelarias de
+    Schneeballen e lojas turísticas abrem normalmente, incluindo a **Käthe Wohlfahrt**
+    (aldeia de Natal permanente, 10:00–17:00/18:00).
+  - *🚚 Bónus de domingo:* os camiões estão proibidos nas autoestradas alemãs ao domingo. A A8
+    e a A7 andam muito melhor — é o melhor dia da semana para o trajeto mais rodoviário de
+    todos, e uma das razões para **não** trocar este dia com o Dia 4.
 - **17:30 – 19:20**: Regresso a Augsburg. Jantar e **deitar cedo** — o Dia 6 é o grande dia.
+
+> **Opção: ficar para o Vigia Noturno (Nachtwächter).** A melhor coisa de Rothenburg não
+> acontece de dia — é a ronda do vigia noturno, de lanterna e alabarda, pelas ruas às escuras.
+> **Em inglês, todos os dias às 20:00**, de abril a dezembro, partida do chafariz da Marktplatz
+> (~1h, ~€10, sem reserva — basta aparecer). Implica regressar a Augsburg por volta das
+> **22:50**. Como no dia seguinte só é preciso estar em Munique às 17:00 e se acorda às 10:00,
+> dá perfeitamente. É uma escolha, não um risco.
 
 ---
 
@@ -295,8 +348,11 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   **2× Bayern-Ticket** (válidos a partir das 09:00).
 - **12:00 – 13:15**: **Marienplatz**, Neues Rathaus, Catedral **Frauenkirche** e miradouro da
   torre de São Pedro (*Alter Peter*).
-  - 💡 O **Glockenspiel** toca às 11:00, 12:00 e 17:00. Para apanhar o das 12:00, apanhar
-    antes o comboio das **10:17**.
+  - 💡 O **Glockenspiel** toca às 11:00, 12:00 e 17:00 — e o das 17:00 apanha-vos já na tenda.
+    Com este comboio chegam à Marienplatz por volta das **12:05** e apanham o fim do das
+    12:00. Para o ver desde o início era preciso o comboio das **~10:47** (sair de casa às
+    10:25). É o espetáculo mais sobrevalorizado de Munique: 12 minutos de bonecos a rodar.
+    **Não vale a pena partir o despertar às 10:00 por causa dele.**
 - **13:15 – 14:30**: Almoço tradicional no **Viktualienmarkt** (*Weißwurst*, pretzels
   gigantes e *Obatzda*) e fotos na histórica cervejaria **Hofbräuhaus am Platzl** (1589).
 - **14:45 – 15:45**: **Eisbachwelle** — os surfistas no canal do Englischer Garten — e
@@ -307,8 +363,13 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   *Maß* (€14,80–15,90), frango assado *Hendl* (€16–19), cantoria e brinde
   (*"Ein Prosit, ein Prosit, der Gemütlichkeit! Oans, zwoa, drei, g'suffa!"*).
   - Última cerveja e última música às **22:30**. As tendas fecham às **23:30**.
-- **23:04 / 23:36 / 00:04**: Regresso no RE a Augsburg. O Bayern-Ticket é válido até às
-  **03:00**.
+- **~22:45**: Sair da tenda, S-Bahn de Hackerbrücke até à Hauptbahnhof (1 paragem) e apanhar
+  o regional para Augsburg. O Bayern-Ticket é válido até às **03:00**.
+  - ⚠️ **Este é o único horário do roteiro que não se deve dar por garantido.** As últimas
+    ligações regulares München ➔ Augsburg são por volta das **23:00–23:30**. A DB reforça a
+    linha durante a Wiesn, mas o horário definitivo de 2026 só sai perto da data —
+    **confirmar no DB Navigator na própria manhã** e fixar a hora de saída da tenda a partir
+    daí. Se falharem o último, um táxi Munique ➔ Augsburg custa **€150–180** repartido por 7.
 
 > **Se só conseguirem a sessão de almoço (11:00 – 16:30):** apanhar o comboio das **09:17**,
 > entrar na tenda às 11:00, e passar o programa de Munique para **depois** das 16:30 — ou
@@ -330,14 +391,29 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   *(confirmar a hora de check-out)*.
 - **11:00 – 12:00**: Condução Augsburg ➔ Munique.
 - **12:00 – 13:15**: **Palácio e Jardins de Nymphenburg** (zona Oeste): caminhada ao longo do
-  canal central com cisnes e jardins barrocos.
+  canal central com cisnes e jardins barrocos. Aberto das 9:00 às 18:00 (até 15 de outubro).
+  - 🎟️ **Não comprem o bilhete combinado.** A *Gesamtkarte* (€15/pax) cobre palácio,
+    Marstallmuseum, pavilhões do parque e Fábrica de Porcelana — são **2 a 3 horas** e vocês
+    têm **75 minutos**. Com este tempo: ou **só o palácio, €8/pax** (30–40 min, inclui a
+    Galeria das Belezas de Ludwig I), ou **só o parque e a fachada, que são gratuitos** — que
+    numa manhã de ressaca é honestamente o que rende mais.
 - **13:30 – 14:45**: **BMW Welt** (entrada grátis) e **Parque Olímpico** — pavilhão futurista
   com superdesportivos e a icónica cobertura em tenda de 1972. A 10 min de Nymphenburg.
+  *(O Museu BMW, ao lado, é pago — €17/pax, ter–dom 10:00–18:00 — e não cabe neste horário.)*
 - **15:00 – 15:45**: **Allianz Arena** (Fröttmaning): acesso livre e gratuito à esplanada
   exterior para admirar a fachada de almofadas ETFE, fotos de grupo, e visita ao **FC Bayern
   Megastore**.
-  - ✅ 29 de setembro cai em **pausa internacional — não há jogo**. Zona tranquila e museu/tour
-    do estádio a funcionar normalmente (~€25) se quiserem entrar.
+  - ✅ **Confirmado: não há futebol nenhum nesta semana.** A FIFA fundiu as pausas de setembro
+    e outubro numa só a partir de 2026 — a janela vai de **21 de setembro a 6 de outubro**,
+    portanto não há Bundesliga *nem* Champions durante toda a viagem (1.ª jornada da Champions
+    a 8–10 set, 2.ª só a 13–14 out). Zona tranquila, e o museu e o tour do estádio funcionam
+    com horário normal (~€25) se quiserem entrar.
+
+> ⚠️ **Hoje a carrinha anda com as malas de 7 pessoas lá dentro** e fica estacionada em três
+> sítios diferentes de Munique. Uma carrinha carregada é um alvo óbvio. Usar **estacionamento
+> vigiado** nos três pontos — Nymphenburg tem parque próprio, a BMW Welt tem garagem
+> subterrânea e a Allianz Arena tem o parque do estádio — e levar passaportes, cartões e
+> eletrónica **sempre convosco**, nunca na bagageira.
 - **16:00 – 16:45**: A92 até ao Aeroporto de Munique (28 km), **abastecimento de combustível**
   e devolução da carrinha no *Mietwagenzentrum*.
 - **17:15 – 19:20**: Terminal 2 — despacho de bagagens, controlo de segurança e tempo livre.
@@ -354,6 +430,11 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 - [ ] **Estado da Marienbrücke**, na véspera do Dia 4.
 - [ ] **Número de passageiros efetivo em Viena** (4 ou 7) antes de comprar comboio e transfers.
 - [ ] **Táxi de Augsburg Hbf para a Enterprise** reservado por telefone.
+- [ ] **Como e a que horas chegam os 3 amigos a Augsburg** no Dia 3 — e se voltam no TP 555.
+- [ ] **Nº de lugares reservado no voo de regresso**: 4 ou 7?
+- [ ] **Mesas reservadas:** Schweizerhaus e Das Loft (Dia 2), Bauerntanz (Dia 3), jantar de
+      sábado às 20:45 (Dia 4).
+- [ ] **Último comboio München ➔ Augsburg**, no DB Navigator na manhã do Dia 6.
 
 ---
 
