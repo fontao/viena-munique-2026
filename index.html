@@ -1,0 +1,3841 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Viena & Munique 2026 | EuroTrip Premium Guide</title>
+    <meta name="description" content="Guia e Roteiro Interativo da Viagem de 7 Amigos a Viena, Alpes Bávaros, Rothenburg, Nymphenburg, Allianz Arena e Oktoberfest Munique 2026.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Leaflet Map CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <style>
+        :root {
+            --bg-base: #090d16;
+            --bg-surface: #0f1626;
+            --bg-surface-raised: #162035;
+            --bg-glass: rgba(15, 22, 38, 0.75);
+            --bg-glass-strong: rgba(10, 14, 24, 0.95);
+            --bg-glass-card: rgba(22, 32, 53, 0.65);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(255, 255, 255, 0.20);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --text-dim: #64748b;
+            --accent-blue: #38bdf8;
+            --accent-indigo: #818cf8;
+            --accent-gold: #fbbf24;
+            --accent-amber: #f59e0b;
+            --accent-emerald: #34d399;
+            --accent-rose: #fb7185;
+            --accent-orange: #fb923c;
+            --accent-purple: #c084fc;
+            --gradient-primary: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            --gradient-gold: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            --gradient-oktober: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%);
+            --gradient-alpine: linear-gradient(135deg, #06b6d4 0%, #10b981 100%);
+            --glow-blue: rgba(56, 189, 248, 0.25);
+            --glow-gold: rgba(251, 191, 36, 0.25);
+            --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --radius-sm: 8px;
+            --radius-md: 14px;
+            --radius-lg: 20px;
+            --radius-full: 9999px;
+            --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* ===== LIGHT THEME VARIABLES ===== */
+        [data-theme="light"] {
+            --bg-base: #f4f6fb;
+            --bg-surface: #ffffff;
+            --bg-surface-raised: #f8fafc;
+            --bg-glass: rgba(255, 255, 255, 0.85);
+            --bg-glass-strong: rgba(255, 255, 255, 0.98);
+            --bg-glass-card: rgba(255, 255, 255, 0.9);
+            --border-subtle: rgba(15, 23, 42, 0.08);
+            --border-hover: rgba(15, 23, 42, 0.20);
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --text-dim: #64748b;
+            --accent-blue: #0284c7;
+            --accent-indigo: #6366f1;
+            --accent-gold: #d97706;
+            --accent-amber: #d97706;
+            --accent-emerald: #059669;
+            --accent-rose: #e11d48;
+            --accent-orange: #ea580c;
+            --accent-purple: #9333ea;
+            --glow-blue: rgba(2, 132, 199, 0.15);
+            --glow-gold: rgba(217, 119, 6, 0.15);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            line-height: 1.65;
+            overflow-x: hidden;
+            background-image:
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(56, 189, 248, 0.12) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 40% at 90% 40%, rgba(129, 140, 248, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 40% at 10% 70%, rgba(251, 191, 36, 0.06) 0%, transparent 60%),
+                radial-gradient(ellipse 80% 50% at 50% 100%, rgba(16, 185, 129, 0.06) 0%, transparent 60%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            transition: background-color 0.4s ease, color 0.4s ease;
+        }
+
+        [data-theme="light"] body {
+            background-image:
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(2, 132, 199, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 40% at 90% 40%, rgba(99, 102, 241, 0.05) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 40% at 10% 70%, rgba(217, 119, 6, 0.04) 0%, transparent 60%),
+                radial-gradient(ellipse 80% 50% at 50% 100%, rgba(5, 150, 105, 0.05) 0%, transparent 60%);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        section {
+            scroll-margin-top: 85px;
+        }
+
+        /* Ambient Glass Cards */
+        .glass-panel {
+            background: var(--bg-glass);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-lg);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+            transition: var(--transition-smooth);
+        }
+        [data-theme="light"] .glass-panel {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .glass-panel-interactive {
+            transition: var(--transition-smooth);
+        }
+        .glass-panel-interactive:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+        }
+        [data-theme="light"] .glass-panel-interactive:hover {
+            box-shadow: 0 16px 35px rgba(0, 0, 0, 0.09);
+        }
+
+        /* ===== NAVIGATION ===== */
+        header.site-header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            padding: 0.85rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition-smooth);
+            background: var(--bg-glass-strong);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        header.site-header.scrolled {
+            padding: 0.6rem 1.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        [data-theme="light"] header.site-header.scrolled {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            text-decoration: none;
+            color: var(--text-main);
+            font-family: var(--font-heading);
+            font-weight: 800;
+            font-size: 1.25rem;
+        }
+        .brand-logo .brand-badge {
+            background: var(--gradient-primary);
+            color: #04101e;
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 0.25rem;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-menu a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.84rem;
+            font-weight: 600;
+            padding: 0.4rem 0.65rem;
+            border-radius: var(--radius-sm);
+            transition: var(--transition-smooth);
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .nav-menu a:hover, .nav-menu a.active {
+            color: var(--text-main);
+            background: rgba(125, 125, 125, 0.1);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        /* Theme Toggle Button */
+        .theme-toggle-btn {
+            background: rgba(125, 125, 125, 0.12);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-main);
+            width: 38px; height: 38px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            font-size: 1rem;
+        }
+        .theme-toggle-btn:hover {
+            background: rgba(125, 125, 125, 0.22);
+            transform: rotate(15deg);
+        }
+
+        .btn-quick {
+            background: rgba(56, 189, 248, 0.12);
+            color: var(--accent-blue);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            padding: 0.45rem 0.85rem;
+            border-radius: var(--radius-md);
+            font-family: var(--font-heading);
+            font-size: 0.82rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            text-decoration: none;
+            transition: var(--transition-smooth);
+        }
+        .btn-quick:hover {
+            background: var(--accent-blue);
+            color: #fff;
+            box-shadow: 0 4px 16px var(--glow-blue);
+            transform: translateY(-1px);
+        }
+
+        .mobile-toggle {
+            display: none;
+            background: rgba(125, 125, 125, 0.1);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-main);
+            font-size: 1.1rem;
+            width: 38px; height: 38px;
+            border-radius: 8px;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-smooth);
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            min-height: 92vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 6.5rem 1.5rem 3.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-bg-overlay {
+            position: absolute;
+            inset: 0;
+            background: url('img/vienna_stephansdom_1786477232698.jpg') center/cover no-repeat;
+            opacity: 0.18;
+            z-index: -2;
+            filter: saturate(0.7) brightness(0.9);
+            transform: scale(1.03);
+            animation: heroZoom 24s ease-in-out infinite alternate;
+        }
+        [data-theme="light"] .hero-bg-overlay {
+            opacity: 0.12;
+            filter: saturate(0.8) brightness(1.1);
+        }
+        @keyframes heroZoom {
+            0% { transform: scale(1.02); }
+            100% { transform: scale(1.08); }
+        }
+        .hero-gradient {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(9,13,22,0.3) 0%, rgba(9,13,22,0.85) 75%, var(--bg-base) 100%);
+            z-index: -1;
+        }
+        [data-theme="light"] .hero-gradient {
+            background: linear-gradient(180deg, rgba(244,246,251,0.2) 0%, rgba(244,246,251,0.85) 75%, var(--bg-base) 100%);
+        }
+
+        .hero-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(251, 191, 36, 0.12);
+            border: 1px solid rgba(251, 191, 36, 0.3);
+            color: var(--accent-gold);
+            padding: 0.4rem 1.1rem;
+            border-radius: var(--radius-full);
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 1.3rem;
+            backdrop-filter: blur(8px);
+        }
+        .hero-pill i { font-size: 0.9rem; }
+
+        .hero-title {
+            font-size: clamp(2.4rem, 7vw, 5.2rem);
+            font-weight: 800;
+            line-height: 1.08;
+            letter-spacing: -0.03em;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--text-main) 20%, var(--text-muted) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-title span.highlight {
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-tagline {
+            font-size: clamp(0.95rem, 2vw, 1.25rem);
+            color: var(--text-muted);
+            max-width: 720px;
+            margin-bottom: 2.5rem;
+            font-weight: 400;
+        }
+
+        /* Countdown Box */
+        .countdown-container {
+            display: flex;
+            gap: 0.8rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+            padding: 1.1rem 1.6rem;
+            border-radius: var(--radius-lg);
+        }
+        .countdown-segment {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 80px;
+            padding: 0.5rem 0.7rem;
+        }
+        .countdown-val {
+            font-family: var(--font-heading);
+            font-size: clamp(2rem, 4.5vw, 3.2rem);
+            font-weight: 800;
+            line-height: 1;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .countdown-lbl {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            margin-top: 0.35rem;
+            font-weight: 600;
+        }
+
+        .hero-action-buttons {
+            display: flex;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: #04101e;
+            padding: 0.85rem 1.8rem;
+            border-radius: var(--radius-md);
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            transition: var(--transition-smooth);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 20px var(--glow-blue);
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 28px rgba(56, 189, 248, 0.45);
+        }
+        .btn-secondary {
+            background: rgba(125, 125, 125, 0.08);
+            color: var(--text-main);
+            padding: 0.85rem 1.6rem;
+            border-radius: var(--radius-md);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            border: 1px solid var(--border-subtle);
+            transition: var(--transition-smooth);
+        }
+        .btn-secondary:hover {
+            background: rgba(125, 125, 125, 0.16);
+            border-color: var(--border-hover);
+            transform: translateY(-2px);
+        }
+
+        /* ===== QUICK METRICS BAR ===== */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 1rem;
+            max-width: 1240px;
+            margin: -2.5rem auto 3rem;
+            padding: 0 1.5rem;
+            position: relative;
+            z-index: 10;
+        }
+        .metric-card {
+            padding: 1.1rem 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .metric-icon {
+            width: 46px; height: 46px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+        .metric-icon.blue { background: rgba(56, 189, 248, 0.15); color: var(--accent-blue); }
+        .metric-icon.amber { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); }
+        .metric-icon.emerald { background: rgba(52, 211, 153, 0.15); color: var(--accent-emerald); }
+        .metric-icon.indigo { background: rgba(129, 140, 248, 0.15); color: var(--accent-indigo); }
+        .metric-content h4 { font-size: 1.05rem; font-weight: 700; color: var(--text-main); }
+        .metric-content p { font-size: 0.8rem; color: var(--text-muted); margin: 0; }
+
+        /* ===== MAIN CONTAINER ===== */
+        .app-container {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 6rem;
+        }
+
+        /* Section Headers */
+        .section-head {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            position: relative;
+        }
+        .section-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent-blue);
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+        }
+        .section-heading {
+            font-size: clamp(1.7rem, 3.5vw, 2.6rem);
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+        .section-desc {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        /* Alert / Callout Boxes */
+        .callout-box {
+            border-radius: var(--radius-md);
+            padding: 1rem 1.2rem;
+            margin: 0.9rem 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.8rem;
+            font-size: 0.86rem;
+            line-height: 1.5;
+        }
+        .callout-box.info {
+            background: rgba(56, 189, 248, 0.08);
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            color: var(--text-main);
+        }
+        .callout-box.info i { color: var(--accent-blue); font-size: 1.1rem; margin-top: 0.15rem; }
+        .callout-box.warning {
+            background: rgba(245, 158, 11, 0.08);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            color: var(--text-main);
+        }
+        .callout-box.warning i { color: var(--accent-amber); font-size: 1.1rem; margin-top: 0.15rem; }
+        .callout-box.critical {
+            background: rgba(251, 113, 133, 0.08);
+            border: 1px solid rgba(251, 113, 133, 0.3);
+            color: var(--text-main);
+        }
+        .callout-box.critical i { color: var(--accent-rose); font-size: 1.1rem; margin-top: 0.15rem; }
+
+        /* Transfer Dual Option Cards */
+        .transfer-options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 0.8rem;
+        }
+        @media (max-width: 768px) { .transfer-options-grid { grid-template-columns: 1fr; } }
+
+        .transfer-opt-card {
+            background: rgba(125, 125, 125, 0.04);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 1rem;
+            transition: var(--transition-smooth);
+        }
+        .transfer-opt-card:hover {
+            border-color: var(--border-hover);
+            background: rgba(125, 125, 125, 0.08);
+        }
+        .transfer-opt-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.4rem;
+        }
+        .transfer-badge {
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+        .transfer-badge.recommended { background: rgba(52, 211, 153, 0.15); color: var(--accent-emerald); }
+        .transfer-badge.direct { background: rgba(56, 189, 248, 0.15); color: var(--accent-blue); }
+
+        /* ===== INTRICATE INTERACTIVE MAP SECTION ===== */
+        .map-section {
+            margin-bottom: 5rem;
+        }
+        .map-wrapper {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+        }
+        .map-controls-bar {
+            padding: 0.85rem 1.2rem;
+            background: var(--bg-surface);
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+        .map-filters {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+        .map-filter-btn {
+            background: rgba(125, 125, 125, 0.08);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            padding: 0.45rem 0.85rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            white-space: nowrap;
+        }
+        .map-filter-btn:hover {
+            color: var(--text-main);
+            background: rgba(125, 125, 125, 0.16);
+        }
+        .map-filter-btn.active {
+            background: var(--accent-blue);
+            color: #fff;
+            border-color: var(--accent-blue);
+            font-weight: 700;
+        }
+
+        /* Map Routes Quick Bar */
+        .map-routes-bar {
+            padding: 0.6rem 1.2rem;
+            background: var(--bg-surface-raised);
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+        }
+        .map-routes-bar::-webkit-scrollbar { display: none; }
+        .map-route-pill {
+            background: transparent;
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            padding: 0.35rem 0.75rem;
+            border-radius: var(--radius-full);
+            font-size: 0.76rem;
+            font-weight: 600;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            flex-shrink: 0;
+        }
+        .map-route-pill:hover {
+            color: var(--text-main);
+            border-color: var(--border-hover);
+        }
+        .map-route-pill.active {
+            background: var(--text-main);
+            color: var(--bg-base);
+            border-color: var(--text-main);
+            font-weight: 700;
+        }
+
+        #interactive-map {
+            height: 520px;
+            width: 100%;
+            background: #0b0f19;
+            z-index: 1;
+        }
+        .map-legend-bar {
+            padding: 0.75rem 1.2rem;
+            background: var(--bg-surface);
+            border-top: 1px solid var(--border-subtle);
+            display: flex;
+            gap: 1.2rem;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            flex-wrap: wrap;
+        }
+        .legend-item { display: flex; align-items: center; gap: 0.4rem; }
+        .legend-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+        .legend-line { width: 16px; height: 3px; border-radius: 2px; display: inline-block; }
+
+        /* Leaflet Popup */
+        .leaflet-popup-content-wrapper {
+            background: var(--bg-surface) !important;
+            color: var(--text-main) !important;
+            border: 1px solid var(--border-subtle) !important;
+            border-radius: 12px !important;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4) !important;
+            padding: 0.2rem !important;
+        }
+        .leaflet-popup-tip { background: var(--bg-surface) !important; }
+        .popup-card {
+            padding: 0.4rem;
+            max-width: 260px;
+        }
+        .popup-card img {
+            width: 100%;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+        }
+        .popup-card h5 {
+            font-size: 0.92rem;
+            font-weight: 700;
+            margin-bottom: 0.2rem;
+            color: var(--text-main);
+        }
+        .popup-card p {
+            font-size: 0.76rem;
+            color: var(--text-muted);
+            margin-bottom: 0.6rem;
+            line-height: 1.4;
+        }
+        .popup-btn {
+            display: block;
+            text-align: center;
+            background: var(--accent-blue);
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.45rem 0.6rem;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: var(--transition-smooth);
+        }
+        .popup-btn:hover { opacity: 0.9; }
+
+        /* ===== ITINERARY TABS & TIMELINE ===== */
+        .itinerary-section {
+            margin-bottom: 5rem;
+        }
+
+        .day-selector-bar {
+            display: flex;
+            gap: 0.6rem;
+            overflow-x: auto;
+            padding: 0.5rem 0.2rem 1.2rem;
+            scrollbar-width: thin;
+            scrollbar-color: var(--border-subtle) transparent;
+            margin-bottom: 1.8rem;
+            -webkit-overflow-scrolling: touch;
+        }
+        .day-selector-bar::-webkit-scrollbar { height: 5px; }
+        .day-selector-bar::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 4px; }
+
+        .day-tab-card {
+            background: var(--bg-glass-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 0.85rem 1rem;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            min-width: 145px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            text-align: left;
+            position: relative;
+        }
+        .day-tab-card:hover {
+            background: var(--bg-surface-raised);
+            border-color: var(--border-hover);
+            transform: translateY(-2px);
+        }
+        .day-tab-card.active {
+            background: var(--bg-surface-raised);
+            border-color: var(--accent-blue);
+            box-shadow: 0 6px 20px var(--glow-blue);
+        }
+        .day-tab-card.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1px; left: 15%; right: 15%;
+            height: 3px;
+            background: var(--gradient-primary);
+            border-radius: 3px 3px 0 0;
+        }
+        .day-tab-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--text-dim);
+            letter-spacing: 0.5px;
+        }
+        .day-tab-card.active .day-tab-top { color: var(--accent-blue); }
+        .day-tab-title {
+            font-family: var(--font-heading);
+            font-size: 0.92rem;
+            font-weight: 700;
+            color: var(--text-main);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .day-tab-badge {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Search & Tag Filter Bar */
+        .itinerary-filter-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            position: relative;
+            flex: 1;
+            min-width: 220px;
+            max-width: 380px;
+        }
+        .search-box input {
+            width: 100%;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-main);
+            padding: 0.65rem 1rem 0.65rem 2.4rem;
+            border-radius: var(--radius-md);
+            font-family: var(--font-body);
+            font-size: 0.88rem;
+            outline: none;
+            transition: var(--transition-smooth);
+        }
+        .search-box input:focus {
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px var(--glow-blue);
+        }
+        .search-box i {
+            position: absolute;
+            left: 0.85rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+        .tag-pills {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+        .tag-pill {
+            background: rgba(125, 125, 125, 0.08);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            padding: 0.4rem 0.75rem;
+            border-radius: var(--radius-full);
+            font-size: 0.78rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            white-space: nowrap;
+        }
+        .tag-pill:hover, .tag-pill.active {
+            background: rgba(56, 189, 248, 0.15);
+            color: var(--accent-blue);
+            border-color: rgba(56, 189, 248, 0.3);
+        }
+
+        /* Day View Content */
+        .day-view-container {
+            display: none;
+            animation: fadeIn 0.4s ease forwards;
+        }
+        .day-view-container.active { display: block; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .day-hero-banner {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            margin-bottom: 2rem;
+            height: 220px;
+            border: 1px solid var(--border-subtle);
+        }
+        .day-hero-banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+        .day-hero-banner:hover img { transform: scale(1.03); }
+        .day-banner-content {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(9,13,22,0.85) 90%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 1.4rem;
+        }
+        [data-theme="light"] .day-banner-content {
+            background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(15,23,42,0.85) 90%);
+        }
+        .day-banner-tag {
+            background: var(--gradient-primary);
+            color: #04101e;
+            padding: 0.25rem 0.7rem;
+            border-radius: 6px;
+            font-weight: 800;
+            font-size: 0.72rem;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            margin-bottom: 0.4rem;
+            width: fit-content;
+        }
+        .day-banner-title {
+            font-size: clamp(1.25rem, 3vw, 1.9rem);
+            font-weight: 800;
+            margin-bottom: 0.3rem;
+            color: #fff;
+        }
+        .day-banner-meta {
+            display: flex;
+            gap: 0.8rem;
+            color: #cbd5e1;
+            font-size: 0.82rem;
+            flex-wrap: wrap;
+        }
+
+        /* Timeline Items */
+        .timeline-stream {
+            position: relative;
+            padding-left: 1.8rem;
+            margin-top: 1.5rem;
+        }
+        .timeline-stream::before {
+            content: '';
+            position: absolute;
+            left: 6px;
+            top: 15px;
+            bottom: 15px;
+            width: 2px;
+            background: linear-gradient(180deg, var(--accent-blue) 0%, var(--accent-indigo) 50%, var(--accent-amber) 100%);
+            opacity: 0.4;
+        }
+
+        .timeline-node {
+            position: relative;
+            margin-bottom: 1.8rem;
+            transition: var(--transition-smooth);
+        }
+        .node-bullet {
+            position: absolute;
+            left: -1.8rem;
+            top: 1.1rem;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--bg-base);
+            border: 3px solid var(--accent-blue);
+            z-index: 2;
+            box-shadow: 0 0 10px var(--glow-blue);
+            transition: var(--transition-smooth);
+        }
+        .timeline-node:hover .node-bullet {
+            transform: scale(1.25);
+            border-color: var(--text-main);
+            background: var(--accent-blue);
+        }
+
+        .node-card {
+            background: var(--bg-glass-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            padding: 1.2rem;
+            transition: var(--transition-smooth);
+        }
+        .node-card:hover {
+            border-color: var(--border-hover);
+            background: var(--bg-surface-raised);
+            transform: translateX(3px);
+        }
+
+        .node-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.6rem;
+        }
+        .node-badges {
+            display: flex;
+            gap: 0.4rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .time-pill {
+            background: rgba(56, 189, 248, 0.12);
+            color: var(--accent-blue);
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            font-size: 0.76rem;
+            font-weight: 700;
+            padding: 0.25rem 0.55rem;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .time-pill.train { background: rgba(129, 140, 248, 0.15); color: var(--accent-indigo); border-color: rgba(129, 140, 248, 0.3); }
+        .time-pill.car { background: rgba(52, 211, 153, 0.15); color: var(--accent-emerald); border-color: rgba(52, 211, 153, 0.3); }
+        .time-pill.party { background: rgba(251, 113, 133, 0.15); color: var(--accent-rose); border-color: rgba(251, 113, 133, 0.3); }
+        .time-pill.oktober { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.3); }
+
+        .category-pill {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .node-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 0.35rem;
+        }
+        .node-text {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.55;
+            margin-bottom: 0.8rem;
+        }
+        .node-text strong { color: var(--text-main); }
+        .node-text em { color: var(--accent-gold); font-style: normal; font-weight: 600; }
+
+        /* Photo inside timeline */
+        .timeline-img-wrapper {
+            position: relative;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            margin-top: 0.8rem;
+            max-height: 200px;
+            border: 1px solid var(--border-subtle);
+            cursor: pointer;
+        }
+        .timeline-img-wrapper img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        .timeline-img-wrapper:hover img { transform: scale(1.03); }
+        .timeline-img-overlay {
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            padding: 0.5rem 0.8rem;
+            background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.85) 100%);
+            font-size: 0.75rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Node Action Bar */
+        .node-actions {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.85rem;
+            flex-wrap: wrap;
+        }
+        .btn-action-sm {
+            background: rgba(125, 125, 125, 0.08);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            font-weight: 600;
+            padding: 0.45rem 0.75rem;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            transition: var(--transition-smooth);
+            cursor: pointer;
+            min-height: 38px;
+        }
+        .btn-action-sm:hover {
+            color: var(--text-main);
+            background: rgba(125, 125, 125, 0.16);
+            border-color: var(--border-hover);
+        }
+        .btn-action-sm.maps {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-blue);
+            border-color: rgba(56, 189, 248, 0.25);
+        }
+        .btn-action-sm.maps:hover {
+            background: var(--accent-blue);
+            color: #fff;
+        }
+
+        /* ===== TICKETS & RESERVATIONS HUB ===== */
+        .tickets-section {
+            margin-bottom: 5rem;
+        }
+        .tickets-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.2rem;
+        }
+        .ticket-card {
+            padding: 1.4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+        }
+        .ticket-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.8rem;
+        }
+        .ticket-badge {
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 0.25rem 0.6rem;
+            border-radius: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .ticket-badge.booked { background: rgba(52, 211, 153, 0.15); color: var(--accent-emerald); border: 1px solid rgba(52, 211, 153, 0.3); }
+        .ticket-badge.critical { background: rgba(251, 113, 133, 0.15); color: var(--accent-rose); border: 1px solid rgba(251, 113, 133, 0.3); }
+        .ticket-badge.pending { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border: 1px solid rgba(245, 158, 11, 0.3); }
+        .ticket-badge.local { background: rgba(56, 189, 248, 0.15); color: var(--accent-blue); border: 1px solid rgba(56, 189, 248, 0.3); }
+
+        .ticket-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 0.3rem;
+        }
+        .ticket-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        .ticket-meta {
+            background: rgba(125, 125, 125, 0.04);
+            border-radius: var(--radius-sm);
+            padding: 0.75rem;
+            font-size: 0.8rem;
+            margin-bottom: 1.1rem;
+        }
+        .ticket-meta-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.3rem;
+            color: var(--text-muted);
+        }
+        .ticket-meta-row:last-child { margin-bottom: 0; }
+        .ticket-meta-row strong { color: var(--text-main); }
+
+        .ticket-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.6rem;
+            padding-top: 0.6rem;
+            border-top: 1px solid var(--border-subtle);
+        }
+        .ticket-buy-btn {
+            background: var(--gradient-primary);
+            color: #04101e;
+            font-size: 0.8rem;
+            font-weight: 700;
+            padding: 0.5rem 0.9rem;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: var(--transition-smooth);
+        }
+        .ticket-buy-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 14px var(--glow-blue);
+        }
+
+        /* ===== OKTOBERFEST & BAVARIAN HUB ===== */
+        .oktober-section {
+            margin-bottom: 5rem;
+        }
+        .oktober-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.2rem;
+        }
+        .tent-card {
+            padding: 1.4rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .tent-badge {
+            background: var(--gradient-oktober);
+            color: #fff;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+        .tent-title {
+            font-size: 1.2rem;
+            font-weight: 800;
+            margin-bottom: 0.4rem;
+            color: var(--text-main);
+        }
+        .tent-details {
+            font-size: 0.86rem;
+            color: var(--text-muted);
+            margin-bottom: 0.8rem;
+        }
+        .tent-tags {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+        .tent-tag-sm {
+            background: rgba(125, 125, 125, 0.08);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.72rem;
+            color: var(--accent-amber);
+            font-weight: 600;
+        }
+
+        /* Toast Sound & Party Interactive Box */
+        .party-box {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.12) 0%, rgba(234, 88, 12, 0.12) 100%);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+            border-radius: var(--radius-lg);
+            padding: 1.8rem 1.2rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .btn-toast {
+            background: var(--gradient-oktober);
+            color: #fff;
+            font-family: var(--font-heading);
+            font-size: 1.1rem;
+            font-weight: 800;
+            padding: 0.85rem 1.8rem;
+            border-radius: var(--radius-full);
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 6px 25px rgba(245, 158, 11, 0.4);
+            transition: var(--transition-smooth);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.6rem;
+            max-width: 100%;
+        }
+        .btn-toast:hover {
+            transform: scale(1.04);
+            box-shadow: 0 8px 30px rgba(245, 158, 11, 0.6);
+        }
+        .song-lyrics {
+            margin-top: 1.2rem;
+            font-family: var(--font-heading);
+            font-size: 0.95rem;
+            color: var(--accent-gold);
+            font-weight: 600;
+            line-height: 1.6;
+        }
+
+        /* ===== GASTRONOMY GUIDE ===== */
+        .food-section {
+            margin-bottom: 5rem;
+        }
+        .food-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.1rem;
+        }
+        .food-card {
+            padding: 1.2rem;
+            display: flex;
+            gap: 0.9rem;
+            align-items: flex-start;
+        }
+        .food-icon {
+            font-size: 1.8rem;
+            line-height: 1;
+            flex-shrink: 0;
+            background: rgba(125, 125, 125, 0.08);
+            padding: 0.5rem;
+            border-radius: 12px;
+        }
+        .food-card h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 0.2rem;
+            color: var(--text-main);
+        }
+        .food-card p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.45;
+        }
+
+        /* ===== AUDIO PHRASEBOOK SECTION ===== */
+        .phrase-section {
+            margin-bottom: 5rem;
+        }
+        .phrase-category-nav {
+            display: flex;
+            gap: 0.4rem;
+            margin-bottom: 1.5rem;
+            overflow-x: auto;
+            padding-bottom: 0.4rem;
+            scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+        }
+        .phrase-category-nav::-webkit-scrollbar { display: none; }
+        .phrase-tab-btn {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            padding: 0.45rem 0.85rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .phrase-tab-btn:hover, .phrase-tab-btn.active {
+            background: var(--accent-blue);
+            color: #fff;
+            border-color: var(--accent-blue);
+            font-weight: 700;
+        }
+
+        .phrases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 0.9rem;
+        }
+        .phrase-card {
+            padding: 1.1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        .phrase-info h5 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 0.2rem;
+        }
+        .phrase-phonetic {
+            font-size: 0.78rem;
+            color: var(--accent-gold);
+            margin-bottom: 0.2rem;
+            font-style: italic;
+        }
+        .phrase-pt {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+        .btn-speak {
+            width: 44px; height: 44px;
+            border-radius: 50%;
+            background: rgba(56, 189, 248, 0.12);
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            color: var(--accent-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            flex-shrink: 0;
+            transition: var(--transition-smooth);
+            font-size: 1rem;
+        }
+        .btn-speak:hover {
+            background: var(--accent-blue);
+            color: #fff;
+            transform: scale(1.08);
+        }
+
+        /* ===== WEATHER & PACKING SECTION ===== */
+        .logistics-hub-section {
+            margin-bottom: 5rem;
+        }
+        .hub-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+        @media (max-width: 900px) { .hub-grid { grid-template-columns: 1fr; } }
+
+        /* Weather Card */
+        .weather-cities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+            gap: 0.7rem;
+            margin-top: 1.2rem;
+        }
+        .weather-city-box {
+            background: rgba(125, 125, 125, 0.05);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-sm);
+            padding: 0.85rem 0.6rem;
+            text-align: center;
+            transition: var(--transition-smooth);
+        }
+        .weather-city-box:hover {
+            border-color: var(--border-hover);
+            background: rgba(125, 125, 125, 0.1);
+        }
+        .weather-city-box i {
+            font-size: 1.6rem;
+            margin-bottom: 0.3rem;
+            display: block;
+        }
+        .weather-city-box.vienna i { color: #f59e0b; }
+        .weather-city-box.alps i { color: #38bdf8; }
+        .weather-city-box.munich i { color: #34d399; }
+        .weather-temp {
+            font-family: var(--font-heading);
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-main);
+        }
+
+        /* Packing Checklist */
+        .packing-card {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .packing-progress-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(125, 125, 125, 0.1);
+            border-radius: var(--radius-full);
+            margin: 0.8rem 0 1.2rem;
+            overflow: hidden;
+        }
+        .packing-progress-fill {
+            height: 100%;
+            width: 0%;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-full);
+            transition: width 0.4s ease;
+        }
+        .packing-items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 0.4rem;
+            max-height: 320px;
+            overflow-y: auto;
+            padding-right: 0.4rem;
+        }
+        .pack-item-label {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            padding: 0.65rem 0.8rem;
+            background: rgba(125, 125, 125, 0.04);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            font-size: 0.86rem;
+            color: var(--text-main);
+            min-height: 44px;
+        }
+        .pack-item-label:hover { background: rgba(125, 125, 125, 0.09); }
+        .pack-item-label input[type="checkbox"] {
+            appearance: none;
+            width: 22px; height: 22px;
+            border: 2px solid var(--accent-blue);
+            border-radius: 6px;
+            background: transparent;
+            cursor: pointer;
+            position: relative;
+            flex-shrink: 0;
+            transition: var(--transition-smooth);
+        }
+        .pack-item-label input:checked {
+            background: var(--accent-blue);
+            border-color: var(--accent-blue);
+        }
+        .pack-item-label input:checked::after {
+            content: '✓';
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-weight: 900;
+            font-size: 12px;
+        }
+        .pack-item-label input:checked + span {
+            color: var(--text-dim);
+            text-decoration: line-through;
+        }
+
+        /* ===== ACCOMMODATIONS & FLIGHTS DOSSIER ===== */
+        .dossier-section {
+            margin-bottom: 5rem;
+        }
+        .dossier-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.3rem;
+        }
+        .dossier-card {
+            padding: 1.5rem;
+            position: relative;
+        }
+        .dossier-icon-top {
+            font-size: 1.5rem;
+            color: var(--accent-blue);
+            margin-bottom: 0.7rem;
+        }
+        .dossier-card h4 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 0.35rem;
+            color: var(--text-main);
+        }
+        .dossier-meta-list {
+            list-style: none;
+            margin-top: 0.9rem;
+        }
+        .dossier-meta-list li {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.55rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.6rem;
+        }
+        .dossier-meta-list li i {
+            color: var(--accent-indigo);
+            margin-top: 0.25rem;
+            flex-shrink: 0;
+        }
+
+        /* ===== LIGHTBOX MODAL ===== */
+        .lightbox-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.94);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            backdrop-filter: blur(12px);
+            padding: 1rem;
+        }
+        .lightbox-modal.active { opacity: 1; pointer-events: all; }
+        .lightbox-modal img {
+            max-width: 92vw;
+            max-height: 85vh;
+            border-radius: var(--radius-md);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+        }
+        .lightbox-modal.active img { transform: scale(1); }
+        .lightbox-btn-close {
+            position: absolute;
+            top: max(1.2rem, env(safe-area-inset-top)); right: 1.2rem;
+            width: 44px; height: 44px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            border: none;
+            font-size: 1.4rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-smooth);
+        }
+        .lightbox-btn-close:hover { background: rgba(255, 255, 255, 0.3); }
+
+        /* ===== SCROLL TO TOP & TOAST NOTIFICATION ===== */
+        .btn-scroll-top {
+            position: fixed;
+            bottom: max(1.2rem, env(safe-area-inset-bottom)); right: 1.2rem;
+            width: 44px; height: 44px;
+            border-radius: 50%;
+            background: var(--bg-surface-raised);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 90;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: var(--transition-smooth);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+        .btn-scroll-top.visible { opacity: 1; transform: translateY(0); }
+        .btn-scroll-top:hover {
+            background: var(--accent-blue);
+            color: #fff;
+            box-shadow: 0 8px 24px var(--glow-blue);
+        }
+
+        .toast-msg {
+            position: fixed;
+            bottom: max(1.5rem, env(safe-area-inset-bottom)); left: 50%;
+            transform: translateX(-50%) translateY(50px);
+            background: var(--bg-surface-raised);
+            border: 1px solid var(--accent-blue);
+            color: var(--text-main);
+            padding: 0.65rem 1.4rem;
+            border-radius: var(--radius-full);
+            font-size: 0.85rem;
+            font-weight: 600;
+            z-index: 3000;
+            opacity: 0;
+            pointer-events: none;
+            transition: var(--transition-smooth);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            max-width: 90vw;
+            text-align: center;
+        }
+        .toast-msg.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        /* ===== FOOTER ===== */
+        footer.site-footer {
+            border-top: 1px solid var(--border-subtle);
+            padding: 3.5rem 1.5rem 3rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            background: var(--bg-surface);
+        }
+        .footer-flags { font-size: 1.6rem; margin-bottom: 0.5rem; }
+        .footer-links {
+            display: flex;
+            gap: 1.2rem;
+            justify-content: center;
+            margin: 1.2rem 0;
+            flex-wrap: wrap;
+        }
+        .footer-links a { color: var(--text-muted); text-decoration: none; transition: var(--transition-smooth); padding: 0.2rem 0.4rem; }
+        .footer-links a:hover { color: var(--accent-blue); }
+
+        /* ===== PRINT STYLES ===== */
+        @media print {
+            header.site-header, .btn-scroll-top, .map-section, .party-box, .lightbox-modal, .day-selector-bar, .search-box, .tag-pills, .theme-toggle-btn {
+                display: none !important;
+            }
+            body { background: #fff !important; color: #000 !important; }
+            .day-view-container { display: block !important; }
+            .node-card { border: 1px solid #ccc !important; background: #fff !important; color: #000 !important; break-inside: avoid; }
+        }
+
+        /* ===== RESPONSIVE BREAKPOINTS & MOBILE UX OPTIMIZATION ===== */
+        @media (max-width: 860px) {
+            .mobile-toggle { display: flex; }
+            
+            .nav-menu {
+                position: fixed;
+                top: 60px; left: 0; right: 0;
+                background: #090d16;
+                flex-direction: column;
+                padding: 1.2rem;
+                border-bottom: 2px solid var(--border-hover);
+                box-shadow: 0 30px 60px rgba(0,0,0,0.9);
+                transform: translateY(-150%);
+                transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                display: flex !important;
+                pointer-events: none;
+                gap: 0.5rem;
+                z-index: 1500;
+            }
+            [data-theme="light"] .nav-menu {
+                background: #ffffff;
+                box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            }
+            .nav-menu.open {
+                transform: translateY(0);
+                pointer-events: all;
+            }
+            .nav-menu a {
+                padding: 0.85rem 1.1rem;
+                font-size: 1rem;
+                width: 100%;
+                border-radius: var(--radius-md);
+                background: rgba(125, 125, 125, 0.06);
+                border: 1px solid var(--border-subtle);
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+            .nav-menu a i {
+                font-size: 1.1rem;
+                color: var(--accent-blue);
+                width: 22px;
+            }
+            .nav-menu a:hover, .nav-menu a.active {
+                background: rgba(56, 189, 248, 0.15);
+                border-color: var(--accent-blue);
+                color: var(--text-main);
+            }
+
+            .hero { padding: 5.5rem 1.2rem 2.5rem; }
+            .hero-tagline { font-size: 0.92rem; }
+            .countdown-container { gap: 0.5rem; padding: 0.9rem 1rem; width: 100%; }
+            .countdown-segment { min-width: 62px; padding: 0.3rem 0.4rem; }
+            .countdown-val { font-size: 1.8rem; }
+            .countdown-lbl { font-size: 0.65rem; }
+
+            .hero-action-buttons { flex-direction: column; width: 100%; max-width: 320px; }
+            .btn-primary, .btn-secondary { width: 100%; }
+
+            .metrics-grid { margin: -1.5rem auto 2.5rem; padding: 0 1rem; }
+            .app-container { padding: 1.5rem 1rem 4rem; }
+
+            .map-controls-bar { padding: 0.6rem 0.8rem; }
+            .map-filters {
+                overflow-x: auto;
+                flex-wrap: nowrap;
+                padding-bottom: 0.3rem;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                width: 100%;
+            }
+            .map-filters::-webkit-scrollbar { display: none; }
+            .map-filter-btn { flex-shrink: 0; font-size: 0.76rem; padding: 0.4rem 0.7rem; }
+
+            #interactive-map { height: 380px; }
+
+            .day-tab-card { min-width: 130px; padding: 0.75rem 0.85rem; }
+            .day-hero-banner { height: 180px; }
+            .day-banner-content { padding: 1rem; }
+            .day-banner-title { font-size: 1.15rem; }
+
+            .timeline-stream { padding-left: 1.4rem; }
+            .node-bullet { left: -1.4rem; width: 12px; height: 12px; }
+            .node-card { padding: 1rem; }
+            .timeline-img-wrapper { max-height: 180px; }
+            .timeline-img-wrapper img { height: 180px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="site-header" id="site-header">
+        <a href="#" class="brand-logo">
+            <span>✈️ V&M 2026</span>
+            <span class="brand-badge">PRO TRIP</span>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#map-view"><i class="fa-solid fa-map-location-dot"></i> Mapa</a></li>
+            <li><a href="#itinerary"><i class="fa-solid fa-calendar-day"></i> Roteiro</a></li>
+            <li><a href="#tickets"><i class="fa-solid fa-ticket"></i> Bilhetes</a></li>
+            <li><a href="#oktoberfest"><i class="fa-solid fa-beer-mug-empty"></i> Oktoberfest</a></li>
+            <li><a href="#gastronomy"><i class="fa-solid fa-utensils"></i> Gastronomia</a></li>
+            <li><a href="#phrasebook"><i class="fa-solid fa-volume-high"></i> Frases</a></li>
+            <li><a href="#logistics"><i class="fa-solid fa-suitcase-rolling"></i> Logística</a></li>
+        </ul>
+
+        <div class="header-actions">
+            <!-- Light / Dark Theme Switcher -->
+            <button class="theme-toggle-btn" id="theme-toggle" title="Alternar Modo Claro / Escuro" aria-label="Alternar Tema">
+                <i class="fa-solid fa-sun" id="theme-icon"></i>
+            </button>
+
+            <button class="btn-quick" id="btn-export-summary" title="Copiar sumário do roteiro">
+                <i class="fa-regular fa-copy"></i> WhatsApp
+            </button>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars" id="toggle-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-gradient"></div>
+
+        <div class="hero-pill">
+            <i class="fa-solid fa-compass"></i> 23 A 29 DE SETEMBRO 2026 • 7 DIAS / 6 NOITES
+        </div>
+
+        <h1 class="hero-title">
+            Viena & Munique <span class="highlight">2026</span>
+        </h1>
+
+        <p class="hero-tagline">
+            7 amigos, 2 capitais imperiais, os Alpes Bávaros, vilas medievais, Palácio Nymphenburg, Allianz Arena e a maior festa de cerveja do planeta. Roteiro verificado com mapas interativos e fotografias reais.
+        </p>
+
+        <!-- Real-Time Countdown -->
+        <div class="countdown-container glass-panel">
+            <div class="countdown-segment">
+                <span class="countdown-val" id="cd-days">--</span>
+                <span class="countdown-lbl">Dias</span>
+            </div>
+            <div class="countdown-segment">
+                <span class="countdown-val" id="cd-hours">--</span>
+                <span class="countdown-lbl">Horas</span>
+            </div>
+            <div class="countdown-segment">
+                <span class="countdown-val" id="cd-minutes">--</span>
+                <span class="countdown-lbl">Min</span>
+            </div>
+            <div class="countdown-segment">
+                <span class="countdown-val" id="cd-seconds">--</span>
+                <span class="countdown-lbl">Seg</span>
+            </div>
+        </div>
+
+        <div class="hero-action-buttons">
+            <a href="#itinerary" class="btn-primary">
+                <i class="fa-solid fa-calendar-check"></i> Ver Roteiro Detalhado
+            </a>
+            <a href="#tickets" class="btn-secondary">
+                <i class="fa-solid fa-ticket"></i> Bilhetes & Reservas
+            </a>
+            <a href="#map-view" class="btn-secondary">
+                <i class="fa-solid fa-map"></i> Explorar no Mapa
+            </a>
+        </div>
+    </section>
+
+    <!-- Metrics Bar -->
+    <div class="metrics-grid">
+        <div class="metric-card glass-panel glass-panel-interactive">
+            <div class="metric-icon blue"><i class="fa-solid fa-plane-departure"></i></div>
+            <div class="metric-content">
+                <h4>TAP TP1270 & TP555</h4>
+                <p>LIS ➔ VIE | MUC ➔ LIS</p>
+            </div>
+        </div>
+        <div class="metric-card glass-panel glass-panel-interactive">
+            <div class="metric-icon emerald"><i class="fa-solid fa-users"></i></div>
+            <div class="metric-content">
+                <h4>7 Viajantes</h4>
+                <p>4 Viena + 3 na Alemanha</p>
+            </div>
+        </div>
+        <div class="metric-card glass-panel glass-panel-interactive">
+            <div class="metric-icon amber"><i class="fa-solid fa-beer-mug-empty"></i></div>
+            <div class="metric-content">
+                <h4>Oktoberfest 2026</h4>
+                <p>Segunda, 28 Setembro</p>
+            </div>
+        </div>
+        <div class="metric-card glass-panel glass-panel-interactive">
+            <div class="metric-icon indigo"><i class="fa-solid fa-car-side"></i></div>
+            <div class="metric-content">
+                <h4>Carro 7 Lugares</h4>
+                <p>Alpes, Nymphenburg & Allianz Arena</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <main class="app-container">
+
+        <!-- ================= INTRICATE MAP SECTION ================= -->
+        <section id="map-view" class="map-section">
+            <div class="section-head">
+                <span class="section-tag"><i class="fa-solid fa-location-dot"></i> Navegação & Trajetos Detalhados</span>
+                <h2 class="section-heading">Mapa Interativo da Rota</h2>
+                <p class="section-desc">Clica em qualquer ponto ou rota para ver as fotografias reais, horários e direções no Google Maps.</p>
+            </div>
+
+            <div class="map-wrapper glass-panel">
+                <!-- Location Filters -->
+                <div class="map-controls-bar">
+                    <div class="map-filters" id="map-filters">
+                        <button class="map-filter-btn active" data-filter="all"><i class="fa-solid fa-layer-group"></i> Toda a Viagem</button>
+                        <button class="map-filter-btn" data-filter="lisbon"><i class="fa-solid fa-plane-departure"></i> 🇵🇹 Lisboa (LIS)</button>
+                        <button class="map-filter-btn" data-filter="vienna"><i class="fa-solid fa-landmark"></i> 🇦🇹 Viena</button>
+                        <button class="map-filter-btn" data-filter="augsburg"><i class="fa-solid fa-house"></i> 🇩🇪 Augsburg Base</button>
+                        <button class="map-filter-btn" data-filter="alps"><i class="fa-solid fa-mountain"></i> 🏔️ Alpes, Eibsee & Oberammergau</button>
+                        <button class="map-filter-btn" data-filter="rothenburg"><i class="fa-solid fa-chess-rook"></i> 🏰 Rothenburg & Vilas</button>
+                        <button class="map-filter-btn" data-filter="munich"><i class="fa-solid fa-beer-mug-empty"></i> 🍺 Munique, Palácio & Estádio</button>
+                    </div>
+                    <span style="font-size: 0.78rem; color: var(--text-dim);"><i class="fa-solid fa-route"></i> 6 Traçados & 32 Pins com Fotos</span>
+                </div>
+
+                <!-- Scenic Route Line Selectors -->
+                <div class="map-routes-bar">
+                    <span style="font-size: 0.74rem; font-weight: 700; text-transform: uppercase; color: var(--text-dim); margin-right: 0.2rem;">Traçados:</span>
+                    <button class="map-route-pill active" data-route="all"><i class="fa-solid fa-globe"></i> Todas as Linhas</button>
+                    <button class="map-route-pill" data-route="flight-in"><i class="fa-solid fa-plane-arrival"></i> ✈️ Voo LIS ➔ VIE</button>
+                    <button class="map-route-pill" data-route="ice"><i class="fa-solid fa-train"></i> 🚆 Comboio Railjet Viena ➔ Augsburg</button>
+                    <button class="map-route-pill" data-route="alps"><i class="fa-solid fa-mountain"></i> 🏔️ Circuito Alpes, Eibsee & Ettal</button>
+                    <button class="map-route-pill" data-route="romantic"><i class="fa-solid fa-chess-rook"></i> 🏰 Circuito Medieval a Rothenburg</button>
+                    <button class="map-route-pill" data-route="munich-train"><i class="fa-solid fa-beer-mug-empty"></i> 🍺 Excursão Oktoberfest Munique</button>
+                    <button class="map-route-pill" data-route="flight-out"><i class="fa-solid fa-plane-departure"></i> ✈️ Nymphenburg, Allianz Arena ➔ Aeroporto MUC</button>
+                </div>
+
+                <div id="interactive-map"></div>
+
+                <div class="map-legend-bar">
+                    <div class="legend-item"><span class="legend-line" style="background: #38bdf8;"></span> Corredores de Voo TAP (LIS ➔ VIE / MUC ➔ LIS)</div>
+                    <div class="legend-item"><span class="legend-line" style="background: #818cf8;"></span> Linha Férrea Railjet Xpress de Alta Velocidade</div>
+                    <div class="legend-item"><span class="legend-line" style="background: #10b981;"></span> Circuito Alpino dos Lagos, Castelos & Oberammergau</div>
+                    <div class="legend-item"><span class="legend-line" style="background: #f59e0b;"></span> Circuito das Vilas Medievais da Baviera</div>
+                    <div class="legend-item"><span class="legend-line" style="background: #ea580c;"></span> Bayern-Ticket Munique</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ITINERARY SECTION ================= -->
+        <section id="itinerary" class="itinerary-section">
+            <div class="section-head">
+                <span class="section-tag"><i class="fa-solid fa-calendar-days"></i> Cronograma Passo a Passo</span>
+                <h2 class="section-heading">Roteiro Dia-a-Dia</h2>
+                <p class="section-desc">Todos os horários verificados, tempos de deslocação e fotografias reais de cada paragem.</p>
+            </div>
+
+            <!-- Day Selector Tabs -->
+            <div class="day-selector-bar" id="day-selector">
+                <div class="day-tab-card active" data-day="1">
+                    <div class="day-tab-top"><span>Dia 1</span><span>Qua 23</span></div>
+                    <div class="day-tab-title">✈️ Viena & Festa</div>
+                    <div class="day-tab-badge"><i class="fa-solid fa-moon"></i> Bermudadreieck</div>
+                </div>
+                <div class="day-tab-card" data-day="2">
+                    <div class="day-tab-top"><span>Dia 2</span><span>Qui 24</span></div>
+                    <div class="day-tab-title">🏰 Schönbrunn & Prater</div>
+                    <div class="day-tab-badge"><i class="fa-solid fa-martini-glass"></i> Rooftop Das Loft</div>
+                </div>
+                <div class="day-tab-card" data-day="3">
+                    <div class="day-tab-top"><span>Dia 3</span><span>Sex 25</span></div>
+                    <div class="day-tab-title">🚆 Railjet ➔ Augsburg</div>
+                    <div class="day-tab-badge"><i class="fa-solid fa-car"></i> Carro & 7 Amigos</div>
+                </div>
+                <div class="day-tab-card" data-day="4">
+                    <div class="day-tab-top"><span>Dia 4</span><span>Sáb 26</span></div>
+                    <div class="day-tab-title">🏔️ Alpes & Eibsee</div>
+                    <div class="day-tab-badge"><i class="fa-solid fa-mountain"></i> Oberammergau</div>
+                </div>
+                <div class="day-tab-card" data-day="5">
+                    <div class="day-tab-top"><span>Dia 5</span><span>Dom 27</span></div>
+                    <div class="day-tab-title">🏰 Rothenburg</div>
+                    <div class="day-tab-badge"><i class="fa-solid fa-shield-halved"></i> Vila Medieval</div>
+                </div>
+                <div class="day-tab-card" data-day="6">
+                    <div class="day-tab-top"><span>Dia 6</span><span>Seg 28</span></div>
+                    <div class="day-tab-title">🍺 OKTOBERFEST!</div>
+                    <div class="day-tab-badge"><i class="fa-solid fa-bolt"></i> BMW, Surf & Centro</div>
+                </div>
+                <div class="day-tab-card" data-day="7">
+                    <div class="day-tab-top"><span>Dia 7</span><span>Ter 29</span></div>
+                    <div class="day-tab-title">⚽ Nymphenburg & Allianz</div>
+                    <div class="day-tab-badge"><i class="fa-solid fa-plane"></i> Regresso Lisboa</div>
+                </div>
+            </div>
+
+            <!-- Search and Filter Pills -->
+            <div class="itinerary-filter-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="itinerary-search" placeholder="Pesquisar atrações, cervejas, comboios...">
+                </div>
+                <div class="tag-pills" id="category-pills">
+                    <button class="tag-pill active" data-cat="all">Todos</button>
+                    <button class="tag-pill" data-cat="cultura">🏛️ Cultura</button>
+                    <button class="tag-pill" data-cat="festa">🍸 Noite & Cerveja</button>
+                    <button class="tag-pill" data-cat="comida">🍴 Comida</button>
+                    <button class="tag-pill" data-cat="transporte">🚗 Transportes</button>
+                </div>
+            </div>
+
+            <!-- ================= DAY 1 CONTENT ================= -->
+            <div class="day-view-container active" id="day-view-1">
+                <div class="day-hero-banner glass-panel">
+                    <img src="img/vienna_stephansdom_1786477232698.jpg" alt="Viena Stephansdom" class="enlargeable">
+                    <div class="day-banner-content">
+                        <span class="day-banner-tag">QUA 23 SETEMBRO • DIA 1</span>
+                        <h3 class="day-banner-title">Partida de Lisboa, Chegada a Viena & Noite de Festa</h3>
+                        <div class="day-banner-meta">
+                            <span><i class="fa-solid fa-plane-departure"></i> LIS (08:05) ➔ VIE (12:35)</span>
+                            <span><i class="fa-solid fa-hotel"></i> Judengasse 11</span>
+                            <span><i class="fa-solid fa-martini-glass"></i> Bermudadreieck</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-stream">
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">✈️ 08:05 → 12:35</span>
+                                    <span class="category-pill">Voo TAP TP 1270</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Partida de Lisboa (LIS) ➔ Viena (VIE)</h4>
+                            <p class="node-text">Encontro no Terminal 1 do Aeroporto Humberto Delgado em Lisboa às 06:15. Voo direto TAP TP 1270 com destino a Viena (3h 30m). Chegada ao meio-dia a Viena.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/lisbon_airport.jpg" alt="Aeroporto de Lisboa">
+                                <div class="timeline-img-overlay"><span>Aeroporto Humberto Delgado Lisboa (LIS)</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                            <div class="node-actions">
+                                <a href="https://maps.google.com/?q=Lisbon+Airport+LIS" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Aeroporto de Lisboa</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TRANSFER OPTIONS COMPARISON -->
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill train">🚆 12:35 → 13:40</span>
+                                    <span class="category-pill">Transfer Aeroporto ➔ Judengasse 11</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Chegada ao Aeroporto VIE: Escolha do Transfer</h4>
+                            <p class="node-text"><em>⚠️ Nota sobre obras:</em> A linha de S-Bahn Stammstrecke estará em obras a partir de 7 de setembro de 2026. Apresentamos abaixo as duas melhores opções viáveis para o grupo:</p>
+
+                            <div class="transfer-options-grid">
+                                <div class="transfer-opt-card">
+                                    <div class="transfer-opt-head">
+                                        <strong style="color: var(--accent-emerald);">Opção A: Railjet + Metro</strong>
+                                        <span class="transfer-badge recommended">Recomendada</span>
+                                    </div>
+                                    <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.4rem;">
+                                        <strong>Comboio ÖBB Railjet (RJ/RJX)</strong> direto da cave do aeroporto até <em>Wien Hauptbahnhof</em> (16 min, ~€4.40) + <strong>Metro U1 direto</strong> até <em>Schwedenplatz / Stephansplatz</em> (5 min).
+                                    </p>
+                                    <span style="font-size: 0.76rem; color: var(--text-dim);">⚡ Tempo: ~25 min | Custo: ~€4.40/pessoa</span>
+                                </div>
+
+                                <div class="transfer-opt-card">
+                                    <div class="transfer-opt-head">
+                                        <strong style="color: var(--accent-blue);">Opção B: Autocarro VAL 2</strong>
+                                        <span class="transfer-badge direct">Direto à Porta</span>
+                                    </div>
+                                    <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.4rem;">
+                                        <strong>Vienna Airport Lines (Linha VAL 2)</strong>: autocarro expresso direto que sai à porta do terminal e deixa na paragem <em>Morzinplatz / Schwedenplatz</em> (100m a pé do apartamento).
+                                    </p>
+                                    <span style="font-size: 0.76rem; color: var(--text-dim);">🧳 Tempo: ~22 min | Custo: ~€10.50/pessoa | Sem transbordos</span>
+                                </div>
+                            </div>
+
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/vienna_airport.jpg" alt="Aeroporto de Viena">
+                                <div class="timeline-img-overlay"><span>Flughafen Wien Schwechat (VIE)</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🔑 13:45 → 14:30</span>
+                                    <span class="category-pill">Check-in</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Central City Apartments (Judengasse 11)</h4>
+                            <p class="node-text">Alojamento no coração histórico de Viena. Apenas 300m a pé da estação <em>Schwedenplatz</em> / <em>Morzinplatz</em> e a 50m dos melhores bares do Bermudadreieck!</p>
+                            <div class="node-actions">
+                                <a href="https://maps.google.com/?q=Judengasse+11+1010+Wien+Austria" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Abrir Judengasse 11</a>
+                                <button class="btn-action-sm copy-addr" data-clipboard="Judengasse 11, 1010 Wien, Austria"><i class="fa-regular fa-copy"></i> Copiar Morada</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura comida">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">⛪ 14:30 → 18:30</span>
+                                    <span class="category-pill">Monumentos a Pé</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Catedral Stephansdom, Graben, Hofburg & Volksgarten</h4>
+                            <p class="node-text">Tudo a menos de 500m do apartamento! Subida à torre da <strong>Stephansdom</strong> para a vista 360°, passeio pelas ruas pedonais <em>Graben</em> e <em>Kohlmarkt</em>, complexo do Palácio Imperial dos Habsburgos e jardins do <em>Volksgarten</em>.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/vienna_stephansdom_1786477232698.jpg" alt="Stephansdom Viena">
+                                <div class="timeline-img-overlay"><span>Catedral de São Estêvão (Stephansdom)</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                            <div class="node-actions">
+                                <a href="https://maps.google.com/?q=Stephansdom+Vienna" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Ver no Mapa</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="festa">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill party">🍹 18:30 → 20:30</span>
+                                    <span class="category-pill">Sunset & Pré-Copos</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Pré-Copos no Canal do Danúbio (Donaukanal)</h4>
+                            <p class="node-text">A 300m a pé (3 min) do apartamento. Esplanadas, graffiti street art, areia e cocktails à beira d'água. Bares recomendados: <em>Tel Aviv Beach</em> ou <em>Strandbar Herrmann</em>.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/donaukanal_vienna_1786477802836.jpg" alt="Donaukanal Viena">
+                                <div class="timeline-img-overlay"><span>Donaukanal Sunset Bars</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="festa">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill party">🍸 21:00 → Madrugada</span>
+                                    <span class="category-pill">Noite Épica</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Bermudadreieck & Clubbing (Volksgarten / FLEX)</h4>
+                            <p class="node-text">O "Triângulo das Bermudas" fica literalmente à porta de casa! Rota de bares com imperial austríaca (Ottakringer/Stiegl). Depois, clubbing no <strong>Volksgarten Club</strong> (nos jardins imperiais) ou <strong>FLEX</strong> (a 800m a pé ao longo do canal, Augartenbrücke 1).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= DAY 2 CONTENT ================= -->
+            <div class="day-view-container" id="day-view-2">
+                <div class="day-hero-banner glass-panel">
+                    <img src="img/schonbrunn_palace_1786477746840.jpg" alt="Schonbrunn Palace" class="enlargeable">
+                    <div class="day-banner-content">
+                        <span class="day-banner-tag">QUI 24 SETEMBRO • DIA 2</span>
+                        <h3 class="day-banner-title">Palácio Schönbrunn, Prater & Rooftop Das Loft</h3>
+                        <div class="day-banner-meta">
+                            <span><i class="fa-solid fa-mug-hot"></i> Brunch Haas & Haas</span>
+                            <span><i class="fa-solid fa-ferris-wheel"></i> Schweizerhaus</span>
+                            <span><i class="fa-solid fa-martini-glass-citrus"></i> Das Loft 18º</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-stream">
+                    <div class="timeline-node" data-category="comida">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🥐 10:30 → 12:30</span>
+                                    <span class="category-pill">Brunch & Café</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Brunch no Haas & Haas & Provar Sachertorte</h4>
+                            <p class="node-text">Acordar sem pressas e tomar um grande brunch no pátio escondido do <em>Haas & Haas</em> (Stephansplatz 4). A seguir, provar a icónica <strong>Sachertorte</strong> no Café Sacher ou na pastelaria imperial <em>Gerstner</em>.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🏰 12:45 → 15:30</span>
+                                    <span class="category-pill">Palácio Imperial</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Palácio & Jardins de Schönbrunn</h4>
+                            <p class="node-text">Metro U4 de Schwedenplatz direto até Schönbrunn (15 min de viagem + 5 min a pé até aos portões). Residência de verão dos Habsburgos e de Sissi. Caminhada pelos jardins barrocos até à <strong>Gloriette</strong> para uma vista inesquecível de Viena.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/schonbrunn_palace_1786477746840.jpg" alt="Schonbrunn">
+                                <div class="timeline-img-overlay"><span>Palácio e Jardins de Schönbrunn</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura comida">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🎡 16:00 → 19:30</span>
+                                    <span class="category-pill">Parque & Jantar</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Wiener Prater & Jantar de Grupo no Schweizerhaus</h4>
+                            <p class="node-text">Entrada livre no parque de diversões Prater. Andar na centenária <strong>Roda Gigante Riesenrad</strong>. Jantar no lendário <strong>Schweizerhaus</strong> com pernis de porco estaladiços (<em>Stelze</em>) e cerveja Budweiser de pressão.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/wiener_prater_1786477757000.jpg" alt="Wiener Prater">
+                                <div class="timeline-img-overlay"><span>Wiener Prater Riesenrad & Schweizerhaus</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="festa">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill party">🍸 20:00 → 23:00</span>
+                                    <span class="category-pill">Rooftop 360°</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Cocktails no Rooftop Das Loft (SO/ Vienna)</h4>
+                            <p class="node-text">No 18º andar (Praterstraße 1, Leopoldstadt), a 650m a pé (8 min) do alojamento atravessando a ponte Schwedenbrücke. Vista panorâmica espetacular sobre a cidade iluminada e teto de vidro multicolorido.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/das_loft_vienna.jpg" alt="Das Loft Vienna">
+                                <div class="timeline-img-overlay"><span>Rooftop Bar Das Loft Viena</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= DAY 3 CONTENT ================= -->
+            <div class="day-view-container" id="day-view-3">
+                <div class="day-hero-banner glass-panel">
+                    <img src="img/ice_train_austria.jpg" alt="Comboio Railjet" class="enlargeable">
+                    <div class="day-banner-content">
+                        <span class="day-banner-tag">SEX 25 SETEMBRO • DIA 3</span>
+                        <h3 class="day-banner-title">Comboio Railjet Xpress ➔ Augsburg & Levantamento do Carro</h3>
+                        <div class="day-banner-meta">
+                            <span><i class="fa-solid fa-train"></i> Railjet RJX + ICE (~4h 50m)</span>
+                            <span><i class="fa-solid fa-car"></i> Enterprise 7 Lugares</span>
+                            <span><i class="fa-solid fa-people-group"></i> 7 Amigos Reunidos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-stream">
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill train">🚆 12:50 → 17:35</span>
+                                    <span class="category-pill">Comboio Railjet Xpress + ICE</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Wien Hauptbahnhof ➔ Augsburg Hauptbahnhof (via München)</h4>
+                            <p class="node-text">Viagem panorâmica a bordo do veloz <strong>ÖBB Railjet Xpress (RJX)</strong> de Wien Hbf até München Hbf (cruzando Linz e Salzburgo com Wi-Fi e restaurante a bordo). Transbordo simples de 15-20 min em München Hbf para a ligação a Augsburg Hbf (chegada às 17:35).</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/ice_train_austria.jpg" alt="Comboio Railjet">
+                                <div class="timeline-img-overlay"><span>ÖBB Railjet Xpress (Áustria ➔ Munique ➔ Augsburg)</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill car">🚗 17:40 → 18:15</span>
+                                    <span class="category-pill">Enterprise Rent-A-Car</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Levantamento do Carro de 7 Lugares (Aindlinger Str. 14)</h4>
+                            <p class="node-text">Apanhar táxi na praça da estação de Augsburg direto até à agência Enterprise (5.5 km, ~8 min).</p>
+                            
+                            <div class="callout-box warning">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <div><strong>Atenção à Hora de Fecho:</strong> A agência fecha impreterivelmente às <strong>18:00</strong> às sextas-feiras. Convém ter o táxi já chamado ou avisar a agência de uma tolerância de 10 minutos se o comboio atrasar.</div>
+                            </div>
+
+                            <div class="node-actions">
+                                <a href="https://maps.google.com/?q=Enterprise+Rent-A-Car+Augsburg+Aindlinger+Strasse+14" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Enterprise Augsburg</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="festa comida">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill party">🔑 18:30 → Noite</span>
+                                    <span class="category-pill">Reunião do Grupo!</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Check-in no Lexapartments & Jantar dos 7 em Augsburg</h4>
+                            <p class="node-text">Apartamento espaçoso de 101m² no centro histórico de Augsburg (Am Bogen 6). Encontro com os 3 amigos que se juntam na Alemanha! Jantar e brinde inaugural bávaro na Rathausplatz.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/augsburg_oldtown.jpg" alt="Augsburg Rathausplatz">
+                                <div class="timeline-img-overlay"><span>Centro Histórico de Augsburg (Rathausplatz)</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                            <div class="node-actions">
+                                <a href="https://maps.google.com/?q=Am+Bogen+6+86152+Augsburg+Germany" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Lexapartments Augsburg</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= DAY 4 CONTENT ================= -->
+            <div class="day-view-container" id="day-view-4">
+                <div class="day-hero-banner glass-panel">
+                    <img src="img/neuschwanstein_castle_1786477245568.jpg" alt="Neuschwanstein" class="enlargeable">
+                    <div class="day-banner-content">
+                        <span class="day-banner-tag">SÁB 26 SETEMBRO • DIA 4</span>
+                        <h3 class="day-banner-title">Rota dos Alpes: Neuschwanstein, Lago Eibsee & Oberammergau</h3>
+                        <div class="day-banner-meta">
+                            <span><i class="fa-solid fa-route"></i> 285 km Roadtrip</span>
+                            <span><i class="fa-solid fa-bridge"></i> Marienbrücke</span>
+                            <span><i class="fa-solid fa-water"></i> Lago Eibsee</span>
+                            <span><i class="fa-solid fa-palette"></i> Oberammergau</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-stream">
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill car">🚗 08:45 → 10:15</span>
+                                    <span class="category-pill">Condução Cénica</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Augsburg ➔ Castelo de Neuschwanstein (Füssen)</h4>
+                            <p class="node-text">105 km pela estrada federal B17 (~1h 30m de condução realista cruzando aldeias alpinas). Paragem nos parques de estacionamento oficiais de Hohenschwangau aos pés do castelo.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/hohenschwangau.jpg" alt="Hohenschwangau e Alpsee">
+                                <div class="timeline-img-overlay"><span>Castelo de Hohenschwangau & Lago Alpsee</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🏰 10:15 → 13:30</span>
+                                    <span class="category-pill">Castelo de Conto de Fadas</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Castelo de Neuschwanstein & Ponte Marienbrücke</h4>
+                            <p class="node-text">O castelo de conto de fadas do Rei Ludwig II que inspirou a Disney! Caminhada ou autocarro até à <strong>Ponte Marienbrücke</strong> suspensa sobre a garganta do desfiladeiro para a foto inesquecível.</p>
+                            
+                            <div class="callout-box critical">
+                                <i class="fa-solid fa-ticket"></i>
+                                <div><strong>Reserva Obrigatória de Bilhetes:</strong> As visitas guiadas ao interior do castelo esgotam com semanas de antecedência. É indispensável reservar previamente no site oficial <a href="https://www.hohenschwangau.de" target="_blank" style="color: var(--accent-blue); text-decoration: underline;">hohenschwangau.de</a>. Chegar ao Ticket Center 90 min antes do horário da visita!</div>
+                            </div>
+
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/neuschwanstein_castle_1786477245568.jpg" alt="Castelo Neuschwanstein">
+                                <div class="timeline-img-overlay"><span>Castelo de Neuschwanstein</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura comida">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill car">🌊 13:45 → 17:00</span>
+                                    <span class="category-pill">Lago Alpino Turquesa</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Lago Eibsee aos pés da Zugspitze (2.962m)</h4>
+                            <p class="node-text">63 km de condução alpina pela B23 (~55m). Lago de águas cristalinas aos pés da montanha mais alta da Alemanha. Passeio pelas margens, fotos com reflexos dos Alpes e cerveja na esplanada.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/eibsee_lake_1786477275785.jpg" alt="Lago Eibsee">
+                                <div class="timeline-img-overlay"><span>Lago Eibsee & Zugspitze</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill car">🎨 17:15 → 18:30</span>
+                                    <span class="category-pill">Aldeia dos Frescos & Abadia</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Aldeia Histórica de Oberammergau & Abadia de Ettal</h4>
+                            <p class="node-text">No trajeto de regresso pela B23 (25 km do Eibsee). Paragem cénica na famosa vila alpina célebre pelas fachadas pintadas (<em>Lüftlmalerei</em>) com contos tradicionais e espreitar a imponente Abadia barroca de Ettal.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/oberammergau_alps.jpg" alt="Oberammergau Aldeia dos Frescos">
+                                <div class="timeline-img-overlay"><span>Aldeia Histórica de Oberammergau</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= DAY 5 CONTENT ================= -->
+            <div class="day-view-container" id="day-view-5">
+                <div class="day-hero-banner glass-panel">
+                    <img src="img/rothenburg_tauber_1786477768269.jpg" alt="Rothenburg" class="enlargeable">
+                    <div class="day-banner-content">
+                        <span class="day-banner-tag">DOM 27 SETEMBRO • DIA 5</span>
+                        <h3 class="day-banner-title">Circuito Medieval: Rothenburg ob der Tauber</h3>
+                        <div class="day-banner-meta">
+                            <span><i class="fa-solid fa-chess-rook"></i> Vilas Medievais</span>
+                            <span><i class="fa-solid fa-camera"></i> Plönlein</span>
+                            <span><i class="fa-solid fa-cookie"></i> Schneeballen</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-stream">
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill car">🚗 10:00 → 11:30</span>
+                                    <span class="category-pill">Viagem de Carro</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Augsburg ➔ Rothenburg ob der Tauber</h4>
+                            <p class="node-text">155 km rumo ao norte pela autoestrada A7 pelo circuito medieval, passando pelas históricas cidades muralhadas de Donauwörth, Harburg, Nördlingen e Dinkelsbühl.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/dinkelsbuhl.jpg" alt="Dinkelsbühl Vila Medieval">
+                                <div class="timeline-img-overlay"><span>Vila Medieval de Dinkelsbühl</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura comida">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🏰 11:30 → 16:30</span>
+                                    <span class="category-pill">Vila Medieval & Gastronomia</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Muralhas Históricas, Praça Plönlein & Schneeballen</h4>
+                            <p class="node-text">Caminhada ao longo das muralhas do século XIV, casas de enxaimel coloridas, almoço em taberna tradicional (<em>Fränkische Bratwurst</em>) e prova dos famosos doces <strong>Schneeballen</strong>.</p>
+                            
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-circle-info"></i>
+                                <div><strong>Nota de Domingo (Sonntagsruhe):</strong> As lojas de comércio comum fecham ao domingo na Alemanha. No entanto, em Rothenburg todos os monumentos, museus, muralhas, restaurantes, pastelarias de Schneeballen e lojas de souvenirs turísticas estão abertos!</div>
+                            </div>
+
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/rothenburg_tauber_1786477768269.jpg" alt="Rothenburg Plönlein">
+                                <div class="timeline-img-overlay"><span>Praça Plönlein em Rothenburg ob der Tauber</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= DAY 6 CONTENT ================= -->
+            <div class="day-view-container" id="day-view-6">
+                <div class="day-hero-banner glass-panel">
+                    <img src="img/munich_oktoberfest_1786477260028.jpg" alt="Oktoberfest" class="enlargeable">
+                    <div class="day-banner-content">
+                        <span class="day-banner-tag" style="background: var(--gradient-oktober);">SEG 28 SETEMBRO • DIA 6</span>
+                        <h3 class="day-banner-title">BMW, Centro de Munique, Surf no Rio & OKTOBERFEST! 🍺</h3>
+                        <div class="day-banner-meta">
+                            <span><i class="fa-solid fa-car"></i> BMW & Olympiapark</span>
+                            <span><i class="fa-solid fa-water"></i> Eisbachwelle</span>
+                            <span><i class="fa-solid fa-beer-mug-empty"></i> Theresienwiese</span>
+                            <span><i class="fa-solid fa-train"></i> 2x Bayern-Ticket</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-stream">
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill train">🚆 09:17 → 09:55</span>
+                                    <span class="category-pill">Comboio Regional RE</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Augsburg Hbf ➔ München Hbf (2x Bayern-Ticket)</h4>
+                            <p class="node-text">Viagem rápida de 38 min. Como cada Bayern-Ticket cobre no máximo 5 passageiros, compramos <strong>2 bilhetes</strong> (1 de 5 pax ~€74 + 1 de 2 pax ~€44 = ~€118 total grupo), garantindo transporte ilimitado durante o dia inteiro em comboios regionais, metro e elétricos de Munique. Carro em segurança no apartamento.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🏎️ 10:15 → 11:45</span>
+                                    <span class="category-pill">Entrada Grátis</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">BMW Welt & Parque Olímpico (Olympiapark 1972)</h4>
+                            <p class="node-text">Metro U3 direto até <em>Olympiazentrum</em>. Pavilhão com superdesportivos BMW M, Rolls-Royce, MINI e motos de alta tecnologia. Caminhada rápida pela passarela para ver a cobertura em tenda futurista do Parque Olímpico de 1972.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/bmw_welt_1786477793413.jpg" alt="BMW Welt e Olympiapark">
+                                <div class="timeline-img-overlay"><span>BMW Welt & Olympiapark Munique</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🏛️ 12:05 → 13:00</span>
+                                    <span class="category-pill">Centro Histórico & Miradouro</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Marienplatz, Catedral Frauenkirche & Peterskirche</h4>
+                            <p class="node-text">Metro U3 até à <strong>Marienplatz</strong> com a sua câmara neo-gótica e o Glockenspiel. Caminhada pelas ruas históricas até às icónicas torres com cúpulas da <strong>Frauenkirche</strong> e vista panorâmica a partir da igreja de São Pedro (<em>Alter Peter</em>).</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/marienplatz_munich_1786477812668.jpg" alt="Marienplatz e Centro de Munique">
+                                <div class="timeline-img-overlay"><span>Marienplatz, Neues Rathaus & Torres de Munique</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="comida">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🥨 13:00 → 14:15</span>
+                                    <span class="category-pill">Almoço Bávaro & Cervejaria 1589</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Almoço no Viktualienmarkt & Cervejaria Hofbräuhaus</h4>
+                            <p class="node-text">Almoço no tradicional <strong>Viktualienmarkt</strong> com <em>Weißwurst</em>, mostarda doce, pretzels gigantes e queijo <em>Obatzda</em>. Paragem a 4 min na lendária cervejaria histórica <strong>Hofbräuhaus am Platzl</strong> (fundada em 1589) para fotos do salão abobadado.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/viktualienmarkt.jpg" alt="Viktualienmarkt">
+                                <div class="timeline-img-overlay"><span>Viktualienmarkt & Hofbräuhaus Platzl</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">🌊 14:15 → 15:00</span>
+                                    <span class="category-pill">Surf no Rio & Jardins</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Eisbachwelle (Surfistas no Rio) & Hofgarten</h4>
+                            <p class="node-text">Uma das atrações mais espetaculares de Munique! Surfistas a apanhar a onda contínua de água doce no canal do rio Eisbach, mesmo à entrada do <em>Englischer Garten</em>, e passeio pelos jardins do <strong>Hofgarten</strong>.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/eisbachwelle_munich.jpg" alt="Eisbachwelle Surf Urbano">
+                                <div class="timeline-img-overlay"><span>Eisbachwelle Surf no Rio (Englischer Garten)</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="festa">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill oktober">🍺 15:15 → 22:30</span>
+                                    <span class="category-pill">Festa Épica!</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">OKTOBERFEST 2026 na Theresienwiese!</h4>
+                            <p class="node-text">O ponto alto da viagem! Tendas lendárias: <strong>Hacker-Pschorr</strong> (Himmel der Bayern), <strong>Augustiner</strong> e <strong>Hofbräu</strong>. Cerveja de litro <em>Maß</em>, frango assado <em>Hendl</em>, cantoria bávara e festa rija!</p>
+                            
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-users"></i>
+                                <div><strong>Dica para 7 Amigos:</strong> Segunda-feira à tarde é o melhor dia para arranjar mesa nos setores livres sem reserva prévia. Entrar nas tendas por volta das 15:00 garante que o grupo se senta todo junto antes da enchente da noite!</div>
+                            </div>
+
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/munich_oktoberfest_1786477260028.jpg" alt="Oktoberfest">
+                                <div class="timeline-img-overlay"><span>Oktoberfest Tendas de Cerveja</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill train">🚆 23:04 → 23:42</span>
+                                    <span class="category-pill">Comboio de Regresso</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Comboio RE: München Hbf ➔ Augsburg Hbf</h4>
+                            <p class="node-text">Regresso tranquilo no comboio regional incluído no Bayern-Ticket (alternativas às 23:36 ou 00:04 se nos atrasarmos). Descanso merecido em Augsburg.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= DAY 7 CONTENT ================= -->
+            <div class="day-view-container" id="day-view-7">
+                <div class="day-hero-banner glass-panel">
+                    <img src="img/nymphenburg_palace.jpg" alt="Palacio Nymphenburg" class="enlargeable">
+                    <div class="day-banner-content">
+                        <span class="day-banner-tag">TER 29 SETEMBRO • DIA 7</span>
+                        <h3 class="day-banner-title">Palácio Nymphenburg, Allianz Arena & Regresso a Lisboa</h3>
+                        <div class="day-banner-meta">
+                            <span><i class="fa-solid fa-landmark"></i> Palácio Nymphenburg</span>
+                            <span><i class="fa-solid fa-futbol"></i> Allianz Arena (Exterior)</span>
+                            <span><i class="fa-solid fa-plane-arrival"></i> TAP TP 555 (20:00 ➔ 22:25)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-stream">
+                    <div class="timeline-node" data-category="cultura transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill car">🏰 10:00 → 13:30</span>
+                                    <span class="category-pill">Palácio Real & Almoço</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Check-Out em Augsburg ➔ Palácio e Jardins de Nymphenburg</h4>
+                            <p class="node-text">Check-out do apartamento em Augsburg às 10:00 com as malas já no carro. Condução tranquila de 45 min (62 km) pela A8 até ao grandioso <strong>Palácio Nymphenburg</strong>, residência barroca de verão da realeza bávara. Caminhada pelos canais, jardins e almoço ligeiro.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/nymphenburg_palace.jpg" alt="Palácio Nymphenburg">
+                                <div class="timeline-img-overlay"><span>Palácio e Jardins de Nymphenburg</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="cultura">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill car">⚽ 14:00 → 15:30</span>
+                                    <span class="category-pill">Estádio Futurista & Megastore</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Allianz Arena (Visita Exterior & FC Bayern Megastore)</h4>
+                            <p class="node-text">Condução de 20 min pela A99 até ao norte de Munique (Fröttmaning). Acesso livre e gratuito à gigantesca esplanada exterior para admirar as famosas almofadas de ETFE do estádio e tirar fotos de grupo. Visita à <strong>FC Bayern Megastore</strong> oficial para lembranças.</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/allianz_arena_munich.jpg" alt="Allianz Arena Munique">
+                                <div class="timeline-img-overlay"><span>Allianz Arena (Esplanada Exterior & Megastore)</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill car">🚗 16:00 → 17:00</span>
+                                    <span class="category-pill">Entrega do Carro</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Allianz Arena ➔ Aeroporto MUC & Devolução Enterprise</h4>
+                            <p class="node-text">Apenas 20 min de condução direta pela autoestrada A92 (28 km). Reabastecer o depósito na bomba junto ao aeroporto e fazer a devolução no <em>Mietwagenzentrum</em> (Terminal 2).</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/munich_airport.jpg" alt="Aeroporto de Munique">
+                                <div class="timeline-img-overlay"><span>Flughafen München (MUC) Terminal 2</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill">✈️ 20:00 → 22:25</span>
+                                    <span class="category-pill">Voo TAP Air Portugal</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Voo TAP TP 555: MUC ➔ LIS</h4>
+                            <p class="node-text">Embarque às 19:20. Voo direto de regresso a Lisboa (2h 25m). Chegada a Lisboa às 22:25 locais. Fim de uma EuroTrip lendária!</p>
+                            <div class="timeline-img-wrapper enlargeable">
+                                <img src="img/lisbon_airport.jpg" alt="Regresso a Lisboa">
+                                <div class="timeline-img-overlay"><span>Chegada a Lisboa (LIS)</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ================= TICKETS & BOOKINGS HUB ================= -->
+        <section id="tickets" class="tickets-section">
+            <div class="section-head">
+                <span class="section-tag" style="color: var(--accent-purple);"><i class="fa-solid fa-ticket"></i> Gestão de Reservas & Passes</span>
+                <h2 class="section-heading">Bilhetes a Comprar & Tratar</h2>
+                <p class="section-desc">Guia completo de todos os bilhetes, prazos de antecedência, links oficiais e caixas de marcação para o grupo.</p>
+            </div>
+
+            <div class="tickets-grid">
+                <!-- Ticket 1: Voos TAP -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge booked">Confirmado</span>
+                            <span style="font-size: 1.2rem;">✈️</span>
+                        </div>
+                        <h3 class="ticket-title">Voos TAP Air Portugal</h3>
+                        <p class="ticket-desc">Voo de ida TP 1270 (LIS ➔ VIE, 23 Set 08:05) e regresso TP 555 (MUC ➔ LIS, 29 Set 20:00).</p>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Plataforma:</span> <strong>flytap.com</strong></div>
+                            <div class="ticket-meta-row"><span>Check-in Online:</span> <strong>36h antes</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_flights" checked disabled>
+                            <span style="font-size: 0.78rem; font-weight: 700; color: var(--accent-emerald);">Comprado</span>
+                        </label>
+                        <a href="https://www.flytap.com" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site TAP</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 2: Carro Enterprise -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge booked">Reservado</span>
+                            <span style="font-size: 1.2rem;">🚐</span>
+                        </div>
+                        <h3 class="ticket-title">Carrinha 7 Lugares (Enterprise)</h3>
+                        <p class="ticket-desc">Levantamento em Augsburg (Aindlinger Str. 14, 25 Set) e devolução no Aeroporto de Munique MUC (29 Set).</p>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Valor Total:</span> <strong>€440,01</strong></div>
+                            <div class="ticket-meta-row"><span>Horário de Fecho:</span> <strong>Sexta 18:00</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_car" checked disabled>
+                            <span style="font-size: 0.78rem; font-weight: 700; color: var(--accent-emerald);">Confirmado</span>
+                        </label>
+                        <a href="https://www.enterprise.de" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Enterprise</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 3: Comboio Railjet Xpress Viena -> Augsburg -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge pending">Comprar 2-3M Antes</span>
+                            <span style="font-size: 1.2rem;">🚆</span>
+                        </div>
+                        <h3 class="ticket-title">Comboio ÖBB Railjet RJX (Wien ➔ Augsburg)</h3>
+                        <p class="ticket-desc">Partida às 12:50 de Wien Hbf com ligação em München Hbf. Comprar tarifa <em>Sparschiene</em> com reserva de assentos contíguos para os 7 amigos.</p>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Estimativa:</span> <strong>~€25 a €45 / pessoa</strong></div>
+                            <div class="ticket-meta-row"><span>Onde Comprar:</span> <strong>App ÖBB ou oebb.at</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_train_rjx" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://www.oebb.at" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-train"></i> Site ÖBB</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 4: Neuschwanstein Castle -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge critical">Crítico: Esgota Rápido</span>
+                            <span style="font-size: 1.2rem;">🏰</span>
+                        </div>
+                        <h3 class="ticket-title">Castelo de Neuschwanstein (Visita Guiada)</h3>
+                        <p class="ticket-desc">Entrada no interior do castelo para Sábado 26 Setembro. Visita guiada com hora marcada. Esgota com várias semanas de antecedência!</p>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Preço Bilhete:</span> <strong>~€18 a €20.50 / pessoa</strong></div>
+                            <div class="ticket-meta-row"><span>Portal Oficial:</span> <strong>hohenschwangau.de</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_neuschwanstein" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://www.hohenschwangau.de" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-ticket"></i> Bilhetes Oficiais</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 5: 2x Bayern-Ticket -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge local">Comprar no Dia 28</span>
+                            <span style="font-size: 1.2rem;">🎫</span>
+                        </div>
+                        <h3 class="ticket-title">2x Bayern-Ticket (Deutsche Bahn)</h3>
+                        <p class="ticket-desc">Necessários 2 bilhetes para cobrir 7 pessoas (1x 5 pax + 1x 2 pax). Viagens ilimitadas no RE Augsburg-Munique e em toda a rede MVV de Munique (Metro, S-Bahn, Tram).</p>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Total 7 Pessoas:</span> <strong>~€118 total grupo</strong></div>
+                            <div class="ticket-meta-row"><span>Onde Comprar:</span> <strong>App DB Navigator</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_bayern" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://www.bahn.de" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-mobile-screen"></i> DB Navigator</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 6: Transfer Aeroporto Viena -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge local">Comprar à Chegada</span>
+                            <span style="font-size: 1.2rem;">🚌</span>
+                        </div>
+                        <h3 class="ticket-title">Transfer Aeroporto VIE (Railjet ou VAL 2)</h3>
+                        <p class="ticket-desc">Opção A (Railjet ÖBB a €4.40 via Wien Hbf + Metro U1) ou Opção B (Autocarro expresso VAL 2 a €10.50 direto a Schwedenplatz/Morzinplatz).</p>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Custo Grupo:</span> <strong>~€31 (Railjet) ou ~€74 (VAL 2)</strong></div>
+                            <div class="ticket-meta-row"><span>Compra:</span> <strong>Máquinas no aeroporto ou app</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_transfer_vie" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://www.viennaairportlines.at" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-bus"></i> Info VAL</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= OKTOBERFEST HUB ================= -->
+        <section id="oktoberfest" class="oktober-section">
+            <div class="section-head">
+                <span class="section-tag" style="color: var(--accent-amber);"><i class="fa-solid fa-beer-mug-empty"></i> Tradição & Festa (19 Set - 4 Out 2026)</span>
+                <h2 class="section-heading">Guia da Oktoberfest 2026</h2>
+                <p class="section-desc">As melhores tendas, regras de ouro e como tirar o máximo partido na Theresienwiese.</p>
+            </div>
+
+            <div class="oktober-grid">
+                <div class="tent-card glass-panel glass-panel-interactive">
+                    <span class="tent-badge">Mais Famosa & Animada</span>
+                    <h3 class="tent-title">Hacker-Pschorr (Himmel der Bayern)</h3>
+                    <p class="tent-details">Teto decorado como o "Céu da Baviera" com nuvens e estrelas. Ambiente jovem, excelente banda ao vivo e cerveja Märzen tradicional de barril de carvalho.</p>
+                    <div class="tent-tags">
+                        <span class="tent-tag-sm">🍻 Cerveja Hacker</span>
+                        <span class="tent-tag-sm">🎶 Música Pop/Brass</span>
+                    </div>
+                </div>
+
+                <div class="tent-card glass-panel glass-panel-interactive">
+                    <span class="tent-badge" style="background: linear-gradient(135deg, #10b981, #059669);">A Mais Autêntica</span>
+                    <h3 class="tent-title">Augustiner Festhalle</h3>
+                    <p class="tent-details">A favorita dos locais de Munique. A única tenda que ainda serve a cerveja exclusivamente a partir de barris de madeira tradicionais (<em>Holzfass</em>).</p>
+                    <div class="tent-tags">
+                        <span class="tent-tag-sm">🍺 Augustiner Edelstoff</span>
+                        <span class="tent-tag-sm">🥨 Ambiente Bávaro Raiz</span>
+                    </div>
+                </div>
+
+                <div class="tent-card glass-panel glass-panel-interactive">
+                    <span class="tent-badge" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">Mais Internacional</span>
+                    <h3 class="tent-title">Hofbräu Festzelt</h3>
+                    <p class="tent-details">A maior e mais enérgica tenda internacional. Uma área de pé (<em>Stehbereich</em>) onde pessoas de todo o mundo cantam em uníssono em cima dos bancos.</p>
+                    <div class="tent-tags">
+                        <span class="tent-tag-sm">🌍 Multidão Global</span>
+                        <span class="tent-tag-sm">🍗 Hendl Assado</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="party-box glass-panel">
+                <button class="btn-toast" id="btn-oktober-toast">
+                    <i class="fa-solid fa-beer-mug-empty"></i> PROST! FAZER UM BRINDE
+                </button>
+                <div class="song-lyrics" id="toast-text">
+                    "Ein Prosit, ein Prosit, der Gemütlichkeit!<br>
+                    Ein Prosit, ein Prosit, der Gemütlichkeit!<br>
+                    Oans, zwoa, drei, g'suffa!" 🍻
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= GASTRONOMY GUIDE ================= -->
+        <section id="gastronomy" class="food-section">
+            <div class="section-head">
+                <span class="section-tag" style="color: var(--accent-emerald);"><i class="fa-solid fa-utensils"></i> Sabores Autênticos</span>
+                <h2 class="section-heading">Guia Gastronómico: O que Comer</h2>
+                <p class="section-desc">Os pratos e sobremesas que não podes deixar de provar na Áustria e na Baviera.</p>
+            </div>
+
+            <div class="food-grid">
+                <div class="food-card glass-panel glass-panel-interactive">
+                    <div class="food-icon">🥩</div>
+                    <div>
+                        <h4>Wiener Schnitzel</h4>
+                        <p>O clássico bife panado fino austríaco, servido com salada de batata morna ou batatas fritas e limão fresco.</p>
+                    </div>
+                </div>
+
+                <div class="food-card glass-panel glass-panel-interactive">
+                    <div class="food-icon">🍰</div>
+                    <div>
+                        <h4>Sachertorte Imperial</h4>
+                        <p>Bolo de chocolate denso com camada de doce de damasco artesanal e cobertura de chocolate crocante com natas batidas.</p>
+                    </div>
+                </div>
+
+                <div class="food-card glass-panel glass-panel-interactive">
+                    <div class="food-icon">🍖</div>
+                    <div>
+                        <h4>Stelze / Schweinshaxe</h4>
+                        <p>Pernil de porco assado no espeto com pele ultra estaladiça, raiz de rábano picante e mostarda. Estrela do Schweizerhaus!</p>
+                    </div>
+                </div>
+
+                <div class="food-card glass-panel glass-panel-interactive">
+                    <div class="food-icon">🥨</div>
+                    <div>
+                        <h4>Weißwurst & Brezn</h4>
+                        <p>Pequeno-almoço bávaro por excelência: salsichas brancas cozidas, mostarda doce Händlmaier e pretzel gigante morno.</p>
+                    </div>
+                </div>
+
+                <div class="food-card glass-panel glass-panel-interactive">
+                    <div class="food-icon">🧀</div>
+                    <div>
+                        <h4>Käsespätzle & Obatzda</h4>
+                        <p>Massa artesanal de ovo com queijo dos Alpes derretido e cebola frita crocante. A pasta de queijo Obatzda é imperdível na cervejaria.</p>
+                    </div>
+                </div>
+
+                <div class="food-card glass-panel glass-panel-interactive">
+                    <div class="food-icon">🍩</div>
+                    <div>
+                        <h4>Schneeballen de Rothenburg</h4>
+                        <p>Doce tradicional de Rothenburg ob der Tauber: tiras de massa frita em forma de bola de neve, cobertas de açúcar em pó ou chocolate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= AUDIO PHRASEBOOK SECTION ================= -->
+        <section id="phrasebook" class="phrase-section">
+            <div class="section-head">
+                <span class="section-tag"><i class="fa-solid fa-headphones"></i> Pronúncia em Tempo Real</span>
+                <h2 class="section-heading">Guia de Frases & Gíria Bávara</h2>
+                <p class="section-desc">Clica no botão de áudio 🔊 para ouvir a voz nativa em alemão e praticar para os bares!</p>
+            </div>
+
+            <div class="phrase-category-nav" id="phrase-tabs">
+                <button class="phrase-tab-btn active" data-filter="all">Todas as Frases</button>
+                <button class="phrase-tab-btn" data-filter="beer">🍺 Cerveja & Oktoberfest</button>
+                <button class="phrase-tab-btn" data-filter="food">🍴 Comida & Restaurantes</button>
+                <button class="phrase-tab-btn" data-filter="slang">💬 Gíria Local Bávara/Austríaca</button>
+            </div>
+
+            <div class="phrases-grid" id="phrases-container">
+                <!-- Dynamically Populated -->
+            </div>
+        </section>
+
+        <!-- ================= WEATHER & PACKING SECTION ================= -->
+        <section id="logistics" class="logistics-hub-section">
+            <div class="section-head">
+                <span class="section-tag"><i class="fa-solid fa-suitcase"></i> Preparação de Viagem</span>
+                <h2 class="section-heading">Meteorologia & Checklist da Mala</h2>
+                <p class="section-desc">Verifica a previsão térmica e marca os itens que já tens prontos na mala.</p>
+            </div>
+
+            <div class="hub-grid">
+                <!-- Weather Predictor -->
+                <div class="weather-card glass-panel" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.2rem; margin-bottom: 0.3rem;"><i class="fa-solid fa-cloud-sun" style="color: var(--accent-gold);"></i> Temperaturas Médias Previstas</h3>
+                    <p style="font-size: 0.82rem; color: var(--text-muted);">Final de Setembro é o início do outono dourado.</p>
+
+                    <div class="weather-cities-grid">
+                        <div class="weather-city-box vienna">
+                            <i class="fa-solid fa-sun"></i>
+                            <strong>Viena</strong>
+                            <div class="weather-temp">19°C</div>
+                            <span style="font-size: 0.72rem; color: var(--text-muted);">Noite: 11°C</span>
+                        </div>
+                        <div class="weather-city-box alps">
+                            <i class="fa-solid fa-wind"></i>
+                            <strong>Alpes / Eibsee</strong>
+                            <div class="weather-temp">14°C</div>
+                            <span style="font-size: 0.72rem; color: var(--text-muted);">Fresco na serra</span>
+                        </div>
+                        <div class="weather-city-box munich">
+                            <i class="fa-solid fa-cloud-sun"></i>
+                            <strong>Munique</strong>
+                            <div class="weather-temp">18°C</div>
+                            <span style="font-size: 0.72rem; color: var(--text-muted);">Noite: 10°C</span>
+                        </div>
+                    </div>
+
+                    <div class="pro-tip" style="margin-top: 1.2rem; margin-bottom: 0; background: rgba(125,125,125,0.06); padding: 0.75rem; border-radius: var(--radius-sm); font-size: 0.82rem; display: flex; gap: 0.6rem; align-items: center;">
+                        <i class="fa-solid fa-shirt" style="color: var(--accent-blue);"></i>
+                        <span>Roupa por camadas: levar casaco corta-vento para os Alpes e sapatilhas confortáveis para caminhar!</span>
+                    </div>
+                </div>
+
+                <!-- Packing Checklist -->
+                <div class="packing-card glass-panel">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <h3 style="font-size: 1.2rem;"><i class="fa-solid fa-suitcase-rolling" style="color: var(--accent-blue);"></i> O que Levar na Mala</h3>
+                        <span id="pack-percent" style="font-size: 0.82rem; font-weight: 700; color: var(--accent-emerald);">0% Pronto</span>
+                    </div>
+
+                    <div class="packing-progress-bar">
+                        <div class="packing-progress-fill" id="pack-progress-fill"></div>
+                    </div>
+
+                    <div class="packing-items-grid" id="packing-checklist">
+                        <!-- Injected by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ACCOMMODATION & FLIGHTS DOSSIER ================= -->
+        <section class="dossier-section">
+            <div class="section-head">
+                <span class="section-tag"><i class="fa-solid fa-passport"></i> Informações Críticas</span>
+                <h2 class="section-heading">Alojamentos, Voos & Emergências</h2>
+                <p class="section-desc">Todos os contactos rápidos e referências de reserva num só local.</p>
+            </div>
+
+            <div class="dossier-grid">
+                <div class="dossier-card glass-panel">
+                    <div class="dossier-icon-top"><i class="fa-solid fa-hotel"></i></div>
+                    <h4>Alojamento Viena (23-25 Set.)</h4>
+                    <p style="font-size: 0.85rem; color: var(--accent-blue); font-weight: 600;">Central City Apartments (Judengasse 11)</p>
+                    <ul class="dossier-meta-list">
+                        <li><i class="fa-solid fa-location-dot"></i> Judengasse 11, 1010 Wien, Áustria</li>
+                        <li><i class="fa-solid fa-train-subway"></i> Acesso: Schwedenplatz (Metro U1, U4) ou VAL 2</li>
+                        <li><i class="fa-solid fa-key"></i> Check-in a partir das 14:00</li>
+                    </ul>
+                </div>
+
+                <div class="dossier-card glass-panel">
+                    <div class="dossier-icon-top"><i class="fa-solid fa-building-user"></i></div>
+                    <h4>Alojamento Alemanha (25-29 Set.)</h4>
+                    <p style="font-size: 0.85rem; color: var(--accent-emerald); font-weight: 600;">Lexapartments Zentral 101m² (Augsburg)</p>
+                    <ul class="dossier-meta-list">
+                        <li><i class="fa-solid fa-location-dot"></i> Am Bogen 6 (R/C), 86152 Augsburg</li>
+                        <li><i class="fa-solid fa-train"></i> 17 min a pé da Augsburg Hauptbahnhof</li>
+                        <li><i class="fa-solid fa-car"></i> Estacionamento público e residencial perto</li>
+                    </ul>
+                </div>
+
+                <div class="dossier-card glass-panel">
+                    <div class="dossier-icon-top"><i class="fa-solid fa-triangle-exclamation" style="color: var(--accent-rose);"></i></div>
+                    <h4>Contactos de Emergência</h4>
+                    <ul class="dossier-meta-list">
+                        <li><i class="fa-solid fa-phone"></i> <strong>112</strong> — Número Europeu Geral</li>
+                        <li><i class="fa-solid fa-car-wrench"></i> Enterprise Assistência 24h: <strong>+49 800 3683777</strong></li>
+                        <li><i class="fa-solid fa-shield"></i> Embaixada de Portugal em Viena: <strong>+43 1 586 75 36</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-flags">🇦🇹 🇩🇪 🇵🇹</div>
+        <p><strong>EuroTrip 2026: Viena & Munique</strong> — 7 amigos, 7 dias, memórias para toda a vida.</p>
+        <div class="footer-links">
+            <a href="#itinerary">Roteiro</a>
+            <a href="#tickets">Bilhetes</a>
+            <a href="#map-view">Mapa</a>
+            <a href="#oktoberfest">Oktoberfest</a>
+            <a href="#gastronomy">Gastronomia</a>
+            <a href="#phrasebook">Frases</a>
+            <a href="#logistics">Logística</a>
+        </div>
+        <p style="font-size: 0.78rem; color: var(--text-dim); margin-top: 0.8rem;">Feito com ❤️ para o melhor grupo de sempre.</p>
+    </footer>
+
+    <!-- Fullscreen Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox-modal">
+        <button class="lightbox-btn-close" id="lightbox-close" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
+        <img src="" alt="Imagem ampliada" id="lightbox-img">
+    </div>
+
+    <!-- Scroll to Top Floating Button -->
+    <button class="btn-scroll-top" id="scroll-top" aria-label="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification Message -->
+    <div class="toast-msg" id="toast-msg">
+        <i class="fa-solid fa-circle-check" style="color: var(--accent-emerald);"></i>
+        <span id="toast-text-msg">Copiado com sucesso!</span>
+    </div>
+
+    <!-- Leaflet Map JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        // ================= 1. THEME SWITCHER (DARK / LIGHT) =================
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        let currentTheme = localStorage.getItem('vm_theme_2026') || 'dark';
+
+        function applyTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('vm_theme_2026', theme);
+            if (theme === 'light') {
+                themeIcon.className = 'fa-solid fa-moon';
+                themeToggle.setAttribute('title', 'Mudar para Modo Escuro');
+            } else {
+                themeIcon.className = 'fa-solid fa-sun';
+                themeToggle.setAttribute('title', 'Mudar para Modo Claro');
+            }
+            updateMapTileLayer(theme);
+        }
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            applyTheme(currentTheme);
+        });
+
+        // ================= 2. COUNTDOWN TIMER =================
+        const takeoffDate = new Date('2026-09-23T08:05:00+01:00').getTime();
+
+        function renderCountdown() {
+            const now = new Date().getTime();
+            const diff = takeoffDate - now;
+
+            if (diff <= 0) {
+                document.getElementById('cd-days').innerText = '00';
+                document.getElementById('cd-hours').innerText = '00';
+                document.getElementById('cd-minutes').innerText = '00';
+                document.getElementById('cd-seconds').innerText = '00';
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('cd-days').innerText = String(days).padStart(2, '0');
+            document.getElementById('cd-hours').innerText = String(hours).padStart(2, '0');
+            document.getElementById('cd-minutes').innerText = String(minutes).padStart(2, '0');
+            document.getElementById('cd-seconds').innerText = String(seconds).padStart(2, '0');
+        }
+        setInterval(renderCountdown, 1000);
+        renderCountdown();
+
+        // ================= 3. NAVBAR SCROLL & MOBILE TOGGLE =================
+        const siteHeader = document.getElementById('site-header');
+        const scrollTopBtn = document.getElementById('scroll-top');
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const toggleIcon = document.getElementById('toggle-icon');
+        const navMenu = document.getElementById('nav-menu');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 40) {
+                siteHeader.classList.add('scrolled');
+            } else {
+                siteHeader.classList.remove('scrolled');
+            }
+
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        function toggleMobileNav() {
+            const isOpen = navMenu.classList.toggle('open');
+            toggleIcon.className = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+        }
+
+        mobileToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleMobileNav();
+        });
+
+        // Close mobile nav on link click
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('open');
+                toggleIcon.className = 'fa-solid fa-bars';
+            });
+        });
+
+        // Close mobile nav on outside click
+        document.addEventListener('click', (e) => {
+            if (!siteHeader.contains(e.target) && navMenu.classList.contains('open')) {
+                navMenu.classList.remove('open');
+                toggleIcon.className = 'fa-solid fa-bars';
+            }
+        });
+
+        // ================= 4. INTRICATE LEAFLET INTERACTIVE MAP =================
+        const mapLocations = [
+            // Lisbon
+            { name: "Aeroporto Humberto Delgado (LIS)", city: "lisbon", iconType: "plane", coords: [38.7742, -9.1342], desc: "Partida do voo TAP TP 1270 às 08:05 e chegada no regresso TP 555 às 22:25.", img: "img/lisbon_airport.jpg" },
+
+            // Vienna
+            { name: "Aeroporto de Viena Schwechat (VIE)", city: "vienna", iconType: "plane", coords: [48.1103, 16.5697], desc: "Chegada do voo TAP TP 1270 às 12:35. Estação do comboio Railjet e autocarro VAL 2.", img: "img/vienna_airport.jpg" },
+            { name: "Stephansdom (Catedral de Viena)", city: "vienna", iconType: "monument", coords: [48.2085, 16.3738], desc: "Catedral gótica no centro histórico e vista 360° a partir da torre.", img: "img/vienna_stephansdom_1786477232698.jpg" },
+            { name: "Palácio de Schönbrunn & Gloriette", city: "vienna", iconType: "castle", coords: [48.1845, 16.3122], desc: "Residência de verão dos Habsburgos, jardins barrocos e vista da Gloriette.", img: "img/schonbrunn_palace_1786477746840.jpg" },
+            { name: "Wiener Prater & Schweizerhaus", city: "vienna", iconType: "beer", coords: [48.2166, 16.3959], desc: "Roda gigante centenária Riesenrad e jantar com pernil de porco assado (Stelze).", img: "img/wiener_prater_1786477757000.jpg" },
+            { name: "Donaukanal Sunset Bars", city: "vienna", iconType: "cocktail", coords: [48.2128, 16.3768], desc: "Beach bars e pré-copos à beira do canal do Danúbio com street art.", img: "img/donaukanal_vienna_1786477802836.jpg" },
+            { name: "Rooftop Bar Das Loft", city: "vienna", iconType: "cocktail", coords: [48.2132, 16.3792], desc: "Cocktail lounge no 18º andar (SO/ Vienna) com vista panorâmica sobre a cidade.", img: "img/das_loft_vienna.jpg" },
+            { name: "Linha Férrea Wien ➔ Augsburg (ÖBB RJX)", city: "vienna", iconType: "train", coords: [48.1852, 16.3764], desc: "Partida do comboio Railjet Xpress às 12:50 com ligação em Munique.", img: "img/ice_train_austria.jpg" },
+
+            // Transit / Augsburg
+            { name: "Augsburg (Base Alemanha & Rathausplatz)", city: "augsburg", iconType: "hotel", coords: [48.3721, 10.8955], desc: "Apartamento base dos 7 amigos (Am Bogen 6) e centro histórico medieval.", img: "img/augsburg_oldtown.jpg" },
+
+            // Bavarian Alps & Lakes
+            { name: "Castelo de Hohenschwangau & Lago Alpsee", city: "alps", iconType: "castle", coords: [47.5558, 10.7360], desc: "Castelo de verão da família real bávara e lago de montanha Alpsee.", img: "img/hohenschwangau.jpg" },
+            { name: "Castelo de Neuschwanstein & Marienbrücke", city: "alps", iconType: "castle", coords: [47.5576, 10.7498], desc: "O castelo de conto de fadas do Rei Ludwig II e miradouro da ponte suspensa.", img: "img/neuschwanstein_castle_1786477245568.jpg" },
+            { name: "Lago Alpino Eibsee & Zugspitze (2.962m)", city: "alps", iconType: "water", coords: [47.4578, 10.9928], desc: "Lago turquesa cristalino aos pés do pico mais alto da Alemanha.", img: "img/eibsee_lake_1786477275785.jpg" },
+            { name: "Oberammergau (Aldeia dos Frescos & Ettal)", city: "alps", iconType: "monument", coords: [47.5967, 11.0633], desc: "Vila com fachadas de frescos alpinos (Lüftlmalerei) e Abadia barroca de Ettal.", img: "img/oberammergau_alps.jpg" },
+
+            // Medieval Towns Circuit
+            { name: "Dinkelsbühl (Muralhas Medievais)", city: "rothenburg", iconType: "road", coords: [49.0694, 10.3197], desc: "Casario medieval preservado do século XIV e muralhas completas com torres.", img: "img/dinkelsbuhl.jpg" },
+            { name: "Rothenburg ob der Tauber (Plönlein)", city: "rothenburg", iconType: "castle", coords: [49.3773, 10.1789], desc: "A jóia medieval mais famosa da Europa, praça Plönlein e doces Schneeballen.", img: "img/rothenburg_tauber_1786477768269.jpg" },
+
+            // Munich & Oktoberfest
+            { name: "BMW Welt & Parque Olímpico 1972", city: "munich", iconType: "car", coords: [48.1768, 11.5592], desc: "Pavilhão com superdesportivos BMW e cobertura futurista do Parque Olímpico.", img: "img/bmw_welt_1786477793413.jpg" },
+            { name: "Marienplatz, Neues Rathaus & Centro de Munique", city: "munich", iconType: "monument", coords: [48.1374, 11.5755], desc: "Coração de Munique com a câmara neo-gótica, Glockenspiel e torres da cidade.", img: "img/marienplatz_munich_1786477812668.jpg" },
+            { name: "Viktualienmarkt & Cervejaria Hofbräuhaus", city: "munich", iconType: "food", coords: [48.1351, 11.5762], desc: "Mercado gastronómico tradicional bávaro e cervejaria histórica fundada em 1589.", img: "img/viktualienmarkt.jpg" },
+            { name: "Eisbachwelle (Surf Urbano no Rio)", city: "munich", iconType: "water", coords: [48.1432, 11.5878], desc: "Surfistas na famosa onda contínua do rio no Englischer Garten e Hofgarten.", img: "img/eisbachwelle_munich.jpg" },
+            { name: "Theresienwiese (OKTOBERFEST 2026)", city: "munich", iconType: "beer", coords: [48.1314, 11.5498], desc: "A maior festa da cerveja do planeta com as lendárias tendas Hacker, Augustiner e Hofbräu!", img: "img/munich_oktoberfest_1786477260028.jpg" },
+
+            // Day 7 Highlights
+            { name: "Palácio de Nymphenburg", city: "munich", iconType: "castle", coords: [48.1582, 11.5036], desc: "Grandioso palácio barroco de verão da realeza bávara, jardins e canais com cisnes.", img: "img/nymphenburg_palace.jpg" },
+            { name: "Allianz Arena (Esplanada Exterior & Megastore)", city: "munich", iconType: "monument", coords: [48.2188, 11.6247], desc: "Estádio do Bayern de Munique: fachada de almofadas ETFE e FC Bayern Megastore.", img: "img/allianz_arena_munich.jpg" },
+            { name: "Aeroporto de Munique (MUC) Terminal 2", city: "munich", iconType: "plane", coords: [48.3537, 11.7750], desc: "Devolução da carrinha Enterprise e voo de regresso TAP TP 555 para Lisboa.", img: "img/munich_airport.jpg" }
+        ];
+
+        let mapInstance = null;
+        let currentTileLayer = null;
+        let mapMarkers = [];
+        let routePolylines = {};
+
+        function updateMapTileLayer(theme) {
+            if (!mapInstance) return;
+            if (currentTileLayer) mapInstance.removeLayer(currentTileLayer);
+
+            const tileUrl = theme === 'light'
+                ? 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
+                : 'https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png';
+
+            currentTileLayer = L.tileLayer(tileUrl, {
+                attribution: '&copy; OpenStreetMap &copy; CARTO',
+                subdomains: 'abcd',
+                maxZoom: 19
+            }).addTo(mapInstance);
+        }
+
+        function initInteractiveMap() {
+            mapInstance = L.map('interactive-map', {
+                center: [48.25, 12.8],
+                zoom: 7,
+                zoomControl: true
+            });
+
+            updateMapTileLayer(currentTheme);
+
+            function getMarkerMeta(loc) {
+                if (loc.iconType === 'plane') return { bg: '#38bdf8', icon: '✈️' };
+                if (loc.iconType === 'train') return { bg: '#818cf8', icon: '🚆' };
+                if (loc.iconType === 'hotel') return { bg: '#a855f7', icon: '🏨' };
+                if (loc.iconType === 'castle') return { bg: '#ec4899', icon: '🏰' };
+                if (loc.iconType === 'beer') return { bg: '#f59e0b', icon: '🍺' };
+                if (loc.iconType === 'water') return { bg: '#06b6d4', icon: '🌊' };
+                if (loc.iconType === 'car') return { bg: '#10b981', icon: '🚗' };
+                if (loc.iconType === 'cocktail') return { bg: '#fb7185', icon: '🍸' };
+                if (loc.iconType === 'food') return { bg: '#f97316', icon: '🍴' };
+                return { bg: '#38bdf8', icon: '📍' };
+            }
+
+            mapLocations.forEach(loc => {
+                const meta = getMarkerMeta(loc);
+                const customIcon = L.divIcon({
+                    className: 'custom-map-pin',
+                    html: `
+                        <div style="background: ${meta.bg}; width: 28px; height: 28px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 14px ${meta.bg}; display: flex; align-items: center; justify-content: center; font-size: 13px; transform: translate(-6px, -6px); cursor: pointer;">
+                            ${meta.icon}
+                        </div>
+                    `,
+                    iconSize: [28, 28],
+                    iconAnchor: [14, 14]
+                });
+
+                const marker = L.marker(loc.coords, { icon: customIcon }).addTo(mapInstance);
+                marker.category = loc.city;
+
+                const popupHtml = `
+                    <div class="popup-card">
+                        ${loc.img ? `<img src="${loc.img}" alt="${loc.name}" class="enlargeable">` : ''}
+                        <h5>${loc.name}</h5>
+                        <p>${loc.desc}</p>
+                        <a href="https://maps.google.com/?q=${encodeURIComponent(loc.name)}" target="_blank" class="popup-btn">
+                            <i class="fa-solid fa-location-arrow"></i> Direções no Google Maps
+                        </a>
+                    </div>
+                `;
+                marker.bindPopup(popupHtml);
+                mapMarkers.push(marker);
+            });
+
+            // Route Polylines
+            const flightInCoords = [
+                [38.7742, -9.1342],
+                [42.5, 2.0],
+                [46.8, 10.5],
+                [48.1103, 16.5697]
+            ];
+            routePolylines['flight-in'] = L.polyline(flightInCoords, {
+                color: '#38bdf8',
+                weight: 3.5,
+                opacity: 0.9,
+                dashArray: '8, 8'
+            }).addTo(mapInstance);
+
+            const iceTrainCoords = [
+                [48.1852, 16.3764], // Wien Hbf
+                [48.2085, 15.6264], // St. Pölten
+                [48.3064, 14.2858], // Linz
+                [47.8131, 13.0458], // Salzburg Hbf
+                [47.8564, 12.1289], // Rosenheim
+                [48.1402, 11.5583], // München Hbf
+                [48.3654, 10.8858]  // Augsburg Hbf
+            ];
+            routePolylines['ice'] = L.polyline(iceTrainCoords, {
+                color: '#818cf8',
+                weight: 4,
+                opacity: 0.95,
+                dashArray: '6, 6'
+            }).addTo(mapInstance);
+
+            const alpsRoadCoords = [
+                [48.3721, 10.8955],
+                [48.0531, 10.8719],
+                [47.7817, 10.8967],
+                [47.5697, 10.7003],
+                [47.5576, 10.7498],
+                [47.5558, 10.7360],
+                [47.4789, 10.8122],
+                [47.4578, 10.9928],
+                [47.4917, 11.0955],
+                [47.5967, 11.0633],
+                [47.6833, 11.2000],
+                [48.3721, 10.8955]
+            ];
+            routePolylines['alps'] = L.polyline(alpsRoadCoords, {
+                color: '#10b981',
+                weight: 4,
+                opacity: 0.95
+            }).addTo(mapInstance);
+
+            const romanticRoadCoords = [
+                [48.3721, 10.8955],
+                [48.7188, 10.7797],
+                [48.7867, 10.6903],
+                [48.8517, 10.4889],
+                [49.0694, 10.3197],
+                [49.1917, 10.2319],
+                [49.3773, 10.1789],
+                [49.2500, 10.4000],
+                [48.3721, 10.8955]
+            ];
+            routePolylines['romantic'] = L.polyline(romanticRoadCoords, {
+                color: '#f59e0b',
+                weight: 4,
+                opacity: 0.95
+            }).addTo(mapInstance);
+
+            const munichLoopCoords = [
+                [48.3654, 10.8858],
+                [48.2000, 11.2500],
+                [48.1402, 11.5583],
+                [48.1768, 11.5592],
+                [48.1374, 11.5755],
+                [48.1432, 11.5878],
+                [48.1314, 11.5498],
+                [48.1402, 11.5583],
+                [48.3654, 10.8858]
+            ];
+            routePolylines['munich-train'] = L.polyline(munichLoopCoords, {
+                color: '#ea580c',
+                weight: 4,
+                opacity: 0.95,
+                dashArray: '4, 4'
+            }).addTo(mapInstance);
+
+            const flightOutCoords = [
+                [48.3721, 10.8955],
+                [48.1582, 11.5036],
+                [48.2188, 11.6247],
+                [48.3537, 11.7750],
+                [45.0, 5.0],
+                [38.7742, -9.1342]
+            ];
+            routePolylines['flight-out'] = L.polyline(flightOutCoords, {
+                color: '#38bdf8',
+                weight: 3.5,
+                opacity: 0.9,
+                dashArray: '8, 8'
+            }).addTo(mapInstance);
+        }
+
+        // Location Filter Buttons
+        document.querySelectorAll('.map-filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.map-filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+
+                const activeCoords = [];
+                mapMarkers.forEach(marker => {
+                    if (filter === 'all' || marker.category === filter) {
+                        marker.addTo(mapInstance);
+                        activeCoords.push(marker.getLatLng());
+                    } else {
+                        mapInstance.removeLayer(marker);
+                    }
+                });
+
+                if (activeCoords.length > 0) {
+                    const bounds = L.latLngBounds(activeCoords);
+                    if (filter === 'all') {
+                        mapInstance.setView([48.25, 12.8], 7);
+                    } else {
+                        mapInstance.fitBounds(bounds, { padding: [50, 50], maxZoom: 13 });
+                    }
+                }
+            });
+        });
+
+        // Scenic Route Selector Pills
+        document.querySelectorAll('.map-route-pill').forEach(pill => {
+            pill.addEventListener('click', () => {
+                document.querySelectorAll('.map-route-pill').forEach(p => p.classList.remove('active'));
+                pill.classList.add('active');
+                const routeKey = pill.dataset.route;
+
+                if (routeKey === 'all') {
+                    Object.values(routePolylines).forEach(poly => poly.addTo(mapInstance));
+                    mapInstance.setView([48.25, 12.8], 7);
+                } else {
+                    Object.entries(routePolylines).forEach(([key, poly]) => {
+                        if (key === routeKey) {
+                            poly.addTo(mapInstance);
+                            mapInstance.fitBounds(poly.getBounds(), { padding: [50, 50] });
+                        } else {
+                            mapInstance.removeLayer(poly);
+                        }
+                    });
+                }
+            });
+        });
+
+        // Initialize App & Apply Theme
+        window.addEventListener('DOMContentLoaded', () => {
+            applyTheme(currentTheme);
+            initInteractiveMap();
+            loadTicketsState();
+        });
+
+        // ================= 5. DAY TABS & TIMELINE FILTER =================
+        const dayTabs = document.querySelectorAll('.day-tab-card');
+        const dayViews = document.querySelectorAll('.day-view-container');
+
+        dayTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const dayNum = tab.dataset.day;
+                dayTabs.forEach(t => t.classList.remove('active'));
+                dayViews.forEach(v => v.classList.remove('active'));
+
+                tab.classList.add('active');
+                const targetView = document.getElementById(`day-view-${dayNum}`);
+                if (targetView) targetView.classList.add('active');
+            });
+        });
+
+        // Category Tag Filter for Timelines
+        const tagPills = document.querySelectorAll('.tag-pill');
+        tagPills.forEach(pill => {
+            pill.addEventListener('click', () => {
+                tagPills.forEach(p => p.classList.remove('active'));
+                pill.classList.add('active');
+                const cat = pill.dataset.cat;
+
+                document.querySelectorAll('.timeline-node').forEach(node => {
+                    const nodeCat = node.dataset.category || '';
+                    if (cat === 'all' || nodeCat.includes(cat)) {
+                        node.style.display = 'block';
+                    } else {
+                        node.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Search in Timeline
+        const itinerarySearch = document.getElementById('itinerary-search');
+        itinerarySearch.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            document.querySelectorAll('.timeline-node').forEach(node => {
+                const text = node.innerText.toLowerCase();
+                if (!query || text.includes(query)) {
+                    node.style.display = 'block';
+                } else {
+                    node.style.display = 'none';
+                }
+            });
+        });
+
+        // ================= 6. AUDIO PHRASEBOOK (WEB SPEECH API) =================
+        const phrasesData = [
+            { german: "Noch eine Maß, bitte!", phonetic: "Nokh áine Mass, bí-te", pt: "Mais um litro de cerveja, por favor!", cat: "beer" },
+            { german: "Oans, zwoa, drei, g'suffa!", phonetic: "Ó-ans, tsvó-a, drái, g'súf-fa", pt: "Um, dois, três, beber até ao fim!", cat: "beer" },
+            { german: "Prost!", phonetic: "Prôst", pt: "À nossa / Saúde!", cat: "beer" },
+            { german: "Die Rechnung, bitte.", phonetic: "Di Rékh-nung, bí-te", pt: "A conta, por favor.", cat: "food" },
+            { german: "Ein Wiener Schnitzel mit Kartoffelsalat.", phonetic: "Áin Ví-ner Shnít-sel mit Kar-tof-fel-sa-lat", pt: "Um bife panado com salada de batata.", cat: "food" },
+            { german: "Zwei Bratwürste mit Senf.", phonetic: "Tsvái Brat-vúrs-te mit Zênf", pt: "Duas salsichas assadas com mostarda.", cat: "food" },
+            { german: "Servus!", phonetic: "Zêr-vus", pt: "Olá / Adeus! (Saudação típica austríaca e bávara)", cat: "slang" },
+            { german: "Gemma!", phonetic: "Guê-ma", pt: "Bora lá! / Vamos embora!", cat: "slang" },
+            { german: "Oachkatzlschwoaf", phonetic: "Ó-akh-kat-zel-shvo-af", pt: "Cauda de esquilo (o teste supremo de pronúncia bávara!)", cat: "slang" },
+            { german: "Wo ist die nächste U-Bahn-Station?", phonetic: "Vô ist di nékh-ste Ú-ban Sta-tsión?", pt: "Onde fica a estação de metro mais próxima?", cat: "food" },
+            { german: "Können wir mit Karte zahlen?", phonetic: "Kôn-nen vir mit Kár-te tsá-len?", pt: "Podemos pagar com cartão?", cat: "food" },
+            { german: "Schleich di!", phonetic: "Shláikh di", pt: "Desaparece! / Sai daqui! (Gíria vienense)", cat: "slang" }
+        ];
+
+        const phrasesContainer = document.getElementById('phrases-container');
+
+        function renderPhrases(filter = 'all') {
+            phrasesContainer.innerHTML = '';
+            phrasesData.forEach(p => {
+                if (filter !== 'all' && p.cat !== filter) return;
+
+                const card = document.createElement('div');
+                card.className = 'phrase-card glass-panel';
+                card.innerHTML = `
+                    <div class="phrase-info">
+                        <h5>${p.german}</h5>
+                        <div class="phrase-phonetic">${p.phonetic}</div>
+                        <div class="phrase-pt">${p.pt}</div>
+                    </div>
+                    <button class="btn-speak" title="Ouvir pronúncia" data-text="${p.german}">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </button>
+                `;
+                phrasesContainer.appendChild(card);
+            });
+
+            document.querySelectorAll('.btn-speak').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const text = btn.dataset.text;
+                    if ('speechSynthesis' in window) {
+                        window.speechSynthesis.cancel();
+                        const utterance = new SpeechSynthesisUtterance(text);
+                        utterance.lang = 'de-DE';
+                        utterance.rate = 0.9;
+                        window.speechSynthesis.speak(utterance);
+                    }
+                });
+            });
+        }
+        renderPhrases();
+
+        // Phrase Tabs
+        document.querySelectorAll('.phrase-tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.phrase-tab-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                renderPhrases(btn.dataset.filter);
+            });
+        });
+
+        // ================= 7. OKTOBERFEST WEB AUDIO TOAST =================
+        const btnToast = document.getElementById('btn-oktober-toast');
+        const toastLyric = document.getElementById('toast-text');
+
+        btnToast.addEventListener('click', () => {
+            try {
+                const ctx = new (window.AudioContext || window.webkitAudioContext)();
+                const notes = [261.63, 329.63, 392.00, 392.00, 329.63, 261.63, 349.23, 392.00, 440.00, 523.25];
+                notes.forEach((freq, idx) => {
+                    const osc = ctx.createOscillator();
+                    const gain = ctx.createGain();
+                    osc.type = 'triangle';
+                    osc.frequency.setValueAtTime(freq, ctx.currentTime + idx * 0.18);
+                    gain.gain.setValueAtTime(0.3, ctx.currentTime + idx * 0.18);
+                    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + idx * 0.18 + 0.22);
+                    osc.connect(gain);
+                    gain.connect(ctx.destination);
+                    osc.start(ctx.currentTime + idx * 0.18);
+                    osc.stop(ctx.currentTime + idx * 0.18 + 0.25);
+                });
+            } catch (e) {}
+
+            toastLyric.innerHTML = "🍻 <strong>PROST!</strong><br>\"Ein Prosit, ein Prosit, der Gemütlichkeit!<br>Ein Prosit, ein Prosit, der Gemütlichkeit!<br>Oans, zwoa, drei, G'SUFFA!\"";
+            showToast("🍻 PROST! Um brinde aos 7 amigos!");
+        });
+
+        // ================= 8. TICKETS LOCALSTORAGE =================
+        function loadTicketsState() {
+            const savedTickets = JSON.parse(localStorage.getItem('vm_tickets_state_2026')) || {};
+            document.querySelectorAll('.tkt-check').forEach(chk => {
+                if (savedTickets[chk.id]) {
+                    chk.checked = true;
+                    chk.nextElementSibling.innerText = 'Comprado ✓';
+                    chk.nextElementSibling.style.color = 'var(--accent-emerald)';
+                    chk.nextElementSibling.style.fontWeight = '700';
+                }
+                chk.addEventListener('change', (e) => {
+                    savedTickets[chk.id] = e.target.checked;
+                    localStorage.setItem('vm_tickets_state_2026', JSON.stringify(savedTickets));
+                    if (e.target.checked) {
+                        chk.nextElementSibling.innerText = 'Comprado ✓';
+                        chk.nextElementSibling.style.color = 'var(--accent-emerald)';
+                        chk.nextElementSibling.style.fontWeight = '700';
+                        showToast('Reserva marcada como concluída!');
+                    } else {
+                        chk.nextElementSibling.innerText = 'Tratado';
+                        chk.nextElementSibling.style.color = 'var(--text-muted)';
+                        chk.nextElementSibling.style.fontWeight = '400';
+                    }
+                });
+            });
+        }
+
+        // ================= 9. PACKING CHECKLIST WITH LOCALSTORAGE =================
+        const defaultPackItems = [
+            { text: "Cartão de Cidadão / Passaporte" },
+            { text: "Cartão de Saúde Europeu (CESD)" },
+            { text: "Powerbank & Cabo USB" },
+            { text: "Casaco Corta-Vento / Chuva" },
+            { text: "Sapatilhas Confortáveis (Caminhada)" },
+            { text: "Roupa de Festa (Volksgarten Club)" },
+            { text: "Camisola Térmica para os Alpes" },
+            { text: "Óculos de Sol & Protetor Solar" },
+            { text: "Adaptador / Carregador Rápido" },
+            { text: "Kit Farmácia (Ben-u-ron, Guronsan)" },
+            { text: "Toalha Compacta / Artigos de Higiene" },
+            { text: "Fones de Ouvido para o Comboio Railjet" }
+        ];
+
+        const checklistContainer = document.getElementById('packing-checklist');
+        const packPercent = document.getElementById('pack-percent');
+        const packProgressFill = document.getElementById('pack-progress-fill');
+        let packState = JSON.parse(localStorage.getItem('vm_pack_state_2026')) || {};
+
+        function renderPackingList() {
+            checklistContainer.innerHTML = '';
+            let checkedCount = 0;
+
+            defaultPackItems.forEach((item, idx) => {
+                const id = `pack_${idx}`;
+                const isChecked = !!packState[id];
+                if (isChecked) checkedCount++;
+
+                const label = document.createElement('label');
+                label.className = 'pack-item-label';
+                label.innerHTML = `
+                    <input type="checkbox" id="${id}" ${isChecked ? 'checked' : ''}>
+                    <span>${item.text}</span>
+                `;
+
+                label.querySelector('input').addEventListener('change', (e) => {
+                    packState[id] = e.target.checked;
+                    localStorage.setItem('vm_pack_state_2026', JSON.stringify(packState));
+                    updatePackProgress();
+                });
+
+                checklistContainer.appendChild(label);
+            });
+
+            updatePackProgress();
+        }
+
+        function updatePackProgress() {
+            const total = defaultPackItems.length;
+            let checked = 0;
+            defaultPackItems.forEach((_, idx) => {
+                if (packState[`pack_${idx}`]) checked++;
+            });
+            const pct = Math.round((checked / total) * 100);
+            packPercent.innerText = `${pct}% Pronto`;
+            packProgressFill.style.width = `${pct}%`;
+        }
+        renderPackingList();
+
+        // ================= 10. LIGHTBOX PHOTO MODAL =================
+        const lightboxModal = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxClose = document.getElementById('lightbox-close');
+
+        function setupLightboxListeners() {
+            document.querySelectorAll('.enlargeable').forEach(el => {
+                el.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const img = el.tagName === 'IMG' ? el : el.querySelector('img');
+                    if (img && img.src) {
+                        lightboxImg.src = img.src;
+                        lightboxModal.classList.add('active');
+                    }
+                });
+            });
+        }
+        setupLightboxListeners();
+
+        lightboxClose.addEventListener('click', () => lightboxModal.classList.remove('active'));
+        lightboxModal.addEventListener('click', (e) => {
+            if (e.target !== lightboxImg) lightboxModal.classList.remove('active');
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') lightboxModal.classList.remove('active');
+        });
+
+        // ================= 11. TOAST NOTIFICATION & UNIVERSAL CLIPBOARD =================
+        const toastMsg = document.getElementById('toast-msg');
+        const toastTextMsg = document.getElementById('toast-text-msg');
+
+        function showToast(msg) {
+            toastTextMsg.innerText = msg;
+            toastMsg.classList.add('show');
+            setTimeout(() => toastMsg.classList.remove('show'), 3000);
+        }
+
+        function copyUniversal(text, successMessage = 'Copiado com sucesso!') {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showToast(successMessage);
+                }).catch(() => {
+                    fallbackCopy(text, successMessage);
+                });
+            } else {
+                fallbackCopy(text, successMessage);
+            }
+        }
+
+        function fallbackCopy(text, successMessage) {
+            const temp = document.createElement("textarea");
+            temp.value = text;
+            temp.style.position = "fixed";
+            temp.style.left = "-9999px";
+            temp.style.top = "0";
+            document.body.appendChild(temp);
+            temp.focus();
+            temp.select();
+            try {
+                document.execCommand('copy');
+                showToast(successMessage);
+            } catch (err) {
+                showToast('Erro ao copiar!');
+            }
+            document.body.removeChild(temp);
+        }
+
+        document.querySelectorAll('.copy-addr').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const text = btn.dataset.clipboard;
+                copyUniversal(text, 'Morada copiada!');
+            });
+        });
+
+        // Export Itinerary Summary for WhatsApp
+        document.getElementById('btn-export-summary').addEventListener('click', () => {
+            const summary = `✈️ *EUROTRIP 2026: VIENA & MUNIQUE (23-29 SET)*
+👥 7 Amigos | 2 Países | Oktoberfest 2026
+
+📅 *Qua 23 Set*: Voo TAP TP 1270 (08:05->12:35) ➔ Transfer Railjet/VAL 2 ➔ Judengasse 11 ➔ Stephansdom ➔ Donaukanal ➔ Bermudadreieck / Clubbing
+📅 *Qui 24 Set*: Brunch Haas&Haas ➔ Palácio Schönbrunn ➔ Prater (Schweizerhaus) ➔ Rooftop Das Loft
+📅 *Sex 25 Set*: Comboio Railjet RJX 12:50 Viena->Augsburg (via MUC) ➔ Carro Enterprise ➔ Check-in Am Bogen 6 ➔ Jantar dos 7!
+📅 *Sáb 26 Set*: 🏔️ Rota dos Alpes: Neuschwanstein (Marienbrücke) + Lago Eibsee (Zugspitze) + Oberammergau & Ettal
+📅 *Dom 27 Set*: 🏰 Circuito Medieval: Rothenburg ob der Tauber, Dinkelsbühl & Muralhas
+📅 *Seg 28 Set*: 🍺 BMW Welt + Olympiapark + Marienplatz + Hofbräuhaus + Eisbachwelle + OKTOBERFEST 2026 (2x Bayern-Ticket)!
+📅 *Ter 29 Set*: 🏰 Palácio Nymphenburg ➔ ⚽ Allianz Arena (Exterior/Megastore) ➔ Devolução Carro MUC ➔ Voo TAP TP 555 Regresso a Lisboa (20:00->22:25)`;
+
+            copyUniversal(summary, 'Resumo para WhatsApp copiado!');
+        });
+    </script>
+</body>
+</html>
