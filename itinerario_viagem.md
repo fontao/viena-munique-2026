@@ -210,9 +210,23 @@ o roteiro. As razões, para não voltar a discutir:
 - **08:05 – 12:35**: **Voo TAP TP 1270** (LIS ➔ VIE) direto, 3h30.
 - **12:35 – 13:15**: Desembarque e recolha de bagagem.
 - **13:15 – 14:15**: Transfer para a Judengasse 11.
-  - **Opção A (Recomendada)**: **Railjet ÖBB** da estação por baixo do aeroporto até *Wien
-    Hauptbahnhof* (15 min, de meia em meia hora) + **Metro U1** direto até *Schwedenplatz*
-    (7 min) + 4 min a pé. **€5,50/pessoa**, tudo incluído no mesmo bilhete.
+  - **Opção A (Escolhida)**: **Railjet ÖBB** da estação por baixo do aeroporto até *Wien
+    Hauptbahnhof* (15 min) + **Metro U1** direto até *Schwedenplatz* (7 min) + 4 min a pé.
+    **~€5,50/pessoa**, tudo incluído no mesmo bilhete.
+    - 🕐 **Parte aos :03 e aos :33.** Com aterragem às 12:35 o realista é o das **13:33**,
+      chegando à porta de casa por volta das **14:20** — não às 14:15. Como o check-in nestes
+      apartamentos é tipicamente às 15:00, isto não é problema: é mais um motivo para pedir
+      *early check-in* ou combinar deixar as malas.
+    - 🎫 **Pedir o bilhete *Flughafen Wien ➔ Wien*** (com a zona central incluída), **não** só
+      até Wien Hbf — é isso que faz o U1 vir no mesmo bilhete. Com o errado, é preciso um
+      bilhete de metro à parte de €3,20.
+    - 💶 **A tarifa é a única coisa deste roteiro que não consegui confirmar em fonte oficial.**
+      Os €5,50 decompõem-se em €2,30 (zona de Schwechat) + €3,20 (bilhete simples de Viena,
+      este confirmado), o que é coerente; mas o histórico anda entre €4,50 e €5,50. **Confirmar
+      na app ÖBB.** No pior caso são €4 a mais no grupo todo.
+    - ✅ **Confirmado a 14 de agosto no site do aeroporto:** a Stammstrecke está mesmo cortada,
+      o **CAT foi substituído por autocarros** e o S7 não chega ao centro. O Railjet deixou de
+      ser a opção recomendada e passou a ser a única ligação ferroviária que serve.
   - **Opção B (Sem transbordos)**: **Vienna Airport Lines VAL 2** até *Morzinplatz /
     Schwedenplatz* (20–25 min, **€10,50**), sai à porta do terminal e pára a 100m do
     apartamento. Vale a pena com malas grandes.
