@@ -29,7 +29,7 @@
 #### 1. Castelo de Neuschwanstein — 7 pax — **€164,50**
 - Preço real 2026: **€21 + €2,50 de taxa de reserva = €23,50/pessoa**.
 - Comprar **só no site oficial** — os revendedores cobram +30 a 50%.
-- **Marcar a visita para as 13:00** de sábado 26 (ver Dia 4).
+- **Marcar a visita para as 13:30** de sábado 26 (ver Dia 4).
 - Os bilhetes levantam-se no **Ticket Center em Hohenschwangau** e a visita começa **≥1h
   depois** do levantamento. Do Ticket Center ao castelo são **40 min a pé** (1,5 km a subir)
   ou **10 min de shuttle**. Carruagem puxada a cavalos: €8 a subir, €4 a descer.
@@ -70,7 +70,8 @@
   Beletage, ~75 min, audioguia incluído. **4 pax = €168.**
 - A versão curta chama-se **Staatsappartements, €30/pessoa** — 40 min, menos salas.
   **4 pax = €120.** Se o objetivo é ver Sissi e seguir para o Prater, esta chega.
-- **Com hora marcada.** Reservar para as **13:00** de quinta 24.
+- **Com hora marcada.** Reservar para as **14:00** de quinta 24 — não 13:00: com o brunch e a
+  fila do Sacher, às 13:00 chegavam atrasados (ver Dia 2).
 - Setembro: **08:30–17:30**, última entrada 45 min antes do fecho.
 - Portal oficial: **[imperialtickets.com](https://www.imperialtickets.com)** (é a plataforma
   da própria Schloss Schönbrunn — o site schoenbrunn.at remete para lá).
@@ -99,7 +100,7 @@
 |---|---|---|---|
 | **Transfer VIE ➔ cidade** — Railjet + U1 | 4 | €5,50/pax = **€22** | Recomendado |
 | … ou **autocarro VAL 2** (porta a porta) | 4 | €10,50/pax = **€42** | Sem transbordos, útil com malas |
-| **Bilhete 24h Wien Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às ~11:00 |
+| **Bilhete 24h Wien Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às **13:20**, no Karlsplatz |
 | **Torre Sul do Stephansdom** | 4 | €6,50/pax = €26 | 343 degraus |
 | **Riesenrad** (Prater) | 4 | €14,50/pax = €58 | |
 | **Fuggerei** (Dia 3, noite) | 7 | €8/pax = **€56** | Aberta até às 20:00; bilheteira no local |
@@ -128,6 +129,14 @@ fechada (até outubro de 2027):
 - **S7: só vai até St. Marx**, fora do centro, obrigando a transbordo para tram/autocarro.
 - **Railjet: não é afetado.** É a única ligação ferroviária fiável ao centro — e é a que
   este roteiro usa.
+
+**Obras no metro de Viena.** Duas afetam este roteiro:
+- **U4 cortado entre Hütteldorf e Schönbrunn de 2 de julho a 4 de setembro de 2026.** Reabre
+  apenas **três semanas** antes de vocês chegarem e estas datas escorregam com facilidade.
+  **Confirmar em wienerlinien.at na véspera do Dia 2.** Plano B para Schönbrunn: U4 até
+  Meidling + elétrico 10 ou 60 até Hietzing, ou o autocarro 10A.
+- **U2 cortado entre Schottentor e Karlsplatz** para a construção do cruzamento U2/U5. É por
+  isso que o trajeto Schönbrunn ➔ Prater se faz com **U4 + U1** e não pelo atalho do U2.
 
 ---
 
@@ -176,30 +185,60 @@ o roteiro. As razões, para não voltar a discutir:
   coração do Bermudadreieck.
   - ⚠️ O check-in nestes apartamentos é tipicamente às **15:00**. **Pedir early check-in por
     email** com antecedência, ou combinar deixar as malas.
-- **14:45 – 18:00**: Passeio a pé pelos monumentos imperiais: **Catedral Stephansdom**
-  (subida à Torre Sul, €8, opcional), ruas pedonais *Graben* e *Kohlmarkt*, Palácio Imperial
-  **Hofburg** e jardins do **Volksgarten**.
-- **18:30 – 20:30**: Pôr do sol e pré-copos no **Canal do Danúbio** a 300m a pé (*Tel Aviv
-  Beach* ou *Strandbar Herrmann*). Sol põe-se às ~19:00.
+- **14:45 – 18:00**: Passeio a pé pelos monumentos imperiais, **numa linha reta para poente,
+  sem voltar atrás**: casa ➔ **Stephansdom** (7 min; subida à Torre Sul, €6,50, opcional) ➔
+  ruas pedonais *Graben* e *Kohlmarkt* ➔ **Hofburg** (6 min) ➔ **Volksgarten** (7 min).
+  São **1,6 km à ida** em três horas — passo de passeio, que é o que se aguenta com 5 h de
+  sono. O regresso pelo Ring são outros 1,4 km (18 min) e passa à porta de casa.
+  - *Porque é que a Ópera e a Kärntner Straße não estão aqui:* ficam no braço **sul** da zona
+    pedonal e passam lá amanhã de manhã, a caminho da Sachertorte e do metro. Hoje faz-se o
+    braço poente, amanhã o sul — nenhuma rua se anda duas vezes.
+- **18:30 – 20:30**: Pôr do sol e pré-copos no **Canal do Danúbio**, a 300 m a pé. **Ficar no
+  troço de Schwedenplatz** (*Tel Aviv Beach* e os bares junto à Schwedenbrücke). Sol põe-se
+  às ~19:00.
+  - ⚠️ **Não ir ao Strandbar Herrmann hoje.** Fica 884 m mais para leste: vindos do
+    Volksgarten seriam **2,5 km / 31 min** a pé, contra 1,4 km ficando no troço de casa. Ao
+    fim de três horas de pé e com cinco de sono, é o quilómetro mais caro da viagem. E
+    ficando aqui passam pela porta — dá para largar mochilas e trocar de roupa.
 - **21:00 – Madrugada**: Rota de bares pelo **Bermudadreieck**, à porta de casa, e
-  continuação para o **Volksgarten Club** ou o **FLEX** (800m a pé ao longo do canal,
-  Augartenbrücke 1).
+  continuação para o **FLEX** ou o **Volksgarten Club**.
+  - *Geograficamente o FLEX ganha:* **1 km / 13 min** pelo mesmo canal onde já estiveram, e é
+    casual. O Volksgarten Club obriga a **1,4 km / 18 min** de volta para poente — para o
+    mesmo jardim onde estiveram às 18:00 — e tem porta seletiva e código de vestuário.
 
 ---
 
 ### 🇦🇹 Dia 2: Quinta-feira, 24 de Setembro — Schönbrunn, Prater & Rooftop Das Loft
 **⏰ Acordar 10:00 · Sair 11:00**
 
-- **11:00 – 12:15**: Brunch no pátio do **Haas & Haas** (*Stephansplatz 4*) e prova da
-  clássica **Sachertorte** no Café Sacher ou na pastelaria imperial *Gerstner*.
-- **12:20**: **Ativar o bilhete de 24h** (€10,20). Metro **U4 direto** de Schwedenplatz até
-  Schönbrunn (~18 min).
-- **13:00 – 15:45**: **Palácio e Jardins de Schönbrunn** — Grand Tour com hora marcada.
-  Subida à colina da **Gloriette** para a panorâmica sobre Viena.
-- **16:00 – 16:45**: U4 + U1 até Praterstern.
-- **16:45 – 19:30**: **Wiener Prater** — volta na centenária **Roda Gigante Riesenrad**
-  (€14,50) e jantar de grupo no lendário **Schweizerhaus**: pernis de porco estaladiços
-  (*Stelze*) e cerveja Budweiser de pressão. **Reservar mesa.**
+- **11:00 – 12:30**: Brunch sem pressas no pátio escondido do **Haas & Haas**
+  (*Stephansplatz 4*), a 7 min a pé de casa.
+- **12:40 – 13:20**: Descer a **Kärntner Straße** (8 min) até ao **Café Sacher**, ao lado da
+  Ópera, para a **Sachertorte** — ou à pastelaria imperial *Gerstner*, na mesma rua.
+- **13:20**: **Ativar o bilhete de 24h** (€10,20) e apanhar o **U4 em Karlsplatz**.
+  - 🚇 **Karlsplatz, não Schwedenplatz.** Estando no Sacher, o Karlsplatz fica a **400 m
+    (5 min)** e o Schwedenplatz a **1,4 km (17 min)** — e ambos servem o U4 para Schönbrunn.
+    Voltar a Schwedenplatz é andar 1 km para nordeste para depois seguir para sudoeste.
+    **Poupa ~15 minutos** e duas estações.
+- **14:00 – 15:15**: **Palácio de Schönbrunn** — Schlossticket com hora marcada (75 min,
+  audioguia). **15:15 – 16:15**: subida à colina da **Gloriette** (700 m a subir) para a
+  panorâmica sobre Viena.
+  - ⚠️ **Porque é que passou das 13:00 para as 14:00:** brunch até às 12:15 + Sacher (que tem
+    tipicamente 20–40 min de fila) + metro deixava-vos no palácio por volta das **13:20** —
+    atrasados para uma entrada com hora marcada. Às 14:00 a manhã fica realmente sem pressas
+    e continua a sobrar tempo para tudo o resto.
+  - ⚠️ **Confirmar que o U4 chega mesmo a Schönbrunn.** A linha esteve **cortada entre
+    Hütteldorf e Schönbrunn de 2 de julho a 4 de setembro de 2026** para obras — reabre três
+    semanas antes de vocês chegarem, e estas datas escorregam. Verificar em wienerlinien.at
+    na véspera. Plano B: U4 até Meidling + elétrico 10 ou 60 até Hietzing, ou o autocarro 10A.
+- **16:20 – 17:00**: **U4 até Karlsplatz, mudar para o U1 até Praterstern** (~35 min).
+  - *Mudar em Karlsplatz e não em Schwedenplatz:* o U1 e o U4 cruzam-se nos dois sítios, mas
+    vindo de Schönbrunn o Karlsplatz aparece **três estações antes**. (O U2, que faria o
+    atalho direto Karlsplatz–Praterstern, está cortado entre Schottentor e Karlsplatz para as
+    obras do cruzamento U2/U5.)
+- **17:00 – 19:45**: **Wiener Prater** — volta na centenária **Roda Gigante Riesenrad**
+  (€14,50) e jantar de grupo a 4 min a pé, no lendário **Schweizerhaus**: pernis de porco
+  estaladiços (*Stelze*) e cerveja Budweiser de pressão. **Reservar mesa.**
 - **20:30 – 23:00**: Cocktails no **Rooftop Das Loft** (18.º andar do Hotel SO/ Vienna,
   *Praterstraße 1*), a 8 min a pé atravessando a Schwedenbrücke. Vista noturna de 360° e
   teto de vidro multicolorido. **Reservar — e há dress code.**
