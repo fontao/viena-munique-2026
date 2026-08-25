@@ -151,7 +151,6 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 | **Fuggerei** (Dia 3, noite) | 6 | €8/pax = **€48** | Aberta até às 20:00; bilheteira no local |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €74 (5 pax) + €34 (1 pax) = **€108** | |
 | **Palácio de Nymphenburg** | 6 | Parque **grátis** · palácio **€10**/pax · *Gesamtkarte* **€20** | Ver Dia 7: só há 75 min |
-| **Alter Peter** (torre, Munique) | 6 | €5/pax = €30 | Dia 6 · segunda 09:00–18:30 · 306 degraus |
 | **St. Jakobskirche** (Rothenburg) | 6 | €5/pax = €30 | Dia 5 · altar de Riemenschneider |
 | **Allianz Arena** — esplanada + Megastore | 6 | **grátis** | Museu/tour ~€25 se quiserem entrar |
 | **BMW Welt** | 6 | **grátis** | Museu BMW à parte: €17/pax, ter-dom 10:00–18:00 |
@@ -699,22 +698,45 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 **⏰ Acordar 10:00 · O dia tem duas âncoras: a entrada na tenda e o comboio das 22:58.**
 *O carro fica seguro no apartamento em Augsburg — passa-se o dia de comboio.*
 
+> ### 🚨 O que estava errado e mudou
+> **A manhã tinha 70 minutos de relógio para 90 de programa.** O bloco da Marienplatz dizia
+> `12:00 – 13:15` e a Asamkirche foi acrescentada numa revisão posterior por dentro dele, às
+> `12:45 – 13:00`, sem ninguém recuar a hora de fim. Somados, a Marienplatz, a Frauenkirche, a
+> subida ao Alter Peter e o desvio à Asamkirche não cabiam antes do almoço das 13:15.
+>
+> **Cortou-se o Alter Peter.** É o item cuja duração não se controla: 306 degraus numa
+> escadaria estreita de sentido único, numa segunda-feira em plena Oktoberfest. Sem ele, a
+> manhã acaba às **13:05, com 10 minutos de folga**. Cortando a Asamkirche em vez dele,
+> acabaria às 13:13 com dois minutos, e com a fila da torre ainda por cima.
+>
+> **Não se perde a vista da viagem:** já se sobe a Torre Sul do Stephansdom no Dia 1, 343
+> degraus. O que se perde é a vista de Munique com os Alpes ao fundo em dia limpo, e essa é
+> uma perda a sério. Poupam-se **€30** (€5 × 6).
+>
+> A terceira via era apanhar o comboio das **10:47** em vez do das 11:17, que fazia caber tudo
+> e ainda dava o Glockenspiel desde o início. Foi rejeitada: obrigava a acordar às 09:30 no
+> dia que só acaba em Augsburg às 23:46.
+
 - **11:17 – 11:55**: Comboio regional RE de Augsburg Hbf para München Hbf (38 min) com os
   **2× Bayern-Ticket** (válidos a partir das 09:00).
-- **12:00 – 13:15**: **Marienplatz**, Neues Rathaus, Catedral **Frauenkirche** e miradouro da
-  torre de São Pedro (*Alter Peter*).
-  - 💡 O **Glockenspiel** toca às 11:00, 12:00 e 17:00 — e o das 17:00 apanha-vos já na tenda.
+- **12:00 – 12:35**: **Marienplatz**, Neues Rathaus e a Catedral **Frauenkirche**.
+  - 💡 O **Glockenspiel** toca às 11:00, 12:00 e 17:00, e o das 17:00 apanha-vos já na tenda.
     Com este comboio chegam à Marienplatz por volta das **12:05** e apanham o fim do das
     12:00. Para o ver desde o início era preciso o comboio das **~10:47** (sair de casa às
     10:25). É o espetáculo mais sobrevalorizado de Munique: 12 minutos de bonecos a rodar.
     **Não vale a pena partir o despertar às 10:00 por causa dele.**
-  - 🎫 **Alter Peter: €5/pessoa, segunda-feira 09:00–18:30**, 306 degraus até uma plataforma a
-    56 m. A Frauenkirche é grátis (08:00–20:00).
-- **12:45 – 13:00**: **Asamkirche** (*Sendlinger Str. 32*), a 450 m da Marienplatz e no caminho
-  para o Viktualienmarkt. **Grátis.** Construída pelos irmãos Asam entre 1733 e 1746 num
-  terreno com **8 metros de largura**, para uso próprio: é a coisa mais densamente barroca da
-  Alemanha, com iluminação indireta e colunas torcidas. Dez minutos, e os três analistas
-  puseram-na na lista sem se consultarem.
+  - 🎫 A **Frauenkirche** é grátis e abre das 08:00 às 20:00. Fica a **325 m** da Marienplatz,
+    4 minutos a pé.
+- **12:35 – 12:55**: **Asamkirche** (*Sendlinger Str. 32*). **Grátis.** São **9 minutos a pé**
+  desde a Frauenkirche (708 m) e dez minutos lá dentro. Construída pelos irmãos Asam entre
+  1733 e 1746 num terreno com **8 metros de largura**, para uso próprio: é a coisa mais
+  densamente barroca da Alemanha, com iluminação indireta e colunas torcidas. Os três
+  analistas puseram-na na lista sem se consultarem.
+  - ⚠️ **Não fica «no caminho» para o Viktualienmarkt**, ao contrário do que esta linha dizia
+    antes. Direto da Marienplatz são **308 m e 4 minutos**; pela Asamkirche são **1156 m e 15
+    minutos**. O desvio custa **11 minutos**, e é metade da razão por que esta manhã não
+    fechava. *(Medido no OSRM, perfil a pé.)*
+- **12:55 – 13:05**: A pé da Asamkirche até ao **Viktualienmarkt** (626 m, ~8 min).
 - **13:15 – 14:30**: Almoço tradicional no **Viktualienmarkt** (*Weißwurst*, pretzels
   gigantes e *Obatzda*) e fotos na histórica cervejaria **Hofbräuhaus am Platzl** (1589).
   - ✅ Ao domingo o Viktualienmarkt fecha. Numa segunda está aberto — sorte do calendário.
