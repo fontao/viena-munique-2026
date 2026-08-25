@@ -4,7 +4,7 @@
 **Viajantes:** 6 Amigos — **4 partem de Lisboa** (Viena, dias 1 a 3) + **2 juntam-se em Augsburg** (dia 3)
 **Voos Oficiais:** TAP Air Portugal (TP 1270 LIS ➔ VIE / TP 555 MUC ➔ LIS)
 **Revisto em:** 14 de agosto de 2026 (3.ª revisão — auditoria cruzada por quatro modelos com
-pesquisa web em tempo real; horários oficiais confirmados em fonte primária) — faltam ~6 semanas
+pesquisa web em tempo real; horários oficiais confirmados em fonte primária)
 
 > ⚠️ **Atenção ao número de pessoas em cada bilhete.** Tudo o que é em Viena (transfers,
 > comboio para Augsburg, Schönbrunn, Riesenrad, Stephansdom) é para **4 pessoas**. Só a
@@ -57,8 +57,8 @@ vales que se bebem e comem. Divididos por 6 dá ~€70 a €92 cada.
 
 **(A) Portal oficial de revenda — [oktoberfest-booking.com](https://www.oktoberfest-booking.com/en)**
 As reservas não utilizadas são revendidas ali **ao preço original**, não com margem. A compra
-abre a **27 de agosto de 2026** — daqui a duas semanas. É o único sítio onde ainda se compra
-uma mesa ao preço a sério. **Marcar no calendário e estar online à hora de abertura.**
+abre a **27 de agosto de 2026**. É o único sítio onde ainda se compra uma mesa ao preço a
+sério. **Marcar no calendário e estar online à hora de abertura.**
 
 **(B) Sem reserva — entrar antes das 12:00**
 Em dias de semana, **25% dos lugares interiores** ficam livres para quem chega sem reserva

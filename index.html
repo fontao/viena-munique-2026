@@ -3866,7 +3866,7 @@
             { name: "Oberammergau (Aldeia dos Frescos & Ettal)", city: "alps", iconType: "monument", coords: [47.5967, 11.0633], desc: "Vila com fachadas de frescos alpinos (Lüftlmalerei) e Abadia barroca de Ettal.", img: "img/oberammergau_alps.jpg" },
 
             // Medieval Towns Circuit
-            { name: "Dinkelsbühl (Muralhas Medievais)", city: "rothenburg", iconType: "road", coords: [49.0694, 10.3197], desc: "Casario medieval preservado do século XIV e muralhas completas com torres.", img: "img/dinkelsbuhl.jpg" },
+            { name: "Dinkelsbühl (Muralhas Medievais)", city: "rothenburg", iconType: "castle", coords: [49.0694, 10.3197], desc: "Casario medieval preservado do século XIV e muralhas completas com torres.", img: "img/dinkelsbuhl.jpg" },
             { name: "Rothenburg ob der Tauber (Plönlein)", city: "rothenburg", iconType: "castle", coords: [49.3773, 10.1789], desc: "A jóia medieval mais famosa da Europa, praça Plönlein e doces Schneeballen.", img: "img/rothenburg_tauber_1786477768269.jpg" },
 
             // Munich & Oktoberfest
@@ -3921,6 +3921,10 @@
                 if (loc.iconType === 'car') return { bg: '#10b981', icon: '🚗' };
                 if (loc.iconType === 'cocktail') return { bg: '#fb7185', icon: '🍸' };
                 if (loc.iconType === 'food') return { bg: '#f97316', icon: '🍴' };
+                /* Ardósia para o património construído: catedrais, praças, bairros
+                   históricos e o estádio. Sete marcadores usavam 'monument' sem que
+                   esta função o conhecesse, e caíam todos no pin azul genérico. */
+                if (loc.iconType === 'monument') return { bg: '#94a3b8', icon: '🏛️' };
                 return { bg: '#38bdf8', icon: '📍' };
             }
 
