@@ -270,7 +270,7 @@ o roteiro. As razões, para não voltar a discutir:
     revisão — o grupo decidiu ir de comboio e metro. Fica só a nota de que existe, sai à porta
     do terminal e pára em Morzinplatz, a 100 m do apartamento, caso alguma coisa corra mal com
     o Railjet no próprio dia.*
-- **14:15 – 14:45**: Check-in no **Central City Apartments** (*Judengasse 11, 1010 Wien*), no
+- **14:20 – 14:45**: Check-in no **Central City Apartments** (*Judengasse 11, 1010 Wien*), no
   coração do Bermudadreieck.
   - ⚠️ O check-in nestes apartamentos é tipicamente às **15:00**. **Pedir early check-in por
     email** com antecedência, ou combinar deixar as malas.
