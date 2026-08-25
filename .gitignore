@@ -1,3 +1,4 @@
 .roundtable/
 .omc/
 .playwright-mcp/
+__pycache__/

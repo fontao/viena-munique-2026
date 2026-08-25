@@ -49,6 +49,10 @@ class Stop:
     tz: str
     days: tuple[date, ...]
     note: str = ""
+    #  Quanto do programa nessa paragem é ao ar livre. É o que decide se vale a
+    #  pena trocar o dia por causa da chuva: um castelo ao fundo de uma serra
+    #  não se troca pelo mesmo motivo que uma tarde de museus.
+    outdoor: bool = False
 
 
 def d(day: int) -> date:
@@ -58,14 +62,17 @@ def d(day: int) -> date:
 # Paragens do roteiro (ver itinerario_viagem.md, "Cronograma Detalhado Dia-a-Dia").
 STOPS: list[Stop] = [
     Stop("Lisboa", 38.7223, -9.1393, "Europe/Lisbon", (d(23),), "Partida TP 1270"),
-    Stop("Viena", 48.2082, 16.3738, "Europe/Vienna", (d(23), d(24), d(25)), "Dias 1-3"),
+    Stop("Viena", 48.2082, 16.3738, "Europe/Vienna", (d(23), d(24), d(25)), "Dias 1-3", outdoor=True),
     Stop("Augsburg", 48.3705, 10.8978, "Europe/Berlin", (d(25), d(26), d(27), d(28)), "Base dias 3-5"),
-    Stop("Neuschwanstein / Füssen", 47.5576, 10.7498, "Europe/Berlin", (d(26),), "Dia 4 — castelo"),
-    Stop("Oberammergau", 47.5980, 11.0670, "Europe/Berlin", (d(26),), "Dia 4 — tarde"),
-    Stop("Lago Eibsee", 47.4569, 10.9800, "Europe/Berlin", (d(26),), "Dia 4 — fim de tarde"),
-    Stop("Rothenburg ob der Tauber", 49.3777, 10.1789, "Europe/Berlin", (d(27),), "Dia 5"),
+    Stop("Neuschwanstein / Füssen", 47.5576, 10.7498, "Europe/Berlin", (d(26),), "Dia 4 — castelo", outdoor=True),
+    Stop("Oberammergau", 47.5980, 11.0670, "Europe/Berlin", (d(26),), "Dia 4 — tarde", outdoor=True),
+    Stop("Lago Eibsee", 47.4569, 10.9800, "Europe/Berlin", (d(26),), "Dia 4 — fim de tarde", outdoor=True),
+    Stop("Rothenburg ob der Tauber", 49.3777, 10.1789, "Europe/Berlin", (d(27),), "Dia 5", outdoor=True),
     Stop("Munique", 48.1351, 11.5820, "Europe/Berlin", (d(28), d(29)), "Oktoberfest + regresso"),
 ]
+
+# Todos os dias da viagem — a matriz cruza cada paragem com cada um destes.
+TRIP_DAYS: tuple[date, ...] = tuple(sorted({x for s in STOPS for x in s.days}))
 
 HOURLY_VARS = [
     "temperature_2m",
@@ -391,8 +398,139 @@ def pretty_date(day: date) -> str:
     return f"{WEEKDAYS[day.weekday()]}, {day.day} de {MONTHS[day.month - 1]} de {day.year}"
 
 
+def collect(stop: Stop, days: list[date], skip_seasonal: bool
+            ) -> tuple[dict[date, list[dict]], dict[date, str], dict[date, dict], dict[date, dict]]:
+    """Recolhe os dados de um sítio, escolhendo a fonte conforme a distância de cada dia."""
+    horizon = date.today() + timedelta(days=FORECAST_HORIZON_DAYS)
+    near = [x for x in days if x <= horizon]
+    far = [x for x in days if x > horizon]
+
+    rows_by_day: dict[date, list[dict]] = {}
+    source: dict[date, str] = {}
+    norms: dict[date, dict] = {}
+    outlook: dict[date, dict] = {}
+
+    if near:
+        rows_by_day.update(fetch_forecast(stop, near))
+        source.update({x: "previsão" for x in near})
+    if far:
+        hourly_clim, norms = fetch_climatology(stop, far)
+        rows_by_day.update(hourly_clim)
+        source.update({x: "climatologia" for x in far})
+        if not skip_seasonal:
+            outlook = fetch_seasonal(stop, far)
+
+    return rows_by_day, source, norms, outlook
+
+
+def day_cell(rows: list[dict]) -> str:
+    """Resumo de um dia numa célula: tempo, máxima e chuva."""
+    temps = [r["temperature_2m"] for r in rows if r.get("temperature_2m") is not None]
+    rain = sum(r.get("precipitation") or 0 for r in rows)
+    codes = [int(r["weather_code"]) for r in rows if r.get("weather_code") is not None]
+    emoji, _ = describe(statistics.mode(codes) if codes else None)
+    tmax = f"{max(temps):.0f}°" if temps else "—"
+    return f"{emoji} {tmax} {rain:.1f}mm"
+
+
+def matrix_block(stops: list[Stop], markdown: bool) -> list[str]:
+    """Todas as cidades em todos os dias da viagem, lado a lado.
+
+    É a tabela para decidir trocas: se o sábado do Neuschwanstein vier
+    encharcado e o domingo de Rothenburg vier seco, troca-se.
+    """
+    days = sorted(TRIP_DAYS)
+    grid: dict[str, dict[date, str]] = {}
+    wet: dict[str, dict[date, float]] = {}
+
+    for stop in stops:
+        rows_by_day, _, _, _ = collect(stop, days, skip_seasonal=True)
+        grid[stop.name] = {}
+        wet[stop.name] = {}
+        for day, rows in rows_by_day.items():
+            if rows:
+                grid[stop.name][day] = day_cell(rows)
+                wet[stop.name][day] = sum(r.get("precipitation") or 0 for r in rows)
+
+    if not grid:
+        return []
+
+    name_w = max(len(n) for n in grid) + 4
+    header = ["Paragem"] + [f"{WEEKDAYS[x.weekday()][:3]} {x.strftime('%d/%m')}" for x in days]
+    lines = [
+        f"{'## ' if markdown else ''}Matriz — todas as paragens, todos os dias",
+        "",
+        ("Para decidir trocas de dia. Cada célula: tempo · máxima · chuva total. "
+         + ("🏞️ marca" if markdown else "* marca") + " as paragens em que o programa é ao ar livre."),
+        "",
+    ]
+    if markdown:
+        lines.append("| " + " | ".join(header) + " |")
+        lines.append("|" + "---|" * len(header))
+    else:
+        lines.append("  " + "Paragem".ljust(name_w) + "  ".join(h.ljust(14) for h in header[1:]))
+
+    for stop in stops:
+        if stop.name not in grid:
+            continue
+        # Na consola o emoji ocupa duas colunas e desalinha a tabela; ali usa-se um asterisco.
+        mark = ("🏞️ " if markdown else "* ") if stop.outdoor else ("" if markdown else "  ")
+        cells = []
+        for day in days:
+            cell = grid[stop.name].get(day, "—")
+            # Um asterisco marca os dias em que essa paragem está mesmo agendada.
+            cells.append(f"**{cell}**" if markdown and day in stop.days else
+                         (f"[{cell}]" if not markdown and day in stop.days else cell))
+        if markdown:
+            lines.append("| " + " | ".join([mark + stop.name] + cells) + " |")
+        else:
+            lines.append("  " + (mark + stop.name).ljust(name_w) + "  ".join(c.ljust(14) for c in cells))
+
+    lines.append("")
+    lines.append("Dias agendados marcados a negrito." if markdown
+                 else "Dias agendados marcados [entre parenteses rectos].")
+    lines.append("")
+    lines.extend(swap_hints(stops, wet, markdown))
+    return lines
+
+
+def swap_hints(stops: list[Stop], wet: dict[str, dict[date, float]], markdown: bool) -> list[str]:
+    """Assinala paragens ao ar livre cujo dia agendado é dos mais chuvosos."""
+    hints: list[str] = []
+    days = sorted(TRIP_DAYS)
+
+    for stop in stops:
+        if not stop.outdoor or stop.name not in wet:
+            continue
+        rain = wet[stop.name]
+        scheduled = [x for x in stop.days if x in rain]
+        if not scheduled:
+            continue
+        worst = max(rain[x] for x in scheduled)
+        # Dias alternativos claramente mais secos: pelo menos metade da chuva e 1 mm menos.
+        better = sorted(
+            (x for x in days if x not in stop.days and x in rain
+             and rain[x] < worst / 2 and worst - rain[x] >= 1.0),
+            key=lambda x: rain[x],
+        )
+        if better:
+            alts = ", ".join(f"{x.strftime('%d/%m')} ({rain[x]:.1f} mm)" for x in better[:3])
+            hints.append(f"- **{stop.name}**: agendado com até {worst:.1f} mm; mais seco em {alts}."
+                         if markdown else
+                         f"  - {stop.name}: agendado com ate {worst:.1f} mm; mais seco em {alts}.")
+
+    if not hints:
+        return ["Nenhuma paragem ao ar livre calha num dia claramente pior que as alternativas.", ""]
+
+    head = "**Possíveis trocas**" if markdown else "Possiveis trocas"
+    tail = ("Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada "
+            "(Neuschwanstein, Schönbrunn) e contra a rota, que nem todos os dias são trocáveis.")
+    return [head, ""] + hints + ["", tail, ""]
+
+
 def build_report(stops: list[Stop], only_next_24h: bool, markdown: bool,
-                 skip_seasonal: bool = False) -> list[str]:
+                 skip_seasonal: bool = False, show_matrix: bool = True,
+                 all_days: bool = False) -> list[str]:
     today = date.today()
     horizon = today + timedelta(days=FORECAST_HORIZON_DAYS)
     out: list[str] = []
@@ -403,28 +541,15 @@ def build_report(stops: list[Stop], only_next_24h: bool, markdown: bool,
     out.append(f"Actualizado a {pretty_date(today)} · fonte: Open-Meteo")
     out.append("")
 
+    if show_matrix and not only_next_24h:
+        out.extend(matrix_block(stops, markdown))
+
     for stop in stops:
-        days = sorted(stop.days)
+        days = sorted(stop.days) if not all_days else sorted(TRIP_DAYS)
         if only_next_24h:
             days = [today, today + timedelta(days=1)]
 
-        near = [x for x in days if x <= horizon]
-        far = [x for x in days if x > horizon]
-        rows_by_day: dict[date, list[dict]] = {}
-        source: dict[date, str] = {}
-
-        norms: dict[date, dict] = {}
-        outlook: dict[date, dict] = {}
-
-        if near:
-            rows_by_day.update(fetch_forecast(stop, near))
-            source.update({x: "previsão" for x in near})
-        if far:
-            hourly_clim, norms = fetch_climatology(stop, far)
-            rows_by_day.update(hourly_clim)
-            source.update({x: "climatologia" for x in far})
-            if not skip_seasonal:
-                outlook = fetch_seasonal(stop, far)
+        rows_by_day, source, norms, outlook = collect(stop, days, skip_seasonal)
 
         label = f"{stop.name}" + (f" — {stop.note}" if stop.note and not only_next_24h else "")
         out.append(f"{h2}{label}")
@@ -470,6 +595,12 @@ def main() -> int:
     parser.add_argument("--listar", action="store_true", help="lista as paragens e sai")
     parser.add_argument("--sem-sazonal", action="store_true",
                         help="não consulta o modelo sazonal (mais rápido)")
+    parser.add_argument("--sem-matriz", action="store_true",
+                        help="não mostra a matriz paragens × dias")
+    parser.add_argument("--matriz", action="store_true",
+                        help="mostra só a matriz paragens × dias, sem as tabelas horárias")
+    parser.add_argument("--todos-os-dias", action="store_true",
+                        help="tabelas horárias de cada paragem para todos os dias da viagem")
     args = parser.parse_args()
 
     if args.listar:
@@ -486,8 +617,13 @@ def main() -> int:
             print(f"Nenhuma paragem corresponde a {args.cidade!r}. Use --listar.", file=sys.stderr)
             return 1
 
-    lines = build_report(stops, args.hoje, markdown=bool(args.md),
-                         skip_seasonal=args.sem_sazonal)
+    if args.matriz:
+        lines = matrix_block(stops, markdown=bool(args.md))
+    else:
+        lines = build_report(stops, args.hoje, markdown=bool(args.md),
+                             skip_seasonal=args.sem_sazonal,
+                             show_matrix=not args.sem_matriz,
+                             all_days=args.todos_os_dias)
     if args.md:
         with open(args.md, "w", encoding="utf-8") as fh:
             fh.write("\n".join(lines) + "\n")

@@ -1,0 +1,576 @@
+#!/usr/bin/env python3
+"""Verificador de coerência do dossiê de viagem Viena + Munique 2026.
+
+Faz as perguntas chatas que ninguém se lembra de fazer antes de dar por fechada
+uma alteração: os horários do dia ainda fecham? o preço que alterei mudou nos dois
+ficheiros? quantas pessoas diz este bilhete? o prazo já passou?
+
+Não sabe nada sobre o mundo: não vai à internet e não valida se um preço está
+certo, só se está *coerente* entre `itinerario_viagem.md` e `index.html`. A
+verificação factual continua a ser confirmada em fonte primária, à mão.
+
+Biblioteca padrão apenas. Sem dependências, sem rede.
+
+Uso:
+    python verificar.py                 # tudo
+    python verificar.py --dia 4         # só o Dia 4
+    python verificar.py --so-erros      # só o que está mal
+    python verificar.py --seccao horarios precos
+    python verificar.py --listar        # nomes das secções
+
+Código de saída: 1 se houver algum ERRO, 0 caso contrário (os AVISOS não
+chumbam, porque muitos são legítimos e têm de ser vistos por uma pessoa).
+"""
+
+from __future__ import annotations
+
+import argparse
+import re
+import sys
+import unicodedata
+from collections import defaultdict
+from dataclasses import dataclass, field
+from datetime import date
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parent
+MD = RAIZ / "itinerario_viagem.md"
+HTML = RAIZ / "index.html"
+
+#  A viagem. Se estas datas mudarem, muda tudo o resto.
+ANO = 2026
+MES = 9
+DIAS_VIAGEM = {
+    1: (date(ANO, MES, 23), "Quarta-feira"),
+    2: (date(ANO, MES, 24), "Quinta-feira"),
+    3: (date(ANO, MES, 25), "Sexta-feira"),
+    4: (date(ANO, MES, 26), "Sábado"),
+    5: (date(ANO, MES, 27), "Domingo"),
+    6: (date(ANO, MES, 28), "Segunda-feira"),
+    7: (date(ANO, MES, 29), "Terça-feira"),
+}
+ABREV = {
+    "Quarta-feira": "Qua", "Quinta-feira": "Qui", "Sexta-feira": "Sex",
+    "Sábado": "Sáb", "Domingo": "Dom", "Segunda-feira": "Seg", "Terça-feira": "Ter",
+}
+
+#  O grupo. É a armadilha que mais vezes apanhou este dossiê: 4 pessoas em Viena
+#  nos dias 1 a 3, 6 a partir da noite do Dia 3. Sete nunca. Foram 7 numa versão
+#  antiga do plano e ainda aparecem restos.
+PAX_VIENA = 4
+PAX_TOTAL = 6
+
+#  Os únicos iconType que o getMarkerMeta() de index.html sabe desenhar. Um valor
+#  fora desta lista não rebenta nada: cai no pin azul genérico, e o marcador fica
+#  visualmente errado sem ninguém dar por isso.
+ICON_TYPES = {"plane", "train", "hotel", "castle", "beer", "water", "car", "cocktail", "food"}
+
+#  Caixa que contém a viagem toda, com folga. Serve para apanhar uma coordenada
+#  trocada: uma latitude e uma longitude invertidas caem sempre fora desta área.
+BBOX = (36.0, 51.0, -10.5, 18.0)  # lat_min, lat_max, lon_min, lon_max
+
+ERRO, AVISO, INFO = "ERRO", "AVISO", "INFO"
+PESO = {ERRO: 0, AVISO: 1, INFO: 2}
+SIMBOLO = {ERRO: "🔴", AVISO: "⚠️ ", INFO: "· "}
+
+
+@dataclass
+class Achado:
+    nivel: str
+    onde: str
+    texto: str
+
+
+@dataclass
+class Seccao:
+    nome: str
+    titulo: str
+    achados: list[Achado] = field(default_factory=list)
+
+    def erro(self, onde: str, texto: str) -> None:
+        self.achados.append(Achado(ERRO, onde, texto))
+
+    def aviso(self, onde: str, texto: str) -> None:
+        self.achados.append(Achado(AVISO, onde, texto))
+
+    def info(self, onde: str, texto: str) -> None:
+        self.achados.append(Achado(INFO, onde, texto))
+
+
+# ---------------------------------------------------------------- utilitários
+
+def ler(caminho: Path) -> list[str]:
+    if not caminho.exists():
+        sys.exit(f"Falta o ficheiro {caminho.name}. Este script corre a partir da raiz do dossiê.")
+    return caminho.read_text(encoding="utf-8").splitlines()
+
+
+def sem_acentos(txt: str) -> str:
+    return "".join(c for c in unicodedata.normalize("NFD", txt) if unicodedata.category(c) != "Mn")
+
+
+def minutos(hhmm: str) -> int:
+    h, m = hhmm.split(":")
+    return int(h) * 60 + int(m)
+
+
+def hhmm(mins: int) -> str:
+    mins %= 1440
+    return f"{mins // 60:02d}:{mins % 60:02d}"
+
+
+#  Um bloco horário do itinerário. `- **10:30 – 12:05**: Condução pela B17`
+#  O travessão pode ser meio travessão ou hífen, e a hora pode vir aproximada
+#  (~02:30) ou com mínimo (≥1h), daí a tolerância no padrão.
+#
+#  O último grupo apanha os blocos em que não fica apenas a hora a negrito, mas
+#  a ordem toda, como `- **22:20 — sair da mesa. Não às 22:30.**`. Sem ele, o
+#  bloco mais importante do Dia 6 passava despercebido à verificação.
+RE_BLOCO = re.compile(
+    r"^-\s+\*\*[~≈]?(?P<ini>\d{1,2}:\d{2})"
+    r"(?:\s*[–—-]\s*[~≈]?(?P<fim>\d{1,2}:\d{2}))?"
+    r"(?:\s*[–—-][^*]*)?"
+    r"\*\*"
+)
+RE_DIA_MD = re.compile(r"^###\s+.*?Dia\s+(?P<n>\d)\s*:\s*(?P<resto>.+)$")
+RE_ACORDAR = re.compile(r"Acordar\s+[~≈]?(?P<acordar>\d{1,2}:\d{2})")
+RE_SAIR = re.compile(r"Sair\s+[~≈]?(?P<sair>\d{1,2}:\d{2})")
+RE_DINHEIRO = re.compile(r"€\s?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?)")
+
+
+@dataclass
+class Bloco:
+    linha: int
+    ini: int
+    fim: int | None
+    texto: str
+
+
+def dias_do_markdown(linhas: list[str]) -> dict[int, tuple[int, int, str]]:
+    """Devolve {n_dia: (linha_inicio, linha_fim, cabeçalho)}, com as linhas numeradas a partir de 1."""
+    marcas: list[tuple[int, int, str]] = []
+    for i, ln in enumerate(linhas):
+        m = RE_DIA_MD.match(ln)
+        if m:
+            marcas.append((i, int(m.group("n")), ln))
+    dias: dict[int, tuple[int, int, str]] = {}
+    for k, (i, n, cab) in enumerate(marcas):
+        fim = marcas[k + 1][0] if k + 1 < len(marcas) else len(linhas)
+        dias[n] = (i, fim, cab)
+    return dias
+
+
+# ------------------------------------------------------------------- secções
+
+def check_dias(md: list[str], html: list[str]) -> Seccao:
+    """Os sete dias existem nos dois ficheiros e falam da mesma data."""
+    s = Seccao("dias", "Os sete dias, nos dois ficheiros")
+    dias_md = dias_do_markdown(md)
+
+    for n in sorted(DIAS_VIAGEM):
+        if n not in dias_md:
+            s.erro("itinerario_viagem.md", f"não há cabeçalho para o Dia {n}.")
+    for n in sorted(set(dias_md) - set(DIAS_VIAGEM)):
+        s.erro("itinerario_viagem.md", f"Dia {n} não pertence à viagem (23–29 de setembro).")
+
+    #  Dois cabeçalhos com o mesmo número deixam metade do dia fora de todas as
+    #  verificações seguintes, sem se notar em lado nenhum.
+    vistos: dict[int, int] = {}
+    for i, ln in enumerate(md):
+        if m := RE_DIA_MD.match(ln):
+            n = int(m.group("n"))
+            if n in vistos:
+                s.erro(f"itinerario_viagem.md:{i + 1}",
+                       f"segundo cabeçalho para o Dia {n} (o primeiro está na linha {vistos[n]}).")
+            vistos[n] = i + 1
+
+    #  A data e o dia da semana escritos no cabeçalho têm de bater certo com o
+    #  calendário real de 2026. Um "Sábado, 26" que na verdade é domingo passa
+    #  despercebido a olho e desmonta o plano todo.
+    for n, (i, _, cab) in sorted(dias_md.items()):
+        if n not in DIAS_VIAGEM:
+            continue
+        esperada, semana = DIAS_VIAGEM[n]
+        if not re.search(rf"\b{esperada.day}\s+de\s+[Ss]etembro", cab):
+            s.erro(f"itinerario_viagem.md:{i + 1}", f"Dia {n} devia dizer «{esperada.day} de Setembro».")
+        if sem_acentos(semana).lower() not in sem_acentos(cab).lower():
+            s.erro(f"itinerario_viagem.md:{i + 1}", f"Dia {n} é {semana}, o cabeçalho diz outra coisa.")
+
+    texto_html = "\n".join(html)
+    for n, (esperada, semana) in sorted(DIAS_VIAGEM.items()):
+        if f'id="day-view-{n}"' not in texto_html:
+            s.erro("index.html", f"falta o painel <div id=\"day-view-{n}\">.")
+        if f'data-day="{n}"' not in texto_html:
+            s.erro("index.html", f"falta o separador data-day=\"{n}\".")
+        etiqueta = f"{ABREV[semana]} {esperada.day}"
+        if etiqueta not in texto_html:
+            s.erro("index.html", f"o separador do Dia {n} devia mostrar «{etiqueta}».")
+
+    n_paineis = texto_html.count('class="day-view-container')
+    n_tabs = texto_html.count('class="day-tab-card')
+    if n_paineis != len(DIAS_VIAGEM) or n_tabs != len(DIAS_VIAGEM):
+        s.erro("index.html", f"{n_tabs} separadores para {n_paineis} painéis; deviam ser {len(DIAS_VIAGEM)} de cada.")
+
+    return s
+
+
+def check_horarios(md: list[str], filtro: int | None) -> Seccao:
+    """Cada dia tem de fechar: sem andar para trás no relógio e sem sair antes de acordar."""
+    s = Seccao("horarios", "Os horários fecham, dia a dia")
+    dias_md = dias_do_markdown(md)
+
+    for n, (i, fim, _) in sorted(dias_md.items()):
+        if filtro and n != filtro:
+            continue
+        corpo = md[i:fim]
+
+        acordar = sair = None
+        for ln in corpo[:6]:
+            if m := RE_ACORDAR.search(ln):
+                acordar = minutos(m.group("acordar"))
+            if m := RE_SAIR.search(ln):
+                sair = minutos(m.group("sair"))
+
+        blocos: list[Bloco] = []
+        for k, ln in enumerate(corpo):
+            m = RE_BLOCO.match(ln)
+            if not m:
+                continue
+            f = m.group("fim")
+            blocos.append(Bloco(i + k + 1, minutos(m.group("ini")),
+                                minutos(f) if f else None, ln.strip()[:70]))
+
+        if not blocos:
+            s.aviso(f"Dia {n}", "não encontrei blocos horários. O dia está escrito noutro formato?")
+            continue
+
+        if acordar is not None and sair is not None and sair < acordar:
+            s.erro(f"Dia {n}", f"sai às {hhmm(sair)} mas só acorda às {hhmm(acordar)}.")
+
+        primeiro = blocos[0]
+        if sair is not None and primeiro.ini < sair:
+            s.erro(f"Dia {n}:{primeiro.linha}",
+                   f"o primeiro bloco começa às {hhmm(primeiro.ini)}, antes da hora de sair ({hhmm(sair)}).")
+        elif acordar is not None and sair is None and primeiro.ini < acordar:
+            s.erro(f"Dia {n}:{primeiro.linha}",
+                   f"o primeiro bloco começa às {hhmm(primeiro.ini)}, antes de acordar ({hhmm(acordar)}).")
+
+        #  `desvio` acumula as passagens de meia-noite: a noite do Dia 1 acaba às
+        #  02:30 e isso não é andar para trás no tempo. Distingue-se de uma
+        #  sobreposição verdadeira por um critério simples: se somar 24 horas
+        #  coloca o bloco logo a seguir ao anterior (até 6 h depois), foi a
+        #  meia-noite que passou; se o atira para o dia seguinte, é um erro.
+        desvio = 0
+        anterior: Bloco | None = None
+        fim_anterior = None
+        for b in blocos:
+            ini_abs = b.ini + desvio
+            if fim_anterior is not None and ini_abs < fim_anterior:
+                if 0 <= (ini_abs + 1440) - fim_anterior <= 6 * 60:
+                    desvio += 1440
+                    ini_abs = b.ini + desvio
+                else:
+                    sobreposicao = fim_anterior - ini_abs
+                    queixa = (f"começa às {hhmm(b.ini)} mas o bloco anterior "
+                              f"({hhmm(anterior.ini)}) só acaba às {hhmm(fim_anterior)}, "
+                              f"com {sobreposicao} min sobrepostos.")
+                    #  Cinco minutos de sobreposição são arredondamento; meia hora
+                    #  é uma visita que não cabe onde está escrita.
+                    (s.erro if sobreposicao >= 10 else s.aviso)(f"Dia {n}:{b.linha}", queixa)
+            if b.fim is not None:
+                fim_abs = b.fim + desvio
+                if fim_abs < ini_abs:
+                    #  O próprio bloco atravessa a meia-noite (22:30 – 02:30).
+                    #  O `desvio` sobe já aqui para que o bloco seguinte não
+                    #  tenha de ser adivinhado pela heurística acima.
+                    desvio += 1440
+                    fim_abs += 1440
+                if fim_abs == ini_abs:
+                    s.aviso(f"Dia {n}:{b.linha}", f"bloco de duração zero às {hhmm(b.ini)}.")
+                folga = ini_abs - fim_anterior if fim_anterior is not None else 0
+                if folga >= 30:
+                    s.info(f"Dia {n}:{b.linha}", f"{folga} min de folga antes das {hhmm(b.ini)}.")
+                fim_anterior = fim_abs
+            else:
+                fim_anterior = ini_abs
+            anterior = b
+
+        if fim_anterior is not None:
+            duracao = fim_anterior - (sair if sair is not None else blocos[0].ini)
+            if duracao > 17 * 60:
+                s.aviso(f"Dia {n}", f"o dia tem {duracao // 60}h{duracao % 60:02d} de programa seguido.")
+
+    return s
+
+
+def check_precos(md: list[str], html: list[str]) -> Seccao:
+    """Um preço que só existe num dos ficheiros é quase sempre um preço por atualizar."""
+    s = Seccao("precos", "Preços presentes num ficheiro e ausentes no outro")
+
+    def recolher(linhas: list[str]) -> dict[str, list[int]]:
+        achados: dict[str, list[int]] = defaultdict(list)
+        for i, ln in enumerate(linhas):
+            for m in RE_DINHEIRO.finditer(ln):
+                achados[m.group(1)].append(i + 1)
+        return achados
+
+    a, b = recolher(md), recolher(html)
+
+    #  Valores de um só dígito são preços de gelado, portagens e bilhetes de
+    #  elétrico espalhados pelo texto, e não vale a pena exigir simetria neles.
+    def relevante(v: str) -> bool:
+        return len(v.replace(".", "").replace(",", "")) >= 3
+
+    so_md = sorted(v for v in a if v not in b and relevante(v))
+    so_html = sorted(v for v in b if v not in a and relevante(v))
+
+    for v in so_md:
+        s.aviso(f"itinerario_viagem.md:{a[v][0]}", f"€{v} não aparece em index.html.")
+    for v in so_html:
+        s.aviso(f"index.html:{b[v][0]}", f"€{v} não aparece em itinerario_viagem.md.")
+    if not so_md and not so_html:
+        s.info("ambos", f"{len(set(a) & set(b))} valores em comum, nenhum órfão.")
+
+    return s
+
+
+def check_pessoas(md: list[str], html: list[str]) -> Seccao:
+    """O grupo é de 4 em Viena e de 6 a partir do Dia 3 à noite. Nunca 7.
+
+    Há subgrupos legítimos por todo o lado, como «2 amigos juntam-se em
+    Augsburg» ou «máximo 5 pessoas por bilhete», por isso não se exige que cada
+    número seja 4 ou 6. O que tem de bater certo é a *soma* dos bilhetes
+    repartidos: é aí que o antigo plano de 7 pessoas continua escondido.
+    """
+    s = Seccao("pessoas", "Quantas pessoas em cada bilhete")
+    padrao = re.compile(r"(\d+)\s*(?:pax|pessoas|amigos|adultos|viajantes)\b", re.IGNORECASE)
+    #  «7 Viajantes» designa sempre o grupo inteiro. Foi assim que o cartão de
+    #  destaque da página continuou a anunciar sete viajantes muito depois de
+    #  serem seis. «Amigos» fica de fora de propósito: «os 2 amigos que se juntam
+    #  em Augsburg» é uma frase legítima e frequente.
+    re_grupo = re.compile(r"(\d+)\s*(viajantes)\b", re.IGNORECASE)
+    re_pax = re.compile(r"(\d+)\s*pax\b", re.IGNORECASE)
+    contagem: dict[int, int] = defaultdict(int)
+
+    for nome, linhas in (("itinerario_viagem.md", md), ("index.html", html)):
+        for i, ln in enumerate(linhas):
+            for m in padrao.finditer(ln):
+                contagem[int(m.group(1))] += 1
+
+            for m in re_grupo.finditer(ln):
+                n = int(m.group(1))
+                if n not in (PAX_VIENA, PAX_TOTAL):
+                    s.erro(f"{nome}:{i + 1}",
+                           f"«{m.group(0)}»: o grupo é de {PAX_VIENA} ou {PAX_TOTAL}.")
+
+            for m in padrao.finditer(ln):
+                n = int(m.group(1))
+                if n > PAX_TOTAL and not re_grupo.match(m.group(0)):
+                    s.aviso(f"{nome}:{i + 1}",
+                            f"menção a {n} pessoas; confirmar que é histórico ou lotação, não o grupo.")
+
+            #  Bilhete repartido: dois ou mais «N pax» somados têm de dar o grupo
+            #  inteiro. O «+» tem de estar *entre* eles, porque um «+» noutro sítio da
+            #  linha não faz dela uma soma.
+            pax = list(re_pax.finditer(ln))
+            if len(pax) >= 2 and "+" in ln[pax[0].end():pax[-1].start()]:
+                valores = [int(m.group(1)) for m in pax]
+                total = sum(valores)
+                if total not in (PAX_VIENA, PAX_TOTAL):
+                    s.erro(f"{nome}:{i + 1}",
+                           f"bilhete repartido {' + '.join(map(str, valores))} = {total} pessoas; "
+                           f"deviam ser {PAX_VIENA} ou {PAX_TOTAL}.")
+
+    for n in sorted(contagem):
+        rotulo = " (o grupo)" if n in (PAX_VIENA, PAX_TOTAL) else ""
+        quantas = "menção" if contagem[n] == 1 else "menções"
+        plural = "pessoa" if n == 1 else "pessoas"
+        s.info("ambos", f"{contagem[n]} {quantas} a {n} {plural}{rotulo}.")
+
+    return s
+
+
+def check_prazos(md: list[str], hoje: date) -> Seccao:
+    """Prazos por tratar que já passaram, ou que passam nos próximos dias."""
+    s = Seccao("prazos", "Prazos à data de hoje")
+    meses = {"janeiro": 1, "fevereiro": 2, "março": 3, "abril": 4, "maio": 5, "junho": 6,
+             "julho": 7, "agosto": 8, "setembro": 9, "outubro": 10, "novembro": 11, "dezembro": 12}
+    padrao = re.compile(r"\b(\d{1,2})\s+de\s+(" + "|".join(meses) + r")\b", re.IGNORECASE)
+
+    #  Onde vivem os prazos: a tabela do topo, o hub de bilhetes, e a checklist
+    #  final, que também tem datas por cumprir e que ficava de fora.
+    seccoes_com_prazos = ("Prazos Críticos", "Hub de Bilhetes", "Confirmar Antes de Fechar")
+    dentro_do_hub = False
+    for i, ln in enumerate(md):
+        if ln.startswith("## "):
+            dentro_do_hub = any(x in ln for x in seccoes_com_prazos)
+        if not dentro_do_hub:
+            continue
+        #  Um prazo riscado ou marcado como comprado já não é um prazo.
+        if "~~" in ln or "✅" in ln or "COMPRADO" in ln.upper():
+            continue
+        for m in padrao.finditer(ln):
+            dia_n, mes_nome = int(m.group(1)), m.group(2).lower()
+            try:
+                quando = date(ANO, meses[mes_nome], dia_n)
+            except ValueError:
+                #  «31 de abril» é uma gralha no documento, e não vale a pena abortar por isso.
+                s.aviso(f"itinerario_viagem.md:{i + 1}", f"«{m.group(0)}» não é uma data que exista.")
+                continue
+            #  Datas dentro da própria viagem são o programa, não prazos.
+            if date(ANO, MES, 23) <= quando <= date(ANO, MES, 29):
+                continue
+            faltam = (quando - hoje).days
+            if faltam < 0:
+                s.erro(f"itinerario_viagem.md:{i + 1}",
+                       f"«{m.group(0)}» passou há {-faltam} dias e a linha não está marcada como tratada.")
+            elif faltam <= 14:
+                s.aviso(f"itinerario_viagem.md:{i + 1}", f"«{m.group(0)}» é daqui a {faltam} dias.")
+
+    if not s.achados:
+        s.info("itinerario_viagem.md", "nenhum prazo em aberto vencido, nem a expirar nos próximos 14 dias.")
+    return s
+
+
+def check_imagens(html: list[str]) -> Seccao:
+    """Uma imagem em falta só se vê ao abrir a página, e ninguém abre as sete."""
+    s = Seccao("imagens", "Imagens referidas que existem em disco")
+    padrao = re.compile(r'src="(img/[^"]+)"')
+    vistas: set[str] = set()
+    for i, ln in enumerate(html):
+        for m in padrao.finditer(ln):
+            rel = m.group(1)
+            vistas.add(rel)
+            if not (RAIZ / rel).exists():
+                s.erro(f"index.html:{i + 1}", f"{rel} não existe em disco.")
+    em_disco = {f"img/{p.name}" for p in (RAIZ / "img").glob("*") if p.is_file()}
+    for orfa in sorted(em_disco - vistas):
+        s.info("img/", f"{orfa} está no repositório mas não é usada.")
+    if vistas:
+        s.info("index.html", f"{len(vistas)} imagens referidas.")
+    return s
+
+
+def check_mapa(html: list[str]) -> Seccao:
+    """Coordenadas dentro da caixa da viagem e iconType que o mapa saiba desenhar."""
+    s = Seccao("mapa", "Marcadores do mapa")
+    padrao = re.compile(r'iconType:\s*"(?P<tipo>\w+)".*?coords:\s*\[\s*(?P<lat>-?[\d.]+)\s*,\s*(?P<lon>-?[\d.]+)\s*\]')
+    lat_min, lat_max, lon_min, lon_max = BBOX
+    total = 0
+    for i, ln in enumerate(html):
+        m = padrao.search(ln)
+        if not m:
+            continue
+        total += 1
+        tipo, lat, lon = m.group("tipo"), float(m.group("lat")), float(m.group("lon"))
+        if tipo not in ICON_TYPES:
+            s.aviso(f"index.html:{i + 1}",
+                    f"iconType «{tipo}» não está em getMarkerMeta; o pin cai no azul genérico.")
+        if not (lat_min <= lat <= lat_max and lon_min <= lon <= lon_max):
+            s.erro(f"index.html:{i + 1}", f"coordenada [{lat}, {lon}] fora da área da viagem.")
+    s.info("index.html", f"{total} marcadores.")
+    return s
+
+
+def check_armazenamento(html: list[str]) -> Seccao:
+    """As chaves de localStorage são `vm_*_2026`. Mudá-las apaga o estado dos utilizadores."""
+    s = Seccao("armazenamento", "Chaves de localStorage")
+    padrao = re.compile(r"localStorage\.(?:get|set|remove)Item\(\s*['\"]([^'\"]+)['\"]")
+    chaves: set[str] = set()
+    for i, ln in enumerate(html):
+        for m in padrao.finditer(ln):
+            chave = m.group(1)
+            chaves.add(chave)
+            if not re.fullmatch(r"vm_[a-z_]+_2026", chave):
+                s.erro(f"index.html:{i + 1}", f"chave «{chave}» foge ao padrão vm_<nome>_2026.")
+    for c in sorted(chaves):
+        s.info("index.html", f"chave {c}")
+    return s
+
+
+def check_marcadores(md: list[str]) -> Seccao:
+    """Contagem dos marcadores de confiança. Um ⚠️ não se promove a ✅ em silêncio."""
+    s = Seccao("marcadores", "Estado de confirmação dos factos")
+    texto = "\n".join(md)
+    for simbolo, nome in (("✅", "confirmado"), ("⚠️", "estimativa"), ("🔴", "por tratar")):
+        s.info("itinerario_viagem.md", f"{texto.count(simbolo)} × {simbolo} ({nome})")
+    return s
+
+
+# ---------------------------------------------------------------------- saída
+
+SECCOES = ["dias", "horarios", "precos", "pessoas", "prazos", "imagens", "mapa",
+           "armazenamento", "marcadores"]
+
+
+def main() -> int:
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, OSError):
+        pass
+
+    p = argparse.ArgumentParser(description="Verifica a coerência do dossiê de viagem.")
+    p.add_argument("--dia", type=int, metavar="N", help="limitar a verificação de horários a um dia")
+    p.add_argument("--seccao", nargs="+", metavar="NOME", choices=SECCOES, help="correr só estas secções")
+    p.add_argument("--so-erros", action="store_true", help="esconder avisos e informação")
+    p.add_argument("--listar", action="store_true", help="listar as secções disponíveis e sair")
+    p.add_argument("--hoje", metavar="AAAA-MM-DD", help="simular outra data de hoje (para testar prazos)")
+    args = p.parse_args()
+
+    if args.listar:
+        for nome in SECCOES:
+            print(nome)
+        return 0
+
+    hoje = date.fromisoformat(args.hoje) if args.hoje else date.today()
+    md, html = ler(MD), ler(HTML)
+
+    todas = [
+        check_dias(md, html),
+        check_horarios(md, args.dia),
+        check_precos(md, html),
+        check_pessoas(md, html),
+        check_prazos(md, hoje),
+        check_imagens(html),
+        check_mapa(html),
+        check_armazenamento(html),
+        check_marcadores(md),
+    ]
+    if args.seccao:
+        todas = [s for s in todas if s.nome in args.seccao]
+
+    print(f"Dossiê Viena + Munique 2026, verificação de {hoje:%d/%m/%Y}")
+    print("=" * 78)
+
+    n_erros = n_avisos = 0
+    for s in todas:
+        achados = sorted(s.achados, key=lambda a: (PESO[a.nivel], a.onde))
+        if args.so_erros:
+            achados = [a for a in achados if a.nivel == ERRO]
+        n_erros += sum(1 for a in s.achados if a.nivel == ERRO)
+        n_avisos += sum(1 for a in s.achados if a.nivel == AVISO)
+        if not achados and args.so_erros:
+            continue
+        print(f"\n▸ {s.titulo}")
+        if not achados:
+            print("  nada a assinalar.")
+        for a in achados:
+            print(f"  {SIMBOLO[a.nivel]} {a.onde}: {a.texto}")
+
+    print("\n" + "=" * 78)
+    def plural(n: int, singular: str, muitos: str) -> str:
+        return f"{n} {singular if n == 1 else muitos}"
+
+    if n_erros:
+        print(f"{plural(n_erros, 'erro', 'erros')} e {plural(n_avisos, 'aviso', 'avisos')}. "
+              f"{'O erro tem' if n_erros == 1 else 'Os erros têm'} de ser resolvido"
+              f"{'' if n_erros == 1 else 's'}.")
+    elif n_avisos:
+        print(f"Sem erros. {plural(n_avisos, 'aviso', 'avisos')} para confirmar à mão.")
+    else:
+        print("Sem erros nem avisos.")
+    return 1 if n_erros else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

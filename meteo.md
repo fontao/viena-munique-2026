@@ -2,6 +2,31 @@
 
 Actualizado a terça, 25 de agosto de 2026 · fonte: Open-Meteo
 
+## Matriz — todas as paragens, todos os dias
+
+Para decidir trocas de dia. Cada célula: tempo · máxima · chuva total. 🏞️ marca as paragens em que o programa é ao ar livre.
+
+| Paragem | qua 23/09 | qui 24/09 | sex 25/09 | sáb 26/09 | dom 27/09 | seg 28/09 | ter 29/09 |
+|---|---|---|---|---|---|---|---|
+| Lisboa | **🌤️ 25° 0.3mm** | 🌤️ 25° 0.1mm | 🌤️ 25° 0.1mm | 🌤️ 26° 0.1mm | 🌤️ 25° 0.3mm | 🌤️ 26° 0.0mm | ☀️ 27° 0.2mm |
+| 🏞️ Viena | **⛅ 19° 2.0mm** | **🌦️ 18° 2.9mm** | **🌦️ 18° 3.3mm** | 🌦️ 19° 3.4mm | 🌦️ 19° 2.0mm | 🌦️ 20° 2.2mm | ⛅ 18° 0.6mm |
+| Augsburg | 🌦️ 18° 5.4mm | 🌦️ 17° 4.5mm | **🌦️ 16° 2.5mm** | **🌦️ 16° 4.5mm** | **🌦️ 18° 1.8mm** | **🌦️ 17° 2.2mm** | ⛅ 17° 0.8mm |
+| 🏞️ Neuschwanstein / Füssen | 🌦️ 15° 4.8mm | 🌦️ 14° 5.6mm | 🌦️ 14° 7.3mm | **🌦️ 15° 5.2mm** | 🌦️ 15° 3.7mm | 🌦️ 14° 4.1mm | 🌦️ 14° 2.2mm |
+| 🏞️ Oberammergau | 🌦️ 16° 5.3mm | 🌦️ 15° 4.8mm | 🌦️ 15° 4.8mm | **🌦️ 16° 3.8mm** | 🌦️ 16° 4.0mm | 🌦️ 15° 3.9mm | 🌦️ 15° 2.9mm |
+| 🏞️ Lago Eibsee | 🌦️ 16° 5.5mm | 🌦️ 14° 6.8mm | 🌦️ 14° 6.8mm | **🌦️ 15° 4.7mm** | 🌦️ 15° 4.5mm | 🌦️ 14° 4.0mm | 🌦️ 15° 2.9mm |
+| 🏞️ Rothenburg ob der Tauber | 🌦️ 18° 3.1mm | 🌦️ 16° 4.3mm | 🌦️ 16° 1.7mm | 🌦️ 16° 4.6mm | **🌦️ 17° 3.2mm** | ⛅ 16° 1.4mm | ⛅ 16° 0.7mm |
+| Munique | 🌦️ 18° 4.6mm | 🌦️ 16° 2.9mm | 🌦️ 16° 4.5mm | 🌦️ 17° 2.9mm | 🌦️ 18° 3.3mm | **🌦️ 16° 3.4mm** | **🌦️ 17° 1.3mm** |
+
+Dias agendados marcados a negrito.
+
+**Possíveis trocas**
+
+- **Viena**: agendado com até 3.3 mm; mais seco em 29/09 (0.6 mm).
+- **Neuschwanstein / Füssen**: agendado com até 5.2 mm; mais seco em 29/09 (2.2 mm).
+- **Rothenburg ob der Tauber**: agendado com até 3.2 mm; mais seco em 29/09 (0.7 mm), 28/09 (1.4 mm).
+
+Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (Neuschwanstein, Schönbrunn) e contra a rota, que nem todos os dias são trocáveis.
+
 ## Lisboa — Partida TP 1270
 
 **Tendência sazonal** — ensemble de 50 membros, sinal semanal apenas (sem valor hora-a-hora a este prazo)

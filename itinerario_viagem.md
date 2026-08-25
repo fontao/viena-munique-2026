@@ -208,7 +208,7 @@ o roteiro. As razões, para não voltar a discutir:
 | **Neuschwanstein noutro dia** | ❌ Não | O bilhete é de hora marcada para sábado 26 e deve ser comprado esta semana. Mudar de dia é perder o bilhete. |
 | **Oktoberfest noutro dia** | ❌ Não | Segunda-feira é o dia mais fácil do festival e a mesa reserva-se para essa data. |
 | **Dias 1 e 2 (Viena)** | ❌ Não | Fixos pelos voos e pela hora marcada de Schönbrunn. |
-| **BMW Welt: Dia 6 ➔ Dia 7** | ✅ Já feito | Fica a 45 min do centro e não cabia no dia da Oktoberfest; no Dia 7 fica a 10 min de Nymphenburg, no caminho para o aeroporto. |
+| **BMW Welt: Dia 6 ➔ Dia 7** | ✅ Já feito | Fica a 45 min do centro e não cabia no dia da Oktoberfest; no Dia 7 fica a ~15 min de Nymphenburg, no caminho para o aeroporto. |
 | **Noite do Dia 3 em Augsburg** | ✅ Já feito | O dia acabava no check-in. Ganhou Fuggerei, jantar e passeio noturno — tudo a pé. |
 | **Neuschwanstein 13:00 ➔ 13:30 (Dia 4)** | ✅ Feito na 2.ª revisão | Eliminou o último despertar às 09:30. Toda a semana passa a acordar às 10:00. |
 | **Neuschwanstein 13:30 ➔ 14:00 (Dia 4)** | ✅ Feito agora | Os 85 min de margem estavam **abaixo do mínimo oficial de 90–120 min**. Às 14:00 há 115 min, sem tocar na hora de acordar. |
@@ -536,7 +536,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   **67 casas, 142 apartamentos, ~150 residentes**. A renda anual nunca mudou em 500 anos:
   **0,88 €/ano** (um florim renano) mais três orações diárias pela família fundadora. O bilhete
   inclui o museu, o bunker da II Guerra e um apartamento-modelo mobilado. 40 min chegam.
-  - 🎯 **É hoje ou nunca:** Dia 4 regressam às 20:15, Dia 5 às 19:20, Dia 6 estão na
+  - 🎯 **É hoje ou nunca:** Dia 4 regressam às 20:15, Dia 5 às 19:30, Dia 6 estão na
     Oktoberfest e Dia 7 saem às 11:00. Única alternativa: **Dia 7, 9:30–10:30**, antes do
     check-out.
 - **18:25 – 18:40**: **Damenhof**, no *Fuggerhäuser* (*Maximilianstraße 36–38*), a 350 m e
@@ -646,13 +646,19 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 ### 🏰 🇩🇪 Dia 5: Domingo, 27 de Setembro — Circuito Medieval: Rothenburg ob der Tauber
 **⏰ Acordar 10:00 · Sair 11:00**
 
-- **11:00 – 12:50**: Viagem de carro para norte. **Duas rotas, escolher uma:**
-  - **Autoestrada (recomendada):** 146 km, **~1h49**.
-  - **Estrada Romântica (B25):** ~150 km mas **~2h30** de condução, passando por Donauwörth,
+- **11:00 – 13:00**: Viagem de carro para norte. **Duas rotas, escolher uma:**
+  - **Autoestrada (recomendada):** **186 km, ~2h00**. Não vai a direito: a A8 leva-vos primeiro
+    para **oeste até Ulm**, e só aí é que a A7 sobe para norte até à saída 108.
+  - **Estrada Romântica (B25):** **~152 km, ~2h30** de condução, passando por Donauwörth,
     Harburg, Nördlingen e Dinkelsbühl. É a bonita — mas obriga a sair às **10:30**.
+  - 🔴 **Atenção, isto mudou:** as versões anteriores diziam "146 km, ~1h49" pela autoestrada,
+    o que fazia a Estrada Romântica parecer um desvio caro. **É ao contrário.** A autoestrada
+    é **34 km mais longa** por causa da volta por Ulm, e a estrada bonita custa apenas
+    **~30 minutos a mais**. Ida e volta, a autoestrada gasta **~68 km** de combustível a mais
+    do que o roteiro contava.
   - *(O plano original dizia "1h30 pela A7" a passar por essas vilas. As duas coisas são
     incompatíveis: essas vilas ficam na B25, não na A7.)*
-- **12:50 – 17:30**: Visita à jóia medieval **Rothenburg ob der Tauber**: caminhada pelas
+- **13:00 – 17:30**: Visita à jóia medieval **Rothenburg ob der Tauber**: caminhada pelas
   muralhas do século XIV, fotografia na célebre praça **Plönlein**, almoço em taberna
   tradicional (*Fränkische Bratwurst*) e prova dos doces típicos **Schneeballen**.
   - 🖼️ **A coisa que faltava aqui, e que os três analistas apontaram em uníssono: a
@@ -675,7 +681,8 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   - *🚚 Bónus de domingo:* os camiões estão proibidos nas autoestradas alemãs ao domingo. A A8
     e a A7 andam muito melhor — é o melhor dia da semana para o trajeto mais rodoviário de
     todos, e uma das razões para **não** trocar este dia com o Dia 4.
-- **17:30 – 19:20**: Regresso a Augsburg. Jantar e **deitar cedo** — o Dia 6 é o grande dia.
+- **17:30 – 19:30**: Regresso a Augsburg (**186 km, ~2h00**). Jantar e **deitar cedo** — o
+  Dia 6 é o grande dia.
 
 > **Opção: ficar para o Vigia Noturno (Nachtwächter).** A melhor coisa de Rothenburg não
 > acontece de dia — é a ronda do vigia noturno, de lanterna e alabarda, pelas ruas às escuras.
@@ -683,7 +690,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > (~1h, **€9 por pessoa, só dinheiro**, sem reserva — basta aparecer). Detalhe que vale a pena
 > saber: **2026 é o último ano do vigia histórico Hans Georg Baumgartner**, que se reforma a 31
 > de outubro depois de décadas a fazer a ronda. Implica regressar a Augsburg por volta das
-> **22:50**. Como no dia seguinte só é preciso estar em Munique às 17:00 e se acorda às 10:00,
+> **23:00**. Como no dia seguinte só é preciso estar em Munique às 17:00 e se acorda às 10:00,
 > dá perfeitamente. É uma escolha, não um risco.
 
 ---
@@ -790,8 +797,9 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     **só o parque e a fachada, que são gratuitos** — que numa manhã de ressaca é honestamente
     o que rende mais. *(Preços da tabela oficial 2026 da Bayerische Schlösserverwaltung.)*
 - **13:30 – 14:45**: **BMW Welt** (entrada grátis, terça 07:30–24:00) e **Parque Olímpico** —
-  pavilhão futurista com superdesportivos e a icónica cobertura em tenda de 1972. A 10 min de
-  Nymphenburg.
+  pavilhão futurista com superdesportivos e a icónica cobertura em tenda de 1972. A **~15 min**
+  de Nymphenburg — é percurso urbano pelo Mittlerer Ring, com semáforos, e não os 10 minutos
+  que este roteiro dizia. Os 15 minutos entre os dois blocos chegam, mas não sobra nada.
   - 🏔️ **Subir ao Olympiaberg** (grátis, 200 m da BMW Welt pela ponte pedonal, ~20 min):
     a colina artificial feita com os escombros da II Guerra é o melhor miradouro gratuito de
     Munique, sobre o estádio, a sede da BMW e, em dia limpo, os Alpes.

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "osm": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "osm-mcp"
+      ],
+      "env": {}
+    }
+  }
+}
