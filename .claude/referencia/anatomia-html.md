@@ -163,15 +163,18 @@ Entrada no array `locations`, por volta da linha 3819.
   desc: "Uma ou duas frases.", img: "img/foto.jpg" },
 ```
 
-**`iconType` só pode ser um destes nove**, que são os que o `getMarkerMeta()` sabe
+**`iconType` só pode ser um destes dez**, que são os que o `getMarkerMeta()` sabe
 desenhar: `plane` ✈️, `train` 🚆, `hotel` 🏨, `castle` 🏰, `beer` 🍺, `water` 🌊,
-`car` 🚗, `cocktail` 🍸, `food` 🍴. Qualquer outro valor cai no pin azul genérico
-📍 sem dar erro nenhum, e foi assim que sete marcadores ficaram com `monument` e
-`road` sem ninguém reparar. Ou se usa um dos nove, ou se acrescenta o tipo novo ao
-`getMarkerMeta()` **e** ao filtro.
+`car` 🚗, `cocktail` 🍸, `food` 🍴, `monument` 🏛️. Qualquer outro valor cai no pin
+azul genérico 📍 sem dar erro nenhum, e foi assim que sete marcadores ficaram com
+`monument` e `road` sem ninguém reparar durante meses. Ou se usa um dos dez, ou se
+acrescenta o tipo novo ao `getMarkerMeta()`, com cor e emoji.
 
-**`city`** alimenta os filtros do mapa: `lisbon`, `vienna`, `augsburg`, `alps`,
-`rothenburg`, `munich`.
+**Acrescentar um `iconType` não mexe nos filtros.** Os botões de `#map-filters`
+filtram por **`city`**, não por tipo: o código faz `marker.category = loc.city`. Os
+valores são `lisbon`, `vienna`, `augsburg`, `alps`, `rothenburg` e `munich`, e é um
+valor **novo de `city`** que precisa de um botão novo, senão o pin fica invisível
+assim que alguém filtrar.
 
 **As coordenadas vêm do `osm` MCP** (`geocode`), nunca de memória nem de um
 blogue. Latitude primeiro. O `verificar.py` rejeita qualquer par que caia fora da

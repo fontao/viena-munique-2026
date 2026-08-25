@@ -27,7 +27,7 @@ fora da área da viagem.
 
 ## `iconType`, a armadilha silenciosa
 
-Só existem nove, que são os que o `getMarkerMeta()` sabe desenhar:
+Só existem dez, que são os que o `getMarkerMeta()` sabe desenhar:
 
 | Valor | Pin | Para |
 |---|---|---|
@@ -40,17 +40,22 @@ Só existem nove, que são os que o `getMarkerMeta()` sabe desenhar:
 | `car` | 🚗 esmeralda | aluguer e tudo o que seja de automóvel |
 | `cocktail` | 🍸 rosa-claro | bares, discotecas |
 | `food` | 🍴 laranja | restaurantes, mercados |
+| `monument` | 🏛️ ardósia | catedrais, praças, bairros históricos, o estádio |
 
 Qualquer outro valor **não dá erro**. Cai no pin azul genérico 📍 e fica errado sem
-ninguém reparar, que foi como sete marcadores ficaram com `monument` e `road`. Ou
-se usa um dos nove, ou se acrescenta o tipo novo ao `getMarkerMeta()` e ao filtro,
-com a sua cor e o seu emoji.
+ninguém reparar, que foi como sete marcadores passaram meses com `monument` e
+`road` antes de o `verificar.py` dar por isso. Ou se usa um dos dez, ou se
+acrescenta o tipo novo ao `getMarkerMeta()`, com a sua cor e o seu emoji.
 
 ## `city` e os filtros
 
+**Os filtros são por `city`, não por `iconType`.** O código faz
+`marker.category = loc.city`, portanto acrescentar um tipo de pin não obriga a
+mexer em filtro nenhum.
+
 Os valores são `lisbon`, `vienna`, `augsburg`, `alps`, `rothenburg` e `munich`, e
-alimentam os botões de filtro em `#map-filters`. Um valor novo precisa de um botão
-novo, senão o pin fica invisível assim que alguém filtrar.
+alimentam os botões em `#map-filters`. É um valor novo de **`city`** que precisa de
+um botão novo, senão o pin fica invisível assim que alguém filtrar.
 
 ## `desc`
 

@@ -63,7 +63,8 @@ PAX_TOTAL = 6
 #  Os únicos iconType que o getMarkerMeta() de index.html sabe desenhar. Um valor
 #  fora desta lista não rebenta nada: cai no pin azul genérico, e o marcador fica
 #  visualmente errado sem ninguém dar por isso.
-ICON_TYPES = {"plane", "train", "hotel", "castle", "beer", "water", "car", "cocktail", "food"}
+ICON_TYPES = {"plane", "train", "hotel", "castle", "beer", "water", "car", "cocktail",
+              "food", "monument"}
 
 #  Caixa que contém a viagem toda, com folga. Serve para apanhar uma coordenada
 #  trocada: uma latitude e uma longitude invertidas caem sempre fora desta área.
@@ -137,6 +138,13 @@ RE_ACORDAR = re.compile(r"Acordar\s+[~≈]?(?P<acordar>\d{1,2}:\d{2})")
 RE_SAIR = re.compile(r"Sair\s+[~≈]?(?P<sair>\d{1,2}:\d{2})")
 RE_DINHEIRO = re.compile(r"€\s?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?)")
 
+#  «daqui a duas semanas», «faltam ~6 semanas». Contagens ancoradas no dia em que
+#  alguém as escreveu, que passam a mentir no dia seguinte.
+RE_RELATIVA = re.compile(
+    r"daqui a [^.,;)]{1,25}?(?:semanas?|dias?|meses|mês)"
+    r"|faltam\s+~?\s?\d+\s+(?:semanas?|dias?|meses)",
+    re.IGNORECASE)
+
 
 @dataclass
 class Bloco:
@@ -144,6 +152,37 @@ class Bloco:
     ini: int
     fim: int | None
     texto: str
+
+
+#  Marcas de que uma linha fala de uma opção rejeitada, corrigida ou retirada do
+#  plano. Os preços que aparecem nessas linhas existem para justificar uma
+#  decisão, não para serem pagos, e por isso não têm de ter correspondência no
+#  outro documento. Um preço riscado (`~~`) não entra aqui de propósito: neste
+#  dossiê riscado quer dizer «já comprado», e esse é bem real.
+MARCAS_EMOJI = ("🚫", "❌", "🗑️")
+MARCAS_TEXTO = ("desatualizad", "não existe", "foi retirado", "estimativa antiga")
+
+
+def descartadas(linhas: list[str]) -> list[bool]:
+    """Diz, para cada linha, se fala de uma opção descartada.
+
+    A marca costuma estar na primeira linha de uma citação (`>`) e os números
+    aparecem duas ou três linhas abaixo, ainda dentro da mesma citação, como no
+    aviso sobre os revendedores da Oktoberfest. Daí arrastar o estado enquanto a
+    citação durar.
+    """
+    resultado: list[bool] = []
+    citacao_descartada = False
+    for ln in linhas:
+        baixa = ln.lower()
+        marcada = (any(x in ln for x in MARCAS_EMOJI)
+                   or any(x in baixa for x in MARCAS_TEXTO))
+        if ln.lstrip().startswith(">"):
+            citacao_descartada = citacao_descartada or marcada
+        else:
+            citacao_descartada = False
+        resultado.append(marcada or citacao_descartada)
+    return resultado
 
 
 def dias_do_markdown(linhas: list[str]) -> dict[int, tuple[int, int, str]]:
@@ -309,7 +348,10 @@ def check_precos(md: list[str], html: list[str]) -> Seccao:
 
     def recolher(linhas: list[str]) -> dict[str, list[int]]:
         achados: dict[str, list[int]] = defaultdict(list)
+        fora = descartadas(linhas)
         for i, ln in enumerate(linhas):
+            if fora[i]:
+                continue
             for m in RE_DINHEIRO.finditer(ln):
                 achados[m.group(1)].append(i + 1)
         return achados
@@ -426,6 +468,17 @@ def check_prazos(md: list[str], hoje: date) -> Seccao:
                        f"«{m.group(0)}» passou há {-faltam} dias e a linha não está marcada como tratada.")
             elif faltam <= 14:
                 s.aviso(f"itinerario_viagem.md:{i + 1}", f"«{m.group(0)}» é daqui a {faltam} dias.")
+
+    #  Expressões relativas ao presente apodrecem sozinhas, e ninguém volta lá.
+    #  Este dossiê chegou a ter «daqui a duas semanas» a apontar para o dia
+    #  seguinte. Percorre o documento inteiro, e não só o hub, porque a pior de
+    #  todas estava no cabeçalho.
+    ate_a_viagem = (date(ANO, MES, 23) - hoje).days
+    for i, ln in enumerate(md):
+        for m in RE_RELATIVA.finditer(ln):
+            s.aviso(f"itinerario_viagem.md:{i + 1}",
+                    f"«{m.group(0).strip()}» é uma contagem relativa e envelhece sozinha; "
+                    f"hoje faltam {ate_a_viagem} dias para a viagem.")
 
     if not s.achados:
         s.info("itinerario_viagem.md", "nenhum prazo em aberto vencido, nem a expirar nos próximos 14 dias.")
