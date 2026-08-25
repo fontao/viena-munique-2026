@@ -569,6 +569,12 @@
             color: var(--text-main);
         }
         .callout-box.critical i { color: var(--accent-rose); font-size: 1.1rem; margin-top: 0.15rem; }
+        .callout-box.success {
+            background: rgba(52, 211, 153, 0.09);
+            border: 1px solid rgba(52, 211, 153, 0.3);
+            color: var(--text-main);
+        }
+        .callout-box.success i { color: #34d399; font-size: 1.1rem; margin-top: 0.15rem; }
 
         /* Transfer Dual Option Cards */
         .transfer-options-grid {
@@ -1162,6 +1168,33 @@
             color: #fff;
         }
 
+        /* Inline map links — nomes de sítios clicáveis dentro do texto */
+        a.geo {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px dashed rgba(56, 189, 248, 0.5);
+            transition: var(--transition-smooth);
+            white-space: nowrap;
+        }
+        a.geo::after {
+            content: "\f3c5"; /* fa map-marker-alt */
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            font-size: 0.68em;
+            color: var(--accent-blue);
+            margin-left: 0.28em;
+            vertical-align: 0.08em;
+            opacity: 0.75;
+        }
+        a.geo:hover {
+            color: var(--accent-blue);
+            border-bottom-color: var(--accent-blue);
+        }
+        a.geo:hover::after { opacity: 1; }
+        @media (max-width: 640px) {
+            a.geo { white-space: normal; }
+        }
+
         /* ===== TICKETS & RESERVATIONS HUB ===== */
         .tickets-section {
             margin-bottom: 5rem;
@@ -1194,6 +1227,7 @@
         }
         .ticket-badge.booked { background: rgba(52, 211, 153, 0.15); color: var(--accent-emerald); border: 1px solid rgba(52, 211, 153, 0.3); }
         .ticket-badge.critical { background: rgba(251, 113, 133, 0.15); color: var(--accent-rose); border: 1px solid rgba(251, 113, 133, 0.3); }
+        .ticket-badge.success { background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.35); }
         .ticket-badge.pending { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border: 1px solid rgba(245, 158, 11, 0.3); }
         .ticket-badge.local { background: rgba(56, 189, 248, 0.15); color: var(--accent-blue); border: 1px solid rgba(56, 189, 248, 0.3); }
 
@@ -2032,7 +2066,7 @@
                 <div class="day-tab-card active" data-day="1">
                     <div class="day-tab-top"><span>Dia 1</span><span>Qua 23</span></div>
                     <div class="day-tab-title">✈️ Viena & Festa</div>
-                    <div class="day-tab-badge"><i class="fa-solid fa-moon"></i> Bermudadreieck</div>
+                    <div class="day-tab-badge"><i class="fa-solid fa-moon"></i> Bermudadreieck ➔ DANZÓN</div>
                 </div>
                 <div class="day-tab-card" data-day="2">
                     <div class="day-tab-top"><span>Dia 2</span><span>Qui 24</span></div>
@@ -2092,7 +2126,7 @@
                             <span><i class="fa-solid fa-bed"></i> Acordar 04:45</span>
                             <span><i class="fa-solid fa-plane-departure"></i> LIS (08:05) ➔ VIE (12:35)</span>
                             <span><i class="fa-solid fa-hotel"></i> Judengasse 11</span>
-                            <span><i class="fa-solid fa-martini-glass"></i> Bermudadreieck</span>
+                            <span><i class="fa-solid fa-martini-glass"></i> Bermudadreieck ➔ DANZÓN</span>
                         </div>
                     </div>
                 </div>
@@ -2114,46 +2148,31 @@
                                 <div class="timeline-img-overlay"><span>Aeroporto Humberto Delgado Lisboa (LIS)</span><i class="fa-solid fa-expand"></i></div>
                             </div>
                             <div class="node-actions">
-                                <a href="https://maps.google.com/?q=Lisbon+Airport+LIS" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Aeroporto de Lisboa</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Aeroporto%20Humberto%20Delgado%2C%20Lisboa" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Aeroporto de Lisboa</a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- TRANSFER OPTIONS COMPARISON -->
+                    <!-- TRANSFER: Railjet + U1 (decidido) -->
                     <div class="timeline-node" data-category="transporte">
                         <div class="node-bullet"></div>
                         <div class="node-card">
                             <div class="node-header">
                                 <div class="node-badges">
-                                    <span class="time-pill train">🚆 13:15 → 14:15</span>
+                                    <span class="time-pill train">🚆 13:15 → 14:20</span>
                                     <span class="category-pill">Transfer Aeroporto ➔ Judengasse 11</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Chegada ao Aeroporto VIE: Escolha do Transfer</h4>
-                            <p class="node-text"><em>⚠️ Nota sobre obras:</em> Desde <strong>7 de setembro de 2026</strong> a S-Bahn Stammstrecke está fechada (até out/2027). O <strong>CAT está suspenso</strong> (substituído por autocarros) e o <strong>S7 só vai até St. Marx</strong>, fora do centro. O Railjet não é afetado. As duas opções viáveis para o grupo:</p>
+                            <h4 class="node-title">Chegada ao Aeroporto VIE: Railjet + Metro U1</h4>
+                            <p class="node-text"><strong>Comboio ÖBB Railjet (RJ/RJX)</strong> direto da estação por baixo do aeroporto até <em>Wien Hauptbahnhof</em> (15 min) ➔ <strong>Metro U1 direto</strong> até <em>Schwedenplatz</em> (7 min) ➔ 4 min a pé. <strong>Tudo no mesmo bilhete.</strong><br><br>🕐 <strong>Parte aos :03 e aos :33 de cada hora.</strong> Com aterragem às 12:35, o realista é apanhar o das <strong>13:33</strong> e estar à porta de casa por volta das <strong>14:20</strong>.<br><br>💶 <strong>~€5,50/pessoa — 4 pax ≈ €22.</strong> <em>Tarifa a confirmar na app ÖBB; o histórico anda entre €4,50 e €5,50, portanto no pior caso são €4 a mais no grupo todo.</em></p>
 
-                            <div class="transfer-options-grid">
-                                <div class="transfer-opt-card">
-                                    <div class="transfer-opt-head">
-                                        <strong style="color: var(--accent-emerald);">Opção A: Railjet + Metro</strong>
-                                        <span class="transfer-badge recommended">Recomendada</span>
-                                    </div>
-                                    <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.4rem;">
-                                        <strong>Comboio ÖBB Railjet (RJ/RJX)</strong> direto da cave do aeroporto até <em>Wien Hauptbahnhof</em> (15 min) + <strong>Metro U1 direto</strong> até <em>Schwedenplatz</em> (7 min) + 4 min a pé. Tudo no mesmo bilhete.<br><br>🕐 <strong>Parte aos :03 e aos :33 de cada hora.</strong> Com aterragem às 12:35, o realista é apanhar o das <strong>13:33</strong> e estar à porta de casa por volta das <strong>14:20</strong>.<br><br>🎫 <strong>Cuidado ao comprar:</strong> pedir o bilhete <em>Flughafen Wien ➔ Wien</em> (com a zona central incluída), não apenas até Wien Hbf — é isso que faz o U1 vir no mesmo bilhete. Se comprarem o errado, é preciso um bilhete de metro à parte de €3,20.<br><br>✅ <strong>Confirmado a 14/08:</strong> a Stammstrecke está mesmo cortada, o <strong>CAT foi substituído por autocarros</strong> e o S7 não chega ao centro. O Railjet é a única ligação ferroviária fiável — esta opção deixou de ser a melhor e passou a ser a única que faz sentido.
-                                    </p>
-                                    <span style="font-size: 0.76rem; color: var(--text-dim);">⚡ Transporte: ~30 min (porta a porta: ~1h45 desde a aterragem) | Custo: ~€5,50/pessoa (4 pax ≈ €22) — <em>tarifa a confirmar na app ÖBB; histórico €4,50–5,50</em></span>
-                                </div>
-
-                                <div class="transfer-opt-card">
-                                    <div class="transfer-opt-head">
-                                        <strong style="color: var(--accent-blue);">Opção B: Autocarro VAL 2</strong>
-                                        <span class="transfer-badge direct">Direto à Porta</span>
-                                    </div>
-                                    <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.4rem;">
-                                        <strong>Vienna Airport Lines (Linha VAL 2)</strong>: autocarro expresso direto que sai à porta do terminal e deixa na paragem <em>Morzinplatz / Schwedenplatz</em> (100m a pé do apartamento).
-                                    </p>
-                                    <span style="font-size: 0.76rem; color: var(--text-dim);">🧳 Tempo: ~22 min | Custo: €10,50/pessoa (4 pax = €42) | Sem transbordos</span>
-                                </div>
+                            <div class="callout-box critical">
+                                <i class="fa-solid fa-ticket"></i>
+                                <div><strong>Cuidado ao comprar o bilhete.</strong> Pedir <em>Flughafen Wien ➔ Wien</em>, <strong>com a zona central incluída</strong> — não apenas até Wien Hbf. É isso que faz o U1 vir no mesmo bilhete. Com o bilhete errado é preciso comprar um de metro à parte, a €3,20 por pessoa.</div>
+                            </div>
+                            <div class="callout-box warning">
+                                <i class="fa-solid fa-helmet-safety"></i>
+                                <div><strong>No aeroporto, ignorar o CAT e o S7 — mesmo que a sinalética insista.</strong> O <strong>CAT</strong> é a ligação mais publicitada dentro do terminal, com balcão e sinalização próprios: <strong>está suspenso</strong> e substituído por autocarros. O <strong>S7</strong> é o que os guias recomendam por ser o mais barato: <strong>só vai até St. Marx</strong>, fora do centro, e obriga a transbordo para elétrico. Ambos por causa do fecho da <strong>S-Bahn Stammstrecke desde 7/9/2026</strong>, até outubro de 2027.<br><br>⚠️ <strong>Isto interessa sobretudo se o Railjet das 13:33 se atrasar</strong> e der a tentação de saltar para o primeiro comboio que apareça. <strong>Esperar pelo Railjet seguinte</strong> — parte aos :03 e aos :33, portanto nunca são mais de 30 minutos.</div>
                             </div>
 
                             <div class="timeline-img-wrapper enlargeable">
@@ -2168,14 +2187,14 @@
                         <div class="node-card">
                             <div class="node-header">
                                 <div class="node-badges">
-                                    <span class="time-pill">🔑 14:15 → 14:45</span>
+                                    <span class="time-pill">🔑 14:20 → 14:45</span>
                                     <span class="category-pill">Check-in</span>
                                 </div>
                             </div>
                             <h4 class="node-title">Central City Apartments (Judengasse 11)</h4>
                             <p class="node-text">Alojamento no coração histórico de Viena. Apenas 300m a pé da estação <em>Schwedenplatz</em> / <em>Morzinplatz</em> e a 50m dos melhores bares do Bermudadreieck!<br><br>⚠️ <strong>O check-in nestes apartamentos é tipicamente às 15:00.</strong> Pedir <em>early check-in</em> por email com antecedência, ou combinar deixar as malas.</p>
                             <div class="node-actions">
-                                <a href="https://maps.google.com/?q=Judengasse+11+1010+Wien+Austria" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Abrir Judengasse 11</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Judengasse%2011%2C%201010%20Wien" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Abrir Judengasse 11</a>
                                 <button class="btn-action-sm copy-addr" data-clipboard="Judengasse 11, 1010 Wien, Austria"><i class="fa-regular fa-copy"></i> Copiar Morada</button>
                             </div>
                         </div>
@@ -2186,23 +2205,27 @@
                         <div class="node-card">
                             <div class="node-header">
                                 <div class="node-badges">
-                                    <span class="time-pill">⛪ 14:45 → 18:00</span>
+                                    <span class="time-pill">⛪ 14:45 → 17:45</span>
                                     <span class="category-pill">Monumentos a Pé</span>
                                 </div>
                             </div>
                             <h4 class="node-title">Catedral Stephansdom, Graben, Hofburg & Volksgarten</h4>
-                            <p class="node-text">Uma linha reta para poente, sem voltar atrás: casa ➔ <strong>Stephansdom</strong> (7 min) ➔ <em>Graben</em> e <em>Kohlmarkt</em> ➔ <strong>Hofburg</strong> (6 min) ➔ <strong>Volksgarten</strong> (7 min). Subida à Torre Sul da catedral (<strong>€8,00, só dinheiro</strong> — o roteiro dizia €6,50, desatualizado; 343 degraus, última subida 18:15) para a vista 360°, ruas pedonais imperiais, o palácio dos Habsburgos e os jardins.<br><br>São <strong>1,6 km à ida</strong> em três horas — passo de passeio, que é o que se aguenta com 5 horas de sono. O regresso pelo Ring são outros 1,4 km (18 min) e passa à porta de casa.<br><br>➕ <strong>Três paragens grátis acrescentadas nesta revisão</strong>, todas em cima do caminho: a <strong>Ruprechtskirche</strong> a 100 m de casa (a igreja mais antiga de Viena, séc. XII sobre fundações do ano 740), o relógio <strong>Ankeruhr</strong> a 150 m (mecânico, Jugendstil de 1914) e a <strong>Peterskirche</strong> a 30 m do Graben (cúpula turquesa, barroco de tirar o fôlego, com recital de órgão diário às 15:00).</p>
+                            <p class="node-text">Uma linha reta para poente, sem voltar atrás: casa ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien">Stephansdom</a></strong> (7 min) ➔ <em>Graben</em> e <em>Kohlmarkt</em> ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien">Hofburg</a></strong> (6 min) ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Volksgarten%2C%20Dr.-Karl-Renner-Ring%2C%201010%20Wien">Volksgarten</a></strong> (7 min). Subida à Torre Sul da catedral (<strong>€8,00, só dinheiro</strong>; 343 degraus, última subida 18:15) para a vista 360°, ruas pedonais imperiais, o palácio dos Habsburgos e os jardins.<br><br>São <strong>1,6 km à ida</strong> em três horas — passo de passeio, que é o que se aguenta com 5 horas de sono. O regresso pelo Ring são outros 1,4 km (18 min) e passa à porta de casa.<br><br>➕ <strong>Três paragens grátis</strong>, todas em cima do caminho: a <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ruprechtskirche%2C%20Ruprechtsplatz%201%2C%201010%20Wien">Ruprechtskirche</a></strong> a 100 m de casa (a igreja mais antiga de Viena, séc. XII sobre fundações do ano 740), o relógio <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ankeruhr%2C%20Hoher%20Markt%2010-11%2C%201010%20Wien">Ankeruhr</a></strong> a 150 m (mecânico, Jugendstil de 1914) e a <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Peterskirche%2C%20Petersplatz%201%2C%201010%20Wien">Peterskirche</a></strong> a 30 m do Graben (cúpula turquesa, barroco de tirar o fôlego, com recital de órgão diário às 15:00).</p>
 
                             <div class="callout-box info">
                                 <i class="fa-solid fa-shoe-prints"></i>
                                 <div><strong>Porque é que a Ópera e a Kärntner Straße não estão aqui:</strong> ficam no braço <em>sul</em> da zona pedonal e vocês passam lá amanhã de manhã, a caminho da Sachertorte e do metro para Schönbrunn. Hoje faz-se o braço poente, amanhã o sul — assim nenhuma rua se anda duas vezes.</div>
+                            </div>
+                            <div class="callout-box warning">
+                                <i class="fa-solid fa-clock"></i>
+                                <div><strong>Sair do Volksgarten às 17:45.</strong> O sol põe-se às <strong>18:49</strong>: estes 15 minutos pagam a passagem por casa para largar mochilas e trocar de roupa, e ainda chegam ao canal às 18:20 — a tempo da hora dourada, em vez de a apanharem já a acabar.</div>
                             </div>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/vienna_stephansdom_1786477232698.jpg" alt="Stephansdom Viena">
                                 <div class="timeline-img-overlay"><span>Catedral de São Estêvão (Stephansdom)</span><i class="fa-solid fa-expand"></i></div>
                             </div>
                             <div class="node-actions">
-                                <a href="https://maps.google.com/?q=Stephansdom+Vienna" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Ver no Mapa</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Ver no Mapa</a>
                             </div>
                         </div>
                     </div>
@@ -2212,20 +2235,52 @@
                         <div class="node-card">
                             <div class="node-header">
                                 <div class="node-badges">
-                                    <span class="time-pill party">🍹 18:30 → 20:30</span>
+                                    <span class="time-pill party">🍹 18:20 → 19:45</span>
                                     <span class="category-pill">Sunset & Pré-Copos</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Pré-Copos no Canal do Danúbio (Donaukanal)</h4>
-            <p class="node-text">Esplanadas, graffiti, areia e cocktails à beira de água, a 300 m (3 min) do apartamento. <strong>Ficar no troço de Schwedenplatz</strong> — o <em>Tel Aviv Beach</em> e os bares junto à Schwedenbrücke.</p>
+                            <h4 class="node-title">Pôr do Sol no Canal do Danúbio (Donaukanal)</h4>
+                            <p class="node-text">Graffiti, bares improvisados e gente sentada no betão a beber, a <strong>300 m (3 min)</strong> do apartamento. O sol põe-se às <strong>18:49</strong>, com luz azul até às ~19:25.<br><br>💶 <strong>Cerveja do supermercado, sentados no betão.</strong> Grátis e sem reserva — é o que os vienenses fazem a meio da semana.</p>
 
+                            <div class="callout-box success">
+                                <i class="fa-solid fa-location-crosshairs"></i>
+                                <div><strong>O sítio exato: atravessar a Schwedenbrücke e ficar na margem de Leopoldstadt</strong> (lado 1020), no troço entre a <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Donaukanal%20Obere%20Donaustra%C3%9Fe%2C%201020%20Wien">Schwedenbrücke e a Salztorbrücke</a></strong>. Três razões, todas práticas:<br><br>☀️ <strong>É a margem virada a poente.</strong> Sentados aqui, o sol põe-se <em>em frente</em>, por cima da água e da silhueta da cidade velha. Na margem do 1.º distrito ficam de costas para ele.<br>🍺 <strong>É onde estão os bares e o movimento.</strong> A Obere Donaustraße é a rua desta margem — degraus largos até à água e o grosso da gente sentada.<br>🍽️ <strong>É o lado certo para o jantar.</strong> A Schöne Perle fica neste mesmo bairro: acabam o pôr do sol e sobem para o Karmeliterviertel sem voltar atrás.</div>
+                            </div>
                             <div class="callout-box info">
-                                <i class="fa-solid fa-shoe-prints"></i>
-                                <div><strong>Não ir ao Strandbar Herrmann hoje.</strong> Fica <strong>884 m mais para leste</strong>: vindos do Volksgarten dariam <strong>2,5 km / 31 min</strong> a pé, contra 1,4 km se ficarem no troço de casa. Ao fim de três horas de pé e com cinco horas de sono, é o quilómetro mais caro da viagem. Além disso, ficando aqui passam pela porta de casa — dá para largar mochilas e trocar de roupa antes da noite.</div>
+                                <i class="fa-solid fa-martini-glass-citrus"></i>
+                                <div><strong>Se preferirem um copo sentado com serviço:</strong> <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Motto%20am%20Fluss%2C%20Franz-Josefs-Kai%202%2C%201010%20Wien">Motto am Fluss</a></strong> (o barco em Schwedenplatz, bar 18:00–24:00, <strong>2 min</strong>) ou <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Badeschiff%2C%20Franz-Josefs-Kai%206a%2C%201010%20Wien">Badeschiff</a></strong> (piscina-barco, 11:00–01:00, <strong>10 min</strong>).</div>
                             </div>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/donaukanal_vienna_1786477802836.jpg" alt="Donaukanal Viena">
-                                <div class="timeline-img-overlay"><span>Donaukanal Sunset Bars</span><i class="fa-solid fa-expand"></i></div>
+                                <div class="timeline-img-overlay"><span>Donaukanal — pôr do sol às 18:49</span><i class="fa-solid fa-expand"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="comida">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill party">🍽️ 19:45 → 21:15</span>
+                                    <span class="category-pill">Jantar</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Jantar na Schöne Perle (Karmeliterviertel)</h4>
+                            <p class="node-text"><strong>Große Pfarrgasse 2, 1020</strong> — 11 min a pé, do outro lado da Schwedenbrücke, <strong>no fim natural do passeio do canal</strong>. Cozinha vienense honesta, ambiente de bairro descontraído, com opções vegetarianas e veganas. É o bairro onde a cidade é real: ninguém repara que são turistas.<br><br>💶 <strong>Principais €14,90–29,50</strong> (confirmado no site). Aberto todos os dias 11:00–24:00, cozinha até às 22:30. Reserva recomendada mas não crítica a uma quarta: <strong>+43 1 890 32 04</strong>.</p>
+
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <div><strong>Duas alternativas, também a pé:</strong><br>• <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gasthaus%20P%C3%B6schl%2C%20Weihburggasse%2017%2C%201010%20Wien">Gasthaus Pöschl</a></strong> (<em>Weihburggasse 17</em>, 10 min) se quiserem o melhor prato da noite — o Beisl moderno mais respeitado do 1.º distrito, minúsculo e cheio de vienenses. Peçam o <em>Beuschel</em>, o <em>Backhendl</em> ou o <em>Tafelspitz</em>. <strong>Reserva obrigatória, com dias de antecedência: +43 1 513 52 88.</strong><br>• <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Zum%20Bettelstudent%2C%20Johannesgasse%2012%2C%201010%20Wien">Zum Bettelstudent</a></strong> (<em>Johannesgasse 12</em>, 11 min) se chegarem atrasados do canal — barato, barulhento, sem pretensão, entra-se e senta-se sem reserva. E fica <strong>a 100 m do DANZÓN</strong>.</div>
+                            </div>
+                            <div class="callout-box warning">
+                                <i class="fa-solid fa-ban"></i>
+                                <div><strong>Não jantar dentro do Bermudadreieck nem na Griechengasse.</strong> À noite enchem de grupos e despedidas de solteiro. O triângulo é excelente para o que vão lá fazer <em>depois</em> — beber. A evitar em concreto: <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Griechenbeisl%2C%20Fleischmarkt%2011%2C%201010%20Wien">Griechenbeisl</a></strong> (a armadilha canónica, com autocarros à porta), <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Zw%C3%B6lf-Apostelkeller%2C%20Sonnenfelsgasse%203%2C%201010%20Wien">Zwölf-Apostelkeller</a></strong> (salão de 390 lugares com músicos de Heuriger) e <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Figlm%C3%BCller%2C%20Wollzeile%205%2C%201010%20Wien">Figlmüller</a></strong> (bom, mas é o restaurante mais fotografado de Viena — às 19:45 sem reserva, esqueçam).</div>
+                            </div>
+                            <div class="node-actions">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Sch%C3%B6ne%20Perle%2C%20Gro%C3%9Fe%20Pfarrgasse%202%2C%201020%20Wien" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Schöne Perle</a>
+                                <a href="tel:+4318903204" class="btn-action-sm"><i class="fa-solid fa-phone"></i> +43 1 890 32 04</a>
+                                <a href="tel:+4315135288" class="btn-action-sm"><i class="fa-solid fa-phone"></i> Pöschl: +43 1 513 52 88</a>
                             </div>
                         </div>
                     </div>
@@ -2235,16 +2290,32 @@
                         <div class="node-card">
                             <div class="node-header">
                                 <div class="node-badges">
-                                    <span class="time-pill party">🍸 21:00 → Madrugada</span>
+                                    <span class="time-pill party">🍸 21:15 → ~02:30</span>
                                     <span class="category-pill">Noite Épica</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Bermudadreieck & Clubbing (Volksgarten / FLEX)</h4>
-                            <p class="node-text">O "Triângulo das Bermudas" fica literalmente à porta de casa! Rota de bares com imperial austríaca (Ottakringer/Stiegl). Depois, clubbing no <strong>FLEX</strong> ou no <strong>Volksgarten Club</strong>.</p>
+                            <h4 class="node-title">Bermudadreieck &amp; DANZÓN — "FIESTA" de quarta</h4>
+                            <p class="node-text"><strong>21:15 → 22:30 · Bares no Bermudadreieck</strong>, à porta de casa, sem entrada e sem dress code:<br>• <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Krah%20Krah%2C%20Rabensteig%208%2C%201010%20Wien">Krah Krah</a></strong> — ⚠️ fecha à <strong>meia-noite</strong>, serve para começar.<br>• <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Salzamt%2C%20Ruprechtsplatz%201%2C%201010%20Wien">Salzamt</a></strong> — esplanada na praça, até à 01:00.<br>• <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=First%20Floor%20Bar%2C%20Seitenstettengasse%205%2C%201010%20Wien">First Floor</a></strong> — cocktails, até às 02:00.<br><br><strong>22:30 → ~02:30 · <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Danz%C3%B3n%2C%20Johannesgasse%203%2C%201010%20Wien">DANZÓN Latin Club</a></strong>, Johannesgasse 3, <strong>12 min a pé</strong>. Festa <strong>"FIESTA" fixa todas as quartas, 20:00–04:00</strong>: reggaeton, latin house e bachata, público 20–35 internacional, <strong>sem porta seletiva</strong>.<br><br>⏰ <strong>Chegar às 22:30</strong> — a sala só enche depois dos workshops de dança, que acabam às 21:00.</p>
 
+                            <div class="callout-box critical">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <div><strong>Não tentar o Volksgarten Club nem o FLEX</strong> — são os nomes que toda a gente sugere, e nenhum abre a 23. O Volksgarten é só qui–sáb (e é 21+, €18 só em dinheiro, porta agressiva); o FLEX não tem evento no calendário oficial dessa noite.</div>
+                            </div>
+                            <div class="callout-box warning">
+                                <i class="fa-solid fa-train-subway"></i>
+                                <div><strong>O metro não circula toda a noite à quarta.</strong> Última composição <strong>~00:15–00:30</strong>; depois é autocarro noturno da linha N (com nó em <strong>Schwedenplatz, à porta de casa</strong>) ou Bolt a €12–16. <strong>É por isso que o DANZÓN, a 12 min a pé, ganha: não há hora de recolher.</strong></div>
+                            </div>
                             <div class="callout-box info">
-                                <i class="fa-solid fa-location-arrow"></i>
-                                <div><strong>Geograficamente, o FLEX ganha:</strong> fica a <strong>1 km / 13 min</strong> a pé, continuando pelo mesmo canal onde já estiveram ao pôr do sol, e é casual. O <strong>Volksgarten Club</strong> obriga a <strong>1,4 km / 18 min</strong> de volta para poente — para o mesmo jardim onde estiveram às 18:00 — e tem porta seletiva e código de vestuário. Se a noite correr bem no Bermudadreieck, o FLEX é a continuação natural.</div>
+                                <i class="fa-solid fa-martini-glass-citrus"></i>
+                                <div><strong>Planos B, todos a pé:</strong> <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Kaktus%20Bar%2C%20Seitenstettengasse%205%2C%201010%20Wien">Kaktus</a></strong> (19:00–04:00, com pista) · <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Roter%20Engel%2C%20Rabensteig%205%2C%201010%20Wien">Roter Engel</a></strong> (até às 04:00, música ao vivo ~23:00) · <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Cabaret%20Fledermaus%2C%20Spiegelgasse%202%2C%201010%20Wien">Cabaret Fledermaus</a></strong> (7 min, <strong>entrada livre desde as 21:00</strong>) · <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Loos%20American%20Bar%2C%20K%C3%A4rntner%20Durchgang%2010%2C%201010%20Wien">Loos American Bar</a></strong> (até às 04:00, sem reservas).<br><br>🌭 No regresso: <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=W%C3%BCrstelstand%20am%20Hohen%20Markt%2C%20Hoher%20Markt%201%2C%201010%20Wien">Würstelstand am Hohen Markt</a></strong>, até ~04:00, a 3 min de casa.</div>
+                            </div>
+                            <div class="callout-box success">
+                                <i class="fa-solid fa-phone"></i>
+                                <div><strong>Confirmar em setembro:</strong> a residência <em>FIESTA</em> das quartas no Instagram do DANZÓN e o preço à porta.</div>
+                            </div>
+                            <div class="node-actions">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Danz%C3%B3n%2C%20Johannesgasse%203%2C%201010%20Wien" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> DANZÓN</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Krah%20Krah%2C%20Rabensteig%208%2C%201010%20Wien" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-beer-mug-empty"></i> Bermudadreieck</a>
                             </div>
                         </div>
                     </div>
@@ -2278,7 +2349,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Brunch no Haas & Haas & Provar Sachertorte</h4>
-                            <p class="node-text"><strong>11:00-12:30</strong> brunch sem pressas no pátio escondido do <em>Haas & Haas</em> (Stephansplatz 4), a 7 min a pé de casa. <strong>12:40-13:20</strong> descer a Kärntner Straße (8 min) até ao <strong>Café Sacher</strong>, ao lado da Ópera, para a icónica <strong>Sachertorte</strong> — ou à pastelaria imperial <em>Gerstner</em>, na mesma rua.<br><br>🎫 Às <strong>13:20 ativar o bilhete de 24h</strong> (€10,20) — cobre Schönbrunn, o Prater e ainda a ida à estação amanhã de manhã.</p>
+                            <p class="node-text"><strong>11:00-12:30</strong> brunch sem pressas no pátio escondido do <em>Haas & Haas</em> (Stephansplatz 4), a 7 min a pé de casa. <strong>12:40-13:20</strong> descer a Kärntner Straße (8 min) até ao <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%2C%20Philharmoniker%20Stra%C3%9Fe%204%2C%201010%20Wien">Café Sacher</a></strong>, ao lado da Ópera, para a icónica <strong>Sachertorte</strong> — ou à pastelaria imperial <em><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gerstner%20K.u.K.%20Hofzuckerb%C3%A4cker%2C%20K%C3%A4rntner%20Stra%C3%9Fe%2051%2C%201010%20Wien">Gerstner</a></em>, na mesma rua.<br><br>🎫 Às <strong>13:20 ativar o bilhete de 24h</strong> (€10,20) — cobre Schönbrunn, o Prater e ainda a ida à estação amanhã de manhã.</p>
 
                             <div class="callout-box warning">
                                 <i class="fa-solid fa-clock"></i>
@@ -2302,7 +2373,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Palácio & Jardins de Schönbrunn</h4>
-                            <p class="node-text"><strong>13:25</strong> U4 em Karlsplatz direto a Schönbrunn (12 min + ~7 min a pé até aos portões). Residência de verão dos Habsburgos e de Sissi.<br><br><strong>14:00-15:15</strong> visita ao palácio (Schlossticket, 75 min com audioguia). <strong>15:15-16:15</strong> subida à colina da <strong>Gloriette</strong> — 700 m a subir pelos jardins barrocos — para a vista sobre Viena.</p>
+                            <p class="node-text"><strong>13:25</strong> U4 em Karlsplatz direto a Schönbrunn (12 min + ~7 min a pé até aos portões). Residência de verão dos Habsburgos e de Sissi.<br><br><strong>14:00-15:15</strong> visita ao palácio (Schlossticket, 75 min com audioguia). <strong>15:15-16:15</strong> subida à colina da <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gloriette%2C%20Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien">Gloriette</a></strong> — 700 m a subir pelos jardins barrocos — para a vista sobre Viena.</p>
 
                             <div class="callout-box critical">
                                 <i class="fa-solid fa-ticket"></i>
@@ -2330,16 +2401,16 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Wiener Prater & Jantar de Grupo no Schweizerhaus</h4>
-                            <p class="node-text">Saída de Schönbrunn às 16:20. <strong>U4 até Karlsplatz, mudar para o U1 até Praterstern</strong> — ~35 min ao todo, tudo sentado e já pago pelo bilhete de 24h.<br><br><strong>17:00-17:30</strong> passeio pela <strong>Kaiser Wiesn</strong> (ver abaixo). <strong>17:30-18:15</strong> volta na centenária <strong>Roda Gigante Riesenrad</strong> (<strong>€14,50</strong> — o bilhete de €17 é o <em>Flex</em>, com validade de um ano, que não precisam). <strong>18:15-20:15</strong> jantar a 4 min a pé no lendário <strong>Schweizerhaus</strong>: pernis de porco estaladiços (<em>Stelze</em>) e cerveja Budweiser de pressão.</p>
+                            <p class="node-text">Saída de Schönbrunn às 16:20. <strong>U4 até Karlsplatz, mudar para o U1 até Praterstern</strong> — ~35 min ao todo, tudo sentado e já pago pelo bilhete de 24h.<br><br><strong>17:00-17:30</strong> passeio pela <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien">Kaiser Wiesn</a></strong> (ver abaixo). <strong>17:30-18:15</strong> volta na centenária <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien">Roda Gigante Riesenrad</a></strong> (<strong>€14,50</strong> — o bilhete de €17 é o <em>Flex</em>, com validade de um ano, que não precisam). <strong>18:15-20:15</strong> jantar a 4 min a pé no lendário <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien">Schweizerhaus</a></strong>: pernis de porco estaladiços (<em>Stelze</em>) e cerveja Budweiser de pressão.</p>
 
                             <div class="callout-box critical">
                                 <i class="fa-solid fa-beer-mug-empty"></i>
-                                <div><strong>🎪 Hoje é o dia de abertura da Kaiser Wiesn — e ninguém tinha visto isto.</strong> A <em>Wiener Kaiser Wiesn</em>, a Oktoberfest de Viena, decorre de <strong>24 de setembro a 11 de outubro</strong> na <strong>Kaiserwiese</strong>, que fica <strong>ao lado da Roda Gigante e do Schweizerhaus</strong>. Vocês chegam ao Prater precisamente no primeiro dia.<br><br><strong>A entrada no recinto durante o dia é gratuita</strong> — três tendas, cinco "alpes", 20 000 m², <em>Dirndl</em> e <em>Lederhosen</em>, música ao vivo. Só os eventos noturnos dentro das tendas são pagos, e <strong>esses não vale a pena comprar</strong>: seria pagar para ver uma versão pequena do que já têm garantido em Munique no Dia 6.<br><br>⚠️ <strong>Consequência prática:</strong> o Prater vai estar muito mais cheio do que num dia normal. A reserva do Schweizerhaus deixa de ser recomendável e passa a ser <strong>obrigatória</strong> — e confirmada por telefone na semana anterior, não só online.</div>
+                                <div><strong>🎪 Hoje é o dia de abertura da Kaiser Wiesn — e ninguém tinha visto isto.</strong> A <em>Wiener Kaiser Wiesn</em>, a Oktoberfest de Viena, decorre de <strong>24 de setembro a 11 de outubro</strong> na <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien">Kaiserwiese</a></strong>, que fica <strong>ao lado da Roda Gigante e do Schweizerhaus</strong>. Vocês chegam ao Prater precisamente no primeiro dia.<br><br><strong>A entrada no recinto durante o dia é gratuita</strong> — três tendas, cinco "alpes", 20 000 m², <em>Dirndl</em> e <em>Lederhosen</em>, música ao vivo. Só os eventos noturnos dentro das tendas são pagos, e <strong>esses não vale a pena comprar</strong>: seria pagar para ver uma versão pequena do que já têm garantido em Munique no Dia 6.<br><br>⚠️ <strong>Consequência prática:</strong> o Prater vai estar muito mais cheio do que num dia normal. A reserva do Schweizerhaus deixa de ser recomendável e passa a ser <strong>obrigatória</strong> — e confirmada por telefone na semana anterior, não só online.</div>
                             </div>
 
                             <div class="callout-box info">
                                 <i class="fa-solid fa-arrows-left-right"></i>
-                                <div><strong>Mudar em Karlsplatz, não em Schwedenplatz.</strong> O U1 e o U4 cruzam-se nos dois sítios, mas vindo de Schönbrunn o Karlsplatz aparece <strong>três estações antes</strong>.<br><br><em>E porquê o U1 e não o U2, que também sai do Karlsplatz?</em> Porque o <strong>U2 dá a volta ao Ring</strong>: de Karlsplatz a Praterstern são <strong>7 estações</strong> pelo U2 contra <strong>4</strong> pelo U1. <em>(A versão anterior desta página justificava a escolha com um corte do U2 que <strong>já não existe</strong> — a linha voltou a circular integralmente a 6 de dezembro de 2024. A conclusão estava certa; o motivo é que não.)</em></div>
+                                <div><strong>Mudar em Karlsplatz, não em Schwedenplatz.</strong> O U1 e o U4 cruzam-se nos dois sítios, mas vindo de Schönbrunn o Karlsplatz aparece <strong>três estações antes</strong>.<br><br><em>E porquê o U1 e não o U2, que também sai do Karlsplatz?</em> Porque o <strong>U2 dá a volta ao Ring</strong>: de Karlsplatz a Praterstern são <strong>7 estações</strong> pelo U2 contra <strong>4</strong> pelo U1.</div>
                             </div>
 
                             <div class="callout-box info">
@@ -2364,6 +2435,15 @@
                             </div>
                             <h4 class="node-title">Cocktails no Rooftop Das Loft (SO/ Vienna)</h4>
                             <p class="node-text">No 18º andar (Praterstraße 1, Leopoldstadt), a 650m a pé (8 min) do alojamento atravessando a ponte Schwedenbrücke. Vista panorâmica espetacular sobre a cidade iluminada e teto de vidro multicolorido.<br><br>👔 <strong>Reservar — e há dress code.</strong></p>
+
+                            <div class="callout-box critical">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <div><strong>O Das Loft esteve fechado para obras e reabriu a 3 de setembro de 2026 com um conceito novo.</strong> Todos os horários, cartas e políticas de reserva anteriores são inválidos — incluindo o "16:00–01:00" que continua a circular nos guias. <strong>Reconfirmar no site do Hotel SO/ Vienna antes de contar com ele</strong>, e ter um plano B pronto.</div>
+                            </div>
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-martini-glass-citrus"></i>
+                                <div><strong>Plano B, a 4 min a pé de casa:</strong> <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Lam%C3%A9e%20Rooftop%2C%20Rotenturmstra%C3%9Fe%2015%2C%201010%20Wien">Lamée Rooftop</a></strong> (<em>Rotenturmstraße 15</em>), aberto de domingo a quarta até à 01:00, com vista direta para as torres do Stephansdom e cobertura instalada em 2024 — não depende do tempo. Alternativa mais longe: <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Meli%C3%A1%20Vienna%2C%20Donau-City-Stra%C3%9Fe%207%2C%201220%20Wien">Meliá 57</a></strong> (57.º andar da DC Tower, interior envidraçado, seg–qui 17:00–00:00).</div>
+                            </div>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/das_loft_vienna.jpg" alt="Das Loft Vienna">
                                 <div class="timeline-img-overlay"><span>Rooftop Bar Das Loft Viena</span><i class="fa-solid fa-expand"></i></div>
@@ -2379,10 +2459,11 @@
                     <img src="img/ice_train_austria.jpg" alt="Comboio Railjet" class="enlargeable">
                     <div class="day-banner-content">
                         <span class="day-banner-tag">SEX 25 SETEMBRO • DIA 3</span>
-                        <h3 class="day-banner-title">Comboio Railjet Xpress ➔ Augsburg, Carro & Noite na Cidade Velha</h3>
+                        <h3 class="day-banner-title">Viena ➔ Salzburgo ➔ Augsburg, Carro & Noite na Cidade Velha</h3>
                         <div class="day-banner-meta">
                             <span><i class="fa-solid fa-bed"></i> Acordar 09:45</span>
-                            <span><i class="fa-solid fa-train"></i> 11:28 ➔ 16:29 (5h01)</span>
+                            <span><i class="fa-solid fa-train"></i> 10:38 ➔ 16:14 (1 mudança)</span>
+                            <span><i class="fa-solid fa-piggy-bank"></i> €333,92 em vez de €536,40</span>
                             <span><i class="fa-solid fa-car"></i> Enterprise 7 Lugares</span>
                             <span><i class="fa-solid fa-people-group"></i> 6 Amigos Reunidos</span>
                             <span><i class="fa-solid fa-person-walking"></i> Noite a Pé: Fuggerei & Lechviertel</span>
@@ -2396,12 +2477,16 @@
                         <div class="node-card">
                             <div class="node-header">
                                 <div class="node-badges">
-                                    <span class="time-pill">🔑 10:30 → 11:05</span>
+                                    <span class="time-pill">🔑 10:00 → 10:25</span>
                                     <span class="category-pill">Check-out & Metro</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Check-out em Viena ➔ Wien Hauptbahnhof</h4>
-                            <p class="node-text">Check-out do apartamento na Judengasse às <strong>10:30</strong> <em>(confirmar a hora exata com o anfitrião)</em>. Sair às 10:45 e apanhar o <strong>Metro U1</strong> de Schwedenplatz até <em>Wien Hauptbahnhof</em> — chegada por volta das 11:05, com folga para encontrar a plataforma.</p>
+                            <h4 class="node-title">Check-out em Viena ➔ Wien <em>Westbahnhof</em></h4>
+                            <p class="node-text">Acordar às <strong>09:45</strong>, check-out do apartamento na Judengasse às <strong>10:00</strong> <em>(combinar a hora com o anfitrião na véspera)</em>. Metro <strong>U1 de Schwedenplatz até Stephansplatz</strong>, mudar para o <strong>U3 até Westbahnhof</strong> — ~25 min. O bilhete de 24h do Dia 2 ainda cobre este trajeto se foi ativado depois das 13:20 de quinta.</p>
+                            <div class="callout-box critical">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <div><strong>Não é a Wien Hbf.</strong> A Westbahn parte da <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien">Westbahnhof</a></strong>, do outro lado da cidade. Ir para a Hauptbahnhof por hábito faz perder o comboio.</div>
+                            </div>
                         </div>
                     </div>
 
@@ -2410,21 +2495,31 @@
                         <div class="node-card">
                             <div class="node-header">
                                 <div class="node-badges">
-                                    <span class="time-pill train">🚆 11:28 → 16:29</span>
-                                    <span class="category-pill">Comboio Railjet Xpress + ICE</span>
+                                    <span class="time-pill train">🚆 10:38 → 16:14</span>
+                                    <span class="category-pill">Westbahn + ICE 116</span>
                                 </div>
                             </div>
-                            <h4 class="node-title">Wien Hauptbahnhof ➔ Augsburg Hauptbahnhof (via München)</h4>
-                            <p class="node-text">Viagem panorâmica a bordo do veloz <strong>ÖBB Railjet Xpress (RJX)</strong> de Wien Hbf até München Hbf (cruzando Linz e Salzburgo com Wi-Fi e restaurante a bordo), com <strong>1 mudança</strong> para a ligação a Augsburg Hbf. Total 5h01. São só as <strong>4 pessoas</strong> que vêm de Viena.</p>
+                            <h4 class="node-title">Viena ➔ Salzburgo ➔ Augsburg (2 comboios, 2 bilhetes)</h4>
+                            <p class="node-text"><strong>10:38–13:08</strong> Westbahn 910, Wien Westbahnhof ➔ Salzburg Hbf, direto, 2h30. Lugares 224A, 224B, 223A, 223B.<br><strong>13:08–14:00</strong> 52 min em Salzburgo — almoço na estação ou 10 min a pé até ao Salzach.<br><strong>14:00–16:14</strong> ICE 116, cais 2 ➔ Augsburg Hbf, direto, 2h14.<br><br>São só as <strong>4 pessoas</strong> que vêm de Viena.</p>
 
                             <div class="callout-box critical">
                                 <i class="fa-solid fa-triangle-exclamation"></i>
-                                <div><strong>Porquê 11:28 e não 12:50?</strong> O comboio das 12:50 do plano original <strong>não existe</strong>. As ligações reais são <strong>10:28➔15:14</strong>, <strong>11:28➔16:29</strong> e <strong>12:28➔17:46</strong>. Como a Enterprise fecha às 18:00, o das 12:28 chegaria à agência já com ela fechada — e sem carro no sábado de manhã o Dia 4 inteiro colapsa, incluindo o bilhete de hora marcada de Neuschwanstein.</div>
+                                <div><strong>O bilhete direto custava €536,40.</strong> Dia 25 é a sexta de abertura da Oktoberfest e <strong>não há Sparschiene</strong> neste corredor — o bilhete único Wien➔Augsburg está a <strong>€134,10/pessoa</strong> em todas as partidas viáveis da manhã. Partindo a viagem em Salzburgo e comprando cada metade ao operador mais barato, o mesmo trajeto custou <strong>€333,92</strong> e chega à mesma hora — <strong>poupança de €202,48</strong>.</div>
+                            </div>
+
+                            <div class="callout-box success">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div><strong>✅ Comprado — €333,92 no total, poupança de €202,48.</strong> A solução foi partir a viagem em Salzburgo e comprar cada metade ao operador mais barato.<br><br><strong>1)</strong> Westbahn 910, Wien Westbahnhof ➔ Salzburgo, <em>WestSuperpreis</em> com reserva incluída — <strong>€175,96</strong>.<br><strong>2)</strong> ICE 116 na DB, Salzburgo ➔ Augsburgo, <em>Super Sparpreis</em> €135,96 + reserva de lugares €22,00 — <strong>€157,96</strong>.<br><br><strong>Não é preciso Bayern-Ticket neste dia</strong> — só volta a entrar no Dia 6.</div>
+                            </div>
+
+                            <div class="callout-box warning">
+                                <i class="fa-solid fa-file-contract"></i>
+                                <div><strong>Os dois bilhetes são contratos independentes.</strong> Ambos são tarifas promocionais: <strong>não reembolsáveis</strong> e presos àqueles comboios. O recibo da DB diz textualmente <em>"there are separate contracts of carriage"</em> — se a Westbahn atrasar e perderem o ICE 116, a DB <strong>não</strong> remarca nada.<br><br>É por isso que se escolheu o comboio das 10:38 e não o das 11:38: dá <strong>52 minutos</strong> de folga em Salzburgo. A Westbahn teria de acumular quase uma hora de atraso numa viagem de 2h30.</div>
                             </div>
 
                             <div class="callout-box info">
-                                <i class="fa-solid fa-ticket"></i>
-                                <div><strong>Comprar já:</strong> tarifa <em>Sparschiene</em> (nominativa, ligada a este comboio, não reembolsável), €39,90 a €59,90/pessoa — sobe todos os dias. <strong>Adicionar reserva de lugares</strong> (€3-5/pax): é sexta à tarde num RJX e enche.</div>
+                                <i class="fa-solid fa-life-ring"></i>
+                                <div><strong>Se o ICE 116 se atrasar:</strong> é um bilhete DB, os direitos de passageiro aplicam-se e não se perde nada — mas telefonar à Enterprise de bordo, <strong>+49 821 448360</strong>. Um atraso acima de ~1h30 esgota a margem e obriga a levantar o carro no sábado de manhã (09:00–12:00), o que faz colapsar o Dia 4.<br><br><strong>Se perderem o ICE em Salzburgo:</strong> a ligação seguinte é o RJX das 15:00, que só chega às <strong>17:29</strong> — tarde demais. Telefonar imediatamente a tentar remarcar o levantamento.</div>
                             </div>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/ice_train_austria.jpg" alt="Comboio Railjet">
@@ -2438,16 +2533,44 @@
                         <div class="node-card">
                             <div class="node-header">
                                 <div class="node-badges">
-                                    <span class="time-pill car">🚗 16:35 → 17:15</span>
+                                    <span class="time-pill party">🔑 16:20 → 16:40</span>
+                                    <span class="category-pill">Reunião do Grupo!</span>
+                                </div>
+                            </div>
+                            <h4 class="node-title">Check-in no Lexapartments & Encontro dos 6</h4>
+                            <p class="node-text">Táxi ou tram da estação até ao apartamento de 101m² em Am Bogen 6, na Jakobervorstadt. Check-in, largar as malas e encontro com os 2 amigos que se juntam na Alemanha — <strong>grupo completo de 6 a partir daqui</strong>.</p>
+
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-person-walking"></i>
+                                <div><strong>Tudo o que se segue é a pé.</strong> O apartamento fica a <strong>300 m da Fuggerei</strong> (4 min) e a <strong>550 m da Rathausplatz</strong> (7 min). Augsburg é compacta — o centro histórico inteiro percorre-se em 15 minutos.</div>
+                            </div>
+
+                            <div class="node-actions">
+                                <a href="https://www.google.com/maps/search/?api=1&query=Am%20Bogen%206%2C%2086152%20Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Lexapartments Augsburg</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-node" data-category="transporte">
+                        <div class="node-bullet"></div>
+                        <div class="node-card">
+                            <div class="node-header">
+                                <div class="node-badges">
+                                    <span class="time-pill car">🚗 16:40 → 17:40</span>
                                     <span class="category-pill">Enterprise Rent-A-Car</span>
                                 </div>
                             </div>
                             <h4 class="node-title">Levantamento do Carro de 7 Lugares (Aindlinger Str. 14)</h4>
-                            <p class="node-text">Táxi da estação de Augsburg direto à agência Enterprise (5,5 km, ~8 min). Chegada por volta das <strong>16:50 — 70 minutos de margem</strong> antes do fecho. São só 4 pessoas neste comboio, por isso um táxi normal chega.<br><br>✅ <strong>Reservado: levantamento às 17:00</strong>, VW Touran ou similar, 4 dias, €427,58. A entrega leva <strong>30 a 40 minutos</strong> de papelada, seguro e volta de inspeção — por isso é que a marcação é às 17:00 e não às 17:30: com o balcão a fechar às 18:00, meia hora mais tarde e o processo acabaria depois de fecharem.</p>
+                            <p class="node-text">Táxi pré-reservado do apartamento até à agência Enterprise (~5 km, ~10 min, €15-20). Vão só 1 ou 2 pessoas — os restantes ficam a desfazer as malas.<br><br>✅ <strong>Reservado: levantamento às 17:00</strong>, VW Touran ou similar, 4 dias, €427,58. A entrega leva <strong>30 a 40 minutos</strong> de papelada, seguro e volta de inspeção — por isso é que a marcação é às 17:00 e não às 17:30: com o balcão a fechar às 18:00, meia hora mais tarde e o processo acabaria depois de fecharem.</p>
+
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div><strong>Com a rota nova há 1h45 de margem</strong>, não 70 minutos: o comboio chega às 16:14 e a agência só fecha às 18:00. Dá para fazer check-in no apartamento primeiro e só depois ir buscar o carro.</div>
+                            </div>
 
                             <div class="callout-box warning">
                                 <i class="fa-solid fa-triangle-exclamation"></i>
-                                <div><strong>Reservar o táxi por telefone na véspera.</strong> Não confiar na praça de táxis da estação. A agência fecha impreterivelmente às <strong>18:00</strong> às sextas-feiras (sábado só 09:00-12:00) — telefone <strong>+49 821 448360</strong>.</div>
+                                <div><strong>Reservar o táxi por telefone na véspera.</strong> Não confiar na praça de táxis. A agência fecha impreterivelmente às <strong>18:00</strong> às sextas-feiras (sábado só 09:00-12:00) — telefone <strong>+49 821 448360</strong>.</div>
                             </div>
 
                             <div class="callout-box info">
@@ -2456,30 +2579,7 @@
                             </div>
 
                             <div class="node-actions">
-                                <a href="https://maps.google.com/?q=Enterprise+Rent-A-Car+Augsburg+Aindlinger+Strasse+14" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Enterprise Augsburg</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-node" data-category="festa">
-                        <div class="node-bullet"></div>
-                        <div class="node-card">
-                            <div class="node-header">
-                                <div class="node-badges">
-                                    <span class="time-pill party">🔑 17:20 → 17:40</span>
-                                    <span class="category-pill">Reunião do Grupo!</span>
-                                </div>
-                            </div>
-                            <h4 class="node-title">Check-in no Lexapartments & Encontro dos 6</h4>
-                            <p class="node-text">Check-in no apartamento de 101m² em Am Bogen 6, na Jakobervorstadt. Encontro com os 2 amigos que se juntam na Alemanha — <strong>grupo completo de 6 a partir daqui</strong>. Largar as malas e sair a pé: não se volta a mexer no carro hoje.</p>
-
-                            <div class="callout-box info">
-                                <i class="fa-solid fa-person-walking"></i>
-                                <div><strong>Tudo o que se segue é a pé.</strong> O apartamento fica a <strong>300 m da Fuggerei</strong> (4 min) e a <strong>550 m da Rathausplatz</strong> (7 min). Augsburg é compacta — o centro histórico inteiro percorre-se em 15 minutos.</div>
-                            </div>
-
-                            <div class="node-actions">
-                                <a href="https://maps.google.com/?q=Am+Bogen+6+86152+Augsburg+Germany" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Lexapartments Augsburg</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Enterprise%20Rent-A-Car%2C%20Aindlinger%20Stra%C3%9Fe%2014%2C%2086167%20Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Enterprise Augsburg</a>
                             </div>
                         </div>
                     </div>
@@ -2507,7 +2607,7 @@
                             </div>
 
                             <div class="node-actions">
-                                <a href="https://maps.google.com/?q=Fuggerei+56+86152+Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Fuggerei</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Fuggerei%2056%2C%2086152%20Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-dot"></i> Fuggerei</a>
                                 <a href="https://www.fugger.de/en/fuggerei/info-for-visitors" target="_blank" class="btn-action-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Horários oficiais</a>
                             </div>
                         </div>
@@ -2523,7 +2623,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Jantar Bávaro na Rathausplatz</h4>
-                            <p class="node-text">Da Fuggerei à Rathausplatz são 7 minutos a pé pelas ruelas do Lechviertel. Primeiro jantar dos 6 juntos, na praça monumental de Elias Holl. Sugestão: <strong>Altstadtgasthaus Bauerntanz</strong> (Bauerntanzgäßchen 1, no beco atrás da Câmara) — a taberna mais antiga da cidade, cozinha suábia-bávara, sexta 11:30-23:00. <strong>Reservar: +49 821 153644</strong> — mesa de 7 à sexta à noite não aparece sozinha.</p>
+                            <p class="node-text">Da Fuggerei à Rathausplatz são 7 minutos a pé pelas ruelas do Lechviertel. Primeiro jantar dos 6 juntos, na praça monumental de Elias Holl. Sugestão: <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Altstadtgasthaus%20Bauerntanz%2C%20Bauerntanzg%C3%A4%C3%9Fchen%201%2C%2086150%20Augsburg">Altstadtgasthaus Bauerntanz</a></strong> (Bauerntanzgäßchen 1, no beco atrás da Câmara) — a taberna mais antiga da cidade, cozinha suábia-bávara, sexta 11:30-23:00. <strong>Reservar: +49 821 153644</strong> — mesa de 7 à sexta à noite não aparece sozinha.</p>
 
                             <div class="callout-box warning">
                                 <i class="fa-solid fa-helmet-safety"></i>
@@ -2547,7 +2647,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Lechviertel "Pequena Veneza" & Maximilianstraße Iluminada</h4>
-                            <p class="node-text">O sol põe-se às ~19:05, portanto isto faz-se com a cidade já iluminada — e é a melhor hora para o fazer. Circuito curto e circular, tudo em ruas de pedra: <strong>Rathausplatz</strong> com o Augustusbrunnen ➔ <strong>Maximilianstraße</strong>, a avenida renascentista com o <em>Merkurbrunnen</em> e o <em>Herkulesbrunnen</em> ➔ regresso pelo <strong>Lechviertel</strong>, o antigo bairro dos artesãos cortado por canais estreitos a que os locais chamam "Pequena Veneza", passando pela <strong>Augsburger Puppenkiste</strong>. Acaba a 5 minutos do apartamento.</p>
+                            <p class="node-text">O sol põe-se às ~19:05, portanto isto faz-se com a cidade já iluminada — e é a melhor hora para o fazer. Circuito curto e circular, tudo em ruas de pedra: <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg">Rathausplatz</a></strong> com o Augustusbrunnen ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg">Maximilianstraße</a></strong>, a avenida renascentista com o <em>Merkurbrunnen</em> e o <em>Herkulesbrunnen</em> ➔ regresso pelo <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg">Lechviertel</a></strong>, o antigo bairro dos artesãos cortado por canais estreitos a que os locais chamam "Pequena Veneza", passando pela <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Augsburger%20Puppenkiste%2C%20Spitalgasse%2015%2C%2086150%20Augsburg">Augsburger Puppenkiste</a></strong>. Acaba a 5 minutos do apartamento.</p>
 
                             <div class="callout-box info">
                                 <i class="fa-solid fa-landmark-flag"></i>
@@ -2555,8 +2655,8 @@
                             </div>
 
                             <div class="node-actions">
-                                <a href="https://maps.google.com/?q=Maximilianstrasse+Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Maximilianstraße</a>
-                                <a href="https://maps.google.com/?q=Lechviertel+Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Lechviertel</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Maximilianstraße</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Lechviertel</a>
                             </div>
                         </div>
                     </div>
@@ -2591,7 +2691,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Augsburg ➔ Castelo de Neuschwanstein (Füssen)</h4>
-                            <p class="node-text"><strong>113 km pela estrada federal B17, ~1h35</strong> de condução cruzando aldeias alpinas. Paragem nos parques de estacionamento oficiais de Hohenschwangau aos pés do castelo.<br><br>💤 <strong>Acordar às 10:00 também neste dia.</strong> A tarde foi <strong>invertida</strong> nesta revisão — Oberammergau primeiro, com sol, e o Eibsee ao pôr do sol — o que resolve o problema da luz sem ninguém ter de madrugar. Só o jantar passa para as 21:15.</p>
+                            <p class="node-text"><strong>113 km pela estrada federal B17, ~1h35</strong> de condução cruzando aldeias alpinas. Paragem nos parques de estacionamento oficiais de Hohenschwangau aos pés do castelo.<br><br>💤 <strong>Acordar às 10:00 também neste dia.</strong> A tarde faz-se por esta ordem — <strong>Oberammergau primeiro, com sol, e o Eibsee ao pôr do sol</strong> — porque a aldeia encosta à face do monte Kofel e entra em sombra por volta das 18:00. Assim cada sítio apanha a luz que lhe assenta, sem ninguém ter de madrugar. Jantar às 21:15.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/hohenschwangau.jpg" alt="Hohenschwangau e Alpsee">
                                 <div class="timeline-img-overlay"><span>Castelo de Hohenschwangau & Lago Alpsee</span><i class="fa-solid fa-expand"></i></div>
@@ -2609,7 +2709,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Castelo de Neuschwanstein & Ponte Marienbrücke</h4>
-                            <p class="node-text"><strong>12:05</strong> levantamento dos bilhetes no Ticket Center, subida de shuttle e travessia da <strong>Ponte Marienbrücke</strong> sobre a garganta do Pöllat — é ali que se tiram as fotografias. <strong>14:00</strong> visita guiada (~35 min) ao castelo de conto de fadas do Rei Ludwig II que inspirou a Disney. Descida ao vale até às 15:30.<br><br>🏞️ Se sobrar tempo antes da hora, o <strong>Alpsee</strong> fica ao lado do Ticket Center e é grátis — melhor do que esperar de pé.</p>
+                            <p class="node-text"><strong>12:05</strong> levantamento dos bilhetes no Ticket Center, subida de shuttle e travessia da <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau">Ponte Marienbrücke</a></strong> sobre a garganta do Pöllat — é ali que se tiram as fotografias. <strong>14:00</strong> visita guiada (~35 min) ao castelo de conto de fadas do Rei Ludwig II que inspirou a Disney. Descida ao vale até às 15:30.<br><br>🏞️ Se sobrar tempo antes da hora, o <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau">Alpsee</a></strong> fica ao lado do Ticket Center e é grátis — melhor do que esperar de pé.</p>
 
                             <div class="callout-box critical">
                                 <i class="fa-solid fa-ticket"></i>
@@ -2675,7 +2775,7 @@
 
                             <div class="callout-box warning">
                                 <i class="fa-solid fa-person-walking"></i>
-                                <div><strong>Não se faz a volta ao lago.</strong> O <em>Eibsee-Rundweg</em> tem <strong>7,5 km e demora ~2 horas</strong> — a versão anterior deste roteiro prometia "a volta pelas margens" em 75 minutos, e isso é impossível.<br><br><strong>O que se faz:</strong> do parque de estacionamento (a 100 m da margem) segue-se o trilho da <strong>margem norte</strong> até à <strong>ponte do Untersee</strong> e volta-se — ~2 km cada sentido, com a melhor vista sobre a Zugspitze. Depois, cerveja sentados no <strong>Biergarten am See</strong>, junto ao seeRestaurant Eibsee Pavillon, à beira de água. Estacionamento €9–10 até 4 h.</div>
+                                <div><strong>Não se faz a volta ao lago.</strong> O <em>Eibsee-Rundweg</em> tem <strong>7,5 km e demora ~2 horas</strong> — não cabe nos 65 minutos que há.<br><br><strong>O que se faz:</strong> do parque de estacionamento (a 100 m da margem) segue-se o trilho da <strong>margem norte</strong> até à <strong>ponte do Untersee</strong> e volta-se — ~2 km cada sentido, com a melhor vista sobre a Zugspitze. Depois, cerveja sentados no <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=seeRestaurant%20Eibsee%20Pavillon%2C%20Eibsee%201%2C%2082491%20Grainau">Biergarten am See</a></strong>, junto ao seeRestaurant Eibsee Pavillon, à beira de água. Estacionamento €9–10 até 4 h.</div>
                             </div>
 
                             <div class="callout-box warning">
@@ -2750,7 +2850,7 @@
                             
                             <div class="callout-box info">
                                 <i class="fa-solid fa-circle-info"></i>
-                                <div><strong>Nota de Domingo (Sonntagsruhe):</strong> As lojas de comércio comum fecham ao domingo na Alemanha. Em Rothenburg isso quase não se nota: monumentos, museus, muralhas, restaurantes, pastelarias de Schneeballen e lojas turísticas abrem normalmente — incluindo a <strong>Käthe Wohlfahrt</strong>, a aldeia de Natal permanente, 10:00-17:00/18:00. <em>Bónus:</em> ao domingo os camiões estão proibidos nas autoestradas alemãs — a A8 e a A7 andam bem melhor, o que faz deste o melhor dia da semana para o trajeto mais rodoviário de todos.</div>
+                                <div><strong>Nota de Domingo (Sonntagsruhe):</strong> As lojas de comércio comum fecham ao domingo na Alemanha. Em Rothenburg isso quase não se nota: monumentos, museus, muralhas, restaurantes, pastelarias de Schneeballen e lojas turísticas abrem normalmente — incluindo a <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=K%C3%A4the%20Wohlfahrt%2C%20Herrngasse%201%2C%2091541%20Rothenburg%20ob%20der%20Tauber">Käthe Wohlfahrt</a></strong>, a aldeia de Natal permanente, 10:00-17:00/18:00. <em>Bónus:</em> ao domingo os camiões estão proibidos nas autoestradas alemãs — a A8 e a A7 andam bem melhor, o que faz deste o melhor dia da semana para o trajeto mais rodoviário de todos.</div>
                             </div>
 
                             <div class="callout-box info">
@@ -2814,7 +2914,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Marienplatz, Catedral Frauenkirche & Peterskirche</h4>
-                            <p class="node-text">A 10 min a pé da Hauptbahnhof. <strong>Marienplatz</strong> com a sua câmara neo-gótica e o Glockenspiel. Caminhada pelas ruas históricas até às icónicas torres com cúpulas da <strong>Frauenkirche</strong> (grátis, segunda 08:00–20:00) e vista panorâmica a partir da igreja de São Pedro — o <em>Alter Peter</em>, <strong>€5/pessoa</strong>, segunda <strong>09:00–18:30</strong>, 306 degraus até uma plataforma a 56 m.<br><br>➕ <strong>12:45-13:00 · Asamkirche</strong> (Sendlinger Str. 32), a 450 m e no caminho para o Viktualienmarkt. <strong>Grátis.</strong> Construída pelos irmãos Asam entre 1733 e 1746 num terreno com <strong>oito metros de largura</strong>, para uso próprio: é a coisa mais densamente barroca da Alemanha, com iluminação indireta e colunas torcidas. Dez minutos — e os três analistas puseram-na na lista sem se consultarem.</p>
+                            <p class="node-text">A 10 min a pé da Hauptbahnhof. <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen">Marienplatz</a></strong> com a sua câmara neo-gótica e o Glockenspiel. Caminhada pelas ruas históricas até às icónicas torres com cúpulas da <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen">Frauenkirche</a></strong> (grátis, segunda 08:00–20:00) e vista panorâmica a partir da igreja de São Pedro — o <em>Alter Peter</em>, <strong>€5/pessoa</strong>, segunda <strong>09:00–18:30</strong>, 306 degraus até uma plataforma a 56 m.<br><br>➕ <strong>12:45-13:00 · Asamkirche</strong> (Sendlinger Str. 32), a 450 m e no caminho para o Viktualienmarkt. <strong>Grátis.</strong> Construída pelos irmãos Asam entre 1733 e 1746 num terreno com <strong>oito metros de largura</strong>, para uso próprio: é a coisa mais densamente barroca da Alemanha, com iluminação indireta e colunas torcidas. Dez minutos — e os três analistas puseram-na na lista sem se consultarem.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/marienplatz_munich_1786477812668.jpg" alt="Marienplatz e Centro de Munique">
                                 <div class="timeline-img-overlay"><span>Marienplatz, Neues Rathaus & Torres de Munique</span><i class="fa-solid fa-expand"></i></div>
@@ -2832,7 +2932,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Almoço no Viktualienmarkt & Cervejaria Hofbräuhaus</h4>
-                            <p class="node-text">Almoço no tradicional <strong>Viktualienmarkt</strong> com <em>Weißwurst</em>, mostarda doce, pretzels gigantes e queijo <em>Obatzda</em>. Paragem a 4 min na lendária cervejaria histórica <strong>Hofbräuhaus am Platzl</strong> (fundada em 1589) para fotos do salão abobadado.</p>
+                            <p class="node-text">Almoço no tradicional <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Viktualienmarkt%2C%2080331%20M%C3%BCnchen">Viktualienmarkt</a></strong> com <em>Weißwurst</em>, mostarda doce, pretzels gigantes e queijo <em>Obatzda</em>. Paragem a 4 min na lendária cervejaria histórica <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hofbr%C3%A4uhaus%20am%20Platzl%2C%20Platzl%209%2C%2080331%20M%C3%BCnchen">Hofbräuhaus am Platzl</a></strong> (fundada em 1589) para fotos do salão abobadado.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/viktualienmarkt.jpg" alt="Viktualienmarkt">
                                 <div class="timeline-img-overlay"><span>Viktualienmarkt & Hofbräuhaus Platzl</span><i class="fa-solid fa-expand"></i></div>
@@ -2850,7 +2950,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Eisbachwelle (Surfistas no Rio) & Hofgarten</h4>
-                            <p class="node-text">Uma das atrações mais espetaculares de Munique! Surfistas a apanhar a onda contínua de água doce no canal do rio Eisbach, mesmo à entrada do <em>Englischer Garten</em>, e passeio pelos jardins do <strong>Hofgarten</strong>.<br><br>➕ <strong>A caminho, sem desvio nenhum:</strong> a <strong>Odeonsplatz</strong> com a <em>Feldherrnhalle</em> — a loggia inspirada na Loggia dei Lanzi de Florença — e a <strong>Theatinerkirche</strong> de fachada amarela mostarda e interior todo em estuque branco. É literalmente o caminho entre o Viktualienmarkt e o Hofgarten. Grátis.<br><br>🚇 <strong>16:00-16:30</strong>: metro <strong>U4/U5 de Odeonsplatz direto a Theresienwiese</strong> (6 min) ou S-Bahn até <strong>Hackerbrücke</strong> — ambos incluídos no Bayern-Ticket.</p>
+                            <p class="node-text">Uma das atrações mais espetaculares de Munique! Surfistas a apanhar a onda contínua de água doce no canal do rio Eisbach, mesmo à entrada do <em>Englischer Garten</em>, e passeio pelos jardins do <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hofgarten%2C%2080538%20M%C3%BCnchen">Hofgarten</a></strong>.<br><br>➕ <strong>A caminho, sem desvio nenhum:</strong> a <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Odeonsplatz%2C%2080539%20M%C3%BCnchen">Odeonsplatz</a></strong> com a <em>Feldherrnhalle</em> — a loggia inspirada na Loggia dei Lanzi de Florença — e a <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Theatinerkirche%2C%20Salvatorplatz%202A%2C%2080333%20M%C3%BCnchen">Theatinerkirche</a></strong> de fachada amarela mostarda e interior todo em estuque branco. É literalmente o caminho entre o Viktualienmarkt e o Hofgarten. Grátis.<br><br>🚇 <strong>16:00-16:30</strong>: metro <strong>U4/U5 de Odeonsplatz direto a Theresienwiese</strong> (6 min) ou S-Bahn até <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hackerbr%C3%BCcke%2C%2080335%20M%C3%BCnchen">Hackerbrücke</a></strong> — ambos incluídos no Bayern-Ticket.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/eisbachwelle_munich.jpg" alt="Eisbachwelle Surf Urbano">
                                 <div class="timeline-img-overlay"><span>Eisbachwelle Surf no Rio (Englischer Garten)</span><i class="fa-solid fa-expand"></i></div>
@@ -2872,12 +2972,12 @@
 
                             <div class="callout-box critical">
                                 <i class="fa-solid fa-beer-mug-empty"></i>
-                                <div><strong>🚨 Isto mudou: já não dá para reservar diretamente às tendas.</strong> A versão anterior dizia que "10 das 14 grandes tendas ainda tinham disponibilidade". As janelas de candidatura direta abrem entre <strong>dezembro e junho</strong> e a esta altura estão todas fechadas.<br><br><strong>O preço oficial continua a ser o que estava escrito</strong>, e convém saber isso para não cair em burla: reserva-se <strong>a mesa inteira (8–10 lugares)</strong>, nunca lugares soltos; a reserva é gratuita e paga-se <strong>€42–55 por lugar</strong> em <em>vouchers</em> de consumo (2 Maß + ½ Hendl por pessoa). Uma mesa de 10 custa <strong>€420–550</strong> em vales que se bebem e comem.<br><br>🚫 <strong>Não comprar em revendedores privados.</strong> Foram encontradas mesas de 10 lugares a <strong>€2.842–3.668</strong> e de 20 lugares até <strong>€11.018</strong>. São especuladores: 6 a 20 vezes o preço oficial.</div>
+                                <div><strong>🚨 Já não dá para reservar diretamente às tendas.</strong> As janelas de candidatura direta abrem entre <strong>dezembro e junho</strong> e a esta altura estão todas fechadas. Resta o portal oficial de revenda.<br><br><strong>Convém saber o preço oficial para não cair em burla:</strong> reserva-se <strong>a mesa inteira (8–10 lugares)</strong>, nunca lugares soltos; a reserva é gratuita e paga-se <strong>€42–55 por lugar</strong> em <em>vouchers</em> de consumo (2 Maß + ½ Hendl por pessoa). Uma mesa de 10 custa <strong>€420–550</strong> em vales que se bebem e comem.<br><br>🚫 <strong>Não comprar em revendedores privados.</strong> Foram encontradas mesas de 10 lugares a <strong>€2.842–3.668</strong> e de 20 lugares até <strong>€11.018</strong>. São especuladores: 6 a 20 vezes o preço oficial.</div>
                             </div>
 
                             <div class="callout-box warning">
                                 <i class="fa-solid fa-shuffle"></i>
-                                <div><strong>Só há dois caminhos. Escolher um até 27 de agosto:</strong><br><br><strong>(A) Portal oficial de revenda</strong> — <a href="https://www.oktoberfest-booking.com/en" target="_blank" style="color: var(--accent-blue); text-decoration: underline;">oktoberfest-booking.com</a>. As reservas não utilizadas são revendidas ali <strong>ao preço original</strong>, não com margem. A compra abre a <strong>27 de agosto de 2026</strong>. É o único sítio onde ainda se compra uma mesa a sério — estar online à hora de abertura.<br><br><strong>(B) Sem reserva, entrando antes das 12:00.</strong> Em dias de semana <strong>25% dos lugares interiores</strong> ficam livres para quem chega sem reserva, e os <em>Biergärten</em> exteriores são quase sempre acessíveis. Mas ao fim da tarde as tendas fecham a entrada por lotação — <strong>isto vira o dia ao contrário</strong>: comboio das 09:17, tenda antes das 12:00, e o programa de Munique passa para depois.<br><br>⚠️ A <strong>Löwenbräu-Festzelt não tem sessão noturna às segundas</strong> (só almoço, 12:00–16:30). Riscar da lista. A <strong>Oide Wiesn</strong> (entrada €4) tem rotação de mesas muito mais fácil.</div>
+                                <div><strong>Só há dois caminhos. Escolher um até 27 de agosto:</strong><br><br><strong>(A) Portal oficial de revenda</strong> — <a href="https://www.oktoberfest-booking.com/en" target="_blank" style="color: var(--accent-blue); text-decoration: underline;">oktoberfest-booking.com</a>. As reservas não utilizadas são revendidas ali <strong>ao preço original</strong>, não com margem. A compra abre a <strong>27 de agosto de 2026</strong>. É o único sítio onde ainda se compra uma mesa a sério — estar online à hora de abertura.<br><br><strong>(B) Sem reserva, entrando antes das 12:00.</strong> Em dias de semana <strong>25% dos lugares interiores</strong> ficam livres para quem chega sem reserva, e os <em>Biergärten</em> exteriores são quase sempre acessíveis. Mas ao fim da tarde as tendas fecham a entrada por lotação — <strong>isto vira o dia ao contrário</strong>: comboio das 09:17, tenda antes das 12:00, e o programa de Munique passa para depois.<br><br>⚠️ A <strong>Löwenbräu-Festzelt não tem sessão noturna às segundas</strong> (só almoço, 12:00–16:30). Riscar da lista. A <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Oide%20Wiesn%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen">Oide Wiesn</a></strong> (entrada €4) tem rotação de mesas muito mais fácil.</div>
                             </div>
 
                             <div class="timeline-img-wrapper enlargeable">
@@ -2901,7 +3001,7 @@
 
                             <div class="callout-box critical">
                                 <i class="fa-solid fa-triangle-exclamation"></i>
-                                <div><strong>🚨 A versão anterior deste roteiro deixava-vos em Munique.</strong> Dizia "sair da tenda por volta das 22:45" e "as últimas ligações são por volta das 23:00–23:30".<br><br>O horário oficial em PDF do operador (Arverio Bayern / agilis, linha RE9, válido desde 14 dez 2025), página de <strong>segunda a sexta</strong>, dá as últimas partidas de München Hbf como <strong>20:57 · 21:59 · 22:58 · 00:06</strong> — e o das 00:06 tem a restrição <code>n0 = nur Nächte Freitag/Samstag</code>.<br><br><strong>Na noite de segunda 28 para terça 29, o último comboio é o das 22:58.</strong> Depois disso não há nada até de madrugada.</div>
+                                <div><strong>🚨 Sair da tenda a tempo do comboio das 22:58 — não há outro.</strong><br><br>O horário oficial em PDF do operador (Arverio Bayern / agilis, linha RE9, válido desde 14 dez 2025), página de <strong>segunda a sexta</strong>, dá as últimas partidas de München Hbf como <strong>20:57 · 21:59 · 22:58 · 00:06</strong> — e o das 00:06 tem a restrição <code>n0 = nur Nächte Freitag/Samstag</code>.<br><br><strong>Na noite de segunda 28 para terça 29, o último comboio é o das 22:58.</strong> Depois disso não há nada até de madrugada.</div>
                             </div>
 
                             <div class="callout-box info">
@@ -2946,7 +3046,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Check-Out em Augsburg ➔ Palácio e Jardins de Nymphenburg</h4>
-                            <p class="node-text">Check-out do apartamento em Augsburg às <strong>11:00</strong> com as malas já no carro <em>(confirmar a hora de check-out)</em>. Condução de ~1h (62 km) pela A8 até ao grandioso <strong>Palácio Nymphenburg</strong>, residência barroca de verão da realeza bávara. Caminhada ao longo do canal central com cisnes e pelos jardins barrocos.<br><br>💤 <strong>Acordar às 10:00</strong> — depois da noite de Oktoberfest, vai fazer falta.</p>
+                            <p class="node-text">Check-out do apartamento em Augsburg às <strong>11:00</strong> com as malas já no carro <em>(confirmar a hora de check-out)</em>. Condução de ~1h (62 km) pela A8 até ao grandioso <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen">Palácio Nymphenburg</a></strong>, residência barroca de verão da realeza bávara. Caminhada ao longo do canal central com cisnes e pelos jardins barrocos.<br><br>💤 <strong>Acordar às 10:00</strong> — depois da noite de Oktoberfest, vai fazer falta.</p>
 
                             <div class="callout-box info">
                                 <i class="fa-solid fa-ticket"></i>
@@ -2974,7 +3074,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">BMW Welt & Parque Olímpico (Olympiapark 1972)</h4>
-                            <p class="node-text">A apenas <strong>10 min de Nymphenburg</strong> — é por isso que saiu do Dia 6, onde ficava a 45 min do centro e não cabia. Pavilhão futurista com superdesportivos BMW M, Rolls-Royce, MINI e motos de alta tecnologia (<strong>entrada gratuita</strong>, terça 07:30–24:00). Caminhada pela passarela para ver a icónica cobertura em tenda do Parque Olímpico de 1972.<br><br>🏔️ <strong>Subir ao Olympiaberg</strong> (grátis, 200 m da BMW Welt pela ponte pedonal, ~20 min): a colina artificial feita com os escombros da II Guerra é o melhor miradouro gratuito de Munique — o estádio, a sede da BMW e, em dia limpo, os Alpes.<br><br>⚠️ A <strong>Olympiaturm</strong>, a torre, <strong>está fechada para obras até ao final de 2027</strong>. Não vale a pena ir lá bater à porta.</p>
+                            <p class="node-text">A apenas <strong>10 min de Nymphenburg</strong> — é por isso que saiu do Dia 6, onde ficava a 45 min do centro e não cabia. Pavilhão futurista com superdesportivos BMW M, Rolls-Royce, MINI e motos de alta tecnologia (<strong>entrada gratuita</strong>, terça 07:30–24:00). Caminhada pela passarela para ver a icónica cobertura em tenda do Parque Olímpico de 1972.<br><br>🏔️ <strong>Subir ao Olympiaberg</strong> (grátis, 200 m da BMW Welt pela ponte pedonal, ~20 min): a colina artificial feita com os escombros da II Guerra é o melhor miradouro gratuito de Munique — o estádio, a sede da BMW e, em dia limpo, os Alpes.<br><br>⚠️ A <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Olympiaturm%2C%20Spiridon-Louis-Ring%207%2C%2080809%20M%C3%BCnchen">Olympiaturm</a></strong>, a torre, <strong>está fechada para obras até ao final de 2027</strong>. Não vale a pena ir lá bater à porta.</p>
                             <div class="timeline-img-wrapper enlargeable">
                                 <img src="img/bmw_welt_1786477793413.jpg" alt="BMW Welt e Olympiapark">
                                 <div class="timeline-img-overlay"><span>BMW Welt & Olympiapark Munique</span><i class="fa-solid fa-expand"></i></div>
@@ -2992,7 +3092,7 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Allianz Arena (Visita Exterior & FC Bayern Megastore)</h4>
-                            <p class="node-text">Condução de ~20 min até ao norte de Munique (Fröttmaning). Acesso livre e gratuito à gigantesca esplanada exterior para admirar as famosas almofadas de ETFE do estádio e tirar fotos de grupo. Visita à <strong>FC Bayern Megastore</strong> oficial para lembranças.</p>
+                            <p class="node-text">Condução de ~20 min até ao norte de Munique (Fröttmaning). Acesso livre e gratuito à gigantesca esplanada exterior para admirar as famosas almofadas de ETFE do estádio e tirar fotos de grupo. Visita à <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=FC%20Bayern%20Megastore%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen">FC Bayern Megastore</a></strong> oficial para lembranças.</p>
 
                             <div class="callout-box info">
                                 <i class="fa-solid fa-circle-check"></i>
@@ -3100,19 +3200,20 @@
                     </div>
                 </div>
 
-                <!-- Ticket 3: Comboio Railjet Xpress Viena -> Augsburg -->
+                <!-- Ticket 3: Westbahn Viena -> Salzburgo (Dia 3) -->
                 <div class="ticket-card glass-panel glass-panel-interactive">
                     <div>
                         <div class="ticket-top">
-                            <span class="ticket-badge critical">🔴 Comprar Já</span>
+                            <span class="ticket-badge success">✅ Comprado</span>
                             <span style="font-size: 1.2rem;">🚆</span>
                         </div>
-                        <h3 class="ticket-title">Comboio ÖBB Railjet RJX (Wien ➔ Augsburg)</h3>
-                        <p class="ticket-desc"><strong>11:28 ➔ 16:29</strong> (1 mudança em München Hbf). Só para as <strong>4 pessoas</strong> que vêm de Viena. Tarifa <em>Sparschiene</em> + reserva de lugares (€3-5/pax) — é sexta à tarde e enche.</p>
+                        <h3 class="ticket-title">Westbahn — Wien Westbahnhof ➔ Salzburg Hbf</h3>
+                        <p class="ticket-desc"><strong>Comboio 910, 10:38 ➔ 13:08</strong>, direto. Só para as <strong>4 pessoas</strong> que vêm de Viena. <em>WestSuperpreis</em>, classe <em>2 | Standard</em>, reserva incluída.<br><br>⚠️ <strong>Parte da Westbahnhof, não da Hauptbahnhof</strong> — U1 ➔ Stephansplatz ➔ U3, ~25 min desde Schwedenplatz.</p>
                         <div class="ticket-meta">
-                            <div class="ticket-meta-row"><span>Estimativa:</span> <strong>€39,90 a €59,90 / pessoa</strong></div>
-                            <div class="ticket-meta-row"><span>Porquê já:</span> <strong>O preço sobe todos os dias</strong></div>
-                            <div class="ticket-meta-row"><span>Onde Comprar:</span> <strong>App ÖBB ou oebb.at</strong></div>
+                            <div class="ticket-meta-row"><span>Preço:</span> <strong>€43,99/pax = €175,96</strong></div>
+                            <div class="ticket-meta-row"><span>Lugares:</span> <strong>224A, 224B, 223A, 223B</strong></div>
+                            <div class="ticket-meta-row"><span>Condições:</span> <strong>Preso ao comboio 910, não reembolsável</strong></div>
+                            <div class="ticket-meta-row"><span>Comprado em:</span> <strong>westbahn.at</strong></div>
                         </div>
                     </div>
                     <div class="ticket-actions">
@@ -3120,7 +3221,32 @@
                             <input type="checkbox" id="tkt_train_rjx" class="tkt-check">
                             <span style="font-size: 0.78rem;">Tratado</span>
                         </label>
-                        <a href="https://www.oebb.at" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-train"></i> Site ÖBB</a>
+                        <a href="https://westbahn.at/en/ticket-shop/buy-tickets/" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-train"></i> Westbahn</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 3b: ICE 116 Salzburgo -> Augsburgo (Dia 3) -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge success">✅ Comprado</span>
+                            <span style="font-size: 1.2rem;">🚄</span>
+                        </div>
+                        <h3 class="ticket-title">DB ICE 116 — Salzburg Hbf ➔ Augsburg Hbf</h3>
+                        <p class="ticket-desc"><strong>14:00 ➔ 16:14, direto, sem mudanças</strong>, cais 2 em Salzburgo. <em>Super Sparpreis</em> €135,96 + reserva de lugares €22,00.<br><br>⚠️ <strong>Contrato de transporte independente do da Westbahn.</strong> Se perderem esta ligação, a DB não remarca — daí os 52 min de folga em Salzburgo.</p>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Preço:</span> <strong>€157,96 (€39,49/pax)</strong></div>
+                            <div class="ticket-meta-row"><span>Condições:</span> <strong>Preso ao ICE 116, não reembolsável</strong></div>
+                            <div class="ticket-meta-row"><span>Operador:</span> <strong>DB Fernverkehr AG</strong></div>
+                            <div class="ticket-meta-row"><span>Comprado em:</span> <strong>bahn.de</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_ice116" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://www.bahn.de" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-train"></i> bahn.de</a>
                     </div>
                 </div>
 
@@ -3179,10 +3305,10 @@
                             <span class="ticket-badge local">Comprar à Chegada</span>
                             <span style="font-size: 1.2rem;">🚌</span>
                         </div>
-                        <h3 class="ticket-title">Transfer Aeroporto VIE (Railjet ou VAL 2)</h3>
-                        <p class="ticket-desc">Para as <strong>4 pessoas</strong> que voam para Viena. Opção A: Railjet ÖBB até Wien Hbf + Metro U1 (€5,50, tudo no mesmo bilhete). Opção B: autocarro VAL 2 direto a Morzinplatz/Schwedenplatz (€10,50), sem transbordos.</p>
+                        <h3 class="ticket-title">Transfer Aeroporto VIE (Railjet + U1)</h3>
+                        <p class="ticket-desc">Para as <strong>4 pessoas</strong> que voam para Viena. Railjet ÖBB até Wien Hbf + Metro U1 até Schwedenplatz — <strong>€5,50, tudo no mesmo bilhete</strong>. Pedir <em>Flughafen Wien ➔ Wien</em> com a zona central incluída, senão o U1 fica de fora.</p>
                         <div class="ticket-meta">
-                            <div class="ticket-meta-row"><span>Custo 4 Pax:</span> <strong>€22 (Railjet) ou €42 (VAL 2)</strong></div>
+                            <div class="ticket-meta-row"><span>Custo 4 Pax:</span> <strong>€22</strong></div>
                             <div class="ticket-meta-row"><span>⚠️ Obras:</span> <strong>CAT suspenso, S7 só até St. Marx</strong></div>
                             <div class="ticket-meta-row"><span>Compra:</span> <strong>Máquinas no aeroporto ou app</strong></div>
                         </div>
@@ -3491,7 +3617,7 @@
                     <p style="font-size: 0.85rem; color: var(--accent-blue); font-weight: 600;">Central City Apartments (Judengasse 11)</p>
                     <ul class="dossier-meta-list">
                         <li><i class="fa-solid fa-location-dot"></i> Judengasse 11, 1010 Wien, Áustria</li>
-                        <li><i class="fa-solid fa-train-subway"></i> Acesso: Schwedenplatz (Metro U1, U4) ou VAL 2</li>
+                        <li><i class="fa-solid fa-train-subway"></i> Acesso: Schwedenplatz (Metro U1, U4), a 300 m</li>
                         <li><i class="fa-solid fa-key"></i> ⚠️ Check-in tipicamente às 15:00 — pedir <em>early check-in</em></li>
                     </ul>
                 </div>
@@ -3539,7 +3665,7 @@
                         <li><i class="fa-solid fa-taxi"></i> Táxi Augsburg Hbf ➔ Enterprise reservado por telefone</li>
                         <li><i class="fa-solid fa-people-arrows"></i> Como e a que horas chegam os 2 amigos a Augsburg no Dia 3 — e se regressam no TP 555</li>
                         <li><i class="fa-solid fa-plane"></i> Nº de lugares reservado no voo de regresso: 4 ou 7?</li>
-                        <li><i class="fa-solid fa-utensils"></i> Mesas reservadas: Schweizerhaus e Das Loft (Dia 2), Bauerntanz (Dia 3), jantar de sábado às 20:45 (Dia 4)</li>
+                        <li><i class="fa-solid fa-utensils"></i> Mesas reservadas: Schöne Perle ou Pöschl (Dia 1), Schweizerhaus e Das Loft (Dia 2), Bauerntanz (Dia 3), jantar de sábado às 21:15 (Dia 4)</li>
                         <li><i class="fa-solid fa-train"></i> Último comboio München ➔ Augsburg, no DB Navigator na manhã do Dia 6</li>
                     </ul>
                 </div>
@@ -3693,13 +3819,15 @@
             { name: "Aeroporto Humberto Delgado (LIS)", city: "lisbon", iconType: "plane", coords: [38.7742, -9.1342], desc: "Partida do voo TAP TP 1270 às 08:05 e chegada no regresso TP 555 às 22:25.", img: "img/lisbon_airport.jpg" },
 
             // Vienna
-            { name: "Aeroporto de Viena Schwechat (VIE)", city: "vienna", iconType: "plane", coords: [48.1103, 16.5697], desc: "Chegada do voo TAP TP 1270 às 12:35. Estação do comboio Railjet e autocarro VAL 2.", img: "img/vienna_airport.jpg" },
+            { name: "Aeroporto de Viena Schwechat (VIE)", city: "vienna", iconType: "plane", coords: [48.1103, 16.5697], desc: "Chegada do voo TAP TP 1270 às 12:35. Railjet das 13:33 até Wien Hbf + U1 até Schwedenplatz, €5,50/pessoa no mesmo bilhete.", img: "img/vienna_airport.jpg" },
             { name: "Stephansdom (Catedral de Viena)", city: "vienna", iconType: "monument", coords: [48.2085, 16.3738], desc: "Catedral gótica no centro histórico e vista 360° a partir da torre.", img: "img/vienna_stephansdom_1786477232698.jpg" },
             { name: "Palácio de Schönbrunn & Gloriette", city: "vienna", iconType: "castle", coords: [48.1845, 16.3122], desc: "Residência de verão dos Habsburgos, jardins barrocos e vista da Gloriette.", img: "img/schonbrunn_palace_1786477746840.jpg" },
             { name: "Wiener Prater & Schweizerhaus", city: "vienna", iconType: "beer", coords: [48.2166, 16.3959], desc: "Roda gigante centenária Riesenrad e jantar com pernil de porco assado (Stelze).", img: "img/wiener_prater_1786477757000.jpg" },
-            { name: "Donaukanal Sunset Bars", city: "vienna", iconType: "cocktail", coords: [48.2128, 16.3768], desc: "Beach bars e pré-copos à beira do canal do Danúbio com street art.", img: "img/donaukanal_vienna_1786477802836.jpg" },
+            { name: "Donaukanal (pôr do sol, 18:49)", city: "vienna", iconType: "cocktail", coords: [48.2128, 16.3768], desc: "Street art, bares improvisados e gente sentada no betão. Cerveja de supermercado, grátis. Motto am Fluss (2 min) e Badeschiff (10 min) para copo com serviço.", img: "img/donaukanal_vienna_1786477802836.jpg" },
+            { name: "Jantar — Schöne Perle (Karmeliterviertel)", city: "vienna", iconType: "beer", coords: [48.2166, 16.3782], desc: "Große Pfarrgasse 2, 1020. Cozinha vienense honesta num bairro sem turistas. Principais €14,90–29,50. Diário 11:00–24:00, cozinha até 22:30. Tel. +43 1 890 32 04.", img: "img/donaukanal_vienna_1786477802836.jpg" },
+            { name: "DANZÓN Latin Club — \"FIESTA\"", city: "vienna", iconType: "cocktail", coords: [48.2049, 16.3739], desc: "Johannesgasse 3. Festa latina fixa todas as quartas, 20:00–04:00. Reggaeton, latin house e bachata. Sem porta seletiva nem dress code, a 12 min a pé de casa.", img: "img/donaukanal_vienna_1786477802836.jpg" },
             { name: "Rooftop Bar Das Loft", city: "vienna", iconType: "cocktail", coords: [48.2132, 16.3792], desc: "Cocktail lounge no 18º andar (SO/ Vienna) com vista panorâmica sobre a cidade.", img: "img/das_loft_vienna.jpg" },
-            { name: "Linha Férrea Wien ➔ Augsburg (ÖBB RJX)", city: "vienna", iconType: "train", coords: [48.1852, 16.3764], desc: "Partida do comboio Railjet Xpress às 11:28, chegada a Augsburg às 16:29 com 1 mudança em Munique.", img: "img/ice_train_austria.jpg" },
+            { name: "Wien Westbahnhof ➔ Augsburg (via Salzburgo)", city: "vienna", iconType: "train", coords: [48.1966, 16.3387], desc: "Westbahn 910 às 10:38 até Salzburgo (13:08), depois ICE 116 direto até Augsburg (14:00-16:14). Dois bilhetes: €175,96 + €157,96 = €333,92.", img: "img/ice_train_austria.jpg" },
 
             // Transit / Augsburg
             { name: "Augsburg (Base Alemanha & Rathausplatz)", city: "augsburg", iconType: "hotel", coords: [48.3721, 10.8955], desc: "Apartamento base dos 6 amigos (Am Bogen 6) e centro histórico medieval.", img: "img/augsburg_oldtown.jpg" },
@@ -4169,7 +4297,7 @@
             { text: "Powerbank & Cabo USB" },
             { text: "Casaco Corta-Vento / Chuva" },
             { text: "Sapatilhas Confortáveis (Caminhada)" },
-            { text: "Roupa de Festa (Volksgarten Club)" },
+            { text: "Roupa de Festa (DANZÓN — sem dress code, mas o Loos e o Lamée pedem arranjo)" },
             { text: "Camisola Térmica para os Alpes" },
             { text: "Óculos de Sol & Protetor Solar" },
             { text: "Adaptador / Carregador Rápido" },
@@ -4336,9 +4464,9 @@
             const summary = `✈️ *EUROTRIP 2026: VIENA & MUNIQUE (23-29 SET)*
 👥 6 Amigos | 2 Países | Oktoberfest 2026
 
-📅 *Qua 23 Set*: Voo TAP TP 1270 (08:05->12:35) ➔ Transfer Railjet/VAL 2 ➔ Judengasse 11 ➔ Stephansdom ➔ Donaukanal ➔ Bermudadreieck / Clubbing
+📅 *Qua 23 Set*: Voo TAP TP 1270 (08:05->12:35) ➔ Railjet 13:33 + U1 ➔ Judengasse 11 ➔ Stephansdom ➔ Donaukanal (sol 18:49) ➔ Jantar Schöne Perle ➔ Bermudadreieck ➔ DANZÓN
 📅 *Qui 24 Set*: Brunch Haas&Haas ➔ Palácio Schönbrunn ➔ Prater (Schweizerhaus) ➔ Rooftop Das Loft
-📅 *Sex 25 Set*: Comboio Railjet RJX *11:28->16:29* Viena->Augsburg (via MUC) ➔ Táxi ➔ Carro Enterprise (fecha às 18:00!) ➔ Check-in Am Bogen 6 ➔ Fuggerei ➔ Jantar dos 6 na Rathausplatz ➔ Lechviertel à noite
+📅 *Sex 25 Set*: Westbahn 910 *10:38->13:08* Wien Westbahnhof->Salzburgo ➔ ICE 116 *14:00->16:14* Augsburg (direto, cais 2) ➔ Check-in Am Bogen 6 ➔ Carro Enterprise às 17:00 (fecha às 18:00!) ➔ Fuggerei ➔ Jantar dos 6 na Rathausplatz ➔ Lechviertel à noite
 📅 *Sáb 26 Set*: 🏔️ Rota dos Alpes: Neuschwanstein (visita *14:00* — chegar 12:05) + Marienbrücke + Oberammergau (16:35, com sol) + Lago Eibsee ao pôr do sol. Jantar 21:15
 📅 *Dom 27 Set*: 🏰 Circuito Medieval: Rothenburg ob der Tauber & Muralhas (1h49 de autoestrada)
 📅 *Seg 28 Set*: 🍺 Marienplatz + Viktualienmarkt + Hofbräuhaus + Eisbachwelle + OKTOBERFEST 2026 *com mesa reservada às 17:00* (2x Bayern-Ticket)!

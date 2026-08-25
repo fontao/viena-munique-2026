@@ -18,7 +18,7 @@ pesquisa web em tempo real; horários oficiais confirmados em fonte primária) �
 |---|---|---|---|
 | 🔴 **1** | **Neuschwanstein** (6 pax) | A janela de reserva são 2 meses e **já está aberta**. É um sábado em plena Oktoberfest — esgota. | [shop.ticket-center-hohenschwangau.de](https://shop.ticket-center-hohenschwangau.de) |
 | 🔴 **2** | **Mesa na Oktoberfest** (mesa de 8–10) | ⚠️ **As candidaturas diretas às tendas já fecharam** (abrem entre dezembro e junho). Só resta o portal oficial de revenda, e a compra abre a **27 de agosto**. | [oktoberfest-booking.com](https://www.oktoberfest-booking.com/en) |
-| 🔴 **3** | **Comboio ÖBB Wien ➔ Augsburg** (4 pax) | Tarifa *Sparschiene* sobe todos os dias à medida que os escalões baratos esgotam. | [oebb.at](https://www.oebb.at) / app ÖBB |
+| ✅ ~~3~~ | ~~**Viagem Viena ➔ Augsburgo** (4 pax)~~ | **COMPRADO** — Westbahn 910 (€175,96) + ICE 116 na DB (€157,96). **Total €333,92.** | — |
 | 🔴 **4** | **Schönbrunn** (4 pax) | Hora marcada e as faixas esgotam com semanas de antecedência. **Atenção: mudou de nome e subiu para €42/pax em 2026.** | [imperialtickets.com](https://www.imperialtickets.com) |
 
 ---
@@ -73,12 +73,39 @@ entra-se na tenda antes das 12:00 e o programa de Munique passa para depois.
 > ⚠️ A **Löwenbräu-Festzelt não tem sessão noturna às segundas-feiras** (só almoço,
 > 12:00–16:30). Riscar da lista para o dia 28.
 
-#### 3. Comboio ÖBB Wien Hbf ➔ Augsburg Hbf — 4 pax
-- **11:28 ➔ 16:29** (5h01, 1 mudança em München Hbf) — ver Dia 3 para perceber porquê.
-- Tarifa **Sparschiene**: nominativa, ligada àquele comboio, **não reembolsável**.
-- A 6 semanas da viagem os escalões de €19,90–29,90 já costumam estar esgotados. Contar
-  **€39,90 a €59,90/pessoa** — e comprar hoje, porque sobe.
-- **Adicionar reserva de lugares** (€3–5/pessoa). É sexta à tarde num RJX: enche.
+#### 3. ✅ COMPRADO — Viagem Viena ➔ Augsburg — 4 pax — **€333,92** (dois bilhetes, não um)
+
+⚠️ **O bilhete direto custava €536,40** para os 4 (€134,10/pessoa) — o dia 25 é a sexta de
+abertura da Oktoberfest e **não existe Sparschiene** nesse corredor. Partindo a viagem em
+Salzburgo, o mesmo trajeto ficou por **€333,92** e chega à mesma hora. **Poupança: €202,48.**
+
+**A) ✅ Westbahn — Wien Westbahnhof ➔ Salzburg Hbf — €175,96**
+- Comboio **910, 10:38 ➔ 13:08**, direto, 2h30. Classe *2 | Standard*, **€43,99/pessoa**.
+- Tarifa *WestSuperpreis*, **reserva de lugar incluída** — lugares **224A, 224B, 223A, 223B**.
+- ⚠️ **Parte da Westbahnhof, não da Wien Hbf.** São ~25 min de metro desde Schwedenplatz
+  (U1 ➔ Stephansplatz ➔ U3).
+- 🚫 **Não confundir com o comboio 912 das 11:38** (*going to Saalfelden*): chega a Salzburgo
+  às 14:08 e perde o ICE por 8 minutos.
+
+**B) ✅ DB — Salzburg Hbf ➔ Augsburg Hbf — €157,96**
+- **ICE 116, 14:00 ➔ 16:14**, **direto, sem mudanças**. Sai do **cais 2** em Salzburgo.
+- Bilhete *Super Sparpreis* **€135,96** + **reserva de lugares €22,00** (€5,50/pessoa).
+- Preço idêntico na ÖBB e na DB — comprado na DB (*DB Fernverkehr AG*).
+- 🚫 **Não é o das 14:04** (€243,96, com mudança em Munique). E das partidas dessa janela, o
+  ICE 116 é o único **sem** o aviso *"ticket valid for section of the journey only"* — os das
+  10:00 e 12:00 só valem até Munique.
+
+**Não é preciso Bayern-Ticket neste dia.** Estes dois bilhetes cobrem a viagem toda. O
+Bayern-Ticket só volta a entrar no **Dia 6**.
+
+> ### ⚠️ Os dois bilhetes são independentes — a folga de 52 min é a única proteção
+> Ambos são tarifas promocionais: **não reembolsáveis** e **presos àqueles comboios**. E, nas
+> palavras do próprio recibo da DB, *"there are separate contracts of carriage"* — **se a
+> Westbahn atrasar e perderem o ICE 116, a DB não remarca nada** e perdem-se os €157,96.
+>
+> É exatamente por isso que se escolheu o comboio das **10:38** e não o das 11:38: dá **52
+> minutos** de folga em Salzburgo. A Westbahn teria de acumular quase uma hora de atraso numa
+> viagem de 2h30 para isso acontecer.
 
 #### 4. Palácio de Schönbrunn — 4 pax — **€168** (ou €120)
 ⚠️ **Schönbrunn mudou os bilhetes em 2026 e ficou mais caro do que o plano previa.**
@@ -99,8 +126,9 @@ entra-se na tenda antes das 12:00 e o programa de Munique passa para depois.
 | Item | Pax | Custo | Onde |
 |---|---|---|---|
 | **Táxi Augsburg Hbf ➔ Enterprise** (pré-reservado) | 4 | ~€15–20 | Por telefone, na véspera |
+| **Jantar de quarta, Dia 1 — 19:45** | 4 | reserva grátis | **Schöne Perle** +43 1 890 32 04 · ou **Pöschl** +43 1 513 52 88 (*este é obrigatório*) |
 | Jantar no **Schweizerhaus** (Prater), Dia 2 | 4 | reserva grátis | schweizerhaus.at |
-| **Das Loft** rooftop, Dia 2 — *tem dress code* | 4 | reserva grátis | Hotel SO/ Vienna |
+| **Das Loft** rooftop, Dia 2 — ⚠️ *reabriu 3/9/2026, reconfirmar* | 4 | reserva grátis | Hotel SO/ Vienna · plano B: **Lamée Rooftop** |
 | Jantar de sábado em Augsburg, Dia 4 — **21:15** | 6 | reserva grátis | reservar de manhã |
 | **Contacto de táxi/van de 6+ lugares em Munique** (Dia 6) | 6 | — | ver Dia 6 |
 
@@ -116,8 +144,7 @@ entra-se na tenda antes das 12:00 e o programa de Munique passa para depois.
 
 | Item | Pax | Preço 2026 | Nota |
 |---|---|---|---|
-| **Transfer VIE ➔ cidade** — Railjet + U1 | 4 | €5,50/pax = **€22** | Recomendado |
-| … ou **autocarro VAL 2** (porta a porta) | 4 | €10,50/pax = **€42** | Sem transbordos, útil com malas |
+| **Transfer VIE ➔ cidade** — Railjet + U1 | 4 | €5,50/pax = **€22** | ✅ **Decidido.** Pedir *Flughafen Wien ➔ Wien*, com zona central |
 | **Bilhete 24h Wien Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às **13:20**, no Karlsplatz |
 | **Torre Sul do Stephansdom** | 4 | **€8,00**/pax = €32 | 343 degraus · **só dinheiro** · 09:00–19:00, última subida 18:15 |
 | **Riesenrad** (Prater) | 4 | €14,50/pax = €58 | |
@@ -188,7 +215,12 @@ o roteiro. As razões, para não voltar a discutir:
 | **Inverter a tarde do Dia 4: Oberammergau antes do Eibsee** | ✅ Feito agora | Oberammergau entra em sombra de montanha às ~18:00 — na ordem antiga era vista no escuro. Invertendo, apanha sol às 16:35 e o Eibsee fica com o pôr do sol. Bónus: a rota passa a ser 100% alemã e dispensa a vinheta austríaca. |
 | **Acordar às 08:30 no Dia 4** | ❌ Não | Foi o que dois dos três analistas recomendaram, para dar 130 min de margem no castelo e luz em Oberammergau. Mas **a inversão da rota já resolve a luz**, e as 14:00 já resolvem a margem — não há nada que justifique voltar a madrugar. Custo de não o fazer: jantar às 21:15 em vez das 20:45. |
 | **Trocar a U4+U1 pela U2 direta (Dia 2)** | ❌ Não | De Karlsplatz a Praterstern são 7 estações pela U2, que dá a volta ao Ring, contra 4 pela U1. |
-| **Antecipar o comboio do Dia 3 para as 10:28** | ❌ Não | Daria 2h15 de margem antes do fecho da Enterprise em vez de 90 min, mas obrigava a acordar às 08:45. 90 minutos chegam. |
+| **Partir a viagem do Dia 3 em Salzburgo (Westbahn + ICE 116)** | ✅ Comprado | O bilhete direto custa **€536,40** — não há Sparschiene na sexta de abertura da Oktoberfest. Comprando cada metade ao operador mais barato (Westbahn até Salzburgo, DB a partir daí), o mesmo trajeto custa **€333,92** e chega **à mesma hora**. Poupa **€202,48**. |
+| **Fazer os troços alemães em regional com Bayern-Ticket** | ❌ Não | Sairia por €239,96 (menos €94), mas obrigava a apanhar o Westbahn das **08:38** e a fazer **duas** mudanças em vez de uma. Os €94 compram 2 horas de sono e uma ligação mais simples. |
+| **Manter o comboio direto das 11:28** | ❌ Não | €202 a mais para chegar exatamente à mesma hora (16:14). |
+| **Noite do Dia 1: FLEX/Volksgarten ➔ DANZÓN** | ✅ Feito agora | **Os dois estavam errados.** O Volksgarten fecha às quartas (e é 21+, €18 só em dinheiro, porta agressiva); o FLEX não tem evento a 23. O DANZÓN tem festa latina **fixa todas as quartas**, das 20:00 às 04:00, sem porta seletiva, **a 12 min a pé**. Decisivo: **o metro não circula toda a noite à quarta** — a pé não há hora de recolher. |
+| **Acrescentar jantar ao Dia 1** | ✅ Feito agora | O roteiro saltava dos pré-copos das 18:30 para os bares das 21:00, **sem jantar**, num dia que começa às 04:45. Entrou a **Schöne Perle** às 19:45, no fim natural do passeio do canal. |
+| **Sair do Volksgarten às 17:45 e não às 18:00** | ✅ Feito agora | O pôr do sol é às **18:49** e não às ~19:00 como estava escrito. Os 15 minutos pagam a passagem por casa e chegam ao canal a tempo da hora dourada. |
 
 **Ordem geográfica do Dia 7** (Nymphenburg ➔ BMW Welt ➔ Allianz Arena ➔ MUC) já é a ótima:
 é uma linha de oeste para nordeste que acaba no aeroporto, sem retrocessos.
@@ -198,7 +230,9 @@ o roteiro. As razões, para não voltar a discutir:
 ## 📅 Cronograma Detalhado Dia-a-Dia
 
 > **Base de horários:** acordar por volta das **10:00**. As exceções estão assinaladas.
-> Pôr do sol de referência: Viena ~19:00 (dia 23) a ~18:47 (dia 29); Munique ~19:15 a ~18:58.
+> Pôr do sol de referência: Viena **18:49** (dia 23) a ~18:35 (dia 29); Munique ~19:05 a ~18:50.
+> 🔴 *(Corrigido nesta revisão: a versão anterior dizia ~19:00 no dia 23 — são mais 11 minutos
+> de margem do que existem, e é sobre o dia 23 que assenta o plano do pôr do sol.)*
 
 ---
 
@@ -209,32 +243,39 @@ o roteiro. As razões, para não voltar a discutir:
 - **06:15**: Encontro no Terminal 1 do Aeroporto Humberto Delgado, Lisboa.
 - **08:05 – 12:35**: **Voo TAP TP 1270** (LIS ➔ VIE) direto, 3h30.
 - **12:35 – 13:15**: Desembarque e recolha de bagagem.
-- **13:15 – 14:15**: Transfer para a Judengasse 11.
-  - **Opção A (Escolhida)**: **Railjet ÖBB** da estação por baixo do aeroporto até *Wien
-    Hauptbahnhof* (15 min) + **Metro U1** direto até *Schwedenplatz* (7 min) + 4 min a pé.
-    **~€5,50/pessoa**, tudo incluído no mesmo bilhete.
-    - 🕐 **Parte aos :03 e aos :33.** Com aterragem às 12:35 o realista é o das **13:33**,
-      chegando à porta de casa por volta das **14:20** — não às 14:15. Como o check-in nestes
-      apartamentos é tipicamente às 15:00, isto não é problema: é mais um motivo para pedir
-      *early check-in* ou combinar deixar as malas.
-    - 🎫 **Pedir o bilhete *Flughafen Wien ➔ Wien*** (com a zona central incluída), **não** só
-      até Wien Hbf — é isso que faz o U1 vir no mesmo bilhete. Com o errado, é preciso um
-      bilhete de metro à parte de €3,20.
-    - 💶 **A tarifa é a única coisa deste roteiro que não consegui confirmar em fonte oficial.**
-      Os €5,50 decompõem-se em €2,30 (zona de Schwechat) + €3,20 (bilhete simples de Viena,
-      este confirmado), o que é coerente; mas o histórico anda entre €4,50 e €5,50. **Confirmar
-      na app ÖBB.** No pior caso são €4 a mais no grupo todo.
-    - ✅ **Confirmado a 14 de agosto no site do aeroporto:** a Stammstrecke está mesmo cortada,
-      o **CAT foi substituído por autocarros** e o S7 não chega ao centro. O Railjet deixou de
-      ser a opção recomendada e passou a ser a única ligação ferroviária que serve.
-  - **Opção B (Sem transbordos)**: **Vienna Airport Lines VAL 2** até *Morzinplatz /
-    Schwedenplatz* (20–25 min, **€10,50**), sai à porta do terminal e pára a 100m do
-    apartamento. Vale a pena com malas grandes.
+- **13:15 – 14:20**: **Transfer para a Judengasse 11 — Railjet + U1. Decidido, sem alternativa.**
+  **Railjet ÖBB** da estação por baixo do aeroporto até *Wien Hauptbahnhof* (15 min) + **Metro
+  U1** direto até *Schwedenplatz* (7 min) + 4 min a pé. **~€5,50/pessoa (4 pax ≈ €22)**, tudo
+  incluído no mesmo bilhete.
+  - 🕐 **Parte aos :03 e aos :33.** Com aterragem às 12:35 o realista é o das **13:33**,
+    chegando à porta de casa por volta das **14:20** — não às 14:15. Como o check-in nestes
+    apartamentos é tipicamente às 15:00, isto não é problema: é mais um motivo para pedir
+    *early check-in* ou combinar deixar as malas.
+  - 🎫 **Pedir o bilhete *Flughafen Wien ➔ Wien*** (com a zona central incluída), **não** só
+    até Wien Hbf — é isso que faz o U1 vir no mesmo bilhete. Com o errado, é preciso um
+    bilhete de metro à parte de €3,20 por pessoa.
+  - 💶 **A tarifa é a única coisa deste roteiro que não consegui confirmar em fonte oficial.**
+    Os €5,50 decompõem-se em €2,30 (zona de Schwechat) + €3,20 (bilhete simples de Viena,
+    este confirmado), o que é coerente; mas o histórico anda entre €4,50 e €5,50. **Confirmar
+    na app ÖBB.** No pior caso são €4 a mais no grupo todo.
+  - 🚫 **No aeroporto, ignorar o CAT e o S7 — mesmo que a sinalética insista.** O **CAT** é a
+    ligação mais publicitada dentro do terminal, com balcão e sinalização próprios: **está
+    suspenso** e substituído por autocarros. O **S7** é o que os guias recomendam por ser o mais
+    barato: **só vai até St. Marx**, fora do centro, e obriga a transbordo para elétrico. Ambos
+    por causa do fecho da **S-Bahn Stammstrecke desde 7/9/2026** (até outubro de 2027).
+    ✅ Confirmado a 14 de agosto no site do aeroporto.
+    - ⚠️ **Isto interessa sobretudo se o Railjet das 13:33 se atrasar** e der a tentação de
+      saltar para o primeiro comboio que apareça. **Esperar pelo Railjet seguinte** — parte aos
+      :03 e aos :33, portanto nunca são mais de 30 minutos de espera.
+  - 🗑️ *O autocarro **Vienna Airport Lines VAL 2** (€10,50/pax = €42) foi retirado desta
+    revisão — o grupo decidiu ir de comboio e metro. Fica só a nota de que existe, sai à porta
+    do terminal e pára em Morzinplatz, a 100 m do apartamento, caso alguma coisa corra mal com
+    o Railjet no próprio dia.*
 - **14:15 – 14:45**: Check-in no **Central City Apartments** (*Judengasse 11, 1010 Wien*), no
   coração do Bermudadreieck.
   - ⚠️ O check-in nestes apartamentos é tipicamente às **15:00**. **Pedir early check-in por
     email** com antecedência, ou combinar deixar as malas.
-- **14:45 – 18:00**: Passeio a pé pelos monumentos imperiais, **numa linha reta para poente,
+- **14:45 – 17:45**: Passeio a pé pelos monumentos imperiais, **numa linha reta para poente,
   sem voltar atrás**. Três paragens **gratuitas** foram acrescentadas nesta revisão porque
   ficam literalmente em cima do caminho e não custam tempo nenhum:
   - **14:45** — **Ruprechtskirche** (*Ruprechtsplatz 1*), a **100 m de casa**. É a igreja mais
@@ -248,24 +289,102 @@ o roteiro. As razões, para não voltar a discutir:
     dourados, das igrejas barrocas mais espetaculares da Europa Central. Grátis. **Há recital
     de órgão diário às 15:00** — se o grupo estiver adiantado, vale a pena inverter a ordem
     e vir cá primeiro.
-  - **16:30 – 18:00** — ruas pedonais *Graben* e *Kohlmarkt* ➔ **Hofburg** ➔ **Volksgarten**.
+  - **16:30 – 17:45** — ruas pedonais *Graben* e *Kohlmarkt* ➔ **Hofburg** ➔ **Volksgarten**.
   São **1,6 km à ida** em três horas — passo de passeio, que é o que se aguenta com 5 h de
   sono. O regresso pelo Ring são outros 1,4 km (18 min) e passa à porta de casa.
+  - ⏰ **Sair do Volksgarten às 17:45, não às 18:00.** Com o sol a pôr-se às **18:49**, isto dá
+    tempo para passar em casa, largar as mochilas e estar no canal às 18:20 — a tempo da hora
+    dourada, e não já com ela a acabar.
   - *Porque é que a Ópera e a Kärntner Straße não estão aqui:* ficam no braço **sul** da zona
     pedonal e passam lá amanhã de manhã, a caminho da Sachertorte e do metro. Hoje faz-se o
     braço poente, amanhã o sul — nenhuma rua se anda duas vezes.
-- **18:30 – 20:30**: Pôr do sol e pré-copos no **Canal do Danúbio**, a 300 m a pé. **Ficar no
-  troço de Schwedenplatz** (*Tel Aviv Beach* e os bares junto à Schwedenbrücke). Sol põe-se
-  às ~19:00.
-  - ⚠️ **Não ir ao Strandbar Herrmann hoje.** Fica 884 m mais para leste: vindos do
-    Volksgarten seriam **2,5 km / 31 min** a pé, contra 1,4 km ficando no troço de casa. Ao
-    fim de três horas de pé e com cinco de sono, é o quilómetro mais caro da viagem. E
-    ficando aqui passam pela porta — dá para largar mochilas e trocar de roupa.
-- **21:00 – Madrugada**: Rota de bares pelo **Bermudadreieck**, à porta de casa, e
-  continuação para o **FLEX** ou o **Volksgarten Club**.
-  - *Geograficamente o FLEX ganha:* **1 km / 13 min** pelo mesmo canal onde já estiveram, e é
-    casual. O Volksgarten Club obriga a **1,4 km / 18 min** de volta para poente — para o
-    mesmo jardim onde estiveram às 18:00 — e tem porta seletiva e código de vestuário.
+- **18:05 – 18:20**: **Passar em casa.** Largar mochilas, trocar de roupa. O regresso pelo Ring
+  passa à porta — é de graça em tempo.
+- **18:20 – 19:45**: **Pôr do sol no Canal do Danúbio**, a 300 m a pé. 🔴 **O sol põe-se às
+  18:49** *(a versão anterior deste roteiro dizia ~19:00)*, com luz azul até às ~19:25.
+  - 📍 **O sítio exato: atravessar a Schwedenbrücke e ficar na margem de Leopoldstadt** (lado
+    1020), no troço entre a **Schwedenbrücke e a Salztorbrücke**. Três razões, todas práticas:
+    - ☀️ **É a margem virada a poente.** Sentados ali, o sol põe-se *em frente*, por cima da
+      água e da silhueta da cidade velha. Na margem do 1.º distrito ficam de costas para ele.
+    - 🍺 **É onde estão os bares e o movimento.** A *Obere Donaustraße* é a rua desta margem —
+      degraus largos até à água e o grosso da gente sentada.
+    - 🍽️ **É o lado certo para o jantar.** A Schöne Perle fica neste mesmo bairro: acabam o pôr
+      do sol e sobem para o Karmeliterviertel sem voltar atrás.
+  - 💶 **O plano é comprar cerveja no supermercado e sentar no betão.** É literalmente o que os
+    vienenses de 25 anos fazem a meio da semana, é grátis e não precisa de reserva nenhuma.
+  - 🔴 **O *Tel Aviv Beach* já não existe.** O espaço é hoje o **NENI am Wasser**, restaurante
+    aberto todo o ano — não é a praia urbana que os guias descrevem. As duas opções reais para
+    um copo sentado com serviço são o **Motto am Fluss** (*Franz-Josefs-Kai 2*, o barco em
+    Schwedenplatz, bar dom–qua 18:00–24:00, **2 min**) e o **Badeschiff** (piscina-barco junto
+    à Urania, diário 11:00–01:00, época confirmada de 15 jul a 15 out, **10 min**).
+  - ❌ **Não ir ao Strandbar Herrmann.** Além da distância, 🔴 **a época acaba por volta de 21 de
+    setembro** — a 23 está fechado. E o **Adria Wien** fechou definitivamente em 2023.
+
+#### 🍽️ Jantar — 19:45 às 21:15
+
+⚠️ **A versão anterior deste roteiro não tinha jantar nenhum na quarta-feira:** saltava dos
+pré-copos direto para os bares às 21:00. Com um despertar às 04:45, seis horas de bares sem
+comer acaba mal. **Três opções, todas a pé e todas confirmadas abertas à quarta:**
+
+| Opção | Onde | Horário | Preço | A pé | Reserva |
+|---|---|---|---|---|---|
+| ⭐ **Schöne Perle** | Große Pfarrgasse 2, **1020** | Diário 11:00–24:00, cozinha até 22:30 | **€14,90–29,50** (confirmado) | 11 min | recomendada, não crítica |
+| **Gasthaus Pöschl** | Weihburggasse 17, 1010 | Seg–sáb 12:00–23:00, cozinha até 22:00 | ~€19–29 | 10 min | **obrigatória** |
+| **Zum Bettelstudent** | Johannesgasse 12, 1010 | Seg–qui 11:00–24:00 | ~€14–22 | 11 min | não precisa |
+
+- ⭐ **A escolha é a Schöne Perle.** Fica no **Karmeliterviertel**, do outro lado da
+  Schwedenbrücke — ou seja, **no fim natural do passeio do canal**. Cozinha vienense honesta,
+  preços confirmados no site, ambiente de bairro descontraído, com opções vegetarianas. É o
+  bairro onde a cidade é real: ninguém repara que são turistas.
+- **Se quiserem o melhor prato da noite:** *Gasthaus Pöschl* — o Beisl moderno mais respeitado
+  do 1.º distrito, minúsculo e cheio de vienenses. **Liga com dias de antecedência:
+  +43 1 513 52 88** (atendem a partir das 10:00). Peçam o *Beuschel*, o *Backhendl* ou o
+  *Tafelspitz*.
+- **Se chegarem atrasados do canal:** *Zum Bettelstudent* — barato, barulhento, sem pretensão,
+  entra-se e senta-se. E fica **a 100 m do DANZÓN**, que é o destino a seguir.
+- 🚫 **Não jantar dentro do Bermudadreieck nem na Griechengasse.** À noite enchem de grupos e
+  despedidas de solteiro. O triângulo é excelente para o que vão fazer lá **depois** — beber.
+  Evitar em concreto: **Griechenbeisl** (a armadilha canónica, com autocarros à porta),
+  **Zwölf-Apostelkeller** (salão de 390 lugares com músicos de Heuriger) e **Figlmüller**
+  (bom, mas é o restaurante mais fotografado de Viena — às 19:45 sem reserva, esqueçam).
+
+#### 🌙 A noite — 21:15 em diante
+
+> ### 🔴 O plano antigo — "FLEX ou Volksgarten Club" — não funciona. Os dois falham.
+> - **Volksgarten Clubdiskothek: fechado às quartas** (só qui–sáb). E mesmo aberto seria o pior
+>   cenário possível: **21+, €18 só em dinheiro** e porta agressiva com grupos masculinos.
+> - **FLEX: o calendário oficial de setembro de 2026 não tem evento a 23.** *(O **Flex Café
+>   Bar** esse abre às quartas, 19:00–01:00, entrada livre — mas é um bar, não a discoteca.)*
+> - E há um facto logístico que muda tudo: 🔴 **o metro de Viena não circula toda a noite à
+>   quarta** — só sexta, sábado e vésperas de feriado. **Última composição ~00:15–00:30.**
+>   Depois é autocarro noturno da linha N (vários com nó em **Schwedenplatz, à porta de casa**)
+>   ou Bolt, a €12–16. Tudo o que fique no Gürtel, em Meidling ou no Prater sai bem mais caro
+>   do que parece.
+
+- **21:15 – 22:30**: **Rota de bares no Bermudadreieck**, à porta de casa. Todos sem entrada
+  paga e sem dress code:
+  - **Krah Krah** (*Rabensteig 8*, **2 min**) — o fundador do triângulo, de 1980, com ~60
+    cervejas. ⚠️ **Fecha à meia-noite à quarta:** serve para começar, não para acabar.
+  - **Salzamt** (*Ruprechtsplatz 1*, **1 min**) — esplanada na praça, ambiente adulto, até à 01:00.
+  - **First Floor** (*Seitenstettengasse 5*, **2 min**) — cocktails a sério e um aquário atrás
+    do balcão, até às 02:00. O contraponto de qualidade ao ruído do resto do triângulo.
+- **22:30 – ~02:30**: **DANZÓN Latin Club** — *Johannesgasse 3*, **12 min a pé**.
+  - 🎉 **"FIESTA", todas as quartas, 20:00–04:00.** Reggaeton, latin house e bachata, público
+    de 20 a 35 anos muito internacional. **Sem porta seletiva e sem dress code.**
+  - ⏰ **Chegar às 22:30, não antes.** Os workshops de dança acabam às 21:00 e a sala só enche
+    depois — às 21:15 seria cedo demais.
+  - ✅ **Estando a 12 minutos a pé, podem sair à hora que quiserem sem logística nenhuma** — que
+    é exatamente a razão pela qual esta é a escolha certa numa noite em que o metro fecha à
+    00:30 e no dia seguinte há um dia inteiro de Viena pela frente.
+- **~02:30**: Regresso a pé. Se apetecer, **Würstelstand am Hoher Markt** (aberto até ~04:00,
+  a **3 min de casa**) para a *Käsekrainer* da praxe.
+- 🅱️ **Planos B, todos a pé:** **Kaktus** (*Seitenstettengasse 5*, 19:00–04:00, com pista),
+  **Roter Engel** (*Rabensteig 5*, ter–sáb 18:00–04:00, música ao vivo por volta das 23:00),
+  **Cabaret Fledermaus** (*Spiegelgasse 2*, 7 min, **entrada livre a partir das 21:00**) e
+  **Loos American Bar** (*Kärntner Durchgang 10*, **aberto até às 04:00 todos os dias**, 27 m²
+  desenhados por Adolf Loos em 1908 — sem reservas, ir cedo).
+- ☎️ **A confirmar em setembro, uma coisa só:** a residência *FIESTA* das quartas no Instagram
+  do DANZÓN, e o preço à porta, que não está publicado.
 
 ---
 
@@ -327,35 +446,61 @@ o roteiro. As razões, para não voltar a discutir:
 - **20:30 – 23:00**: Cocktails no **Rooftop Das Loft** (18.º andar do Hotel SO/ Vienna,
   *Praterstraße 1*), a 8 min a pé atravessando a Schwedenbrücke. Vista noturna de 360° e
   teto de vidro multicolorido. **Reservar — e há dress code.**
+  - 🔴 **ATENÇÃO: o Das Loft esteve fechado para obras e reabriu a 3 de setembro de 2026 com
+    um conceito novo.** Todos os horários, cartas e políticas de reserva anteriores são
+    inválidos — incluindo o "16:00–01:00" que circula nos guias. **Reconfirmar no site do
+    Hotel SO/ Vienna antes de contar com ele**, e ter um plano B pronto.
+  - 🅱️ **Plano B, a 4 min a pé de casa:** **Lamée Rooftop** (*Rotenturmstraße 15*), aberto
+    domingo a quarta até à 01:00, com vista direta para as torres do Stephansdom e cobertura
+    instalada em 2024 — não depende do tempo. Alternativa mais longe: **Meliá 57** (57.º andar
+    da DC Tower, interior envidraçado, seg–qui 17:00–00:00).
 
 ---
 
 ### 🚆 🇩🇪 Dia 3: Sexta-feira, 25 de Setembro — Comboio para Augsburg, Carro & Noite na Cidade Velha
-**⏰ Acordar 09:45 · Este dia tem uma janela apertada. Ler o alerta abaixo.**
-*São os únicos 15 minutos a menos da semana, e são de propósito: o bilhete Sparschiene está
-preso àquele comboio e não se reembolsa. Fazer as malas na véspera resolve o resto.*
+**⏰ Acordar 09:45 · Dois comboios, dois bilhetes — já comprados.**
+*Fazer as malas na véspera. Sair de casa às 10:00.*
 
-> ### 🚨 Porque é que o comboio é às 11:28 e não às 12:50
-> O plano original dizia "12:50 ➔ 17:35". **Esse comboio não existe.** As ligações reais
-> Wien Hbf ➔ Augsburg Hbf são:
+> ### 🚨 O bilhete direto custava €536,40. Este plano custou €333,92.
+> **Verificado ao vivo na ÖBB, na DB e na Westbahn a 16/08/2026.** O dia 25 de setembro é a
+> sexta-feira de abertura da Oktoberfest: **não há Sparschiene** no corredor Viena–Munique. Um
+> bilhete único Wien Hbf ➔ Augsburg Hbf está a **€134,10/pessoa = €536,40** para os 4, em
+> *todas* as partidas viáveis da manhã. A estimativa antiga de €39,90–59,90/pax não existe.
 >
-> | Partida | Chegada | Duração | Mudanças |
+> **A solução foi partir a viagem em Salzburgo** e comprar cada metade ao operador mais barato:
+> a Westbahn até à fronteira, a DB a partir dela.
+>
+> | Opção | Composição | Chegada Augsburg | Total 4 pax |
 > |---|---|---|---|
-> | 10:28 | 15:14 | 4h46 | 1 |
-> | **11:28** | **16:29** | **5h01** | **1** ✅ |
-> | 12:28 | 17:46 | 5h18 | 2 ❌ |
+> | **Westbahn + ICE 116** ✅ **comprado** | 10:38 Westbahnhof → Salzburgo → ICE direto | **16:14** | **€333,92** |
+> | Westbahn + RE5 + RE (Bayern-Ticket) | 08:38 Westbahnhof → Salzburgo → 2 regionais | 15:12 | €239,96 |
+> | ÖBB RJX + Bayern-Ticket | 09:28 Wien Hbf → Salzburgo → 2 regionais | 15:12 | €306,00 |
+> | Bilhete único ÖBB ❌ | RJX direto 11:28 | 16:14 | €536,40 |
 >
-> A **Enterprise de Augsburg fecha sexta às 18:00** (sábado só 09:00–12:00). Com o comboio
-> das 12:28 chegariam à agência por volta das **18:05 — fechada**. Sem carro no sábado de
-> manhã, o Dia 4 inteiro colapsa, incluindo o bilhete de hora marcada de Neuschwanstein.
+> A opção escolhida custa €94 mais do que a mais barata, mas **compra 2 horas de sono**
+> (acordar às 09:45 em vez das 07:45), **uma só mudança em vez de duas**, e ainda assim
+> **poupa €202,48** face ao bilhete direto.
+>
+> A **Enterprise de Augsburg fecha sexta às 18:00** (sábado só 09:00–12:00). Chegar às 16:14
+> deixa **1h45** de margem.
 
-- **10:30**: Check-out do apartamento em Viena *(confirmar a hora exata com o anfitrião)*.
-- **10:45 – 11:05**: Metro U1 de Schwedenplatz até *Wien Hauptbahnhof*.
-- **11:28 – 16:29**: **ÖBB Railjet Xpress (RJX)** de Wien Hbf até **Augsburg Hbf**, com
-  mudança em München Hbf. Viagem cénica por Linz e Salzburgo, com restaurante a bordo.
-- **16:35 – 17:15**: **Táxi pré-reservado** da estação de Augsburg até à **Enterprise
-  Rent-A-Car** (*Aindlinger Str. 14*, 5,5 km) **e levantamento da carrinha**. São só 4 pessoas
-  neste comboio, por isso um táxi normal chega.
+- **09:45**: Acordar. **10:00**: Check-out *(combinar a hora com o anfitrião na véspera)*.
+- **10:00 – 10:25**: Metro **U1 Schwedenplatz ➔ Stephansplatz**, mudar para o **U3 ➔
+  Westbahnhof**. ⚠️ **Não é a Wien Hbf** — a Westbahn parte da *Westbahnhof*. O bilhete de 24h
+  do Dia 2 ainda cobre este trajeto se foi ativado depois das 13:20 de quinta.
+- **10:38 – 13:08**: **Westbahn comboio 910**, Wien Westbahnhof ➔ **Salzburg Hbf** (2h30,
+  direto). Classe *2 | Standard*, **€175,96**. Lugares **224A, 224B, 223A, 223B**.
+- **13:08 – 14:00**: **52 minutos em Salzburgo.** Almoço na estação ou 10 min a pé até à
+  ponte sobre o Salzach para ver a cidade velha. Esta folga é deliberada — como os dois
+  bilhetes são contratos independentes, é a única proteção contra um atraso.
+- **14:00 – 16:14**: **ICE 116**, Salzburg Hbf **cais 2** ➔ **Augsburg Hbf**. Direto, 2h14,
+  **€157,96** com reserva de lugares.
+- **16:20 – 16:40**: Táxi ou tram da estação até ao **Lexapartments Zentral 101m²**
+  (*Am Bogen 6, Augsburg*). **Check-in, largar as malas** e reunião com os 2 amigos vindos da
+  Alemanha. **Grupo completo de 6 a partir daqui.**
+- **16:40 – 16:55**: **Táxi pré-reservado** até à **Enterprise Rent-A-Car**
+  (*Aindlinger Str. 14*, ~5 km), ~€15–20. Vão só 1 ou 2 pessoas — os restantes ficam no
+  apartamento a desfazer as malas.
   - ⚠️ **Reservar o táxi por telefone na véspera.** Não confiar na praça de táxis.
   - ✅ **Reservado: levantamento às 17:00**, 7-Seater SUV automático (VW Touran ou similar),
     4 dias, **€427,58**. Devolução terça às 17:00 no *Mietwagenzentrum* do MUC.
@@ -363,13 +508,21 @@ preso àquele comboio e não se reembolsa. Fazer as malas na véspera resolve o 
     seguro e volta de inspeção de danos — em balcões pequenos isto demora. É por isso que a
     marcação é às **17:00** e não às 17:30: com o balcão a fechar às 18:00, meia hora mais
     tarde e o processo acabaria depois de fecharem.
-  - ✅ Chegada à agência ~16:50, **70 minutos de margem** antes das 18:00. Dá com folga.
-  - 📞 **Se o comboio se atrasar, telefonar de bordo para a Enterprise (+49 821 448360)** a
-    avisar. Um atraso superior a 60 min esgota a margem e obriga a levantar no sábado de manhã
-    (09:00–12:00), o que faz colapsar o Dia 4.
-- **17:20 – 17:40**: Check-in no **Lexapartments Zentral 101m²** (*Am Bogen 6, Augsburg*) e
-  reunião com os 2 amigos vindos da Alemanha. **Grupo completo de 6 a partir daqui.**
-  Largar as malas e sair — o resto da noite é **tudo a pé** e o carro não se volta a usar hoje.
+  - ✅ Com chegada a Augsburg às 16:14, há **1h45 de margem** antes das 18:00 — o plano
+    antigo tinha 70 minutos.
+- **17:45**: A carrinha estaciona ao pé do apartamento. **O resto da noite é tudo a pé** e o
+  carro não se volta a usar hoje.
+
+> **🆘 Se o ICE 116 se atrasar:** o bilhete é da DB, por isso os direitos de passageiro
+> aplicam-se e não se perde nada — mas telefonar à Enterprise de bordo: **+49 821 448360**.
+> Um atraso superior a ~1h30 esgota a margem e obriga a levantar o carro no sábado de manhã
+> (09:00–12:00), o que faz colapsar o Dia 4.
+>
+> **🆘 Se perderem o ICE 116 em Salzburgo** (só acontece com ~1h de atraso da Westbahn): a
+> ligação seguinte é o **RJX das 15:00**, que chega a Augsburg às **17:29** — tarde demais
+> para o levantamento. Nesse caso, telefonar imediatamente à Enterprise a partir do comboio e
+> tentar remarcar o levantamento para as 17:45, ou reorganizar o Dia 4 para levantar o carro
+> ao sábado às 09:00 e atrasar Neuschwanstein.
 
 #### Noite em Augsburg — tudo à distância de caminhada
 
@@ -702,7 +855,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 
 1. **Alojamento Viena (23 a 25 Set.) — 4 pessoas:**
    - *Central City Apartments* — Judengasse 11, 1010 Wien, Áustria
-   - Metro: Schwedenplatz (U1, U4) ou autocarro VAL 2 até Morzinplatz
+   - Metro: Schwedenplatz (U1, U4), a 300 m / 4 min a pé
 
 2. **Alojamento Alemanha (25 a 29 Set.) — 6 pessoas:**
    - *Lexapartments Zentral 101m²* — Am Bogen 6 (R/C), 86152 Augsburg, Alemanha
@@ -717,8 +870,9 @@ O centro histórico inteiro atravessa-se em 15 minutos.
      ilimitada · proteção de franquia €100 · **total €427,58** (≈ €71 por pessoa)
    - ⏰ **Porque é que o levantamento é às 17:00 e não mais tarde:** o balcão fecha às 18:00 e a
      entrega de uma carrinha leva **30 a 40 minutos** entre papelada, seguro e volta de
-     inspeção. Marcado para as 17:30, o processo acabaria depois de fecharem. O comboio chega
-     às 16:29 e o táxi deixa-vos lá por volta das 16:50 — há folga.
+     inspeção. Marcado para as 17:30, o processo acabaria depois de fecharem. Com o plano novo
+     o comboio chega às **16:14** e há **1h45 de margem** — dá para fazer check-in no
+     apartamento primeiro e só depois ir buscar o carro.
    - ⏰ **E porque é que a devolução é à mesma hora:** mantém o aluguer em **exatamente 4 dias**.
      Uma hora a mais podia disparar um 5.º dia de tarifa.
    - 🇦🇹 **Sem viagem à Áustria** — com a rota do Dia 4 invertida, o percurso é todo em estrada
