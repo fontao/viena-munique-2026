@@ -121,16 +121,18 @@ def hhmm(mins: int) -> str:
 
 
 #  Um bloco horário do itinerário. `- **10:30 – 12:05**: Condução pela B17`
-#  O travessão pode ser meio travessão ou hífen, e a hora pode vir aproximada
-#  (~02:30) ou com mínimo (≥1h), daí a tolerância no padrão.
+#  O intervalo separa-se por meio travessão ou hífen, e a hora pode vir
+#  aproximada (~02:30) ou com mínimo (≥1h), daí a tolerância no padrão.
 #
 #  O último grupo apanha os blocos em que não fica apenas a hora a negrito, mas
-#  a ordem toda, como `- **22:20 — sair da mesa. Não às 22:30.**`. Sem ele, o
-#  bloco mais importante do Dia 6 passava despercebido à verificação.
+#  a ordem toda, como `- **22:20, sair da mesa. Não às 22:30.**`. Sem ele, o
+#  bloco mais importante do Dia 6 passava despercebido à verificação. Aceita
+#  vírgula, dois pontos e ponto médio além do hífen, porque a regra da casa
+#  proibiu o travessão que ali estava e a pontuação de substituição varia.
 RE_BLOCO = re.compile(
     r"^-\s+\*\*[~≈]?(?P<ini>\d{1,2}:\d{2})"
     r"(?:\s*[–—-]\s*[~≈]?(?P<fim>\d{1,2}:\d{2}))?"
-    r"(?:\s*[–—-][^*]*)?"
+    r"(?:\s*[–—,:·-][^*]*)?"
     r"\*\*"
 )
 RE_DIA_MD = re.compile(r"^###\s+.*?Dia\s+(?P<n>\d)\s*:\s*(?P<resto>.+)$")
@@ -550,10 +552,30 @@ def check_marcadores(md: list[str]) -> Seccao:
     return s
 
 
+def check_linguagem(md: list[str], html: list[str]) -> Seccao:
+    """A regra 6 proíbe o travessão como pontuação. Ele reaparece sempre que
+    alguém cola texto de outro sítio, e ninguém dá por isso a ler. Aqui dá.
+
+    O meio travessão (–) fica de fora de propósito: é o que separa os
+    intervalos de horas, e esse é para manter."""
+    s = Seccao("linguagem", "Travessões, que a regra 6 não permite")
+    for ficheiro, linhas in (("itinerario_viagem.md", md), ("index.html", html)):
+        encontrados = [(i + 1, ln) for i, ln in enumerate(linhas) if "—" in ln]
+        for numero, ln in encontrados[:10]:
+            trecho = ln.strip()
+            recorte = trecho[:70] + ("…" if len(trecho) > 70 else "")
+            s.erro(f"{ficheiro}:{numero}", f"travessão em «{recorte}»")
+        if len(encontrados) > 10:
+            s.erro(ficheiro, f"e mais {len(encontrados) - 10} linhas com travessão.")
+        if not encontrados:
+            s.info(ficheiro, "sem travessões.")
+    return s
+
+
 # ---------------------------------------------------------------------- saída
 
 SECCOES = ["dias", "horarios", "precos", "pessoas", "prazos", "imagens", "mapa",
-           "armazenamento", "marcadores"]
+           "armazenamento", "marcadores", "linguagem"]
 
 
 def main() -> int:
@@ -588,6 +610,7 @@ def main() -> int:
         check_mapa(html),
         check_armazenamento(html),
         check_marcadores(md),
+        check_linguagem(md, html),
     ]
     if args.seccao:
         todas = [s for s in todas if s.nome in args.seccao]

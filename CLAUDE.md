@@ -88,6 +88,7 @@ python verificar.py                # coherence check across both documents
 python verificar.py --dia 4        # just day 4's timings
 python verificar.py --so-erros     # only what is broken
 python verificar.py --seccao pessoas precos
+python verificar.py --seccao linguagem   # em-dashes, which rule 6 forbids
 python verificar.py --listar       # list the check sections
 
 python meteo.py                    # matrix + hourly tables for every stop, to stdout

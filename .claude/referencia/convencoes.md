@@ -34,6 +34,17 @@ serve melhor uma vírgula, dois pontos, um parêntesis ou um ponto final.
 O meio travessão (–) continua a usar-se nos intervalos de horas, que é uma
 convenção tipográfica e não pontuação: `10:30 – 12:05`.
 
+**Isto é verificado, não é uma questão de memória.** `python verificar.py --seccao
+linguagem` dá **erro** em qualquer travessão longo que apareça nos dois documentos,
+e o `verificar.py` sai com código 1. O travessão volta sempre que alguém cola texto
+vindo de fora, e a leitura não o apanha.
+
+⚠️ **Ao substituir travessões em massa, reler o resultado.** Uma vírgula no sítio de
+um travessão dá com frequência uma frase agramatical ou uma sequência ilegível de
+vírgulas, sobretudo em cabeçalhos, em células de tabela (`| — |`) e onde a frase já
+tinha dois pontos. Também parte os padrões do `verificar.py` que contavam com o
+travessão, como o `RE_BLOCO`, que hoje aceita `,`, `:` e `·` por causa disso.
+
 ## Datas, horas e dinheiro
 
 | Coisa | Forma | Exemplo |
