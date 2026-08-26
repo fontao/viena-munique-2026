@@ -43,7 +43,7 @@ Vive dentro de `<div class="timeline-stream">`, no painel do dia respetivo.
         </div>
 
         <div class="timeline-img-wrapper enlargeable">
-            <img src="img/ficheiro.jpg" alt="Descrição">
+            <img src="img/ficheiro.webp" alt="Descrição">
             <div class="timeline-img-overlay"><span>Legenda</span><i class="fa-solid fa-expand"></i></div>
         </div>
     </div>
@@ -138,7 +138,7 @@ O painel abre com o cartaz do dia:
 
 ```html
 <div class="day-hero-banner glass-panel">
-    <img src="img/foto.jpg" alt="Alt" class="enlargeable">
+    <img src="img/foto.webp" alt="Alt" class="enlargeable">
     <div class="day-banner-content">
         <span class="day-banner-tag">SÁB 26 SETEMBRO • DIA 4</span>
         <h3 class="day-banner-title">Título do dia</h3>
@@ -160,7 +160,7 @@ Entrada no array `locations`, por volta da linha 3819.
 
 ```js
 { name: "Nome do sítio", city: "munich", iconType: "castle", coords: [48.1582, 11.5036],
-  desc: "Uma ou duas frases.", img: "img/foto.jpg" },
+  desc: "Uma ou duas frases.", img: "img/foto.webp" },
 ```
 
 **`iconType` só pode ser um destes dez**, que são os que o `getMarkerMeta()` sabe
@@ -179,6 +179,34 @@ assim que alguém filtrar.
 **As coordenadas vêm do `osm` MCP** (`geocode`), nunca de memória nem de um
 blogue. Latitude primeiro. O `verificar.py` rejeita qualquer par que caia fora da
 caixa da viagem, que é o que apanha uma latitude trocada com a longitude.
+
+## As fotografias em `img/`
+
+**WebP, 1600 px de largura, qualidade 86.** Uma fotografia nova entra assim, senão
+a página volta a engordar sem ninguém dar por isso.
+
+A largura não é arbitrária. É a maior que a página chega a mostrar: a caixa de
+conteúdo tem 1240 px e o lightbox tem `max-width: 92vw`, que num telemóvel a DPR 3
+dá 1076 px físicos. Guardar 1920 era pagar 44% mais bytes por pixéis que só se
+veem numa janela de desktop com mais de ~1740 px, e aí a diferença é uma ampliação
+de 10% que ninguém distingue.
+
+O formato também foi medido, não escolhido por moda: a 1600 px, o WebP a 86 dá
+ficheiros mais pequenos **e** PSNR mais alto do que o JPEG a 85 nas vinte
+fotografias, sem uma única exceção.
+
+```python
+im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS).save(
+    destino, "WEBP", quality=86, method=6, icc_profile=im.info.get("icc_profile"))
+```
+
+⚠️ **A extensão aparece em três sítios**, e esquecer um deixa a foto partida sem
+erro nenhum: o `src` do `<img>`, o campo `img:` do marcador no mapa, e a regra CSS
+`.hero-bg-overlay`, que é a única referência que não é um `<img>` e por isso escapa
+a qualquer procura por `src=`. O `verificar.py --seccao imagens` conta as três.
+
+E **não confundir com os `.jpg` da tabela de créditos**: esses são os nomes dos
+ficheiros originais no Wikimedia Commons, ficam como estão.
 
 ## Persistência
 

@@ -575,12 +575,17 @@ def check_imagens(html: list[str]) -> Seccao:
     #  marcadores do mapa trazem-nas em `img:` dentro do array de localizações,
     #  e uma imagem apagada deixava lá a referência partida sem ninguém dar por
     #  isso: o popup só rebenta quando alguém carrega no pin certo.
-    #  Os dois contextos contam-se em separado de propósito. A mesma fotografia
+    #  A terceira é a mais fácil de esquecer: o fundo do cabeçalho vem de uma
+    #  regra CSS, `url('img/...')`, e não de um `<img>`. Não tem `src`, não tem
+    #  `alt`, e escapa a qualquer procura pelas outras duas. Reapareceu quando as
+    #  fotografias passaram de .jpg a .webp e só esta ficou por mudar.
+    #  Os contextos contam-se em separado de propósito. A mesma fotografia
     #  no banner de um dia e no popup do pin desse mesmo sítio não é repetição,
     #  é o mesmo lugar visto em dois sítios da página. Repetição a sério é a
     #  mesma fotografia em dois pontos *diferentes*.
     contextos = {"na página": re.compile(r'src="(img/[^"]+)"'),
-                 "em pins do mapa": re.compile(r'img:\s*"(img/[^"]+)"')}
+                 "em pins do mapa": re.compile(r'img:\s*"(img/[^"]+)"'),
+                 "em CSS": re.compile(r"url\(['\"]?(img/[^'\")]+)")}
     vistas: set[str] = set()
     usos: dict[str, dict[str, int]] = {k: defaultdict(int) for k in contextos}
     for i, ln in enumerate(html):
@@ -605,7 +610,9 @@ def check_imagens(html: list[str]) -> Seccao:
                         f"{rel} aparece {n} vezes {nome}; são sítios diferentes a mostrar a mesma foto?")
     if vistas:
         s.info("index.html", f"{len(vistas)} imagens: "
-                             f"{len(usos['na página'])} na página, {len(usos['em pins do mapa'])} em pins.")
+                             f"{len(usos['na página'])} na página, "
+                             f"{len(usos['em pins do mapa'])} em pins, "
+                             f"{len(usos['em CSS'])} em CSS.")
     return s
 
 

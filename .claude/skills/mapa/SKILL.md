@@ -12,7 +12,7 @@ volta da linha 3819.
 
 ```js
 { name: "Palácio de Nymphenburg", city: "munich", iconType: "castle",
-  coords: [48.1582, 11.5036], desc: "Uma ou duas frases.", img: "img/nymphenburg_palace.jpg" },
+  coords: [48.1582, 11.5036], desc: "Uma ou duas frases.", img: "img/nymphenburg_palace.webp" },
 ```
 
 ## Coordenadas
