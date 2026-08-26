@@ -1885,6 +1885,13 @@
             .timeline-img-wrapper { max-height: 180px; }
             .timeline-img-wrapper img { height: 180px; }
         }
+        .credits-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+        .credits-table th, .credits-table td { text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--border-soft); }
+        .credits-table th { color: var(--text-dim); font-weight: 600; white-space: nowrap; }
+        .credits-table td:first-child { color: var(--text-main); }
+        .credits-table td { color: var(--text-soft); }
+        .credits-table a { color: var(--accent-blue); text-decoration: underline; }
+
     </style>
 </head>
 <body>
@@ -2149,10 +2156,6 @@
                             </div>
                             <h4 class="node-title">Partida de Lisboa (LIS) ➔ Viena (VIE)</h4>
                             <p class="node-text">Encontro no Terminal 1 do Aeroporto Humberto Delgado em Lisboa às 06:15. Voo direto TAP TP 1270 com destino a Viena (3h 30m). Chegada ao meio-dia a Viena.</p>
-                            <div class="timeline-img-wrapper enlargeable">
-                                <img src="img/lisbon_airport.jpg" alt="Aeroporto de Lisboa">
-                                <div class="timeline-img-overlay"><span>Aeroporto Humberto Delgado Lisboa (LIS)</span><i class="fa-solid fa-expand"></i></div>
-                            </div>
                             <div class="node-actions">
                                 <a href="https://www.google.com/maps/search/?api=1&query=Aeroporto%20Humberto%20Delgado%2C%20Lisboa" target="_blank" class="btn-action-sm maps"><i class="fa-solid fa-location-arrow"></i> Aeroporto de Lisboa</a>
                             </div>
@@ -2253,7 +2256,7 @@
                                 <div><strong>Se preferirem um copo sentado com serviço:</strong> <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Motto%20am%20Fluss%2C%20Franz-Josefs-Kai%202%2C%201010%20Wien">Motto am Fluss</a></strong> (o barco em Schwedenplatz, bar 18:00–24:00, <strong>2 min</strong>) ou <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Badeschiff%2C%20Franz-Josefs-Kai%206a%2C%201010%20Wien">Badeschiff</a></strong> (piscina-barco, 11:00–01:00, <strong>10 min</strong>).</div>
                             </div>
                             <div class="timeline-img-wrapper enlargeable">
-                                <img src="img/donaukanal_vienna_1786477802836.jpg" alt="Donaukanal Viena">
+                                <img src="img/donaukanal_vienna_1786477802836.jpg" alt="Strandbar Herrmann, no Canal do Danúbio">
                                 <div class="timeline-img-overlay"><span>Donaukanal, pôr do sol às 18:49</span><i class="fa-solid fa-expand"></i></div>
                             </div>
                         </div>
@@ -2327,7 +2330,7 @@
             <!-- ================= DAY 2 CONTENT ================= -->
             <div class="day-view-container" id="day-view-2">
                 <div class="day-hero-banner glass-panel">
-                    <img src="img/schonbrunn_palace_1786477746840.jpg" alt="Schonbrunn Palace" class="enlargeable">
+                    <img src="img/schonbrunn_palace_1786477746840.jpg" alt="Schönbrunn visto da Gloriette" class="enlargeable">
                     <div class="day-banner-content">
                         <span class="day-banner-tag">QUI 24 SETEMBRO • DIA 2</span>
                         <h3 class="day-banner-title">Palácio Schönbrunn, Prater & Rooftop Das Loft</h3>
@@ -2454,7 +2457,7 @@
             <!-- ================= DAY 3 CONTENT ================= -->
             <div class="day-view-container" id="day-view-3">
                 <div class="day-hero-banner glass-panel">
-                    <img src="img/ice_train_austria.jpg" alt="Comboio ICE nos Alpes" class="enlargeable">
+                    <img src="img/ice_train_austria.jpg" alt="Carruagem da Westbahn em Viena" class="enlargeable">
                     <div class="day-banner-content">
                         <span class="day-banner-tag">SEX 25 SETEMBRO • DIA 3</span>
                         <h3 class="day-banner-title">Viena ➔ Salzburgo ➔ Augsburg, Carro & Noite na Cidade Velha</h3>
@@ -2856,7 +2859,7 @@
             <!-- ================= DAY 6 CONTENT ================= -->
             <div class="day-view-container" id="day-view-6">
                 <div class="day-hero-banner glass-panel">
-                    <img src="img/munich_oktoberfest_1786477260028.jpg" alt="Oktoberfest" class="enlargeable">
+                    <img src="img/munich_oktoberfest_1786477260028.jpg" alt="Interior da tenda Hacker-Pschorr na Oktoberfest" class="enlargeable">
                     <div class="day-banner-content">
                         <span class="day-banner-tag" style="background: var(--gradient-oktober);">SEG 28 SETEMBRO • DIA 6</span>
                         <h3 class="day-banner-title">Centro de Munique, Surf no Rio & OKTOBERFEST! 🍺</h3>
@@ -3727,6 +3730,46 @@
 
     </main>
 
+    <!-- Créditos das fotografias: as licenças CC BY e CC BY-SA obrigam a
+         nomear autor e licença. Não é rodapé decorativo, é uma condição de uso. -->
+    <section class="section-block" id="creditos">
+        <div class="section-head">
+            <span class="section-tag" style="color: var(--text-dim);"><i class="fa-solid fa-camera"></i> Fotografias</span>
+            <h2 class="section-heading">Créditos das imagens</h2>
+            <p class="section-desc">As 20 fotografias deste guia são reais e vêm do <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a>, com licença livre. As licenças CC BY e CC BY-SA obrigam a creditar o autor, e é o que esta tabela faz.</p>
+        </div>
+        <div style="overflow-x: auto;">
+            <table class="credits-table">
+                <thead>
+                    <tr><th>O que mostra</th><th>Autor</th><th>Licença</th><th>Original</th></tr>
+                </thead>
+                <tbody>
+                        <tr><td>Aeroporto de Munique</td><td>Citizen59</td><td><a href="https://creativecommons.org/licenses/by/3.0/deed.pt" target="_blank" rel="noopener">CC BY 3.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:MunichAirport2010.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Aeroporto de Viena, Terminal 3</td><td>Arne Müseler</td><td><a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.pt" target="_blank" rel="noopener">CC BY-SA 3.0 de</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Vienna_airport_terminal_3.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Allianz Arena</td><td>The original uploader was Muenchner2006 at Chinese Wikipedia.</td><td><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 3.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:AllianzArena_outskirts_2006.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>BMW Welt e a Torre BMW</td><td>Richard Bartz</td><td><a href="https://creativecommons.org/licenses/by-sa/2.5/deed.pt" target="_blank" rel="noopener">CC BY-SA 2.5</a></td><td><a href="https://commons.wikimedia.org/wiki/File:BMW_Welt_Night.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Carruagem da Westbahn, em Viena</td><td>Isiwal</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Westbahn_4110_Bahnhof_Wien_Meidling-9018.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Castelo de Hohenschwangau sobre o Alpsee</td><td>Llez</td><td><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 3.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Alpsee_-_Hohenschwangau_Castle_01.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Fachadas pintadas de Oberammergau</td><td>Diego Delso</td><td><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 3.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Oberammergau,_Baviera,_Alemania,_2014-03-22,_DD_27.JPG" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Interior da tenda Hacker-Pschorr, Oktoberfest</td><td>kallerna</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Theresienwiese_Hacker-Festzelt_Oktoberfest_2025.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Lago Eibsee e a Zugspitze</td><td>Sameed Tehami</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Lake_Eibsee_and_Zugspitze.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Marienplatz e o Neues Rathaus</td><td>Diliff</td><td><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 3.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Rathaus_and_Marienplatz_from_Peterskirche_-_August_2006.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Neuschwanstein desde a Marienbrücke</td><td>Wilfredor</td><td><a href="https://creativecommons.org/publicdomain/zero/1.0/deed.pt" target="_blank" rel="noopener">CC0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Neuschwanstein_Castle_2024-02.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Palácio de Nymphenburg e o canal</td><td>Diego Delso</td><td><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 3.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Exterior_del_Palacio_de_Nymphenburg,_M%C3%BAnich,_Alemania61.JPG" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Plönlein, em Rothenburg ob der Tauber</td><td>Diego Delso</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Pl%C3%B6nlein,_Rothenburg_ob_der_Tauber,_Alemania,_2023-06-17,_DD_36.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Rathausplatz de Augsburg, com o Perlachturm</td><td>Gerd Eichmann</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Augsburg-Perlachturm-Rathaus-02-gje.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Riesenrad, no Prater</td><td>Dietmar Rabich</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Wien,_Prater,_Riesenrad_--_2018_--_3165.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Schönbrunn visto da Gloriette</td><td>C.Stadler/Bwag</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Sch%C3%B6nbrunn.JPG" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Stephansdom e o telhado de azulejos</td><td>C.Stadler/Bwag</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Wien_-_Stephansdom_(1).JPG" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Strandbar Herrmann, no Canal do Danúbio</td><td>Minestrone</td><td><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 3.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Strandbar_Herrmann_2.JPG" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Viktualienmarkt e o Maibaum</td><td>Strubbl</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Viktualienmarkt_M%C3%BCnchen_mit_Maibaum_2022-11-12.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                        <tr><td>Weinmarkt, em Dinkelsbühl</td><td>Johannes Robalotoff</td><td><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt" target="_blank" rel="noopener">CC BY-SA 4.0</a></td><td><a href="https://commons.wikimedia.org/wiki/File:Weinmarkt-Dinkelsbuehl-JR-T20-7395-2024-08-26.jpg" target="_blank" rel="noopener">Commons</a></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
     <!-- Footer -->
     <footer class="site-footer">
         <div class="footer-flags">🇦🇹 🇩🇪 🇵🇹</div>
@@ -3739,6 +3782,7 @@
             <a href="#gastronomy">Gastronomia</a>
             <a href="#phrasebook">Frases</a>
             <a href="#logistics">Logística</a>
+            <a href="#creditos">Fotografias</a>
         </div>
         <p style="font-size: 0.78rem; color: var(--text-dim); margin-top: 0.8rem;">Feito com ❤️ para o melhor grupo de sempre.</p>
     </footer>
@@ -3869,7 +3913,7 @@
         // ================= 4. INTRICATE LEAFLET INTERACTIVE MAP =================
         const mapLocations = [
             // Lisbon
-            { name: "Aeroporto Humberto Delgado (LIS)", city: "lisbon", iconType: "plane", coords: [38.7742, -9.1342], desc: "Partida do voo TAP TP 1270 às 08:05 e chegada no regresso TP 555 às 22:25.", img: "img/lisbon_airport.jpg" },
+            { name: "Aeroporto Humberto Delgado (LIS)", city: "lisbon", iconType: "plane", coords: [38.7742, -9.1342], desc: "Partida do voo TAP TP 1270 às 08:05 e chegada no regresso TP 555 às 22:25." },
 
             // Vienna
             { name: "Aeroporto de Viena Schwechat (VIE)", city: "vienna", iconType: "plane", coords: [48.1103, 16.5697], desc: "Chegada do voo TAP TP 1270 às 12:35. Railjet das 13:33 até Wien Hbf + U1 até Schwedenplatz, €5,50/pessoa no mesmo bilhete.", img: "img/vienna_airport.jpg" },
