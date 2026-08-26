@@ -571,19 +571,41 @@ def check_prazos(md: list[str], hoje: date) -> Seccao:
 def check_imagens(html: list[str]) -> Seccao:
     """Uma imagem em falta só se vê ao abrir a página, e ninguém abre as sete."""
     s = Seccao("imagens", "Imagens referidas que existem em disco")
-    padrao = re.compile(r'src="(img/[^"]+)"')
+    #  Dois sítios referem imagens, e durante muito tempo isto só via um. Os
+    #  marcadores do mapa trazem-nas em `img:` dentro do array de localizações,
+    #  e uma imagem apagada deixava lá a referência partida sem ninguém dar por
+    #  isso: o popup só rebenta quando alguém carrega no pin certo.
+    #  Os dois contextos contam-se em separado de propósito. A mesma fotografia
+    #  no banner de um dia e no popup do pin desse mesmo sítio não é repetição,
+    #  é o mesmo lugar visto em dois sítios da página. Repetição a sério é a
+    #  mesma fotografia em dois pontos *diferentes*.
+    contextos = {"na página": re.compile(r'src="(img/[^"]+)"'),
+                 "em pins do mapa": re.compile(r'img:\s*"(img/[^"]+)"')}
     vistas: set[str] = set()
+    usos: dict[str, dict[str, int]] = {k: defaultdict(int) for k in contextos}
     for i, ln in enumerate(html):
-        for m in padrao.finditer(ln):
-            rel = m.group(1)
-            vistas.add(rel)
-            if not (RAIZ / rel).exists():
-                s.erro(f"index.html:{i + 1}", f"{rel} não existe em disco.")
+        for nome, padrao in contextos.items():
+            for m in padrao.finditer(ln):
+                rel = m.group(1)
+                vistas.add(rel)
+                usos[nome][rel] += 1
+                if not (RAIZ / rel).exists():
+                    s.erro(f"index.html:{i + 1}", f"{rel} não existe em disco.")
     em_disco = {f"img/{p.name}" for p in (RAIZ / "img").glob("*") if p.is_file()}
     for orfa in sorted(em_disco - vistas):
-        s.info("img/", f"{orfa} está no repositório mas não é usada.")
+        s.aviso("img/", f"{orfa} está no repositório mas não é usada.")
+    #  Dois pontos diferentes com a mesma fotografia querem dizer que um deles
+    #  mostra outra coisa. Foi assim que o popup do restaurante e o do clube
+    #  noturno acabaram ambos com a fotografia do canal do Danúbio, e que a
+    #  Fuggerei ficou a mostrar a praça da câmara de Augsburg.
+    for nome in contextos:
+        for rel, n in sorted(usos[nome].items()):
+            if n > 1:
+                s.aviso("index.html",
+                        f"{rel} aparece {n} vezes {nome}; são sítios diferentes a mostrar a mesma foto?")
     if vistas:
-        s.info("index.html", f"{len(vistas)} imagens referidas.")
+        s.info("index.html", f"{len(vistas)} imagens: "
+                             f"{len(usos['na página'])} na página, {len(usos['em pins do mapa'])} em pins.")
     return s
 
 
