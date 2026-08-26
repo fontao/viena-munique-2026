@@ -58,7 +58,7 @@ Financeiramente a decisão não custa nada, custa até menos. Uma reserva é sem
 inteira, 8 a 10 lugares**, nunca lugares soltos, e vocês são 6. A reserva em si é gratuita,
 mas paga-se adiantado em vouchers de consumo: a oktoberfest.de dá uma **média de ~€350 por
 mesa**, e nas tendas mais procuradas os €42 a €55 por lugar levam isso aos **€420 a €550**.
-Dividido por 6, são **€58 a €92 a cada um**, a beber e a comer o consumo de 8 a 10 pessoas.
+Dividido por 6, são **€58 a €92 a cada um**, a beber e a comer o consumo de oito a dez lugares.
 Sem reserva paga-se o que se consome, à volta de **⚠️ €60 a €80 por pessoa** (3 *Maß* mais
 meio *Hendl*).
 
@@ -157,7 +157,8 @@ Salzburgo, o mesmo trajeto ficou por **€333,92** e chega à mesma hora. **Poup
 
 **B) ✅ DB · Salzburg Hbf ➔ Augsburg Hbf · €157,96**
 - **ICE 116, 14:00 ➔ 16:14**, **direto, sem mudanças**. Sai do **cais 2** em Salzburgo.
-- Bilhete *Super Sparpreis* **€135,96** + **reserva de lugares €22,00** (€5,50/pessoa).
+- Bilhete *Super Sparpreis* **€135,96** + **reserva de lugares €22,00** (€5,50/pessoa), o que
+  dá **€39,49 por pessoa**.
 - Preço idêntico na ÖBB e na DB, comprado na DB (*DB Fernverkehr AG*).
 - 🚫 **Não é o das 14:04** (€243,96, com mudança em Munique). E das partidas dessa janela, o
   ICE 116 é o único **sem** o aviso *"ticket valid for section of the journey only"*: os das
@@ -249,7 +250,8 @@ com a rota do Dia 4 invertida também não é preciso comprar a vinheta austría
 ## ⚠️ Mudanças de 2026 que alteram o plano original
 
 **Transportes de Viena: os passes de 48h e 72h foram descontinuados** a 1 de janeiro de
-2026. Só existem: bilhete simples **€3,20** (€3,00 na app), **24h €10,20** e 7 dias €28,90.
+2026. Só existem: bilhete simples **€3,20** (€3,00 na app), **24h €10,20** e um de 7 dias que
+❌ **não serve para nada aqui**, porque só há três dias em Viena.
 Um único bilhete de 24h ativado na manhã do Dia 2 cobre Schönbrunn + Prater + a ida à
 estação no Dia 3, é a opção mais barata para o grupo.
 
@@ -794,7 +796,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > acontece de dia, é a ronda do vigia noturno, de lanterna e alabarda, pelas ruas às escuras.
 > **Em inglês, todos os dias às 20:00**, de abril a dezembro, partida do chafariz da Marktplatz
 > (~1h, **€9 por pessoa em inglês, só dinheiro**, sem reserva, basta aparecer). ⚠️ A ronda em
-> inglês costuma juntar **mais de 100 pessoas**, por isso convém estar no Rathaus uns minutos
+> inglês costuma juntar **mais de uma centena de pessoas**, por isso convém estar no Rathaus uns minutos
 > antes das 20:00, senão fica-se atrás e não se ouve nada. Detalhe que vale a pena
 > saber: **2026 é o último ano do vigia histórico Hans Georg Baumgartner**, que se reforma a 31
 > de outubro depois de décadas a fazer a ronda. Implica regressar a Augsburg por volta das
@@ -1049,7 +1051,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
       viatura entregue tiver a terceira fila em **banco corrido de três lugares**, não se
       rebate metade, e com alguém sentado lá atrás a bagageira volta aos ~137 litros, que não
       chegam. **Perguntar isto na entrega** e, se for o caso, pedir a troca de categoria.
-      *(Com 7 pessoas isto era o risco n.º 1 da viagem e obrigava a uma carrinha de 9 lugares.
+      *(Com sete pessoas isto era o risco n.º 1 da viagem e obrigava a uma carrinha de 9 lugares.
       Com 6, deixa de ser.)*
 - [x] ~~🔴 **Decidir até 27 de agosto qual é o caminho da Oktoberfest.**~~ **DECIDIDO: sem mesa
       reservada, a andar entre tendas.** O prazo de 27 de agosto deixou de existir. O Dia 6 foi

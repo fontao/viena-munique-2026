@@ -140,6 +140,19 @@ RE_ACORDAR = re.compile(r"Acordar\s+[~≈]?(?P<acordar>\d{1,2}:\d{2})")
 RE_SAIR = re.compile(r"Sair\s+[~≈]?(?P<sair>\d{1,2}:\d{2})")
 RE_DINHEIRO = re.compile(r"€\s?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?)")
 
+#  Início de um item de lista ou de uma linha de tabela. Serve para saber onde
+#  acaba um item e começa o seguinte, quando um item ocupa várias linhas e a
+#  marca que interessa ficou só na primeira.
+RE_ITEM = re.compile(r"^\s*(?:[-*+]\s|\d+\.\s|\|)")
+
+#  Pistas de que os números de um item são a decomposição de um total, e não
+#  preços soltos: «total €427,58», «os €5,50 decompõem-se em €2,30 + €3,20».
+#  Deliberadamente restrito a palavras que anunciam um total. Aceitar o «+» ou o
+#  «=» sozinhos parecia natural e é demasiado: quase todas as linhas de preço
+#  deste dossiê somam alguma coisa, e a verificação de preços emudeceu por
+#  completo quando os incluí.
+RE_DECOMPOSICAO = re.compile(r"\btotal\b|\bdecomp|\bdividido\b|\bsoma", re.IGNORECASE)
+
 #  «daqui a duas semanas», «faltam ~6 semanas». Contagens ancoradas no dia em que
 #  alguém as escreveu, que passam a mentir no dia seguinte.
 RE_RELATIVA = re.compile(
@@ -348,25 +361,59 @@ def check_precos(md: list[str], html: list[str]) -> Seccao:
     """Um preço que só existe num dos ficheiros é quase sempre um preço por atualizar."""
     s = Seccao("precos", "Preços presentes num ficheiro e ausentes no outro")
 
-    def recolher(linhas: list[str]) -> dict[str, list[int]]:
+    def blocos_de(linhas: list[str]) -> list[int]:
+        """Dá a cada linha o número do item ou parágrafo a que pertence.
+
+        Um item de lista que ocupa quatro linhas é uma unidade só: é lá que vive
+        «4 dias a €81,89 ... total €427,58», com o total três linhas abaixo da
+        parcela.
+        """
+        ids, atual = [], 0
+        for ln in linhas:
+            if not ln.strip() or RE_ITEM.match(ln):
+                atual += 1
+            ids.append(atual)
+        return ids
+
+    def recolher(linhas: list[str]) -> tuple[dict[str, list[int]], dict[str, set[int]], set[int]]:
         achados: dict[str, list[int]] = defaultdict(list)
+        onde: dict[str, set[int]] = defaultdict(set)
         fora = descartadas(linhas)
+        ids = blocos_de(linhas)
+        com_pista: set[int] = set()
         for i, ln in enumerate(linhas):
+            if RE_DECOMPOSICAO.search(ln):
+                com_pista.add(ids[i])
             if fora[i]:
                 continue
             for m in RE_DINHEIRO.finditer(ln):
                 achados[m.group(1)].append(i + 1)
-        return achados
+                onde[m.group(1)].add(ids[i])
+        return achados, onde, com_pista
 
-    a, b = recolher(md), recolher(html)
+    (a, onde_a, pista_a), (b, onde_b, pista_b) = recolher(md), recolher(html)
+    comuns = set(a) & set(b)
+
+    def e_parcela(v: str, onde: dict[str, set[int]], pista: set[int]) -> bool:
+        """Um valor que partilha um item com um total que os dois ficheiros já
+        têm é uma parcela desse total, não um preço órfão. É o caso da diária do
+        carro ao lado do total, e das duas metades da tarifa do aeroporto."""
+        for bloco in onde[v]:
+            if bloco not in pista:
+                continue
+            if any(bloco in onde[outro] for outro in comuns):
+                return True
+        return False
 
     #  Valores de um só dígito são preços de gelado, portagens e bilhetes de
     #  elétrico espalhados pelo texto, e não vale a pena exigir simetria neles.
     def relevante(v: str) -> bool:
         return len(v.replace(".", "").replace(",", "")) >= 3
 
-    so_md = sorted(v for v in a if v not in b and relevante(v))
-    so_html = sorted(v for v in b if v not in a and relevante(v))
+    so_md = sorted(v for v in a if v not in b and relevante(v)
+                   and not e_parcela(v, onde_a, pista_a))
+    so_html = sorted(v for v in b if v not in a and relevante(v)
+                     and not e_parcela(v, onde_b, pista_b))
 
     for v in so_md:
         s.aviso(f"itinerario_viagem.md:{a[v][0]}", f"€{v} não aparece em index.html.")
@@ -444,14 +491,29 @@ def check_prazos(md: list[str], hoje: date) -> Seccao:
     #  Onde vivem os prazos: a tabela do topo, o hub de bilhetes, e a checklist
     #  final, que também tem datas por cumprir e que ficava de fora.
     seccoes_com_prazos = ("Prazos Críticos", "Hub de Bilhetes", "Confirmar Antes de Fechar")
+    #  Uma data dentro de um aviso sobre uma opção descartada não é um prazo do
+    #  grupo: é a data de uma coisa que se decidiu não fazer. A marca costuma
+    #  estar na primeira linha da citação, daí reaproveitar o mesmo arrasto que
+    #  os preços já usavam.
+    fora = descartadas(md)
     dentro_do_hub = False
+    tratada = False
     for i, ln in enumerate(md):
         if ln.startswith("## "):
             dentro_do_hub = any(x in ln for x in seccoes_com_prazos)
-        if not dentro_do_hub:
+        if not dentro_do_hub or fora[i]:
             continue
-        #  Um prazo riscado ou marcado como comprado já não é um prazo.
+        #  Um prazo riscado ou marcado como comprado já não é um prazo. O estado
+        #  arrasta-se pelas linhas de continuação do mesmo item, porque a marca
+        #  fica na primeira linha e a data costuma estar duas linhas abaixo,
+        #  onde já não há «~~» nenhum para a proteger.
+        if RE_ITEM.match(ln):
+            tratada = False
+        elif not ln.strip():
+            tratada = False
         if "~~" in ln or "✅" in ln or "COMPRADO" in ln.upper():
+            tratada = True
+        if tratada:
             continue
         for m in padrao.finditer(ln):
             dia_n, mes_nome = int(m.group(1)), m.group(2).lower()

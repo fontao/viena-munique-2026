@@ -39,6 +39,23 @@ linguagem` dá **erro** em qualquer travessão longo que apareça nos dois docum
 e o `verificar.py` sai com código 1. O travessão volta sempre que alguém cola texto
 vindo de fora, e a leitura não o apanha.
 
+### O que conta como aviso, e porque é que devem ser poucos
+
+Um `verificar.py` com dezasseis avisos permanentes não é um verificador, é ruído: ninguém os
+lê e o aviso verdadeiro passa despercebido no meio deles. **A regra é que todo o aviso ou se
+corrige, ou se explica ao verificador.** Três mecanismos, por ordem de preferência:
+
+1. **Corrigir o documento.** Se um preço só existe num ficheiro, quase sempre falta mesmo no
+   outro. Foi o caso do `€39,49/pessoa` do ICE 116 e do `€3,00` do bilhete na app.
+2. **Escrever de outra maneira.** É o caso dos algarismos acima, e do bilhete de 7 dias de
+   Viena, que agora diz `❌ não serve` em vez de mostrar um preço que nunca se paga.
+3. **Ensinar o verificador**, quando o padrão é legítimo e se repete. Já sabe que um preço
+   dentro de uma opção descartada não precisa de par, que um item riscado não é um prazo, e
+   que uma parcela ao lado de um total que os dois ficheiros partilham não é um preço órfão.
+
+O único aviso que fica de pé de propósito é o **Dia 1 ter 20h15 de programa seguido**. É
+verdade, é o dia de chegada, e é uma coisa que vale a pena voltar a ver a cada revisão.
+
 ⚠️ **Ao substituir travessões em massa, reler o resultado.** Uma vírgula no sítio de
 um travessão dá com frequência uma frase agramatical ou uma sequência ilegível de
 vírgulas, sobretudo em cabeçalhos, em células de tabela (`| — |`) e onde a frase já
@@ -93,6 +110,23 @@ Consequências práticas, todas já erradas alguma vez neste dossiê:
   a anunciar sete viajantes.
 - A carrinha é de **7 lugares** para 6 pessoas. É o único «7» legítimo do dossiê, e
   é precisamente aí que o erro se esconde.
+
+### Algarismos são para bilhetes, o resto escreve-se por extenso
+
+**`4 pax`, `6 pessoas`, `5 pax + 1 pax`: algarismo seguido de `pax`/`pessoas` fica
+reservado para dizer quantos viajantes um bilhete cobre.** Qualquer outra quantidade de
+gente escreve-se por extenso: «mais de uma centena de pessoas» na ronda do vigia noturno,
+«o consumo de oito a dez lugares» numa mesa da Oktoberfest, «com sete pessoas isto era o
+risco n.º 1» a falar do plano antigo.
+
+Não é preciosismo. O `verificar.py` assinala todo o `N pessoas` com N maior que 6, porque é
+assim que o plano de sete viajantes reaparece. Se as lotações e as notas históricas usarem
+algarismos, a verificação passa a ter quatro avisos permanentes que ninguém lê, e o aviso a
+sério perde-se no meio. Com esta regra, **um algarismo grande ao lado de `pessoas` é sempre
+uma coisa a corrigir.**
+
+⚠️ A recíproca também vale: **uma linha de bilhete que escreva o número por extenso é
+suspeita**, porque foge à verificação. Bilhetes, sempre em algarismos.
 
 ## Voz
 
