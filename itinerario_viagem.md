@@ -3,9 +3,10 @@
 **Datas:** 23 a 29 de Setembro de 2026 (7 Dias / 6 Noites)
 **Viajantes:** 6 amigos · **4 partem de Lisboa** (Viena, dias 1 a 3) + **2 juntam-se em Augsburg** (dia 3)
 **Voos Oficiais:** TAP Air Portugal (TP 1270 LIS ➔ VIE / TP 555 MUC ➔ LIS)
-**Revisto em:** 26 de agosto de 2026 (4.ª revisão: auditoria de ponta a ponta com segunda
-opinião do Gemini, tempos de condução medidos no OSRM e preços reconfirmados em fonte
-primária)
+**Revisto em:** 26 de agosto de 2026 (5.ª revisão: **decidido ir à Oktoberfest sem mesa
+reservada**, o que reconstruiu o Dia 6 e cancelou o prazo de 27 de agosto. Antes disso, na
+4.ª: auditoria de ponta a ponta com segunda opinião do Gemini, tempos medidos no OSRM e preços
+reconfirmados em fonte primária)
 
 > ⚠️ **Atenção ao número de pessoas em cada bilhete.** Tudo o que é em Viena (transfers,
 > comboio para Augsburg, Schönbrunn, Riesenrad, Stephansdom) é para **4 pessoas**. Só a
@@ -18,7 +19,7 @@ primária)
 | Prioridade | O quê | Porquê agora | Onde |
 |---|---|---|---|
 | 🔴 **1** | **Neuschwanstein** (6 pax) | A janela de reserva é de 2 meses e **já está aberta**. É um sábado em plena Oktoberfest: esgota. | [shop.ticket-center-hohenschwangau.de](https://shop.ticket-center-hohenschwangau.de) |
-| 🔴 **2** | **Mesa na Oktoberfest** (mesa de 8–10) | ⚠️ **As candidaturas diretas às tendas já fecharam** (abrem entre dezembro e junho). Só resta o portal oficial de revenda, e a compra abre a **27 de agosto**. | [oktoberfest-booking.com](https://www.oktoberfest-booking.com/en) |
+| ✅ ~~2~~ | ~~**Mesa na Oktoberfest**~~ | **DECIDIDO: não se reserva mesa.** Vai-se sem reserva, a andar entre tendas. **O prazo de 27 de agosto deixa de existir**, e o Dia 6 muda de forma por causa disso. Ver o ponto 2 do hub. | - |
 | ✅ ~~3~~ | ~~**Viagem Viena ➔ Augsburgo** (4 pax)~~ | **COMPRADO**: Westbahn 910 (€175,96) + ICE 116 na DB (€157,96). **Total €333,92.** | - |
 | 🔴 **4** | **Schönbrunn** (4 pax) | Hora marcada e as faixas esgotam com semanas de antecedência. **Atenção: mudou de nome e subiu para €42/pax em 2026.** | [imperialtickets.com](https://www.imperialtickets.com) |
 
@@ -49,38 +50,67 @@ primária)
   fila desde as ~07:00 e sem garantia nenhuma.
 - Proibido entrar com mochilas grandes. Sem fotografia no interior.
 
-#### 2. Mesa na Oktoberfest · **a decidir até 27 de agosto**
+#### 2. ✅ DECIDIDO · Oktoberfest **sem mesa reservada**, a andar entre tendas
 
-> ⚠️ **Isto mudou face à versão anterior do roteiro.** A versão antiga dizia "ainda dá para
-> reservar nos sites das tendas". **Já não dá.** As janelas de candidatura direta às tendas
-> abrem entre **dezembro e junho** e esgotam em horas nas casas populares, a esta altura
-> estão todas fechadas.
+**Não se reserva mesa. Vai-se à segunda-feira, entra-se cedo e anda-se de tenda em tenda.**
 
-**O preço oficial continua a ser o que estava escrito**, e é importante saber isso para não
-cair em burla: reserva-se **a mesa inteira (8 a 10 lugares)**, nunca lugares soltos; a reserva
-é gratuita e paga-se um adiantamento de **€42 a €55 por lugar** convertido em **vouchers de
-consumo** (tipicamente 2 Maß + ½ Hendl por pessoa). Uma mesa de 10 custa **€420 a €550** em
-vales que se bebem e comem. Dividido por 6, dá ~€70 a €92 a cada um.
+Financeiramente a decisão não custa nada, custa até menos. Uma reserva é sempre **a mesa
+inteira, 8 a 10 lugares**, nunca lugares soltos, e vocês são 6: pagavam-se **€42 a €55 por
+lugar** em vouchers de consumo, ou seja **€420 a €550** por mesa, que dividido por 6 dá **€70
+a €92 a cada um**, a beber e a comer o consumo de 8 a 10 pessoas. Sem reserva paga-se o que se
+consome, à volta de **⚠️ €60 a €80 por pessoa** (3 *Maß* a €14,80–15,90 mais meio *Hendl* a
+€16–19).
 
-**Só há dois caminhos a partir de hoje. Escolher um até 27 de agosto:**
+**O que a decisão custa é a garantia.** Uma mesa é um lugar certo às 17:00. Sem ela, o dia
+tem de ser jogado às horas certas, e é por isso que o **Dia 6 muda de forma**: a Oktoberfest
+deixa de começar às 17:00 e passa a começar às **13:45**.
 
-**(A) Portal oficial de revenda: [oktoberfest-booking.com](https://www.oktoberfest-booking.com/en)**
-As reservas não utilizadas são revendidas ali **ao preço original**, não com margem. A compra
-abre a **27 de agosto de 2026**. É o único sítio onde ainda se compra uma mesa ao preço a
-sério. **Marcar no calendário e estar online à hora de abertura.**
+**As regras que decidem o plano** *(confirmadas a 26/08/2026)*:
 
-**(B) Sem reserva, entrar antes das 12:00**
-Em dias de semana, **25% dos lugares interiores** ficam livres para quem chega sem reserva
-(ao fim de semana são 40% até às 15:00). Os *Biergärten* exteriores são quase sempre
-acessíveis. Mas ao fim da tarde as tendas fecham a entrada por lotação, quem tenta entrar às
-17:00 sem mesa não entra. **Isto vira o Dia 6 ao contrário:** apanha-se o comboio das 09:17,
-entra-se na tenda antes das 12:00 e o programa de Munique passa para depois.
+- ✅ **A entrada nas tendas é sempre gratuita**, a qualquer hora e sem bilhete. O que se
+  reserva é o lugar, não a entrada.
+- ✅ **25% dos lugares interiores das tendas grandes nunca podem ser reservados.** Ficam de
+  fora desta regra a *Käfer Wiesn-Schänke*, o *Kufflers Weinzelt* e as tendas pequenas. (Ao
+  fim de semana a quota livre é maior, mas isso não vos diz respeito: vão a uma segunda.)
+- ✅ **Nos Biergärten não existem reservas de todo.** Só se reserva dentro da tenda. Lá fora é
+  tudo primeiro a chegar, primeiro a sentar, e esta é a melhor carta que têm.
+- ✅ **Um lugar na zona não reservável não tem limite de permanência.** Quem o apanha de manhã
+  fica com ele até à noite. **É nisto que assenta o plano todo.**
+- 🚨 **Entre as ~16:00 e as ~18:00 dá-se a troca de reservas**, e muitas tendas grandes
+  **fecham as portas principais** nessa janela. Quem não tem reserva não entra. Era
+  exatamente a hora a que a versão anterior deste roteiro mandava chegar.
+- ⏰ **Para um grupo de 6 sem reserva, a hora limite é as 14:00**, de segunda a quinta. Até às
+  ~15:00 ainda aparecem lugares soltos na maioria das tendas, depois aperta. Seis lugares
+  juntos são muito mais difíceis do que dois.
+- 🍺 **Sem lugar não há cerveja.** Serve-se à mesa, não se anda com a *Maß* pelo recinto, e
+  **o caneco não sai da tenda**: é furto, dá queixa e proibição de entrada. Cada tenda nova é
+  um lugar novo a arranjar, e para seis pessoas isso são **45 a 60 minutos por tenda**. Daí
+  que "andar por várias" queira dizer **duas à tarde e a definitiva à noite**, e não oito.
+- 🚫 **Não se ocupa uma mesa com placa de reserva**, mesmo que esteja vazia. E se a tenda
+  tiver *Einlasssperre* (entrada fechada por lotação), não há como contornar.
+- 🌧️ **O tempo mexe com isto mais do que parece:** com chuva as tendas enchem porque toda a
+  gente se abriga, com sol enchem os Biergärten. Ver o `meteo.py` na véspera.
 
-> 🚫 **Não comprar em sites de revenda privados.** Foram encontradas mesas de 10 lugares a
-> **€2.842 a €3.668** e de 20 lugares a **€5.978 a €11.018** em portais como o
-> `tischreservierung-oktoberfest.de`. São especuladores: 6 a 20 vezes o preço oficial.
-> ⚠️ A **Löwenbräu-Festzelt não tem sessão noturna às segundas-feiras** (só almoço,
-> 12:00–16:30). Riscar da lista para o dia 28.
+**As tendas, e o que esperar de cada uma sem reserva:**
+
+| Tenda | Porquê | Sem reserva |
+|---|---|---|
+| **Hofbräu-Festzelt** | A **Stehkurve**: ~1.000 lugares **de pé** à frente do palco, os únicos da Wiesn que **não são reserváveis de todo**. Mais um Biergarten de 3.022 lugares. | ✅ **A aposta segura, e é aqui que se acaba a noite.** Ambiente internacional e barulhento, não é onde os locais bebem |
+| **Augustiner-Festhalle** | A preferida dos vienenses de Munique, a única que ainda tira a cerveja de barril de madeira. Biergarten de 2.500 lugares. | ⚠️ Ao meio-dia o interior já está cheio de habituais. **O Biergarten é a via** |
+| **Fischer-Vroni** | *Steckerlfisch*, peixe grelhado no espeto. Mais pequena e bastante mais calma. | ✅ Boa paragem a meio da tarde |
+| **Schottenhamel** | A tenda dos jovens de Munique, é nela que o festival abre. | ⚠️ Tentar cedo ou nem tentar |
+| **Hacker-Festzelt** | O *Himmel der Bayern*, a mais bonita por dentro. | 🚫 **Costuma ser das primeiras a fechar as portas.** Não construir o dia à volta dela |
+| **Oide Wiesn** | Entrada **€4** (grátis a partir das 21:00), três tendas históricas, música tradicional, muito mais calma. **A pulseira deixa sair e voltar a entrar.** | ✅ **A rede de segurança.** Se nada resultar, isto resulta |
+
+> ✅ A **Oide Wiesn realiza-se mesmo em 2026**. Era o ano do *Zentral-Landwirtschaftsfest*,
+> que a ocupa de quatro em quatro anos, mas o ZLF foi cancelado e adiado para 2028.
+
+> 🚫 **Se alguém mudar de ideias e quiser mesa, não comprar em revenda privada.** Foram
+> encontradas mesas de 10 lugares a **€2.842 a €3.668** e de 20 lugares a **€5.978 a €11.018**
+> em portais como o `tischreservierung-oktoberfest.de`. São especuladores: 6 a 20 vezes o
+> preço oficial. O único sítio a sério é o portal oficial de revenda,
+> [oktoberfest-booking.com](https://www.oktoberfest-booking.com/en), que revende ao preço
+> original a partir de 27 de agosto.
 
 #### 3. ✅ COMPRADO · Viagem Viena ➔ Augsburg · 4 pax · **€333,92** (dois bilhetes, não um)
 
@@ -231,7 +261,7 @@ o roteiro. As razões para não voltar a discutir:
 |---|---|---|
 | **Dia 4 ⇄ Dia 5** (Alpes ⇄ Rothenburg) | ❌ Não | O dia dos Alpes é o mais pesado (343 km, acaba às 21:15). Pô-lo na véspera da Oktoberfest era trocar o dia leve pelo dia duro antes do grande dia. E ao domingo os camiões estão proibidos nas autoestradas alemãs, o dia mais rodoviário (Rothenburg) fica melhor ao domingo. O "castigo" de domingo em Rothenburg é quase nulo: abre tudo o que interessa. |
 | **Neuschwanstein noutro dia** | ❌ Não | O bilhete é de hora marcada para sábado 26 e deve ser comprado esta semana. Mudar de dia é perder o bilhete. |
-| **Oktoberfest noutro dia** | ❌ Não | Segunda-feira é o dia mais fácil do festival e a mesa reserva-se para essa data. |
+| **Oktoberfest noutro dia** | ❌ Não | Segunda-feira é o dia mais fácil do festival, e **sem mesa reservada isso deixou de ser uma comodidade e passou a ser a condição do plano**. As duas segundas de 2026 (21 e 28 de setembro) são precisamente os melhores dias para quem aparece sem reserva. |
 | **Dias 1 e 2 (Viena)** | ❌ Não | Fixos pelos voos e pela hora marcada de Schönbrunn. |
 | **BMW Welt: Dia 6 ➔ Dia 7** | ✅ Já feito | Fica a 45 min do centro e não cabia no dia da Oktoberfest; no Dia 7 fica a ~15 min de Nymphenburg, no caminho para o aeroporto. |
 | **Noite do Dia 3 em Augsburg** | ✅ Já feito | O dia acabava no check-in. Ganhou Fuggerei, jantar e passeio noturno, tudo a pé. |
@@ -740,14 +770,41 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > antes das 20:00, senão fica-se atrás e não se ouve nada. Detalhe que vale a pena
 > saber: **2026 é o último ano do vigia histórico Hans Georg Baumgartner**, que se reforma a 31
 > de outubro depois de décadas a fazer a ronda. Implica regressar a Augsburg por volta das
-> **23:00**. Como no dia seguinte só é preciso estar em Munique às 17:00 e se acorda às 10:00,
-> dá perfeitamente. É uma escolha, não um risco.
+> **23:00**. 🔴 **Isto ficou mais apertado do que era.** Com a Oktoberfest a começar às 13:45 em
+> vez das 17:00, o Dia 6 passou a exigir sair de casa às **10:50**, e não a meio da tarde.
+> Continua a dar, porque o despertar do Dia 6 é às 10:00 e sobram sete horas de sono, mas
+> deixou de haver a folga que havia. Quem quiser dormir mais salta o vigia noturno.
 
 ---
 
 ### 🍺 🇩🇪 Dia 6: Segunda-feira, 28 de Setembro · Munique & OKTOBERFEST 2026!
-**⏰ Acordar 10:00 · O dia tem duas âncoras: a entrada na tenda e o comboio das 22:58.**
+**⏰ Acordar 10:00 · O dia tem duas âncoras: estar na Wiesn às 13:45 e o comboio das 22:58.**
 *O carro fica seguro no apartamento em Augsburg, passa-se o dia de comboio.*
+
+> ### 🚨 Sem mesa reservada, o dia inverte-se
+> **A Oktoberfest passa das 17:00 para as 13:45, e a tarde de Munique cai.** O grupo decidiu
+> ir sem reserva, a andar entre tendas, e isso muda a hora a que se chega, não só o que se
+> bebe. Sem reserva há duas horas que mandam no dia:
+>
+> - **As 14:00**, que é o limite prático para seis pessoas sem reserva arranjarem lugar numa
+>   segunda-feira.
+> - **As 16:00 às 18:00**, a troca de reservas, em que muitas tendas grandes fecham as portas
+>   principais. **Chegar às 17:00 era chegar à porta fechada.**
+>
+> **A jogada é entrar cedo e não sair da zona não reservável**, onde não há limite de
+> permanência: o lugar apanhado às 14:00 é o mesmo lugar às 22:00. Anda-se entre tendas
+> **antes** das 16:00, e a partir daí fixa-se uma.
+>
+> **O que isto custa, e é caro:** perde-se o bloco da tarde, ou seja a **Odeonsplatz**, a
+> **Theatinerkirche**, o **Hofgarten** e a **Eisbachwelle**, os surfistas da onda fixa. Perde-se
+> também o almoço sentado no Viktualienmarkt, que passa a ser uma travessia a pé, porque o
+> almoço a sério passa a ser o *Hendl* dentro da tenda. A Eisbachwelle é a perda a sério e não
+> há como disfarçá-la.
+>
+> **A alternativa examinada e rejeitada:** apanhar o comboio das **10:47** em vez do das 11:17
+> devolvia ~45 minutos e salvava a Eisbachwelle, mas obrigava a acordar às **09:30** no dia que
+> só acaba em Augsburg às 23:46. Já tinha sido rejeitada por essa razão numa revisão anterior,
+> e continua rejeitada.
 
 > ### 🚨 O que estava errado e mudou
 > **A manhã tinha 70 minutos de relógio para 90 de programa.** O bloco da Marienplatz dizia
@@ -776,35 +833,83 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   digital. Sem os nomes preenchidos, o bilhete não é válido na fiscalização.
 - **11:17 – 11:55**: Comboio regional RE de Augsburg Hbf para München Hbf (38 min) com os
   **2× Bayern-Ticket** (válidos a partir das 09:00).
-- **12:00 – 12:35**: **Marienplatz**, Neues Rathaus e a Catedral **Frauenkirche**.
-  - 💡 O **Glockenspiel** toca às 11:00, 12:00 e 17:00, e o das 17:00 apanha-vos já na tenda.
-    Com este comboio chegam à Marienplatz por volta das **12:05** e apanham o fim do das
-    12:00. Para o ver desde o início era preciso o comboio das **~10:47** (sair de casa às
-    10:25). É o espetáculo mais sobrevalorizado de Munique: 12 minutos de bonecos a rodar.
-    **Não vale a pena partir o despertar às 10:00 por causa dele.**
+> **A manhã faz-se agora num único varrimento para sudoeste**, da Marienplatz até ao Karlsplatz,
+> e daí uma paragem de metro até à Wiesn. São **2,5 km e 33 minutos de caminhada** ao todo.
+> *(Medido no OSRM, perfil a pé, 26/08/2026.)*
+
+- **12:05 – 12:35**: **Marienplatz**, Neues Rathaus e a Catedral **Frauenkirche**.
+  - 💡 O **Glockenspiel** toca às 11:00, 12:00 e 17:00. Com este comboio chegam à Marienplatz
+    por volta das **12:05** e apanham o fim do das 12:00. **O das 17:00 já não vos apanha na
+    tenda por acaso: apanha-vos lá de propósito**, e é bom que assim seja. É o espetáculo mais
+    sobrevalorizado de Munique, 12 minutos de bonecos a rodar.
   - 🎫 A **Frauenkirche** é grátis e abre das 08:00 às 20:00. Fica a **325 m** da Marienplatz,
     4 minutos a pé.
-- **12:35 – 12:55**: **Asamkirche** (*Sendlinger Str. 32*). **Grátis.** São **9 minutos a pé**
-  desde a Frauenkirche (708 m) e dez minutos lá dentro. Construída pelos irmãos Asam entre
-  1733 e 1746 num terreno com **8 metros de largura**, para uso próprio: é a coisa mais
-  densamente barroca da Alemanha, com iluminação indireta e colunas torcidas. Os três
-  analistas puseram-na na lista sem se consultarem.
-  - ⚠️ **Não fica «no caminho» para o Viktualienmarkt**, ao contrário do que esta linha dizia
-    antes. Direto da Marienplatz são **308 m e 4 minutos**; pela Asamkirche são **1156 m e 15
-    minutos**. O desvio custa **11 minutos**, e é metade da razão por que esta manhã não
-    fechava. *(Medido no OSRM, perfil a pé.)*
-- **12:55 – 13:05**: A pé da Asamkirche até ao **Viktualienmarkt** (626 m, ~8 min).
-- **13:15 – 14:30**: Almoço tradicional no **Viktualienmarkt** (*Weißwurst*, pretzels
-  gigantes e *Obatzda*) e fotos na histórica cervejaria **Hofbräuhaus am Platzl** (1589).
+- **12:35 – 12:45**: A pé da Frauenkirche até ao **Viktualienmarkt** (655 m, 9 min).
+- **12:45 – 13:00**: **Viktualienmarkt**, de passagem e de pé. Uma *Weißwurst*, um pretzel
+  gigante, *Obatzda*, e segue-se.
+  - ⚠️ **Isto já não é o almoço.** O almoço é o *Hendl* dentro da tenda, daqui a uma hora. Não
+    se sentem: cada minuto aqui é um minuto a menos de margem para as 14:00.
   - ✅ Ao domingo o Viktualienmarkt fecha. Numa segunda está aberto, sorte do calendário.
-- **14:45 – 15:45**: **Odeonsplatz** e a **Theatinerkirche** de fachada amarela, que ficam
-  literalmente no caminho, sem desvio nenhum. Depois o **Hofgarten** e a **Eisbachwelle**, os
-  surfistas na onda fixa do canal do Englischer Garten.
-- **16:00 – 16:30**: Metro **U4/U5 de Odeonsplatz direto até Theresienwiese** (6 min), ou
-  S-Bahn até **Hackerbrücke**. Ambos incluídos no Bayern-Ticket.
-- **17:00 – 22:20**: **OKTOBERFEST 2026 na Theresienwiese!** Cerveja de litro *Maß*
+- **13:00 – 13:10**: A pé até à **Asamkirche** (759 m, 10 min).
+- **13:10 – 13:22**: **Asamkirche** (*Sendlinger Str. 32*). **Grátis**, e doze minutos lá
+  dentro chegam. Construída pelos irmãos Asam entre 1733 e 1746 num terreno com **8 metros de
+  largura**, para uso próprio: é a coisa mais densamente barroca da Alemanha, com iluminação
+  indireta e colunas torcidas.
+  - ✅ **Nesta ordem deixou de ser um desvio.** Quando o Viktualienmarkt vinha depois dela, a
+    Asamkirche custava 11 minutos de volta ao caminho. Agora fica entre o mercado e o
+    Karlsplatz, que é exatamente a direção da Wiesn, e não custa nada.
+- **13:22 – 13:32**: A pé até ao **Karlsplatz (Stachus)** (729 m, 10 min).
+- **13:32 – 13:45**: **U4 ou U5, Karlsplatz ➔ Theresienwiese, duas paragens** (com a
+  Hauptbahnhof pelo meio), ~3 minutos de viagem. Incluído no Bayern-Ticket. Os 13 minutos do
+  bloco são para descer ao cais, esperar e sair no meio do fluxo de gente, que num dia de
+  Wiesn não é pouca.
+- **13:45 – 22:20**: **OKTOBERFEST 2026 na Theresienwiese.** Cerveja de litro *Maß*
   (€14,80–15,90), frango assado *Hendl* (€16–19), cantoria e brinde
   (*"Ein Prosit, ein Prosit, der Gemütlichkeit! Oans, zwoa, drei, g'suffa!"*).
+  - ⏰ **Chegam com 15 minutos de folga sobre as 14:00**, que é o limite prático para seis
+    pessoas sem reserva arranjarem lugar. Não é muita folga. **Se a manhã derrapar, corta-se a
+    Asamkirche**, e não o Viktualienmarkt: a igreja são 12 minutos inteiros, o mercado está no
+    caminho de qualquer maneira.
+
+#### 🍺 Como se joga a tarde: primeiro andar, depois fixar
+
+> **São 8h35 na Wiesn, e não são 8h35 de cerveja.** Metade disto é o recinto: os carrosséis,
+> as bancas, a Oide Wiesn, o desfile de *Dirndl* e *Lederhosen*. O plano tem duas metades e a
+> fronteira entre elas são as **15:30**.
+
+⚠️ **«Andar por várias tendas» tem um limite aritmético, e são duas.** Para seis pessoas,
+cada tenda são **45 a 60 minutos**: entrar, encontrar seis lugares juntos, ser servido, beber
+um litro, pagar e sair. Em 105 minutos de tarde não cabem quatro tendas, cabem **duas**. Com a
+tenda da noite dá **três no dia**, mais a Oide Wiesn e o recinto. Quem tentar quatro acaba a
+beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé.
+
+- **Andar, das 13:45 às 15:30.** É agora que a decisão de não reservar se paga: as portas estão
+  abertas e as tendas ainda respiram. **Duas tendas, escolhidas destas:** a
+  **Augustiner-Festhalle** (o Biergarten de 2.500 lugares, que nunca tem reservas, e é a
+  melhor cerveja do recinto), o **Schottenhamel** (a dos jovens de Munique) ou a
+  **Fischer-Vroni** (peixe no espeto, pequena e calma). **A Hacker-Festzelt não entra na
+  lista**, costuma ser das primeiras a fechar as portas.
+  - 🍺 A mecânica manda aqui: **sem lugar não há cerveja**, e **o caneco não sai da tenda**.
+    Acaba-se a *Maß* antes de mudar de sítio.
+  - 🎡 **Se as duas tendas correrem depressa**, o tempo que sobrar gasta-se no recinto ou na
+    **Oide Wiesn** (€4, e a pulseira deixa sair e voltar). Não se enfia uma terceira tenda.
+- **Fixar, às 15:30, e não é negociável.** Entre as **16:00 e as 18:00** dá-se a troca de
+  reservas e as portas principais fecham. **Chegar às 16:00 em ponto já é tarde**: as zonas
+  não reserváveis começam a encher às 15:00 com outros grupos a fazer exatamente isto, e seis
+  lugares juntos são dos primeiros a desaparecer. **Estejam sentados às 15:30.** Uma vez
+  sentados na zona não reservável não há limite de permanência, e o lugar é vosso até às 22:20.
+  - 🎯 **A tenda para acabar é a Hofbräu-Festzelt**, e a razão é a *Stehkurve*: ~1.000 lugares
+    de pé à frente do palco que **não são reserváveis de todo**, o que faz dela a única zona da
+    Wiesn que não vos pode fechar a porta. **Mas procurem mesa primeiro.** A *Stehkurve* das
+    15:30 às 22:20 são **quase sete horas de pé**, depois de uma manhã a andar 2,5 km. É a
+    garantia, não a primeira escolha.
+  - 🚨 **Depois de fixados, não sair da tenda.** Se a tenda entrar em *Einlassstopp* (portas
+    fechadas por lotação) enquanto alguém foi lá fora apanhar ar ou fumar, **essa pessoa não
+    volta a entrar**, por mais que os outros cinco lhe guardem o lugar. Casas de banho, só as
+    de dentro.
+  - 🏞️ **Se estiver bom tempo**, os Biergärten das tendas são a alternativa: nunca têm
+    reservas. **Se estiver a chover**, contem com tudo mais cheio, porque toda a gente se
+    abriga lá dentro. Ver o `meteo.py` na véspera.
 
 #### 🚨 O fim da noite: leiam isto antes de irem
 
@@ -824,7 +929,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > sábado.** Na noite de segunda 28 para terça 29, **o último comboio é o das 22:58**, que chega
 > a Augsburg às **23:46**. Depois disso não há nada até de madrugada.
 
-- **22:20: sair da mesa. Não às 22:30, não "por volta de".** A última cerveja e a última
+- **22:20: sair da tenda. Não às 22:30, não "por volta de".** A última cerveja e a última
   música são às 22:30 e as tendas só fecham às 23:30, mas vocês não podem estar lá para isso.
   Os dez minutos entre as 22:20 e as 22:30 são exatamente os que faltam no fim da cadeia.
 - **22:20 – 22:40**: Sair da Theresienwiese. **Há duas formas, e a pé é a mais segura:**
@@ -847,14 +952,14 @@ O centro histórico inteiro atravessa-se em 15 minutos.
    numa segunda-feira**. Verificar no DB Navigator nessa manhã. **Não sair da tenda a contar
    com isto.**
 
-> **Se só conseguirem a sessão de almoço (11:00 – 16:30):** apanhar o comboio das **09:17**,
-> entrar na tenda às 11:00, e passar o programa de Munique para **depois** das 16:30, ou
-> simplesmente saltá-lo. Com esta opção o problema do último comboio desaparece.
+> **Se às 16:00 não houver lugar em lado nenhum**, e numa segunda-feira isso seria azar a
+> sério, a ordem é esta: **Biergarten de qualquer tenda** (nunca têm reservas), depois
+> **tendas pequenas**, depois **Oide Wiesn** (€4, e a pulseira deixa sair e voltar). A
+> Hofbräu-Festzelt fica sempre por último como garantia, porque a *Stehkurve* não se reserva.
 >
-> **Se não conseguirem reserva nenhuma:** entrar na tenda **antes das 12:00**. Em dias de
-> semana 25% dos lugares ficam livres para quem chega sem reserva, mas ao fim da tarde as
-> tendas fecham a entrada por lotação. Os *Biergärten* exteriores são quase sempre acessíveis.
-> A **Oide Wiesn** (entrada €4) tem rotação de mesas muito mais fácil.
+> **Se quiserem antecipar ainda mais**, há o comboio das **09:17**, que põe o grupo na Wiesn
+> às 11:00, com as tendas praticamente vazias. Custa a manhã de Munique inteira e um despertar
+> às 08:30, e não se justifica numa segunda: às 13:45 ainda há lugar.
 >
 > **O BMW Welt saiu deste dia**: fica a 45 min do centro e não cabia. Passou para o Dia 7,
 > onde fica geograficamente ao lado de Nymphenburg.
@@ -918,9 +1023,13 @@ O centro histórico inteiro atravessa-se em 15 minutos.
       chegam. **Perguntar isto na entrega** e, se for o caso, pedir a troca de categoria.
       *(Com 7 pessoas isto era o risco n.º 1 da viagem e obrigava a uma carrinha de 9 lugares.
       Com 6, deixa de ser.)*
-- [ ] 🔴 **Decidir até 27 de agosto qual é o caminho da Oktoberfest:** mesa pelo portal oficial
-      de revenda (compra abre nesse dia, ao preço original) ou entrar sem reserva antes das
-      12:00. São planos diferentes, o segundo vira o Dia 6 ao contrário.
+- [x] ~~🔴 **Decidir até 27 de agosto qual é o caminho da Oktoberfest.**~~ **DECIDIDO: sem mesa
+      reservada, a andar entre tendas.** O prazo de 27 de agosto deixou de existir. O Dia 6 foi
+      reconstruído em cima disso, com chegada à Wiesn às **13:45** em vez das 17:00.
+- [ ] 🟡 **Combinar entre os 6 a regra das 15:30**, antes de chegarem à Wiesn: às 15:30 pára-se
+      de andar entre tendas e fica-se sentado na última, na zona não reservável, e a partir daí
+      ninguém sai da tenda. Seis pessoas a decidir isto às 15:30, já com duas *Maß* dentro, não
+      decidem nada.
 - [ ] 🔴 **Contacto de um táxi/van de 6+ lugares em Munique**, guardado no telemóvel antes do
       Dia 6. É o plano B se falharem o comboio das 22:58.
 - [ ] **Estado da Marienbrücke**, na véspera do Dia 4.
