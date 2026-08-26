@@ -322,8 +322,15 @@ o roteiro. As razões para não voltar a discutir:
 ---
 
 ### 🇦🇹 Dia 1: Quarta-feira, 23 de Setembro · Lisboa ➔ Viena & Noite de Festa
-**⏰ Acordar ~04:45, o único dia madrugador, imposto pelo voo.**
+**⏰ Acordar ~04:45, o único dia madrugador, imposto pelo voo. Dia longo assumido: 20h15.**
 *Chegam a Viena com ~5h de sono. O programa da tarde foi encurtado por causa disso.*
+
+> ⚠️ **Este é o dia mais pesado da viagem, e é de propósito.** Das 06:15 no aeroporto às
+> ~02:30 de regresso do DANZÓN são **20h15 de programa seguido**, com cinco horas de sono
+> atrás. Foi aceite porque o voo impõe a madrugada, o Bermudadreieck é literalmente à porta
+> de casa e a primeira noite não se repete. **Quem quiser cortar, corta pelo fim:** sair do
+> DANZÓN à 01:00 em vez das 02:30 não estraga nada do resto. O que não se pode é cortar pelo
+> princípio, porque a manhã é o voo.
 
 - **06:15**: Encontro no Terminal 1 do Aeroporto Humberto Delgado, Lisboa.
 - **08:05 – 12:35**: **Voo TAP TP 1270** (LIS ➔ VIE) direto, 3h30.

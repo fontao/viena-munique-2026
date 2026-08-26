@@ -53,8 +53,21 @@ corrige, ou se explica ao verificador.** Três mecanismos, por ordem de preferê
    dentro de uma opção descartada não precisa de par, que um item riscado não é um prazo, e
    que uma parcela ao lado de um total que os dois ficheiros partilham não é um preço órfão.
 
-O único aviso que fica de pé de propósito é o **Dia 1 ter 20h15 de programa seguido**. É
-verdade, é o dia de chegada, e é uma coisa que vale a pena voltar a ver a cada revisão.
+**Um dia pesado declara-se, e diz quanto pesa.** O Dia 1 tem 20h15 de programa seguido e isso
+é uma escolha, não um descuido. Escreve-se no cabeçalho do dia:
+
+```
+**⏰ Acordar ~04:45, o único dia madrugador, imposto pelo voo. Dia longo assumido: 20h15.**
+```
+
+O `verificar.py` compara o número declarado com o que mede. Se baterem certo, o dia passa a
+informação. **Se não baterem, avisa**, e é aí que isto vale alguma pena: acrescentar 90
+minutos ao fim do Dia 1 faz o aviso voltar no instante seguinte, a dizer «declara 20h15 mas
+tem 21h45». Um dia que não se declara continua a ser avisado acima das 17h, como sempre.
+
+A diferença entre isto e calar o aviso é toda: um aviso permanente sobre um facto que já se
+conhece ninguém lê, e tapa os que interessam; uma declaração que tem de bater certo é uma
+armadilha que fica armada.
 
 ⚠️ **Ao substituir travessões em massa, reler o resultado.** Uma vírgula no sítio de
 um travessão dá com frequência uma frase agramatical ou uma sequência ilegível de

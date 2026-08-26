@@ -137,6 +137,8 @@ RE_BLOCO = re.compile(
 )
 RE_DIA_MD = re.compile(r"^###\s+.*?Dia\s+(?P<n>\d)\s*:\s*(?P<resto>.+)$")
 RE_ACORDAR = re.compile(r"Acordar\s+[~≈]?(?P<acordar>\d{1,2}:\d{2})")
+#  «Dia longo assumido: 20h15». Um dia que se sabe pesado diz quanto pesa.
+RE_DIA_LONGO = re.compile(r"Dia longo assumido:\s*(?P<h>\d{1,2})h(?P<m>\d{2})", re.IGNORECASE)
 RE_SAIR = re.compile(r"Sair\s+[~≈]?(?P<sair>\d{1,2}:\d{2})")
 RE_DINHEIRO = re.compile(r"€\s?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?)")
 
@@ -278,12 +280,14 @@ def check_horarios(md: list[str], filtro: int | None) -> Seccao:
             continue
         corpo = md[i:fim]
 
-        acordar = sair = None
+        acordar = sair = declarado = None
         for ln in corpo[:6]:
             if m := RE_ACORDAR.search(ln):
                 acordar = minutos(m.group("acordar"))
             if m := RE_SAIR.search(ln):
                 sair = minutos(m.group("sair"))
+            if m := RE_DIA_LONGO.search(ln):
+                declarado = int(m.group("h")) * 60 + int(m.group("m"))
 
         blocos: list[Bloco] = []
         for k, ln in enumerate(corpo):
@@ -351,8 +355,23 @@ def check_horarios(md: list[str], filtro: int | None) -> Seccao:
 
         if fim_anterior is not None:
             duracao = fim_anterior - (sair if sair is not None else blocos[0].ini)
-            if duracao > 17 * 60:
-                s.aviso(f"Dia {n}", f"o dia tem {duracao // 60}h{duracao % 60:02d} de programa seguido.")
+            rotulo = f"{duracao // 60}h{duracao % 60:02d}"
+            #  Um dia pode assumir-se longo, mas tem de dizer *quanto*. Se o
+            #  número declarado bater certo com o medido, o dia é uma escolha e
+            #  não um descuido, e fica em informação. Se alguém lhe acrescentar
+            #  duas horas mais tarde, os números deixam de bater e o aviso
+            #  volta, que é precisamente quando ele serve para alguma coisa.
+            #  Um aviso permanente sobre um facto conhecido não é verificação,
+            #  é ruído a tapar os avisos que interessam.
+            if declarado is not None:
+                if declarado == duracao:
+                    s.info(f"Dia {n}", f"{rotulo} de programa seguido, assumido no documento.")
+                else:
+                    s.aviso(f"Dia {n}",
+                            f"o dia declara {declarado // 60}h{declarado % 60:02d} de programa "
+                            f"seguido mas tem {rotulo}. Atualizar a declaração ou encurtar o dia.")
+            elif duracao > 17 * 60:
+                s.aviso(f"Dia {n}", f"o dia tem {rotulo} de programa seguido.")
 
     return s
 
