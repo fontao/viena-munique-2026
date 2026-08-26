@@ -216,7 +216,7 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 | **Táxi Augsburg Hbf ➔ Enterprise** (pré-reservado) | 1 ou 2 | ~€15–20 | Por telefone, na véspera |
 | **Jantar de quarta, Dia 1, 19:45** | 4 | reserva grátis | **Schöne Perle** +43 1 890 32 04 · ou **Pöschl** +43 1 513 52 88 (*este é obrigatório*) |
 | Jantar no **Schweizerhaus** (Prater), Dia 2 | 4 | reserva grátis | schweizerhaus.at |
-| **Das Loft** rooftop, Dia 2 · ⚠️ *reabre a 03/09/2026, reconfirmar em setembro* | 4 | reserva grátis | Hotel SO/ Vienna · plano B: **Lamée Rooftop** |
+| ~~**Das Loft** rooftop, Dia 2~~ · ✅ **não se reserva**, o bar é walk-in | 4 | - | Reservar mesa e só beber custa **€25/pax** · plano B: **Lamée Rooftop** |
 | Jantar de sábado em Augsburg, Dia 4, **21:30** | 6 | reserva grátis | reservar de manhã |
 | **Contacto de táxi/van de 6+ lugares em Munique** (Dia 6) | 6 | - | ver Dia 6 |
 
@@ -232,9 +232,9 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 
 | Item | Pax | Preço 2026 | Nota |
 |---|---|---|---|
-| **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | €5,50/pax = **€22** | ✅ **Decidido.** Pedir *Flughafen Wien ➔ Wien*, com zona central |
+| **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €4,10 a €5,50/pax = **€17 a €22** | ✅ **Decidido.** Pedir *Flughafen Wien ➔ Wien*, com zona central |
 | **Bilhete 24h Wien Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às **13:20**, no Karlsplatz |
-| **Torre Sul do Stephansdom** | 4 | **€8,00**/pax = €32 | 343 degraus · **só dinheiro** · 09:00–19:00, última subida 18:15 |
+| **Torre Sul do Stephansdom** | 4 | ⚠️ **€4,00 a €8,00**/pax | 343 degraus · **compra-se online** · 🔴 **fecha a meio da tarde, ver abaixo** |
 | **Riesenrad** (Prater) | 4 | €14,50/pax = €58 | |
 | **Fuggerei** (Dia 3, noite) | 6 | €8/pax = **€48** | Aberta até às 20:00; bilheteira no local |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €74 (5 pax) + €34 (1 pax) = **€108** | |
@@ -269,7 +269,9 @@ com a rota do Dia 4 invertida também não é preciso comprar a vinheta austría
 ## ⚠️ Mudanças de 2026 que alteram o plano original
 
 **Transportes de Viena: os passes de 48h e 72h foram descontinuados** a 1 de janeiro de
-2026. Só existem: bilhete simples **€3,20** (€3,00 na app), **24h €10,20** e um de 7 dias que
+2026. ✅ *Confirmado na wienerlinien.at a 26/08/2026, com a tarifa nova de 1 de janeiro.*
+Só existem: bilhete simples **€3,20 em papel e €3,00 na app**, **24h €10,20 em papel e
+€9,70 na app** (comprar na app poupa €0,50 × 4 = **€2**) e um de 7 dias que
 ❌ **não serve para nada aqui**, porque só há três dias em Viena.
 Um único bilhete de 24h ativado na manhã do Dia 2 cobre Schönbrunn + Prater + a ida à
 estação no Dia 3, é a opção mais barata para o grupo.
@@ -290,12 +292,16 @@ Corrigidos:
   *Mas o trajeto do Dia 2 não muda*: de Karlsplatz para Praterstern, na **U1 são 4 estações**
   (Stephansplatz, Schwedenplatz, Nestroyplatz) e na **U2 são 7**, porque dá a volta ao Ring.
   Mantém-se **U4 ➔ Karlsplatz ➔ U1**. A rota estava certa; era a explicação que estava errada.
-- 🟡 **U4 cortado entre Hütteldorf e Schönbrunn: 2 de julho a 4 de setembro de 2026.** É real,
-  renovação de via, com autocarro de substituição U4Z. Mas **termina 20 dias antes** de vocês
-  chegarem e, mesmo durante a obra, o troço cortado ficava **a poente de Schönbrunn**: a
-  estação continuava a ser servida pelo lado da cidade, que é por onde vocês vão.
-  Continua a valer a pena **dar uma vista de olhos em wienerlinien.at na véspera**, mas isto
-  já não é um risco a sério.
+- ✅ **"U4 cortado entre Hütteldorf e Schönbrunn de 2 de julho a 4 de setembro de 2026": esse
+  corte não existiu.** Foi ao ficheiro da Wiener Linien e o que houve na U4 em 2026 foi
+  outra coisa: uma **interrupção de 3 de julho a 3 de agosto entre Schwedenplatz e
+  Landstraße**, no centro, para trocar agulhas e cruzamentos de via, com a linha partida em
+  Heiligenstadt–Schwedenplatz e Hütteldorf–Landstraße. **O troço Hütteldorf–Schönbrunn andou
+  o tempo todo.** O corte Hütteldorf–Schönbrunn foi de um ano anterior e faz parte da fase
+  já concluída do programa de modernização. *(Confirmado a 26/08/2026.)*
+  **Este roteiro andava a avisar de uma obra que já não existe: o aviso sai.**
+  Continua a valer a pena dar uma vista de olhos em wienerlinien.at na véspera, como para
+  qualquer cidade, mas não há aqui risco nenhum a preparar.
 - ✅ **Boa notícia inesperada:** a partir de 7 de setembro de 2026, para compensar o fecho da
   Stammstrecke, as linhas **U1, U2, U4 e U6 passam a circular com frequência reforçada**.
 
@@ -365,10 +371,13 @@ o roteiro. As razões para não voltar a discutir:
   - 🎫 **Pedir o bilhete *Flughafen Wien ➔ Wien*** (com a zona central incluída), **não** só
     até Wien Hbf, é isso que inclui o U1 no mesmo bilhete. Com o errado, é preciso um
     bilhete de metro à parte de €3,20 por pessoa.
-  - 💶 **A tarifa é a única coisa deste roteiro que não consegui confirmar em fonte oficial.**
-    Os €5,50 decompõem-se em €2,30 (zona de Schwechat) + €3,20 (bilhete simples de Viena,
-    este confirmado), o que é coerente; mas o histórico anda entre €4,50 e €5,50. **Confirmar
-    na app ÖBB.** No pior caso são €4 a mais no grupo todo.
+  - 💶 ⚠️ **A tarifa pode ser mais baixa do que a orçamentada, e o erro é a nosso favor.**
+    O **viennaairport.com anuncia "a partir de €4,10"** para Wien Mitte ou Wien Hbf **com as
+    viagens na rede Wiener Linien incluídas**, contra os €5,50 que este roteiro reserva.
+    *(Consultado a 26/08/2026.)* Não é uma cotação para a data, e os €5,50 continuam a ser
+    coerentes com a decomposição €2,30 (zona de Schwechat) + €3,20 (bilhete de Viena).
+    **Fica orçamentado pelo pior caso, €22 para os 4, e sobra troco se forem €16,40.**
+    Confirmar na app ÖBB no próprio dia.
   - 🚫 **No aeroporto, ignorar o CAT e o S7, mesmo que a sinalética insista.** O **CAT** é a
     ligação mais publicitada dentro do terminal, com balcão e sinalização próprios: **está
     suspenso** e substituído por autocarros. O **S7** é o que os guias recomendam por ser o mais
@@ -409,8 +418,27 @@ o roteiro. As razões para não voltar a discutir:
     numa ponte suspensa entre dois edifícios. Grátis, 5 min. **Ao meio-dia desfilam as 12
     figuras com música**, mas às 14:55 vê-se só uma. Não há segunda oportunidade: no Dia 3
     saem de casa às 09:50 e ao meio-dia já vão a caminho de Salzburgo.
-  - **15:10 – 16:10**: **Stephansdom**. Subida à **Torre Sul** (€8,00, só dinheiro), 343
-    degraus, última subida às 18:15. *(O roteiro dizia €6,50, desatualizado.)*
+  - **15:10 – 16:10**: **Stephansdom**. Subida à **Torre Sul**, 343 degraus.
+    - 🔴 **A janela de visita fecha muito mais cedo do que este roteiro dizia, e isto é o
+      achado mais importante do Dia 1.** Estava escrito "09:00–19:00, última subida 18:15".
+      **Nenhuma das duas coisas é verdade.** A stephanskirche.at publica horário de
+      *visita* de **segunda a sábado das 09:00 às 11:30 e das 13:00 às 16:30** (o
+      06:00–22:00 que também aparece é a abertura da igreja para oração, não para turistas),
+      e a bilheteira online da própria catedral dá **09:00–17:30**. *(Consultado a
+      26/08/2026.)*
+    - ✅ **O bloco das 15:10 às 16:10 continua a caber**, e é por sorte, não por desenho:
+      cai dentro da janela da tarde nas duas leituras. **Mas deixa de haver plano B às
+      18:15.** Quem se atrasar no Ankeruhr ou no Peterskirche perde a torre no dia, e não há
+      outro dia: o Dia 2 sai de casa às 11:00 para o brunch e o Dia 3 é o comboio.
+      **Se às 15:30 ainda não estiverem à porta da torre, sobe-se noutra altura ou não se
+      sobe.**
+    - ⚠️ **O preço está por resolver, entre €4,00 e €8,00.** A loja oficial
+      (*shop.stephanskirche.at*) dá **€4,00** para adulto; este roteiro trazia €8,00, e antes
+      disso €6,50. Não consegui apanhar as duas leituras na mesma tabela, por isso fica
+      orçamentado pelo pior caso, **€32 para os 4**, e sobra troco se forem €16.
+    - 🔴 **E o "só dinheiro" também está errado:** a catedral **vende o bilhete da torre
+      online**, e apresenta-se depois na bilheteira principal do Dom para trocar pela
+      entrada. Comprar online resolve o preço, a fila e a nota de levar dinheiro vivo.
   - **16:15**: **Peterskirche** (*Petersplatz*, a 30 m do Graben). Cúpula turquesa e frescos
     dourados, das igrejas barrocas mais espetaculares da Europa Central. Grátis. **Há recital
     de órgão diário às 15:00**: se o grupo estiver adiantado, vale a pena inverter a ordem
@@ -562,10 +590,13 @@ comer acabam mal. **Três opções, todas a pé e todas confirmadas abertas à q
     tipicamente 20–40 min de fila) + metro deixava-vos no palácio por volta das **13:20**:
     atrasados para uma entrada com hora marcada. Às 14:00 a manhã fica realmente sem pressas
     e continua a sobrar tempo para tudo o resto.
-  - ⚠️ **Confirmar que o U4 chega mesmo a Schönbrunn.** A linha esteve **cortada entre
-    Hütteldorf e Schönbrunn de 2 de julho a 4 de setembro de 2026** para obras, reabre três
-    semanas antes de vocês chegarem, e estas datas escorregam. Verificar em wienerlinien.at
-    na véspera. Plano B: U4 até Meidling + elétrico 10 ou 60 até Hietzing, ou o autocarro 10A.
+  - ✅ **O U4 chega a Schönbrunn, e o aviso que aqui estava era sobre uma obra que não
+    existe.** Este roteiro dizia que a linha esteve cortada entre Hütteldorf e Schönbrunn de
+    2 de julho a 4 de setembro de 2026. **Não esteve.** A obra da U4 em 2026 foi de 3 de
+    julho a 3 de agosto e **no centro**, entre Schwedenplatz e Landstraße; o troço até
+    Schönbrunn andou o tempo todo. *(Wiener Linien, confirmado a 26/08/2026.)*
+    Fica na mesma o plano B, que não custa nada saber: U4 até Meidling + elétrico 10 ou 60
+    até Hietzing, ou o autocarro 10A.
 - **16:20 – 17:00**: **U4 até Karlsplatz, mudar para o U1 até Praterstern** (~35 min).
   - *Mudar em Karlsplatz e não em Schwedenplatz:* o U1 e o U4 cruzam-se nos dois sítios, mas
     vindo de Schönbrunn o Karlsplatz aparece **três estações antes**.
@@ -603,10 +634,23 @@ comer acabam mal. **Três opções, todas a pé e todas confirmadas abertas à q
 - **20:35 – 23:00**: Cocktails no **Rooftop Das Loft** (18.º andar do Hotel SO/ Vienna,
   *Praterstraße 1*). Vista noturna de 360° e teto de vidro multicolorido.
   **Reservar, e há dress code.**
-  - 🔴 **ATENÇÃO: o Das Loft esteve fechado para obras e **reabre a 3 de setembro de 2026**, três semanas antes de vocês chegarem, com
-    um conceito novo.** Todos os horários, cartas e políticas de reserva anteriores são
-    inválidos, incluindo o "16:00–01:00" que circula nos guias. **Reconfirmar no site do
-    Hotel SO/ Vienna antes de contar com ele**, e ter um plano B pronto.
+  - 🔴 **O aviso das obras era falso, e cai inteiro.** Este roteiro tinha aqui, em vermelho,
+    que o Das Loft *"esteve fechado para obras e reabre a 3 de setembro de 2026 com um
+    conceito novo"*, e que por isso todos os horários e políticas anteriores eram inválidos.
+    **Fui ao dasloftwien.at e ao so-vienna.com e não há vestígio de encerramento nenhum**: o
+    sítio está em funcionamento normal e a publicar programa ao longo de 2026, incluindo a
+    *Eurovision Night* de 15 de maio e a *R&B Rooftop Party* que faz todos os terceiros
+    sábados do mês. *(Consultado a 26/08/2026.)*
+  - ✅ **E o que se descobriu em vez disso é mais útil do que o aviso: para o bar não se
+    reserva.** A política publicada é **walk-in**, chega-se e entra-se, e se estiver cheio
+    espera-se no *BAR/terre*, o bar do átrio, com uma bebida de boas-vindas oferecida.
+  - 🚨 **Atenção a esta, que custa dinheiro:** quem reservar **mesa de restaurante** e depois
+    só beber no bar paga **€25 por pessoa** de taxa, e a reserva exige garantia de cartão de
+    crédito. **Para o que o grupo vai fazer, que é beber cocktails, reservar é pior do que não
+    reservar.** Contacto, se quiserem confirmar à chegada: **+43 664 8868 2556**, atende das
+    10:00 às 18:00.
+  - 👔 **O que se mantém é o dress code**, e é por isso que a passagem por casa às 20:15
+    continua a valer a pena.
   - 🅱️ **Plano B, a 4 min a pé de casa:** **Lamée Rooftop** (*Rotenturmstraße 15*), com vista
     direta para as torres do Stephansdom e cobertura instalada em 2024, por isso não depende
     do tempo. ⚠️ *A versão anterior deste roteiro dizia "domingo a quarta até à 01:00", o que
@@ -862,13 +906,15 @@ O centro histórico inteiro atravessa-se em 15 minutos.
       da esplanada do *seeRestaurant Eibsee Pavillon*) *"Längstens geöffnet bis 04. Oktober
       2026"*, e **só abre com bom tempo**. O dia 26 de setembro está dentro da época. *(Não
       confundir com o Eishüttl ao lado, esse fecha a 13 de setembro e já não apanhamos.)*
-    - ⚠️ **A hora de fecho é que não está publicada.** A eibsee.de não a diz em lado nenhum. Os
-      agregadores dão o Pavillon das **10:00 às 18:00** (GastroGuide) ou das **10:00 às 19:00**
-      (Yelp), e nenhum dos dois é fonte primária. Com a chegada às 18:10, o cenário mais
-      provável é encontrar a cozinha fechada ou nas últimas.
-    - **Decisão: o trilho é o plano, a cerveja é bónus.** Quem a quiser mesmo telefona na
-      véspera para o **+49 8821 98810** e, se confirmarem que servem depois das 18:00, faz-se
-      só um sentido do trilho. A cerveja de sábado bebe-se em Augsburg ao jantar.
+    - 🔴 ✅ **A hora de fecho apareceu, e fecha a questão: o Pavillon é das 10:00 às 18:00.**
+      Este roteiro dizia que a eibsee.de não publicava a hora e que os agregadores davam
+      18:00 ou 19:00, sem fonte primária. **A eibsee.de publica: 10:00–18:00.**
+      *(Confirmado a 26/08/2026.)*
+    - 🎯 **Portanto chegam dez minutos depois de fechar, e isso resolve o dia em vez de o
+      complicar.** Deixa de haver decisão a tomar e telefonema a fazer: **não se conta com a
+      cerveja no lago, ponto.** Os 65 minutos são todos do trilho e do pôr do sol, que é o
+      que ali interessa, e a cerveja de sábado bebe-se em Augsburg ao jantar. *(O número
+      +49 8821 98810 fica só para quem quiser confirmar que nada mudou até setembro.)*
   - 🅿️ Estacionamento **€9 a €10** até 4 horas.
 - **19:15 – 21:15**: Regresso a Augsburg via Garmisch (**~131 km, ~2h00**). **Jantar às 21:30.**
   - 🔴 **Este é o trajeto mais apertado do dia, e o roteiro dava-lhe tempo a menos.** Dizia 1h50, e o
@@ -1005,7 +1051,11 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
 > inglês costuma juntar **mais de uma centena de pessoas**, por isso convém estar no Rathaus uns minutos
 > antes das 20:00, senão fica-se atrás e não se ouve nada. Detalhe que vale a pena
 > saber: **2026 é o último ano do vigia histórico Hans Georg Baumgartner**, que se reforma a 31
-> de outubro depois de décadas a fazer a ronda. A ronda acaba pelas **21:00**, e com a
+> de outubro depois de décadas a fazer a ronda. 🔴 **Mas não é ele que vos calha.** A
+> rothenburg.de diz que Baumgartner faz a ronda às **segundas, terças, sextas e sábados**, e
+> vocês vão a um **domingo**: sai um colega da equipa, que faz o mesmo percurso e o mesmo
+> texto. *(Confirmado a 26/08/2026. Quem quiser mesmo o Baumgartner tem de trocar o dia, e
+> isso não se faz por causa disto.)* O lugar está a concurso e o sucessor entra em abril de 2027. A ronda acaba pelas **21:00**, e com a
 > caminhada ao carro e as 2h de autoestrada isso põe o grupo em Augsburg por volta das
 > **23:30**, não às 23:00. **Ao domingo à noite o regresso faz-se pela autoestrada e não pela
 > B25**, que atravessa bosques da Francónia sem visibilidade e com javalis.
@@ -1287,20 +1337,44 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     do parque. Com este tempo: ou **só o
     palácio, €10/pax** (não €8; 30–40 min, inclui a Galeria das Belezas de Ludwig I), ou
     **só o parque e a fachada, que são gratuitos** e que numa manhã de ressaca são,
-    honestamente, o que rende mais. *(Preços da tabela oficial 2026 da Bayerische Schlösserverwaltung.)*
+    honestamente, o que rende mais. ✅ *Gesamtkarte de verão €20 e horário 09:00–18:00 de
+    abril a 15 de outubro, confirmados na schloss-nymphenburg.de a 26/08/2026.*
+  - ⚠️ **Duas coisas de 2026 que tiram brilho ao parque, e pesam a favor de ficar pelo
+    palácio:** o **Lackkabinett** (sala 13) está fechado para restauro até ao outono de 2026,
+    e sobretudo **as fontes não estão a funcionar este ano**, nem a do Grande Parterre, cuja
+    roda de água está em reparação, nem a da frente do palácio, por falta de água. O canal e
+    os cisnes ficam, o resto do efeito não.
 - **13:10 – 13:40**: **Transição para a BMW Welt.** Voltar ao carro, sair do parque de
   Nymphenburg, **6,0 km pelo Mittlerer Ring (9 min em fluxo livre, 15 a 20 com semáforos)**,
   entrar na garagem subterrânea da BMW Welt e subir. São **30 minutos**, não 15.
-- **13:40 – 14:40**: **BMW Welt e almoço** (entrada grátis, terça 07:30–24:00): pavilhão
-  futurista com superdesportivos, e a icónica cobertura em tenda de 1972 do Parque Olímpico
-  logo ao lado. **Almoça-se aqui**, nos restaurantes do próprio edifício ou no Olympiapark.
+- **13:40 – 14:40**: **BMW Welt e almoço.** Pavilhão futurista com superdesportivos, e a
+  icónica cobertura em tenda de 1972 do Parque Olímpico logo ao lado. **Almoça-se aqui**, nos
+  restaurantes do próprio edifício ou no Olympiapark.
+  - ✅ **Entrada gratuita, confirmado.** Mas ⚠️ **o horário que este roteiro dava estava
+    errado:** dizia "terça 07:30–24:00", e esse é o horário do **edifício e do parque de
+    estacionamento**. A **exposição** é das **09:00 às 18:00, última entrada às 17:45**.
+    *(bmw-welt.com, confirmado a 26/08/2026.)* A visita das 13:40 às 14:40 cabe com folga,
+    mas quem chegar tarde não tem até à meia-noite como o roteiro sugeria.
+  - 🎉 **E há uma razão nova para este ser o ponto alto do Dia 7.** No verão de 2026, para os
+    **50 anos** do primeiro, **os 20 BMW Art Cars regressam a Munique depois de uma digressão
+    mundial e ficam expostos todos juntos na BMW Welt pela primeira vez.** São os automóveis
+    pintados por Calder, Lichtenstein, Warhol, Koons e companhia. Não estava no plano porque
+    ninguém sabia, e sozinho justifica os 60 minutos.
+  - 💳 🔴 **Aqui não se paga em dinheiro.** A BMW Welt **não aceita numerário** em entradas,
+    visitas, workshops nem no parque de estacionamento: é tudo cartão. É o oposto de tudo o
+    resto desta viagem, e convém saber antes de chegar ao parquímetro com notas na mão.
+    *(Os primeiros 15 minutos de estacionamento são grátis, depois paga-se.)*
   - ❌ **O Olympiaberg saiu do plano.** 1,6 km ida e volta pela ponte pedonal e 50 m de subida
     dão **45 a 55 minutos**, que este dia não tem, e é a única coisa do dia que se paga com as
     pernas, no dia em que elas estão piores. **A vista de cima de uma cidade já se fez no
     Dia 1**, na Torre Sul do Stephansdom. Se por milagre estiverem adiantados às
     14:00, é a primeira coisa a acrescentar: é o melhor miradouro gratuito de Munique.
-    ⚠️ **A Olympiaturm, a torre, está fechada para obras até ao final de 2027**, não vale a
-    pena ir lá bater à porta.
+    ⚠️ **Sobre a Olympiaturm, a torre: este roteiro dava-a como fechada para obras até ao
+    final de 2027, e não consegui confirmar isso.** O olympiapark.de continua a anunciar a
+    subida e a vista normalmente, e **o 2027 que aparece nas fontes é do Estádio Olímpico**,
+    fechado do outono de 2025 à primavera de 2027, que é coisa diferente. *(Consultado a
+    26/08/2026.)* Como o Olympiaberg saiu do plano, isto não muda o dia: fica só registado
+    que a afirmação não tem fonte.
   - *(O Museu BMW, ao lado, é pago: €17/pax, ter–dom 10:00–18:00, e não cabe neste horário.)*
 - **14:40 – 15:20**: **Transição para a Allianz Arena.** Pagar o parque na máquina, **9,7 km
   até Fröttmaning (14 min em fluxo livre)**, entrar no parque do estádio e percorrer a
