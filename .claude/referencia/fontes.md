@@ -28,8 +28,8 @@ a do bilhete. O `osm` MCP não serve para troços de comboio.
 | Estado da Marienbrücke | [hohenschwangau.de](https://www.hohenschwangau.de) |
 | Schönbrunn | [imperialtickets.com](https://www.imperialtickets.com) |
 | Castelos da Baviera, tabela de preços | [schloesser.bayern.de](https://www.schloesser.bayern.de) |
-| Oktoberfest, mesas | [oktoberfest-booking.com](https://www.oktoberfest-booking.com/en) |
-| Oktoberfest, site oficial | [oktoberfest.de](https://www.oktoberfest.de) |
+| **Oktoberfest, tudo** | **[oktoberfest.de/en](https://www.oktoberfest.de/en)** |
+| Oktoberfest, revenda de mesas | [oktoberfest-booking.com](https://www.oktoberfest-booking.com/en) |
 | Nymphenburg e Residenz | [schloesser.bayern.de](https://www.schloesser.bayern.de) |
 | Allianz Arena | [allianz-arena.com](https://allianz-arena.com) |
 | BMW Welt e Museu | [bmw-welt.com](https://www.bmw-welt.com) |
@@ -37,6 +37,24 @@ a do bilhete. O `osm` MCP não serve para troços de comboio.
 Os sites de revenda de bilhetes (GetYourGuide, Tiqets, Viator e afins) servem para
 uma coisa só, que é perceber qual é a margem que se está a evitar. Nunca como fonte
 de preço nem de horário.
+
+### Oktoberfest: é a oktoberfest.de e mais nada
+
+Para a Oktoberfest, **a fonte é a [oktoberfest.de/en](https://www.oktoberfest.de/en)**. Tudo o
+que ande à volta da Wiesn está coberto por blogues, portais de reserva e agregadores que
+copiam números uns dos outros e ficam anos desatualizados. As páginas que respondem:
+
+| Pergunta | Página |
+|---|---|
+| Datas e horários | `/en/information/oktoberfest-opening-times/opening-hours-munich-oktoberfest` |
+| Preço da cerveja e das bebidas, tenda a tenda | `/en/information/beer-price` |
+| Reservas, quotas de lugares livres, Biergärten | `/en/tents/reservations-oktoberfest/booking-oktoberfest-book-table-oktoberfest` |
+| Cada tenda grande, lotações e ambiente | `/en/beer-tents/big-tents/<nome-da-tenda>` |
+| Oide Wiesn | `/en/the-oide-wiesn` |
+
+⚠️ **O que o site não responde**, e por isso fica marcado como por confirmar no roteiro: se a
+pulseira da Oide Wiesn permite sair e voltar a entrar, e o estado do
+*Zentral-Landwirtschaftsfest*, que de quatro em quatro anos ocupa o lugar da Oide Wiesn.
 
 ## Tempo e distâncias
 

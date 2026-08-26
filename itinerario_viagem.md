@@ -55,23 +55,29 @@ reconfirmados em fonte primária)
 **Não se reserva mesa. Vai-se à segunda-feira, entra-se cedo e anda-se de tenda em tenda.**
 
 Financeiramente a decisão não custa nada, custa até menos. Uma reserva é sempre **a mesa
-inteira, 8 a 10 lugares**, nunca lugares soltos, e vocês são 6: pagavam-se **€42 a €55 por
-lugar** em vouchers de consumo, ou seja **€420 a €550** por mesa, que dividido por 6 dá **€70
-a €92 a cada um**, a beber e a comer o consumo de 8 a 10 pessoas. Sem reserva paga-se o que se
-consome, à volta de **⚠️ €60 a €80 por pessoa** (3 *Maß* a €14,80–15,90 mais meio *Hendl* a
-€16–19).
+inteira, 8 a 10 lugares**, nunca lugares soltos, e vocês são 6. A reserva em si é gratuita,
+mas paga-se adiantado em vouchers de consumo: a oktoberfest.de dá uma **média de ~€350 por
+mesa**, e nas tendas mais procuradas os €42 a €55 por lugar levam isso aos **€420 a €550**.
+Dividido por 6, são **€58 a €92 a cada um**, a beber e a comer o consumo de 8 a 10 pessoas.
+Sem reserva paga-se o que se consome, à volta de **⚠️ €60 a €80 por pessoa** (3 *Maß* mais
+meio *Hendl*).
 
 **O que a decisão custa é a garantia.** Uma mesa é um lugar certo às 17:00. Sem ela, o dia
 tem de ser jogado às horas certas, e é por isso que o **Dia 6 muda de forma**: a Oktoberfest
 deixa de começar às 17:00 e passa a começar às **13:45**.
 
-**As regras que decidem o plano** *(confirmadas a 26/08/2026)*:
+**As regras que decidem o plano.** Salvo onde se diz o contrário, tudo o que se segue está na
+[oktoberfest.de](https://www.oktoberfest.de/en), que é a fonte a usar para a Oktoberfest
+*(consultada a 26/08/2026)*:
 
 - ✅ **A entrada nas tendas é sempre gratuita**, a qualquer hora e sem bilhete. O que se
   reserva é o lugar, não a entrada.
-- ✅ **25% dos lugares interiores das tendas grandes nunca podem ser reservados.** Ficam de
-  fora desta regra a *Käfer Wiesn-Schänke*, o *Kufflers Weinzelt* e as tendas pequenas. (Ao
-  fim de semana a quota livre é maior, mas isso não vos diz respeito: vão a uma segunda.)
+- ✅ **25% dos lugares interiores das tendas grandes nunca podem ser reservados**, de segunda a
+  sexta. Ao sábado, domingo e feriados são **40% até às 15:00 e 25% depois disso**, mas isso
+  não vos diz respeito: vão a uma segunda. Ficam de fora desta regra a *Käfer Wiesn-Schänke*,
+  o *Kufflers Weinzelt* e as tendas pequenas.
+- ✅ **Na Oide Wiesn, um terço dos lugares está sempre livre de reserva**, o que é a quota mais
+  generosa do recinto e faz dela a rede de segurança do dia.
 - ✅ **Nos Biergärten não existem reservas de todo.** Só se reserva dentro da tenda. Lá fora é
   tudo primeiro a chegar, primeiro a sentar, e esta é a melhor carta que têm.
 - ✅ **Um lugar na zona não reservável não tem limite de permanência.** Quem o apanha de manhã
@@ -90,20 +96,42 @@ deixa de começar às 17:00 e passa a começar às **13:45**.
   tiver *Einlasssperre* (entrada fechada por lotação), não há como contornar.
 - 🌧️ **O tempo mexe com isto mais do que parece:** com chuva as tendas enchem porque toda a
   gente se abriga, com sol enchem os Biergärten. Ver o `meteo.py` na véspera.
+- ⏰ **Horário da segunda-feira:** recinto e tendas grandes das **10:00 às 23:30**, **última
+  cerveja e última música às 22:30**. As tendas pequenas servem até às 23:00, e a *Käfer
+  Wiesn-Schänke* e o *Weinzelt* vão até à 01:00. Nada disto vos serve: saem às 22:20.
+
+**Preços 2026, todos da oktoberfest.de:**
+
+| O quê | Preço |
+|---|---|
+| *Maß* (1 litro de cerveja) | **€14,80 a €15,90** conforme a tenda |
+| A mais barata | **Augustiner-Festhalle**, €14,80 a €14,90 |
+| A mais cara | *Kufflers Weinzelt*, **€18,40**, e só serve cerveja de trigo |
+| ½ *Hendl* (frango assado) | ⚠️ €16 a €19 |
+| Água engarrafada | **€11,13/litro** |
+| *Spezi* (cola com laranjada) | **€12,84/litro** |
+| Limonada | **€12,35/litro** |
+
+> ⚠️ **Reparem no preço dos refrigerantes.** Quem não beber cerveja não poupa nada: a água sai
+> a €11,13 o litro contra €14,80 a cerveja. Não é engano, é a Wiesn.
 
 **As tendas, e o que esperar de cada uma sem reserva:**
 
 | Tenda | Porquê | Sem reserva |
 |---|---|---|
-| **Hofbräu-Festzelt** | A **Stehkurve**: ~1.000 lugares **de pé** à frente do palco, os únicos da Wiesn que **não são reserváveis de todo**. Mais um Biergarten de 3.022 lugares. | ✅ **A aposta segura, e é aqui que se acaba a noite.** Ambiente internacional e barulhento, não é onde os locais bebem |
-| **Augustiner-Festhalle** | A preferida dos vienenses de Munique, a única que ainda tira a cerveja de barril de madeira. Biergarten de 2.500 lugares. | ⚠️ Ao meio-dia o interior já está cheio de habituais. **O Biergarten é a via** |
+| **Hofbräu-Festzelt** | A **Stehkurve**: ~1.000 lugares **de pé** à frente do palco, e a oktoberfest.de diz que é *"the only tent at the Wiesn with such a standing area"*. Mais 6.018 lugares sentados e um Biergarten de 3.022. Cerveja a 6,3%, a mais forte do recinto. | ✅ **A aposta segura, e é aqui que se acaba a noite.** Ambiente internacional e barulhento, não é onde os locais bebem |
+| **Augustiner-Festhalle** | A preferida dos locais de Munique, e a única que ainda tira a cerveja dos *Hirsche*, **barris de madeira de 200 litros**, o que lhe dá menos gás. **É também a mais barata do recinto.** 6.000 lugares dentro, 2.500 no Biergarten. | ✅ **A primeira paragem.** Em dia de semana a oktoberfest.de descreve o almoço como *"rather cozy"*, com famílias. **Aquece ao longo da tarde**, por isso é para ir cedo |
 | **Fischer-Vroni** | *Steckerlfisch*, peixe grelhado no espeto. Mais pequena e bastante mais calma. | ✅ Boa paragem a meio da tarde |
 | **Schottenhamel** | A tenda dos jovens de Munique, é nela que o festival abre. | ⚠️ Tentar cedo ou nem tentar |
 | **Hacker-Festzelt** | O *Himmel der Bayern*, a mais bonita por dentro. | 🚫 **Costuma ser das primeiras a fechar as portas.** Não construir o dia à volta dela |
-| **Oide Wiesn** | Entrada **€4** (grátis a partir das 21:00), três tendas históricas, música tradicional, muito mais calma. **A pulseira deixa sair e voltar a entrar.** | ✅ **A rede de segurança.** Se nada resultar, isto resulta |
+| **Oide Wiesn** | Recinto à parte, com **três tendas** (*Festzelt Tradition*, *Schützenlisl*, *Boandlkramerei*) mais o *Museumszelt*. Música tradicional, muito mais calma, e **um terço dos lugares nunca é reservável**. | ✅ **A rede de segurança.** Entrada **~€4**, grátis para menores de 14 e **grátis a partir das 21:00, mas só pelas saídas** |
 
-> ✅ A **Oide Wiesn realiza-se mesmo em 2026**. Era o ano do *Zentral-Landwirtschaftsfest*,
-> que a ocupa de quatro em quatro anos, mas o ZLF foi cancelado e adiado para 2028.
+> ⚠️ **Duas coisas sobre a Oide Wiesn que a oktoberfest.de não confirma**, e por isso não vão
+> como garantidas: que a **pulseira permita sair e voltar a entrar** (vi-o em fontes
+> secundárias, não no site oficial), e que o **ZLF de 2026 tenha sido cancelado e adiado para
+> 2028**, que é o que faria a Oide Wiesn acontecer este ano. O site oficial diz apenas que a
+> Oide Wiesn é *"a permanent part of the Oktoberfest from 2011"* e publica o programa de 2026.
+> **Confirmar as duas em setembro**, antes de contar com elas.
 
 > 🚫 **Se alguém mudar de ideias e quiser mesa, não comprar em revenda privada.** Foram
 > encontradas mesas de 10 lugares a **€2.842 a €3.668** e de 20 lugares a **€5.978 a €11.018**
