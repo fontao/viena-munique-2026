@@ -1,6 +1,6 @@
 # Meteorologia — Viena & Munique 2026
 
-Actualizado a terça, 25 de agosto de 2026 · fonte: Open-Meteo
+Actualizado a quarta, 26 de agosto de 2026 · fonte: Open-Meteo
 
 ## Matriz — todas as paragens, todos os dias
 
