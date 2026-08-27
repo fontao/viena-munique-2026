@@ -17,8 +17,9 @@ the plan (e.g. "Six travellers, not seven, and lock the car booking times").
 
 | File | Role |
 |---|---|
-| `itinerario_viagem.md` | **Source of truth** for the plan: deadlines, ticket hub, day-by-day schedule, prices. |
+| `itinerario_viagem.md` | **Source of truth** for the plan: deadlines, ticket hub, day-by-day schedule, prices. Holds the *decision*, never the history of how it changed. |
 | `index.html` | Single-file interactive guide rendering that same plan. Must be kept in sync with the markdown. |
+| `historico.md` | **Why the plan is what it is**: decisions taken, alternatives rejected, what each choice cost, and errors already made. Not checked by `verificar.py`. |
 | `catalogo_viena.md` | Research backlog of Vienna options: the pool the itinerary is chosen *from*, not the plan itself. |
 | `meteo.py` / `meteo.md` | Weather script and its generated report. `meteo.md` is output. Regenerate it, never hand-edit it. |
 | `verificar.py` | Consistency checker across both documents. Knows nothing about the world, only whether the two files agree. |
@@ -56,6 +57,10 @@ skills below; these are the constraints that hold regardless.
    punctuation**, in any language, in prose or in comments: use a comma, a colon, brackets or
    a full stop. The en-dash (–) stays only in time ranges. See
    `.claude/referencia/convencoes.md`.
+9. **The itinerary carries the decision, not the archaeology.** Never write "a versão anterior
+   dizia X" into `itinerario_viagem.md` or `index.html`. Keep the reason that still governs
+   behaviour (why 14:00, why this train, what the choice cost) and put what changed, what was
+   rejected and why into `historico.md`.
 7. **Get a second opinion from Gemini** before closing a replanned day or a batch of price
    updates. Ask it for everything and filter afterwards.
 8. **Say what you did not verify.** An honest gap beats a confident invention.
