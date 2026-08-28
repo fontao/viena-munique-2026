@@ -17,7 +17,7 @@ tomadas, as alternativas rejeitadas e o que cada escolha custou.
 
 | Prioridade | O quê | Porquê agora | Onde |
 |---|---|---|---|
-| 🔴 **1** | **Neuschwanstein** (6 pax) · **€141** | A janela de reserva é de 2 meses e **já está aberta**. É um sábado em plena Oktoberfest: esgota. **O preço está confirmado na fonte a 27/08/2026 (€21 + €2,50 de taxa): só falta comprar, e a visita é a 26 de setembro.** | [shop.ticket-center-hohenschwangau.de](https://shop.ticket-center-hohenschwangau.de) |
+| ✅ ~~1~~ | ~~**Neuschwanstein** (6 pax) · ~~**€141**~~ | **DECIDIDO a 28/08/2026: não se compra.** O interior só existia em alemão às horas que serviam ao Dia 4, e o áudio-guia em português só às 17:55, dependente do último shuttle das 17:30. **Vai-se à Marienbrücke, que é grátis.** O prazo desaparece e o Dia 4 muda de forma. | - |
 | ✅ ~~2~~ | ~~**Mesa na Oktoberfest**~~ | **DECIDIDO: não se reserva mesa.** Vai-se sem reserva, a andar entre tendas. **O prazo de 27 de agosto deixa de existir**, e o Dia 6 muda de forma por causa disso. Ver o ponto 2 do hub. | - |
 | ✅ ~~3~~ | ~~**Viagem Viena ➔ Augsburgo** (4 pax)~~ | **COMPRADO**: Westbahn 910 (€175,96) + ICE 116 na DB (€157,96). **Total €333,92.** | - |
 | 🔴 **4** | **Schönbrunn** (4 pax) · **€168** | Hora marcada e as faixas esgotam com semanas de antecedência. **Atenção: mudou de nome e subiu para €42/pax em 2026.** ✅ *Preço reconfirmado na imperialtickets.com a 27/08/2026: Schlossticket €42, Staatsappartements €30.* | [imperialtickets.com](https://www.imperialtickets.com) |
@@ -28,26 +28,34 @@ tomadas, as alternativas rejeitadas e o que cada escolha custou.
 
 ### 🔴 Comprar esta semana
 
-#### 1. Castelo de Neuschwanstein · 6 pax · **€141**
-- Preço real 2026: **€21 + €2,50 de taxa de reserva = €23,50/pessoa**.
-- Comprar **só no site oficial**: os revendedores cobram +30 a 50%.
-- **Marcar a visita para as 14:00** de sábado 26, **não para as 13:30** (ver Dia 4).
-  ✅ **A recomendação dos 90 a 120 minutos é oficial**, e não de guias: a página de bilhetes da
-  hohenschwangau.de manda estar na aldeia *"at least 1.5 - 2 hours before your admission time
-  (Neuschwanstein Castle)"*, contra 1 hora para o castelo de Hohenschwangau. Com o despertar
-  às 10:00, só as 14:00 dão essa margem. *(Confirmado a 26/08/2026.)*
-- ✅ **Não é preciso levantar nada no Ticket Center.** As perguntas frequentes oficiais da hohenschwangau.de dizem
-  as perguntas frequentes oficiais da hohenschwangau.de: *"You don't necessarily have to print out your
-  tickets. You are welcome to scan the QR code from your smartphone/tablet"*, e o percurso
-  descrito é ir direto ao pátio do castelo, ver o número do grupo no monitor e passar o
-  torniquete. **Só os bilhetes de revendedores é que obrigam a levantamento**, o que é mais
-  uma razão para comprar apenas no site oficial. *(Confirmado a 26/08/2026.)*
-- Do parque de estacionamento ao castelo são **30 a 40 min a pé** (1,5 km a subir) ou
-  **~15 min de shuttle** até ao miradouro, valores da própria hohenschwangau.de. Carruagem
-  puxada por cavalos: €8 a subir, €4 a descer.
-- Sem bilhete online só restam bilhetes do próprio dia, à venda a partir das 08:00, com
-  fila desde as ~07:00 e sem garantia nenhuma.
-- Proibido entrar com mochilas grandes. Sem fotografia no interior.
+#### 1. ✅ DECIDIDO · Neuschwanstein **sem bilhete**: vai-se à Marienbrücke
+
+**Não se compra a visita guiada. Poupam-se €141 e o Dia 4 deixa de ter hora marcada.**
+
+**Porquê.** O interior do Neuschwanstein só se visita com guia, em grupo e à hora marcada, e a
+26 de setembro de 2026 as faixas da manhã e do meio-dia eram todas de guia alemão ao vivo. O
+áudio-guia em português existe, mas só na faixa das **17:55**, e o **último shuttle sobe às
+17:30 e o último desce às 18:45**: era pagar €141 não reembolsáveis para depender do último
+autocarro do dia, e perder o pôr do sol no Eibsee por causa disso. *(Disponibilidade lida no
+shop.ticket-center-hohenschwangau.de a 28/08/2026.)*
+
+**O que se faz em vez disso.** Sobe-se de shuttle à **Marienbrücke**, que **não precisa de
+bilhete nenhum**, e é de lá que vem a fotografia que toda a gente conhece do castelo.
+
+🚫 **O que não se faz, e convém saber antes de lá chegar.** A hohenschwangau.de escreve:
+*"Sie benötigen kein Ticket, wenn Sie das Schloss nur von außen sehen möchten. Der Zugang zum
+Schlosshof ist jedoch ohne Eintrittskarte leider nicht möglich."* **O pátio do castelo exige
+bilhete.** Descer da paragem do shuttle até à porta do Neuschwanstein são 15 minutos íngremes
+que acabam numa cancela fechada. *(Confirmado a 28/08/2026.)*
+
+🚌 ✅ **Shuttle: €5,00 por pessoa ida e volta, €3,50 só de ida. São €30 para os 6.** Sai do
+parque **P4 (Alpsee)** e larga no miradouro *Jugend*, a 5 minutos a pé da ponte. Das 08:00 às
+17:30 de subida, sem horário fixo, ~20 em 20 minutos. Carruagem de cavalos, em alternativa:
+€8 a subir e €4 a descer. A pé do P4 à ponte são **45 minutos** de rampa.
+*(Tabela oficial da hohenschwangau.de, confirmada a 28/08/2026.)*
+
+⚠️ **Confirmar o estado da Marienbrücke na véspera**, em hohenschwangau.de. Fecha por mau
+tempo ou obras, sem aviso, e neste plano ela deixou de ser um extra e passou a ser o dia.
 
 #### 2. ✅ DECIDIDO · Oktoberfest **sem mesa reservada**, a andar entre tendas
 
@@ -208,6 +216,7 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 | Jantar no **Schweizerhaus** (Prater), Dia 2 | 4 | reserva grátis | schweizerhaus.at |
 | ~~**Das Loft** rooftop, Dia 2~~ · ✅ **não se reserva**, o bar é walk-in | 4 | - | Reservar mesa e só beber custa **€25/pax** · plano B: **Lamée Rooftop** |
 | Jantar de sábado em Augsburg, Dia 4, **21:30** | 6 | reserva grátis | reservar de manhã |
+| Almoço de sábado, **Alpenstuben** (Hohenschwangau), Dia 4, **14:15** | 6 | reserva grátis | Alpseestraße 8 · reservar de manhã, é a segunda chamada do mesmo dia |
 | **Contacto de táxi/van de 6+ lugares em Munique** (Dia 6) | 6 | - | ver Dia 6 |
 
 > **Não é preciso vinheta austríaca.** Com a rota do Dia 4 toda em estrada alemã, não se entra
@@ -222,17 +231,21 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 |---|---|---|---|
 | **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €4,10 a €5,50/pax = **€17 a €22** | ✅ **Decidido.** Pedir *Flughafen Wien ➔ Wien*, com zona central |
 | **Bilhete 24h Wien Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às **13:20**, no Karlsplatz |
-| **Torre Sul do Stephansdom** | 4 | ✅ **€4,00**/pax = **€16** | 343 degraus · **compra-se online** · 🔴 **fecha a meio da tarde, ver abaixo** |
-| **Riesenrad** (Prater) | 4 | €14,50/pax = €58 | |
+| **Torre Sul do Stephansdom** | 4 | ✅ **€8,00**/pax = **€32** | 343 degraus · **só dinheiro, na catedral** · aberta 09:00–19:00, última subida 18:15 |
+| **Riesenrad** (Prater) | 4 | ✅ €14,50/pax = **€58** | Dia 2 · **quinta 24: 09:00–22:45**, no calendário oficial da própria data |
 | **Fuggerei** (Dia 3, noite) | 6 | €8/pax = **€48** | Aberta até às 20:00; bilheteira no local |
+| **Shuttle da Marienbrücke** (Dia 4) | 6 | ✅ **€5,00**/pax ida e volta = **€30** | Sai do **P4** · só ida €3,50 · subidas das 08:00 às 17:30 |
+| **Estacionamento** (Hohenschwangau) | - | ✅ **€12** até 6 h | Dia 4 · P1 a P4 · teto de €16/dia · cartão ou moedas |
+| **Almoço no Alpenstuben** (Dia 4) | 6 | a la carte | Hohenschwangau · cozinha quente 11:00–21:00 · **reservar de manhã** |
+| **Abadia de Ettal** (Dia 4, opcional) | 6 | Basílica **grátis** | Só na Rota B · basílica 08:00–18:00 · **loja fecha às 17:00** |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €74 (5 pax) + €34 (1 pax) = **€108** | |
 | **Palácio de Nymphenburg** | 6 | Parque **grátis** · palácio **€10**/pax · *Gesamtkarte* **€20** | Ver Dia 7: só há 75 min |
-| **St. Jakobskirche** (Rothenburg) | 6 | €5/pax = €30 | Dia 5 · altar de Riemenschneider · **só dinheiro** |
+| **St. Jakobskirche** (Rothenburg) | 6 | ✅ €5/pax = **€30** | Dia 5 · altar de Riemenschneider · domingo **10:00–18:00** · ⚠️ levar dinheiro, ver nota |
 | **Kriminalmuseum** (Rothenburg) | 6 | €10,50/pax = **€63** | Dia 5 · 10:00–18:00, última entrada 17:15 |
 | **Vigia Noturno** (Rothenburg) | 6 | €9/pax = **€54** | Dia 5, **opcional** · 20:00, só dinheiro, sem reserva |
 | **Estacionamento** (Rothenburg) | - | €8/dia | Dia 5 · P4 ou P3 · grátis fora das 09:00–18:00 |
-| **Allianz Arena**: esplanada + Megastore | 6 | **grátis** | Museu/tour ~€25 se quiserem entrar |
-| **BMW Welt** | 6 | **grátis** | Museu BMW à parte: €17/pax, ter-dom 10:00–18:00 |
+| **Allianz Arena**: esplanada + Megastore | 6 | **grátis** | ✅ **29/09: tudo 10:00–18:00.** Museu só **€12** · +Arena View €19 · +Tour €25 |
+| **BMW Welt** | 6 | ✅ **grátis** | Museu BMW à parte: ✅ **€16/pax em grupo de 5+** (avulso €17) · ter–dom 10:00–18:00, última entrada 17:30 |
 
 **Bayern-Ticket, as regras que interessam.** Válido **a partir das 09:00** de segunda a
 sexta e até às **03:00** do dia seguinte, 2.ª classe. Cobre o RE Augsburg–Munique **e** toda
@@ -268,8 +281,10 @@ inclui combustível nem estacionamento, e o roteiro faz **~791 km** ao volante: 
 376 no Dia 5 e 104 no Dia 7 *(os três dias remedidos no OSRM a 27/08/2026)*. A uma carrinha de
 sete lugares isso são **€100 a €130 de
 combustível** ⚠️ *(estimativa: ~7,5 l/100 km a preços alemães de 2026, não é uma cotação)*.
-Somam-se os parques: **Eibsee €9–10**, Rothenburg **€8**, Nymphenburg ~€5, BMW Welt ~€12 e
-Allianz Arena ~€12. **As autoestradas alemãs não têm portagem para automóveis ligeiros**, e
+Somam-se os parques: ✅ **Eibsee €10** (até 4 h, depois €2,00/h), Rothenburg **€8**,
+Nymphenburg ~€5, 🔴 **BMW Welt €3,50/hora com teto de €23 ao dia**, e Allianz Arena ~€12.
+🔴 *A BMW Welt estava aqui a ~€12 e é por hora: com o bloco de uma hora do Dia 7 são €3,50, e
+não €12, mas quem se demorar paga bem mais. Corrigido a 28/08/2026 na bmw-welt.com.* **As autoestradas alemãs não têm portagem para automóveis ligeiros**, e
 com a rota do Dia 4 invertida também não é preciso comprar a vinheta austríaca.
 
 ---
@@ -317,9 +332,11 @@ fechada (até outubro de 2027):
 ## 🔄 Trocar dias? Não.
 
 **Mexeu-se dentro dos dias, não entre dias.** A ordem dos 7 dias está fechada e trocar qualquer
-um deles piora o roteiro. As três amarras são os **voos**, a **hora marcada de Schönbrunn** na
-quinta e a **hora marcada de Neuschwanstein** no sábado; a quarta é a Oktoberfest à segunda,
-que sem mesa reservada deixou de ser comodidade e passou a ser condição do plano.
+um deles piora o roteiro. As amarras são os **voos** e a **hora marcada de Schönbrunn** na
+quinta; a terceira é a Oktoberfest à segunda, que sem mesa reservada deixou de ser comodidade
+e passou a ser condição do plano. **O sábado deixou de ser uma amarra a 28/08/2026**, quando
+se decidiu não comprar o Neuschwanstein: o Dia 4 já não tem hora marcada nenhuma. Isso
+alarga a folga do dia, não a ordem dos dias, que continua fechada pelas outras três.
 
 📖 **Cada troca considerada, o veredicto e a razão estão em [`historico.md`](historico.md)**,
 na secção *Decisões que não se voltam a discutir*. Antes de repropor uma troca, ler lá: é
@@ -412,22 +429,21 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
     figuras com música**, mas às 14:55 vê-se só uma. Não há segunda oportunidade: no Dia 3
     saem de casa às 09:50 e ao meio-dia já vão a caminho de Salzburgo.
   - **15:10 – 16:10**: **Stephansdom**. Subida à **Torre Sul**, 343 degraus.
-    - 🔴 **A janela de visita fecha cedo, e é a coisa mais importante a saber do Dia 1.** A
-      stephanskirche.at publica horário de *visita* de **segunda a sábado das 09:00 às 11:30 e
-      das 13:00 às 16:30** (o 06:00–22:00 que também aparece é a abertura da igreja para
-      oração, não para turistas), e a bilheteira online da própria catedral dá **09:00–17:30**.
-      *(Consultado a 26/08/2026.)*
-    - ✅ **O bloco das 15:10 às 16:10 cabe** nas duas leituras, **mas não há plano B às
-      18:15.** Quem se atrasar no Ankeruhr ou no Peterskirche perde a torre no dia, e não há
-      outro dia: o Dia 2 sai de casa às 11:00 para o brunch e o Dia 3 é o comboio.
-      **Se às 15:30 ainda não estiverem à porta da torre, sobe-se noutra altura ou não se
-      sobe.**
-    - ✅ **€4,00 por adulto, €16 para os 4.** A bilheteira online da própria catedral
-      (*shop.stephanskirche.at/tickets*) lista **Südturm €4,00**, ao lado do *Nordturm* a €3,00
-      e de um *All Inclusive* a €25,00. *(Confirmado a 27/08/2026.)*
-    - ✅ **Comprar online, e não levar dinheiro para isto.** A catedral **vende o bilhete da
-      torre online**, e apresenta-se depois na bilheteira principal do Dom para trocar pela
-      entrada. Resolve o preço, a fila e a nota de levar numerário.
+    - ✅ **A torre está aberta das 09:00 às 19:00, com última subida às 18:15**, e há plano B
+      até essa hora. As **09:00–11:30 e 13:00–16:30** que também aparecem no site são a janela
+      de *visita da catedral*, a nave e o percurso guiado, e não a da torre, que se sobe pela
+      porta lateral com bilhete próprio. *(stephanskirche.at/info.php, confirmado a
+      28/08/2026.)*
+    - ✅ **O bloco das 15:10 às 16:10 cabe com folga**, e quem se atrasar no Ankeruhr ou no
+      Peterskirche ainda sobe à tarde, até às 18:15. **Mas não há outro dia**: o Dia 2 sai de
+      casa às 11:00 para o brunch e o Dia 3 é o comboio.
+    - ✅ **€8,00 por adulto, €32 para os 4.** A `stephanskirche.at/info.php` lista **Südturm
+      €8,00**, o *Nordturm* também a €8,00 e o *All Inclusive* a €29,00.
+      *(Confirmado a 28/08/2026.)*
+    - 🔴 **Levar dinheiro vivo: a torre não aceita cartão.** A catedral escreve que *"todos os
+      bilhetes só podem ser adquiridos no Stephansdom contra pagamento em numerário"*. Só o
+      *All Inclusive* de €29 se compra online, e não compensa para quem só quer subir.
+      **São €32 em notas, a somar ao numerário do Dia 5.**
   - **16:15**: **Peterskirche** (*Petersplatz*, a 30 m do Graben). Cúpula turquesa e frescos
     dourados, das igrejas barrocas mais espetaculares da Europa Central. Grátis. **Há recital
     de órgão diário às 15:00**: se o grupo estiver adiantado, vale a pena inverter a ordem
@@ -603,7 +619,11 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
     **A reserva do Schweizerhaus deixa de ser recomendável e passa a ser obrigatória**,
     e confirmada por telefone na semana anterior, não só online.
   - **17:30 – 18:15**: **Riesenrad** (**€14,50**; o bilhete de €17 é o *Flex*, com validade de
-    um ano, de que não precisam). Setembro: aberta até às 23:45.
+    um ano, de que não precisam).
+    - ✅ **Aberta das 09:00 às 22:45 na quinta, 24 de setembro de 2026.** Não é o horário
+      genérico de setembro: é o que o calendário oficial da wienerriesenrad.com dá **para esta
+      data**, dia a dia. **O bloco das 17:30 cabe com horas de sobra**, e quem se atrasar no
+      Schönbrunn sobe à mesma. *(Confirmado a 28/08/2026.)*
   - **18:15 – 20:15**: Jantar de grupo a 4 min a pé, no lendário **Schweizerhaus**: pernis de
     porco estaladiços (*Stelze*) e cerveja Budweiser de pressão.
 - **20:15 – 20:35**: **Do Schweizerhaus ao Das Loft, de metro, não a pé.**
@@ -732,7 +752,8 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
 > ligação seguinte é o **RJX das 15:00**, que chega a Augsburg às **17:29**: tarde demais
 > para o levantamento. Nesse caso, telefonar imediatamente à Enterprise a partir do comboio e
 > tentar remarcar o levantamento para as 17:45, ou reorganizar o Dia 4 para levantar o carro
-> ao sábado às 09:00 e atrasar Neuschwanstein.
+> ao sábado às 09:00 e sair de Augsburg mais tarde. **Isto ficou mais fácil a 28/08/2026**:
+> sem bilhete marcado no castelo, o Dia 4 aguenta atrasos que antes o partiam.
 
 #### Noite em Augsburg: tudo à distância de caminhada
 
@@ -785,31 +806,44 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 
 ---
 
-### 🏔️ 🇩🇪 Dia 4: Sábado, 26 de Setembro · Neuschwanstein, Oberammergau & Lago Eibsee
-**⏰ Acordar 10:00 · Sair 10:30, continua a não ser preciso madrugar. Ver a nota no fim do dia.**
+### 🏔️ 🇩🇪 Dia 4: Sábado, 26 de Setembro · Marienbrücke, Oberammergau & Lago Eibsee
+**⏰ Acordar 10:00 · Sair 10:30. Continua a não ser preciso madrugar, e agora nem há hora marcada.**
 
-> ### 🚨 As duas âncoras do dia
-> **A entrada no castelo é às 14:00 e a tarde faz-se ao contrário do que parece natural.**
-> A entrada às 14:00 dá **115 minutos** entre a chegada a Hohenschwangau e o torniquete, para
-> estacionar, apanhar o shuttle (~15 min até ao miradouro), atravessar a Marienbrücke e descer
-> ao pátio, num sábado de época alta com um bilhete não reembolsável de €141. Às 13:30 seriam
-> 85, e não há por onde recuperar.
-> **E Oberammergau vem antes do Eibsee**, porque a aldeia entra em sombra por volta das 18:00.
+> ### 🚨 A decisão que dá forma a este dia: não se entra em castelo nenhum
+> **Vai-se à Marienbrücke, que é de graça e não precisa de bilhete, e não se compra a visita
+> guiada ao Neuschwanstein.** O interior só existia em alemão às horas que serviam a este dia,
+> e o áudio-guia em português só aparecia às 17:55, refém do último shuttle das 17:30. Trocar
+> o interior pela paisagem custa zero euros, poupa **€141** e devolve ao dia **duas horas e um
+> quarto**, que é o que faltava para haver almoço e para o Eibsee não ser uma corrida.
+> *(O debate completo, com as cinco opções pesadas e as que foram eliminadas, está no
+> `historico.md`.)*
 >
-> ✅ *Os 115 minutos não são prudência inventada: a própria hohenschwangau.de pede* "at least
-> 1.5 - 2 hours before your admission time (Neuschwanstein Castle)". *Ficam dentro da janela
-> oficial, ainda que no seu limite inferior. Confirmado a 26/08/2026.*
+> 🚫 **Atenção ao que isto exclui, e não é só o interior.** A própria hohenschwangau.de
+> escreve: *"Sie benötigen kein Ticket, wenn Sie das Schloss nur von außen sehen möchten. Der
+> Zugang zum Schlosshof ist jedoch ohne Eintrittskarte leider nicht möglich."* **A ponte é
+> livre, o pátio do castelo não.** Descer os 15 minutos íngremes da paragem do shuttle até à
+> porta do Neuschwanstein dá numa cancela que não se atravessa, e obriga a voltar a subir.
+> **Não se faz.** Fica-se do lado da ponte e do miradouro, que é de onde se vê o castelo
+> inteiro. *(Confirmado a 28/08/2026.)*
+>
+> **O que continua a mandar na tarde: Oberammergau vem antes do Eibsee**, porque a aldeia
+> entra em sombra por volta das 17:40 e o pôr do sol no lago é às 19:03.
 
-> ### 🍞 Não há almoço neste dia, e é preciso resolver isso antes de sair
-> **Entre o pequeno-almoço em Augsburg e o jantar às 21:30 vão onze horas sem uma única
-> paragem para comer**, e não é distração do plano: não há onde a meter. Os 115 minutos em
-> Hohenschwangau são para chegar ao torniquete, Oberammergau é a hora de sol da aldeia e o
-> Eibsee é o pôr do sol. **A solução é comprar numa padaria de Augsburg antes das 10:30** e
-> comer no carro: sandes, fruta, água, e um *Brezn* por cabeça. Feito à saída, custa dez
-> minutos. Não feito, custa o humor de seis pessoas a subir uma rampa às 13:00.
+> ### 🍽️ Agora há almoço, e é a maior mudança prática do dia
+> Este dia passava **onze horas sem uma paragem para comer**, porque os 115 minutos em
+> Hohenschwangau eram para chegar a um torniquete às 14:00. Sem torniquete, almoça-se na
+> aldeia, sentado, entre a ponte e a estrada para Oberammergau.
 >
-> 🪙 **Levar moedas de 0,50 € e 1 €.** As casas de banho de Hohenschwangau, do pátio do
-> castelo e dos parques funcionam a moeda e muitas não aceitam cartão nem notas.
+> ✅ **Hotel-Restaurant Alpenstuben, Alpseestraße 8, aos pés do castelo.** A alpenstuben.de
+> anuncia *"durchgehend warme Küche von 11 bis 21 Uhr"*, todos os dias, sem dia de descanso.
+> **O "durchgehend" é o que interessa:** a maioria das cozinhas alemãs fecha o almoço entre as
+> 14:00 e as 14:30, e esta não fecha, o que é a razão de ser possível almoçar às 14:15.
+> **Reservar de manhã à mesma**, que são 6 pessoas num sábado de setembro em Hohenschwangau.
+> *(Confirmado a 28/08/2026.)* O *Bräustüberl* do Kloster Ettal (10:00–23:00) é o plano B, mas
+> fica tarde de mais para almoço.
+>
+> 🪙 **Levar moedas de 0,50 € e 1 €.** As casas de banho da aldeia e dos parques funcionam a
+> moeda e muitas não aceitam cartão nem notas.
 >
 > 🧥 **E levar corta-vento no carro.** O Eibsee está a 973 m e às 18:30, à sombra da
 > Zugspitze, cai facilmente para os **8 °C a 12 °C**. Quem sair de Augsburg vestido para os
@@ -819,86 +853,137 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   (**103 km, ~1h27 em fluxo livre**, medido no OSRM a 26/08/2026; o bloco fica com **1h35**
   de propósito, porque a B17 estreita para faixa simples a sul de Schongau e é um sábado de
   setembro com toda a gente a ir para os castelos).
-- **12:05 – 14:00**: **115 minutos de margem, é isto que faz o dia funcionar.**
-  Estacionar, subir ao castelo e atravessar a **Ponte Marienbrücke** sobre a garganta do
-  Pöllat, que é onde se tiram as fotografias.
-  - ✅ **O bilhete comprado no site oficial lê-se pelo QR no telemóvel, no torniquete do
-    pátio.** Não é preciso passar pelo Ticket Center. *(FAQ oficial, confirmado a 26/08/2026.)*
-  - 🚌 **Usar o shuttle (~15 min até ao miradouro), não subir a pé.** A subida a pé são **30 a
-    40 minutos** de rampa e não cabe nesta margem. Carruagem de cavalos: €8 a subir, €4 a descer.
+- **12:05 – 14:15**: **Marienbrücke, miradouro e Alpsee. 130 minutos, e nenhum deles com hora
+  marcada.** Se o shuttle tiver fila ou os mandarem para o P1, não há nada que se falhe.
+  - 🚌 ✅ **Shuttle do P4, €5,00 por pessoa ida e volta = €30 para os 6.** Só ida são €3,50.
+    Sai da paragem ao lado do parque **P4 (Alpsee)** e larga no miradouro *Jugend*, a **5
+    minutos a pé da Marienbrücke**. Primeira partida às 08:00, última subida às 17:30,
+    sem horário fixo, mais ou menos de 20 em 20 minutos. *(Tabela oficial da
+    hohenschwangau.de, confirmada a 28/08/2026.)*
+    A subida a pé do P4 à ponte são **45 minutos** de rampa: paga-se o shuttle.
   - 🅿️ ✅ **Estacionamento: €12,00 até 6 horas**, mais €1,00 por cada hora seguinte, com
     **teto de €16,00 ao dia**, nos parques oficiais P1 a P4, a pagar em posto automático com
     cartão ou moedas. *(Tabela oficial da hohenschwangau.de, confirmada a 26/08/2026.)*
-    Chegando às 12:05 e saindo às 15:30 ficam dentro das 6 horas: **€12**.
-    🚫 **Não se sobe de carro até ao castelo**, nem se estaciona junto ao Ticket Center: no
-    resto da aldeia só há parques privados pagos. Ao meio-dia de
-    um sábado de setembro os parques de cima (P3 e P4, junto ao Alpsee e à paragem do shuttle)
-    costumam já estar cheios: contem com ser encaminhados para o P1 ou P2, o que acrescenta
-    **5 a 8 minutos de caminhada** aos 115. É por isso que a margem é de 115 e não de 85.
-  - 🏞️ **Se sobrar tempo antes da hora:** o **Alpsee** fica ali mesmo, ao lado do Ticket Center,
-    e é grátis. Melhor do que esperar de pé.
+    Entrando às 12:05 e saindo às 15:00 são **€12**.
+    🚫 **Não se sobe de carro até ao castelo.** Ao meio-dia de um sábado de setembro os parques
+    de cima (P3 e P4, junto ao Alpsee e à paragem do shuttle) costumam já estar cheios: contem
+    com ser encaminhados para o P1 ou P2, o que acrescenta **5 a 8 minutos de caminhada**.
+    Sem hora marcada, isso deixou de ser um problema e passou a ser um aborrecimento.
+  - 🏞️ **O Alpsee fica ali mesmo**, ao lado do Ticket Center, e é grátis. É onde se gastam os
+    minutos que sobrarem, e agora sobram de propósito.
   - ⚠️ **Confirmar o estado da Marienbrücke em hohenschwangau.de na véspera.** Fecha por mau
-    tempo ou obras, sem aviso. *(A garganta do Pöllat em si está fechada por deslizamento, mas
-    o roteiro nunca a incluiu.)*
-- **14:00 – 15:30**: **Castelo de Neuschwanstein**: visita guiada de ~35 min, e descida ao
-  vale. Proibidas mochilas grandes; sem fotografia no interior.
-- **15:30 – 16:20**: Condução até **Oberammergau** pela **B17 / B23**, via Steingaden.
-  **Tudo em estrada alemã.**
-  - ⚠️ **É o troço a vigiar do dia: a folga é de um minuto.** São **47 km e 49 minutos** em
-    fluxo livre *(OSRM, 27/08/2026)* para um bloco de 50. Se às 15:30 ainda estiverem a descer
-    do castelo, o que se perde é o sol de Oberammergau, não o Eibsee.
-- **16:20 – 17:35**: **Aldeia de Oberammergau** com **sol alto**, agora com **75 minutos e
-  não 60**: fachadas pintadas com frescos tradicionais (*Lüftlmalerei*), a Pilatushaus, o
-  artesanato em madeira.
-  - ☀️ **A hora de saída não muda, e é ela que manda.** A aldeia encosta à face do monte Kofel
-    (1.342 m), que lhe levanta o horizonte a poente para uns 12° a 15°: as fachadas perdem o
-    sol direto por volta das **17:35 a 17:45**. Os 20 minutos ganhos gastam-se **no início do
-    bloco, com sol**, e não no fim, à sombra.
-  - 🏛️ A **Abadia de Ettal** fica 4 km adiante, na mesma estrada, e **é a única coisa da
-    região que cabe neste dia**. Não está no plano como visita e é a primeira coisa a cortar
-    se o dia derrapar. Mas se às **17:20** estiverem à tabela, os 15 minutos que sobram pagam
-    a paragem: basílica com cúpula barroca, e a loja dos monges vende as cervejas e os licores
-    do mosteiro. *(Wieskirche, Linderhof, Partnachklamm e a subida à Zugspitze foram
-    consideradas e nenhuma cabe: a mais barata delas custa 40 minutos e todas comem o pôr do
-    sol no Eibsee. A Zugspitze nem sequer é possível, o último teleférico desce às 16:45.)*
-- **17:35 – 18:11**: Condução Oberammergau ➔ Garmisch ➔ **Lago Eibsee** (30 km, **~36 min**).
-  - ℹ️ **36 minutos em fluxo livre** *(OSRM, 27/08/2026)*, portanto a chegada honesta é às
-    **18:11**. Com o pôr do sol às 19:03, sobram **52 minutos de luz** no lago.
-- **18:11 – 19:15**: **Lago Eibsee ao pôr do sol**, aos pés da **Zugspitze** (2.962 m, ponto
-  mais alto da Alemanha). O sol põe-se às **19:03**: chegam mesmo à hora dourada, com o maciço
-  refletido na água.
-  - ⚠️ **Não se faz a volta ao lago.** O *Eibsee-Rundweg* tem **7,5 km e demora ~2 horas**, e
-    aqui há 64 minutos.
-    **O que se faz:** do parque de estacionamento (a 100 m da margem) caminha-se pelo trilho
-    da **margem norte** até à **ponte do Untersee** e volta-se, cerca de 2 km cada sentido,
-    com a melhor vista sobre a Zugspitze.
-  - 🍺 **Contar com a caminhada e não com a cerveja.** Os 4 km levam ~50 dos 64 minutos, por
-    isso já não cabiam as duas, mas o problema é outro: **às 18:11 o mais provável é estar
-    fechado.**
-    - ✅ **A época está boa.** A eibsee.de diz do **Biergarten am See** (autosserviço, ao lado
-      da esplanada do *seeRestaurant Eibsee Pavillon*) *"Längstens geöffnet bis 04. Oktober
-      2026"*, e **só abre com bom tempo**. O dia 26 de setembro está dentro da época. *(Não
-      confundir com o Eishüttl ao lado, esse fecha a 13 de setembro e já não apanhamos.)*
-    - ✅ **O Pavillon é das 10:00 às 18:00** *(eibsee.de, confirmado a 26/08/2026)*.
-    - 🎯 **Portanto chegam depois de fechar, e isso simplifica o dia em vez de o complicar.** Deixa de haver decisão a tomar e telefonema a fazer: **não se conta com a
-      cerveja no lago, ponto.** Os 64 minutos são todos do trilho e do pôr do sol, que é o
-      que ali interessa, e a cerveja de sábado bebe-se em Augsburg ao jantar. *(O número
-      +49 8821 98810 fica só para quem quiser confirmar que nada mudou até setembro.)*
-  - 🅿️ Estacionamento **€9 a €10** até 4 horas.
+    tempo ou obras, sem aviso, e neste plano ela é o dia inteiro. *(A garganta do Pöllat está
+    fechada por deslizamento, mas o roteiro nunca a incluiu.)*
+- **14:15 – 15:15**: **Almoço no Alpenstuben**, em Hohenschwangau. Ver a caixa acima.
+  - ⚠️ **São 60 minutos e não 45, e continuam a ser poucos.** Seis pessoas a entrar, escolher,
+    comer e pagar num restaurante cheio ao sábado não se fazem em três quartos de hora. Os 15
+    minutos vieram de Oberammergau, que fica com 75 em vez de 90 e mesmo assim ganha em relação
+    ao plano antigo. **Para caber: reservar de manhã, decidir o prato no caminho e pedir a
+    conta com a comida.** Se derrapar, o que se corta é tempo de aldeia, não o Eibsee.
+- **15:15**: Saída de Hohenschwangau. **É aqui que se escolhe entre duas tardes**, e a escolha
+  faz-se no carro, à hora, sem nada reservado nem pago.
+
+> ### 🔀 Às 15:00 decide-se: mais lago, ou a Abadia de Ettal
+> As duas versões jantam à mesma hora e nenhuma tem bilhete. **A diferença é só onde se
+> gastam 50 minutos.**
+>
+> **Rota A · mais tempo no lago** *(a recomendada, se o que se quer é a paisagem)*
+> - **15:15 – 16:05**: Hohenschwangau ➔ **Oberammergau** (46 km, **45 min** em fluxo livre,
+>   *OSRM 28/08/2026*, bloco de 50).
+> - **16:05 – 17:20**: **Oberammergau, 75 minutos e todos com sol.**
+> - **17:20 – 17:56**: ➔ **Eibsee** (30 km, **36 min em fluxo livre**).
+> - **17:56 – 19:15**: **Eibsee, 79 minutos.** Cabem o trilho da margem norte *e* o pôr do sol,
+>   que até aqui competiam um com o outro.
+>
+> **Rota B · com a Abadia de Ettal**
+> - **15:15 – 16:05**: Hohenschwangau ➔ **Ettal** (51 km, **49 min**, *OSRM 28/08/2026*).
+> - **16:05 – 16:40**: **Abadia de Ettal.** A loja dos monges e um olhar à basílica.
+> - **16:40 – 16:50**: ➔ Oberammergau (6 km, ~7 min).
+> - **16:50 – 17:35**: **Oberammergau, 45 minutos**, ainda com sol.
+> - **17:35 – 18:11**: ➔ **Eibsee**. Chega-se com a mesma luz que o plano antigo dava, **52
+>   minutos até ao pôr do sol**.
+>
+> 🔁 **O que a Rota B custa, dito à letra: faz-se o mesmo troço de estrada três vezes.**
+> Passa-se ao lado de Oberammergau sem parar para ir a Ettal, volta-se 6 km atrás a Oberammergau,
+> e desce-se outra vez por Ettal a caminho do Eibsee. São ~14 minutos de andar para trás, e é o
+> preço de apanhar a loja aberta. **E 35 minutos em Ettal são para a loja**, não para uma visita:
+> estacionar, comprar e sair, com a basílica vista de passagem.
+>
+> ✅ **Porque é que Ettal tem de vir primeiro:** o **Klosterladen fecha às 17:00 ao sábado**
+> (09:30–17:00 de segunda a sábado) e é lá que se compram as cervejas e os licores do mosteiro.
+> A **basílica é grátis e está aberta das 08:00 às 18:00**, e o *Bräustüberl* das 10:00 às
+> 23:00. Fazer Oberammergau primeiro e Ettal depois chega à loja fechada.
+> *(kloster-ettal.de/wissenswertes/oeffnungszeiten, confirmado a 28/08/2026.)*
+>
+> 🎯 **A recomendação é a Rota A**, porque o que este dia passou a ter de melhor é a hora
+> extra no Eibsee, e a basílica de Ettal é meia hora bonita que não é o motivo de se vir aos
+> Alpes. Mas a Rota B é uma troca limpa, decide-se no carro e não custa dinheiro nenhum.
+
+- **Oberammergau**: fachadas pintadas com frescos tradicionais (*Lüftlmalerei*), a Pilatushaus,
+  o artesanato em madeira.
+  - ☀️ **A hora de saída é que manda, não a de chegada.** A aldeia encosta à face do monte
+    Kofel (1.342 m), que lhe levanta o horizonte a poente para uns 12° a 15°: as fachadas
+    perdem o sol direto por volta das **17:35 a 17:45**. Por isso as duas rotas saem antes
+    disso, e o tempo que se ganha gasta-se **no início do bloco, com sol**.
+  - *(Wieskirche, Linderhof, Partnachklamm e a subida à Zugspitze foram consideradas e nenhuma
+    cabe, nem sequer neste dia mais folgado: a mais barata delas custa 40 minutos e todas
+    comem o pôr do sol no Eibsee. A Zugspitze nem é possível, o último teleférico desce às
+    16:45.)*
+- **Lago Eibsee ao pôr do sol**, aos pés da **Zugspitze** (2.962 m, ponto mais alto da
+  Alemanha). O sol põe-se às **19:03** e sai-se às **19:15**.
+  - ⚠️ **Os 36 minutos são fluxo livre, e a chegada honesta é mais perto das 18:05.** O troço
+    atravessa Garmisch ao fim de uma tarde de sábado, com semáforos e trânsito de regresso.
+    Mesmo assim sobram ~58 minutos de luz, que é mais do que o plano antigo dava. **A margem
+    existe agora, e é isso que interessa.**
+  - ⚠️ **Continua a não se fazer a volta ao lago.** O *Eibsee-Rundweg* tem **7,5 km e demora
+    ~2 horas**. **O que se faz:** do parque de estacionamento (a 100 m da margem) caminha-se
+    pelo trilho da **margem norte** até à **ponte do Untersee** e volta-se, cerca de 2 km cada
+    sentido, com a melhor vista sobre a Zugspitze. São ~50 minutos.
+  - 🍺 **A cerveja no lago continua a não entrar na conta.** O *seeRestaurant Eibsee Pavillon*
+    é das **10:00 às 18:00** *(eibsee.de, confirmado a 26/08/2026)*, e o **Biergarten am See**
+    ao lado só abre com bom tempo (*"Längstens geöffnet bis 04. Oktober 2026"*). Pela Rota A
+    chega-se às 17:56, quatro minutos antes de fechar, o que não é um plano: **não se conta
+    com ela**, e a cerveja de sábado bebe-se em Augsburg ao jantar, ou no Bräustüberl de Ettal
+    se for a Rota B. *(O +49 8821 98810 fica só para quem quiser confirmar que nada mudou.)*
+  - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €2,00 por hora.
+    Dinheiro ou cartão. Ficando das 17:56 às 19:15 são **€10**. *(Tabela oficial
+    "Übersicht Parkgebühren, Sommer 2026, gültig ab Juli 2026" da zugspitze.de, confirmada a
+    28/08/2026. A tabela é publicada como imagem, e é por isso que nenhuma leitura de texto
+    da página a apanhava.)*
+    - 🚨 **E há uma armadilha cara, agora confirmada: o parque ao lado custa o dobro.** O
+      **Seilbahn Zugspitze / Zugspitzbahnhof Eibsee** cobra **€20,00 por 4 horas**, com um
+      desconto de €11,00 só para quem compra bilhete do teleférico. **Nós não subimos à
+      Zugspitze, portanto pagaríamos os €20 inteiros.** O parque certo é o do lado do
+      **Eibsee-Hotel**, a €10. Se o do lago estiver cheio, vale mais dar a volta e esperar do
+      que entrar no do teleférico às cegas.
+    - ℹ️ Proibido estacionar de noite entre as 22:00 e as 05:00, com multa de €50. Sai-se às
+      19:15, portanto não toca no plano.
 - **19:15 – 21:15**: Regresso a Augsburg via Garmisch (**~131 km, ~2h00**). **Jantar às 21:30.**
-  - ⚠️ **É o trajeto mais apertado do dia.** O OSRM mede **1h55 em fluxo livre** (131 km), que
-    é o **mínimo teórico**, sem trânsito nenhum, e isto é um sábado à noite de regresso dos
-    Alpes em setembro. Daí o bloco ser de **2h00** e o jantar às **21:30**. Quem quiser jantar
-    mais cedo tem de sair do Eibsee às 19:00, e perde o fim do pôr do sol.
+  - ⚠️ **É o trajeto mais apertado do dia, e é o único que não melhorou.** O OSRM mede **1h55
+    em fluxo livre** (131 km), que é o **mínimo teórico**, e isto é um sábado à noite de
+    regresso dos Alpes em setembro. Daí o bloco ser de **2h00** e o jantar às **21:30**.
   - ⚠️ **Reservar o jantar de sábado de manhã, antes de sair.** Sábado à noite em plena época
     de Oktoberfest, um grupo de 6 sem mesa não se senta em lado nenhum decente. **Reservar para
-    as 21:30**, não para as 21:00.
+    as 21:30**, não para as 21:00. *(São duas reservas a fazer de manhã: esta e o almoço no
+    Alpenstuben.)*
+  - ⚠️ **Os 15 minutos entre as 21:15 e as 21:30 são para estacionar e andar**, não são folga.
+    O carro não fica à porta: conta-se com um parque e a caminhada até à mesa. **Se atrasarem,
+    telefona-se do carro**, que uma mesa avisada espera e uma mesa calada não.
 
-> ### A alternativa, se preferirem jantar mais cedo
-> Sair de Augsburg às 09:45 (despertar às 08:30) e marcar o castelo para as 13:30: tudo
-> acontece 30 minutos antes e jantam às 21:00. **Fica de fora porque ninguém tem de madrugar
-> para o dia funcionar**, e o custo de o não fazer é só o jantar 30 minutos mais tarde.
-> *(O raciocínio completo, e as outras opções examinadas, estão no `historico.md`.)*
+> ### O que este dia deixou de ter
+> **Deixou de ter hora marcada, bilhete pago e margem contada ao minuto.**
+>
+> **E perdeu coisas a sério, que não vale a pena minimizar.** As ~15 divisões acabadas incluem a
+> **Sala do Trono**, uma nave de dois pisos em estilo bizantino, a **Sala dos Cantores**, que é
+> a maior do castelo, a **gruta artificial** com que Ludwig II ligou dois aposentos, e a cozinha
+> do século XIX. E incluem uma vista que a Marienbrücke não dá: a das janelas do castelo sobre
+> o Alpsee e o Hohenschwangau, que foi a que o rei mandou construir para si. Também se perde o
+> **pátio**, que sem bilhete não se atravessa.
+>
+> **O que se ganhou:** um almoço sentado, 75 minutos de sol em Oberammergau em vez de 75 a
+> correr, **79 minutos no Eibsee em vez de 52**, **€141 de volta** e um sábado que já não parte
+> se o shuttle tiver fila. **A troca é paisagem contra interiores**, e foi feita com os olhos
+> abertos. *(O raciocínio completo e as opções rejeitadas estão no `historico.md`.)*
 
 ---
 
@@ -949,7 +1034,21 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   - 🚫 **Não contar com a *Zur Höll***, que os guias todos recomendam: **fecha ao domingo**.
     E a *Altfränkische Weinstube* só abre às 18:00.
 - **14:30 – 15:00**: 🖼️ **St. Jakobskirche** (*Klostergasse 15*, 200 m da Marktplatz).
-  **€5/pessoa, aberta ao domingo das 10:00 às 18:00.** No piso superior está o **Altar do
+  ✅ **€5/pessoa, aberta ao domingo das 10:00 às 18:00.** A paróquia publica *"von 10-18 Uhr;
+  mittwochs bis 16.15 Uhr; samstags bis 17.30 Uhr"*, portanto o domingo é o horário cheio, e
+  **€5 para "Einzelpersonen und Gruppen unter 10 Personen"**, que é o caso dos 6.
+  *(rothenburg-evangelisch.de, confirmado a 28/08/2026.)*
+  - ✅ **E há uma coincidência boa: 27 de setembro é o 4.º domingo do mês.** Nesses domingos o
+    culto das 09:30 é em Detwang e o das 11:00 na Heilig-Geist-Kirche, **não em St. Jakob**.
+    A igreja não tem serviço nesse dia, e as visitas só param por concerto ou evento.
+  - 🎧 **Há visitas guiadas gratuitas**, em época e aos fins de semana, por regra às **11:00 e
+    às 14:30**. A das 14:30 coincide com a chegada, mas presumivelmente é em alemão: **isto não
+    o confirmei**, e não é motivo para mudar a hora.
+  - ⚠️ **O "só dinheiro" continua por confirmar.** Este guia diz que a igreja não aceita cartão
+    e a página da paróquia **não diz nada sobre meios de pagamento**, nem num sentido nem no
+    outro. Fica como estava, porque levar €30 em notas não custa nada e chegar sem eles custa
+    a visita, mas **não é um facto verificado**: é uma precaução. *(Verificado a 28/08/2026: a
+    fonte é omissa.)* No piso superior está o **Altar do
   Sangue Sagrado**, entalhado em tília por **Tilman Riemenschneider entre 1500 e 1505**: é um
   dos maiores tesouros da escultura sacra alemã e é, com alguma probabilidade, **a melhor
   coisa que há em Rothenburg**.
@@ -1289,13 +1388,20 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     subida e a vista normalmente; **o encerramento até 2027 que circula é do Estádio Olímpico**,
     que é coisa diferente. *(Consultado a 26/08/2026.)* Não muda o dia, porque o Olympiaberg
     não está no plano.
-  - *(O Museu BMW, ao lado, é pago: €17/pax, ter–dom 10:00–18:00, e não cabe neste horário.)*
+  - ✅ *(O Museu BMW, ao lado, é pago e **não cabe neste horário**: ter–dom **10:00–18:00**,
+    última entrada às **17:30**. Se alguma vez entrar no plano, o bilhete avulso é €17 mas
+    **em grupo de 5 ou mais pessoas são €16 por pessoa**, ou seja €96 para os 6 e não €102.
+    Confirmado na bmw-welt.com e na loja oficial tkts.bmw-welt.com a 28/08/2026.)*
 - **14:40 – 15:20**: **Transição para a Allianz Arena.** Pagar o parque na máquina, **9,7 km
   até Fröttmaning (14 min em fluxo livre)**, entrar no parque do estádio e percorrer a
   **Esplanade, que tem 543 m de rampa**, até ao edifício. São **40 minutos**, não 15.
 - **15:20 – 16:00**: **Allianz Arena** (Fröttmaning): acesso livre e gratuito à esplanada
   exterior para admirar a fachada de almofadas ETFE, fotos de grupo, e visita ao **FC Bayern
-  Megastore** (terça 10:00–18:00 em dia sem jogo).
+  Store**.
+  - ✅ **Confirmado para a data exata, não para "uma terça qualquer".** A allianz-arena.com
+    publica os horários dia a dia e para **29/09/2026** dá estádio, museu, tours e **loja todos
+    das 10:00 às 18:00**, com o *Paulaner Fantreff North* aberto e a restante restauração
+    fechada. O bloco das 15:20 às 16:00 cabe todo dentro disso. *(Confirmado a 28/08/2026.)*
   - ✂️ **Se o dia derrapar, é isto que se corta, e não outra coisa.** É a paragem mais fora de
     mão, custa ~€12 de parque e mais de 1 km de caminhada para ver a loja e o exterior de um
     estádio vazio. Cortando-a, chega-se ao aeroporto uma hora mais cedo e o dia deixa de ser
@@ -1304,7 +1410,14 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     e outubro numa só a partir de 2026, a janela vai de **21 de setembro a 6 de outubro**,
     portanto não há Bundesliga *nem* Champions durante toda a viagem (1.ª jornada da Champions
     a 8–10 set, 2.ª só a 13–14 out). Zona tranquila, e o museu e o tour do estádio funcionam
-    com horário normal (~€25) se quiserem entrar.
+    com horário normal se quiserem entrar.
+  - ✅ **E há uma opção que este guia não dava, muito mais compatível com os 40 minutos que o
+    dia tem:** o **FC Bayern Museum sozinho custa €12** e dura ~1h30, com áudio-guia em 11
+    idiomas. Os ~€25 que aqui estavam são o *Museum + Arena Tour*, que dura **2h30** e não cabe
+    de todo. Pelo meio há o *Museum + Arena View* a €19, também ~1h30.
+    **Nada disto cabe nos 40 minutos do plano**, mas se o grupo decidir no local que quer
+    entrar, é o de €12 que se compra, e sai-se do aeroporto a correr.
+    *(allianz-arena.com, confirmado a 28/08/2026.)*
 
 > ⚠️ **Hoje a carrinha anda com as malas de 6 pessoas lá dentro** e fica estacionada em três
 > sítios diferentes de Munique. Uma carrinha carregada é um alvo óbvio. Usar **estacionamento
@@ -1352,7 +1465,9 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
       decidem nada.
 - [ ] 🔴 **Contacto de um táxi/van de 6+ lugares em Munique**, guardado no telemóvel antes do
       Dia 6. É o plano B se falharem o comboio das 22:58.
-- [ ] **Estado da Marienbrücke**, na véspera do Dia 4.
+- [ ] 🔴 **Estado da Marienbrücke**, na véspera do Dia 4. **Subiu de importância a 28/08/2026:**
+      sem bilhete de castelo, a ponte é o Dia 4. Se estiver fechada, o dia passa a ser o Alpsee,
+      o miradouro e uma tarde mais longa em Oberammergau e no Eibsee.
 - [ ] **Número de passageiros efetivo em Viena**: confirmado, são **4**. Os outros **2** juntam-se em Augsburg.
 - [ ] **Táxi de Augsburg Hbf para a Enterprise** reservado por telefone.
 - [ ] **Como e a que horas chegam os 2 amigos a Augsburg** no Dia 3, e se voltam no TP 555.
@@ -1361,12 +1476,10 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
       Wiesn ali ao lado**), Bauerntanz (Dia 3), jantar de sábado às **21:30** (Dia 4).
       🔴 *O **Das Loft** saiu desta lista a 27/08/2026: para o bar não se reserva, é walk-in, e
       reservar mesa para depois só beber custa €25 por pessoa.*
-- [ ] **Comprar online a Torre Sul do Stephansdom** (€4/pax = **€16** para os 4), em
-      *shop.stephanskirche.at*. 🔴 *Este item dizia "€8, não aceita cartão": as duas coisas
-      estão erradas e ficam corrigidas aqui. O preço é €4 e a catedral vende online.*
-- [ ] **Levar dinheiro vivo:** o Vigia Noturno de Rothenburg (€9 × 6 = €54) e a
-      St. Jakobskirche (€5 × 6 = €30) não aceitam cartão, e as bancas de Schneeballen e a
-      torre do Rathaus também não.
+- [ ] **Levar dinheiro vivo:** a **Torre Sul do Stephansdom** no Dia 1 (€8 × 4 = **€32**), o
+      Vigia Noturno de Rothenburg (€9 × 6 = €54) e a St. Jakobskirche (€5 × 6 = €30) não
+      aceitam cartão, e as bancas de Schneeballen e a torre do Rathaus também não.
+      🔴 *A Torre Sul entrou nesta lista a 28/08/2026: não se compra online e custa €8, não €4.*
 - [ ] **Confirmar no DB Navigator, na manhã do Dia 6**, se o RE9 das 22:58 se mantém e se
       existe algum ICE/IC mais tarde.
 

@@ -14,6 +14,194 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 8.ª revisão · 28 de agosto de 2026
+
+Verificação dos museus a comprar, um a um, nos sites oficiais. Quatro estavam certos, dois não.
+
+### O Dia 4 perdeu o castelo por dentro, e ganhou o dia
+
+**Decisão: não se compra a visita guiada ao Neuschwanstein.** O Dia 4 passa a ser
+Marienbrücke, almoço, Oberammergau e Eibsee, sem bilhete e sem hora marcada. Poupam-se €141.
+
+**O que se descobriu, e que obrigou a reabrir o dia.** O plano estava ancorado numa entrada às
+14:00. Ao ir comprar, no `shop.ticket-center-hohenschwangau.de` conduzido por browser, **a faixa
+das 14:00 já não existia** para 26 de setembro de 2026. Pior do que isso: **as faixas que
+restavam de manhã e ao meio-dia eram todas de guia alemão ao vivo**, e a única com áudio-guia
+em português era a das **17:55**. O shop escreve que os aparelhos de áudio só são entregues nas
+visitas do tipo *Audio-Guide*, o que fecha a hipótese de comprar uma faixa alemã e ouvir em
+português.
+
+**Porque é que as 17:55 não servem.** O shuttle da hohenschwangau.de faz a **última subida às
+17:30 e a última descida às 18:45**. Uma visita às 17:55 é uma aposta no último autocarro do
+dia com um bilhete de €141 não reembolsável, e mata o pôr do sol no Eibsee, que era o ponto
+alto do dia.
+
+**As cinco opções pesadas, e o que aconteceu a cada uma.**
+
+| | Opção | Custo | Veredicto |
+|---|---|---|---|
+| A | Neuschwanstein às 09:10, guia alemão | €141 | **Fora.** Obriga a madrugar e deixa quatro horas mortas antes do Eibsee |
+| B | Trocar os Dias 4 e 5, castelo ao domingo às 17:05 | €141 | **Impossível.** Ver abaixo |
+| C | Neuschwanstein às 17:55, áudio-guia PT | €141 | **Arriscado.** Refém do último shuttle, e o Eibsee passava a ser de meio-dia |
+| E2 | Castelo de **Hohenschwangau** às 14:20, áudio-guia PT | €156 | **Viável, e caro.** Ver abaixo |
+| D | **Sem bilhete: só a Marienbrücke** | **€0** | ✅ **Escolhida** |
+
+**Porque é que a E2 caiu, apesar de ser a única com português à hora certa.** O castelo de
+Hohenschwangau fica **no monte do lado**. Fazer a Marienbrücke e ainda estar ao portão do
+Hohenschwangau às 14:20 obriga a subir de shuttle, fotografar, descer os 30 a 40 minutos ao
+vale e subir a rampa do outro castelo, encadeado e sem folga: qualquer fila no shuttle ou um
+encaminhamento para o P1 come tudo. Ou se aceitava a marcha forçada, ou se cortava a
+Marienbrücke, que é a melhor imagem do dia. **A E2 custava €156 para tornar o dia mais apertado
+do que a opção que custa zero.**
+
+> ### O erro que o Gemini apanhou, e que teria matado a opção B
+> A opção B foi apresentada com o castelo ao domingo às 17:05 e chegada ao Eibsee às 18:45,
+> com o pôr do sol às 19:03. **Faltava a descida do castelo ao parque de estacionamento, 30 a
+> 40 minutos.** A chegada real era ~19:20, depois do sol posto. A mesma omissão tornava a
+> opção C uns 45 minutos otimista, com o jantar às 21:15 e não às 20:45.
+>
+> **A lição:** num dia de castelo, a descida conta tanto como a subida, e é a parte que se
+> esquece porque não tem hora marcada nem bilhete.
+
+**O que a decisão devolveu ao dia.** As 2h15 libertadas não foram para ficar mais tempo no
+monte. Foram para onde faziam mais falta:
+
+- **Um almoço.** O dia passava **onze horas sem uma paragem para comer**, resolvido com sandes
+  compradas numa padaria de Augsburg antes de sair. Isso existia porque os 115 minutos em
+  Hohenschwangau eram para chegar a um torniquete. Sem torniquete, almoça-se sentado.
+- **Oberammergau com 90 minutos de sol** em vez de 75.
+- **O Eibsee com 79 minutos** em vez de 52. O trilho da margem norte leva ~50: até aqui o
+  passeio e o pôr do sol competiam um com o outro.
+- **A folga.** O troço Hohenschwangau ➔ Oberammergau tinha **um minuto** de folga. Deixou de
+  ser um risco e passou a ser uma escolha.
+
+**A Rota B, com a Abadia de Ettal, e porque é que Ettal vem primeiro.** Ettal fica **6 km
+depois** de Oberammergau na estrada para Garmisch, o que sugeria pará-la no fim. Mas o
+**Klosterladen fecha às 17:00 ao sábado**, e é lá que se compram as cervejas e os licores do
+mosteiro: fazer Oberammergau primeiro chega à loja fechada. Daí a ordem invertida, que custa
+~14 minutos de andar para trás e é a única que funciona. A basílica é grátis e abre até às
+18:00, portanto quem só quiser a igreja pode inverter à vontade.
+
+**O que se perdeu, dito sem embelezar.** A primeira versão desta secção escreveu que se perdiam
+"~15 divisões acabadas de um castelo que nunca chegou a ser habitado", e o Gemini teve razão em
+apontar que isso é minimizar. Perdem-se a **Sala do Trono**, a **Sala dos Cantores**, a gruta
+artificial, a cozinha do século XIX, e a vista das janelas do castelo sobre o Alpsee e o
+Hohenschwangau, que a Marienbrücke não dá. **A troca é paisagem contra interiores**, e o
+documento passou a dizê-lo assim. E perde-se o **pátio**, que é a parte que quase se escreveu
+errado: a hohenschwangau.de diz *"Sie benötigen kein Ticket, wenn Sie das Schloss nur von außen
+sehen möchten. Der Zugang zum Schlosshof ist jedoch ohne Eintrittskarte leider nicht möglich."*
+**A ponte é livre, o pátio não.** Descer da paragem do shuttle até à porta do castelo dá numa
+cancela fechada.
+
+> **A regra que fica:** antes de escrever que uma coisa é "grátis" ou "livre" num sítio pago,
+> abrir a página que o diz. Neste dia, "a ponte não precisa de bilhete" era verdade e "o pátio
+> também não" era falso, e as duas frases pareciam igualmente óbvias.
+
+**O que a revisão do Gemini mudou no plano, além disto.** Foram levantados seis pontos e quatro
+mudaram números:
+
+- **O almoço de 45 minutos era ficção** para 6 pessoas a la carte num sábado cheio. Passou a 60,
+  tirados a Oberammergau, que fica com 75 minutos em vez de 90 e mesmo assim ganha.
+- **A Rota B faz o mesmo troço de estrada três vezes**, e o documento não o dizia. Passa-se ao
+  lado de Oberammergau, volta-se atrás, e desce-se outra vez por Ettal. Está escrito agora.
+- **O troço Oberammergau ➔ Eibsee atravessa Garmisch** ao fim de uma tarde de sábado: os 36
+  minutos do OSRM são um piso, e a chegada honesta anda pelas 18:05.
+- **O parque do Eibsee tem uma armadilha**: se o do lago estiver cheio, o da Seilbahn Zugspitze
+  ao lado cobra bastante mais a quem não sobe ao teleférico. Ficou como **aviso não confirmado**,
+  porque a tabela oficial da zugspitze.de existe (*"ab Juli 2026"*) mas não se deixou ler fora
+  do navegador a 28/08/2026. **Não se promoveu a facto o que não se abriu na fonte.**
+
+Os dois pontos que não mudaram o plano: que os 130 minutos da Marienbrücke podem ser comidos por
+filas (verdade, mas agora não há hora marcada nenhuma para falhar) e que estacionar em Augsburg
+consome os 15 minutos entre a chegada e o jantar (verdade, e passou a estar escrito).
+
+### Fechar os quatro que faltavam, e a tabela que era uma imagem
+
+A revisão anterior deixou cinco factos por abrir em fonte primária, e ficaram escritos como
+dívida. Foram todos abertos a 28/08/2026. **Três estavam certos, dois estavam errados e um
+tinha uma opção melhor escondida.**
+
+| O quê | O que o guia dizia | O que a fonte diz | |
+|---|---|---|---|
+| Riesenrad | €14,50, "setembro até às 23:45" | €14,50 ✔, e **quinta 24: 09:00–22:45** | ✅ |
+| St. Jakobskirche | €5, domingo 10:00–18:00 | Igual, e **27 é o 4.º domingo**, sem culto em St. Jakob | ✅ |
+| Allianz Arena | "terça 10:00–18:00", tour ~€25 | Igual **para 29/09 em concreto**, e há **museu só a €12** | 🟡 |
+| Museu BMW | €17/pax | €17 avulso, mas **€16/pax em grupo de 5+** | 🟡 |
+| Parque da BMW Welt | "~€12" | **€3,50/hora, teto de €23/dia** | 🔴 |
+| Parque do Eibsee | "€9 a €10" | **€10,00 até 4 h**, e o parque ao lado a **€20,00** | 🔴 |
+
+**A tabela que nenhuma leitura de texto apanhava.** O preço do Eibsee resistiu a um `WebFetch`
+e a três tentativas de extrair texto do DOM, e a razão acabou por ser simples: **a
+zugspitze.de publica os tarifários como uma imagem**, `Übersicht_Parkgebühren_Sommer_2026`.
+Não há texto nenhum para ler. Descarregar o ficheiro e olhar para ele resolveu em trinta
+segundos o que meia hora de scraping não resolvia.
+
+> **A regra que fica:** quando uma página diz que tem uma tabela e o texto não a contém,
+> procurar um `<img>` antes de assumir que a informação não é pública. Um preço publicado como
+> imagem continua a ser fonte primária.
+
+**E o alerta do Gemini estava certo.** Tinha avisado que o parque do teleférico ao lado do
+Eibsee cobra muito mais a quem não sobe à Zugspitze, e eu registei-o como *aviso não
+confirmado* precisamente por não ter aberto a fonte. A tabela confirma: **€20,00 por 4 horas no
+Seilbahn Zugspitze contra €10,00 no do Eibsee-Hotel**, com €11,00 de desconto reservado a quem
+compra bilhete de teleférico. Errou só no incremento horário, que são €2,00 e não €1,00.
+
+**O que não se conseguiu confirmar, e fica dito.** O guia afirma que a St. Jakobskirche **não
+aceita cartão**. A página da paróquia publica preço e horário e **é omissa quanto a meios de
+pagamento**. A frase ficou, porque levar €30 em notas não custa nada, mas passou a estar
+marcada como precaução e não como facto. Também não se confirmou em que língua são as visitas
+guiadas gratuitas das 11:00 e das 14:30.
+
+**O que deixou de ser verdade no resto do documento.** O sábado era uma das quatro amarras que
+proibiam trocar dias, por causa da hora marcada. **Deixou de ser.** Restam os voos, Schönbrunn
+na quinta e a Oktoberfest na segunda. A ordem dos dias continua fechada, mas por três razões e
+não quatro.
+
+
+### A Torre Sul: a correção de ontem é que era o erro
+
+A 7.ª revisão baixou a Torre Sul do Stephansdom de €8 para €4 e escreveu que se comprava
+online, dando isso por confirmado em `shop.stephanskirche.at/tickets`. **As duas coisas estão
+erradas.** A `stephanskirche.at/info.php`, que é a página de preços da própria catedral, lista
+**Südturm €8,00**, Nordturm €8,00 e All Inclusive €29,00, e diz que *"todos os bilhetes só
+podem ser adquiridos no Stephansdom contra pagamento em numerário"*. Só o All Inclusive de €29
+se vende online.
+
+São **€32 para os 4 e não €16**, e voltam à lista do dinheiro vivo. O `catalogo_viena.md`, que
+nunca foi tocado nessa revisão, dizia €8 desde sempre: **a fonte certa já estava no dossiê e
+foi contrariada por uma leitura mais recente e pior.**
+
+> **A lição, que já é a terceira vez:** uma linha de catálogo que discorda do roteiro é um
+> sinal a investigar, não ruído a ignorar. E "confirmado numa bilheteira online" não vale nada
+> se o número não for lido na página de preços do próprio monumento.
+
+Em compensação, caiu um alarme que também era falso: **a torre abre das 09:00 às 19:00, com
+última subida às 18:15.** As 09:00–11:30 e 13:00–16:30 que a 7.ª revisão tomou por horário da
+torre são a janela de *visita da catedral*, a nave e o percurso guiado. O bloco das 15:10 do
+Dia 1 deixa de ser apertado e passa a ter plano B até ao fim da tarde.
+
+### Neuschwanstein: o dia está aberto, a hora não
+
+Aberto o `shop.ticket-center-hohenschwangau.de` no browser, com 6 bilhetes e o dia **26 de
+setembro**. O dia está disponível, mas restam **quatro entradas: 09:10 (alemão), 17:40
+(alemão), 17:55 e 18:00 (audioguia)**. Não há nada a meio do dia e não há visita guiada em
+inglês. **O Dia 4 está escrito para entrar por volta das 14:00, e essa hora já não existe.**
+
+Preço confirmado no próprio carrinho: **€23,50 adulto**, €2,50 criança.
+
+### O que se confirmou sem mexer em nada
+
+| Museu | Dia | Fonte |
+|---|---|---|
+| **Schönbrunn** | qui 24 | Diário 8:30–17:30 (1 set–25 out), última entrada 16:45. Schlossticket €42, Staatsappartements €30 |
+| **Fuggerei** | sex 25 | Diário 9:00–20:00 até 30 set, €8 |
+| **Kriminalmuseum** | dom 27 | Diário 10:00–18:00, última entrada 17:15, €10,50 |
+| **Nymphenburg** | ter 29 | Diário 9:00–18:00 até 15 out, sem folga à segunda, palácio €10, *Gesamtkarte* €20 |
+
+Ficaram por abrir em fonte primária: Riesenrad, Museu BMW, Allianz Arena e St. Jakobskirche.
+
+---
+
 ## 7.ª revisão · 27 de agosto de 2026
 
 Auditoria a 27 dias da partida, com o `osm` a remedir os três dias de carro, fontes primárias
