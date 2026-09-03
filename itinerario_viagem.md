@@ -3,7 +3,7 @@
 **Datas:** 23 a 29 de Setembro de 2026 (7 Dias / 6 Noites)
 **Viajantes:** 6 amigos · **4 partem de Lisboa** (Viena, dias 1 a 3) + **2 juntam-se em Augsburg** (dia 3)
 **Voos Oficiais:** TAP Air Portugal (TP 1270 LIS ➔ VIE / TP 555 MUC ➔ LIS)
-**Revisto em:** 27 de agosto de 2026 (7.ª revisão)
+**Revisto em:** 3 de setembro de 2026 (9.ª revisão)
 **Porque é que o plano é este:** ver [`historico.md`](historico.md), onde ficam as decisões
 tomadas, as alternativas rejeitadas e o que cada escolha custou.
 
@@ -236,9 +236,9 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 | **Fuggerei** (Dia 3, noite) | 6 | €8/pax = **€48** | Aberta até às 20:00; bilheteira no local |
 | **Shuttle da Marienbrücke** (Dia 4) | 6 | ✅ **€5,00**/pax ida e volta = **€30** | Sai do **P4** · só ida €3,50 · subidas das 08:00 às 17:30 |
 | **Estacionamento** (Hohenschwangau) | - | ✅ **€12** até 6 h | Dia 4 · P1 a P4 · teto de €16/dia · cartão ou moedas |
-| **Almoço no Alpenstuben** (Dia 4) | 6 | a la carte | Hohenschwangau · cozinha quente 11:00–21:00 · **reservar de manhã** |
+| **Almoço no Alpenstuben** (Dia 4) | 6 | a la carte | Hohenschwangau · abre às **12:00**, cozinha contínua até às **20:30** · **reservar de manhã** |
 | **Abadia de Ettal** (Dia 4, opcional) | 6 | Basílica **grátis** | Só na Rota B · basílica 08:00–18:00 · **loja fecha às 17:00** |
-| **2× Bayern-Ticket** (Dia 6) | 6 | €74 (5 pax) + €34 (1 pax) = **€108** | |
+| **2× Bayern-Ticket** (Dia 6) | 6 | €54 (3 pax) + €54 (3 pax) = **€108** | Repartir 3+3 e não 5+1: custa o mesmo |
 | **Palácio de Nymphenburg** | 6 | Parque **grátis** · palácio **€10**/pax · *Gesamtkarte* **€20** | Ver Dia 7: só há 75 min |
 | **St. Jakobskirche** (Rothenburg) | 6 | ✅ €5/pax = **€30** | Dia 5 · altar de Riemenschneider · domingo **10:00–18:00** · ⚠️ levar dinheiro, ver nota |
 | **Kriminalmuseum** (Rothenburg) | 6 | €10,50/pax = **€63** | Dia 5 · 10:00–18:00, última entrada 17:15 |
@@ -251,8 +251,18 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 sexta e até às **03:00** do dia seguinte, 2.ª classe. Cobre o RE Augsburg–Munique **e** toda
 a rede MVV de Munique (metro, S-Bahn, tram, autocarro), incluindo a S-Bahn até
 **Hackerbrücke**, que é a paragem da Wiesn. Máximo 5 pessoas por bilhete, daí serem 2. A
-tarifa 2026 é **€34 pela primeira pessoa + €10 por cada pessoa a mais**, o que dá os €74 do
-bilhete de 5 e os €34 do bilhete de 1.
+tarifa 2026 é **€34 pela primeira pessoa + €10 por cada pessoa a mais**.
+
+> ### ✅ Repartir os seis em 3+3, e não em 5+1
+> **Custa exatamente o mesmo e compra liberdade.** Pela fórmula acima, dois bilhetes de 3
+> pessoas são €54 + €54 = **€108**, que é ao cêntimo o que custavam o bilhete de 5 (€74) e o
+> de 1 (€34). **A diferença é o que acontece se o grupo se tiver de separar.** Quem está
+> inscrito num Bayern-Ticket **tem de viajar junto de quem partilha o bilhete**: com a divisão
+> 5+1, cinco pessoas ficam amarradas umas às outras e só uma tem autonomia. Com 3+3, o grupo
+> parte-se ao meio sem ninguém ficar sem título válido, o que na noite do Dia 6 é o que
+> interessa: se três apanharem o RE9 das 22:58 e três ficarem para trás, ambos os trios
+> viajam legais. **É uma melhoria de graça, e a única razão para não a fazer seria já ter os
+> bilhetes comprados.**
 
 🔴 **O Bayern-Ticket é nominativo e tem de ser preenchido antes de entrar no comboio.** Nome
 e apelido de cada passageiro, nos campos próprios: em letra de imprensa se for em papel, ou
@@ -282,7 +292,13 @@ inclui combustível nem estacionamento, e o roteiro faz **~791 km** ao volante: 
 sete lugares isso são **€100 a €130 de
 combustível** ⚠️ *(estimativa: ~7,5 l/100 km a preços alemães de 2026, não é uma cotação)*.
 Somam-se os parques: ✅ **Eibsee €10** (até 4 h, depois €2,00/h), Rothenburg **€8**,
-Nymphenburg ~€5, 🔴 **BMW Welt €3,50/hora com teto de €23 ao dia**, e Allianz Arena ~€12.
+✅ **Nymphenburg grátis**, 🔴 **BMW Welt €3,50/hora com teto de €23 ao dia**, e Allianz Arena
+⚠️ ~€12.
+🔴 *O parque de Nymphenburg estava aqui a ~€5 e **não se paga**: a Bayerische
+Schlösserverwaltung dá ~450 lugares gratuitos para quem visita o palácio e o parque.
+(schloesser.bayern.de, confirmado a 03/09/2026.)* ⚠️ *E o da Allianz Arena fica marcado como
+estimativa: os €12 são tarifa de dia de jogo, e a 29 de setembro não há jogo, por isso é
+provável que se pague menos ou nada. Não foi confirmado na fonte oficial.*
 🔴 *A BMW Welt estava aqui a ~€12 e é por hora: com o bloco de uma hora do Dia 7 são €3,50, e
 não €12, mas quem se demorar paga bem mais. Corrigido a 28/08/2026 na bmw-welt.com.* **As autoestradas alemãs não têm portagem para automóveis ligeiros**, e
 com a rota do Dia 4 invertida também não é preciso comprar a vinheta austríaca.
@@ -624,20 +640,28 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
       genérico de setembro: é o que o calendário oficial da wienerriesenrad.com dá **para esta
       data**, dia a dia. **O bloco das 17:30 cabe com horas de sobra**, e quem se atrasar no
       Schönbrunn sobe à mesma. *(Confirmado a 28/08/2026.)*
-  - **18:15 – 20:15**: Jantar de grupo a 4 min a pé, no lendário **Schweizerhaus**: pernis de
-    porco estaladiços (*Stelze*) e cerveja Budweiser de pressão.
-- **20:15 – 20:35**: **Do Schweizerhaus ao Das Loft, de metro, não a pé.**
+  - **18:15 – 20:15**: Jantar de grupo a **8 min a pé** (580 m), no lendário **Schweizerhaus**:
+    pernis de porco estaladiços (*Stelze*) e cerveja Budweiser de pressão. 🔴 *Dizia aqui
+    "4 min": são 8, remedidos no OSRM a 03/09/2026, e num dia de abertura da Kaiser Wiesn com
+    o Prater cheio contem com mais. **Reservar para as 18:30 e não para as 18:15.***
+- **20:15 – 20:55**: **Do Schweizerhaus ao Das Loft, de metro, não a pé.**
   - ⚠️ **Não se vá a pé.** Do Schweizerhaus, que fica dentro do Prater, ao Das Loft são
     **1,7 km e 23 minutos a pé** *(OSRM, 26/08/2026)*, no escuro e depois de um dia inteiro em
     pé. *(Os "8 minutos" que circulam são de **casa** ao Das Loft, não do Schweizerhaus.)*
-  - ✅ **O que se faz:** 5 min a pé até **Praterstern**, **U1 duas paragens até
-    Schwedenplatz** (3 min), e 3 min a pé pela Schwedenbrücke até à *Praterstraße 1*. Dão
-    **~13 minutos** e o bilhete de 24h ainda cobre a viagem.
+  - ✅ **O que se faz:** a pé até **Praterstern**, **U1 duas paragens até Schwedenplatz**,
+    passagem por casa, e a pé pela Schwedenbrücke até à *Praterstraße 1*.
+  - 🔴 **São 40 minutos e não 20, e este bloco estava mal medido.** As caminhadas foram
+    remedidas no OSRM a **03/09/2026** e nenhuma das três batia certo: do Schweizerhaus a
+    Praterstern são **850 m e 11,5 minutos**, e não 5; de casa ao Das Loft são **630 m e
+    8,5 minutos**, e não 3. Somando os **~6 minutos** de espera e viagem do U1, os **4** de
+    Schwedenplatz a casa e os **10** de trocar de roupa, dá **~40 minutos**. O bloco antigo
+    dizia "~13 minutos" e punha o grupo no bar às 20:35: na verdade chegava por volta das
+    **20:55**, e é essa a hora que aqui fica. O bilhete de 24h continua a cobrir a viagem.
   - 👔 **Aproveitem que o metro vos deixa a 4 minutos de casa.** O Schweizerhaus é um jardim
     onde se come pernil com as mãos, entre fumo de grelhados; o Das Loft é um bar de hotel de
     cinco estrelas com *dress code*. **Passar em casa para trocar de camisa custa 10 minutos**
     e é a diferença entre entrar e ficar à porta. A pé, este desvio não existia.
-- **20:35 – 23:00**: Cocktails no **Rooftop Das Loft** (18.º andar do Hotel SO/ Vienna,
+- **20:55 – 23:00**: Cocktails no **Rooftop Das Loft** (18.º andar do Hotel SO/ Vienna,
   *Praterstraße 1*). Vista noturna de 360° e teto de vidro multicolorido.
   **Não se reserva, e há dress code.**
   - ✅ **Para o bar não se reserva.** A política publicada é **walk-in**, chega-se e entra-se, e se estiver cheio
@@ -834,12 +858,15 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > Hohenschwangau eram para chegar a um torniquete às 14:00. Sem torniquete, almoça-se na
 > aldeia, sentado, entre a ponte e a estrada para Oberammergau.
 >
-> ✅ **Hotel-Restaurant Alpenstuben, Alpseestraße 8, aos pés do castelo.** A alpenstuben.de
-> anuncia *"durchgehend warme Küche von 11 bis 21 Uhr"*, todos os dias, sem dia de descanso.
-> **O "durchgehend" é o que interessa:** a maioria das cozinhas alemãs fecha o almoço entre as
-> 14:00 e as 14:30, e esta não fecha, o que é a razão de ser possível almoçar às 14:15.
-> **Reservar de manhã à mesma**, que são 6 pessoas num sábado de setembro em Hohenschwangau.
-> *(Confirmado a 28/08/2026.)* O *Bräustüberl* do Kloster Ettal (10:00–23:00) é o plano B, mas
+> ✅ **Hotel-Restaurant Alpenstuben, Alpseestraße 8, aos pés do castelo.** Abre **às 12:00**,
+> todos os dias e sem dia de descanso, com **cozinha contínua até às 20:30** de julho a
+> setembro. **O "durchgehend" é o que interessa:** a maioria das cozinhas alemãs fecha o almoço
+> entre as 14:00 e as 14:30, e esta não fecha, o que é a razão de ser possível almoçar às
+> 14:15. **Reservar de manhã à mesma**, que são 6 pessoas num sábado de setembro em
+> Hohenschwangau. *(Listagem oficial da schwangau.de, reverificada a 03/09/2026.)*
+> 🔴 *Este guia dizia "warme Küche von 11 bis 21 Uhr": a casa abre às **12:00**, não às 11:00.
+> Não mexe no almoço das 14:15, porque o que o sustenta é a cozinha contínua e essa
+> confirma-se, mas quem lá aparecesse às 11:30 encontrava a porta fechada.* O *Bräustüberl* do Kloster Ettal (10:00–23:00) é o plano B, mas
 > fica tarde de mais para almoço.
 >
 > 🪙 **Levar moedas de 0,50 € e 1 €.** As casas de banho da aldeia e dos parques funcionam a
@@ -1075,6 +1102,23 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     telhados góticos e as placas dos doadores que pagaram a reconstrução do pós-guerra.
     **25 a 35 minutos**, e sai-se do lado do P4, onde está o carro.
 - **17:15 – 17:30**: Regresso ao carro.
+
+> ### ⏱️ As duas transições da tarde não estão nos blocos, e é aqui que se pagam
+> **Os blocos das 14:30, 15:00 e 15:30 encostam uns aos outros sem um minuto de caminhada pelo
+> meio, e há caminhada.** Remedido no OSRM a **03/09/2026**: da St. Jakobskirche ao Burggarten
+> são **360 m e ~5 minutos**, e do Burggarten ao Kriminalmuseum outros **350 m e ~5 minutos**.
+> São **10 minutos** que a tarde não tem escritos e que a fazem derrapar.
+>
+> ✅ **Não se muda nada, porque o dia absorve-os no fim.** O bloco das 17:15 às 17:30 é
+> generoso de propósito: o passadiço da muralha **sai ao lado do P4**, onde está o carro, e não
+> são precisos 15 minutos para lá chegar. **É essa a folga que paga as duas transições.**
+> Quem quiser recuperá-los mais cedo, corta no Burggarten, que é um miradouro e não uma visita.
+>
+> ⚠️ **O bloco das 16:30 às 17:15 é o mais apertado do dia** e só fecha se o troço da muralha
+> for os **25 minutos** e não os 35: são ~4 min até ao Plönlein, a paragem das fotografias e
+> dos *Schneeballen*, e ~6 min até à Rödertor antes de subir ao passadiço. **Se às 16:50 ainda
+> estiverem no Plönlein, sobe-se à muralha na Rödertor e anda-se sem parar**, ou salta-se a
+> muralha, que é o único item do dia que se corta sem perder dinheiro.
 
 *ℹ️ **Nota de Domingo (Sonntagsruhe):*** o comércio comum fecha ao domingo na Baviera, mas em
 Rothenburg isso quase não se nota, porque a vila é estância turística reconhecida e tem
@@ -1370,11 +1414,15 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     edifício e o parque abrem das 07:30 às 24:00, mas a **exposição é das 09:00 às 18:00,
     última entrada às 17:45** *(bmw-welt.com, confirmado a 27/08/2026)*. A visita das 13:40 às
     14:40 cabe com folga.
-  - 🎉 **E há uma razão nova para este ser o ponto alto do Dia 7.** No verão de 2026, para os
-    **50 anos** do primeiro, **os 20 BMW Art Cars regressam a Munique depois de uma digressão
-    mundial e ficam expostos todos juntos na BMW Welt pela primeira vez.** São os automóveis
-    pintados por Calder, Lichtenstein, Warhol, Koons e companhia. Não estava no plano porque
-    ninguém sabia, e sozinho justifica os 60 minutos.
+  - 🔴 **Os 20 BMW Art Cars já não estão cá, e é preciso contar com isso.** A exposição
+    *"BMW ART CARS: 20 ARTISTS, 50 YEARS OF INNOVATION"*, que juntou os 20 carros pintados por
+    Calder, Lichtenstein, Warhol, Koons e companhia pela primeira vez na história, esteve na
+    BMW Welt de **29 de julho a 31 de agosto de 2026** e **fechou quatro semanas antes de
+    vocês chegarem**. *(Comunicado oficial do BMW Group PressClub, T0457568DE, verificado a
+    03/09/2026.)* **Este guia dava-a como o ponto alto do dia: dava mal.** O que fica na BMW
+    Welt é o pavilhão permanente, que é gratuito e cabe nos 60 minutos, mas é uma paragem
+    normal e não um acontecimento. Quem quiser Art Cars tem de contar com o **Museu BMW** ao
+    lado, que é pago e mostra exemplares rotativos da coleção, não os 20.
   - 💳 🔴 **Aqui não se paga em dinheiro.** A BMW Welt **não aceita numerário** em entradas,
     visitas, workshops nem no parque de estacionamento: é tudo cartão. É o oposto de tudo o
     resto desta viagem, e convém saber antes de chegar ao parquímetro com notas na mão.
@@ -1384,10 +1432,13 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     pernas, no dia em que elas estão piores. **A vista de cima de uma cidade já se fez no
     Dia 1**, na Torre Sul do Stephansdom. Se por milagre estiverem adiantados às
     14:00, é a primeira coisa a acrescentar: é o melhor miradouro gratuito de Munique.
-    ⚠️ **A Olympiaturm, a torre, aparentemente está aberta.** O olympiapark.de anuncia a
-    subida e a vista normalmente; **o encerramento até 2027 que circula é do Estádio Olímpico**,
-    que é coisa diferente. *(Consultado a 26/08/2026.)* Não muda o dia, porque o Olympiaberg
-    não está no plano.
+    🔴 **A Olympiaturm está fechada, e este guia dizia o contrário.** A torre e o edifício do
+    átrio **estão encerrados desde 1 de junho de 2024** para renovação de elevadores, proteção
+    contra incêndios e do restaurante giratório *181*, e a reabertura **escorregou para 2027**.
+    *(Olympiapark München / SWM, verificado a 03/09/2026.)* Não é o Estádio Olímpico que está
+    confundido com a torre: **estão os dois fechados**, o estádio desde outubro de 2025. Não
+    muda o dia, porque o Olympiaberg não está no plano, mas **quem contasse subir à torre não
+    subia**.
   - ✅ *(O Museu BMW, ao lado, é pago e **não cabe neste horário**: ter–dom **10:00–18:00**,
     última entrada às **17:30**. Se alguma vez entrar no plano, o bilhete avulso é €17 mas
     **em grupo de 5 ou mais pessoas são €16 por pessoa**, ou seja €96 para os 6 e não €102.
@@ -1472,8 +1523,13 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 - [ ] **Táxi de Augsburg Hbf para a Enterprise** reservado por telefone.
 - [ ] **Como e a que horas chegam os 2 amigos a Augsburg** no Dia 3, e se voltam no TP 555.
 - [ ] **N.º de lugares reservados no voo de regresso**: 4 ou 6?
-- [ ] **Mesas reservadas:** Schweizerhaus (Dia 2, **crítica, é o dia de abertura da Kaiser
-      Wiesn ali ao lado**), Bauerntanz (Dia 3), jantar de sábado às **21:30** (Dia 4).
+- [ ] 🔴 **Confirmar por telefone o horário de sábado da Enterprise de Augsburg**
+      (**+49 821 448360**). As listagens públicas concordam que abre às 09:00 mas divergem no
+      fecho, entre as 12:00 e as 14:00. **É o plano B de que depende o Dia 4** se o ICE 116 se
+      atrasar, e vale a pena ouvi-lo da boca deles.
+- [ ] **Mesas reservadas:** Schweizerhaus (Dia 2, **às 18:30 e não às 18:15**, e é **crítica,
+      é o dia de abertura da Kaiser Wiesn ali ao lado**), Bauerntanz (Dia 3), jantar de sábado
+      às **21:30** (Dia 4).
       🔴 *O **Das Loft** saiu desta lista a 27/08/2026: para o bar não se reserva, é walk-in, e
       reservar mesa para depois só beber custa €25 por pessoa.*
 - [ ] **Levar dinheiro vivo:** a **Torre Sul do Stephansdom** no Dia 1 (€8 × 4 = **€32**), o

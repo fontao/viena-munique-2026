@@ -1,6 +1,6 @@
 # Meteorologia — Viena & Munique 2026
 
-Actualizado a quarta, 26 de agosto de 2026 · fonte: Open-Meteo
+Actualizado a quinta, 3 de setembro de 2026 · fonte: Open-Meteo
 
 ## Matriz — todas as paragens, todos os dias
 
@@ -33,7 +33,7 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 
 | Dia | Máx. normal | Máx. sazonal | Anomalia | Mín. sazonal | Chuva normal | Chuva sazonal | Membros com chuva |
 |---|---|---|---|---|---|---|---|
-| 23/09 | 25.4 °C | 26 °C (23–31) | +0.9 °C | 16 °C (15–20) | 0.5 mm | 0.0 mm | 14% |
+| 23/09 | 25.4 °C | 27 °C (23–31) | +1.8 °C | 17 °C (14–19) | 0.5 mm | 0.0 mm | 14% |
 
 **quarta, 23 de setembro de 2026** — 🌤️ Pouco nublado · 17–25 °C · chuva 0.3 mm, máx. 20% prob. · rajadas até 32 km/h  ⚠️ média dos últimos 10 anos (fora do horizonte de previsão)
 
@@ -70,9 +70,9 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 
 | Dia | Máx. normal | Máx. sazonal | Anomalia | Mín. sazonal | Chuva normal | Chuva sazonal | Membros com chuva |
 |---|---|---|---|---|---|---|---|
-| 23/09 | 19.5 °C | 25 °C (16–30) | +5.4 °C | 14 °C (9–18) | 2.1 mm | 0.0 mm | 22% |
-| 24/09 | 19.0 °C | 25 °C (16–30) | +5.9 °C | 14 °C (9–17) | 2.9 mm | 0.0 mm | 26% |
-| 25/09 | 18.6 °C | 24 °C (16–30) | +5.4 °C | 13 °C (9–17) | 3.4 mm | 0.0 mm | 26% |
+| 23/09 | 19.5 °C | 21 °C (15–30) | +1.8 °C | 12 °C (8–17) | 2.1 mm | 0.0 mm | 26% |
+| 24/09 | 19.0 °C | 21 °C (15–28) | +2.3 °C | 12 °C (8–18) | 2.9 mm | 0.0 mm | 24% |
+| 25/09 | 18.6 °C | 22 °C (16–29) | +3.8 °C | 12 °C (8–16) | 3.4 mm | 0.0 mm | 16% |
 
 **quarta, 23 de setembro de 2026** — ⛅ Parcialmente nublado · 11–19 °C · chuva 2.0 mm, máx. 40% prob. · rajadas até 27 km/h  ⚠️ média dos últimos 10 anos (fora do horizonte de previsão)
 
@@ -167,10 +167,10 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 
 | Dia | Máx. normal | Máx. sazonal | Anomalia | Mín. sazonal | Chuva normal | Chuva sazonal | Membros com chuva |
 |---|---|---|---|---|---|---|---|
-| 25/09 | 17.3 °C | 20 °C (13–27) | +3.1 °C | 10 °C (7–14) | 2.4 mm | 0.0 mm | 28% |
-| 26/09 | 17.1 °C | 21 °C (13–26) | +3.9 °C | 10 °C (5–14) | 4.3 mm | 0.1 mm | 36% |
-| 27/09 | 18.2 °C | 20 °C (12–26) | +1.9 °C | 9 °C (5–13) | 2.2 mm | 0.0 mm | 30% |
-| 28/09 | 16.9 °C | 20 °C (13–26) | +2.8 °C | 10 °C (4–14) | 2.1 mm | 0.0 mm | 24% |
+| 25/09 | 17.3 °C | 20 °C (14–27) | +2.7 °C | 9 °C (5–14) | 2.4 mm | 0.1 mm | 24% |
+| 26/09 | 17.1 °C | 20 °C (14–27) | +2.8 °C | 10 °C (4–15) | 4.3 mm | 0.2 mm | 22% |
+| 27/09 | 18.2 °C | 19 °C (14–26) | +1.2 °C | 10 °C (6–14) | 2.2 mm | 0.2 mm | 34% |
+| 28/09 | 16.9 °C | 19 °C (14–27) | +2.4 °C | 9 °C (5–14) | 2.1 mm | 0.0 mm | 26% |
 
 **sexta, 25 de setembro de 2026** — 🌦️ Chuva fraca · 9–16 °C · chuva 2.5 mm, máx. 40% prob. · rajadas até 26 km/h  ⚠️ média dos últimos 10 anos (fora do horizonte de previsão)
 
@@ -294,7 +294,7 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 
 | Dia | Máx. normal | Máx. sazonal | Anomalia | Mín. sazonal | Chuva normal | Chuva sazonal | Membros com chuva |
 |---|---|---|---|---|---|---|---|
-| 26/09 | 15.3 °C | 20 °C (11–24) | +4.2 °C | 8 °C (3–12) | 5.4 mm | 0.2 mm | 38% |
+| 26/09 | 15.3 °C | 19 °C (13–24) | +3.6 °C | 8 °C (2–11) | 5.4 mm | 0.3 mm | 40% |
 
 **sábado, 26 de setembro de 2026** — 🌦️ Chuva fraca · 8–15 °C · chuva 5.2 mm, máx. 50% prob. · rajadas até 28 km/h  ⚠️ média dos últimos 10 anos (fora do horizonte de previsão)
 
@@ -331,7 +331,7 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 
 | Dia | Máx. normal | Máx. sazonal | Anomalia | Mín. sazonal | Chuva normal | Chuva sazonal | Membros com chuva |
 |---|---|---|---|---|---|---|---|
-| 26/09 | 16.0 °C | 20 °C (12–24) | +4.2 °C | 9 °C (4–13) | 3.6 mm | 0.2 mm | 38% |
+| 26/09 | 16.0 °C | 20 °C (14–25) | +3.6 °C | 9 °C (3–12) | 3.6 mm | 0.3 mm | 40% |
 
 **sábado, 26 de setembro de 2026** — 🌦️ Chuva fraca · 7–16 °C · chuva 3.8 mm, máx. 50% prob. · rajadas até 30 km/h  ⚠️ média dos últimos 10 anos (fora do horizonte de previsão)
 
@@ -368,7 +368,7 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 
 | Dia | Máx. normal | Máx. sazonal | Anomalia | Mín. sazonal | Chuva normal | Chuva sazonal | Membros com chuva |
 |---|---|---|---|---|---|---|---|
-| 26/09 | 15.5 °C | 19 °C (11–23) | +3.8 °C | 8 °C (3–12) | 4.6 mm | 0.2 mm | 38% |
+| 26/09 | 15.5 °C | 19 °C (13–24) | +3.2 °C | 8 °C (2–11) | 4.6 mm | 0.3 mm | 40% |
 
 **sábado, 26 de setembro de 2026** — 🌦️ Chuva fraca · 7–15 °C · chuva 4.7 mm, máx. 60% prob. · rajadas até 28 km/h  ⚠️ média dos últimos 10 anos (fora do horizonte de previsão)
 
@@ -405,7 +405,7 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 
 | Dia | Máx. normal | Máx. sazonal | Anomalia | Mín. sazonal | Chuva normal | Chuva sazonal | Membros com chuva |
 |---|---|---|---|---|---|---|---|
-| 27/09 | 17.6 °C | 20 °C (13–26) | +2.3 °C | 10 °C (6–15) | 3.4 mm | 0.0 mm | 32% |
+| 27/09 | 17.6 °C | 20 °C (15–28) | +2.3 °C | 11 °C (6–14) | 3.4 mm | 0.1 mm | 28% |
 
 **domingo, 27 de setembro de 2026** — 🌦️ Chuva fraca · 10–17 °C · chuva 3.2 mm, máx. 60% prob. · rajadas até 31 km/h  ⚠️ média dos últimos 10 anos (fora do horizonte de previsão)
 
@@ -442,8 +442,8 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 
 | Dia | Máx. normal | Máx. sazonal | Anomalia | Mín. sazonal | Chuva normal | Chuva sazonal | Membros com chuva |
 |---|---|---|---|---|---|---|---|
-| 28/09 | 16.7 °C | 20 °C (14–25) | +3.2 °C | 10 °C (5–14) | 3.6 mm | 0.1 mm | 24% |
-| 29/09 | 17.0 °C | 20 °C (13–26) | +2.5 °C | 10 °C (4–14) | 1.6 mm | 0.1 mm | 28% |
+| 28/09 | 16.7 °C | 19 °C (14–26) | +2.3 °C | 10 °C (4–14) | 3.6 mm | 0.0 mm | 26% |
+| 29/09 | 17.0 °C | 19 °C (14–26) | +1.8 °C | 10 °C (5–13) | 1.6 mm | 0.0 mm | 22% |
 
 **segunda, 28 de setembro de 2026** — 🌦️ Chuva fraca · 10–16 °C · chuva 3.4 mm, máx. 40% prob. · rajadas até 23 km/h  ⚠️ média dos últimos 10 anos (fora do horizonte de previsão)
 

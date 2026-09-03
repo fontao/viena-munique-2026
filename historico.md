@@ -14,6 +14,68 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 9.ª revisão · 3 de setembro de 2026
+
+Revisão de manutenção a 20 dias da partida, com o Gemini 3.8 Flash a rever cada um dos sete
+dias e o plano inteiro, e todas as distâncias em causa remedidas no OSRM. **Quatro correções
+sobreviveram à verificação; cinco acusações do Gemini foram verificadas e rejeitadas.**
+
+**O que se corrigiu.**
+
+1. **Os 20 BMW Art Cars não estão lá.** A exposição fechou a 31 de agosto de 2026. Estava dada
+   como confirmada e era o argumento que sustentava os 60 minutos na BMW Welt no Dia 7. Ver a
+   caixa na 8.ª revisão.
+2. **A Olympiaturm está fechada desde junho de 2024**, com reabertura em 2027. O roteiro dizia
+   o contrário e atribuía o encerramento só ao Estádio Olímpico: **estão os dois fechados**.
+   Não muda o dia, porque o Olympiaberg já tinha saído do plano.
+3. **A transição do Dia 2 para o Das Loft eram 40 minutos e não 20.** As três caminhadas
+   estavam subavaliadas: Schweizerhaus ➔ Praterstern são 11,5 min e não 5, casa ➔ Das Loft são
+   8,5 min e não 3, e Riesenrad ➔ Schweizerhaus são 8 min e não 4. Os cocktails passam para as
+   **20:55** e a mesa do Schweizerhaus passa a reservar-se para as **18:30**. **O que isto
+   custa são 20 minutos de bar**, e nada mais: o bloco já acabava às 23:00.
+4. **Os Bayern-Ticket passam de 5+1 para 3+3.** Custa exatamente o mesmo, €108, porque a
+   tarifa é €34 pela primeira pessoa e €10 por cada uma a mais. **O que compra é a hipótese de
+   o grupo se separar** na noite da Oktoberfest sem que cinco pessoas fiquem amarradas ao
+   mesmo bilhete. Sugestão do Gemini, e é boa.
+
+**O que se verificou e se rejeitou**, para não voltar a ser proposto:
+
+- **"Os passes de 48h/72h da Wiener Linien ainda existem."** Não existem. Foram extintos a
+  1 de janeiro de 2026 e o roteiro está certo, tal como estão certos os €10,20 em papel contra
+  €9,70 na app e os €3,20 do bilhete simples. *(wienerlinien.at, 03/09/2026.)*
+- **"O Riesenrad custa €17 e não €14,50."** Custa €14,50 para adulto. Os €17 são outra coisa.
+  *(wien.info e wienerriesenrad.com, 03/09/2026.)*
+- **"A Enterprise de Augsburg fecha ao sábado."** Abre, a partir das 09:00. As listagens
+  divergem na hora de fecho (12:00 ou 14:00), e é por isso que **confirmar por telefone entrou
+  na lista de fechos**, mas o plano B do Dia 3 existe.
+- **"O Bauerntanz não fica atrás da Câmara."** Fica a 290 m da Rathausplatz, 4 minutos a pé
+  *(OSRM)*. A descrição do roteiro está correta.
+- **"Das 06:15 às 02:30 não são 20h15."** São. O Gemini contou a partir das 04:45.
+
+**Segunda ronda de verificações, no mesmo dia.** Fui aos itens que tinham ficado por confirmar:
+
+5. **O Alpenstuben abre às 12:00 e não às 11:00**, com cozinha contínua até às 20:30 de julho a
+   setembro. **Não mexe no almoço das 14:15**, porque o que o sustenta é a cozinha contínua e
+   essa confirma-se, mas o horário estava mal citado com um ✅ em cima.
+   *(schwangau.de, 03/09/2026.)*
+6. **O parque de Nymphenburg é gratuito**, ~450 lugares, e estava orçamentado a ~€5.
+   *(schloesser.bayern.de, 03/09/2026.)* O da Allianz Arena desceu a ⚠️: os €12 são tarifa de
+   dia de jogo e a 29 de setembro não há jogo, mas não se confirmou o valor sem jogo.
+7. **O Dia 5 tem 10 minutos de caminhada que não estão em bloco nenhum**: St. Jakobskirche ➔
+   Burggarten ➔ Kriminalmuseum são ~5 minutos cada *(OSRM, 03/09/2026)*. **Não se
+   reestruturou o dia**, porque o bloco de 15 minutos do regresso ao carro é folga a mais (a
+   muralha sai ao lado do P4) e absorve-os. Ficou escrito onde está a folga e o que se corta se
+   derrapar. *(O Gemini dizia 7-8 e 10-12 minutos: exagerou, mas tinha razão no essencial.)*
+
+**Meteorologia.** Ainda faltam três dias para o primeiro dia da viagem entrar na janela de
+previsão dos 16 dias, por isso continua tudo climatologia e tendência sazonal. **A novidade é
+que o sinal quente arrefeceu**: a anomalia sazonal de Viena caiu de +5,4 °C para +1,8 °C
+desde 26 de agosto, e o mesmo aconteceu em todas as paragens alemãs. Continua acima do
+normal e seco, mas muito menos. **Não se decide nada com isto**, e a matriz não sugere troca
+nenhuma que a ordem dos dias permita.
+
+---
+
 ## 8.ª revisão · 28 de agosto de 2026
 
 Verificação dos museus a comprar, um a um, nos sites oficiais. Quatro estavam certos, dois não.
@@ -275,6 +337,13 @@ Reichsküchenmeister (diário 11:30–23:00, **cozinha contínua 11:30–21:00**
 
 **Bónus:** a exposição dos **20 BMW Art Cars** está confirmada aberta das 09:00 às 18:00, com
 última entrada às 17:45. A visita das 13:40 às 14:40 apanha-a.
+
+> 🔴 **Isto ficou errado, e foi corrigido a 3 de setembro de 2026.** A exposição correu de
+> **29 de julho a 31 de agosto de 2026** e fechou quatro semanas antes da viagem: a 29 de
+> setembro não há Art Cars na BMW Welt. O que se confirmou em agosto foi o horário do
+> edifício, não as datas da exposição, e o ✅ foi posto na frase errada. É o exemplo exato do
+> que a regra 3 proíbe: um facto plausível promovido a confirmado sem se abrir a fonte que o
+> datava.
 
 ---
 
