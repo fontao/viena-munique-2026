@@ -14,6 +14,81 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 13.ª revisão · 10 de setembro de 2026
+
+**São duas malas, e a hora do check-in só se confirma no próprio dia.** Isso mudou a forma da
+tarde do Dia 1, que até aqui começava a andar às 14:45, antes de a porta abrir.
+
+1. **Direto para casa, e o passeio só arranca depois de as malas estarem dentro.** O grupo
+   chega à Judengasse 11 por volta das 14:20 e a espera até à porta abrir faz-se sentada e a
+   comer, a 43 m do apartamento (ponto 6). O passeio do centro passa a **15:05–17:45** (era
+   14:45–17:45), com o Ankeruhr às 15:15 e a Torre Sul do Stephansdom às **15:30–16:30**. As
+   duas malas são o único trajecto do dia em que andam à mão, do U1 em Schwedenplatz até à
+   porta.
+
+2. **O recital de órgão das 15:00 da Peterskirche passa a ser a moeda de troca.** É a única
+   coisa concreta que se perde por o passeio começar depois do check-in, e mesmo assim só se o
+   check-in for mesmo às 15:00: com a porta aberta mais cedo, o recital apanha-se invertendo a
+   ordem do passeio. O detalhe está no ponto 7.
+
+3. **A âncora das 17:45 não se tocou.** O pôr do sol às 18:49 continua a mandar, e a compressão
+   faz-se no bloco poente (Graben, Kohlmarkt, Hofburg e Volksgarten passam de 75 para 60
+   minutos), nunca no fim. Sair do Volksgarten às 17:45 é o que permite chegar ao canal às
+   18:20, na hora dourada, em vez de a apanhar a acabar.
+
+4. **Saiu o *hedge* de tarifa do transfer do aeroporto.** O roteiro explicava que o
+   viennaairport.com anuncia "a partir de €4,10" e que a tarifa podia sair mais barata do que os
+   €5,50 orçamentados. Não muda nada do que se faz e enche a linha com uma conta que ninguém vai
+   fazer no aeroporto. Fica orçamentado pelo pior caso, **€22 para os 4**, e a linha do hub passa
+   a dizer o mesmo (€5,50/pax = €22) em vez de "€4,10 a €5,50", que era uma assimetria entre os
+   dois documentos.
+
+5. **Limpeza das datas de confirmação em toda a prosa, e regra nova.** Todos os
+   `(confirmado a 26/08/2026)` e `(alpenstuben.de, confirmada a 10/09/2026)` saíram dos dois
+   documentos: o marcador ✅⚠️🔴 já diz se o facto está confirmado e a razão ao lado do número já
+   diz o que o governa. **O nome da fonte fica quando é ele que torna a estimativa verificável;
+   a data sai, porque é essa a parte que envelhece.** Passa a ser a regra 10 do `CLAUDE.md` e
+   está também nas convenções. A proveniência de medição é a única exceção:
+   `(OSRM, perfil a pé, 10/09/2026)` fica, porque uma distância sem ferramenta e sem data ao
+   lado é indistinguível de um palpite.
+
+6. **O Dia 1 não tinha almoço nenhum, e passou a ter.** Entre o encontro às 06:15 e o jantar das
+   19:45 o roteiro não marcava uma única refeição: o grupo aterra às 12:35 e às 14:30 já quase
+   tudo o que é restaurante fechou a cozinha ou está entre serviços (o *Koh-i-noor*, ao lado,
+   fecha às 14:30). Como a espera do check-in é obrigatoriamente com as malas, o almoço tem de
+   ser a menos de dois minutos da porta. Entrou o **Schachtelwirt**, na **Judengasse 5**, a
+   **43 m** do apartamento e na mesma rua: *Schweinsbraten* com *Semmelknödel* numa caixa, com
+   **mesas dentro**, seg–sáb 11:30–21:00. ⚠️ ~€8,50–9,50/pax, ~€36 para os 4. **O preço vem de
+   uma lista de menus, não do site da casa**, que é só JavaScript, e por isso fica em ⚠️ e com
+   ordem de confirmar no balcão, em vez de subir a ✅. O plano B é o **Würstelstand am Hoher
+   Markt**, mais barato (€5–7) mas *takeaway* puro, **sem uma única mesa**, o que com duas malas
+   é pior.
+
+7. **A hora do check-in não é um facto, é uma incógnita, e o plano teve de deixar de a tratar
+   como fixa.** Numa primeira passagem ficou escrito "o check-in é às 15:00, nem antes nem
+   depois", como se fosse uma regra da casa. Não é: **o anfitrião confirma a hora por volta das
+   14:00 do próprio dia**, com o grupo já dentro do U1, e as 15:00 são apenas o cenário
+   provável. Corrigido nos dois documentos, e a estrutura passou a ser a que aguenta as duas
+   pontas:
+   - **O almoço é o que absorve a espera**, seja ela de 20 minutos ou de duas horas. É a razão
+     principal para ele ser a 43 m da porta e não a meio caminho: quem está sentado com as malas
+     debaixo da mesa não precisa de saber a hora.
+   - **Se a porta abrir às 15:00 ou antes**, o passeio das 15:05 corre como está escrito.
+   - **Se abrir mais tarde**, corta-se pelo *Graben* e pelo *Hofburg*. O que não se corta é o
+     **Stephansdom** (a última subida à torre é às 18:15 e não há outro dia) nem a **saída das
+     17:45**, que é a âncora do pôr do sol.
+   - **A correção também devolveu uma coisa.** Antes disto, o recital de órgão das 15:00 da
+     Peterskirche estava dado como perdido e sem remédio. Só se perde se o check-in for mesmo às
+     15:00: **com a porta aberta mais cedo, inverte-se a ordem do passeio e ainda se apanha o
+     recital.** Passou a ser a única recompensa concreta de pedir a hora com antecedência, e
+     ficou escrita como tal em vez de ficar como custo fixo.
+   - **Consequência prática:** o contacto do anfitrião é agora um item de preparação, não uma
+     comodidade. **Confirmar o número no dia anterior e ter o WhatsApp descarregado antes de
+     sair de Lisboa**, porque a mensagem chega a meio do metro e o aeroporto é o último sítio
+     com wifi garantido.
+
+---
+
 ## 12.ª revisão · 10 de setembro de 2026
 
 **Uma passagem de verificação, a pedido, sobre o que ficou por abrir em fonte primária.**

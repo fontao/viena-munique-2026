@@ -20,7 +20,7 @@ tomadas, as alternativas rejeitadas e o que cada escolha custou.
 | ✅ ~~1~~ | ~~**Neuschwanstein** (6 pax) · ~~**€141**~~ | **DECIDIDO a 28/08/2026: não se compra.** O interior só existia em alemão às horas que serviam ao Dia 4, e o áudio-guia em português só às 17:55, dependente do último shuttle das 17:30. **Vai-se à Marienbrücke, que é grátis.** O prazo desaparece e o Dia 4 muda de forma. | - |
 | ✅ ~~2~~ | ~~**Mesa na Oktoberfest**~~ | **DECIDIDO: não se reserva mesa.** Vai-se sem reserva, a andar entre tendas. **O prazo de 27 de agosto deixa de existir**, e o Dia 6 muda de forma por causa disso. Ver o ponto 2 do hub. | - |
 | ✅ ~~3~~ | ~~**Viagem Viena ➔ Augsburgo** (4 pax)~~ | **COMPRADO**: Westbahn 910 (€175,96) + ICE 116 na DB (€157,96). **Total €333,92.** | - |
-| 🔴 **4** | **Schönbrunn** (4 pax) · **€168** | Hora marcada e as faixas esgotam com semanas de antecedência. **Atenção: mudou de nome e subiu para €42/pax em 2026.** ✅ *Preço reconfirmado na imperialtickets.com a 27/08/2026: Schlossticket €42, Staatsappartements €30.* | [imperialtickets.com](https://www.imperialtickets.com) |
+| 🔴 **4** | **Schönbrunn** (4 pax) · **€168** | Hora marcada e as faixas esgotam com semanas de antecedência. **Atenção: mudou de nome e subiu para €42/pax em 2026.** ✅ *Preço na imperialtickets.com: Schlossticket €42, Staatsappartements €30.* | [imperialtickets.com](https://www.imperialtickets.com) |
 
 ---
 
@@ -46,13 +46,13 @@ bilhete nenhum**, e é de lá que vem a fotografia que toda a gente conhece do c
 *"Sie benötigen kein Ticket, wenn Sie das Schloss nur von außen sehen möchten. Der Zugang zum
 Schlosshof ist jedoch ohne Eintrittskarte leider nicht möglich."* **O pátio do castelo exige
 bilhete.** Descer da paragem do shuttle até à porta do Neuschwanstein são 15 minutos íngremes
-que acabam numa cancela fechada. *(Confirmado a 28/08/2026.)*
+que acabam numa cancela fechada.
 
 🚌 ✅ **Shuttle: €5,00 por pessoa ida e volta, €3,50 só de ida. São €30 para os 6.** Sai do
 parque **P4 (Alpsee)** e larga no miradouro *Jugend*, a 5 minutos a pé da ponte. Das 08:00 às
 17:30 de subida, sem horário fixo, ~20 em 20 minutos. Carruagem de cavalos, em alternativa:
 €8 a subir e €4 a descer. A pé do P4 à ponte são **45 minutos** de rampa.
-*(Tabela oficial da hohenschwangau.de, confirmada a 28/08/2026.)*
+*(Tabela oficial da hohenschwangau.de.)*
 
 ⚠️ **Confirmar o estado da Marienbrücke na véspera**, em hohenschwangau.de. Fecha por mau
 tempo ou obras, sem aviso, e neste plano ela deixou de ser um extra e passou a ser o dia.
@@ -69,8 +69,7 @@ tem de ser jogado às horas certas, e é por isso que a Oktoberfest **começa à
 17:00**. 📖 *As contas que levaram a esta decisão estão em [`historico.md`](historico.md).*
 
 **As regras que decidem o plano.** Salvo onde se diz o contrário, tudo o que se segue está na
-[oktoberfest.de](https://www.oktoberfest.de/en), que é a fonte a usar para a Oktoberfest
-*(consultada a 26/08/2026)*:
+[oktoberfest.de](https://www.oktoberfest.de/en), que é a fonte a usar para a Oktoberfest:
 
 - ✅ **A entrada nas tendas é sempre gratuita**, a qualquer hora e sem bilhete. O que se
   reserva é o lugar, não a entrada.
@@ -129,7 +128,7 @@ tem de ser jogado às horas certas, e é por isso que a Oktoberfest **começa à
 | **Oide Wiesn** | Recinto à parte, com **três tendas** (*Festzelt Tradition*, *Schützenlisl*, *Boandlkramerei*) mais o *Museumszelt*. Música tradicional, muito mais calma, e **um terço dos lugares nunca é reservável**. | ✅ **A rede de segurança.** Entrada **€4** (15+), grátis até aos 14 e **grátis para todos a partir das 21:00**. Reentrada por **carimbo na mão**, pedido ao sair |
 
 > ### ✅ A Oide Wiesn de 2026
-> *(Confirmado a 26/08/2026 na oktoberfest.de e na muenchen.de.)*
+> *(oktoberfest.de e muenchen.de)*
 >
 > - ✅ **Há Oide Wiesn em 2026**, de 19 de setembro a 4 de outubro, na parte sul da
 >   Theresienwiese. O **ZLF não ocupa o terreno este ano**: o próximo Oktoberfest *sem* Oide
@@ -229,7 +228,8 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 
 | Item | Pax | Preço 2026 | Nota |
 |---|---|---|---|
-| **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €4,10 a €5,50/pax = **€17 a €22** | ✅ **Decidido.** Pedir *Flughafen Wien ➔ Wien*, com zona central |
+| **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €5,50/pax = **€22** | ✅ **Decidido.** Pedir *Flughafen Wien ➔ Wien*, com zona central |
+| **Almoço no Schachtelwirt** (Dia 1) | 4 | ⚠️ ~€8,50–9,50/pax = **~€36** | **Judengasse 5**, a 1 min, com as malas · **mesas dentro** · seg–sáb 11:30–21:00 |
 | **Bilhete 24h Wien Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às **13:20**, no Karlsplatz |
 | **Torre Sul do Stephansdom** | 4 | ✅ **€8,00**/pax = **€32** | 343 degraus · **só dinheiro, na catedral** · aberta 09:00–19:00, última subida 18:15 |
 | **Riesenrad** (Prater) | 4 | ✅ €14,50/pax = **€58** | Dia 2 · **quinta 24: 09:00–22:45**, no calendário oficial da própria data |
@@ -272,8 +272,7 @@ documento com fotografia.
 
 > ### ✅ Comprar os dois Bayern-Ticket na véspera, e não na estação
 > **Compram-se até 180 dias antes**, e comprá-los na app ou no site em vez de ao balcão de
-> Augsburg na manhã do Dia 6 resolve três coisas de uma vez *(tarifa e regras confirmadas na
-> DB Regio Bayern a 27/08/2026)*:
+> Augsburg na manhã do Dia 6 resolve três coisas de uma vez *(tarifa e regras da DB Regio Bayern)*:
 > - **Poupa a taxa de balcão.** No *DB Reisezentrum* acrescem **€2 por bilhete**, ou seja €4.
 >   Na app e nas máquinas não há taxa.
 > - **Acaba com os nomes escritos à mão** à pressa, com seis pessoas e o comboio a chegar: no
@@ -296,11 +295,11 @@ Somam-se os parques: ✅ **Eibsee €10** (até 4 h, depois €1,00/h), Rothenbu
 ✅ **€5,00/dia**.
 🔴 *O parque de Nymphenburg estava aqui a ~€5 e **não se paga**: a Bayerische
 Schlösserverwaltung dá ~450 lugares gratuitos para quem visita o palácio e o parque.
-(schloesser.bayern.de, confirmado a 03/09/2026.)* ✅ *E o da Allianz Arena fechou-se a
+(schloesser.bayern.de.)* ✅ *E o da Allianz Arena fechou-se a
 10/09/2026: **em dia sem jogo custa €5,00 por dia** para ligeiros, até 2 h depois de o
 estádio fechar, pago sem dinheiro, com cartão ou EC. Os ~€12 que aqui estavam eram tarifa de
 dia de jogo e nunca se aplicariam a uma terça sem futebol.
-(allianz-arena.com/de/anreise/spielfrei, confirmado a 10/09/2026.)*
+(allianz-arena.com/de/anreise/spielfrei.)*
 🔴 *A BMW Welt estava aqui a ~€12 e é por hora: com o bloco de uma hora do Dia 7 são €3,50, e
 não €12, mas quem se demorar paga bem mais. Corrigido a 28/08/2026 na bmw-welt.com.* **As autoestradas alemãs não têm portagem para automóveis ligeiros**, e
 com a rota do Dia 4 invertida também não é preciso comprar a vinheta austríaca.
@@ -310,7 +309,7 @@ com a rota do Dia 4 invertida também não é preciso comprar a vinheta austría
 ## ⚠️ Mudanças de 2026 que alteram o plano original
 
 **Transportes de Viena: os passes de 48h e 72h foram descontinuados** a 1 de janeiro de
-2026. ✅ *Confirmado na wienerlinien.at a 26/08/2026, com a tarifa nova de 1 de janeiro.*
+2026.
 Só existem: bilhete simples **€3,20 em papel e €3,00 na app**, **24h €10,20 em papel e
 €9,70 na app** (comprar na app poupa €0,50 × 4 = **€2**) e um de 7 dias que
 ❌ **não serve para nada aqui**, porque só há três dias em Viena.
@@ -338,7 +337,7 @@ fechada (até outubro de 2027):
   Landstraße**, no centro, para trocar agulhas e cruzamentos de via, com a linha partida em
   Heiligenstadt–Schwedenplatz e Hütteldorf–Landstraße. **O troço Hütteldorf–Schönbrunn andou
   o tempo todo.** O corte Hütteldorf–Schönbrunn foi de um ano anterior e faz parte da fase
-  já concluída do programa de modernização. *(Confirmado a 26/08/2026.)*
+  já concluída do programa de modernização.
   **Este roteiro andava a avisar de uma obra que já não existe: o aviso sai.**
   Continua a valer a pena dar uma vista de olhos em wienerlinien.at na véspera, como para
   qualquer cidade, mas não há aqui risco nenhum a preparar.
@@ -393,40 +392,58 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
   U1** direto até *Schwedenplatz* (7 min) + 4 min a pé. **~€5,50/pessoa (4 pax ≈ €22)**, tudo
   incluído no mesmo bilhete.
   - 🕐 **Parte aos :03 e aos :33.** Com aterragem às 12:35 o realista é o das **13:33**,
-    chegando à porta de casa por volta das **14:20**, não às 14:15. Como o check-in nestes
-    apartamentos é tipicamente às 15:00, isto não é problema: é mais um motivo para pedir
-    *early check-in* ou combinar deixar as malas.
+    chegando à porta de casa por volta das **14:20**, não às 14:15.
+  - 🔑 **A hora do check-in só se sabe por volta das 14:00 do próprio dia, com o grupo já em
+    trânsito.** O mais provável são as **15:00**, mas é o anfitrião que decide e pode ser outra
+    coisa. **Pedir o número a que responde no dia anterior**, e ter o WhatsApp descarregado
+    antes de sair de Lisboa: o aeroporto tem wifi, o U1 por baixo da cidade não.
   - 🎫 **Pedir o bilhete *Flughafen Wien ➔ Wien*** (com a zona central incluída), **não** só
     até Wien Hbf, é isso que inclui o U1 no mesmo bilhete. Com o errado, é preciso um
     bilhete de metro à parte de €3,20 por pessoa.
-  - 💶 ⚠️ **A tarifa pode ser mais baixa do que a orçamentada, e o erro é a nosso favor.**
-    O **viennaairport.com anuncia "a partir de €4,10"** para Wien Mitte ou Wien Hbf **com as
-    viagens na rede Wiener Linien incluídas**, contra os €5,50 aqui orçamentados.
-    *(Consultado a 26/08/2026.)* Não é uma cotação para a data, e os €5,50 continuam a ser
-    coerentes com a decomposição €2,30 (zona de Schwechat) + €3,20 (bilhete de Viena).
-    **Fica orçamentado pelo pior caso, €22 para os 4, e sobra troco se forem €16,40.**
-    Confirmar na app ÖBB no próprio dia.
-  - 🚫 **No aeroporto, ignorar o CAT e o S7, mesmo que a sinalética insista.** O **CAT** é a
-    ligação mais publicitada dentro do terminal, com balcão e sinalização próprios: **está
-    suspenso** e substituído por autocarros. O **S7** é o que os guias recomendam por ser o mais
-    barato: **só vai até St. Marx**, fora do centro, e obriga a transbordo para elétrico. Ambos
-    por causa do fecho da **S-Bahn Stammstrecke desde 7/9/2026** (até outubro de 2027).
-    ✅ Confirmado a 14 de agosto no site do aeroporto.
-    - ⚠️ **Isto interessa sobretudo se o Railjet das 13:33 se atrasar** e der a tentação de
-      saltar para o primeiro comboio que apareça. **Esperar pelo Railjet seguinte**: parte aos
-      :03 e aos :33, portanto nunca são mais de 30 minutos de espera.
+  - 🚫 **No aeroporto, apanhar o Railjet. Nem o CAT nem o S7, mesmo que a sinalética insista.**
+    São as duas ligações que o terminal publicita, e nenhuma serve. Ambas por causa do fecho
+    da **S-Bahn Stammstrecke desde 7/9/2026** (até outubro de 2027).
+    - ❌ **CAT: está suspenso**, substituído por autocarros, apesar do balcão e da sinalização
+      próprios dentro do terminal.
+    - ❌ **S7: só vai até St. Marx**, fora do centro, e obriga a transbordo para elétrico. É o
+      que os guias recomendam por ser o mais barato, e é o erro mais provável.
+    - ⚠️ **Se o Railjet das 13:33 se atrasar, a decisão é só uma: esperar pelo próximo.** Não
+      saltar para o primeiro comboio que apareça. O Railjet seguinte parte aos :03 e aos :33,
+      portanto nunca são mais de 30 minutos.
   - 🗑️ *O autocarro **Vienna Airport Lines VAL 2** (€10,50/pax = €42) foi retirado desta
     revisão, o grupo decidiu ir de comboio e metro. Fica só a nota de que existe, sai à porta
     do terminal e para em Morzinplatz, a 100 m do apartamento, caso alguma coisa corra mal com
     o Railjet no próprio dia.*
-- **14:20 – 14:45**: Check-in no **Central City Apartments** (*Judengasse 11, 1010 Wien*), no
-  coração do Bermudadreieck.
-  - ⚠️ O check-in nestes apartamentos é tipicamente às **15:00**. **Pedir early check-in por
-    email** com antecedência, ou combinar deixar as malas.
-- **14:45 – 17:45**: Passeio a pé pelos monumentos imperiais, **numa linha reta para poente,
-  sem voltar atrás**. Três das paragens são **gratuitas** e ficam literalmente em cima do
-  caminho, sem custar tempo nenhum:
-  - **14:45**: **Ruprechtskirche** (*Ruprechtsplatz 1*), a **100 m de casa**. É a igreja mais
+- **14:20 – 15:00**: **Direto para casa, almoçar à porta e fazer o check-in.** Chegada ao
+  **Central City Apartments** (*Judengasse 11, 1010 Wien*), no coração do Bermudadreieck.
+  - 🧳 **São duas malas, e não se anda a passear com elas.** O U1 deixa o grupo a 4 min da
+    porta e é o único trajecto do dia em que as malas andam à mão.
+  - 🍽️ **Almoça-se aqui mesmo, com as malas debaixo da mesa: o *Schachtelwirt*, na Judengasse
+    5, a 43 m da porta do apartamento.** Às 14:30 quase tudo o que é restaurante já fechou a
+    cozinha ou está entre serviços (o *Koh-i-noor*, ao lado, fecha às 14:30) e o que sobra é
+    *takeaway* de pé. O Schachtelwirt é a exceção: **tem mesas dentro**, abre **seg–sáb
+    11:30–21:00** (ao domingo fecha, e a 23 é quarta) e serve o *Schweinsbraten* com
+    *Semmelknödel* numa caixa, que é o almoço de escritório clássico desta cidade.
+    ⚠️ **~€8,50–9,50/pax**, com a sopa da semana a **€4,50**: **~€36 para os 4**. O número vem
+    de uma lista de menus e não do site da casa, que é só JavaScript: **confirmar no balcão**.
+    - 🔴 **Se estiver cheio:** o **Würstelstand am Hoher Markt**, a 3 min, aberto **09:00–04:00**
+      e €5–7. É mais barato e é o mesmo sítio do fim da noite, mas é *takeaway* puro, **sem uma
+      única mesa**: come-se de pé, com as malas ao lado.
+  - 🔑 **O check-in é a única peça do dia que não está fechada: sabe-se por volta das 14:00 e o
+    mais provável são as 15:00.** O almoço é o que absorve a espera, seja ela qual for, e é por
+    isso que ele é aqui e não a meio caminho. **O passeio do dia só começa depois de as malas
+    estarem dentro:**
+    - ✅ **Se a hora for 15:00 ou antes:** almoça-se das 14:25 às 15:00, malas para dentro, e o
+      passeio das 15:05 corre como está escrito.
+    - ⚠️ **Se for mais tarde do que 15:00:** o almoço estica e o passeio encolhe. **O
+      Stephansdom é o único bloco que não se corta** (a última subida à torre é às 18:15 e não
+      há outro dia), e o que sai é o *Graben* e o *Hofburg*, não a saída das 17:45, que é a
+      âncora do pôr do sol. Quem quiser entrar na igreja já sabe que é por ordem de chegada,
+      não por reserva.
+- **15:05 – 17:45**: Passeio a pé pelos monumentos imperiais, **numa linha reta para poente,
+  sem voltar atrás**, e **sem malas**: arranca depois do check-in. Três das paragens são
+  **gratuitas** e ficam literalmente em cima do caminho, sem custar tempo nenhum:
+  - **15:05**: **Ruprechtskirche** (*Ruprechtsplatz 1*), a **100 m de casa**. É a igreja mais
     antiga de Viena, do século XII sobre fundações do ano 740. Grátis, 10 min.
     - ✅ ⚠️ **Confirmado que não há horário nenhum para confirmar.** A ruprechtskirche.at diz,
       textualmente, que *"a igreja é cuidada em grande parte por voluntários da comunidade"* e
@@ -435,40 +452,41 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
       às quartas: a paróquia publica cada abertura como um evento avulso *"Kirche ist
       geöffnet"* no calendário do site. Os únicos horários fixos são a **missa de sábado às
       17:00** (de setembro em diante) e a ***Nachtkirche*, às sextas das 20:00 às 23:00**.
-      *(Consultado a 26/08/2026. O horário "10:00–12:00 e 15:00–17:00 às quartas" que circula
+      *(O horário "10:00–12:00 e 15:00–17:00 às quartas" que circula
       não existe em fonte nenhuma da paróquia.)*
     - 🎯 **O que isto quer dizer na prática:** contem com a porta fechada e tratem o interior
       como bónus. **Não vale a pena esperar:** é a 100 m de casa, e a fachada e a torre
       medieval veem-se da praça. Quem quiser mesmo entrar, **vê o calendário do site na
       véspera ou telefona ao rectorado, +43 1 535 60 03**, e passa lá outra vez às 18:05,
       quando o regresso pelo Ring passa à porta.
-  - **14:55**: **Ankeruhr** (*Hoher Markt*), a 150 m. Relógio mecânico *Jugendstil* de 1914
+  - **15:15**: **Ankeruhr** (*Hoher Markt*), a 150 m. Relógio mecânico *Jugendstil* de 1914
     numa ponte suspensa entre dois edifícios. Grátis, 5 min. **Ao meio-dia desfilam as 12
-    figuras com música**, mas às 14:55 vê-se só uma. Não há segunda oportunidade: no Dia 3
+    figuras com música**, mas às 15:15 vê-se só uma. Não há segunda oportunidade: no Dia 3
     saem de casa às 09:50 e ao meio-dia já vão a caminho de Salzburgo.
-  - **15:10 – 16:10**: **Stephansdom**. Subida à **Torre Sul**, 343 degraus.
+  - **15:30 – 16:30**: **Stephansdom**. Subida à **Torre Sul**, 343 degraus.
     - ✅ **A torre está aberta das 09:00 às 19:00, com última subida às 18:15**, e há plano B
       até essa hora. As **09:00–11:30 e 13:00–16:30** que também aparecem no site são a janela
       de *visita da catedral*, a nave e o percurso guiado, e não a da torre, que se sobe pela
-      porta lateral com bilhete próprio. *(stephanskirche.at/info.php, confirmado a
-      28/08/2026.)*
-    - ✅ **O bloco das 15:10 às 16:10 cabe com folga**, e quem se atrasar no Ankeruhr ou no
+      porta lateral com bilhete próprio. *(stephanskirche.at/info.php.)*
+    - ✅ **O bloco das 15:30 às 16:30 cabe com folga**, e quem se atrasar no Ankeruhr ou no
       Peterskirche ainda sobe à tarde, até às 18:15. **Mas não há outro dia**: o Dia 2 sai de
       casa às 11:00 para o brunch e o Dia 3 é o comboio.
     - ✅ **€8,00 por adulto, €32 para os 4.** A `stephanskirche.at/info.php` lista **Südturm
       €8,00**, o *Nordturm* também a €8,00 e o *All Inclusive* a €29,00.
-      *(Confirmado a 28/08/2026.)*
     - 🔴 **Levar dinheiro vivo: a torre não aceita cartão.** A catedral escreve que *"todos os
       bilhetes só podem ser adquiridos no Stephansdom contra pagamento em numerário"*. Só o
       *All Inclusive* de €29 se compra online, e não compensa para quem só quer subir.
       **São €32 em notas, a somar ao numerário do Dia 5.**
-  - **16:15**: **Peterskirche** (*Petersplatz*, a 30 m do Graben). Cúpula turquesa e frescos
-    dourados, das igrejas barrocas mais espetaculares da Europa Central. Grátis. **Há recital
-    de órgão diário às 15:00**: se o grupo estiver adiantado, vale a pena inverter a ordem
-    e vir cá primeiro.
-  - **16:30 – 17:45**: ruas pedonais *Graben* e *Kohlmarkt* ➔ **Hofburg** ➔ **Volksgarten**.
-  São **1,6 km à ida** em três horas, passo de passeio, que é o que se aguenta com 5 h de
-  sono. O regresso pelo Ring são outros 1,4 km (18 min) e passa à porta de casa.
+  - **16:35**: **Peterskirche** (*Petersplatz*, a 30 m do Graben). Cúpula turquesa e frescos
+    dourados, das igrejas barrocas mais espetaculares da Europa Central. Grátis.
+    ⚠️ **O recital de órgão diário das 15:00 perde-se se o check-in for às 15:00**, que é o
+    cenário provável. **Mas se o anfitrião abrir a porta mais cedo, o recital volta a estar ao
+    alcance:** com as malas já dentro, inverte-se a ordem do passeio e vai-se à Peterskirche
+    primeiro, a tempo das 15:00. É a única coisa que o check-in antecipado devolve, e é razão
+    suficiente para pedir a hora cedo.
+  - **16:45 – 17:45**: ruas pedonais *Graben* e *Kohlmarkt* ➔ **Hofburg** ➔ **Volksgarten**.
+  São **1,6 km à ida** em duas horas e quarenta, passo de passeio, que é o que se aguenta com
+  5 h de sono. O regresso pelo Ring são outros 1,4 km (18 min) e passa à porta de casa.
   - ⏰ **Sair do Volksgarten às 17:45, não às 18:00.** Com o sol a pôr-se às **18:49**, isto dá
     tempo para passar em casa, largar as mochilas e estar no canal às 18:20, a tempo da hora
     dourada, e não já com ela a acabar.
@@ -511,12 +529,13 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
 
 #### 🍽️ Jantar · 19:45 às 21:00
 
-Com um despertar às 04:45, seis horas de bares sem comer acabam mal, e por isso esta noite tem
-jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à quarta:**
+Com um despertar às 04:45 e o almoço às 14:25, são cinco horas de cidade sem comer até ao
+jantar, e por isso esta noite tem jantar marcado. **Três opções, todas a pé e todas confirmadas
+abertas à quarta:**
 
 | Opção | Onde | Horário | Preço | A pé | Reserva |
 |---|---|---|---|---|---|
-| ⭐ **Schöne Perle** | Große Pfarrgasse 2, **1020** | Diário 11:00–24:00, cozinha até 22:30 | **€14,90–29,50** (confirmado) | 11 min | recomendada, não crítica |
+| ⭐ **Schöne Perle** | Große Pfarrgasse 2, **1020** | Diário 11:00–24:00, cozinha até 22:30 | **€14,90–29,50** | 11 min | recomendada, não crítica |
 | **Gasthaus Pöschl** | Weihburggasse 17, 1010 | Seg–sáb 12:00–23:00, cozinha até 22:00 | ~€19–29 | 10 min | **obrigatória** |
 | **Zum Bettelstudent** | Johannesgasse 12, 1010 | Seg–qui 11:00–24:00 | ~€14–22 | 11 min | não precisa |
 
@@ -528,7 +547,7 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
     schoene-perle.at dá **aberto todos os dias das 11:00 às 24:00**, com a **cozinha de
     segunda a sexta das 11:30 às 22:30** (sábados, domingos e feriados a partir das 11:00).
     Jantando das 19:45 às 21:00 há **90 minutos de folga** até a cozinha fechar.
-    *(Confirmado a 27/08/2026. O "quarta-feira fecha às 23:00 com cozinha até às 21:30" que
+    *(O "quarta-feira fecha às 23:00 com cozinha até às 21:30" que
     aparece em agregadores é falso.)*
     Reservar na mesma, pelo **+43 1 890 32 04**, e levar dinheiro, que é frequente estes
     sítios de bairro não aceitarem cartão estrangeiro.
@@ -617,8 +636,7 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
     tipicamente 20–40 min de fila) + metro deixava-vos no palácio por volta das **13:20**:
     atrasados para uma entrada com hora marcada. Às 14:00 a manhã fica realmente sem pressas
     e continua a sobrar tempo para tudo o resto.
-  - ✅ **O U4 chega a Schönbrunn sem interrupções** *(Wiener Linien, confirmado a
-    26/08/2026)*. Plano B, que não custa nada saber: U4 até Meidling + elétrico 10 ou 60 até
+  - ✅ **O U4 chega a Schönbrunn sem interrupções** *(Wiener Linien)*. Plano B, que não custa nada saber: U4 até Meidling + elétrico 10 ou 60 até
     Hietzing, ou o autocarro 10A.
 - **16:25 – 17:00**: **U4 até Karlsplatz, mudar para o U1 até Praterstern** (~35 min).
   - *Mudar em Karlsplatz e não em Schwedenplatz:* o U1 e o U4 cruzam-se nos dois sítios, mas
@@ -641,7 +659,7 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
     - ✅ **Aberta das 09:00 às 22:45 na quinta, 24 de setembro de 2026.** Não é o horário
       genérico de setembro: é o que o calendário oficial da wienerriesenrad.com dá **para esta
       data**, dia a dia. **O bloco das 17:30 cabe com horas de sobra**, e quem se atrasar no
-      Schönbrunn sobe à mesma. *(Confirmado a 28/08/2026.)*
+      Schönbrunn sobe à mesma.
   - **18:15 – 20:15**: Jantar de grupo a **8 min a pé** (580 m), no lendário **Schweizerhaus**:
     pernis de porco estaladiços (*Stelze*) e cerveja Budweiser de pressão. 🔴 *Dizia aqui
     "4 min": são 8, remedidos no OSRM a 03/09/2026, e num dia de abertura da Kaiser Wiesn com
@@ -704,7 +722,7 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
 *Fazer as malas na véspera. Sair de casa às 09:50.*
 
 > ### 🚨 O bilhete direto custava €536,40. Este plano custou €333,92.
-> **Verificado ao vivo na ÖBB, na DB e na Westbahn a 16/08/2026.** O dia 25 de setembro é a
+> O dia 25 de setembro é a
 > primeira sexta-feira cheia da Oktoberfest, que em 2026 decorre de **19 de setembro a 4 de
 > outubro**: **não há Sparschiene** no corredor Viena–Munique. Um
 > bilhete único Wien Hbf ➔ Augsburg Hbf está a **€134,10/pessoa = €536,40** para os 4, em
@@ -867,7 +885,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > livre, o pátio do castelo não.** Descer os 15 minutos íngremes da paragem do shuttle até à
 > porta do Neuschwanstein dá numa cancela que não se atravessa, e obriga a voltar a subir.
 > **Não se faz.** Fica-se do lado da ponte e do miradouro, que é de onde se vê o castelo
-> inteiro. *(Confirmado a 28/08/2026.)*
+> inteiro.
 >
 > **O que continua a mandar na tarde: Oberammergau vem antes do Eibsee**, porque a aldeia
 > entra em sombra por volta das 17:40 e o pôr do sol no lago é às 19:03.
@@ -881,8 +899,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > das 11:00 às 21:00**, todos os dias e sem dia de descanso. **O "durchgehend" é o que interessa:**
 > a maioria das cozinhas alemãs fecha o almoço entre as 14:00 e as 14:30, e esta não fecha, o
 > que é a razão de ser possível almoçar às 14:15. **Reservar de manhã à mesma**, que são
-> 6 pessoas num sábado de setembro em Hohenschwangau. *(alpenstuben.de, reverificado a
-> 10/09/2026.)*
+> 6 pessoas num sábado de setembro em Hohenschwangau. *(alpenstuben.de.)*
 > 🔴 *A 03/09/2026 este horário chegou a ser mudado para "abre às 12:00, cozinha até às 20:30",
 > com base numa listagem da schwangau.de. Estava errado: a própria casa publica "Täglich
 > durchgehend warme Küche von 11 bis 21 Uhr". Voltou a 11:00. **O almoço das 14:15 nunca esteve
@@ -906,11 +923,11 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     Sai da paragem ao lado do parque **P4 (Alpsee)** e larga no miradouro *Jugend*, a **5
     minutos a pé da Marienbrücke**. Primeira partida às 08:00, última subida às 17:30,
     sem horário fixo, mais ou menos de 20 em 20 minutos. *(Tabela oficial da
-    hohenschwangau.de, confirmada a 28/08/2026.)*
+    hohenschwangau.de.)*
     A subida a pé do P4 à ponte são **45 minutos** de rampa: paga-se o shuttle.
   - 🅿️ ✅ **Estacionamento: €12,00 até 6 horas**, mais €1,00 por cada hora seguinte, com
     **teto de €16,00 ao dia**, nos parques oficiais P1 a P4, a pagar em posto automático com
-    cartão ou moedas. *(Tabela oficial da hohenschwangau.de, confirmada a 26/08/2026.)*
+    cartão ou moedas. *(Tabela oficial da hohenschwangau.de.)*
     Entrando às 12:05 e saindo às 15:00 são **€12**.
     🚫 **Não se sobe de carro até ao castelo.** Ao meio-dia de um sábado de setembro os parques
     de cima (P3 e P4, junto ao Alpsee e à paragem do shuttle) costumam já estar cheios: contem
@@ -960,7 +977,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > (09:30–17:00 de segunda a sábado) e é lá que se compram as cervejas e os licores do mosteiro.
 > A **basílica é grátis e está aberta das 08:00 às 18:00**, e o *Bräustüberl* das 10:00 às
 > 23:00. Fazer Oberammergau primeiro e Ettal depois chega à loja fechada.
-> *(kloster-ettal.de/wissenswertes/oeffnungszeiten, confirmado a 28/08/2026.)*
+> *(kloster-ettal.de/wissenswertes/oeffnungszeiten.)*
 >
 > 🎯 **A recomendação é a Rota A**, porque o que este dia passou a ter de melhor é a hora
 > extra no Eibsee, e a basílica de Ettal é meia hora bonita que não é o motivo de se vir aos
@@ -987,15 +1004,14 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     pelo trilho da **margem norte** até à **ponte do Untersee** e volta-se, cerca de 2 km cada
     sentido, com a melhor vista sobre a Zugspitze. São ~50 minutos.
   - 🍺 **A cerveja no lago continua a não entrar na conta.** O *seeRestaurant Eibsee Pavillon*
-    é das **10:00 às 18:00** *(eibsee.de, confirmado a 26/08/2026)*, e o **Biergarten am See**
+    é das **10:00 às 18:00** *(eibsee.de)*, e o **Biergarten am See**
     ao lado só abre com bom tempo (*"Längstens geöffnet bis 04. Oktober 2026"*). Pela Rota A
     chega-se às 17:56, quatro minutos antes de fechar, o que não é um plano: **não se conta
     com ela**, e a cerveja de sábado bebe-se em Augsburg ao jantar, ou no Bräustüberl de Ettal
     se for a Rota B. *(O +49 8821 98810 fica só para quem quiser confirmar que nada mudou.)*
   - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €1,00 por hora.
     Dinheiro ou cartão. Ficando das 17:56 às 19:15 são **€10**. *(Tabela oficial
-    "Übersicht Parkgebühren, Sommer 2026, gültig ab Juli 2026" da zugspitze.de, confirmada a
-    28/08/2026. A tabela é publicada como imagem, e é por isso que nenhuma leitura de texto
+    "Übersicht Parkgebühren, Sommer 2026, gültig ab Juli 2026" da zugspitze.de. A tabela é publicada como imagem, e é por isso que nenhuma leitura de texto
     da página a apanhava.)*
     - 🚨 **E há uma armadilha cara, agora confirmada: o parque ao lado custa o dobro.** O
       **Seilbahn Zugspitze / Zugspitzbahnhof Eibsee** cobra **€20,00 por 4 horas**, com um
@@ -1085,7 +1101,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   ✅ **€5/pessoa, aberta ao domingo das 10:00 às 18:00.** A paróquia publica *"von 10-18 Uhr;
   mittwochs bis 16.15 Uhr; samstags bis 17.30 Uhr"*, portanto o domingo é o horário cheio, e
   **€5 para "Einzelpersonen und Gruppen unter 10 Personen"**, que é o caso dos 6.
-  *(rothenburg-evangelisch.de, confirmado a 28/08/2026.)*
+  *(rothenburg-evangelisch.de.)*
   - ✅ **E há uma coincidência boa: 27 de setembro é o 4.º domingo do mês.** Nesses domingos o
     culto das 09:30 é em Detwang e o das 11:00 na Heilig-Geist-Kirche, **não em St. Jakob**.
     A igreja não tem serviço nesse dia, e as visitas só param por concerto ou evento.
@@ -1095,8 +1111,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   - ⚠️ **O "só dinheiro" continua por confirmar.** Este guia diz que a igreja não aceita cartão
     e a página da paróquia **não diz nada sobre meios de pagamento**, nem num sentido nem no
     outro. Fica como estava, porque levar €30 em notas não custa nada e chegar sem eles custa
-    a visita, mas **não é um facto verificado**: é uma precaução. *(Verificado a 28/08/2026: a
-    fonte é omissa.)* No piso superior está o **Altar do
+    a visita, mas **não é um facto verificado**: é uma precaução. No piso superior está o **Altar do
   Sangue Sagrado**, entalhado em tília por **Tilman Riemenschneider entre 1500 e 1505**: é um
   dos maiores tesouros da escultura sacra alemã e é, com alguma probabilidade, **a melhor
   coisa que há em Rothenburg**.
@@ -1110,7 +1125,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   desmontagem do mito da Dama de Ferro. É muito mais visual do que parece pelo nome.
   ✅ **€10,50/pessoa: para 6 são €63.**
   Aberto **todos os dias das 10:00 às 18:00, última entrada às 17:15**. *(Tabela oficial da
-  kriminalmuseum.eu, confirmada a 26/08/2026.)*
+  kriminalmuseum.eu.)*
   - 🅱️ **Se ninguém quiser museu:** a **Käthe Wohlfahrt** (*Herrngasse 1*, aldeia de Natal
     permanente e museu, aberta ao domingo) mais a subida dos 220 degraus da **torre do
     Rathaus** (~€3, vista de 360° sobre a Marktplatz) enchem a mesma hora. *A filial da
@@ -1186,7 +1201,7 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
 > de outubro depois de décadas a fazer a ronda. 🔴 **Mas não é ele que vos calha.** A
 > rothenburg.de diz que Baumgartner faz a ronda às **segundas, terças, sextas e sábados**, e
 > vocês vão a um **domingo**: sai um colega da equipa, que faz o mesmo percurso e o mesmo
-> texto. *(Confirmado a 26/08/2026. Quem quiser mesmo o Baumgartner tem de trocar o dia, e
+> texto. *(Quem quiser mesmo o Baumgartner tem de trocar o dia, e
 > isso não se faz por causa disto.)* O lugar está a concurso e o sucessor entra em abril de 2027. A ronda acaba pelas **21:00**, e com a
 > caminhada ao carro e as 2h de autoestrada isso põe o grupo em Augsburg por volta das
 > **23:30**, não às 23:00. **Ao domingo à noite o regresso faz-se pela autoestrada e não pela
@@ -1441,7 +1456,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     palácio, €10/pax** (30–40 min, inclui a Galeria das Belezas de Ludwig I), ou
     **só o parque e a fachada, que são gratuitos** e que numa manhã de ressaca são,
     honestamente, o que rende mais. ✅ *Gesamtkarte de verão €20 e horário 09:00–18:00 de
-    abril a 15 de outubro, confirmados na schloss-nymphenburg.de a 26/08/2026.*
+    abril a 15 de outubro.*
   - ⚠️ **Duas coisas de 2026 que tiram brilho ao parque, e pesam a favor de ficar pelo
     palácio:** o **Lackkabinett** (sala 13) está fechado para restauro até ao outono de 2026,
     e sobretudo **as fontes não estão a funcionar este ano**, nem a do Grande Parterre, cuja
@@ -1455,14 +1470,13 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
   restaurantes do próprio edifício ou no Olympiapark.
   - ✅ **Entrada gratuita.** ⚠️ **Atenção à diferença entre o edifício e a exposição:** o
     edifício e o parque abrem das 07:30 às 24:00, mas a **exposição é das 09:00 às 18:00,
-    última entrada às 17:45** *(bmw-welt.com, confirmado a 27/08/2026)*. A visita das 13:40 às
+    última entrada às 17:45** *(bmw-welt.com)*. A visita das 13:40 às
     14:40 cabe com folga.
   - 🔴 **Os 20 BMW Art Cars já não estão cá, e é preciso contar com isso.** A exposição
     *"BMW ART CARS: 20 ARTISTS, 50 YEARS OF INNOVATION"*, que juntou os 20 carros pintados por
     Calder, Lichtenstein, Warhol, Koons e companhia pela primeira vez na história, esteve na
     BMW Welt de **29 de julho a 31 de agosto de 2026** e **fechou quatro semanas antes de
-    vocês chegarem**. *(Comunicado oficial do BMW Group PressClub, T0457568DE, verificado a
-    03/09/2026.)* **Este guia dava-a como o ponto alto do dia: dava mal.** O que fica na BMW
+    vocês chegarem**. *(Comunicado oficial do BMW Group PressClub, T0457568DE.)* **Este guia dava-a como o ponto alto do dia: dava mal.** O que fica na BMW
     Welt é o pavilhão permanente, que é gratuito e cabe nos 60 minutos, mas é uma paragem
     normal e não um acontecimento. Quem quiser Art Cars tem de contar com o **Museu BMW** ao
     lado, que é pago e mostra exemplares rotativos da coleção, não os 20.
@@ -1478,14 +1492,13 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     🔴 **A Olympiaturm está fechada, e este guia dizia o contrário.** A torre e o edifício do
     átrio **estão encerrados desde 1 de junho de 2024** para renovação de elevadores, proteção
     contra incêndios e do restaurante giratório *181*, e a reabertura **escorregou para 2027**.
-    *(Olympiapark München / SWM, verificado a 03/09/2026.)* Não é o Estádio Olímpico que está
+    *(Olympiapark München / SWM.)* Não é o Estádio Olímpico que está
     confundido com a torre: **estão os dois fechados**, o estádio desde outubro de 2025. Não
     muda o dia, porque o Olympiaberg não está no plano, mas **quem contasse subir à torre não
     subia**.
   - ✅ *(O Museu BMW, ao lado, é pago e **não cabe neste horário**: ter–dom **10:00–18:00**,
     última entrada às **17:30**. Se alguma vez entrar no plano, o bilhete avulso é €17 mas
-    **em grupo de 5 ou mais pessoas são €16 por pessoa**, ou seja €96 para os 6 e não €102.
-    Confirmado na bmw-welt.com e na loja oficial tkts.bmw-welt.com a 28/08/2026.)*
+    **em grupo de 5 ou mais pessoas são €16 por pessoa**, ou seja €96 para os 6 e não €102.)*
 - **14:40 – 15:20**: **Transição para a Allianz Arena.** Pagar o parque na máquina, **~11 km
   até Fröttmaning (16 min em fluxo livre)**, entrar no parque do estádio e percorrer a
   **Esplanade, que tem 543 m de rampa**, até ao edifício. São **40 minutos**, não 15.
@@ -1495,7 +1508,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
   - ✅ **Confirmado para a data exata, não para "uma terça qualquer".** A allianz-arena.com
     publica os horários dia a dia e para **29/09/2026** dá estádio, museu, tours e **loja todos
     das 10:00 às 18:00**, com o *Paulaner Fantreff North* aberto e a restante restauração
-    fechada. O bloco das 15:20 às 16:00 cabe todo dentro disso. *(Confirmado a 28/08/2026.)*
+    fechada. O bloco das 15:20 às 16:00 cabe todo dentro disso.
   - ✂️ **Se o dia derrapar, é isto que se corta, e não outra coisa.** É a paragem mais fora de
     mão, custa €5,00 de parque (em dia sem jogo) e mais de 1 km de caminhada para ver a loja e o exterior de um
     estádio vazio. Cortando-a, chega-se ao aeroporto uma hora mais cedo e o dia deixa de ser
@@ -1511,7 +1524,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     de todo. Pelo meio há o *Museum + Arena View* a €19, também ~1h30.
     **Nada disto cabe nos 40 minutos do plano**, mas se o grupo decidir no local que quer
     entrar, é o de €12 que se compra, e sai-se do aeroporto a correr.
-    *(allianz-arena.com, confirmado a 28/08/2026.)*
+    *(allianz-arena.com.)*
 
 > ⚠️ **Hoje a carrinha anda com as malas de 6 pessoas lá dentro** e fica estacionada em três
 > sítios diferentes de Munique. Uma carrinha carregada é um alvo óbvio. Usar **estacionamento
@@ -1540,8 +1553,11 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 
 ## ✅ Confirmar Antes de Fechar
 
-- [ ] **Hora de check-in** do Central City Apartments (Dia 1) e de **check-out** (Dia 3).
-- [ ] **Hora de check-out** do Lexapartments (Dia 7).
+- [ ] 🟡 **Central City Apartments: pedir o número do anfitrião e combinar que a hora do check-in
+      é confirmada por volta das 14:00 do dia 23**, já em trânsito. Ter o WhatsApp descarregado
+      antes de sair de Lisboa.
+- [ ] **Hora de check-out** do Central City Apartments (Dia 3) e de **check-in/check-out** do
+      Lexapartments (Dia 3 e Dia 7).
 - [ ] 🟡 **A terceira fila da carrinha tem de rebater em duas metades separadas.** Sendo **6**
       e não 7, o *7-Seater SUV* (VW Touran ou similar) chega: rebatendo **uma** das duas
       cadeiras da terceira fila sobram ~440 litros, que levam a bagagem toda. **Mas** se a

@@ -106,6 +106,15 @@ fonte não foi aberta agora, o marcador fica como está.
 | `🟢` | Compra-se no local | Sem reserva prévia |
 | `~~riscado~~` + `✅` | Já resolvido | Linha de prazo cumprida |
 
+**Um marcador não leva data nem fonte ao lado.** `(Confirmado a 26/08/2026)`,
+`(alpenstuben.de, confirmado a 10/09/2026)` e `(Consultado a …)` não entram nos dois
+documentos. O `✅` já diz que foi confirmado e a razão ao lado do número já diz o que o
+governa; a data é ruído, e é a parte que envelhece. O que se apurou, quando e onde, vai para
+`historico.md`. Um nome de fonte sozinho (`hohenschwangau.de`) aceita-se quando é o que torna
+uma estimativa verificável, mas a data não. Uma exceção: a proveniência de uma medição fica,
+porque uma distância sem ferramenta e sem data ao lado é indistinguível de um palpite
+(`OSRM, perfil a pé, 10/09/2026`).
+
 ## O grupo, a armadilha número um
 
 **Quatro pessoas nos Dias 1 a 3. Seis a partir da noite do Dia 3.** Dois amigos

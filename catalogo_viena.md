@@ -19,7 +19,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 
 | Janela | Horas úteis | O que lá cabe |
 |---|---|---|
-| **Qua 23, tarde** | 14:45 – 18:00 (3h15) | Centro histórico a pé. Chegam com 5h de sono, ritmo de passeio. |
+| **Qua 23, tarde** | 15:05 – 17:45 (2h40) | Centro histórico a pé, **depois do check-in** (hora confirmada no próprio dia, ~14:00, provável 15:00). Chegam com 5h de sono, ritmo de passeio. |
 | **Qua 23, noite** | 18:00 – madrugada | **Pôr do sol + NOITE DE FESTA.** Ver secção dedicada. |
 | **Qui 24, dia inteiro** | 11:00 – 23:00 (12h) | O único dia a sério. Aqui joga-se tudo. |
 | **Sex 25** | - | Saem às 10:00. **Zero tempo.** |
@@ -256,7 +256,8 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 | **Zum Schwarzen Kameel** ⭐✅ | brasserie diário 08:00–24:00 | €€ | 7 min | **Sanduíches ao balcão + copo de vinho em pé**: a forma barata de entrar numa instituição de 400 anos. |
 | **Plachutta Wollzeile** | diário 11:30–23:30 | Tafelspitz €33–37 | 8 min | O templo do Tafelspitz. Caro, mas é *a* instituição. |
 | **Gasthaus Pöschl** ✅ | seg–sáb 12:00–23:00, fechado dom | €€ | 9 min | Sala minúscula, cozinha vienense séria. Telefonar a partir das 10:00. |
-| **Würstelstand am Hoher Markt** 🌙 | até ~04:00 | €5–7 | **3 min** | O suporte vital da madrugada. |
+| **Schachtelwirt** ⭐ | seg–sáb 11:30–21:00, **fechado dom** | ⚠️ *Schweinsbraten* ~€8,50–9,50 · sopa €4,50 | **1 min** | **Judengasse 5**, na mesma rua do apartamento. *Schweinsbraten* com *Semmelknödel* numa caixa, **com mesas dentro**. É a resposta para almoçar às 14:30 no Dia 1, quando o resto já fechou a cozinha. |
+| **Würstelstand am Hoher Markt** 🌙 | 09:00–04:00 | €5–7 | **3 min** | O suporte vital da madrugada, e também do almoço. **Takeaway puro: nenhuma mesa**, come-se de pé. |
 | **Bitzinger (Albertina)** ⭐🌙 | até de madrugada | Käsekrainer €6,20–6,90 | 12 min | A salsicha com queijo às 03:00. Instituição nacional. |
 | **Naschmarkt** ⭐✅ | seg–sex 06:00–21:00, sáb até 18:00, **fechado dom** | grátis entrar | U4, 12 min | 1,5 km de bancas. *(A feira da ladra é só ao sábado, não apanham.)* |
 | **Karmelitermarkt** | ter–sex manhãs + sáb | grátis | 8 min | Mercado de bairro, sem turistas, do outro lado do canal. |
@@ -364,7 +365,7 @@ para 24/9 · **futebol** (a jornada da Bundesliga austríaca joga-se tipicamente
 | Dia 1, 18:30 | "Sol põe-se às ~19:00" | **18:49.** Antecipar os pré-copos para as 18:00. |
 | Dia 1, 18:30 | "*Tel Aviv Beach* e os bares junto à Schwedenbrücke" | 🔴 O Tel Aviv Beach **já não existe**, é o NENI am Wasser. As opções reais são **Motto am Fluss** (2–4 min) e **Badeschiff** (10 min). |
 | Dia 1, aviso | "Não ir ao Strandbar Herrmann hoje" *(por distância)* | Continua certo, mas por outro motivo: **a época acaba a ~21 de setembro.** Está fechado. |
-| Dia 1, 15:10 | Torre Sul do Stephansdom, €8,00 | Preço ✅ confirmado. Vale a pena decidir **Sul vs Norte**: a Norte tem elevador. |
+| Dia 1, 15:30 | Torre Sul do Stephansdom, €8,00 | Preço ✅ confirmado. Vale a pena decidir **Sul vs Norte**: a Norte tem elevador. |
 | Dia 2, 20:30 | Reserva no Das Loft | 🔴 **Para o bar não se reserva** (walk-in); reservar mesa de restaurante para depois só beber custa **€25/pax**. O aviso de obras era falso. |
 | Dia 2, 17:00 | Kaiser Wiesn | ✅ Confirmado. **Abre às 15:00 aos dias de semana** e a entrada é grátis de dia, chegar às 17:00 funciona. |
 | Dia 2 | Schönbrunn "Schlossticket €42" | ✅ Confirmado. A versão curta (*State Apartments*) é **€30**. **O parque e a Gloriette são grátis**, é uma alternativa legítima. |

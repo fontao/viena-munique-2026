@@ -64,6 +64,16 @@ skills below; these are the constraints that hold regardless.
 7. **Get a second opinion from Gemini** before closing a replanned day or a batch of price
    updates. Ask it for everything and filter afterwards.
 8. **Say what you did not verify.** An honest gap beats a confident invention.
+10. **No confirmation stamps in the prose.** Never write `(confirmado a 26/08/2026)`,
+   `(hohenschwangau.de, confirmada a 10/09/2026)` or `(Consultado a …)` beside a fact, in
+   `index.html` or in `itinerario_viagem.md`. The marker (✅ ⚠️ 🔴) already says whether a
+   fact is confirmed and the reason beside the number already says what governs it; to
+   someone reading the page at a tram stop the stamp is noise that buries the instruction.
+   What was checked, when and where belongs in `historico.md`. A source name on its own
+   (`hohenschwangau.de`) is fine when it is what makes an estimate checkable; the date is
+   not, and the date is the part that goes stale. **Measurement provenance is the one
+   exception:** `(OSRM, perfil a pé, 10/09/2026)` stays, because a distance with no tool and
+   no date beside it is indistinguishable from a guess.
 
 ## Skills
 
