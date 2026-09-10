@@ -447,7 +447,9 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
       não por reserva.
 - **15:05 – 17:45**: Passeio a pé pelos monumentos imperiais, **numa linha reta para poente,
   sem voltar atrás**, e **sem malas**: arranca depois do check-in. Três das paragens são
-  **gratuitas** e ficam literalmente em cima do caminho, sem custar tempo nenhum:
+  **gratuitas** e ficam literalmente em cima do caminho, sem custar tempo nenhum. A **Ópera** e
+  a **Kärntner Straße** ficam de fora de propósito: são o braço sul da zona pedonal, que se faz
+  amanhã a caminho do metro, para nenhuma rua se andar duas vezes.
   - **15:05**: **Ruprechtskirche** (*Ruprechtsplatz 1*), a **100 m de casa**. É a igreja mais
     antiga de Viena, do século XII sobre fundações do ano 740. Grátis, 10 min.
     - ⚠️ **Não publica horário: contem com a porta fechada e tratem o interior como bónus.**
@@ -462,19 +464,12 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
     figuras com música**, mas às 15:15 vê-se só uma. Não há segunda oportunidade: no Dia 3
     saem de casa às 09:50 e ao meio-dia já vão a caminho de Salzburgo.
   - **15:30 – 16:30**: **Stephansdom**. Subida à **Torre Sul**, 343 degraus.
-    - ✅ **A torre está aberta das 09:00 às 19:00, com última subida às 18:15**, e há plano B
-      até essa hora. As **09:00–11:30 e 13:00–16:30** que também aparecem no site são a janela
-      de *visita da catedral*, a nave e o percurso guiado, e não a da torre, que se sobe pela
-      porta lateral com bilhete próprio. *(stephanskirche.at/info.php.)*
-    - ✅ **O bloco das 15:30 às 16:30 cabe com folga**, e quem se atrasar no Ankeruhr ou no
-      Peterskirche ainda sobe à tarde, até às 18:15. **Mas não há outro dia**: o Dia 2 sai de
-      casa às 11:00 para o brunch e o Dia 3 é o comboio.
-    - ✅ **€8,00 por adulto, €32 para os 4.** A `stephanskirche.at/info.php` lista **Südturm
-      €8,00**, o *Nordturm* também a €8,00 e o *All Inclusive* a €29,00.
-    - 🔴 **Levar dinheiro vivo: a torre não aceita cartão.** A catedral escreve que *"todos os
-      bilhetes só podem ser adquiridos no Stephansdom contra pagamento em numerário"*. Só o
-      *All Inclusive* de €29 se compra online, e não compensa para quem só quer subir.
-      **São €32 em notas, a somar ao numerário do Dia 5.**
+    - ✅ **Só a dinheiro e não se compra online: €8,00/pax, €32 para os 4, em notas.** A torre
+      não aceita cartão. Abre **09:00–19:00, última subida às 18:15**, portanto se o passeio
+      atrasar ainda se sobe. **Mas não há outro dia**: o Dia 2 sai de casa às 11:00 e o Dia 3 é
+      o comboio.
+    - ⚠️ **O *Nordturm* custa os mesmos €8,00 e sobe-se de elevador.** O *All Inclusive* de
+      €29, o único que se vende online, não compensa para quem só quer subir à torre.
   - **16:35**: **Peterskirche** (*Petersplatz*, a 30 m do Graben). Cúpula turquesa e frescos
     dourados, das igrejas barrocas mais espetaculares da Europa Central. Grátis.
     ⚠️ **O recital de órgão diário das 15:00 perde-se se o check-in for às 15:00**, que é o
@@ -488,16 +483,9 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
   - ⏰ **Sair do Volksgarten às 17:45, não às 18:00.** Com o sol a pôr-se às **18:49**, isto dá
     tempo para passar em casa, largar as mochilas e estar no canal às 18:20, a tempo da hora
     dourada, e não já com ela a acabar.
-  - *Porque é que a Ópera e a Kärntner Straße não estão aqui:* ficam no braço **sul** da zona
-    pedonal e passam lá amanhã de manhã, a caminho da Sachertorte e do metro. Hoje faz-se o
-    braço poente, amanhã o sul, nenhuma rua se anda duas vezes.
-  - ➕ **Duas igrejas grátis em cima do caminho, se o grupo estiver adiantado**, e só nesse
-    caso, porque a tarde não tem folga nenhuma: a **Maria am Gestade** (*Passauer Platz*, a
-    **150 m de casa**, no topo das escadarias), gótica do século XIV, com uma torre rendilhada
-    em pedra que não se parece com nada em Viena; e a **Jesuitenkirche** (*Dr.-Ignaz-Seipel-
-    Platz*, 250 m do Stephansdom), cujo teto é uma cúpula pintada em *trompe-l'œil* por Andrea
-    Pozzo em 1703, que só se vê bem de um disco de mármore marcado no chão. Dez minutos cada
-    uma. **Nenhuma das duas justifica cortar o Stephansdom**, e nenhuma está no relógio.
+  - ➕ **Duas igrejas grátis em cima do caminho, a Maria am Gestade e a Jesuitenkirche.**
+    Só se o grupo estiver adiantado, porque a tarde não tem folga nenhuma. Estão no
+    `catalogo_viena.md`, com horários, e nenhuma justifica cortar o Stephansdom.
 - **18:05 – 18:20**: **Passar em casa.** Largar mochilas, trocar de roupa. O regresso pelo Ring
   passa à porta e não custa tempo nenhum.
 - **18:20 – 19:35**: **Pôr do sol no Canal do Danúbio**, a 300 m a pé. **O sol põe-se às
