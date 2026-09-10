@@ -14,6 +14,132 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 12.ª revisão · 10 de setembro de 2026
+
+**Uma passagem de verificação, a pedido, sobre o que ficou por abrir em fonte primária.**
+Cinco frentes fecharam-se, e duas mexeram em horários.
+
+1. **O parque da Allianz Arena afinal são €5,00, e não ~€12.** A 03/09 ficou marcado como
+   estimativa porque os €12 eram tarifa de dia de jogo e a 29 de setembro não há jogo. A página
+   oficial para dias sem jogo é explícita: *"PKW & Motorräder: 5,00 € / Tag"*, até 2 h depois
+   de o estádio fechar, **pago sem dinheiro** (cartão ou EC), no mesmo sítio onde a BMW Welt
+   também não aceita notas. *(allianz-arena.com/de/anreise/spielfrei, 10/09/2026.)* É o **terceiro
+   parque deste dossiê a ser corrigido para baixo**, depois do Nymphenburg (para grátis) e da
+   BMW Welt (de ~€12 para €3,50/hora), e a lição é sempre a mesma: **a tarifa de dia de jogo não
+   é a tarifa do dia em que se vai lá.** O Eibsee é da mesma família, mas por outra via: o erro
+   lá era o **incremento horário** (€1,00 e não €2,00), e o total de €10 sobreviveu por acaso.
+
+2. **A Enterprise de Augsburg fecha ao sábado ao meio-dia, e agora está confirmado.** O item
+   estava na lista de "confirmar por telefone" porque as listagens divergiam entre as 12:00 e
+   as 14:00. A página da própria estação dá **sábado 09:00–12:00** (e domingo igual), com
+   segunda a sexta das 08:00 às 18:00. *(enterprise.de, estação de Augsburg, 10/09/2026.)* Isto
+   **não aperta o plano B do Dia 4, que já contava com a janela da manhã**: fecha a dúvida, não
+   o dia. A chamada telefónica deixa de ser obrigatória, mas continua a ser barata.
+
+3. **A Torre Sul do Stephansdom está confirmada ao detalhe, e o resto da visita também.** A
+   `stephanskirche.at` repete o que o guia já dizia: **Südturm €8,00, 343 degraus, 09:00–19:00
+   com última subida às 18:15**, e **"all tickets can currently only be purchased in St.
+   Stephen's Cathedral against cash payment. No card payment is possible"**. A Norte custa os
+   mesmos €8,00 e **sobe-se de elevador**, o que o guia não dizia. *(stephanskirche.at/info.php,
+   10/09/2026.)* Nada disto muda o Dia 1: o bloco das 15:10 cabe, e os €32 em notas mantêm-se.
+
+4. **As distâncias a pé do Dia 5 e do Dia 6, medidas, e o erro que as escondia.** A tentativa
+   anterior devolveu números absurdos, 1,4 km para uma perna de 360 m, e a conclusão foi que a
+   ferramenta não servia. **Não era a ferramenta: era o geocodificador.** Pedir *"St.
+   Jakobskirche, Rothenburg"* **por nome** devolve um **miradouro em Detwang**, a quilómetros
+   da igreja; com as **coordenadas** da Klostergasse 15, o mesmo perfil pedonal responde bem. A
+   lição passa deste dossiê: **um nome não é um sítio**, e o OSRM mede o que lhe derem.
+
+   Medido a 10/09/2026, com coordenadas em vez de nomes:
+
+   | Troço | Dizia | Mede |
+   |---|---|---|
+   | Dia 5 · St. Jakobskirche ➔ Burggarten | 360 m, ~5 min | **371 m, 5 min** ✅ |
+   | Dia 5 · Burggarten ➔ Kriminalmuseum | 350 m, ~5 min | **449 m, 6 min** 🔴 |
+   | Dia 5 · Marktplatz ➔ Burggarten | 400 m | **458 m, 6 min** 🔴 |
+   | Dia 6 · Marienplatz ➔ Frauenkirche | 325 m, 4 min | **445 m, 6 min** 🔴 |
+   | Dia 6 · Frauenkirche ➔ Viktualienmarkt | 655 m, 9 min | **608 m, 8 min** ✅ |
+   | Dia 6 · Viktualienmarkt ➔ Asamkirche | 759 m, 10 min | **653 m, 9 min** ✅ |
+   | Dia 6 · Asamkirche ➔ Karlsplatz | 729 m, 10 min | **885 m, 12 min** 🔴 |
+   | Dia 6 · München Hbf ➔ Marienplatz | 1,6 km, 21 min | **1,7 km, 23 min** ⚠️ |
+   | Dia 6 · Theresienwiese ➔ München Hbf | 1,4 km, ~18 min | **1,4 km, 18 min** ✅ |
+
+   **O que isto muda.** No **Dia 5** as duas transições são **11 minutos e não 10**, e o dia
+   continua a absorvê-las na folga das 17:20 às 17:35: não se mexeu na tarde, corrigiram-se os
+   números. No **Dia 6** havia uma conta que não fechava: a perna Asamkirche ➔ Karlsplatz leva
+   **12 minutos e o dossiê dava-lhe 10**, o que empurrava a chegada ao metro para as 13:34 e
+   deixava o bloco do metro com **11 minutos em vez de 13**. Como o Dia 6 tem a âncora das 13:45
+   na Wiesn e o aviso de que a manhã «cabe por pouco», **os blocos foram refeitos** (13:22-13:34
+   a pé, 13:34-13:45 de metro) em vez de se escrever o número novo por cima de um bloco que não
+   o comportava. **A manhã passa a ser, em papel, o que já era na rua: 2,6 km e 35 minutos de
+   caminhada, e não 2,5 km e 33.** Nada foi cortado, porque a Asamkirche já era o item a cortar
+   se o dia derrapar, e passa a haver mais uma razão para o ser.
+
+   **Nota de método:** os 325 m do *Marienplatz ➔ Frauenkirche* não eram uma medição errada,
+   eram uma **distância em linha reta apresentada como caminhada**. Em linha reta são 323 m; a
+   pé, contornando os quarteirões, são 445. **As duas estão certas e só uma serve.**
+
+   Esta é a segunda vez que este dossiê tropeça no mesmo sítio: **a regra que fica é medir com
+   coordenadas, e desconfiar de qualquer número redondo que ninguém sabe de onde veio.**
+
+5. **Auditoria às distâncias do roteiro inteiro.** Medido tudo o que o roteiro afirma, no
+   OSRM e com coordenadas, a 10/09/2026. **A esmagadora maioria estava certa**, e isso também
+   é informação: quem duvidar do dossiê passa a saber onde ele resiste.
+
+   **Certo, e confirmado ao quilómetro:**
+
+   | Troço | Dossiê | Mede |
+   |---|---|---|
+   | Dia 4 · Augsburg ➜ Hohenschwangau | 103 km, 1h27 | **103 km, 1h27** |
+   | Dia 4 · Hohenschwangau ➜ Oberammergau | 46 km, 45 min | **46 km, 45 min** |
+   | Dia 4 · Oberammergau ➜ Eibsee | 30 km, 36 min | **30 km, 36 min** |
+   | Dia 4 · Eibsee ➜ Augsburg | 131 km, 1h55 | **131 km, 1h55** |
+   | Dia 7 · Augsburg ➜ Nymphenburg | 60 km, 45 min | **60 km, 45 min** |
+   | Dia 7 · Nymphenburg ➜ BMW Welt | 6,0 km, 9 min | **6,0 km, 9 min** |
+   | Dia 3 · Enterprise ➜ apartamento | 4,7 km, 8 min | **4,7 km, 8 min** |
+   | Dia 2 · Schweizerhaus ➜ Praterstern | 850 m, 11,5 min | **852 m, 11 min** |
+   | Dia 2 · Sacher ➜ Karlsplatz | 400 m, 5 min | **378 m, 5 min** |
+   | Dia 2 · casa ➜ Das Loft | 630 m, 8,5 min | **616 m, 8 min** |
+   | Dia 5 · Marktplatz ➜ Burggarten | ~460 m *(novo)* | **458 m, 6 min** |
+
+   **Errado, e corrigido:**
+
+   | Troço | Dizia | Mede | O que se fez |
+   |---|---|---|---|
+   | Dia 2 · Gloriette ➜ estação Schönbrunn (U4) | **1,1 km, 14 min** | **1,6 km, 21 min** | 🔴 corrigido, e o bloco do metro passou de 16:20 para **16:25** |
+   | Dia 7 · BMW Welt ➜ Allianz Arena | **9,7 km, 14 min** *(num sítio)* e **11 km, 16 min** *(noutro)* | 9,5 km, 14 min na rota direta; 11 km por rota mais longa | contradição interna resolvida, tudo a **11 km / 16 min** |
+   | Dia 7 · Allianz Arena ➜ Aeroporto | **28 km, 21 min** | **30 km, 23 min** | corrigido |
+   | Dia 3 · Augsburg Hbf ➜ Enterprise | **~5 km** | **~6,5 km** | corrigido |
+
+   **A Gloriette é o caso sério, e é o terceiro do mesmo tipo.** Os **1,1 km** não eram uma
+   medição errada: eram a **distância em linha reta** apresentada como caminhada. Em linha reta
+   são ~1,19 km; a pé, a descer o jardim todo, são **1,6 km e ~20 minutos**. Os 14 minutos eram
+   tão curtos que o dia se montava em cima deles: o bloco acaba às 16:05 e o grupo só chega ao
+   cais às 16:25. **O dia fecha à mesma, porque o bloco do metro foi recuado de 16:20 para
+   16:25 e continua a ter os 35 minutos de viagem** (chegada ao Praterstern à mesma hora), mas
+   o número que lá estava era ficção. É a **terceira ocorrência** desta família, depois dos 325
+   m da Frauenkirche e dos 655 m do Viktualienmarkt: **alguém mediu em linha reta e escreveu
+   «a pé».**
+
+   **Onde é que a autocorreção falhou, e como se apanha.** Testemunho do método: a primeira
+   passagem mediu Augsburg ➜ Hohenschwangau com **105 km** e Hohenschwangau ➜ Oberammergau com
+   **48 km**, e ia dar as duas como erradas. Estava a medir até ao **castelo**, no monte, e não
+   até à **aldeia**, no parque onde o carro fica. Dois pontos, 2 km de diferença, e uma
+   «correção» que teria estragado dois números certos. **O destino conta tanto como a origem**
+   e, num sítio com dois pontos de referência no mesmo nome, é preciso medir até onde o carro
+   para, não até onde a fotografia se tira.
+
+**E a segunda opinião do Gemini voltou a não correr, agora de forma diagnosticada.** Não é o
+CLI que falta: o `agy` está instalado e responde ao `--version` (**1.2.0**). O que falha é a
+ligação ao modelo: o `agy models` não devolve a lista dentro de um minuto, e uma revisão a
+sério do Dia 2 e do Dia 6 correu **3m12** e saiu com **código 0 e zero linhas de output**. Um
+programa que diz «correu bem» e não escreve nada é o pior dos dois mundos, porque não há erro
+para ler. **A regra 7 continua por cumprir neste dossiê**, e agora sabe-se porquê e onde: está
+do lado do serviço, não destes ficheiros. Quem quiser a passagem externa tem de a fazer pela
+interface do Antigravity, à mão, não por este CLI.
+
+---
+
 ## 11.ª revisão · 10 de setembro de 2026
 
 **Segunda passagem no mesmo dia, esta sobre o roteiro e não sobre o `meteo.py`:** todas as
@@ -74,6 +200,13 @@ históricos, devolveu 33 km/h numa perna e 3,3 km para um salto de 280 metros. O
 opinião do Gemini não correu**: o CLI `agy` expirou três vezes, de cinco minutos cada, sem
 devolver nada. Esta revisão não tem a passagem externa que a regra 7 pede, e isso é uma
 lacuna, não um detalhe.
+
+> 🔴 **As distâncias a pé fecharam-se a 10 de setembro de 2026.** Ver a 12.ª revisão, ponto 4:
+> medida com **coordenadas em vez de nomes**, a perna do Burggarten ao Kriminalmuseum dá **449 m
+> e 6 min** (e não 350 m e ~5), e o Dia 6 ganhou uma correção de blocos por causa de uma perna
+> de 885 m que estava escrita como 729. **O perfil pedonal do OSRM nunca esteve avariado: quem
+> devolvia o sítio errado era o geocodificador**, que respondia a um nome com outro lugar. A
+> segunda opinião do Gemini continua por fazer.
 
 ---
 
@@ -182,9 +315,18 @@ sobreviveram à verificação; cinco acusações do Gemini foram verificadas e r
    setembro. **Não mexe no almoço das 14:15**, porque o que o sustenta é a cozinha contínua e
    essa confirma-se, mas o horário estava mal citado com um ✅ em cima.
    *(schwangau.de, 03/09/2026.)*
+   > 🔴 **Revertido a 10 de setembro de 2026.** A 9.ª revisão mudou as 11:00 para as 12:00 com
+   > base numa listagem da schwangau.de, e essa listagem contrariava a própria casa. O
+   > *alpenstuben.de* publica, textualmente, «Täglich durchgehend warme Küche von 11 bis 21
+   > Uhr», e o widget do próprio site confirma «heute bis 21 Uhr». **O horário voltou a
+   > 11:00–21:00**, e o almoço das 14:15 nunca dependeu dele: depende da cozinha contínua, que
+   > se confirma nas duas versões. **Para o horário de uma casa, a fonte primária é a casa**, e
+   > uma listagem de município não a substitui.
 6. **O parque de Nymphenburg é gratuito**, ~450 lugares, e estava orçamentado a ~€5.
-   *(schloesser.bayern.de, 03/09/2026.)* O da Allianz Arena desceu a ⚠️: os €12 são tarifa de
-   dia de jogo e a 29 de setembro não há jogo, mas não se confirmou o valor sem jogo.
+   *(schloesser.bayern.de, 03/09/2026.)* O da Allianz Arena ficou nesse dia marcado como ⚠️
+   porque os €12 eram tarifa de dia de jogo e não se tinha aberto a fonte sem jogo. **Fechou-se
+   a 10/09/2026: em dia sem jogo são €5,00/dia** para ligeiros, pagos sem dinheiro
+   *(allianz-arena.com/de/anreise/spielfrei)*. O guia passou a dizer €5,00.
 7. **O Dia 5 tem 10 minutos de caminhada que não estão em bloco nenhum**: St. Jakobskirche ➔
    Burggarten ➔ Kriminalmuseum são ~5 minutos cada *(OSRM, 03/09/2026)*. **Não se
    reestruturou o dia**, porque o bloco de 15 minutos do regresso ao carro é folga a mais (a

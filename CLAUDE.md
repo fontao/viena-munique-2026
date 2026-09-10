@@ -250,7 +250,46 @@ The tools that matter here:
 - `geocode` / `find_nearby_pois`: coordinates and venues; coordinates feed the `index.html`
   map markers.
 
-Waypoints are plain strings: a place name, an address, or `"lat,lon"`.
+Waypoints are plain strings: a place name, an address, or `"lat,lon"`. **Prefer `"lat,lon"`.**
+A name resolves to whatever the geocoder thinks is the best match, and in a medieval old town
+that is often the wrong object. `geocode` first, read the returned label to confirm it is the
+place you mean, then feed the coordinates to `route`.
+
+> 🔴 **The mistake this repository already made.** Asking for *"St. Jakobskirche, Rothenburg ob
+> der Tauber"* **by name** returns a **viewpoint in Detwang**, kilometres away, and produced
+> **1,4 km and 19 minutes** for a leg that is 371 m. The same request with the coordinates of
+> Klostergasse 15 returns **371 m and 5 min**. The note written at the time concluded that the
+> OSRM pedestrian profile was unusable. It never was: the geocoder was answering a different
+> question. **A bad result is usually a bad input, so isolate the failure before writing off a
+> tool**, and never let an unverified negative reach `historico.md`. A false "this cannot be
+> measured" is as damaging as a false "this is confirmed".
+
+**Measure to where the car stops, not to the landmark.** *Hohenschwangau* the village (the car
+park) and *Neuschwanstein* the castle (on the hill above it) are 2 km apart and share a name in
+the prose. Measured to the castle, Augsburg ➜ Hohenschwangau reads **105 km**; to the village it
+is **103 km**, which is what the itinerary says. The same 2 km inflated the next leg from 46 to
+48 km. **Two correct numbers were nearly "corrected" because the destination was wrong.**
+
+**The `foot` profile already returns the real walking distance. Never write a straight-line
+distance as a walk.** Three legs here had exactly that error, and the pattern is recognisable: a
+suspiciously round number, no source, and a minute count that the distance cannot support.
+
+| Leg | Written | Straight line | Actually walked |
+|---|---|---|---|
+| Marienplatz ➜ Frauenkirche | 325 m, 4 min | 323 m | **445 m, 6 min** |
+| Viktualienmarkt ➜ Asamkirche | 759 m, 10 min | ~680 m | **653 m, 9 min** |
+| Gloriette ➜ Schönbrunn U4 | 1,1 km, 14 min | 1,19 km | **1,6 km, ~20 min** |
+
+**Sanity-check the shape of a number.** OSRM answers with values like 371, 449, 445, 608, 653,
+885, 103152. A round 325, 360, 400 or 1,1 km in this dossier predates the measurement, and three
+of them turned out to be straight lines. If a distance carries no date and no tool next to it,
+assume nothing about it.
+
+**When a leg looks wrong, measure it twice by different routes** before touching the document.
+BMW Welt ➜ Allianz Arena returns **9,5 km** on the direct line and **11 km** through Schwabing.
+The dossier had 9,7 km in one place and 11 km in another, and the contradiction survived
+unnoticed because nobody compared the two. Where the day has a hard anchor (a flight, a timed
+ticket, a last train), **keep the conservative figure**, which is the longer one.
 
 **Read durations correctly.** OSRM returns **free-flow times with no live traffic and no
 public transport**. So:
@@ -267,6 +306,47 @@ instead of firing many `route` calls. For weather use `meteo.py`, not a maps too
 
 Findings still belong in `itinerario_viagem.md` and `index.html`; the MCP is a check, not a
 record.
+
+### When a tool or a source fails
+
+Every item below cost real time in this dossier. The common thread is that a tool or a page
+*looked* like it had answered when it had not.
+
+- **A search snippet is not a source.** Snippets contradict each other and are frequently stale
+  or about a different place. A snippet for the Alpenstuben said one opening time and the
+  restaurant's own page said another. **Open the page before you write down a number.**
+- **For a business's own hours, its own site is the primary source**, and an aggregator or a
+  municipal listing does not override it. The same trap hit the Alpenstuben twice: a
+  `schwangau.de` listing was allowed to change the hours to "opens 12:00", when the house
+  itself publishes *"Täglich durchgehend warme Küche von 11 bis 21 Uhr"*. The change was
+  reverted. **A directory that agrees with you is not evidence; the house is.**
+- **When a fetch fails, search for the official page before concluding the fact is
+  unpublished.** `fcbayern.com/parken` timed out, which looks like "there is no published
+  tariff"; `allianz-arena.com/de/anreise/spielfrei` had the exact figure (`5,00 € / Tag` on
+  non-matchdays). A 404 also usually means the wrong path, not a missing fact.
+- **Do not trust a figure that is only correct on a day you are not travelling.** The Allianz
+  parking was budgeted at ~€12 for months: that is the **matchday** tariff, and 29/09 has no
+  match. Three car parks here have been corrected downward on exactly that question
+  (Nymphenburg to free, BMW Welt from ~€12 to €3,50/hour, Allianz to €5,00), and the Eibsee
+  entry was wrong in the same family, its hourly increment, though its €10 total happened to
+  survive. **Ask which day, and which increment, the quoted price applies to.**
+- **A tool that exits 0 with no output is a failure.** Check the output, not the exit code. The
+  Gemini pass via `agy` ran for **3m12, exited 0, and wrote zero lines**; `agy --version`
+  answers (**1.2.0**) while `agy models` never returns, so the fault is the model connection,
+  not the binary. Rule 7 therefore stays unmet, and `historico.md` says so. **Bound such a call
+  with a timeout and read the log file, never just the status.**
+- **Re-run `verificar.py` after any edit that reflows prose.** It counts strings, so a line
+  break through "6 pessoas" dropped the pax count from 23 to 22 and the section still said
+  "nothing to report". **Read the INFO lines, not only the errors.**
+- **Two files outside `verificar.py`'s scope.** It compares `itinerario_viagem.md` with
+  `index.html` and nothing else, so `catalogo_viena.md` and `historico.md` are unchecked. A
+  false Das Loft closure notice survived **eleven revisions** in the catalogue precisely
+  because nothing reads it, and the catalogue is where the roteiro takes facts from. **After
+  changing a fact, grep the whole repository, not the two files the checker knows.**
+- **Prose the checker cannot see.** The day banners, tab cards and tab badges are free text, so
+  a rebuilt day keeps its old headline. Day 6 still advertised "Mesa reservada 17:00" and
+  "Surf" long after both were gone, while the day's own body and ticket card were correct.
+  **A rebuilt day needs its header, tab and badge swept by hand.**
 
 ### The page in a real browser
 

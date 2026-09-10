@@ -3,7 +3,7 @@
 **Datas:** 23 a 29 de Setembro de 2026 (7 Dias / 6 Noites)
 **Viajantes:** 6 amigos · **4 partem de Lisboa** (Viena, dias 1 a 3) + **2 juntam-se em Augsburg** (dia 3)
 **Voos Oficiais:** TAP Air Portugal (TP 1270 LIS ➔ VIE / TP 555 MUC ➔ LIS)
-**Revisto em:** 3 de setembro de 2026 (9.ª revisão)
+**Revisto em:** 10 de setembro de 2026 (12.ª revisão)
 **Porque é que o plano é este:** ver [`historico.md`](historico.md), onde ficam as decisões
 tomadas, as alternativas rejeitadas e o que cada escolha custou.
 
@@ -167,8 +167,8 @@ Salzburgo, o mesmo trajeto ficou por **€333,92** e chega à mesma hora. **Poup
 **A) ✅ Westbahn · Wien Westbahnhof ➔ Salzburg Hbf · €175,96**
 - Comboio **910, 10:38 ➔ 13:08**, direto, 2h30. Classe *2 | Standard*, **€43,99/pessoa**.
 - Tarifa *WestSuperpreis*, **reserva de lugar incluída**: lugares **224A, 224B, 223A, 223B**.
-- ⚠️ **Parte da Westbahnhof, não da Wien Hbf.** São ~25 min de metro desde Schwedenplatz
-  (U1 ➔ Stephansplatz ➔ U3).
+- ⚠️ **Parte da Westbahnhof, não da Wien Hbf.** São ~30 min de metro desde Schwedenplatz
+  (U1 ➔ Stephansplatz ➔ U3), contando as duas esperas e o transbordo.
 - 🚫 **Não confundir com o comboio 912 das 11:38** (*going to Saalfelden*): chega a Salzburgo
   às 14:08 e perde o ICE por 8 minutos.
 
@@ -236,7 +236,7 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 | **Fuggerei** (Dia 3, noite) | 6 | €8/pax = **€48** | Aberta até às 20:00; bilheteira no local |
 | **Shuttle da Marienbrücke** (Dia 4) | 6 | ✅ **€5,00**/pax ida e volta = **€30** | Sai do **P4** · só ida €3,50 · subidas das 08:00 às 17:30 |
 | **Estacionamento** (Hohenschwangau) | - | ✅ **€12** até 6 h | Dia 4 · P1 a P4 · teto de €16/dia · cartão ou moedas |
-| **Almoço no Alpenstuben** (Dia 4) | 6 | a la carte | Hohenschwangau · abre às **12:00**, cozinha contínua até às **20:30** · **reservar de manhã** |
+| **Almoço no Alpenstuben** (Dia 4) | 6 | a la carte | Hohenschwangau · cozinha quente **11:00–21:00** · **reservar de manhã** |
 | **Abadia de Ettal** (Dia 4, opcional) | 6 | Basílica **grátis** | Só na Rota B · basílica 08:00–18:00 · **loja fecha às 17:00** |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €54 (3 pax) + €54 (3 pax) = **€108** | Repartir 3+3 e não 5+1: custa o mesmo |
 | **Palácio de Nymphenburg** | 6 | Parque **grátis** · palácio **€10**/pax · *Gesamtkarte* **€20** | Ver Dia 7: só há 75 min |
@@ -293,12 +293,14 @@ sete lugares isso são **€100 a €130 de
 combustível** ⚠️ *(estimativa: ~7,5 l/100 km a preços alemães de 2026, não é uma cotação)*.
 Somam-se os parques: ✅ **Eibsee €10** (até 4 h, depois €1,00/h), Rothenburg ⚠️ **€5,50**,
 ✅ **Nymphenburg grátis**, 🔴 **BMW Welt €3,50/hora com teto de €23 ao dia**, e Allianz Arena
-⚠️ ~€12.
+✅ **€5,00/dia**.
 🔴 *O parque de Nymphenburg estava aqui a ~€5 e **não se paga**: a Bayerische
 Schlösserverwaltung dá ~450 lugares gratuitos para quem visita o palácio e o parque.
-(schloesser.bayern.de, confirmado a 03/09/2026.)* ⚠️ *E o da Allianz Arena fica marcado como
-estimativa: os €12 são tarifa de dia de jogo, e a 29 de setembro não há jogo, por isso é
-provável que se pague menos ou nada. Não foi confirmado na fonte oficial.*
+(schloesser.bayern.de, confirmado a 03/09/2026.)* ✅ *E o da Allianz Arena fechou-se a
+10/09/2026: **em dia sem jogo custa €5,00 por dia** para ligeiros, até 2 h depois de o
+estádio fechar, pago sem dinheiro, com cartão ou EC. Os ~€12 que aqui estavam eram tarifa de
+dia de jogo e nunca se aplicariam a uma terça sem futebol.
+(allianz-arena.com/de/anreise/spielfrei, confirmado a 10/09/2026.)*
 🔴 *A BMW Welt estava aqui a ~€12 e é por hora: com o bloco de uma hora do Dia 7 são €3,50, e
 não €12, mas quem se demorar paga bem mais. Corrigido a 28/08/2026 na bmw-welt.com.* **As autoestradas alemãs não têm portagem para automóveis ligeiros**, e
 com a rota do Dia 4 invertida também não é preciso comprar a vinheta austríaca.
@@ -607,10 +609,10 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
 - **14:00 – 15:15**: **Palácio de Schönbrunn**, Schlossticket com hora marcada (75 min,
   audioguia). **15:15 – 16:05**: subida à colina da **Gloriette** (700 m a subir) para a
   panorâmica sobre Viena.
-  - ⚠️ **A descida da Gloriette até ao metro são 14 minutos, e não 5.** São **1,1 km** da
+  - ⚠️ **A descida da Gloriette até ao metro são ~20 minutos, e não 5.** São **~1,6 km** da
     Gloriette à estação **Schönbrunn (U4)**, atravessando o jardim todo *(OSRM, perfil a pé,
-    27/08/2026)*. É por isso que o bloco acaba às **16:05** e não às 16:15: os 15 minutos
-    seguintes são a descida.
+    10/09/2026, medido com coordenadas)*. É por isso que o bloco acaba às **16:05**: os 20
+    minutos seguintes são a descida, e é o que põe o grupo no cais às 16:25.
   - ⚠️ **Porque é que passou das 13:00 para as 14:00:** brunch até às 12:30 + Sacher (que tem
     tipicamente 20–40 min de fila) + metro deixava-vos no palácio por volta das **13:20**:
     atrasados para uma entrada com hora marcada. Às 14:00 a manhã fica realmente sem pressas
@@ -618,7 +620,7 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
   - ✅ **O U4 chega a Schönbrunn sem interrupções** *(Wiener Linien, confirmado a
     26/08/2026)*. Plano B, que não custa nada saber: U4 até Meidling + elétrico 10 ou 60 até
     Hietzing, ou o autocarro 10A.
-- **16:20 – 17:00**: **U4 até Karlsplatz, mudar para o U1 até Praterstern** (~35 min).
+- **16:25 – 17:00**: **U4 até Karlsplatz, mudar para o U1 até Praterstern** (~35 min).
   - *Mudar em Karlsplatz e não em Schwedenplatz:* o U1 e o U4 cruzam-se nos dois sítios, mas
     vindo de Schönbrunn o Karlsplatz aparece **três estações antes**.
   - *E porquê a U1 e não a U2, que também sai do Karlsplatz?* Porque a U2 **dá a volta ao
@@ -754,7 +756,7 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
 
 - **16:14 – 16:45**: **O grupo separa-se no cais, e os dois ramos correm ao mesmo tempo.**
   - 🚕 **Os 1 ou 2 condutores** apanham o **táxi pré-reservado na praça da estação** e vão
-    diretos à **Enterprise Rent-A-Car** (*Aindlinger Str. 14*, ~5 km, ~€15–20), onde estão por
+    diretos à **Enterprise Rent-A-Car** (*Aindlinger Str. 14*, ~6,5 km, ~€15–20), onde estão por
     volta das **16:30**. Não passam pelo apartamento e não levam malas: as deles seguem com o
     resto do grupo. ⚠️ **Reservar o táxi por telefone na véspera**, para as **16:20**, à porta
     da estação. Não confiar na praça de táxis, e contar 15 a 20 min de trajeto na hora de
@@ -875,15 +877,16 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > Hohenschwangau eram para chegar a um torniquete às 14:00. Sem torniquete, almoça-se na
 > aldeia, sentado, entre a ponte e a estrada para Oberammergau.
 >
-> ✅ **Hotel-Restaurant Alpenstuben, Alpseestraße 8, aos pés do castelo.** Abre **às 12:00**,
-> todos os dias e sem dia de descanso, com **cozinha contínua até às 20:30** de julho a
-> setembro. **O "durchgehend" é o que interessa:** a maioria das cozinhas alemãs fecha o almoço
-> entre as 14:00 e as 14:30, e esta não fecha, o que é a razão de ser possível almoçar às
-> 14:15. **Reservar de manhã à mesma**, que são 6 pessoas num sábado de setembro em
-> Hohenschwangau. *(Listagem oficial da schwangau.de, reverificada a 03/09/2026.)*
-> 🔴 *Este guia dizia "warme Küche von 11 bis 21 Uhr": a casa abre às **12:00**, não às 11:00.
-> Não mexe no almoço das 14:15, porque o que o sustenta é a cozinha contínua e essa
-> confirma-se, mas quem lá aparecesse às 11:30 encontrava a porta fechada.* O *Bräustüberl* do Kloster Ettal (10:00–23:00) é o plano B, mas
+> ✅ **Hotel-Restaurant Alpenstuben, Alpseestraße 8, aos pés do castelo.** Tem **cozinha quente
+> das 11:00 às 21:00**, todos os dias e sem dia de descanso. **O "durchgehend" é o que interessa:**
+> a maioria das cozinhas alemãs fecha o almoço entre as 14:00 e as 14:30, e esta não fecha, o
+> que é a razão de ser possível almoçar às 14:15. **Reservar de manhã à mesma**, que são
+> 6 pessoas num sábado de setembro em Hohenschwangau. *(alpenstuben.de, reverificado a
+> 10/09/2026.)*
+> 🔴 *A 03/09/2026 este horário chegou a ser mudado para "abre às 12:00, cozinha até às 20:30",
+> com base numa listagem da schwangau.de. Estava errado: a própria casa publica "Täglich
+> durchgehend warme Küche von 11 bis 21 Uhr". Voltou a 11:00. **O almoço das 14:15 nunca esteve
+> em causa:** o que o sustenta é a cozinha contínua, e essa confirma-se nas duas versões.* O *Bräustüberl* do Kloster Ettal (10:00–23:00) é o plano B, mas
 > fica tarde de mais para almoço.
 >
 > 🪙 **Levar moedas de 0,50 € e 1 €.** As casas de banho da aldeia e dos parques funcionam a
@@ -1097,8 +1100,8 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   Sangue Sagrado**, entalhado em tília por **Tilman Riemenschneider entre 1500 e 1505**: é um
   dos maiores tesouros da escultura sacra alemã e é, com alguma probabilidade, **a melhor
   coisa que há em Rothenburg**.
-- **15:05 – 15:35**: 🌄 **Burggarten** pela Herrngasse (400 m da Marktplatz, grátis, aberto
-  sempre), **incluindo os 5 min a pé até ao Kriminalmuseum a seguir**: o promontório onde estava o castelo imperial dos Hohenstaufen, com a panorâmica
+- **15:05 – 15:35**: 🌄 **Burggarten** pela Herrngasse (~460 m da Marktplatz, grátis, aberto
+  sempre), **incluindo os 6 min a pé até ao Kriminalmuseum a seguir**: o promontório onde estava o castelo imperial dos Hohenstaufen, com a panorâmica
   mais desafogada sobre o vale do Tauber, os socalcos de vinha e a ponte medieval de arcos
   duplos.
 - **15:35 – 16:35**: 🗡️ **Mittelalterliches Kriminalmuseum** (*Burggasse 3–5*, domingo
@@ -1123,9 +1126,10 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 
 > ### ⏱️ As duas transições da tarde não estão nos blocos, e é aqui que se pagam
 > **Os blocos das 14:30, 15:00 e 15:30 encostam uns aos outros sem um minuto de caminhada pelo
-> meio, e há caminhada.** Remedido no OSRM a **03/09/2026**: da St. Jakobskirche ao Burggarten
-> são **360 m e ~5 minutos**, e do Burggarten ao Kriminalmuseum outros **350 m e ~5 minutos**.
-> São **10 minutos** que a tarde não tem escritos e que a fazem derrapar.
+> meio, e há caminhada.** Medido no OSRM a **10/09/2026**, agora com coordenadas e não com
+> nomes: da St. Jakobskirche ao Burggarten são **370 m e ~5 minutos**, e do Burggarten ao
+> Kriminalmuseum outros **450 m e 6 minutos**. São **11 minutos** que a tarde não tem escritos
+> e que a fazem derrapar.
 >
 > ✅ **Não se muda nada, porque o dia absorve-os no fim.** O bloco das 17:20 às 17:35 é
 > generoso de propósito: o passadiço da muralha **sai ao lado do P4**, onde está o carro, e não
@@ -1244,11 +1248,11 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
 - **11:17 – 11:55**: Comboio regional RE de Augsburg Hbf para München Hbf (38 min) com os
   **2× Bayern-Ticket** (válidos a partir das 09:00).
 > **A manhã faz-se agora num único varrimento para sudoeste**, da Marienplatz até ao Karlsplatz,
-> e daí uma paragem de metro até à Wiesn. São **2,5 km e 33 minutos de caminhada** ao todo.
-> *(Medido no OSRM, perfil a pé, 26/08/2026.)*
+> e daí uma paragem de metro até à Wiesn. São **2,6 km e 35 minutos de caminhada** ao todo.
+> *(Medido no OSRM, perfil a pé, 10/09/2026, com coordenadas em vez de nomes.)*
 
 - **11:55 – 12:10**: **Da München Hbf à Marienplatz, de S-Bahn.**
-  - ⚠️ **A pé está fora de questão:** são **1,6 km e 21 minutos** *(OSRM, 26/08/2026)*. De S-Bahn são **duas paragens e 3 minutos de viagem**, mas de porta a praça, com
+  - ⚠️ **A pé está fora de questão:** são **1,7 km e 23 minutos** *(OSRM, 10/09/2026)*. De S-Bahn são **duas paragens e 3 minutos de viagem**, mas de porta a praça, com
     seis pessoas, são **~15**: sair do cais de superfície e atravessar o átrio (5 min), descer
     à *Stammstrecke* (2 min), esperar (2 a 3 min), viajar (3 min) e subir da plataforma funda
     da Marienplatz à superfície (3 min). Incluído no Bayern-Ticket.
@@ -1258,17 +1262,17 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
     ou seja, nada. **Não vale a pena reorganizar o dia por causa disto:** são 12 minutos de bonecos a rodar, é o espetáculo mais sobrevalorizado de
     Munique, e **o das 17:00 apanha-vos dentro da tenda**, que é onde é para estar.
   - ⏱️ **O bloco encolheu de 30 para 25 minutos** para absorver a S-Bahn sem tocar nas 13:45.
-    Dá para a fachada do Neues Rathaus, os 325 m até à Frauenkirche e uma volta pela nave.
+    Dá para a fachada do Neues Rathaus, os 445 m até à Frauenkirche e uma volta pela nave.
     **Não dá para lojas nem para fotografias individuais.**
-  - 🎫 A **Frauenkirche** é grátis e abre das 08:00 às 20:00. Fica a **325 m** da Marienplatz,
-    4 minutos a pé.
-- **12:35 – 12:45**: A pé da Frauenkirche até ao **Viktualienmarkt** (655 m, 9 min). Não há tempo para vaguear: estes 10 minutos são quase todos a andar.
+  - 🎫 A **Frauenkirche** é grátis e abre das 08:00 às 20:00. Fica a **445 m** da Marienplatz,
+    6 minutos a pé.
+- **12:35 – 12:45**: A pé da Frauenkirche até ao **Viktualienmarkt** (608 m, 8 min). Não há tempo para vaguear: estes 10 minutos são quase todos a andar.
 - **12:45 – 13:00**: **Viktualienmarkt**, de passagem e de pé. Uma *Weißwurst*, um pretzel
   gigante, *Obatzda*, e segue-se.
   - ⚠️ **Isto já não é o almoço.** O almoço é o *Hendl* dentro da tenda, daqui a uma hora. Não
     se sentem: cada minuto aqui é um minuto a menos de margem para as 14:00.
   - ✅ Ao domingo o Viktualienmarkt fecha. Numa segunda está aberto, sorte do calendário.
-- **13:00 – 13:10**: A pé até à **Asamkirche** (759 m, 10 min).
+- **13:00 – 13:10**: A pé até à **Asamkirche** (653 m, 9 min).
 - **13:10 – 13:22**: **Asamkirche** (*Sendlinger Str. 32*). **Grátis**, e doze minutos lá
   dentro chegam. Construída pelos irmãos Asam entre 1733 e 1746 num terreno com **8 metros de
   largura**, para uso próprio: é a coisa mais densamente barroca da Alemanha, com iluminação
@@ -1276,11 +1280,14 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
   - ✅ **Nesta ordem deixou de ser um desvio.** Quando o Viktualienmarkt vinha depois dela, a
     Asamkirche custava 11 minutos de volta ao caminho. Agora fica entre o mercado e o
     Karlsplatz, que é exatamente a direção da Wiesn, e não custa nada.
-- **13:22 – 13:32**: A pé até ao **Karlsplatz (Stachus)** (729 m, 10 min).
-- **13:32 – 13:45**: **U4 ou U5, Karlsplatz ➔ Theresienwiese, duas paragens** (com a
-  Hauptbahnhof pelo meio), ~3 minutos de viagem. Incluído no Bayern-Ticket. Os 13 minutos do
+- **13:22 – 13:34**: A pé até ao **Karlsplatz (Stachus)** (885 m, 12 min). **São 12 e não 10, e
+  é o troço a vigiar da manhã.**
+- **13:34 – 13:45**: **U4 ou U5, Karlsplatz ➔ Theresienwiese, duas paragens** (com a
+  Hauptbahnhof pelo meio), ~3 minutos de viagem. Incluído no Bayern-Ticket. Os **11 minutos** do
   bloco são para descer ao cais, esperar e sair no meio do fluxo de gente, que num dia de
-  Wiesn não é pouca.
+  Wiesn não é pouca. **São 11 e não 13 porque a caminhada da Asamkirche ao Karlsplatz come os
+  dois minutos que faltavam** *(OSRM, 10/09/2026)*, o que torna a Asamkirche ainda mais a
+  primeira coisa a cortar se o dia derrapar.
 - **13:45 – 22:20**: **OKTOBERFEST 2026 na Theresienwiese.** Cerveja de litro *Maß*
   (€14,80–15,90), frango assado *Hendl* (€16–19), cantoria e brinde
   (*"Ein Prosit, ein Prosit, der Gemütlichkeit! Oans, zwoa, drei, g'suffa!"*).
@@ -1345,7 +1352,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
   - 🎯 **A tenda para acabar é a Hofbräu-Festzelt**, e a razão é a *Stehkurve*: ~1.000 lugares
     de pé à frente do palco que **não são reserváveis de todo**, o que faz dela a única zona da
     Wiesn que não vos pode fechar a porta. **Mas procurem mesa primeiro.** A *Stehkurve* das
-    15:30 às 22:20 são **quase sete horas de pé**, depois de uma manhã a andar 2,5 km. É a
+    15:30 às 22:20 são **quase sete horas de pé**, depois de uma manhã a andar 2,6 km. É a
     garantia, não a primeira escolha.
   - 🚨 **Depois de fixados, não sair da tenda.** Se a tenda entrar em *Einlassstopp* (portas
     fechadas por lotação) enquanto alguém foi lá fora apanhar ar ou fumar, **essa pessoa não
@@ -1415,7 +1422,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 > ### 🚨 As transições deste dia são de 30 e 40 minutos, não de 15
 > Entre sair de um sítio e entrar no outro há **voltar ao carro, pagar o parque, conduzir,
 > entrar noutro parque e andar até à porta**. Só a condução dá **Nymphenburg ➜ BMW Welt
-> 6,0 km em 9 min** e **BMW Welt ➜ Allianz Arena 9,7 km em 14 min**, mas o que o dia gasta são
+> 6,0 km em 9 min** e **BMW Welt ➜ Allianz Arena 11 km em 16 min**, mas o que o dia gasta são
 > **30 e 40 minutos**. Os blocos abaixo parecem generosos e não são: é o último dia e a dívida
 > sairia do fim, que é onde está o voo.
 >
@@ -1490,7 +1497,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     das 10:00 às 18:00**, com o *Paulaner Fantreff North* aberto e a restante restauração
     fechada. O bloco das 15:20 às 16:00 cabe todo dentro disso. *(Confirmado a 28/08/2026.)*
   - ✂️ **Se o dia derrapar, é isto que se corta, e não outra coisa.** É a paragem mais fora de
-    mão, custa ~€12 de parque e mais de 1 km de caminhada para ver a loja e o exterior de um
+    mão, custa €5,00 de parque (em dia sem jogo) e mais de 1 km de caminhada para ver a loja e o exterior de um
     estádio vazio. Cortando-a, chega-se ao aeroporto uma hora mais cedo e o dia deixa de ser
     uma corrida. **Fica no plano porque o grupo a quis**, não porque a matemática a peça.
   - ✅ **Confirmado: não há futebol nenhum nesta semana.** A FIFA fundiu as pausas de setembro
@@ -1512,7 +1519,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 > subterrânea e a Allianz Arena tem o parque do estádio, e levar passaportes, cartões e
 > eletrónica **sempre convosco**, nunca na bagageira.
 - **16:00 – 16:15**: Regresso ao carro pela Esplanade e pagamento do parque.
-- **16:15 – 17:00**: **A9 e A92 até ao Aeroporto de Munique** (28 km, **21 min em fluxo
+- **16:15 – 17:00**: **A9 e A92 até ao Aeroporto de Munique** (30 km, **23 min em fluxo
   livre**), **abastecimento de combustível** e entrada no *Mietwagenzentrum*.
   - ⛽ **Atestar antes de chegar ao aeroporto**, num posto em Eching ou Neufahrn. O posto da
     Zentralallee é onde toda a gente que devolve carro vai atestar, e é fila garantida à hora
@@ -1559,10 +1566,10 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 - [ ] **Táxi de Augsburg Hbf para a Enterprise** reservado por telefone.
 - [ ] **Como e a que horas chegam os 2 amigos a Augsburg** no Dia 3, e se voltam no TP 555.
 - [ ] **N.º de lugares reservados no voo de regresso**: 4 ou 6?
-- [ ] 🔴 **Confirmar por telefone o horário de sábado da Enterprise de Augsburg**
-      (**+49 821 448360**). As listagens públicas concordam que abre às 09:00 mas divergem no
-      fecho, entre as 12:00 e as 14:00. **É o plano B de que depende o Dia 4** se o ICE 116 se
-      atrasar, e vale a pena ouvi-lo da boca deles.
+- [x] ✅ **Horário de sábado da Enterprise de Augsburg: 09:00–12:00.** Fechado a 10/09/2026 na
+      página da própria estação (*(enterprise.de)*), que dá também **domingo 09:00–12:00** e
+      **segunda a sexta 08:00–18:00**. Deixa de ser preciso telefonar, e **o plano B do Dia 4 já
+      contava com esta janela da manhã**, portanto não muda nada no plano.
 - [ ] **Mesas reservadas:** Schweizerhaus (Dia 2, **às 18:30 e não às 18:15**, e é **crítica,
       é o dia de abertura da Kaiser Wiesn ali ao lado**), Bauerntanz (Dia 3), jantar de sábado
       às **21:30** (Dia 4).

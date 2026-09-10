@@ -38,9 +38,11 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 4. 🔴 **A Kaiser Wiesn abre na quinta 24 e, aos dias de semana, só a partir das 15:00.**
    Entrada no recinto e nas tendas **gratuita durante o dia**; só os eventos noturnos nas tendas
    são pagos.
-5. 🔴 **O Das Loft esteve fechado para obras e reabriu a 3 de setembro de 2026 com conceito
-   novo.** Todos os horários antigos são inválidos, e o roteiro atual tem lá reserva marcada
-   para quinta à noite.
+5. 🔴 **No Das Loft não se reserva, e o aviso de obras era falso.** O bar é *walk-in*, chega-se
+   e entra-se; quem reservar **mesa de restaurante** para depois só beber paga **€25 por
+   pessoa**. O roteiro tinha lá reserva marcada para quinta à noite e tem de a tirar. *(O
+   "esteve fechado e reabriu a 3/9/2026 com conceito novo" não tem vestígio em fonte nenhuma:
+   o sítio publicou programa ao longo de todo o ano.)*
 6. 🔴 **O Café Central está fechado** (renovação até ao inverno de 2026). Substituto: *DECENTRAL*,
    Freyung 3, diário 07:30–22:00.
 7. ✅ **Não há feriados nem greves a 23–25 de setembro.** Próximo feriado: 26 de outubro.
@@ -65,7 +67,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 | **MQ Libelle** ⭐ | Leopold Museum, MuseumsQuartier | ✅ Sim | 10:00–22:00, última subida 21:30 | 15 min (U3) | **Entrada grátis, sem consumo obrigatório.** Poente a oeste sobre a Innenstadt. Fecha com mau tempo. |
 | **MuseumsQuartier, sofás Enzi** ⭐ | Museumsplatz | 24h | sempre | 15 min | O melhor sítio da cidade para beber uma cerveja ao entardecer. Grátis. |
 | **Terraço da Albertina** ⭐ | Albertinaplatz | 24h | sempre | 12 min | **Grátis.** O melhor enquadramento da Ópera. |
-| **Das Loft** | SO/ Vienna, Praterstr. 1 | ⚠️ Verificar | 🔴 reabriu 3/9/2026, conceito novo | 8 min | A melhor panorâmica de Viena, mas nada do que se sabia sobre ele continua válido. |
+| **Das Loft** | SO/ Vienna, Praterstr. 1 | ✅ Sim | bar **walk-in**, sem reserva | 8 min | A melhor panorâmica de Viena. **Para o bar não se reserva**; reservar mesa de restaurante para depois só beber custa **€25/pax**. 🔴 O aviso de obras ("reabriu 3/9/2026") era falso: o sítio publicou programa todo o ano. |
 | **NENI am Wasser** (ex-Tel Aviv Beach) | Obere Donaustr. | ✅ Provável | ~12:00–00:00 | 8–10 min | 🔴 **Já não é praia urbana**, é um restaurante aberto todo o ano. |
 | **Sky Bar (Steffl)** | Kärntner Str. 19 | ⚠️ **Fontes divergem** | uma diz seg–sáb 10:00–24:00; outra diz que o SKY Bar só abre sex/sáb | 10 min | Telefonar antes de subir. |
 | **Meliá 57 (DC Tower)** | Donau-City-Str. 7 | ✅ Sim | seg–qui 17:00–00:00 | 25 min | 57.º andar, interior envidraçado, **sem risco de chuva**. |
@@ -338,8 +340,9 @@ para 24/9 · **futebol** (a jornada da Bundesliga austríaca joga-se tipicamente
 
 # ☎️ PARTE 4 · A confirmar antes de fechar seja o que for
 
-1. **Das Loft**: reabriu a 3/9/2026 com conceito novo. **O roteiro atual tem lá reserva para
-   quinta à noite. Todos os horários antigos são inválidos.**
+1. **Das Loft**: o aviso de obras era falso, o sítio publicou programa ao longo de todo o ano.
+   **O que interessa é outra coisa: para o bar não se reserva** (walk-in), e reservar mesa de
+   restaurante para depois só beber custa **€25/pax**. O roteiro tinha lá reserva e já a tirou.
 2. **O – der Klub**: a série de quartas grátis ainda corre a 23/9? Era "maio–setembro".
 3. **Das Werk, VIE i PEE, DANZÓN, Fledermaus**: confirmar as residências no Instagram em setembro.
 4. **Flex, Fluc, B72, rhiz**, só publicam programa com 3–4 semanas de antecedência.
@@ -362,7 +365,7 @@ para 24/9 · **futebol** (a jornada da Bundesliga austríaca joga-se tipicamente
 | Dia 1, 18:30 | "*Tel Aviv Beach* e os bares junto à Schwedenbrücke" | 🔴 O Tel Aviv Beach **já não existe**, é o NENI am Wasser. As opções reais são **Motto am Fluss** (2–4 min) e **Badeschiff** (10 min). |
 | Dia 1, aviso | "Não ir ao Strandbar Herrmann hoje" *(por distância)* | Continua certo, mas por outro motivo: **a época acaba a ~21 de setembro.** Está fechado. |
 | Dia 1, 15:10 | Torre Sul do Stephansdom, €8,00 | Preço ✅ confirmado. Vale a pena decidir **Sul vs Norte**: a Norte tem elevador. |
-| Dia 2, 20:30 | Reserva no Das Loft | 🔴 **Reabriu a 3/9/2026 com conceito novo.** Reconfirmar antes de contar com ele. |
+| Dia 2, 20:30 | Reserva no Das Loft | 🔴 **Para o bar não se reserva** (walk-in); reservar mesa de restaurante para depois só beber custa **€25/pax**. O aviso de obras era falso. |
 | Dia 2, 17:00 | Kaiser Wiesn | ✅ Confirmado. **Abre às 15:00 aos dias de semana** e a entrada é grátis de dia, chegar às 17:00 funciona. |
 | Dia 2 | Schönbrunn "Schlossticket €42" | ✅ Confirmado. A versão curta (*State Apartments*) é **€30**. **O parque e a Gloriette são grátis**, é uma alternativa legítima. |
 | - | *(não está no roteiro)* | **A Filarmónica de Viena toca no Musikverein na quinta 24**, com Salonen. E há **Macbeth** na Staatsoper com lugares de pé a €13. |
