@@ -30,8 +30,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import statistics
 import sys
+import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -169,15 +171,30 @@ def synth_code(precip: float | None, cloud: float | None) -> int:
     return 0
 
 
+#  Cache de rede, só em memória e só por esta execução. O comando documentado é
+#  `--md meteo.md --html index.html`: sem isto, o relatório e o cartão do guia
+#  pediam exatamente os mesmos dados à Open-Meteo, duas vezes, incluindo as dez
+#  chamadas anuais da climatologia por cada paragem. Não há persistência: voltar
+#  a correr o script volta a pedir tudo, que é o que se quer num relatório de
+#  previsão. Os dicionários são partilhados por quem os pede, portanto ninguém
+#  os deve alterar.
+_NET: dict[str, dict] = {}
+
+
 def fetch(url: str, params: dict) -> dict:
     query = urllib.parse.urlencode(params, doseq=True)
+    alvo = f"{url}?{query}"
+    if alvo in _NET:
+        return _NET[alvo]
     try:
-        with urllib.request.urlopen(f"{url}?{query}", timeout=30) as resp:
-            return json.load(resp)
+        with urllib.request.urlopen(alvo, timeout=30) as resp:
+            dados = json.load(resp)
     except urllib.error.HTTPError as exc:
         raise SystemExit(f"Erro HTTP {exc.code} da Open-Meteo: {exc.read().decode()[:200]}")
     except urllib.error.URLError as exc:
         raise SystemExit(f"Sem ligação à Open-Meteo: {exc.reason}")
+    _NET[alvo] = dados
+    return dados
 
 
 def fetch_forecast(stop: Stop, days: list[date]) -> dict[date, list[dict]]:
@@ -670,8 +687,22 @@ def inject_html(path: str, block: list[str]) -> None:
     depois = after.lstrip(nl)
 
     corpo = nl.join((recuo + linha) if linha else linha for linha in block)
-    with open(path, "w", encoding="utf-8", newline="") as fh:
-        fh.write(f"{antes}{nl}{nl}{corpo}{nl}{nl}{depois}")
+
+    #  Escrita atómica. O index.html tem quase 5000 linhas e é o ficheiro que o
+    #  grupo abre no telemóvel: abri-lo em "w" trunca-o antes de escrever, e uma
+    #  interrupção a meio deixava-o vazio. Escreve-se ao lado e troca-se no fim.
+    pasta = os.path.dirname(os.path.abspath(path))
+    descritor, temporario = tempfile.mkstemp(dir=pasta, prefix=".meteo-", suffix=".tmp")
+    try:
+        with os.fdopen(descritor, "w", encoding="utf-8", newline="") as fh:
+            fh.write(f"{antes}{nl}{nl}{corpo}{nl}{nl}{depois}")
+        os.replace(temporario, path)
+    except BaseException:
+        #  Sem isto, um erro a meio deixava um ficheiro temporário na raiz do
+        #  repositório, onde apareceria como ficheiro novo por versionar.
+        if os.path.exists(temporario):
+            os.unlink(temporario)
+        raise
 
 
 def build_report(stops: list[Stop], only_next_24h: bool, markdown: bool,
