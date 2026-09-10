@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__osm__route",
+      "mcp__osm__geocode",
+      "mcp__osm__straight_line_distance"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
