@@ -659,34 +659,44 @@ def render_weather_html() -> list[str]:
 def inject_html(path: str, block: list[str]) -> None:
     """Substitui o que estiver entre os marcadores pelo bloco novo.
 
-    Aborta se os marcadores não existirem, em vez de não fazer nada em silêncio:
-    um `--html` que corre e não escreve é pior do que um que falha.
+    Aborta se os marcadores não existirem ou estiverem trocados, em vez de não
+    fazer nada em silêncio: um `--html` que corre e não escreve é pior do que um
+    que falha. E não descarta o que esteja na mesma linha dos marcadores, porque
+    perder HTML em silêncio é pior do que um bloco desalinhado.
     """
     with open(path, encoding="utf-8", newline="") as fh:
         html = fh.read()
-    if WEATHER_HTML_START not in html or WEATHER_HTML_END not in html:
+
+    inicio = html.find(WEATHER_HTML_START)
+    fim = html.find(WEATHER_HTML_END)
+    if inicio < 0 or fim < 0:
         raise SystemExit(f"{path}: faltam os marcadores {WEATHER_HTML_START} / {WEATHER_HTML_END}.")
+    if fim < inicio:
+        raise SystemExit(f"{path}: os marcadores estão trocados, "
+                         f"{WEATHER_HTML_END} aparece antes de {WEATHER_HTML_START}.")
 
     #  Preservar o fim de linha do ficheiro, para o bloco não ficar com um
     #  terminador diferente do resto e a página inteira aparecer como alterada.
     nl = "\r\n" if "\r\n" in html else "\n"
-    before, resto = html.split(WEATHER_HTML_START, 1)
-    _, after = resto.split(WEATHER_HTML_END, 1)
+    comeco = html.rfind(nl, 0, inicio) + len(nl)
+    antes, na_linha = html[:comeco], html[comeco:inicio]
 
-    #  A indentação do marcador, lida da sua própria linha (a última do `before`).
-    corte = before.rfind(nl) + len(nl)
-    recuo = before[corte:] if not before[corte:].strip() else ""
-    if not recuo:
-        #  Marcador na coluna 1, como fica depois de uma injeção antiga: herda a
-        #  indentação da última linha com conteúdo, para o bloco não desalinhar.
-        anterior = before[:corte].rstrip(" \t" + nl).rsplit(nl, 1)[-1]
-        recuo = anterior[:len(anterior) - len(anterior.lstrip(" \t"))]
+    #  A indentação do marcador, que é o que o bloco herda. Se houver conteúdo na
+    #  mesma linha do marcador, ele junta-se ao que vem antes e o bloco desce uma
+    #  linha, em vez de ser apagado.
+    if na_linha.strip():
+        antes, recuo = antes + na_linha, ""
+    else:
+        recuo = na_linha
     #  Normalizar os dois lados, para que uma injeção anterior não deixe para trás
     #  linhas só com espaços, que se acumulariam a cada passagem.
-    antes = before[:corte].rstrip(" \t" + nl) if corte else before.rstrip(" \t" + nl)
-    depois = after.lstrip(nl)
+    antes = antes.rstrip(" \t" + nl)
+    depois = html[fim + len(WEATHER_HTML_END):].lstrip(nl)
 
     corpo = nl.join((recuo + linha) if linha else linha for linha in block)
+    texto = (f"{antes}{nl}{nl}" if antes else "") + corpo + nl
+    if depois:
+        texto += f"{nl}{depois}"
 
     #  Escrita atómica. O index.html tem quase 5000 linhas e é o ficheiro que o
     #  grupo abre no telemóvel: abri-lo em "w" trunca-o antes de escrever, e uma
@@ -758,18 +768,22 @@ def build_report(stops: list[Stop], only_next_24h: bool, markdown: bool,
 
 
 def main() -> int:
-    # Consolas Windows usam cp1252 por omissão e rebentam com os emojis.
-    try:
-        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    except (AttributeError, OSError):
-        pass
+    # Consolas Windows usam cp1252 por omissão e rebentam com os emojis. O stderr
+    # leva o mesmo tratamento porque as mensagens de erro também têm acentos: o
+    # `parser.error` do argparse escreve lá, e saía truncado a meio das palavras.
+    for fluxo in (sys.stdout, sys.stderr):
+        try:
+            fluxo.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, OSError):
+            pass
 
     parser = argparse.ArgumentParser(description="Previsão hora-a-hora do roteiro Viena + Munique.")
     parser.add_argument("--cidade", help="filtra por nome (parcial, sem distinção de maiúsculas)")
     parser.add_argument("--hoje", action="store_true", help="mostra só as próximas 24 h em cada paragem")
     parser.add_argument("--md", metavar="FICHEIRO", help="escreve o relatório em markdown")
     parser.add_argument("--html", metavar="FICHEIRO",
-                        help="injeta o resumo por dia no index.html, entre os marcadores WEATHER-AUTO")
+                        help="injeta o resumo por dia no index.html, entre os marcadores "
+                             "WEATHER-AUTO (o cartão é sempre a viagem toda, não aceita --cidade)")
     parser.add_argument("--listar", action="store_true", help="lista as paragens e sai")
     parser.add_argument("--sem-sazonal", action="store_true",
                         help="não consulta o modelo sazonal (mais rápido)")
@@ -789,6 +803,12 @@ def main() -> int:
 
     stops = STOPS
     if args.cidade:
+        #  O cartão do guia é sempre a viagem inteira, com um dia por cada dia do
+        #  roteiro: não há versão dele só com uma paragem. Recusar é melhor do que
+        #  aceitar o filtro e escrever todas as paragens na mesma.
+        if args.html:
+            parser.error("--cidade não se aplica a --html: o cartão do guia cobre a viagem "
+                         "toda. Corra sem --cidade, ou use --cidade para ver o relatório.")
         needle = args.cidade.casefold()
         stops = [s for s in STOPS if needle in s.name.casefold()]
         if not stops:
