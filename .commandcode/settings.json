@@ -6,6 +6,7 @@
       "mcp__osm__straight_line_distance"
     ],
     "deny": [],
-    "defaultMode": "default"
-  }
+    "defaultMode": "auto-accept"
+  },
+  "tasteLearning": false
 }
