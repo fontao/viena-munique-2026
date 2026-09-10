@@ -57,12 +57,29 @@ tarde do Dia 1, que até aqui começava a andar às 14:45, antes de a porta abri
    tudo o que é restaurante fechou a cozinha ou está entre serviços (o *Koh-i-noor*, ao lado,
    fecha às 14:30). Como a espera do check-in é obrigatoriamente com as malas, o almoço tem de
    ser a menos de dois minutos da porta. Entrou o **Schachtelwirt**, na **Judengasse 5**, a
-   **43 m** do apartamento e na mesma rua: *Schweinsbraten* com *Semmelknödel* numa caixa, com
-   **mesas dentro**, seg–sáb 11:30–21:00. ⚠️ ~€8,50–9,50/pax, ~€36 para os 4. **O preço vem de
-   uma lista de menus, não do site da casa**, que é só JavaScript, e por isso fica em ⚠️ e com
-   ordem de confirmar no balcão, em vez de subir a ✅. O plano B é o **Würstelstand am Hoher
-   Markt**, mais barato (€5–7) mas *takeaway* puro, **sem uma única mesa**, o que com duas malas
-   é pior.
+   **43 m** do apartamento e na mesma rua, que **abre às 11:30** e **tem mesas dentro**. O plano
+   B é o **Würstelstand am Hoher Markt**, mais barato (€5–7) mas *takeaway* puro, **sem uma
+   única mesa**, o que com duas malas é pior.
+
+   🔴 **O preço deste almoço foi mal lido à primeira, e corrigido na revisão seguinte.** Numa
+   primeira passagem ficou escrito **~€8,50–9,50/pax, ~€36 para os 4**, tirado de uma lista de
+   menus. Fui procurar as outras listas e **não há duas que concordem**: a mesma caixa de
+   *Schweinsbraten* aparece a **€9,50** (lista sem data), **€11** (num PDF da casa), **€12,90**
+   (lista de setembro de 2024) e **€16** (as duas listas mais recentes, já com a dose de 160 g).
+   O site da casa **não publica preço nenhum**, é só JavaScript. Ou seja: o número que estava no
+   guia era o mais baixo de todos, e de uma lista sem data, o que é precisamente a forma de
+   errar para menos num almoço. **Não se escolheu um deles para parecer exato.** Ficou a ordem
+   de grandeza com os dois extremos que interessam: **as caixas baratas andam nos €4 a €9**
+   (salada da semana, *Knödel* com molho de assado), **~€30 para os 4**, e o *Schweinsbraten* da
+   casa **entre €13 e €16**, **~€60 para os 4**. O almoço continua barato, mas só se ninguém
+   pedir o assado, e isso passa a estar dito. **Confirmar no balcão**, e o mesmo vale para o
+   fecho, que as listas dão como 21:00 ou como 22:00.
+
+   Escreveu-se também que a casa fechava ao domingo. **Verificámos e não é de fiar:** a página
+   da própria casa anuncia *"Montag bis Sonntag, 11:30–22:00, auch an Feiertagen"*, o
+   OpenStreetMap diz seg–sáb com domingo fechado, e os dois PDFs de menu dizem seg–sáb. Como a
+   23 é quarta, a divergência não decide nada e **saiu da prosa**: ficou só o que todas as fontes
+   confirmam, que é a abertura às 11:30.
 
 7. **A hora do check-in não é um facto, é uma incógnita, e o plano teve de deixar de a tratar
    como fixa.** Numa primeira passagem ficou escrito "o check-in é às 15:00, nem antes nem
@@ -86,6 +103,14 @@ tarde do Dia 1, que até aqui começava a andar às 14:45, antes de a porta abri
      comodidade. **Confirmar o número no dia anterior e ter o WhatsApp descarregado antes de
      sair de Lisboa**, porque a mensagem chega a meio do metro e o aeroporto é o último sítio
      com wifi garantido.
+
+8. **Fechou-se o contacto do táxi de Munique, que estava aberto como 🔴.** O plano B do Dia 6
+   era "arranjar um táxi ou van de 6 lugares em Munique", guardado no telemóvel antes de
+   partir, sem número nenhum ao lado: uma intenção, não um contacto. É agora **Taxi-München eG,
+   +49 89 2161-0** (*21610* de dentro da cidade), confirmado na página da própria central, que
+   anuncia serviço **24 horas** e **Großraumtaxi**, a viatura de grande capacidade que leva o
+   grupo inteiro numa só. Passa também para a lista de contactos de emergência, que é onde
+   alguém o vai procurar às 23:00 num sábado.
 
 ---
 

@@ -3,7 +3,13 @@
     "allow": [
       "mcp__osm__route",
       "mcp__osm__geocode",
-      "mcp__osm__straight_line_distance"
+      "mcp__osm__straight_line_distance",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_close",
+      "mcp__osm__find_nearby_pois",
+      "mcp__osm__poi_details"
     ],
     "deny": [],
     "defaultMode": "auto-accept"

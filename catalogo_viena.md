@@ -256,7 +256,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 | **Zum Schwarzen Kameel** ⭐✅ | brasserie diário 08:00–24:00 | €€ | 7 min | **Sanduíches ao balcão + copo de vinho em pé**: a forma barata de entrar numa instituição de 400 anos. |
 | **Plachutta Wollzeile** | diário 11:30–23:30 | Tafelspitz €33–37 | 8 min | O templo do Tafelspitz. Caro, mas é *a* instituição. |
 | **Gasthaus Pöschl** ✅ | seg–sáb 12:00–23:00, fechado dom | €€ | 9 min | Sala minúscula, cozinha vienense séria. Telefonar a partir das 10:00. |
-| **Schachtelwirt** ⭐ | seg–sáb 11:30–21:00, **fechado dom** | ⚠️ *Schweinsbraten* ~€8,50–9,50 · sopa €4,50 | **1 min** | **Judengasse 5**, na mesma rua do apartamento. *Schweinsbraten* com *Semmelknödel* numa caixa, **com mesas dentro**. É a resposta para almoçar às 14:30 no Dia 1, quando o resto já fechou a cozinha. |
+| **Schachtelwirt** ⭐ | abre às **11:30** (o fecho diverge entre listas: 21:00 ou 22:00) | ⚠️ caixas **€4–9** · *Schweinsbraten* **€13–16**, e as listas divergem entre si | **1 min** | **Judengasse 5**, na mesma rua do apartamento e **com mesas dentro**. É a resposta para almoçar às 14:30 no Dia 1, quando o resto já fechou a cozinha. **Preços a confirmar no balcão**, e evitar a caixa de €16 se a ideia é comer barato. |
 | **Würstelstand am Hoher Markt** 🌙 | 09:00–04:00 | €5–7 | **3 min** | O suporte vital da madrugada, e também do almoço. **Takeaway puro: nenhuma mesa**, come-se de pé. |
 | **Bitzinger (Albertina)** ⭐🌙 | até de madrugada | Käsekrainer €6,20–6,90 | 12 min | A salsicha com queijo às 03:00. Instituição nacional. |
 | **Naschmarkt** ⭐✅ | seg–sex 06:00–21:00, sáb até 18:00, **fechado dom** | grátis entrar | U4, 12 min | 1,5 km de bancas. *(A feira da ladra é só ao sábado, não apanham.)* |

@@ -229,7 +229,7 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 | Item | Pax | Preço 2026 | Nota |
 |---|---|---|---|
 | **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €5,50/pax = **€22** | ✅ **Decidido.** Pedir *Flughafen Wien ➔ Wien*, com zona central |
-| **Almoço no Schachtelwirt** (Dia 1) | 4 | ⚠️ ~€8,50–9,50/pax = **~€36** | **Judengasse 5**, a 1 min, com as malas · **mesas dentro** · seg–sáb 11:30–21:00 |
+| **Almoço no Schachtelwirt** (Dia 1) | 4 | ⚠️ caixas **€4–9**, assado **€13–16** = **~€30 a €60** | **Judengasse 5**, a 1 min, com as malas · **mesas dentro** · abre às 11:30 |
 | **Bilhete 24h Wien Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às **13:20**, no Karlsplatz |
 | **Torre Sul do Stephansdom** | 4 | ✅ **€8,00**/pax = **€32** | 343 degraus · **só dinheiro, na catedral** · aberta 09:00–19:00, última subida 18:15 |
 | **Riesenrad** (Prater) | 4 | ✅ €14,50/pax = **€58** | Dia 2 · **quinta 24: 09:00–22:45**, no calendário oficial da própria data |
@@ -421,11 +421,16 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
   - 🍽️ **Almoça-se aqui mesmo, com as malas debaixo da mesa: o *Schachtelwirt*, na Judengasse
     5, a 43 m da porta do apartamento.** Às 14:30 quase tudo o que é restaurante já fechou a
     cozinha ou está entre serviços (o *Koh-i-noor*, ao lado, fecha às 14:30) e o que sobra é
-    *takeaway* de pé. O Schachtelwirt é a exceção: **tem mesas dentro**, abre **seg–sáb
-    11:30–21:00** (ao domingo fecha, e a 23 é quarta) e serve o *Schweinsbraten* com
-    *Semmelknödel* numa caixa, que é o almoço de escritório clássico desta cidade.
-    ⚠️ **~€8,50–9,50/pax**, com a sopa da semana a **€4,50**: **~€36 para os 4**. O número vem
-    de uma lista de menus e não do site da casa, que é só JavaScript: **confirmar no balcão**.
+    *takeaway* de pé. O Schachtelwirt é a exceção: **tem mesas dentro**, **abre às 11:30**, e
+    serve comida austríaca numa caixa, que é o almoço de escritório clássico desta cidade.
+    - 💶 🔴 **O preço é a única coisa incerta aqui, e vale a pena sabê-lo à entrada.** O site da
+      casa não publica preços e **as listas de menus divergem entre si** (a mesma caixa de
+      *Schweinsbraten* aparece a €9,50, €11, €12,90 e €16 conforme a lista e o ano). Contem com
+      esta ordem de grandeza e **confirmem no balcão**:
+      - **As caixas baratas, €4 a €9:** salada da semana e *Knödel* com molho de assado. Dá
+        **~€30 para os 4** e é a opção que serve o pedido de comer barato.
+      - **O *Schweinsbraten* com *Semmelknödel* e *Sauerkraut*, €13 a €16:** o prato da casa, e
+        o único que faz o almoço subir para **~€60 para os 4**.
     - 🔴 **Se estiver cheio:** o **Würstelstand am Hoher Markt**, a 3 min, aberto **09:00–04:00**
       e €5–7. É mais barato e é o mesmo sítio do fim da noite, mas é *takeaway* puro, **sem uma
       única mesa**: come-se de pé, com as malas ao lado.
@@ -1573,8 +1578,10 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
       de andar entre tendas e fica-se sentado na última, na zona não reservável, e a partir daí
       ninguém sai da tenda. Seis pessoas a decidir isto às 15:30, já com duas *Maß* dentro, não
       decidem nada.
-- [ ] 🔴 **Contacto de um táxi/van de 6+ lugares em Munique**, guardado no telemóvel antes do
-      Dia 6. É o plano B se falharem o comboio das 22:58.
+- [x] ✅ **Táxi/van de 6+ lugares em Munique: Taxi-München eG, +49 89 2161-0** (*21610* de
+      dentro de Munique). Fechado a 10/09/2026 na página da própria central, que anuncia
+      serviço **24 horas** e **Großraumtaxi** (viatura de grande capacidade). Guardar no
+      telemóvel antes do Dia 6: é o plano B se falharem o comboio das 22:58.
 - [ ] 🔴 **Estado da Marienbrücke**, na véspera do Dia 4. **Subiu de importância a 28/08/2026:**
       sem bilhete de castelo, a ponte é o Dia 4. Se estiver fechada, o dia passa a ser o Alpsee,
       o miradouro e uma tarde mais longa em Oberammergau e no Eibsee.
@@ -1586,9 +1593,10 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
       página da própria estação (*(enterprise.de)*), que dá também **domingo 09:00–12:00** e
       **segunda a sexta 08:00–18:00**. Deixa de ser preciso telefonar, e **o plano B do Dia 4 já
       contava com esta janela da manhã**, portanto não muda nada no plano.
-- [ ] **Mesas reservadas:** Schweizerhaus (Dia 2, **às 18:30 e não às 18:15**, e é **crítica,
+- [ ] **Mesas reservadas:** Schöne Perle ou Pöschl (Dia 1, **não crítica**), Schweizerhaus
+      (Dia 2, **às 18:30 e não às 18:15**, e é **crítica,
       é o dia de abertura da Kaiser Wiesn ali ao lado**), Bauerntanz (Dia 3), jantar de sábado
-      às **21:30** (Dia 4).
+      às **21:30** (Dia 4), almoço em Rothenburg às **13:15** (Dia 5).
       🔴 *O **Das Loft** saiu desta lista a 27/08/2026: para o bar não se reserva, é walk-in, e
       reservar mesa para depois só beber custa €25 por pessoa.*
 - [ ] **Levar dinheiro vivo:** a **Torre Sul do Stephansdom** no Dia 1 (€8 × 4 = **€32**), o
@@ -1631,6 +1639,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 
 4. **Emergências:**
    - Número Europeu Geral: **112**
+   - Táxi de Munique (central 24h, com **Großraumtaxi** de 6+ lugares): **+49 89 2161-0**
    - Alemanha, serviço médico de piquete (fora das horas do centro de saúde): **116 117**
    - Polícia de Augsburg: **+49 821 3230**
    - Assistência Enterprise Alemanha 24h: **+49 800 3683777**
