@@ -450,20 +450,13 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
   **gratuitas** e ficam literalmente em cima do caminho, sem custar tempo nenhum:
   - **15:05**: **Ruprechtskirche** (*Ruprechtsplatz 1*), a **100 m de casa**. É a igreja mais
     antiga de Viena, do século XII sobre fundações do ano 740. Grátis, 10 min.
-    - ✅ ⚠️ **Confirmado que não há horário nenhum para confirmar.** A ruprechtskirche.at diz,
-      textualmente, que *"a igreja é cuidada em grande parte por voluntários da comunidade"* e
-      que *"os horários de abertura são atualizados continuamente, muitas vezes em cima da
-      hora"*. **Não existe plano semanal publicado**, e não há abertura regular documentada
-      às quartas: a paróquia publica cada abertura como um evento avulso *"Kirche ist
-      geöffnet"* no calendário do site. Os únicos horários fixos são a **missa de sábado às
-      17:00** (de setembro em diante) e a ***Nachtkirche*, às sextas das 20:00 às 23:00**.
-      *(O horário "10:00–12:00 e 15:00–17:00 às quartas" que circula
-      não existe em fonte nenhuma da paróquia.)*
-    - 🎯 **O que isto quer dizer na prática:** contem com a porta fechada e tratem o interior
-      como bónus. **Não vale a pena esperar:** é a 100 m de casa, e a fachada e a torre
-      medieval veem-se da praça. Quem quiser mesmo entrar, **vê o calendário do site na
-      véspera ou telefona ao rectorado, +43 1 535 60 03**, e passa lá outra vez às 18:05,
-      quando o regresso pelo Ring passa à porta.
+    - ⚠️ **Não publica horário: contem com a porta fechada e tratem o interior como bónus.**
+      A paróquia é servida por voluntários e publica cada abertura como evento avulso, sem
+      plano semanal. Fixos só há a **missa de sábado às 17:00** e a ***Nachtkirche*, sextas das
+      20:00 às 23:00**.
+    - 🎯 **Para entrar:** ver o calendário da ruprechtskirche.at na véspera ou telefonar ao
+      rectorado, **+43 1 535 60 03**. A fachada e a torre veem-se da praça, e o regresso pelo
+      Ring passa à porta às 18:05.
   - **15:15**: **Ankeruhr** (*Hoher Markt*), a 150 m. Relógio mecânico *Jugendstil* de 1914
     numa ponte suspensa entre dois edifícios. Grátis, 5 min. **Ao meio-dia desfilam as 12
     figuras com música**, mas às 15:15 vê-se só uma. Não há segunda oportunidade: no Dia 3
