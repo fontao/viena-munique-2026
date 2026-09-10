@@ -14,6 +14,67 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 10.ª revisão · 10 de setembro de 2026
+
+**Um erro de um dia no `meteo.py`, que só agora se viu.** O script tratava a janela da
+Open-Meteo como «hoje + 16», mas a API conta o dia de hoje como o primeiro dos seus 16: o
+último dia a que responde é **hoje + 15**, e pedir hoje + 16 devolve **HTTP 400**, não uma
+tabela vazia. Enquanto os dias da viagem estiveram todos a mais de 16 dias, a conta errada
+não se notou. A 10 de setembro, com 23 de setembro exatamente a hoje + 16, **a matriz deixou
+de correr**. A fronteira passou a viver numa só função, `forecast_horizon()`, para não haver
+duas contas a divergir.
+
+**O que isso muda no dossier:** o primeiro dia da viagem entra na janela a **8 de setembro**,
+e não a 7 como diziam o `CLAUDE.md` e a skill `meteo`. Ficaram os dois corrigidos.
+
+**A previsão mudou de fonte, e só nos dias 23 a 25.** Até aqui tudo era climatologia. Com 23
+a 25 de setembro dentro da janela, a previsão real dá-os **secos**: Viena a 0,0 mm nos três
+dias, com máximas de 19 a 23 °C. **É sinal fraco**, a 13 a 15 dias, muito para lá dos ~10 em
+que a previsão determinística tem capacidade, e **não se decide nada com ele**.
+
+**Onde está o risco é nos dias 26 a 29, e aí não mudou nada.** Continuam climatologia, com os
+mesmos números da revisão anterior: Neuschwanstein a 5,2 mm no sábado, o Eibsee 4,7 e
+Rothenburg 3,2. A matriz sugere trocas, mas todas apontam para 23 a 25, dias em que o grupo
+está em Viena: **não são trocas que a rota permita**, e é isso que a skill manda confirmar
+antes de as propor.
+
+**O cartão do tempo do guia passou a ser gerado, e a decisão é essa e não outra.** O
+`index.html` mostrava «Temperaturas Médias Previstas» com uma média sazonal escrita à mão
+(19 °C, 14 °C, 18 °C) que não era a previsão de ninguém e envelhecia sozinha. Passou a ser uma
+faixa de sete dias, uma célula por dia da viagem, escrita pelo `meteo.py --html` entre os
+marcadores `WEATHER-AUTO`. **A alternativa era buscar a previsão ao vivo no browser**, e foi
+posta de lado por uma razão: o dossiê exige que o guia e o markdown digam o mesmo, e duas
+fontes vivas divergem por construção. Assim os dois saem **da mesma leitura do mesmo modelo**,
+e o `verificar.py` ganhou uma secção que compara as datas de geração e denuncia uma
+atualização feita só a metade. O que se perde é a frescura automática: o cartão só muda quando
+o comando volta a correr.
+
+O que a faixa mostra são números, não conselhos, e cada dia diz de onde vêm, «previsão» a
+verde ou «média 10 anos» a âmbar. A regra de nunca dar climatologia como previsão continua a
+valer dentro do guia, e é a mesma que já valia no `meteo.md`.
+
+**E a faixa só ficou pronta depois de a ver num browser, o que corrigiu três defeitos que
+nenhuma verificação de texto apanha.** O `verificar.py` lê o `index.html` como texto e não
+tem como saber se o que lá está cabe no ecrã. Foi preciso abrir a página a sério:
+
+1. **Os nomes das paragens saíam cortados.** Com nome, temperatura e chuva na mesma linha, a
+   célula de ~140 px não chegava e «Neuschwanstein» dava «Ne...», «Augsburg» dava «Au...». O
+   nome passou para uma linha própria, por cima dos outros dois.
+2. **O selo da fonte saía fora do cartão.** «Dia 4 · Sáb 26» e «MÉDIA 10 ANOS» lado a lado
+   precisam de 173 px e a célula tem 126: o selo transbordava para cima do cartão seguinte, em
+   todas as paragens e em todas as larguras. Passaram a ficar empilhados.
+3. **E os selos não passavam contraste no tema claro**, que é o tema por omissão: o verde a
+   4,40:1 e o âmbar a 4,03:1, com o mínimo a ser 4,5 para texto de 9,6 px. Os acentos servem
+   ornamento e títulos grandes, não texto pequeno sobre um cinza translúcido. Ficaram dois
+   tokens só para o selo, mais escuros no tema claro.
+
+**A lição para a próxima vez: um transbordo não se vê a medir cada elemento.** Foi o que
+falhou à primeira, porque um filho com `white-space: nowrap` que não cabe não transborda de si
+próprio, transborda do pai. O que o apanha é comparar as margens dos filhos com as do
+contentor, e fazê-lo em várias larguras (1340, 1024, 768, 390), não só na do portátil.
+
+---
+
 ## 9.ª revisão · 3 de setembro de 2026
 
 Revisão de manutenção a 20 dias da partida, com o Gemini 3.8 Flash a rever cada um dos sete

@@ -42,6 +42,12 @@
             --accent-rose: #fb7185;
             --accent-orange: #fb923c;
             --accent-purple: #c084fc;
+            /* O selo do tempo é texto de 0,6 rem sobre um cinza translúcido. Os
+               acentos servem ornamento e títulos grandes, e aqui ficavam abaixo
+               de 4,5:1 (verde a 4,40 e âmbar a 4,03 no tema claro). Estes dois
+               tokens existem só para o selo. */
+            --badge-forecast-text: #34d399;
+            --badge-clima-text: #fbbf24;
             --gradient-primary: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
             --gradient-gold: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
             --gradient-oktober: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%);
@@ -84,6 +90,11 @@
             --accent-purple: #7e22ce;
             --glow-blue: rgba(3, 105, 161, 0.15);
             --glow-gold: rgba(180, 83, 9, 0.15);
+            /* O peso 800 dos mesmos matizes, para o selo passar 4,5:1 sobre o
+               cinza claro. O 700 (--accent-emerald, --accent-amber) chega para
+               títulos grandes e não para 9,6 px. */
+            --badge-forecast-text: #065f46;
+            --badge-clima-text: #92400e;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -1504,38 +1515,98 @@
         }
         @media (max-width: 900px) { .hub-grid { grid-template-columns: 1fr; } }
 
-        /* Weather Card */
-        .weather-cities-grid {
+        /* Weather Card: faixa por dia, gerada pelo meteo.py */
+        .weather-card-wide { grid-column: 1 / -1; }
+        .weather-strip {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
             gap: 0.7rem;
             margin-top: 1.2rem;
         }
-        .weather-city-box {
+        .weather-day-card {
             background: rgba(125, 125, 125, 0.05);
             border: 1px solid var(--border-subtle);
             border-radius: var(--radius-sm);
-            padding: 0.85rem 0.6rem;
-            text-align: center;
+            padding: 0.75rem 0.8rem;
             transition: var(--transition-smooth);
         }
-        .weather-city-box:hover {
+        .weather-day-card:hover {
             border-color: var(--border-hover);
             background: rgba(125, 125, 125, 0.1);
         }
-        .weather-city-box i {
-            font-size: 1.6rem;
-            margin-bottom: 0.3rem;
-            display: block;
+        /* Rotulo e selo empilhados, e nao lado a lado. Em sete colunas a celula
+           deixa ~125 px de conteudo, e o par «Dia 4 · Sáb 26» + «MÉDIA 10 ANOS»
+           precisa de 173 px: lado a lado o selo saia fora do cartao. */
+        .weather-day-head {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.25rem;
+            margin-bottom: 0.45rem;
         }
-        .weather-city-box.vienna i { color: #f59e0b; }
-        .weather-city-box.alps i { color: #38bdf8; }
-        .weather-city-box.munich i { color: #34d399; }
-        .weather-temp {
+        .weather-day-label {
             font-family: var(--font-heading);
-            font-size: 1.15rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-main);
+            white-space: nowrap;
+        }
+        .weather-src {
+            font-size: 0.6rem;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            padding: 0.1rem 0.35rem;
+            border-radius: var(--radius-full);
+            background: rgba(125, 125, 125, 0.14);
+            color: var(--text-dim);
+            white-space: nowrap;
+        }
+        .weather-src.is-forecast { color: var(--badge-forecast-text); }
+        /* Âmbar para a climatologia: o mesmo sinal de atenção que o dossiê usa
+           para dizer que um número ainda não é uma previsão a sério. */
+        .weather-src.is-clima { color: var(--badge-clima-text); }
+        .weather-day-place {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: var(--accent-blue);
+            margin-bottom: 0.3rem;
+        }
+        /* Duas linhas por paragem: o nome por cima, temperatura e chuva por baixo.
+           Em sete colunas a célula fica com ~140 px uteis e as tres coisas na mesma
+           linha nao cabiam: o nome era cortado («Neuschwanstein» dava «Ne...»). */
+        .weather-stop-row {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+            align-items: baseline;
+            column-gap: 0.5rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            padding: 0.12rem 0;
+        }
+        .weather-stop-name {
+            grid-column: 1 / -1;
+            font-size: 0.74rem;
+            line-height: 1.35;
+            overflow-wrap: break-word;
+        }
+        .weather-stop-temp {
+            font-family: var(--font-heading);
             font-weight: 800;
             color: var(--text-main);
+        }
+        .weather-stop-rain {
+            white-space: nowrap;
+            font-variant-numeric: tabular-nums;
+        }
+        .weather-note {
+            margin-top: 1rem;
+            font-size: 0.75rem;
+            line-height: 1.6;
+            color: var(--text-muted);
         }
 
         /* Packing Checklist */
@@ -3708,30 +3779,104 @@
 
             <div class="hub-grid">
                 <!-- Weather Predictor -->
-                <div class="weather-card glass-panel" style="padding: 1.5rem;">
-                    <h3 style="font-size: 1.2rem; margin-bottom: 0.3rem;"><i class="fa-solid fa-cloud-sun" style="color: var(--accent-gold);"></i> Temperaturas Médias Previstas</h3>
-                    <p style="font-size: 0.82rem; color: var(--text-muted);">Final de Setembro é o início do outono dourado.</p>
+                <div class="weather-card weather-card-wide glass-panel" style="padding: 1.5rem;">
+                    <h3 style="font-size: 1.2rem; margin-bottom: 0.3rem;"><i class="fa-solid fa-cloud-sun" style="color: var(--accent-gold);"></i> Previsão por Dia da Viagem</h3>
+                    <p style="font-size: 0.82rem; color: var(--text-muted);">Gerado pelo <strong>meteo.py</strong>, a mesma fonte que escreve o <strong>meteo.md</strong>. Não editar à mão.</p>
 
-                    <div class="weather-cities-grid">
-                        <div class="weather-city-box vienna">
-                            <i class="fa-solid fa-sun"></i>
-                            <strong>Viena</strong>
-                            <div class="weather-temp">19°C</div>
-                            <span style="font-size: 0.72rem; color: var(--text-muted);">Noite: 11°C</span>
+                    <!-- WEATHER-AUTO:START -->
+                    <!-- Gerado por python meteo.py --html index.html a quinta, 10 de setembro de 2026. Não editar à mão: correr o comando outra vez. -->
+                    <div class="weather-strip">
+                        <div class="weather-day-card">
+                            <div class="weather-day-head">
+                                <span class="weather-day-label">Dia 1 · Qua 23</span>
+                                <span class="weather-src is-forecast">previsão</span>
+                            </div>
+                            <div class="weather-stop-row">
+                                <span class="weather-stop-name">Viena</span>
+                                <span class="weather-stop-temp">19°</span>
+                                <span class="weather-stop-rain">🌤️ 0.0 mm</span>
+                            </div>
                         </div>
-                        <div class="weather-city-box alps">
-                            <i class="fa-solid fa-wind"></i>
-                            <strong>Alpes / Eibsee</strong>
-                            <div class="weather-temp">14°C</div>
-                            <span style="font-size: 0.72rem; color: var(--text-muted);">Fresco na serra</span>
+                        <div class="weather-day-card">
+                            <div class="weather-day-head">
+                                <span class="weather-day-label">Dia 2 · Qui 24</span>
+                                <span class="weather-src is-forecast">previsão</span>
+                            </div>
+                            <div class="weather-stop-row">
+                                <span class="weather-stop-name">Viena</span>
+                                <span class="weather-stop-temp">20°</span>
+                                <span class="weather-stop-rain">☀️ 0.0 mm</span>
+                            </div>
                         </div>
-                        <div class="weather-city-box munich">
-                            <i class="fa-solid fa-cloud-sun"></i>
-                            <strong>Munique</strong>
-                            <div class="weather-temp">18°C</div>
-                            <span style="font-size: 0.72rem; color: var(--text-muted);">Noite: 10°C</span>
+                        <div class="weather-day-card">
+                            <div class="weather-day-head">
+                                <span class="weather-day-label">Dia 3 · Sex 25</span>
+                                <span class="weather-src is-forecast">previsão</span>
+                            </div>
+                            <div class="weather-stop-row">
+                                <span class="weather-stop-name">Augsburg</span>
+                                <span class="weather-stop-temp">24°</span>
+                                <span class="weather-stop-rain">☁️ 0.0 mm</span>
+                            </div>
+                        </div>
+                        <div class="weather-day-card">
+                            <div class="weather-day-head">
+                                <span class="weather-day-label">Dia 4 · Sáb 26</span>
+                                <span class="weather-src is-clima">média 10 anos</span>
+                            </div>
+                            <div class="weather-day-place">Alpes</div>
+                            <div class="weather-stop-row">
+                                <span class="weather-stop-name">Neuschwanstein</span>
+                                <span class="weather-stop-temp">15°</span>
+                                <span class="weather-stop-rain">🌦️ 5.2 mm</span>
+                            </div>
+                            <div class="weather-stop-row">
+                                <span class="weather-stop-name">Oberammergau</span>
+                                <span class="weather-stop-temp">16°</span>
+                                <span class="weather-stop-rain">🌦️ 3.8 mm</span>
+                            </div>
+                            <div class="weather-stop-row">
+                                <span class="weather-stop-name">Eibsee</span>
+                                <span class="weather-stop-temp">15°</span>
+                                <span class="weather-stop-rain">🌦️ 4.7 mm</span>
+                            </div>
+                        </div>
+                        <div class="weather-day-card">
+                            <div class="weather-day-head">
+                                <span class="weather-day-label">Dia 5 · Dom 27</span>
+                                <span class="weather-src is-clima">média 10 anos</span>
+                            </div>
+                            <div class="weather-stop-row">
+                                <span class="weather-stop-name">Rothenburg</span>
+                                <span class="weather-stop-temp">17°</span>
+                                <span class="weather-stop-rain">🌦️ 3.2 mm</span>
+                            </div>
+                        </div>
+                        <div class="weather-day-card">
+                            <div class="weather-day-head">
+                                <span class="weather-day-label">Dia 6 · Seg 28</span>
+                                <span class="weather-src is-clima">média 10 anos</span>
+                            </div>
+                            <div class="weather-stop-row">
+                                <span class="weather-stop-name">Munique</span>
+                                <span class="weather-stop-temp">16°</span>
+                                <span class="weather-stop-rain">🌦️ 3.4 mm</span>
+                            </div>
+                        </div>
+                        <div class="weather-day-card">
+                            <div class="weather-day-head">
+                                <span class="weather-day-label">Dia 7 · Ter 29</span>
+                                <span class="weather-src is-clima">média 10 anos</span>
+                            </div>
+                            <div class="weather-stop-row">
+                                <span class="weather-stop-name">Munique</span>
+                                <span class="weather-stop-temp">17°</span>
+                                <span class="weather-stop-rain">🌦️ 1.3 mm</span>
+                            </div>
                         </div>
                     </div>
+                    <p class="weather-note"><strong>Como ler isto.</strong> «previsão» é o modelo real, que só tem detalhe até cerca de 10 dias de distância. «média 10 anos» é a média dos últimos 10 anos (ERA5) para a mesma data, que não é uma previsão. A tabela hora a hora e a tendência sazonal estão no <strong>meteo.md</strong>, e o comando que gera estes números é o mesmo que o gera a ele.</p>
+                    <!-- WEATHER-AUTO:END -->
 
                     <div class="pro-tip" style="margin-top: 1.2rem; margin-bottom: 0.7rem; background: rgba(125,125,125,0.06); padding: 0.75rem; border-radius: var(--radius-sm); font-size: 0.82rem; display: flex; gap: 0.6rem; align-items: center;">
                         <i class="fa-solid fa-shirt" style="color: var(--accent-blue);"></i>

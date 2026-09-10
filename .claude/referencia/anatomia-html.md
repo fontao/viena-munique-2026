@@ -208,6 +208,17 @@ a qualquer procura por `src=`. O `verificar.py --seccao imagens` conta as três.
 E **não confundir com os `.jpg` da tabela de créditos**: esses são os nomes dos
 ficheiros originais no Wikimedia Commons, ficam como estão.
 
+## O cartão do tempo é gerado, e não se toca
+
+Na secção `#logistics`, o bloco entre `<!-- WEATHER-AUTO:START -->` e
+`<!-- WEATHER-AUTO:END -->` **não é escrita à mão**: é escrito pelo
+`python meteo.py --html index.html`, com uma célula por dia da viagem. Editá-lo à mão
+perde-se na atualização seguinte.
+
+O estilo dele vive nas regras `.weather-strip`, `.weather-day-card`, `.weather-src`
+(com `.is-forecast` a verde e `.is-clima` a âmbar) e `.weather-note`. A alteração que
+fizer sentido fazer no cartão faz-se **no `meteo.py`**, não aqui.
+
 ## Persistência
 
 Três chaves em `localStorage`, todas com a forma `vm_<nome>_2026`:

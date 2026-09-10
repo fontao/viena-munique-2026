@@ -7,6 +7,10 @@ Usa a API pública Open-Meteo (sem chave). Basta voltar a correr para actualizar
     python meteo.py --hoje         # só as próximas 24 h em cada cidade
     python meteo.py --cidade Viena # filtra por nome
     python meteo.py --md meteo.md  # escreve um relatório markdown
+    python meteo.py --html index.html  # injeta o resumo por dia no guia HTML
+
+O `--md` e o `--html` escrevem no mesmo sítio a mesma informação, por isso
+correm-se juntos: `python meteo.py --md meteo.md --html index.html`.
 
 A janela de previsão da Open-Meteo é de 16 dias. Para datas mais longínquas o
 script cai automaticamente para duas fontes que dizem o que se pode mesmo saber
@@ -55,6 +59,15 @@ class Stop:
     outdoor: bool = False
 
 
+def forecast_horizon() -> date:
+    """Último dia com previsão real.
+
+    A Open-Meteo conta o dia de hoje como o primeiro dos 16 que dá, portanto o
+    último dia pedível é hoje + 15, não hoje + 16.
+    """
+    return date.today() + timedelta(days=FORECAST_HORIZON_DAYS - 1)
+
+
 def d(day: int) -> date:
     return date(2026, 9, day)
 
@@ -73,6 +86,32 @@ STOPS: list[Stop] = [
 
 # Todos os dias da viagem — a matriz cruza cada paragem com cada um destes.
 TRIP_DAYS: tuple[date, ...] = tuple(sorted({x for s in STOPS for x in s.days}))
+
+# O que o resumo do index.html mostra em cada dia: o dia, a zona e as paragens
+# que o representam. Espelha os títulos dia-a-dia do itinerario_viagem.md e não
+# a lista STOPS, porque o Dia 3 dorme em Augsburg e o Dia 4 tem três paragens ao
+# ar livre, que valem por si.
+DAY_SUMMARY: list[tuple[date, str, tuple[str, ...]]] = [
+    (d(23), "Viena", ("Viena",)),
+    (d(24), "Viena", ("Viena",)),
+    (d(25), "Augsburg", ("Augsburg",)),
+    (d(26), "Alpes", ("Neuschwanstein / Füssen", "Oberammergau", "Lago Eibsee")),
+    (d(27), "Rothenburg", ("Rothenburg ob der Tauber",)),
+    (d(28), "Munique", ("Munique",)),
+    (d(29), "Munique", ("Munique",)),
+]
+
+# Nomes curtos para as células estreitas do index.html.
+STOP_SHORT = {
+    "Neuschwanstein / Füssen": "Neuschwanstein",
+    "Rothenburg ob der Tauber": "Rothenburg",
+    "Lago Eibsee": "Eibsee",
+}
+
+# Marcadores que o `--html` procura no index.html. O bloco entre eles é
+# substituído inteiro, para que voltar a correr o comando nunca duplique nada.
+WEATHER_HTML_START = "<!-- WEATHER-AUTO:START -->"
+WEATHER_HTML_END = "<!-- WEATHER-AUTO:END -->"
 
 HOURLY_VARS = [
     "temperature_2m",
@@ -401,7 +440,7 @@ def pretty_date(day: date) -> str:
 def collect(stop: Stop, days: list[date], skip_seasonal: bool
             ) -> tuple[dict[date, list[dict]], dict[date, str], dict[date, dict], dict[date, dict]]:
     """Recolhe os dados de um sítio, escolhendo a fonte conforme a distância de cada dia."""
-    horizon = date.today() + timedelta(days=FORECAST_HORIZON_DAYS)
+    horizon = forecast_horizon()
     near = [x for x in days if x <= horizon]
     far = [x for x in days if x > horizon]
 
@@ -423,14 +462,23 @@ def collect(stop: Stop, days: list[date], skip_seasonal: bool
     return rows_by_day, source, norms, outlook
 
 
-def day_cell(rows: list[dict]) -> str:
-    """Resumo de um dia numa célula: tempo, máxima e chuva."""
+def day_facts(rows: list[dict]) -> tuple[str, float | None, float]:
+    """Tempo, máxima e chuva de um dia, para a matriz e para o resumo HTML.
+
+    A máxima sai em bruto, e não já formatada, porque o markdown escreve «—»
+    quando não há dado e o index.html não pode: a regra 6 proíbe o travessão lá.
+    """
     temps = [r["temperature_2m"] for r in rows if r.get("temperature_2m") is not None]
     rain = sum(r.get("precipitation") or 0 for r in rows)
     codes = [int(r["weather_code"]) for r in rows if r.get("weather_code") is not None]
     emoji, _ = describe(statistics.mode(codes) if codes else None)
-    tmax = f"{max(temps):.0f}°" if temps else "—"
-    return f"{emoji} {tmax} {rain:.1f}mm"
+    return emoji, (max(temps) if temps else None), rain
+
+
+def day_cell(rows: list[dict]) -> str:
+    """Resumo de um dia numa célula: tempo, máxima e chuva."""
+    emoji, tmax, rain = day_facts(rows)
+    return f"{emoji} {fmt(tmax, '°')} {rain:.1f}mm"
 
 
 def matrix_block(stops: list[Stop], markdown: bool) -> list[str]:
@@ -528,11 +576,108 @@ def swap_hints(stops: list[Stop], wet: dict[str, dict[date, float]], markdown: b
     return [head, ""] + hints + ["", tail, ""]
 
 
+def render_weather_html() -> list[str]:
+    """Bloco do index.html: uma célula por dia da viagem, com a fonte rotulada.
+
+    Sai embrulhado nos marcadores WEATHER_HTML_* para o `--html` ser idempotente.
+    Não leva travessão nenhum: o verificar.py recusa o carácter no index.html.
+    """
+    by_name = {s.name: s for s in STOPS}
+    needed: dict[str, list[date]] = {}
+    for day, _, names in DAY_SUMMARY:
+        for name in names:
+            needed.setdefault(name, []).append(day)
+
+    #  Uma recolha por paragem, com todos os seus dias de uma vez: agrupar poupa
+    #  as dez chamadas de arquivo por cada ano da climatologia.
+    facts: dict[tuple[str, date], tuple[str, float | None, float, str]] = {}
+    for name, days in needed.items():
+        rows_by_day, source, _, _ = collect(by_name[name], sorted(days), skip_seasonal=True)
+        for day in days:
+            emoji, tmax, rain = day_facts(rows_by_day.get(day, []))
+            facts[(name, day)] = (emoji, tmax, rain, source.get(day, "previsão"))
+
+    hoje = pretty_date(date.today())
+    out = [
+        WEATHER_HTML_START,
+        f"<!-- Gerado por python meteo.py --html index.html a {hoje}."
+        " Não editar à mão: correr o comando outra vez. -->",
+        '<div class="weather-strip">',
+    ]
+
+    for day, place, names in DAY_SUMMARY:
+        source = facts[(names[0], day)][3]
+        forecast = source == "previsão"
+        numero = (day - d(23)).days + 1
+        rotulo = f"{WEEKDAYS[day.weekday()][:3].capitalize()} {day.day}"
+        out.append('    <div class="weather-day-card">')
+        out.append('        <div class="weather-day-head">')
+        out.append(f'            <span class="weather-day-label">Dia {numero} · {rotulo}</span>')
+        out.append(f'            <span class="weather-src {"is-forecast" if forecast else "is-clima"}">'
+                   f'{"previsão" if forecast else "média 10 anos"}</span>')
+        out.append('        </div>')
+        if len(names) > 1:
+            out.append(f'        <div class="weather-day-place">{place}</div>')
+        for name in names:
+            emoji, tmax, rain, _ = facts[(name, day)]
+            curto = STOP_SHORT.get(name, name)
+            temp = f"{tmax:.0f}°" if tmax is not None else "?"
+            out.append('        <div class="weather-stop-row">')
+            out.append(f'            <span class="weather-stop-name">{curto}</span>')
+            out.append(f'            <span class="weather-stop-temp">{temp}</span>')
+            out.append(f'            <span class="weather-stop-rain">{emoji} {rain:.1f} mm</span>')
+            out.append('        </div>')
+        out.append('    </div>')
+
+    out.append('</div>')
+    out.append('<p class="weather-note"><strong>Como ler isto.</strong> «previsão» é o modelo '
+               'real, que só tem detalhe até cerca de 10 dias de distância. «média 10 anos» é a média '
+               'dos últimos 10 anos (ERA5) para a mesma data, que não é uma previsão. A tabela hora a '
+               'hora e a tendência sazonal estão no <strong>meteo.md</strong>, e o comando que gera '
+               'estes números é o mesmo que o gera a ele.</p>')
+    out.append(WEATHER_HTML_END)
+    return out
+
+
+def inject_html(path: str, block: list[str]) -> None:
+    """Substitui o que estiver entre os marcadores pelo bloco novo.
+
+    Aborta se os marcadores não existirem, em vez de não fazer nada em silêncio:
+    um `--html` que corre e não escreve é pior do que um que falha.
+    """
+    with open(path, encoding="utf-8", newline="") as fh:
+        html = fh.read()
+    if WEATHER_HTML_START not in html or WEATHER_HTML_END not in html:
+        raise SystemExit(f"{path}: faltam os marcadores {WEATHER_HTML_START} / {WEATHER_HTML_END}.")
+
+    #  Preservar o fim de linha do ficheiro, para o bloco não ficar com um
+    #  terminador diferente do resto e a página inteira aparecer como alterada.
+    nl = "\r\n" if "\r\n" in html else "\n"
+    before, resto = html.split(WEATHER_HTML_START, 1)
+    _, after = resto.split(WEATHER_HTML_END, 1)
+
+    #  A indentação do marcador, lida da sua própria linha (a última do `before`).
+    corte = before.rfind(nl) + len(nl)
+    recuo = before[corte:] if not before[corte:].strip() else ""
+    if not recuo:
+        #  Marcador na coluna 1, como fica depois de uma injeção antiga: herda a
+        #  indentação da última linha com conteúdo, para o bloco não desalinhar.
+        anterior = before[:corte].rstrip(" \t" + nl).rsplit(nl, 1)[-1]
+        recuo = anterior[:len(anterior) - len(anterior.lstrip(" \t"))]
+    #  Normalizar os dois lados, para que uma injeção anterior não deixe para trás
+    #  linhas só com espaços, que se acumulariam a cada passagem.
+    antes = before[:corte].rstrip(" \t" + nl) if corte else before.rstrip(" \t" + nl)
+    depois = after.lstrip(nl)
+
+    corpo = nl.join((recuo + linha) if linha else linha for linha in block)
+    with open(path, "w", encoding="utf-8", newline="") as fh:
+        fh.write(f"{antes}{nl}{nl}{corpo}{nl}{nl}{depois}")
+
+
 def build_report(stops: list[Stop], only_next_24h: bool, markdown: bool,
                  skip_seasonal: bool = False, show_matrix: bool = True,
                  all_days: bool = False) -> list[str]:
     today = date.today()
-    horizon = today + timedelta(days=FORECAST_HORIZON_DAYS)
     out: list[str] = []
     h1, h2 = ("# ", "## ") if markdown else ("", "")
 
@@ -592,6 +737,8 @@ def main() -> int:
     parser.add_argument("--cidade", help="filtra por nome (parcial, sem distinção de maiúsculas)")
     parser.add_argument("--hoje", action="store_true", help="mostra só as próximas 24 h em cada paragem")
     parser.add_argument("--md", metavar="FICHEIRO", help="escreve o relatório em markdown")
+    parser.add_argument("--html", metavar="FICHEIRO",
+                        help="injeta o resumo por dia no index.html, entre os marcadores WEATHER-AUTO")
     parser.add_argument("--listar", action="store_true", help="lista as paragens e sai")
     parser.add_argument("--sem-sazonal", action="store_true",
                         help="não consulta o modelo sazonal (mais rápido)")
@@ -617,19 +764,28 @@ def main() -> int:
             print(f"Nenhuma paragem corresponde a {args.cidade!r}. Use --listar.", file=sys.stderr)
             return 1
 
-    if args.matriz:
-        lines = matrix_block(stops, markdown=bool(args.md))
-    else:
-        lines = build_report(stops, args.hoje, markdown=bool(args.md),
-                             skip_seasonal=args.sem_sazonal,
-                             show_matrix=not args.sem_matriz,
-                             all_days=args.todos_os_dias)
-    if args.md:
-        with open(args.md, "w", encoding="utf-8") as fh:
-            fh.write("\n".join(lines) + "\n")
-        print(f"Relatório escrito em {args.md}")
-    else:
-        print("\n".join(lines))
+    escrever_md = bool(args.md)
+    #  Não se constrói o relatório quando o destino é só o index.html: ninguém lê
+    #  a matriz em texto e montá-la custa uma recolha inteira. Mas o `--matriz` é
+    #  um pedido explícito, e aí imprime-se mesmo com `--html` ao lado.
+    if escrever_md or args.matriz or not args.html:
+        if args.matriz:
+            lines = matrix_block(stops, markdown=escrever_md)
+        else:
+            lines = build_report(stops, args.hoje, markdown=escrever_md,
+                                 skip_seasonal=args.sem_sazonal,
+                                 show_matrix=not args.sem_matriz,
+                                 all_days=args.todos_os_dias)
+        if escrever_md:
+            with open(args.md, "w", encoding="utf-8") as fh:
+                fh.write("\n".join(lines) + "\n")
+            print(f"Relatório escrito em {args.md}")
+        else:
+            print("\n".join(lines))
+
+    if args.html:
+        inject_html(args.html, render_weather_html())
+        print(f"Previsão por dia injetada em {args.html}")
     return 0
 
 

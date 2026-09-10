@@ -63,7 +63,12 @@ Confirmar à mão sempre que a alteração os afete:
   bloco que agora começa às 14:00.
 - O campo `desc:` dos marcadores do mapa, quando tem horas ou preços lá dentro.
 - O botão de copiar o sumário (`btn-export-summary`) e a lista da mala.
-- A lista `STOPS` do `meteo.py`, se a rota passou a incluir outra cidade.
+- A lista `STOPS` do `meteo.py` e a `DAY_SUMMARY` logo abaixo dela, se a rota passou a
+  incluir outra cidade ou outro dia. A secção `meteo` confirma que o bloco gerado no
+  `index.html` existe e que cada dia traz a fonte rotulada, mas **não compara número a
+  número** com o `meteo.md`: se as datas de geração baterem certo, assume que batem.
+  Quem quiser os números alinhados volta a correr
+  `python meteo.py --md meteo.md --html index.html`.
 - O bloco `## 🔄 Trocar dias?`, se a decisão que ali está descrita deixou de valer.
 
 ## Fechar

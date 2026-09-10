@@ -36,6 +36,13 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent
 MD = RAIZ / "itinerario_viagem.md"
 HTML = RAIZ / "index.html"
+METEO = RAIZ / "meteo.md"
+
+#  O bloco da previsão dentro do index.html, gerado pelo `meteo.py --html`. Os
+#  marcadores são os mesmos que o meteo.py procura, e é isso que permite ao
+#  verificador saber se o guia e o relatório saíram da mesma passagem.
+WEATHER_START = "<!-- WEATHER-AUTO:START -->"
+WEATHER_END = "<!-- WEATHER-AUTO:END -->"
 
 #  A viagem. Se estas datas mudarem, muda tudo o resto.
 ANO = 2026
@@ -682,10 +689,57 @@ def check_linguagem(md: list[str], html: list[str]) -> Seccao:
     return s
 
 
+def check_meteo(meteo: list[str], html: list[str]) -> Seccao:
+    """O guia e o relatório saem do mesmo comando, e cada dia diz de que fonte vem.
+
+    Não compara número a número: isso obrigaria o verificador a conhecer as
+    paragens do roteiro, e ele não sabe nada do mundo. Compara o que denuncia uma
+    meia-atualização, que é a data de geração, e o que faz cumprir a regra de
+    nunca dar climatologia como previsão, que é o rótulo em cada dia.
+    """
+    s = Seccao("meteo", "A previsão do guia e a do relatório")
+    texto_html = "\n".join(html)
+
+    if WEATHER_START not in texto_html or WEATHER_END not in texto_html:
+        s.erro("index.html", "faltam os marcadores WEATHER-AUTO: o guia perdeu a previsão.")
+        return s
+
+    bloco = texto_html.split(WEATHER_START, 1)[1].split(WEATHER_END, 1)[0]
+    dias = bloco.count('class="weather-day-card"')
+    rotulos = bloco.count('class="weather-src')
+    if dias == 0:
+        s.erro("index.html", "o bloco da previsão está vazio; correr `python meteo.py --html index.html`.")
+    elif rotulos != dias:
+        s.erro("index.html",
+               f"{dias} dias mas {rotulos} rótulos de fonte: há um dia sem dizer de onde vem o número.")
+    else:
+        s.info("index.html", f"{dias} dias, todos com a fonte rotulada.")
+
+    #  A data de geração tem de ser a mesma nos dois: se não for, alguém voltou a
+    #  correr o meteo.py só para metade dos destinos, e o guia mostra números que
+    #  já não são os do relatório.
+    m_md = re.search(r"Actualizado a (.+?) · fonte: Open-Meteo", "\n".join(meteo))
+    m_html = re.search(r"WEATHER-AUTO:START -->\s*<!-- Gerado por python meteo\.py "
+                       r"--html index\.html a (.+?)\.", texto_html)
+    if m_md and m_html and m_md.group(1) != m_html.group(1):
+        s.aviso("meteo.md / index.html",
+                f"gerados em datas diferentes ({m_md.group(1)} e {m_html.group(1)}): "
+                "voltar a correr `python meteo.py --md meteo.md --html index.html`.")
+    elif m_md and m_html:
+        s.info("ambos", f"previsão de {m_md.group(1)}, nos dois ficheiros.")
+    elif m_md and not m_html:
+        #  Se a data deixar de ser legível, esta secção deixaria de comparar seja o
+        #  que for sem avisar. Um rótulo que muda de forma tem de ser dito.
+        s.aviso("index.html",
+                "o bloco da previsão não traz a data de geração legível; não dá para "
+                "confirmar que saiu da mesma passagem do meteo.md.")
+    return s
+
+
 # ---------------------------------------------------------------------- saída
 
 SECCOES = ["dias", "horarios", "precos", "pessoas", "prazos", "imagens", "mapa",
-           "armazenamento", "marcadores", "linguagem"]
+           "armazenamento", "marcadores", "linguagem", "meteo"]
 
 
 def main() -> int:
@@ -709,6 +763,7 @@ def main() -> int:
 
     hoje = date.fromisoformat(args.hoje) if args.hoje else date.today()
     md, html = ler(MD), ler(HTML)
+    meteo = ler(METEO) if METEO.exists() else []
 
     todas = [
         check_dias(md, html),
@@ -721,6 +776,7 @@ def main() -> int:
         check_armazenamento(html),
         check_marcadores(md),
         check_linguagem(md, html),
+        check_meteo(meteo, html),
     ]
     if args.seccao:
         todas = [s for s in todas if s.nome in args.seccao]

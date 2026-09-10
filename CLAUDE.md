@@ -21,7 +21,7 @@ the plan (e.g. "Six travellers, not seven, and lock the car booking times").
 | `index.html` | Single-file interactive guide rendering that same plan. Must be kept in sync with the markdown. |
 | `historico.md` | **Why the plan is what it is**: decisions taken, alternatives rejected, what each choice cost, and errors already made. Not checked by `verificar.py`. |
 | `catalogo_viena.md` | Research backlog of Vienna options: the pool the itinerary is chosen *from*, not the plan itself. |
-| `meteo.py` / `meteo.md` | Weather script and its generated report. `meteo.md` is output. Regenerate it, never hand-edit it. |
+| `meteo.py` / `meteo.md` | Weather script and its generated report. `meteo.md` is output. The same script also generates the guide's forecast card, between the `WEATHER-AUTO` markers in `index.html`. Regenerate both, never hand-edit them. |
 | `verificar.py` | Consistency checker across both documents. Knows nothing about the world, only whether the two files agree. |
 | `img/` | Local photos referenced by `index.html`. |
 | `.claude/skills/` | The procedures for changing the dossier. See **Skills** below. |
@@ -102,9 +102,12 @@ python meteo.py --hoje             # next 24 h only
 python meteo.py --cidade Viena     # filter stops by (partial) name
 python meteo.py --listar           # list stops and exit
 python meteo.py --md meteo.md      # regenerate the committed report
+python meteo.py --html index.html  # inject the per-day forecast into the HTML guide
 python meteo.py --sem-sazonal      # skip the seasonal model (fewer calls, faster)
 python meteo.py --sem-matriz       # hourly tables only
 python meteo.py --todos-os-dias    # hourly tables for every stop on every trip day
+
+python meteo.py --md meteo.md --html index.html   # the refresh: one run, both documents
 ```
 
 Standard library only, no dependencies, no build step. `verificar.py` is the closest thing
@@ -118,14 +121,29 @@ it answers only "do the two documents agree with each other", never "is this fac
 because there is no cache or state. Regenerate the committed report with `python meteo.py --md
 meteo.md`; `meteo.md` is output and is never hand-edited.
 
+**The guide's forecast card is generated too, by the same command.** `python meteo.py --html
+index.html` rewrites the block between the `WEATHER-AUTO:START` and `WEATHER-AUTO:END` markers
+in `index.html`: one cell per trip day, with the source labelled on each. Never hand-edit
+inside those markers, and run the two flags together, `--md meteo.md --html index.html`, so
+both documents come from one fetch of one model run. `python verificar.py --seccao meteo`
+compares their generation dates and flags a half-refresh.
+
+`DAY_SUMMARY` at the top of `meteo.py` decides which stops represent each day in that card,
+including the three alpine stops of Day 4. It mirrors the itinerary's day titles, so update it
+alongside `STOPS` when a day's route changes.
+
 Which of the three sources answers for a given day is decided automatically by how far away
 that day is, and each is labelled in the output:
 
 | Source | Applies to | What it gives |
 |---|---|---|
-| Forecast | day ≤ 16 days out | real hour-by-hour detail |
-| Seasonal trend | day > 16 days out | 50-member ensemble: median, p10–p90, anomaly vs. normal |
-| Climatology | day > 16 days out | hourly table = 10-year ERA5 mean for the same dates |
+| Forecast | inside the 16-day window, i.e. up to today + 15 | real hour-by-hour detail |
+| Seasonal trend | beyond today + 15 | 50-member ensemble: median, p10–p90, anomaly vs. normal |
+| Climatology | beyond today + 15 | hourly table = 10-year ERA5 mean for the same dates |
+
+Open-Meteo counts today as the first of its 16 days, so the last day it answers for is **today
++ 15**, not today + 16: asking for today + 16 is an HTTP 400, not an empty table.
+`forecast_horizon()` in `meteo.py` is the single place that boundary is computed.
 
 **A detailed forecast further out than ~14 days does not exist.** Deterministic skill runs
 out at ~7–10 days. Sites showing hour-by-hour 30-day forecasts are dressing up climatology.
@@ -150,10 +168,9 @@ that the group is only 6 from Day 3 evening. Always check a suggested swap again
 itinerary before acting on it, and remember that until mid-September the numbers behind it
 are climatology, so a swap decided now is a swap decided on averages.
 
-Useful refresh dates for this trip: **~7 Sept** the first trip days cross into the 16-day
-forecast window set by `FORECAST_HORIZON_DAYS` (weak signal), **~13–16 Sept** the first
-forecast with useful skill, **~18–20 Sept** reliable enough to decide clothing and the Eibsee
-rain plan.
+Useful refresh dates for this trip: **~8 Sept** the first trip days cross into the forecast
+window (weak signal), **~13–16 Sept** the first forecast with useful skill, **~18–20 Sept**
+reliable enough to decide clothing and the Eibsee rain plan.
 
 Trip stops live in the `STOPS` list at the top of the file and must match the itinerary's
 day-by-day route. If the route changes in `itinerario_viagem.md`, update `STOPS` too.
@@ -242,3 +259,30 @@ instead of firing many `route` calls. For weather use `meteo.py`, not a maps too
 
 Findings still belong in `itinerario_viagem.md` and `index.html`; the MCP is a check, not a
 record.
+
+### The page in a real browser
+
+`verificar.py` reads the HTML as text, so it cannot see a layout that overflows, a colour that
+fails contrast, or a panel that renders empty. For that there is a second MCP, **`playwright`**
+in `.mcp.json`, which drives a headless Chromium over the `file://` page.
+
+It is the check for anything the text tools cannot answer:
+
+- **Does the generated block actually render?** Count the day cards in the DOM and read their
+  text back, rather than trusting the markup.
+- **Does anything overflow?** Compare each child's edges against its container,
+  `scrollWidth > clientWidth`, and the same for height, **at several widths** (1340, 1024, 768,
+  390). A `white-space: nowrap` child that does not fit does not overflow itself: it overflows
+  its parent, so a per-element check alone misses it.
+- **Is the text legible?** Compute the WCAG ratio from `getComputedStyle`, compositing the
+  translucent backgrounds up the tree. Text needs 4.5:1, or 3:1 at 24 px and above.
+- **Are there console errors?** The page has a `localStorage`-driven theme and Leaflet in it.
+
+Two traps, both hit while building the weather card: `body` has a 0.4 s colour transition, so
+read colours **after** switching theme or you measure mid-animation; and `html` has
+`scroll-behavior: smooth`, so a screenshot taken right after `scrollIntoView` captures the
+previous screen.
+
+For files it writes, the server is configured with `--output-dir .playwright-mcp`, which
+`.gitignore` already excludes. The page opens from `file://`, which Playwright blocks by
+default, hence `--allow-unrestricted-file-access`.

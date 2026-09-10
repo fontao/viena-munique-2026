@@ -15,9 +15,26 @@ python meteo.py --matriz         # só a matriz paragens × dias, que é a vista
 python meteo.py --hoje           # próximas 24 horas
 python meteo.py --cidade Viena   # filtrar por nome parcial
 python meteo.py --md meteo.md    # regenerar o relatório versionado
+python meteo.py --html index.html  # injetar o resumo por dia no guia HTML
 ```
 
 O `meteo.md` é um ficheiro **gerado**. Regenera-se, nunca se edita à mão.
+
+**O cartão do tempo do guia também é gerado, pelo mesmo comando.** O `--html` reescreve
+o bloco entre os marcadores `WEATHER-AUTO:START` e `WEATHER-AUTO:END` no `index.html`:
+uma célula por dia da viagem, com a fonte rotulada em cada uma. **Não se edita nada lá
+dentro à mão.** Correr os dois juntos, para os dois ficheiros saírem da mesma leitura:
+
+```bash
+python meteo.py --md meteo.md --html index.html
+```
+
+Quem decide que paragens representam cada dia nesse cartão é a lista `DAY_SUMMARY`, no
+topo do `meteo.py`, incluindo as três paragens alpinas do Dia 4. Espelha os títulos
+dia-a-dia do itinerário, portanto muda com eles.
+
+`python verificar.py --seccao meteo` compara as datas de geração dos dois e assinala uma
+atualização feita só a metade.
 
 ## A honestidade é o ponto
 
@@ -26,9 +43,13 @@ Há três fontes, escolhidas automaticamente conforme a distância a que o dia e
 
 | Fonte | Aplica-se a | Dá |
 |---|---|---|
-| Previsão | dia a 16 dias ou menos | detalhe hora a hora, a sério |
-| Tendência sazonal | dia a mais de 16 dias | conjunto de 50 membros: mediana, p10 a p90, anomalia |
-| Climatologia | dia a mais de 16 dias | tabela horária que é a média ERA5 de 10 anos |
+| Previsão | dentro da janela dos 16 dias, ou seja até hoje + 15 | detalhe hora a hora, a sério |
+| Tendência sazonal | a mais de hoje + 15 | conjunto de 50 membros: mediana, p10 a p90, anomalia |
+| Climatologia | a mais de hoje + 15 | tabela horária que é a média ERA5 de 10 anos |
+
+A Open-Meteo conta o dia de hoje como o primeiro dos seus 16, portanto o último dia que
+responde é **hoje + 15**, e não hoje + 16: pedir hoje + 16 devolve HTTP 400, não uma tabela
+vazia. É o `forecast_horizon()` que guarda essa fronteira.
 
 **Uma previsão detalhada a mais de 14 dias não existe.** A capacidade de previsão
 determinística acaba aos 7 a 10 dias. Os sites que mostram 30 dias hora a hora
@@ -39,8 +60,8 @@ como se fossem previsão, e manter visíveis os rótulos («média dos últimos 
 «sinal semanal apenas»). O intervalo p10 a p90 aparece de propósito, porque mostra
 a incerteza em vez de a esconder atrás de um número só.
 
-Datas úteis para esta viagem: por volta de **7 de setembro** os primeiros dias
-entram na janela dos 16 dias, ainda com sinal fraco; por volta de **13 a 16 de
+Datas úteis para esta viagem: por volta de **8 de setembro** os primeiros dias
+entram na janela de previsão, ainda com sinal fraco; por volta de **13 a 16 de
 setembro** aparece a primeira previsão com capacidade real; e de **18 a 20 de
 setembro** já é fiável ao ponto de decidir a roupa e o plano B do Eibsee.
 
@@ -73,6 +94,10 @@ seja, uma troca decidida hoje é uma troca decidida sobre médias. Isso diz-se.
 
 As paragens vivem na lista `STOPS`, no topo do `meteo.py`, e têm de espelhar a rota
 do itinerário. **Se a rota mudar no `itinerario_viagem.md`, atualizar `STOPS`.**
+
+**A `DAY_SUMMARY`, logo abaixo, também muda com a rota:** é ela que diz quais das
+paragens representam cada dia no cartão do guia. O Dia 3 tem uma só (Augsburg), o
+Dia 4 tem três (Neuschwanstein, Oberammergau e Eibsee).
 
 A climatologia reconstrói o código meteorológico WMO a partir da chuva e da
 nebulosidade médias, no `synth_code`, porque a média de códigos reais produz
