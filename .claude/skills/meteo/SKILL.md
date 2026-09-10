@@ -13,10 +13,18 @@ nem estado guardado: atualizar é voltar a correr.
 python meteo.py                  # matriz e tabelas horárias de todas as paragens
 python meteo.py --matriz         # só a matriz paragens × dias, que é a vista de decisão
 python meteo.py --hoje           # próximas 24 horas
-python meteo.py --cidade Viena   # filtrar por nome parcial
+python meteo.py --cidade Viena   # filtrar por nome parcial, sem maiúsculas nem acentos
 python meteo.py --md meteo.md    # regenerar o relatório versionado
 python meteo.py --html index.html  # injetar o resumo por dia no guia HTML
 ```
+
+Os filtros que mudam a vista (`--hoje`, `--todos-os-dias`, `--matriz`, `--sem-matriz`,
+`--sem-sazonal`, `--cidade`) são para a saída do terminal. Combinar dois que se contradizem
+(`--hoje --todos-os-dias`, `--matriz --sem-matriz`) **dá erro**, em vez de escolher um por
+conta própria, e o `--md` recusa-os todos: ele escreve o relatório completo, e uma versão
+parcial dele ficaria commitada sem que o `verificar.py` desse por isso. Um pedido já satisfeito
+passa: `--matriz --sem-sazonal` é legítimo, porque a matriz nunca consulta o modelo sazonal.
+O `--cidade` ignora maiúsculas **e acentos**, portanto `fussen` encontra `Füssen`.
 
 O `meteo.md` é um ficheiro **gerado**. Regenera-se, nunca se edita à mão.
 

@@ -99,7 +99,7 @@ python verificar.py --listar       # list the check sections
 python meteo.py                    # matrix + hourly tables for every stop, to stdout
 python meteo.py --matriz           # just the stops × days matrix (the day-swap view)
 python meteo.py --hoje             # next 24 h only
-python meteo.py --cidade Viena     # filter stops by (partial) name
+python meteo.py --cidade Viena     # filter stops by (partial) name, ignoring accents
 python meteo.py --listar           # list stops and exit
 python meteo.py --md meteo.md      # regenerate the committed report
 python meteo.py --html index.html  # inject the per-day forecast into the HTML guide
@@ -109,6 +109,14 @@ python meteo.py --todos-os-dias    # hourly tables for every stop on every trip 
 
 python meteo.py --md meteo.md --html index.html   # the refresh: one run, both documents
 ```
+
+`--hoje`, `--todos-os-dias`, `--matriz`/`--sem-matriz`, `--sem-sazonal` and `--cidade` shape the
+report that goes to stdout. Naming two that contradict each other (`--hoje --todos-os-dias`,
+`--matriz --sem-matriz`) is an error instead of a silent pick, and `--md` refuses all of them: it
+regenerates the canonical report, and a partial one would be committed while `verificar.py`
+stayed quiet. A flag whose request is already granted is fine, so `--matriz --sem-sazonal` and
+`--html` with `--sem-matriz` both work. `--cidade` matches without accents, so `fussen` finds
+`Füssen`.
 
 Standard library only, no dependencies, no build step. `verificar.py` is the closest thing
 this repository has to a test suite: it is deterministic, it never touches the network, and

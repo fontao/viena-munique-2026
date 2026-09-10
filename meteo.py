@@ -5,12 +5,19 @@ Usa a API pública Open-Meteo (sem chave). Basta voltar a correr para actualizar
 
     python meteo.py                # todas as paragens, tabela por dia
     python meteo.py --hoje         # só as próximas 24 h em cada cidade
-    python meteo.py --cidade Viena # filtra por nome
+    python meteo.py --cidade Viena # filtra por nome, sem maiúsculas nem acentos
+    python meteo.py --listar       # lista as paragens e sai
     python meteo.py --md meteo.md  # escreve um relatório markdown
     python meteo.py --html index.html  # injeta o resumo por dia no guia HTML
 
 O `--md` e o `--html` escrevem no mesmo sítio a mesma informação, por isso
 correm-se juntos: `python meteo.py --md meteo.md --html index.html`.
+
+Os filtros de vista (`--hoje`, `--todos-os-dias`, `--matriz`, `--sem-matriz`,
+`--sem-sazonal`, `--cidade`) são para a saída do terminal. Combinar dois que se
+contradizem é um erro em vez de uma escolha silenciosa, e o `--md` recusa-os
+todos: ele escreve o relatório versionado, e uma versão parcial dele ficaria
+commitada sem que o verificar.py desse por isso.
 
 A janela de previsão da Open-Meteo é de 16 dias. Para datas mais longínquas o
 script cai automaticamente para duas fontes que dizem o que se pode mesmo saber
@@ -34,6 +41,7 @@ import os
 import statistics
 import sys
 import tempfile
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -454,6 +462,18 @@ def pretty_date(day: date) -> str:
     return f"{WEEKDAYS[day.weekday()]}, {day.day} de {MONTHS[day.month - 1]} de {day.year}"
 
 
+def sem_acentos(texto: str) -> str:
+    """Minúsculas, sem acentos e com os espaços colapsados, para comparar nomes.
+
+    Existe por causa do `--cidade`: quem escreve à pressa no terminal não põe o
+    trema de «Füssen», e o filtro respondia «nenhuma paragem corresponde» como se
+    a paragem não existisse.
+    """
+    decomposto = unicodedata.normalize("NFD", texto.casefold())
+    limpo = "".join(c for c in decomposto if unicodedata.category(c) != "Mn")
+    return " ".join(limpo.split())
+
+
 def collect(stop: Stop, days: list[date], skip_seasonal: bool
             ) -> tuple[dict[date, list[dict]], dict[date, str], dict[date, dict], dict[date, dict]]:
     """Recolhe os dados de um sítio, escolhendo a fonte conforme a distância de cada dia."""
@@ -767,6 +787,71 @@ def build_report(stops: list[Stop], only_next_24h: bool, markdown: bool,
     return out
 
 
+def listar_stops(stops: list[Stop]) -> list[str]:
+    """Uma linha por paragem, com as colunas medidas a partir dos dados.
+
+    As larguras estavam fixas em 28 e 20, e o Augsburg cobre quatro dias: «25/09,
+    26/09, 27/09, 28/09» tem 26 caracteres e empurrava a nota dessa linha para a
+    direita. Medir em vez de fixar aguenta uma paragem nova sem ninguém ter de se
+    lembrar de ajustar dois números que não se vêem.
+    """
+    linhas = [(s.name, ", ".join(x.strftime("%d/%m") for x in sorted(s.days)), s.note)
+              for s in stops]
+    if not linhas:
+        return []
+    larg_nome = max(len(nome) for nome, _, _ in linhas)
+    larg_dias = max(len(dias) for _, dias, _ in linhas)
+    return [f"{nome:<{larg_nome}}  {dias:<{larg_dias}}  {nota}".rstrip()
+            for nome, dias, nota in linhas]
+
+
+def conflito(args: argparse.Namespace) -> str | None:
+    """A razão pela qual esta combinação de argumentos não pode correr.
+
+    Só se recusa o que seria contrariado. Um pedido já satisfeito passa: o
+    `--matriz --sem-sazonal` é legítimo porque a matriz nunca consulta o modelo
+    sazonal, e o `--html` com `--sem-matriz` também, porque o cartão não tem
+    matriz nenhuma.
+    """
+    contradicoes = (
+        (("hoje", "todos_os_dias"),
+         "--hoje mostra as próximas 24 h e --todos-os-dias mostra a viagem toda: "
+         "escolha um."),
+        (("matriz", "sem_matriz"),
+         "--matriz mostra só a matriz e --sem-matriz esconde-a: escolha um."),
+        (("matriz", "hoje"),
+         "--matriz cobre sempre todos os dias da viagem: não tem versão de 24 h."),
+        (("matriz", "todos_os_dias"),
+         "--matriz já cobre todos os dias da viagem, por isso --todos-os-dias não "
+         "acrescenta nada."),
+    )
+    for (um, outro), motivo in contradicoes:
+        if getattr(args, um) and getattr(args, outro):
+            return motivo
+
+    #  O `--md` escreve o relatório versionado. Um `--md` com uma vista deixava o
+    #  meteo.md reduzido, e o verificar.py não dá por isso: ele compara a data de
+    #  geração dos dois ficheiros, e essa continuava a bater certo.
+    if args.md:
+        vista = next((flag for flag in ("hoje", "todos_os_dias", "matriz", "sem_matriz",
+                                       "sem_sazonal", "cidade")
+                      if getattr(args, flag)), None)
+        if vista:
+            return (f"--md escreve o relatório completo e não aceita "
+                    f"--{vista.replace('_', '-')}: os filtros de vista são para o terminal. "
+                    "Corra o filtro sem --md, ou em separado.")
+
+    #  Com o `--html` sozinho não se constrói relatório nenhum, para não gastar uma
+    #  recolha inteira; um pedido de vista não teria onde aparecer.
+    if args.html and not args.md and not args.matriz:
+        vista = next((flag for flag in ("hoje", "todos_os_dias") if getattr(args, flag)), None)
+        if vista:
+            return (f"--{vista.replace('_', '-')} não se aplica a --html: o cartão do guia "
+                    "cobre sempre a viagem toda. Acrescente --md, ou veja a vista numa "
+                    "corrida só com o filtro.")
+    return None
+
+
 def main() -> int:
     # Consolas Windows usam cp1252 por omissão e rebentam com os emojis. O stderr
     # leva o mesmo tratamento porque as mensagens de erro também têm acentos: o
@@ -778,9 +863,10 @@ def main() -> int:
             pass
 
     parser = argparse.ArgumentParser(description="Previsão hora-a-hora do roteiro Viena + Munique.")
-    parser.add_argument("--cidade", help="filtra por nome (parcial, sem distinção de maiúsculas)")
+    parser.add_argument("--cidade", help="filtra por nome (parcial, sem maiúsculas nem acentos)")
     parser.add_argument("--hoje", action="store_true", help="mostra só as próximas 24 h em cada paragem")
-    parser.add_argument("--md", metavar="FICHEIRO", help="escreve o relatório em markdown")
+    parser.add_argument("--md", metavar="FICHEIRO",
+                        help="escreve o relatório completo em markdown (não aceita filtros de vista)")
     parser.add_argument("--html", metavar="FICHEIRO",
                         help="injeta o resumo por dia no index.html, entre os marcadores "
                              "WEATHER-AUTO (o cartão é sempre a viagem toda, não aceita --cidade)")
@@ -795,10 +881,12 @@ def main() -> int:
                         help="tabelas horárias de cada paragem para todos os dias da viagem")
     args = parser.parse_args()
 
+    motivo = conflito(args)
+    if motivo:
+        parser.error(motivo)
+
     if args.listar:
-        for stop in STOPS:
-            dias = ", ".join(x.strftime("%d/%m") for x in sorted(stop.days))
-            print(f"{stop.name:28} {dias:20} {stop.note}")
+        print("\n".join(listar_stops(STOPS)))
         return 0
 
     stops = STOPS
@@ -809,8 +897,8 @@ def main() -> int:
         if args.html:
             parser.error("--cidade não se aplica a --html: o cartão do guia cobre a viagem "
                          "toda. Corra sem --cidade, ou use --cidade para ver o relatório.")
-        needle = args.cidade.casefold()
-        stops = [s for s in STOPS if needle in s.name.casefold()]
+        needle = sem_acentos(args.cidade)
+        stops = [s for s in STOPS if needle in sem_acentos(s.name)]
         if not stops:
             print(f"Nenhuma paragem corresponde a {args.cidade!r}. Use --listar.", file=sys.stderr)
             return 1
