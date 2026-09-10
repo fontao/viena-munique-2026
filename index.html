@@ -1115,6 +1115,31 @@
         .node-text strong { color: var(--text-main); }
         .node-text em { color: var(--accent-gold); font-style: normal; font-weight: 600; }
 
+        /* Roteiro de paragens dentro de um nó: uma linha por paragem, com a hora
+           à esquerda, para a caminhada se ler de cima para baixo em vez de num
+           parágrafo corrido. Só usa tokens de tema, como o resto do ficheiro. */
+        .stop-list {
+            list-style: none;
+            margin: 0 0 0.9rem;
+            padding: 0;
+        }
+        .stop-list li {
+            display: grid;
+            grid-template-columns: 4.6rem 1fr;
+            gap: 0.6rem;
+            padding: 0.55rem 0;
+            border-top: 1px solid var(--border-subtle);
+            font-size: 0.86rem;
+            line-height: 1.5;
+            color: var(--text-muted);
+        }
+        .stop-list li:first-child { border-top: none; padding-top: 0.15rem; }
+        .stop-list .stop-time { font-weight: 800; color: var(--accent-gold); white-space: nowrap; }
+        .stop-list .stop-body { min-width: 0; }
+        .stop-list .stop-name { font-weight: 700; color: var(--text-main); }
+        .stop-list strong { color: var(--text-main); }
+        .stop-list em { color: var(--accent-gold); font-style: normal; font-weight: 600; }
+
         /* Photo inside timeline */
         .timeline-img-wrapper {
             position: relative;
@@ -2294,11 +2319,44 @@
                                 </div>
                             </div>
                             <h4 class="node-title">Catedral Stephansdom, Graben, Hofburg & Volksgarten</h4>
-                            <p class="node-text">Uma linha reta para poente, sem voltar atrás: casa ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien">Stephansdom</a></strong> (7 min) ➔ <em>Graben</em> e <em>Kohlmarkt</em> ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien">Hofburg</a></strong> (6 min) ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Volksgarten%2C%20Dr.-Karl-Renner-Ring%2C%201010%20Wien">Volksgarten</a></strong> (7 min). Subida à Torre Sul da catedral (343 degraus) para a vista 360°, ruas pedonais imperiais, o palácio dos Habsburgos e os jardins.<br><br>São <strong>1,6 km à ida</strong> em duas horas e quarenta, passo de passeio, que é o que se aguenta com 5 horas de sono. O regresso pelo Ring são outros 1,4 km (18 min) e passa à porta de casa.<br><br>➕ <strong>Três paragens grátis</strong>, todas em cima do caminho: a <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ruprechtskirche%2C%20Ruprechtsplatz%201%2C%201010%20Wien">Ruprechtskirche</a></strong> a 100 m de casa (a igreja mais antiga de Viena, séc. XII sobre fundações do ano 740), o relógio <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ankeruhr%2C%20Hoher%20Markt%2010-11%2C%201010%20Wien">Ankeruhr</a></strong> a 150 m (mecânico, Jugendstil de 1914) e a <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Peterskirche%2C%20Petersplatz%201%2C%201010%20Wien">Peterskirche</a></strong> a 30 m do Graben (cúpula turquesa, barroco de tirar o fôlego; o recital de órgão diário das 15:00 volta a estar ao alcance se o check-in for mais cedo).<br><br>✅⚠️ <strong>A Ruprechtskirche: confirmado que não há horário nenhum para confirmar.</strong> A ruprechtskirche.at diz, textualmente, que a igreja é cuidada <em>em grande parte por voluntários da comunidade</em> e que os horários <em>são atualizados continuamente, muitas vezes em cima da hora</em>. <strong>Não existe plano semanal publicado</strong>, e não há abertura regular documentada às quartas: cada abertura é publicada como evento avulso no calendário do site. Os únicos horários fixos são a <strong>missa de sábado às 17:00</strong> e a <strong><em>Nachtkirche</em>, sextas das 20:00 às 23:00</strong>.<br><br>🎯 <strong>Na prática:</strong> contem com a porta fechada e tratem o interior como bónus. É a 100 m de casa e a fachada e a torre medieval veem-se da praça. Quem quiser mesmo entrar vê o calendário do site na véspera ou telefona ao rectorado, <strong>+43 1 535 60 03</strong>, e passa lá outra vez às 18:05, quando o regresso pelo Ring passa à porta.<br><br>➕ <strong>Duas igrejas grátis extra, só se estiverem adiantados</strong>, porque a tarde não tem folga nenhuma: a <strong>Maria am Gestade</strong> (Passauer Platz, a 150 m de casa, no topo das escadarias), gótica do séc. XIV com uma torre rendilhada em pedra que não se parece com nada em Viena; e a <strong>Jesuitenkirche</strong> (Dr.-Ignaz-Seipel-Platz, 250 m do Stephansdom), cujo teto é uma cúpula pintada em <em>trompe-l'œil</em> por Andrea Pozzo em 1703, que só se vê bem de um disco de mármore marcado no chão. Dez minutos cada uma. <strong>Nenhuma justifica cortar o Stephansdom</strong>, e nenhuma está no relógio.</p>
+                            <p class="node-text">Uma linha reta para poente, <strong>sem voltar atrás e sem malas</strong>: casa ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien">Stephansdom</a></strong> (7 min) ➔ <em>Graben</em> e <em>Kohlmarkt</em> ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien">Hofburg</a></strong> (6 min) ➔ <strong><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Volksgarten%2C%20Dr.-Karl-Renner-Ring%2C%201010%20Wien">Volksgarten</a></strong> (7 min). São <strong>1,6 km à ida</strong> em duas horas e quarenta, passo de passeio, que é o que se aguenta com 5 horas de sono. O regresso pelo Ring são outros <strong>1,4 km (18 min)</strong> e passa à porta de casa.</p>
+
+                            <ol class="stop-list">
+                                <li>
+                                    <span class="stop-time">15:05</span>
+                                    <span class="stop-body"><span class="stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ruprechtskirche%2C%20Ruprechtsplatz%201%2C%201010%20Wien">Ruprechtskirche</a></span> · a <strong>100 m de casa</strong>. A igreja mais antiga de Viena, séc. XII sobre fundações do ano 740. Grátis, 10 min.</span>
+                                </li>
+                                <li>
+                                    <span class="stop-time">15:15</span>
+                                    <span class="stop-body"><span class="stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ankeruhr%2C%20Hoher%20Markt%2010-11%2C%201010%20Wien">Ankeruhr</a></span> · a <strong>150 m</strong>, no Hoher Markt. Relógio mecânico <em>Jugendstil</em> de 1914, entre dois edifícios. Grátis, 5 min. O desfile das 12 figuras com música é ao meio-dia, portanto às 15:15 vê-se só uma.</span>
+                                </li>
+                                <li>
+                                    <span class="stop-time">15:30</span>
+                                    <span class="stop-body"><span class="stop-name">Torre Sul do Stephansdom</span> · <strong>343 degraus</strong> e a vista 360° sobre os telhados, 60 min. <strong>€8,00/pax, e só em dinheiro.</strong> Ler a caixa vermelha abaixo antes de subir.</span>
+                                </li>
+                                <li>
+                                    <span class="stop-time">16:35</span>
+                                    <span class="stop-body"><span class="stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Peterskirche%2C%20Petersplatz%201%2C%201010%20Wien">Peterskirche</a></span> · a <strong>30 m do Graben</strong>. Cúpula turquesa e frescos dourados, das igrejas barrocas mais espetaculares da Europa Central. Grátis. O recital de órgão diário das 15:00 só se apanha se o check-in tiver corrido cedo.</span>
+                                </li>
+                                <li>
+                                    <span class="stop-time">16:45</span>
+                                    <span class="stop-body"><span class="stop-name">Graben, Kohlmarkt, Hofburg e Volksgarten</span> · as ruas pedonais imperiais, o palácio dos Habsburgos e os jardins, até às <strong>17:45</strong>.</span>
+                                </li>
+                            </ol>
+
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-church"></i>
+                                <div><strong>✅⚠️ A Ruprechtskirche: confirmado que não há horário nenhum para confirmar.</strong> A ruprechtskirche.at diz, textualmente, que a igreja é cuidada <em>em grande parte por voluntários da comunidade</em> e que os horários <em>são atualizados continuamente, muitas vezes em cima da hora</em>. <strong>Não existe plano semanal publicado</strong>, e não há abertura regular documentada às quartas: cada abertura é publicada como evento avulso no calendário do site. Os únicos horários fixos são a <strong>missa de sábado às 17:00</strong> e a <strong><em>Nachtkirche</em>, sextas das 20:00 às 23:00</strong>.<br><br>🎯 <strong>Na prática:</strong> contem com a porta fechada e tratem o interior como bónus. É a 100 m de casa e a fachada e a torre medieval veem-se da praça. Quem quiser mesmo entrar vê o calendário do site na véspera ou telefona ao rectorado, <strong>+43 1 535 60 03</strong>, e passa lá outra vez às 18:05, quando o regresso pelo Ring passa à porta.</div>
+                            </div>
 
                             <div class="callout-box critical">
                                 <i class="fa-solid fa-tower-observation"></i>
                                 <div><strong>🔴 A Torre Sul é só a dinheiro, e custa o dobro do que este guia dizia.</strong> A <em>stephanskirche.at/info.php</em> lista <strong>Südturm €8,00</strong> por adulto, o <em>Nordturm</em> também a €8,00 e o <em>All Inclusive</em> a €29,00: <strong>são €32 para os 4, e não €16</strong>. E a catedral escreve que <em>todos os bilhetes só podem ser adquiridos no Stephansdom contra pagamento em numerário</em>. <strong>Só o All Inclusive de €29 se compra online</strong>, e não compensa para quem só quer subir. <strong>Levar €32 em notas.</strong><br><br>✅ <strong>Em compensação, a torre abre das 09:00 às 19:00, com última subida às 18:15.</strong> As <strong>09:00–11:30 e 13:00–16:30</strong> que também aparecem no site são a janela de <em>visita da catedral</em>, a nave e o percurso guiado, e não a da torre, que se sobe pela porta lateral com bilhete próprio.<br><br>✅ <strong>O bloco das 15:30 às 16:30 cabe com folga</strong>, e há plano B: quem se atrasar no Ankeruhr ou na Peterskirche ainda sobe mais tarde, até às 18:15. <strong>Mas não há outro dia</strong>: o Dia 2 sai de casa às 11:00 e o Dia 3 é o comboio.</div>
+                            </div>
+
+                            <div class="callout-box info">
+                                <i class="fa-solid fa-plus"></i>
+                                <div><strong>➕ Duas igrejas grátis extra, só se estiverem adiantados</strong>, porque a tarde não tem folga nenhuma: a <strong>Maria am Gestade</strong> (Passauer Platz, a 150 m de casa, no topo das escadarias), gótica do séc. XIV com uma torre rendilhada em pedra que não se parece com nada em Viena; e a <strong>Jesuitenkirche</strong> (Dr.-Ignaz-Seipel-Platz, 250 m do Stephansdom), cujo teto é uma cúpula pintada em <em>trompe-l'œil</em> por Andrea Pozzo em 1703, que só se vê bem de um disco de mármore marcado no chão. Dez minutos cada uma. <strong>Nenhuma justifica cortar o Stephansdom</strong>, e nenhuma está no relógio.</div>
                             </div>
 
                             <div class="callout-box info">
