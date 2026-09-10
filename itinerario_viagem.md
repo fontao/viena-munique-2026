@@ -243,7 +243,7 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 | **St. Jakobskirche** (Rothenburg) | 6 | ✅ €5/pax = **€30** | Dia 5 · altar de Riemenschneider · domingo **10:00–18:00** · ⚠️ levar dinheiro, ver nota |
 | **Kriminalmuseum** (Rothenburg) | 6 | €10,50/pax = **€63** | Dia 5 · 10:00–18:00, última entrada 17:15 |
 | **Vigia Noturno** (Rothenburg) | 6 | €9/pax = **€54** | Dia 5, **opcional** · 20:00, só dinheiro, sem reserva |
-| **Estacionamento** (Rothenburg) | - | €8/dia | Dia 5 · P4 ou P3 · grátis fora das 09:00–18:00 |
+| **Estacionamento** (Rothenburg) | - | ⚠️ **€5,50** | Dia 5 · P4 ou P3 · pagam-se 09:00–18:00, grátis fora dessa janela · ler a máquina |
 | **Allianz Arena**: esplanada + Megastore | 6 | **grátis** | ✅ **29/09: tudo 10:00–18:00.** Museu só **€12** · +Arena View €19 · +Tour €25 |
 | **BMW Welt** | 6 | ✅ **grátis** | Museu BMW à parte: ✅ **€16/pax em grupo de 5+** (avulso €17) · ter–dom 10:00–18:00, última entrada 17:30 |
 
@@ -291,7 +291,7 @@ inclui combustível nem estacionamento, e o roteiro faz **~791 km** ao volante: 
 376 no Dia 5 e 104 no Dia 7 *(os três dias remedidos no OSRM a 27/08/2026)*. A uma carrinha de
 sete lugares isso são **€100 a €130 de
 combustível** ⚠️ *(estimativa: ~7,5 l/100 km a preços alemães de 2026, não é uma cotação)*.
-Somam-se os parques: ✅ **Eibsee €10** (até 4 h, depois €2,00/h), Rothenburg **€8**,
+Somam-se os parques: ✅ **Eibsee €10** (até 4 h, depois €1,00/h), Rothenburg ⚠️ **€5,50**,
 ✅ **Nymphenburg grátis**, 🔴 **BMW Welt €3,50/hora com teto de €23 ao dia**, e Allianz Arena
 ⚠️ ~€12.
 🔴 *O parque de Nymphenburg estava aqui a ~€5 e **não se paga**: a Bayerische
@@ -679,6 +679,22 @@ jantar marcado. **Três opções, todas a pé e todas confirmadas abertas à qua
     que fecha à 01:00: no Dia 2 o plano B fecha mais tarde do que o plano A.* Alternativa mais longe: **Meliá 57** (57.º andar da DC
     Tower, interior envidraçado, seg–qui 17:00–00:00).
 
+> ### 🎭 Alternativa: Macbeth na Ópera (substitui a noite do Prater, não o rooftop)
+> Na quinta 24 a Staatsoper dá **Verdi, *Macbeth*, às 19:00**, com **fim às 22:00** e um
+> intervalo (85 min + 25 + 70) *(wiener-staatsoper.at)*. Em pé custa **€13 no balcão, €15
+> na galeria, €18 na plateia**. Os lugares de pé põem-se à venda **online a partir das
+> 10:00 do próprio dia**, ainda em casa antes do brunch: a bilheteira lateral
+> (*Stehplatzkassa*, **entrada Operngasse**) só abre o seu contingente **80 min antes**,
+> às 17:40, quando o grupo ainda está no Prater.
+>
+> **Não é uma troca de rooftops: é outro Dia 2.**
+> Às 19:00 não se chega saindo do Schweizerhaus às 20:15: da Riesenrad à Ópera são ~30
+> minutos de metro, portanto tem de se **sair do Prater por volta das 18:25 e jantar noutro
+> sítio que não o Schweizerhaus**, cujo bloco é das 18:15 às 20:15 e não cabe. Quem
+> escolher a ópera faz o Dia 2 assim: Schönbrunn, Prater até às 18:15, Ópera às 19:00.
+> **O rooftop às 22:15, depois da ópera, é possível se o bar ainda estiver aberto, mas não
+> é um plano.**
+
 ---
 
 ### 🚆 🇩🇪 Dia 3: Sexta-feira, 25 de Setembro · Comboio para Augsburg, Carro & Noite na Cidade Velha
@@ -807,7 +823,8 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     é aqui que ele existe.
 - **19:00 – 20:30**: **Jantar bávaro na Rathausplatz** (7 min a pé pelas ruelas do Lechviertel).
   Sugestão: **Altstadtgasthaus Bauerntanz**, *Bauerntanzgäßchen 1*, no beco atrás da Câmara,
-  a taberna mais antiga da cidade, cozinha suábia-bávara, sexta 11:30–23:00.
+  a taberna mais antiga da cidade, cozinha suábia-bávara, sexta 11:30–22:00, cozinha quente até
+  às 21:00.
   **Reservar para as 19:00: +49 821 153644** (mesa de 6 à sexta à noite não aparece sozinha). 🔴 *A reserva era às 18:45 e recuou 15 minutos, porque a carrinha não chega ao apartamento antes das 17:40.*
   - ⚠️ **Não contar com a Câmara nem com a torre.** O **Rathaus e o Goldener Saal estão
     fechados para obras** e só reabrem a **28 de setembro de 2026**: três dias depois, e
@@ -972,7 +989,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     chega-se às 17:56, quatro minutos antes de fechar, o que não é um plano: **não se conta
     com ela**, e a cerveja de sábado bebe-se em Augsburg ao jantar, ou no Bräustüberl de Ettal
     se for a Rota B. *(O +49 8821 98810 fica só para quem quiser confirmar que nada mudou.)*
-  - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €2,00 por hora.
+  - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €1,00 por hora.
     Dinheiro ou cartão. Ficando das 17:56 às 19:15 são **€10**. *(Tabela oficial
     "Übersicht Parkgebühren, Sommer 2026, gültig ab Juli 2026" da zugspitze.de, confirmada a
     28/08/2026. A tabela é publicada como imagem, e é por isso que nenhuma leitura de texto
@@ -1039,11 +1056,12 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 - **13:00 – 13:15**: **Estacionar e entrar pela porta medieval.** Apontar ao **P4
   (Galgentor)**, que é o que fica em frente ao melhor troço da muralha; se estiver cheio, o
   **P3 (Schweinsdorfer Straße)** é o maior de todos, tem sempre lugar e fica a 7 min do centro.
-  - ✅ **Bilhete diário €8,00** para ligeiros e motos, e **só se paga das 09:00 às 18:00**:
-    fora dessa janela os grandes parques são **gratuitos**. *(Regulamento de taxas da
-    stadt.rothenburg.de, confirmado a 26/08/2026.)* Ficando das
-    13:00 às 17:30 são **€8**, e o mesmo bilhete cobre a noite inteira se ficarem para o
-    Vigia Noturno.
+  - ⚠️ **Parquímetro: no máximo €5,50 para a tarde, e o preço lê-se na máquina.** Os grandes
+    parques (P1 a P5) pagam-se das **09:00 às 18:00** e são **gratuitos** fora dessa janela; a
+    tarifa afixada é **€1,10/hora com teto de €5,50/dia** *(fichas dos parques; a
+    stadt.rothenburg.de regula a janela mas não publica tarifas)*. Ficando das 13:00 às 17:35
+    a tarde custa no máximo **€5,50**, e o mesmo bilhete cobre a noite inteira se ficarem para
+    o Vigia Noturno.
   - 🚫 **Não tentar estacionar dentro das muralhas.** Lá dentro paga-se das **08:00 às 20:00**
     e o **máximo são 2 horas**, o que não serve para nada neste dia.
   - ⚠️ **O P5 (Bezoldweg) só aceita viaturas até 2,00 m de altura.** Um VW Touran passa
@@ -1060,7 +1078,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     **11:00–21:00**, num edifício de 1596 com pátio de galerias renascentistas.
   - 🚫 **Não contar com a *Zur Höll***, que os guias todos recomendam: **fecha ao domingo**.
     E a *Altfränkische Weinstube* só abre às 18:00.
-- **14:30 – 15:00**: 🖼️ **St. Jakobskirche** (*Klostergasse 15*, 200 m da Marktplatz).
+- **14:30 – 15:05**: 🖼️ **St. Jakobskirche** (*Klostergasse 15*, 200 m da Marktplatz), **incluindo os 5 min a pé até ao Burggarten a seguir.**
   ✅ **€5/pessoa, aberta ao domingo das 10:00 às 18:00.** A paróquia publica *"von 10-18 Uhr;
   mittwochs bis 16.15 Uhr; samstags bis 17.30 Uhr"*, portanto o domingo é o horário cheio, e
   **€5 para "Einzelpersonen und Gruppen unter 10 Personen"**, que é o caso dos 6.
@@ -1079,11 +1097,11 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   Sangue Sagrado**, entalhado em tília por **Tilman Riemenschneider entre 1500 e 1505**: é um
   dos maiores tesouros da escultura sacra alemã e é, com alguma probabilidade, **a melhor
   coisa que há em Rothenburg**.
-- **15:00 – 15:30**: 🌄 **Burggarten** pela Herrngasse (400 m da Marktplatz, grátis, aberto
-  sempre): o promontório onde estava o castelo imperial dos Hohenstaufen, com a panorâmica
+- **15:05 – 15:35**: 🌄 **Burggarten** pela Herrngasse (400 m da Marktplatz, grátis, aberto
+  sempre), **incluindo os 5 min a pé até ao Kriminalmuseum a seguir**: o promontório onde estava o castelo imperial dos Hohenstaufen, com a panorâmica
   mais desafogada sobre o vale do Tauber, os socalcos de vinha e a ponte medieval de arcos
   duplos.
-- **15:30 – 16:30**: 🗡️ **Mittelalterliches Kriminalmuseum** (*Burggasse 3–5*, domingo
+- **15:35 – 16:35**: 🗡️ **Mittelalterliches Kriminalmuseum** (*Burggasse 3–5*, domingo
   10:00–18:00, última entrada 17:15). Mil anos de história do direito penal germânico em
   50.000 peças: máscaras de vergonha, instrumentos originais, processos de inquisição e a
   desmontagem do mito da Dama de Ferro. É muito mais visual do que parece pelo nome.
@@ -1094,14 +1112,14 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     permanente e museu, aberta ao domingo) mais a subida dos 220 degraus da **torre do
     Rathaus** (~€3, vista de 360° sobre a Marktplatz) enchem a mesma hora. *A filial da
     Untere Schmiedgasse, essa, fecha ao domingo.*
-- **16:30 – 17:15**: 📸 **Plönlein, Schneeballen e o troço da muralha que vale a pena.**
+- **16:35 – 17:20**: 📸 **Plönlein, Schneeballen e o troço da muralha que vale a pena.**
   A fotografia obrigatória no cruzamento do **Plönlein**, entre a Sieberstor e a Kobolzeller
   Tor, e os **Schneeballen** na *Bäckerei Striffler* ou no *Café Diller*.
   - 🧱 **A muralha inteira são 4 km e 2h30, e isso não cabe.** O troço a fazer é o
     **nascente, entre a Rödertor e a Galgentor**: passadiço elevado e coberto, vista sobre os
     telhados góticos e as placas dos doadores que pagaram a reconstrução do pós-guerra.
     **25 a 35 minutos**, e sai-se do lado do P4, onde está o carro.
-- **17:15 – 17:30**: Regresso ao carro.
+- **17:20 – 17:35**: Regresso ao carro.
 
 > ### ⏱️ As duas transições da tarde não estão nos blocos, e é aqui que se pagam
 > **Os blocos das 14:30, 15:00 e 15:30 encostam uns aos outros sem um minuto de caminhada pelo
@@ -1109,14 +1127,14 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > são **360 m e ~5 minutos**, e do Burggarten ao Kriminalmuseum outros **350 m e ~5 minutos**.
 > São **10 minutos** que a tarde não tem escritos e que a fazem derrapar.
 >
-> ✅ **Não se muda nada, porque o dia absorve-os no fim.** O bloco das 17:15 às 17:30 é
+> ✅ **Não se muda nada, porque o dia absorve-os no fim.** O bloco das 17:20 às 17:35 é
 > generoso de propósito: o passadiço da muralha **sai ao lado do P4**, onde está o carro, e não
 > são precisos 15 minutos para lá chegar. **É essa a folga que paga as duas transições.**
 > Quem quiser recuperá-los mais cedo, corta no Burggarten, que é um miradouro e não uma visita.
 >
-> ⚠️ **O bloco das 16:30 às 17:15 é o mais apertado do dia** e só fecha se o troço da muralha
+> ⚠️ **O bloco das 16:35 às 17:20 é o mais apertado do dia** e só fecha se o troço da muralha
 > for os **25 minutos** e não os 35: são ~4 min até ao Plönlein, a paragem das fotografias e
-> dos *Schneeballen*, e ~6 min até à Rödertor antes de subir ao passadiço. **Se às 16:50 ainda
+> dos *Schneeballen*, e ~6 min até à Rödertor antes de subir ao passadiço. **Se às 16:55 ainda
 > estiverem no Plönlein, sobe-se à muralha na Rödertor e anda-se sem parar**, ou salta-se a
 > muralha, que é o único item do dia que se corta sem perder dinheiro.
 
@@ -1133,8 +1151,26 @@ uma das razões para **não** trocar este dia com o Dia 4.
 *💶 **E levar dinheiro vivo:*** o Vigia Noturno (€9 × 6 = **€54**) e a St. Jakobskirche
 (€5 × 6 = **€30**) não aceitam cartão, e as bancas de Schneeballen e a torre do Rathaus
 também não, para valores pequenos. **Contar €150 a €200 em notas para o dia.**
-- **17:30 – 19:30**: Regresso a Augsburg (**186 km, ~2h00**). Jantar e **deitar cedo**: o
+- **17:35 – 19:35**: Regresso a Augsburg (**186 km, ~2h00**). Jantar e **deitar cedo**: o
   Dia 6 é o grande dia.
+
+> ### 🏛️ Opção: desvio a Nuremberga, ao centro de documentação do Reichsparteitagsgelände
+> O **Dokumentationszentrum Reichsparteitagsgelände** (o museu na Kongresshalle inacabada,
+> ao lado do Zeppelinfeld) abre **ao domingo das 10:00 às 18:00**, **€7,50/pax = €45**
+> *(museen.nuernberg.de)*. Medido no OSRM: **+55 km e +~65 min de carro em cada sentido**
+> (ida por Nuremberga 241 km/3h00 contra 186 km/1h56 direto; volta 243 km/3h01 contra
+> 188 km/1h58), mais **90 a 120 min** no local.
+>
+> **Dito sem rodeios: é outro registo.** Um centro de documentação sobre a encenação nazi
+> a meio de um domingo de castelos medievais e cerveja francónia. Se o grupo quiser ir,
+> há duas versões, e as duas matam alguma coisa:
+>
+> - **De manhã** (sair de Augsburg às 09:00, Dokuzentrum 11:00–13:00, Rothenburg
+>   14:30–17:35 comprimido): mata o **Kriminalmuseum**.
+> - **À tarde** (Rothenburg primeiro, Nuremberga 15:00–17:00, casa às ~19:00+): mata a
+>   **noite descansada antes do dia da Oktoberfest**.
+>
+> Por omissão, **não se faz**. É preciso os 6 de acordo na véspera.
 
 > **Opção: ficar para o Vigia Noturno (Nachtwächter).** A melhor coisa de Rothenburg não
 > acontece de dia, é a ronda do vigia noturno, de lanterna e alabarda, pelas ruas às escuras.
@@ -1226,7 +1262,7 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
     **Não dá para lojas nem para fotografias individuais.**
   - 🎫 A **Frauenkirche** é grátis e abre das 08:00 às 20:00. Fica a **325 m** da Marienplatz,
     4 minutos a pé.
-- **12:35 – 12:45**: A pé da Frauenkirche até ao **Viktualienmarkt** (655 m, 9 min).
+- **12:35 – 12:45**: A pé da Frauenkirche até ao **Viktualienmarkt** (655 m, 9 min). Não há tempo para vaguear: estes 10 minutos são quase todos a andar.
 - **12:45 – 13:00**: **Viktualienmarkt**, de passagem e de pé. Uma *Weißwurst*, um pretzel
   gigante, *Obatzda*, e segue-se.
   - ⚠️ **Isto já não é o almoço.** O almoço é o *Hendl* dentro da tenda, daqui a uma hora. Não
@@ -1443,8 +1479,8 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     última entrada às **17:30**. Se alguma vez entrar no plano, o bilhete avulso é €17 mas
     **em grupo de 5 ou mais pessoas são €16 por pessoa**, ou seja €96 para os 6 e não €102.
     Confirmado na bmw-welt.com e na loja oficial tkts.bmw-welt.com a 28/08/2026.)*
-- **14:40 – 15:20**: **Transição para a Allianz Arena.** Pagar o parque na máquina, **9,7 km
-  até Fröttmaning (14 min em fluxo livre)**, entrar no parque do estádio e percorrer a
+- **14:40 – 15:20**: **Transição para a Allianz Arena.** Pagar o parque na máquina, **~11 km
+  até Fröttmaning (16 min em fluxo livre)**, entrar no parque do estádio e percorrer a
   **Esplanade, que tem 543 m de rampa**, até ao edifício. São **40 minutos**, não 15.
 - **15:20 – 16:00**: **Allianz Arena** (Fröttmaning): acesso livre e gratuito à esplanada
   exterior para admirar a fachada de almofadas ETFE, fotos de grupo, e visita ao **FC Bayern

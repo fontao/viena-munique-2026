@@ -14,6 +14,69 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 11.ª revisão · 10 de setembro de 2026
+
+**Segunda passagem no mesmo dia, esta sobre o roteiro e não sobre o `meteo.py`:** todas as
+distâncias remedidas no OSRM e todos os preços reabertos em fonte primária, a 13 dias da
+partida.
+
+**Quatro números errados, e o que se paga por não os ter visto antes.** Dois ficheiros de
+acordo sobre um número falso é exatamente a falha que o `verificar.py` não apanha, porque ele
+compara os dois entre si e nunca vai à fonte. Foram quatro:
+
+1. **O parque do Eibsee cobra €1,00 por cada hora a mais, e não €2,00.** A tabela é do próprio
+   dono do parque, a eibsee.de, e o total de €10 para a tarde que o roteiro já trazia não muda.
+2. **O Bauerntanz fecha às 22:00, com cozinha quente até às 21:00**, e não às 23:00. O jantar
+   das 19:00 não é afetado, mas a hora impressa estava errada.
+3. **A perna BMW Welt ➜ Allianz Arena são ~11 km e 16 minutos, não 9,7 km e 14.** O bloco de
+   40 minutos absorvia a diferença, mas quem lesse o roteiro encontraria dois minutos que não
+   existem, e é assim que um dia se estraga.
+4. **O parque de Rothenburg não custa €8/dia.** A stadt.rothenburg.de regula a janela (paga-se
+   das 09:00 às 18:00, grátis fora dela) e não publica tarifas; as fichas dos parques dão
+   **€1,10/hora com teto de €5,50/dia**. Os €8 saíram e a tarde passou a custar no máximo
+   €5,50. **Era o único dos quatro com um ✅ em cima e sem fonte nenhuma por baixo**, e a
+   lição é a de sempre: um ✅ que ninguém abriu é uma estimativa com fato.
+
+**O Dia 5 foi retimado, não replaneado.** As duas caminhadas da tarde (St. Jakob ➜ Burggarten,
+360 m e ~5 min; Burggarten ➜ Kriminalmuseum, 350 m e ~5 min) estavam explicadas numa caixa e
+fora dos blocos, o que fazia a tarde encostar blocos sem um minuto de caminhada pelo meio.
+Passaram para dentro dos blocos: 14:30–15:05, 15:05–15:35, 15:35–16:35, 16:35–17:20,
+17:20–17:35, 17:35–19:35. O dia fecha à mesma hora e o alarme do Plönlein recuou para as 16:55.
+
+**O que se considerou e se rejeitou: uma caminhada na Sophienalpe.** O Stadtwanderweg 8, 11 km
+e 3 a 4 horas, até à Franz-Karl-Fernsicht. Fora, por três razões que se somam: **não se vê a
+cidade** (a fernsicht olha para os cumes do Wienerwald e o Schneeberg, com um retalho de Viena
+entre colinas), **não há onde comer nem casas de banho** (a wien.gv.at escreve que todas as
+gaststätten da rota estão fechadas, e a Sophienalpenstraße está cortada desde as cheias de
+2024, com os moradores em petição), e custa meio dia que o roteiro não tem. É floresta, e não
+é por floresta que se vai a Viena.
+
+**Duas opções novas, as duas desligadas por omissão.**
+
+- **Macbeth na Staatsoper, quinta 24, 19:00–22:00.** Lugares de pé a €13 (balcão), €15
+  (galeria) e €18 (plateia), à venda online a partir das 10:00 do próprio dia; a bilheteira
+  lateral (Operngasse) só abre o seu contingente 80 minutos antes, às 17:40, quando o grupo
+  ainda está no Prater. **Não é uma troca de rooftops: é outro Dia 2.** Quem a escolher sai do
+  Prater às 18:15 e não janta no Schweizerhaus, cujo bloco das 18:15 às 20:15 não cabe. Fica
+  escrito assim para ninguém a tratar como um plano B do Das Loft, que é o erro que esta opção
+  convidava a cometer.
+- **Centro de Documentação do Reichsparteitagsgelände, em Nuremberga, no Dia 5.** Domingo
+  10:00–18:00, €7,50/pax. Medido no OSRM: +55 km e +65 minutos de carro em cada sentido, mais
+  90 a 120 minutos no local. Das duas versões, a da manhã mata o Kriminalmuseum e a da tarde
+  mata a noite descansada antes da Oktoberfest. **O tom também se diz**, porque é uma decisão
+  de conteúdo e não de logística: é um museu sobre a encenação nazi a meio de um domingo de
+  castelos e cerveja francónia, e não é a mesma viagem.
+
+**O que ficou por verificar, e fica escrito.** As **distâncias a pé** do Dia 5 e do Dia 6 não
+se confirmaram de forma independente: o perfil pedonal do OSRM é inutilizável nestes centros
+históricos, devolveu 33 km/h numa perna e 3,3 km para um salto de 280 metros. Os 360, 350 e
+655 metros continuam a ser os números do próprio dossiê, não uma medição nova. E a **segunda
+opinião do Gemini não correu**: o CLI `agy` expirou três vezes, de cinco minutos cada, sem
+devolver nada. Esta revisão não tem a passagem externa que a regra 7 pede, e isso é uma
+lacuna, não um detalhe.
+
+---
+
 ## 10.ª revisão · 10 de setembro de 2026
 
 **Um erro de um dia no `meteo.py`, que só agora se viu.** O script tratava a janela da
