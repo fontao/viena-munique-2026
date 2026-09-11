@@ -97,6 +97,16 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - Sincronização e validação de paridade de preços de transporte em Viena no Ticket 7 do guia (incorporando a poupança comparativa face ao passe de 24h a €9,70 e €10,20).
     - `verificar.py` validado com 0 erros e 0 preços órfãos.
 
+17. **Modularização e autonomia de blocos: regresso e jantar no Dia 4, e dia completo no Dia 5.**
+    - **Regresso e jantar no Dia 4:** a viagem de volta dos Alpes e o jantar de celebração em Augsburg deixaram de constar como parágrafos secundários no nó do Lago Eibsee, passando a constituir dois blocos autónomos em ambos os ficheiros:
+      1) **19:15 – 21:15 (Regresso dos Alpes):** 131 km de condução via Garmisch-Partenkirchen até Augsburg, com 15 min de folga para estacionar e caminhar.
+      2) **21:30 – 23:00 (Jantar Bávaro de Celebração):** refeição tradicional com mesa reservada de manhã para os 6 às 21:30 no centro histórico / Lechviertel.
+    - **Modularização do Dia 5 (Circuito Medieval de Rothenburg):**
+      1) **10:00 – 11:00 (Pequeno-Almoço & Preparação):** nó autónomo para despertar às 10:00 sem pressas no apartamento em Augsburg (*Am Bogen 6*), pequeno-almoço tranquilo, marcação telefónica matinal do almoço de domingo para as 13:15 (Reichsküchenmeister ou Baumeisterhaus, ambas de cozinha contínua) e verificação de dinheiro vivo no bolso.
+      2) **17:35 – 19:35 (Regresso de Carro):** nó autónomo para a viagem de 186 km de regresso a Augsburg pela A7 e A8, aproveitando a proibição dominical de circulação de camiões (*Sonntagsfahrverbot*).
+      3) **19:45 – 21:00 (Jantar & Descanso):** nó autónomo para jantar calmo no Lechviertel/Rathausplatz e recolher cedo ao alojamento em preparação para a maratona da Oktoberfest no Dia 6.
+    - **Validação total:** verificação de cronometria estrita, 0 sobreposições, 0 travessões e paridade total em `verificar.py` (86 preços comuns, 0 órfãos).
+
 ---
 
 

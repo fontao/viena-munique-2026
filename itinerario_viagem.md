@@ -815,16 +815,24 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
   - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €1,00 por hora (dinheiro ou cartão). Ficando das 17:56 às 19:15 são **€10**. *(Tabela oficial zugspitze.de.)*
     - 🚨 **Atenção ao parque contíguo:** o parque do **Seilbahn [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) / Zugspitzbahnhof [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)** cobra **€20,00 por 4 horas** (desconto de €11 exclusivo a utilizadores do teleférico). Sem bilhete de teleférico da [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen), aplica-se a tarifa cheia de €20,00. O parque correto é o do lado do **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Hotel**, a €10.
     - ℹ️ Proibido estacionar de noite entre as 22:00 e as 05:00, com multa de €50.
-- **19:15 – 21:15**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) via [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) (**~131 km, ~2h00**). **Jantar às 21:30.**
-  - ⚠️ **Trajeto com trânsito de regresso de sábado:** o percurso direto tem 131 km (~1h55 em fluxo livre, OSRM). O bloco contempla **2h00** de condução para absorver eventuais retenções à saída de Garmisch, apontando o jantar para as **21:30**.
-  - ⚠️ **Reservar o jantar de sábado de manhã, antes de sair:** num sábado à noite em plena época de [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), um grupo de 6 sem mesa reservada arrisca não encontrar lugar. **Reservar para as 21:30** (fazer ambas as marcações de manhã: jantar em Augsburg e almoço no [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)).
-  - ⚠️ **Os 15 minutos entre as 21:15 e as 21:30 destinam-se a estacionar e caminhar até ao restaurante:** em caso de imprevisto na estrada, telefonar a avisar a casa para manter a mesa.
+- **19:15 – 21:15**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) via [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) (**~131 km, ~2h00**).
+  - ⚠️ **Trajeto com trânsito de regresso de sábado:** o percurso direto tem 131 km (~1h55 em fluxo livre, OSRM). O bloco contempla **2h00** de condução para absorver eventuais retenções à saída de Garmisch.
+  - 🅿️ **Chegada a Augsburg às 21:15:** os 15 minutos entre as 21:15 e as 21:30 destinam-se a estacionar a carrinha no centro histórico ou no [Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%2086150%20Augsburg) e caminhar descontraídos até à mesa às 21:30.
+- **21:30 – 23:00**: **Jantar bávaro em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) & celebração dos Alpes.**
+  - 🍻 **Brinde de celebração:** refeição tradicional para os 6 com mesa reservada de manhã para as **21:30** no centro histórico ou no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg). Num sábado à noite em plena época de [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), a marcação antecipada é indispensável.
+  - ⚠️ Em caso de atraso na estrada, telefonar do carro para segurar a mesa.
 
 ---
 
 ### 🏰 🇩🇪 Dia 5: Domingo, 27 de Setembro · Circuito Medieval: [Rothenburg ob der Tauber](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)
-**⏰ Acordar 10:00 · Sair 11:00**
+**⏰ Acordar 10:00 · Saída às 11:00. Dia mais leve e rodoviário, aproveitando o domingo sem camiões nas autoestradas.**
 
+- **10:00 – 11:00**: **Acordar no apartamento, pequeno-almoço e preparação da viagem.**
+  - 💤 Acordar às 10:00 no apartamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%206%2C%2086152%20Augsburg) com sono recuperado do dia nos Alpes, sem correrias nem despertador madrugador.
+  - ☕ Pequeno-almoço tranquilo em casa com os mantimentos do frigorífico ou café numa pastelaria de domingo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150).
+  - 📞 **Fazer a chamada da manhã para reservar o almoço para 6 em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) às 13:15:** escolher o **[Reichsküchenmeister](https://www.google.com/maps/search/?api=1&query=Hotel-Gasthof%20Reichsk%C3%BCchenmeister%2C%20Kirchplatz%208%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (+49 9861 9500) ou o **[Baumeisterhaus](https://www.google.com/maps/search/?api=1&query=Restaurant%20Baumeisterhaus%2C%20Obere%20Schmiedgasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (+49 9861 9470-0), ambas de cozinha contínua. Uma mesa para 6 ao domingo sem reserva é recusada.
+  - 💶 **Levar dinheiro vivo:** a St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber) (€30 para os 6), as bancas de *Schneeballen* e pequenas lojas não aceitam cartão.
+  - 🚗 Partida às 11:00 com todos a bordo na carrinha de 7 lugares.
 - **11:00 – 13:00**: Viagem de carro para norte. **Duas rotas, escolher uma:**
   - **Autoestrada (recomendada):** **186 km, ~2h00**. Não vai a direito: a A8 leva-vos primeiro
     para **oeste até Ulm**, e só aí é que a A7 sobe para norte até à saída 108.
@@ -939,8 +947,10 @@ uma das razões para **não** trocar este dia com o Dia 4.
 *💶 **E levar dinheiro vivo:*** o Vigia Noturno (€9 × 6 = **€54**) e a St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)
 (€5 × 6 = **€30**) não aceitam cartão, e as bancas de Schneeballen e a torre do Rathaus
 também não, para valores pequenos. **Contar €150 a €200 em notas para o dia.**
-- **17:35 – 19:35**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) (**186 km, ~2h00**). Jantar e **deitar cedo**: o
-  Dia 6 é o grande dia.
+- **17:35 – 19:35**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) (**186 km, ~2h00**).
+  - 🚚 **Autoestrada rápida ao domingo:** com a proibição de circulação de camiões pesados (*Sonntagsfahrverbot*), a viagem pela A7 e A8 decorre com fluidez absoluta.
+- **19:45 – 21:00**: **Jantar tranquilo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) & deitar cedo.**
+  - 🍽️ Jantar sereno no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg) ou na [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg) e recolher cedo ao alojamento: o Dia 6 é o grande dia da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland).
 
 > ### 🏛️ Opção: desvio a [Nuremberga](https://www.google.com/maps/search/?api=1&query=N%C3%BCrnberg%2C%20Deutschland), ao centro de documentação do Reichsparteitagsgelände
 > O **Dokumentationszentrum Reichsparteitagsgelände** (o museu na Kongresshalle inacabada,
