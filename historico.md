@@ -14,6 +14,74 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 22.ª revisão · 11 de setembro de 2026
+
+**Sincronização do tempo, e a regeneração apagou os links do cartão.**
+
+1. **Um defeito que só aparecia ao correr o comando.** O `meteo.py --html` reescreve o bloco
+   entre os marcadores `WEATHER-AUTO` e emite o nome de cada paragem como **texto simples**. Na
+   20.ª revisão, os links do Google Maps foram acrescentados a esse bloco. Resultado: a primeira
+   regeneração a seguir **apagou nove links**, e o cartão ficou a única parte do guia onde um
+   nome não se podia tocar. Corrigido na origem e não no `index.html`: o gerador ganhou um mapa
+   `GEO_QUERY` e uma função `geo_html`, para que o link saia de lá e sobreviva a cada passagem.
+   **A lição é a que já valia para o resto do cartão:** dentro dos marcadores não há nada escrito
+   à mão que sobreviva, e portanto nada que se queira permanente pode viver lá sem estar no
+   gerador. Confirmado idempotente: correr duas vezes seguidas dá o mesmo ficheiro.
+
+2. **A metade da viagem entrou na janela de previsão.** Hoje, 11 de setembro, o horizonte é 26
+   de setembro: os dias **23, 24, 25 e 26** passaram de climatologia a **previsão real**, o que
+   inclui o Dia 4 inteiro, que era o mais desconhecido. Os dias 27 a 29 continuam climatologia,
+   mas já com **tendência sazonal** disponível para 27 e 28.
+
+3. **O que mudou, dia a dia.** A coluna «antes» é a leitura de ontem, e metade dela era média de
+   10 anos disfarçada de plano:
+
+   | Dia | Paragem | Antes | Agora |
+   |---|---|---|---|
+   | 1 · Qua 23 | Viena | 10–19 °C, 0,0 mm | **10–25 °C, 4,8 mm** |
+   | 1 · Qua 23 | Lisboa | 19–25 °C | **26–35 °C** |
+   | 2 · Qui 24 | Viena | 10–20 °C, 0,0 mm, céu limpo | **9–15 °C, 34,2 mm**, rajadas 55 km/h |
+   | 3 · Sex 25 | Viena | 16–23 °C, 0,0 mm | **8–10 °C, 10,2 mm** |
+   | 3 · Sex 25 | Augsburg | 14–24 °C, 0,0 mm | **6–10 °C, 10,2 mm** |
+   | 4 · Sáb 26 | Neuschwanstein | 8–15 °C, 5,2 mm *(climatologia)* | 5–18 °C, 5,2 mm *(previsão)* |
+   | 4 · Sáb 26 | Oberammergau | 7–16 °C, 3,8 mm *(climatologia)* | 6–19 °C, 6,5 mm *(previsão)* |
+   | 4 · Sáb 26 | Eibsee | 7–15 °C, 4,7 mm *(climatologia)* | 5–19 °C, 9,8 mm *(previsão)* |
+   | 4 · Sáb 26 | Augsburg | 9–16 °C, 4,5 mm *(climatologia)* | 8–18 °C, 0,8 mm *(previsão)* |
+   | 7 · Ter 29 | Munique | 10–17 °C, 3,2 mm | 8–17 °C, 1,3 mm *(climatologia revista)* |
+
+   Sem alteração relevante: **Rothenburg, domingo 27** (10–17 °C, 3,2 mm) e **Munique, segunda
+   28** (10–16 °C, 3,4 mm).
+
+4. **A leitura, e o que fazer com ela.** Duas coisas, e nenhuma delas é trocar o dia:
+
+   - **O Dia 2 é agora o dia mais molhado da viagem, e não tem plano de chuva.** 34,2 mm em
+     Viena, com rajadas de 55 km/h, no dia do **Schönbrunn**, do **Prater** e do **Das Loft**.
+     O que fica exposto é a subida à Gloriette, o Riesenrad, o passeio pela Kaiserwiese e o
+     jantar no Schweizerhaus, que é um jardim. O que está abrigado é o interior do palácio, o
+     metro, o rooftop e o Bürgerhaus. **Não se troca o dia** (o bilhete de Schönbrunn tem hora
+     marcada e o Dia 1 é o da chegada), mas este é o dia para levar o corta-vento e não contar
+     com a esplanada do Schweizerhaus.
+   - **As trocas que a matriz sugere continuam a não existir.** O `swap_hints` aponta Viena e as
+     três paragens alpinas para 23, 26, 27 e 29 de setembro, e Rothenburg para 28 e 29. Nenhuma
+     serve: a **23** o grupo está em Lisboa e a chegar a Viena, o **29** é o voo de regresso, e o
+     **28** é o dia da Oktoberfest. É a mesma conclusão da 10.ª revisão, por uma razão
+     estrutural: as trocas que a chuva pede são entre dias que a rota não deixa trocar.
+
+5. **Sinal fraco, e diz-se.** O 23 ao 26 de setembro estão a 12 a 15 dias, ou seja no limite da
+   capacidade da previsão determinística, que acaba aos 7 a 10. **O 34,2 mm do Dia 2 é o número
+   mais frágil de todos** e vai mudar; o que já se pode ler é a forma do tempo, uma frente fria
+   a atravessar a Áustria na quinta. A partir de **18 a 20 de setembro** é que isto serve para
+   decidir roupa e o plano do Eibsee.
+
+6. **E uma linha que estava presa no tempo.** O `itinerario_viagem.md` dizia, na capa, **«Revisto
+   em: 10 de setembro de 2026 (12.ª revisão)»**, quando o histórico já ia na 21.ª. Passou a 22.ª.
+   **Nenhuma verificação apanha isto**, porque nada no projeto cruza essa linha com o número da
+   última entrada do histórico.
+
+   > **O que fica:** a previsão não mudou de valor por acaso, mudou de **fonte**. Quatro dias
+   > deixaram de ser a média de dez anos e passaram a ser o que os modelos dizem para esta data,
+   > e o Dia 4 é o que mais ganhou com isso: até ontem era uma estimativa, hoje é uma previsão.
+
 ## 21.ª revisão · 11 de setembro de 2026
 
 **O mesmo tratamento do Dia 1 e do Dia 2, agora nos Dias 3 a 7. A arqueologia acabou.**

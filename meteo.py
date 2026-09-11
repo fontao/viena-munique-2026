@@ -118,6 +118,35 @@ STOP_SHORT = {
     "Lago Eibsee": "Eibsee",
 }
 
+# Nome da paragem -> pesquisa do Google Maps, igual à que o resto do guia usa.
+# O cartão do tempo liga cada nome como todas as outras secções, e como este
+# bloco é gerado, o link tem de sair daqui: escrito à mão no index.html, a
+# passagem seguinte do comando apagava-o. Aconteceu a 11/09/2026.
+GEO_QUERY = {
+    "Viena": "Wien, Österreich",
+    "Augsburg": "Augsburg, 86150",
+    "Neuschwanstein / Füssen": "Schloss Neuschwanstein, 87645 Schwangau",
+    "Oberammergau": "Oberammergau, 82487",
+    "Lago Eibsee": "Eibsee, 82491 Grainau",
+    "Rothenburg ob der Tauber": "Rothenburg ob der Tauber, 91541",
+    "Munique": "München, Deutschland",
+}
+
+
+def geo_html(label: str, stop_name: str) -> str:
+    """O nome da paragem como link do Google Maps, ou em texto simples.
+
+    Sem travessões: o verificar.py recusa o carácter no index.html, e nada aqui
+    o produz.
+    """
+    query = GEO_QUERY.get(stop_name)
+    if not query:
+        return label
+    url = ("https://www.google.com/maps/search/?api=1&query="
+           + urllib.parse.quote(query, safe=""))
+    return f'<a class="geo" target="_blank" rel="noopener" href="{url}">{label}</a>'
+
+
 # Marcadores que o `--html` procura no index.html. O bloco entre eles é
 # substituído inteiro, para que voltar a correr o comando nunca duplique nada.
 WEATHER_HTML_START = "<!-- WEATHER-AUTO:START -->"
@@ -660,7 +689,7 @@ def render_weather_html() -> list[str]:
             curto = STOP_SHORT.get(name, name)
             temp = f"{tmax:.0f}°" if tmax is not None else "?"
             out.append('        <div class="weather-stop-row">')
-            out.append(f'            <span class="weather-stop-name">{curto}</span>')
+            out.append(f'            <span class="weather-stop-name">{geo_html(curto, name)}</span>')
             out.append(f'            <span class="weather-stop-temp">{temp}</span>')
             out.append(f'            <span class="weather-stop-rain">{emoji} {rain:.1f} mm</span>')
             out.append('        </div>')

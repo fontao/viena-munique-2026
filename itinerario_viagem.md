@@ -3,7 +3,7 @@
 **Datas:** 23 a 29 de Setembro de 2026 (7 Dias / 6 Noites)
 **Viajantes:** 6 amigos · **4 partem de [Lisboa](https://www.google.com/maps/search/?api=1&query=Lisboa%2C%20Portugal)** ([Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich), dias 1 a 3) + **2 juntam-se em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)** (dia 3)
 **Voos Oficiais:** TAP Air Portugal (TP 1270 LIS ➔ VIE / TP 555 MUC ➔ LIS)
-**Revisto em:** 10 de setembro de 2026 (12.ª revisão)
+**Revisto em:** 11 de setembro de 2026 (22.ª revisão)
 **Porque é que o plano é este:** ver [`historico.md`](historico.md), onde ficam as decisões
 tomadas, as alternativas rejeitadas e o que cada escolha custou.
 
