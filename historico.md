@@ -14,6 +14,49 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 24.ª revisão · 11 de setembro de 2026
+
+**O brunch do Dia 2 saiu do Haas & Haas e passou para o Café Korb.** Ao rever o guia, a
+avaliação do grupo foi curta: o Haas & Haas é **uma casa de chá calma**, e às 11:00 de um dia
+que ainda tem Schönbrunn, Prater, a abertura da Kaiser Wiesn e um rooftop, isso é o bloco mais
+parado da viagem. A troca é de sítio, não de horário: o bloco continua a ser 11:00–12:30.
+
+1. **O que fica exatamente igual.** O resto da manhã não se mexe: às 12:40 descer a Kärntner
+   Straße até ao Café Sacher, às 13:20 ativar o bilhete de 24h e apanhar o U4 no Karlsplatz, e a
+   entrada de hora marcada das 14:00 em Schönbrunn. A troca de sítio não toca em nenhuma dessas
+   três horas, e é por isso que foi barata de fazer.
+
+2. **Porquê o Café Korb.** Fica a **5 min a pé** de casa (373 m, OSRM), contra os 7 min do Haas
+   & Haas, e fica mais barato: ovos com bacon **€14** e café **€4,20–7,50**, contra as
+   combinações de pequeno-almoço internacional do Haas & Haas, que começam nos **€13,50** mas
+   sobem depressa. Sobretudo, tem sala que se conta: o interior dos **anos 60** intacto e, na
+   cave, a **Art Lounge** com obras de **Günter Brus** no teto, **Peter Weibel** e **Peter
+   Kogler** nas paredes, e uma vídeo-instalação de Alfredo Barsuglia. Até a casa de banho é uma
+   peça: desenhada por **Manfred Wolff-Plottegg** em 2004, curvilínea e flutuante, uma mistura de
+   rococó com ficção científica que o próprio sítio diz valer a visita. É de **1904**, ano em que
+   a pedra fundamental foi colocada com o imperador Francisco José I presente, e o
+   pequeno-almoço é servido **todo o dia**.
+
+3. **Um facto que quase entrou e não entrou.** Várias fontes secundárias dizem que o Café Korb
+   tem uma **pista de bowling** na cave. **O sítio oficial não a menciona**: documenta a Art
+   Lounge e o programa de música, literatura e cabaré. A pista saiu do texto. Fica a nota, porque
+   é o segundo erro deste tipo na mesma semana: **uma característica que só aparece em guias de
+   terceiros não está confirmada, está copiada.** O mesmo vale para o "público local" que o
+   catálogo dizia desta casa, uma linha sem nada por trás que agora deu lugar aos factos.
+
+4. **O catálogo já tinha o Café Korb, e mal.** A linha existia ("muito perto, público local") e
+   foi **substituída**, não duplicada: passa a trazer horário, preços, o que há na cave e a
+   distância medida. Um local já listado ganha os factos que faltavam em vez de uma segunda
+   entrada ao lado.
+
+5. **Preços nos dois ficheiros.** O `verificar.py` cruza os preços do `index.html` com os do
+   `itinerario_viagem.md` e assinala órfãos, portanto os **€14** e os **€4,20–7,50** foram
+   escritos nos dois. E só entram valores com fonte: os dois vêm da carta oficial da casa.
+
+   > **O que fica:** o Haas & Haas não era caro, era calmo, e a conta não era o problema. A troca
+   > custou **2 minutos de caminho a menos** e cerca de **€4 por pessoa a menos**, e o que
+   > realmente se ganhou foi um sítio com sala para contar.
+
 ## 23.ª revisão · 11 de setembro de 2026
 
 **O cartão do tempo foi redesenhado, e o desenho obrigou a corrigir o conteúdo.**

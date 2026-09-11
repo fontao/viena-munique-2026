@@ -3,7 +3,7 @@
 **Datas:** 23 a 29 de Setembro de 2026 (7 Dias / 6 Noites)
 **Viajantes:** 6 amigos · **4 partem de [Lisboa](https://www.google.com/maps/search/?api=1&query=Lisboa%2C%20Portugal)** ([Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich), dias 1 a 3) + **2 juntam-se em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)** (dia 3)
 **Voos Oficiais:** TAP Air Portugal (TP 1270 LIS ➔ VIE / TP 555 MUC ➔ LIS)
-**Revisto em:** 11 de setembro de 2026 (23.ª revisão)
+**Revisto em:** 11 de setembro de 2026 (24.ª revisão)
 **Porque é que o plano é este:** ver [`historico.md`](historico.md), onde ficam as decisões
 tomadas, as alternativas rejeitadas e o que cada escolha custou.
 
@@ -589,8 +589,10 @@ confirmadas abertas à quarta, a terceira não.**
 ### 🇦🇹 Dia 2: Quinta-feira, 24 de Setembro · [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien), [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) & Rooftop [Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien)
 **⏰ Acordar 10:00 · Sair 11:00**
 
-- **11:00 – 12:30**: Brunch sem pressas no pátio escondido do **[Haas & Haas](https://www.google.com/maps/search/?api=1&query=Haas%20%26%20Haas%2C%20Stephansplatz%204%2C%201010%20Wien)**
-  (*[Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien) 4*), a 7 min a pé de casa.
+- **11:00 – 12:30**: Brunch no **[Café Korb](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Korb%2C%20Brandst%C3%A4tte%209%2C%201010%20Wien)**
+  (*[Brandstätte](https://www.google.com/maps/search/?api=1&query=Brandst%C3%A4tte%2C%201010%20Wien) 9*), a 5 min a pé de casa. Casa de café de 1904, com a sala dos anos 60
+  intacta e, na cave, a **Art Lounge** com obras de Günter Brus, Peter Weibel e Peter Kogler.
+  O pequeno-almoço é servido todo o dia: ovos com bacon **€14**, café **€4,20–7,50**.
 - **12:40 – 13:20**: Descer a **[Kärntner Straße](https://www.google.com/maps/search/?api=1&query=K%C3%A4rntner%20Stra%C3%9Fe%2C%201010%20Wien)** (8 min) até ao **Café Sacher**, ao lado da Ópera.
   - 🚨 **Não tentem sentar-se no Café Sacher.** A fila de mesa em setembro costuma ser de **30
     minutos ou mais** e o bloco só tem 40: se a fila estiver no limite, sobram zero minutos para

@@ -280,7 +280,9 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 **Gerstner** (diário 08:00–22:00, €7,60, 3 pisos em frente à Ópera) ·
 **Café Sperl** ⭐ (seg–sáb 07:00–22:00, o mais autêntico e menos turístico) ·
 **Café Landtmann** (seg–sáb 07:30–24:00) · **Café Prückel** (interior anos 50 intacto) ·
-**Café Korb** (muito perto, público local) · 🔴 **Café Central FECHADO** → *DECENTRAL*, Freyung 3.
+**Café Korb** ⭐ (seg–sáb 08:00–24:00, cozinha até 23:00, **domingo fechado**; pequeno-almoço
+servido todo o dia; sala dos anos 60 intacta e **Art Lounge** na cave, com obras de Günter Brus,
+Peter Weibel e Peter Kogler; ovos com bacon €14, café €4,20–7,50; **5 min**) · 🔴 **Café Central FECHADO** → *DECENTRAL*, Freyung 3.
 
 ### Heurigen *(só valem a pena com meia tarde disponível)*
 **Mayer am Pfarrplatz** ⭐ (Heiligenstadt, diário desde as 12:00, todo o ano, casa onde Beethoven
