@@ -227,7 +227,7 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 
 | Item | Pax | Preço 2026 | Nota |
 |---|---|---|---|
-| **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €5,50/pax = **€22** | ✅ **Decidido.** Pedir *Flughafen [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) ➔ [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)*, com zona central |
+| **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €5,50/pax = **€22** | ✅ **Decidido.** Pedir *Flughafen [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) ➔ [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)* com zona central · alternativa: Uber XL / Bolt à chegada (~€40 a €50 total) |
 | **Almoço no Schachtelwirt** (Dia 1) | 4 | ⚠️ caixas **€4–9**, assado **€13–16** = **~€30 a €60** | **[Judengasse](https://www.google.com/maps/search/?api=1&query=Judengasse%2011%2C%201010%20Wien) 5**, a 1 min, com as malas · **mesas dentro** · abre às 11:30 |
 | **3× Bilhete Simples [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Linien** | 4 | **€9,00**/pax = **€36** | Comprar na app WienMobil (€3,00/bilhete) para Dia 2 (ida e volta do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) e Dia 3 (ida à estação) · poupa €0,70/pax face ao passe 24h (€9,70) |
 | **Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)** | 4 | ✅ **€8,00**/pax = **€32** | 343 degraus · **só dinheiro, na catedral** · aberta 09:00–19:00, última subida 18:15 |
@@ -400,6 +400,7 @@ Augsburgo ➔ Munique) manda.
     - ⚠️ **Se o Railjet das 13:33 se atrasar, a decisão é só uma: esperar pelo próximo.** Não
       saltar para o primeiro comboio que apareça. O Railjet seguinte parte aos :03 e aos :33,
       portanto nunca são mais de 30 minutos.
+  - 🚗 **Alternativa porta-a-porta: Uber XL ou Bolt à chegada.** Se à saída do voo o grupo estiver cansado e preferir evitar o cais de comboio, transbordo na Hauptbahnhof e caminhada de 4 min com malas, consultar a app da **Uber (Uber XL)** ou **Bolt**. Uma carrinha/XL para 4 pessoas e malas fica por **~€40 a €50** no total (**~€10 a €12,50/pessoa**, apenas mais ~€5 a €7 face ao comboio) e demora **~25 a 30 min** direto até à porta da [Judengasse](https://www.google.com/maps/search/?api=1&query=Judengasse%2011%2C%201010%20Wien) 11. ⚠️ *Pedir obrigatoriamente versão XL/carrinha para caber a bagagem; o ponto de recolha habitual de TVDE no aeroporto é no piso de partidas.*
   - 🗑️ *O autocarro **Vienna Airport Lines VAL 2** (€10,50/pax = €42) foi retirado desta
     revisão, o grupo decidiu ir de comboio e metro. Fica só a nota de que existe, sai à porta
     do terminal e para em Morzinplatz, a 100 m do apartamento, caso alguma coisa corra mal com
