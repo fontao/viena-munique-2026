@@ -156,12 +156,9 @@ tem de ser jogado às horas certas, e é por isso que a [Oktoberfest](https://ww
 > [oktoberfest-booking.com](https://www.oktoberfest-booking.com/en), que revende ao preço
 > original a partir de 27 de agosto.
 
-#### 3. ✅ COMPRADO · Viagem [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) ➔ [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) · 4 pax · **€333,92** (dois bilhetes, não um)
+#### 3. ✅ COMPRADO · Viagem [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) ➔ [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) · 4 pax · **€333,92** (dois bilhetes comprados)
 
-⚠️ **O bilhete direto custava €536,40** para os 4 (€134,10/pessoa): o dia 25 é a **primeira
-sexta-feira cheia da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen)** (que em 2026 decorre de 19 de setembro a 4 de outubro) e
-**não existe Sparschiene** nesse corredor. Partindo a viagem em
-[Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich), o mesmo trajeto ficou por **€333,92** e chega à mesma hora. **Poupança: €202,48.**
+Viagem dividida em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) com dois bilhetes emitidos (**€333,92** no total para os 4 passageiros), assegurando chegada a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) às 16:14 com margem confortável para o levantamento da viatura de aluguer.
 
 **A) ✅ Westbahn · [Wien Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien) ➔ [Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg) · €175,96**
 - Comboio **910, 10:38 ➔ 13:08**, direto, 2h30. Classe *2 | Standard*, **€43,99/pessoa**.
@@ -665,19 +662,20 @@ confirmadas abertas à quarta, a terceira não.**
 *Fazer as malas na véspera. Sair de casa às 09:50.*
 
 > ### 🚆 Viagem Viena ➔ Salzburgo ➔ Augsburg: 2 comboios comprados (€333,92 total)
-> Comprados dois bilhetes divididos em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) (**€333,92** no total para os 4), evitando a tarifa de balcão de **€536,40** (**€134,10**/pessoa) e poupando **€202,48**.
-> - **10:38 – 13:08**: Westbahn 910 ([Wien Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien) ➔ [Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg)).
-> - **13:08 – 14:00**: Transbordo e pausa de 52 min em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) (margem de segurança entre bilhetes independentes).
-> - **14:00 – 16:14**: ICE 116 ([Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg) ➔ [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg)).
+> Comprados dois bilhetes divididos em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) (**€333,92** no total para os 4 passageiros):
+> - **10:38 – 13:08**: Westbahn 910 ([Wien Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien) ➔ [Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg)), **€175,96**.
+> - **13:08 – 14:00**: Transbordo e pausa de 52 min em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) (margem de segurança entre operadores).
+> - **14:00 – 16:14**: ICE 116 ([Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg) ➔ [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg)), **€157,96**.
 >
 > A Enterprise de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) fecha às **18:00**. A chegada às 16:14 garante **1h45** de margem para o levantamento do carro.
 
 - **09:30**: Acordar. **09:50**: Check-out *(combinar a hora com o anfitrião na véspera)*.
-- **09:50 – 10:22**: Metro **U1 [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) ➔ [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)**, mudar para o **U3 ➔ [Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)**.
-  3.º bilhete simples de metro (**€3,00 na app WienMobil**, transbordo incluído).
-  ⚠️ **Atenção à estação:** a Westbahn parte da **[Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)** e não da Wien Hbf. A saída às 09:50 permite chegar ao cais por volta das 10:22, com 16 min de folga para acomodar o transbordo com malas.
+- **09:50 – 10:22**: Deslocação até à **[Wien Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)**. Duas opções com malas:
+  - 🚇 **Opção Metro (Económica):** a pé até [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) (4 min), **U1 ➔ [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)**, transbordo para a **U3 ➔ [Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)** (~30 min no total). 3.º bilhete simples de metro (**€3,00 na app WienMobil**, €12 para os 4, transbordo incluído).
+  - 🚗 **Opção Uber / Bolt (Porta-a-porta):** chamar no [Morzinplatz](https://www.google.com/maps/search/?api=1&query=Morzinplatz%2C%201010%20Wien) (Franz-Josefs-Kai, a 120 m a pé a descer da Judengasse). Um **Uber XL / Van para 4 pessoas com malas** custa cerca de **€20–25** no total (~€5–6/pessoa) e demora **15–20 min** diretos até à entrada da Westbahnhof, poupando escadas rolantes e transbordos com bagagem pesada.
+  ⚠️ **Atenção à estação:** a Westbahn parte da **[Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)** e não da Wien Hbf. Estar no cais por volta das 10:22.
 - **10:38 – 13:08**: **Westbahn comboio 910**, [Wien Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien) ➔ **[Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg)** (2h30, direto). Classe *2 | Standard*, **€175,96**. Lugares **224A, 224B, 223A, 223B**.
-- **13:08 – 14:00**: **52 minutos em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich).** Almoço na estação ou caminhada de 10 min até à margem do rio [Salzach](https://www.google.com/maps/search/?api=1&query=Salzach%2C%20Salzburg). Esta folga é deliberada: como são dois bilhetes independentes, protege a ligação contra atrasos.
+- **13:08 – 14:00**: **52 minutos em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich).** Almoço na estação ou caminhada de 12 min até à ponte panorâmica **[Marko-Feingold-Steg (Rio Salzach)](https://www.google.com/maps/search/?api=1&query=Marko-Feingold-Steg%2C%205020%20Salzburg)** para apreciar a vista clássica sobre a cidade velha e a fortaleza. Esta folga é deliberada: como são dois bilhetes independentes, protege a ligação contra atrasos.
 - **14:00 – 16:14**: **ICE 116**, [Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg) **cais 2** ➔ **[Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg)**. Direto, 2h14, **€157,96** com reserva de lugares.
 
 - **16:14 – 16:45**: **Separação do grupo no cais de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150):**
@@ -689,9 +687,9 @@ confirmadas abertas à quarta, a terceira não.**
   - 🅿️ ⚠️ **Estacionamento no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg):** ruelas estreitas com estacionamento reservado a residentes (*Anwohnerparken*). Confirmar com o anfitrião do Lexapartments onde estacionar ou recorrer a um parque coberto do centro (*[Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%2086150%20Augsburg)* ou *City-Galerie*).
   - 💳 **Condições de levantamento:** apresentar cartão de crédito físico em nome do condutor titular para caução. Se houver segundo condutor, deve estar presente com a carta de condução. Confirmar no momento da entrega se a 3.ª fila rebate em metades independentes para acomodar os 6 passageiros e a bagagem.
 
-> **🆘 Contingências no transporte:**
-> - **Se o ICE 116 se atrasar:** telefonar à Enterprise a partir do comboio (+49 821 448360). Se o atraso exceder ~1h30, o levantamento transfere-se para sábado de manhã (09:00–12:00).
-> - **Se perderem o ICE 116 em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich):** o comboio seguinte (RJX das 15:00) só chega a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) às 17:29. Telefonar imediatamente à agência para tentar remarcar ou reorganizar o levantamento para sábado de manhã.
+> **🆘 Contingências no transporte e aluguer do carro:**
+> - **Se o ICE 116 se atrasar a caminho de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150):** telefonar de imediato à Enterprise (+49 821 448360). Com o fecho às 18:00, há 1h46 de margem a partir das 16:14. Se o atraso exceder 1h15, pedir à agência que garanta a reserva para levantamento no sábado de manhã (aberto 09:00–12:00) sem cancelamento por *no-show*. Um atraso DB ≥ 60 min confere direito a 25% de reembolso do bilhete ICE.
+> - **Se a Westbahn se atrasar e perderem o ICE 116 em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich):** a alternativa rápida é apanhar o **RJX das 15:00** para München Hbf (chega 16:32) e ligar num regional/ICE para Augsburg Hbf (chegada ~17:15–17:29). Telefonar à agência da Enterprise logo a partir de Salzburgo para coordenar o levantamento ou passar formalmente para a manhã de sábado. O programa da noite do Dia 3 não é afetado, pois decorre todo a pé a partir do apartamento.
 
 #### Noite em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150): centro histórico a pé
 
