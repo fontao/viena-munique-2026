@@ -689,9 +689,7 @@ confirmadas abertas à quarta, a terceira não.**
 
 - **09:30**: Acordar. **09:50**: Check-out *(combinar a hora com o anfitrião na véspera)*.
 - **09:50 – 10:22**: Metro **U1 [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) ➔ [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)**, mudar para o **U3 ➔
-  [Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)**. ⚠️ **Não é a [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Hbf**: a Westbahn parte da *[Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)*. O bilhete de 24h
-  do Dia 2 ainda cobre este trajeto se foi ativado depois das 13:20 de quinta *(às 10:22 de
-  sexta passaram 21h02 das 24h)*.
+  [Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)**. ⚠️ **Não é a [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Hbf**: a Westbahn parte da *[Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)*. Usa-se o 3.º bilhete simples de metro (**€3,00 na app WienMobil**, o transbordo U1➔U3 está incluído).
   > 🚨 **Porque é que se sai às 09:50 e não mais tarde.** O trajeto não são 25 minutos com
   > malas numa sexta de manhã: são **~30**, somando os 4 min a pé até [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien), duas
   > esperas de linha, o **transbordo na [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)**, que é uma estação funda com escadas
