@@ -61,6 +61,11 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - **Condensação de caixas de aviso e despoluição:** No `index.html`, foi removida a caixa de aviso deslocada sobre a noite a pé no nó de separação do grupo (informação já incorporada nos nós da Fuggerei e do jantar). No bloco de levantamento do carro, eliminou-se a menção supérflua ao valor total do aluguer (€427,58, que já consta do dossiê logístico e de orçamento), mantendo o foco operacional nos prazos de balcão e nos requisitos práticos da viatura.
     - **Paridade e validação:** Ambos os ficheiros mantêm rigorosa paridade, e o `verificar.py` executou com 0 erros e 0 preços órfãos.
 
+11. **Abastecimento de supermercado para o apartamento no Dia 1.**
+    - Integrada a paragem de compras essenciais de supermercado logo à chegada a Viena, no bloco das 14:20–15:00 após o check-in ou no regresso do passeio monumental às 18:05.
+    - Mapeadas as duas opções mais próximas do apartamento da Judengasse 11: o **BILLA Corso** (*Hoher Markt 12*, a 200 m, 2 min a pé) e o **SPAR Gourmet** (*Fleischmarkt 5*, a 250 m, 3 min a pé), ambos abertos até às 20:00.
+    - Foco nos mantimentos prioritários para os 4 elementos: garrafas de água para levar nas mochilas, garrafões para casa, cervejas austríacas (Ottakringer, Stiegl, Gösser) para o frigorífico e pequenos-almoços/lanches rápidos (fruta, leite, pães).
+
 ---
 
 

@@ -433,6 +433,11 @@ Augsburgo ➔ Munique) manda.
       há outro dia), e o que sai é o *[Graben](https://www.google.com/maps/search/?api=1&query=Graben%2C%201010%20Wien)* e o *[Hofburg](https://www.google.com/maps/search/?api=1&query=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien)*, não a saída das 17:45, que é a
       âncora do pôr do sol. Quem quiser entrar na igreja já sabe que é por ordem de chegada,
       não por reserva.
+  - 🛒 **Supermercado e compras para o apartamento (a 2–3 min a pé):**
+    Abastecer a casa logo a seguir ao check-in ou no regresso do passeio às 18:05 (ambos abertos até às 20:00):
+    - **[BILLA Corso](https://www.google.com/maps/search/?api=1&query=BILLA%20Corso%2C%20Hoher%20Markt%2012%2C%201010%20Wien)** (*[Hoher Markt](https://www.google.com/maps/search/?api=1&query=Hoher%20Markt%2C%201010%20Wien) 12*, a 200 m, 2 min a pé): supermercado completo com padaria e secção de frescos e bebidas.
+    - **[SPAR Gourmet](https://www.google.com/maps/search/?api=1&query=SPAR%20Gourmet%2C%20Fleischmarkt%205%2C%201010%20Wien)** (*Fleischmarkt 5*, a 250 m, 3 min a pé): excelente para compras rápidas.
+    - **Compras essenciais para os 4:** águas para levar nas mochilas nos passeios a pé, garrafões para o apartamento, cervejas austríacas para o frigorífico (Ottakringer, Stiegl, Gösser) e itens para pequeno-almoço e snacks rápidos (fruta, leite, pães Kaisersemmeln). Permite deixar tudo arrumado antes da noite de festa.
 - **15:05 – 17:45**: Passeio a pé pelos monumentos imperiais, **numa linha reta para poente,
   sem voltar atrás**, e **sem malas**: arranca depois do check-in. Três das paragens são
   **gratuitas** e ficam literalmente em cima do caminho, sem custar tempo nenhum. A **Ópera** e
