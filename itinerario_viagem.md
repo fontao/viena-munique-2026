@@ -560,12 +560,6 @@ confirmadas abertas à quarta, a terceira não.**
 > - **FLEX: o calendário oficial de setembro de 2026 não tem evento a 23** (tem a 22 e a 24).
 >   *(O **Flex Café Bar** abre às quartas, 19:00–01:00, entrada livre, mas é um bar, não a
 >   discoteca.)*
-> - 🔴 **E o facto logístico que decide tudo: o metro de Viena só circula 24 horas à sexta, ao
->   sábado e nas vésperas de feriado.** À quarta a última composição útil passa por volta das
->   **00:30**; depois são os autocarros noturnos da linha N (a partir das ~00:30, de 30 em 30
->   minutos, com nó em **Schwedenplatz, à porta de casa**) ou Bolt. Tudo o que fique no Gürtel,
->   em Meidling ou no Prater sai bem mais caro do que parece. **É por isso que o destino desta
->   noite fica a 12 minutos a pé.**
 
 - **21:15 – 22:18**: **Rota de bares no Bermudadreieck**, à porta de casa. Os horários contam as caminhadas: 11 minutos do jantar até cá, 12 daqui ao DANZÓN. Todos sem entrada
   paga e sem dress code:
@@ -580,30 +574,18 @@ confirmadas abertas à quarta, a terceira não.**
   - ⚠️ **O preço à porta não está publicado em lado nenhum:** confirmar no Instagram do clube.
   - ⏰ **Chegar às 22:30, não antes.** Os workshops de dança acabam às 21:00 e a sala só enche
     depois, às 21:15 seria cedo demais.
-  - ✅ **Estando a 12 minutos a pé, podem sair à hora que quiserem sem logística nenhuma**, que
-    é exatamente a razão pela qual esta é a escolha certa numa noite em que o metro fecha à
-    00:30 e no dia seguinte há um dia inteiro de Viena pela frente.
-- **~02:30**: Regresso a pé. Se apetecer, **Würstelstand am Hoher Markt** (aberto
-  **09:00–04:00**, a **2 min de casa**) para a *Käsekrainer* da praxe.
-- 🚪 **Alternativas de quarta, só o que se faz a pé (30 min no máximo, e sempre a pé para casa):**
-  - **Cabaret Fledermaus** (*Spiegelgasse 2*, **9 min**): **HOLIDAY CLUB toda a quarta, entrada
-    livre**, hits dos 90 e 2000. É a única outra pista a sério que se faz a pé e não paga nada, e
-    o FALTER tem-na marcada para **quarta, 23 de setembro**. **Se o DANZÓN estiver cheio, é para
-    aqui.**
-  - **Kaktus** (*Seitenstettengasse 5*, **2 min**): **entrada livre, aberto todos os dias desde
-    as 19:00**, pista e música alta. É a opção à porta de casa, para começar ou para acabar.
-  - **Club U** (*Karlsplatz*, **22 min**): no pavilhão Otto Wagner, público jovem, eletrónica,
-    indie e alternative. ⚠️ **Não tem evento de quarta anunciado:** ver o Instagram no dia.
-- 🚫 **Os clubes grandes ficam de fora, e é a distância que os corta:** o VIE i PEE está a
-  **2,8 km (37 min a pé)**, o U4 a **5,3 km (1h11)**, o Das Werk e o Praterdome ainda mais longe.
-  **Numa noite em que há um dia inteiro no dia seguinte, um regresso de táxi às 03:00 não vale a
-  pena.**
-- 🅱️ **Bares à porta, se a noite acabar mais cedo:** **Roter Engel** (*Rabensteig 5*, ter–sáb
-  18:00–04:00, música ao vivo das 22:00 à 01:00) e **Loos American Bar** (*Kärntner Durchgang
-  10*, **9 min**, **aberto até às 04:00 todos os dias**, 27 m² desenhados por Adolf Loos em 1908,
-  sem reservas, ir cedo).
-- ☎️ **A confirmar a 23 de setembro:** a residência *FIESTA* das quartas no Instagram do DANZÓN,
-  e o preço à porta, que não está publicado em lado nenhum.
+  - ✅ **Estando a 12 minutos a pé, podem sair à hora que quiserem sem logística nenhuma**, e no
+    dia seguinte há um dia inteiro de Viena pela frente.
+- **~02:30**: Regresso a pé.
+- 🚪 **Alternativas, todas a pé.** **Cabaret Fledermaus** (*Spiegelgasse 2*, **9 min**), com o
+  *HOLIDAY CLUB* de quarta e **entrada livre** (hits dos 90 e 2000): **se o DANZÓN estiver cheio,
+  é para aqui.** **Kaktus** (*Seitenstettengasse 5*, **2 min**), **entrada livre** e aberto todos
+  os dias desde as 19:00, com pista. **Club U** (*Karlsplatz*, **22 min**), público jovem,
+  eletrónica e indie, mas **sem evento de quarta anunciado**: ver o Instagram no dia. Para acabar
+  a noite sentado, **Roter Engel** (música ao vivo das 22:00 à 01:00) e **Loos American Bar**
+  (**9 min**, até às 04:00). Os clubes grandes ficam de fora: o VIE i PEE está a **37 min a pé** e
+  o U4 a **1h11**, portanto o regresso seria táxi às 03:00. 🌭 **E no regresso: Würstelstand am
+  Hoher Markt**, aberto **09:00–04:00**, a **2 min de casa**.
 
 ---
 

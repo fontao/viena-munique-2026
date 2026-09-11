@@ -29,10 +29,11 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 ## 🚨 Sete factos que mudam o plano
 
 1. 🔴 **O sol põe-se às 18:49**, não às 19:00. Os pré-copos devem começar às **18:00**.
-2. 🔴 **O metro não circula toda a noite à quarta.** Só sexta, sábado e vésperas de feriado.
-   Última composição **~00:15–00:30**. Depois: autocarros noturnos linha N (vários com nó em
-   **Schwedenplatz, à porta de casa**) ou Bolt (€12–16). **Isto penaliza tudo o que fique no
-   Gürtel, em Meidling ou no Prater.**
+2. 🔴 **O metro só circula 24 horas à sexta, ao sábado e nas vésperas de feriado.** À quarta a
+   última composição útil passa por volta das **00:30**. Depois: autocarros noturnos da linha N
+   (a partir das ~00:30, de 30 em 30 minutos, com nó em **Schwedenplatz, à porta de casa**) ou
+   Bolt. **Isto penaliza tudo o que fique no Gürtel, em Meidling ou no Prater**, e é a razão pela
+   qual a noite do Dia 1 foi montada à porta de casa.
 3. 🔴 **A semana de discotecas em Viena é quinta a sábado.** À quarta a oferta é genuinamente
    fina: bares há aos montes, discotecas a sério são duas ou três.
 4. 🔴 **A Kaiser Wiesn abre na quinta 24 e, aos dias de semana, só a partir das 15:00.**

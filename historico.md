@@ -14,6 +14,31 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 18.ª revisão · 11 de setembro de 2026
+
+**A noite do Dia 1 tinha cinco caixas para dizer três coisas. Ficou com duas.**
+
+1. **A caixa do metro saiu inteira.** O facto continua verdadeiro e continua a governar esta
+   noite, mas estava a ser dito três vezes no mesmo nó: numa caixa própria, na linha do DANZÓN
+   ("não há hora de recolher") e outra vez nos "porquês" do topo. **Um facto repetido três vezes
+   numa página lida em pé no Bermudadreieck não fica mais claro, fica mais comprido.** Fica
+   registado no `catalogo_viena.md`, ponto 2 dos factos que mudam o plano, que é onde alguém o
+   vai procurar quando precisar de o explicar a outra pessoa.
+
+2. **As quatro alternativas e os três planos B passaram a uma lista só.** Eram duas caixas, uma
+   com quatro clubes (três dos quais já cortados pelo critério da 17.ª revisão) e outra com
+   bares. O critério da 17.ª revisão já tinha decidido o que interessa, e por isso a lista de
+   quatro regressou a três nomes que se andam a pé e a nota do corte juntou-se ao resto, em vez
+   de ter caixa própria.
+
+3. **A caixa de confirmação saiu.** "Confirmar a 23 de setembro" pedia ao leitor para fazer uma
+   coisa que ele não vai fazer no meio de uma noite, e a nota do preço em falta já está ao lado
+   da linha do DANZÓN, que é onde ela é útil.
+
+   > **O que fica desta limpeza:** o nó passou de cinco caixas para duas, sem perder um único
+   > facto. A informação estava certa; estava era a ser dita a partir de três sítios diferentes
+   > sobre a mesma coisa.
+
 ## 17.ª revisão · 11 de setembro de 2026
 
 **A regra da noite mudou: só o que se faz a pé, no máximo 30 minutos para casa. E é para gente de
