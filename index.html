@@ -1543,43 +1543,77 @@
         }
         @media (max-width: 900px) { .hub-grid { grid-template-columns: 1fr; } }
 
-        /* Weather Card: faixa por dia, gerada pelo meteo.py */
+        /* ===== Weather Card: uma linha por dia, gerada pelo meteo.py =====
+           A composicao e uma lista e nao uma grelha de celulas. O guia inteiro e
+           uma linha do tempo vertical, e sete celulas iguais davam a viagem o ar
+           de tabela; a lista tambem da largura aos numeros, que numa celula de
+           148 px nao cabiam. Tudo o que este bloco pinta sai de tokens de tema
+           (ver as cinco entradas data-wet mais abaixo), para o claro e o escuro
+           continuarem ambos certos. */
         .weather-card-wide { grid-column: 1 / -1; }
         .weather-strip {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
-            gap: 0.7rem;
-            margin-top: 1.2rem;
-        }
-        .weather-day-card {
-            background: rgba(125, 125, 125, 0.05);
-            border: 1px solid var(--border-subtle);
-            border-radius: var(--radius-sm);
-            padding: 0.75rem 0.8rem;
-            transition: var(--transition-smooth);
-        }
-        .weather-day-card:hover {
-            border-color: var(--border-hover);
-            background: rgba(125, 125, 125, 0.1);
-        }
-        /* Rotulo e selo empilhados, e nao lado a lado. Em sete colunas a celula
-           deixa ~125 px de conteudo, e o par «Dia 4 · Sáb 26» + «MÉDIA 10 ANOS»
-           precisa de 173 px: lado a lado o selo saia fora do cartao. */
-        .weather-day-head {
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
-            gap: 0.25rem;
-            margin-bottom: 0.45rem;
+            gap: 0.4rem;
+            margin-top: 1.1rem;
         }
-        .weather-day-label {
+        .wx-row {
+            display: grid;
+            grid-template-columns: 6.4rem 1fr;
+            column-gap: 1rem;
+            padding: 0.7rem 0.9rem 0.7rem 0.8rem;
+            border: 1px solid var(--border-subtle);
+            border-left: 4px solid var(--wx-edge, var(--border-subtle));
+            border-radius: var(--radius-sm);
+            background: var(--wx-bg, rgba(125, 125, 125, 0.05));
+            transition: var(--transition-smooth);
+        }
+        .wx-row:hover {
+            border-color: var(--border-hover);
+            border-left-color: var(--wx-edge, var(--border-hover));
+        }
+        /* A escala da chuva, do seco ao diluvio. A barra lateral, o fundo da linha
+           e o numero dos milimetros saem daqui, e sao o unico sitio do cartao onde
+           o dia ganha cor: e o que permite varrer a lista a procura do dia que
+           corre mal sem ler um numero. A cor nunca vai sozinha, o mm esta sempre
+           escrito ao lado. Os fundos foram calibrados para o tema claro, onde uma
+           tinta de 0,06 e invisivel: a 0,10 ja se le como aviso sem virar alarme. */
+        .wx-row[data-wet="0"] { --wx-edge: var(--accent-emerald); --wx-bg: rgba(125, 125, 125, 0.05); }
+        .wx-row[data-wet="1"] { --wx-edge: var(--accent-blue);    --wx-bg: rgba(125, 125, 125, 0.05); }
+        .wx-row[data-wet="2"] { --wx-edge: var(--accent-amber);   --wx-bg: rgba(245, 158, 11, 0.10); }
+        .wx-row[data-wet="3"] { --wx-edge: var(--accent-orange);  --wx-bg: rgba(251, 146, 60, 0.13); }
+        .wx-row[data-wet="4"] { --wx-edge: var(--accent-rose);    --wx-bg: rgba(251, 113, 133, 0.16); }
+        .wx-rain[data-wet="0"] { --wx-fill: var(--accent-emerald); }
+        .wx-rain[data-wet="1"] { --wx-fill: var(--accent-blue); }
+        .wx-rain[data-wet="2"] { --wx-fill: var(--accent-amber); }
+        .wx-rain[data-wet="3"] { --wx-fill: var(--accent-orange); }
+        .wx-rain[data-wet="4"] { --wx-fill: var(--accent-rose); }
+
+        .wx-when {
+            display: flex;
+            flex-direction: column;
+            gap: 0.15rem;
+            padding-top: 0.1rem;
+        }
+        .wx-dayno {
             font-family: var(--font-heading);
-            font-size: 0.8rem;
-            font-weight: 700;
+            font-size: 0.82rem;
+            font-weight: 800;
             color: var(--text-main);
-            white-space: nowrap;
+            letter-spacing: 0.01em;
         }
-        .weather-src {
+        .wx-date {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            font-variant-numeric: tabular-nums;
+        }
+        /* O selo da fonte. Existe com token proprio porque e texto de 0,6 rem
+           sobre um cinza translucido: os acentos ficavam abaixo de 4,5:1 no tema
+           claro, e por isso ha --badge-forecast-text e --badge-clima-text. */
+        .wx-src {
+            align-self: flex-start;
+            margin-top: 0.1rem;
             font-size: 0.6rem;
             font-weight: 700;
             letter-spacing: 0.03em;
@@ -1590,45 +1624,163 @@
             color: var(--text-dim);
             white-space: nowrap;
         }
-        .weather-src.is-forecast { color: var(--badge-forecast-text); }
-        /* Âmbar para a climatologia: o mesmo sinal de atenção que o dossiê usa
-           para dizer que um número ainda não é uma previsão a sério. */
-        .weather-src.is-clima { color: var(--badge-clima-text); }
-        .weather-day-place {
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            color: var(--accent-blue);
-            margin-bottom: 0.3rem;
-        }
-        /* Duas linhas por paragem: o nome por cima, temperatura e chuva por baixo.
-           Em sete colunas a célula fica com ~140 px uteis e as tres coisas na mesma
-           linha nao cabiam: o nome era cortado («Neuschwanstein» dava «Ne...»). */
-        .weather-stop-row {
+        .wx-src.is-forecast { color: var(--badge-forecast-text); }
+        .wx-src.is-clima { color: var(--badge-clima-text); }
+
+        .wx-stops { display: flex; flex-direction: column; }
+        /* O Dia 4 tem tres paragens: o tracejado separa-as sem as transformar em
+           tres cartoes, que seria um cartao dentro de um cartao. */
+        .wx-stop + .wx-stop { border-top: 1px dashed var(--border-subtle); }
+        .wx-stop {
             display: grid;
-            grid-template-columns: auto auto;
-            justify-content: space-between;
-            align-items: baseline;
-            column-gap: 0.5rem;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            padding: 0.12rem 0;
+            /* A largura e fixa a esquerda e elastica so no ceu, que e a unica
+               coluna cujo texto varia muito («Chuva fraca» contra «Aguaceiros
+               fortes»). Com o nome tambem em fr, sobrava um vazio entre ele e o
+               ceu sempre que a paragem era curta, que e a maioria. */
+            grid-template-columns:
+                8.2rem                   /* paragem */
+                minmax(8rem, 1fr)        /* ceu */
+                auto                     /* maxima e minima */
+                auto                     /* sensacao */
+                auto                     /* chuva */
+                auto;                    /* vento */
+            grid-template-areas: "place sky temp feels rain wind";
+            align-items: center;
+            justify-content: start;
+            column-gap: 1.1rem;
+            row-gap: 0.2rem;
+            padding: 0.45rem 0;
         }
-        .weather-stop-name {
-            grid-column: 1 / -1;
-            font-size: 0.74rem;
-            line-height: 1.35;
+        .wx-place {
+            grid-area: place;
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--text-main);
             overflow-wrap: break-word;
         }
-        .weather-stop-temp {
+        .wx-sky {
+            grid-area: sky;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.76rem;
+            color: var(--text-muted);
+        }
+        .wx-sky b { font-size: 1.05rem; font-weight: 400; line-height: 1; }
+        /* A maxima e o numero que manda, e a minima fica por baixo em tom menor:
+           «25°» sozinho nao dizia se o dia era 10–25 ou 22–25. */
+        .wx-temp {
+            grid-area: temp;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+        }
+        .wx-temp b {
             font-family: var(--font-heading);
+            font-size: 1.25rem;
             font-weight: 800;
             color: var(--text-main);
-        }
-        .weather-stop-rain {
-            white-space: nowrap;
             font-variant-numeric: tabular-nums;
+        }
+        .wx-temp i {
+            font-style: normal;
+            font-size: 0.68rem;
+            color: var(--text-dim);
+            font-variant-numeric: tabular-nums;
+        }
+        .wx-feels {
+            grid-area: feels;
+            font-size: 0.76rem;
+            color: var(--text-muted);
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+        .wx-k { font-size: 0.66rem; color: var(--text-dim); }
+        .wx-rain {
+            grid-area: rain;
+            display: flex;
+            align-items: center;
+            gap: 0.45rem;
+            font-size: 0.76rem;
+            font-variant-numeric: tabular-nums;
+        }
+        /* Largura fixa e sem encolher: com a barra elastica, cada linha ficava com
+           um comprimento diferente e a comparacao entre dias, que e a unica razao
+           de ela existir, desaparecia. */
+        .wx-meter {
+            flex: none;
+            width: 5rem;
+            height: 6px;
+            border-radius: var(--radius-full);
+            background: var(--wx-track, rgba(125, 125, 125, 0.2));
+            overflow: hidden;
+        }
+        .wx-meter > span {
+            display: block;
+            height: 100%;
+            border-radius: var(--radius-full);
+            background: var(--wx-fill, var(--text-dim));
+        }
+        /* O numero dos milimetros leva a cor da escala: e o valor que decide o
+           casaco, e assim le-se a cor e o numero no mesmo gesto. */
+        .wx-rain b { color: var(--wx-fill, var(--text-main)); font-weight: 800; }
+        .wx-rain i { font-style: normal; font-size: 0.7rem; color: var(--text-dim); }
+        .wx-wind {
+            grid-area: wind;
+            font-size: 0.76rem;
+            color: var(--text-dim);
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+        /* Rajada que vale um aviso: no Dia 2 sao 55 km/h, e isso decide o casaco. */
+        .wx-wind.is-strong { color: var(--accent-orange); font-weight: 700; }
+
+        /* Num ecra de telemovel as seis colunas nao cabem e a paragem passa a
+           bloco. A ordem das areas e a ordem em que se le, e nao uma transposta da
+           grelha larga: nome com a temperatura na primeira linha, que sao as duas
+           coisas que se procuram; o ceu por baixo, a ocupar a largura toda, porque
+           e texto e nao um numero; depois a chuva e o vento, os dois numeros que
+           decidem o casaco; e a sensacao no fim, que e a leitura de confirmacao.
+           A versao anterior punha a sensacao a esquerda e o vento a direita, o que
+           fazia o olho saltar de um lado para o outro a cada linha. */
+        @media (max-width: 780px) {
+            .wx-row { grid-template-columns: 1fr; row-gap: 0.6rem; }
+            .wx-when { flex-direction: row; align-items: center; gap: 0.5rem; }
+            .wx-when .wx-src { margin-top: 0; margin-left: auto; align-self: center; }
+            .wx-stop {
+                grid-template-columns: 1fr auto;
+                grid-template-areas:
+                    "place temp"
+                    "sky   sky"
+                    "rain  wind"
+                    "feels feels";
+                column-gap: 0.9rem;
+                row-gap: 0.45rem;
+                padding: 0.6rem 0;
+            }
+            .wx-temp { align-items: flex-end; }
+            .wx-feels { border-top: 1px dashed var(--border-subtle); padding-top: 0.4rem; }
+        }
+        /* O numero e a unidade nunca se separam: a 320 px «34,2 mm» partia-se em
+           «34,2» e «mm», e o valor da chuva deixava de se ler de um relance. */
+        .wx-rain b, .wx-rain i, .wx-temp b, .wx-temp i, .wx-feels, .wx-wind {
+            white-space: nowrap;
+        }
+        @media (max-width: 380px) {
+            .wx-row { padding: 0.6rem 0.7rem 0.6rem 0.6rem; }
+            .wx-sky { font-size: 0.72rem; }
+            .wx-place, .wx-rain, .wx-feels, .wx-wind { font-size: 0.73rem; }
+            .wx-meter { width: 2.6rem; }
+            /* A chuva ocupa a largura toda e o vento desce para o lado da sensacao:
+               e o unico par que cabe numa linha a esta largura. */
+            .wx-stop {
+                grid-template-areas:
+                    "place temp"
+                    "sky   sky"
+                    "rain  rain"
+                    "feels wind";
+            }
+            .wx-feels { border-top: none; padding-top: 0; }
         }
         .weather-note {
             margin-top: 1rem;
@@ -3837,101 +3989,148 @@
                 <!-- Weather Predictor -->
                 <div class="weather-card weather-card-wide glass-panel" style="padding: 1.5rem;">
                     <h3 style="font-size: 1.2rem; margin-bottom: 0.3rem;"><i class="fa-solid fa-cloud-sun" style="color: var(--accent-gold);"></i> Previsão por Dia da Viagem</h3>
-                    <p style="font-size: 0.82rem; color: var(--text-muted);">Gerado pelo <strong>meteo.py</strong>, a mesma fonte que escreve o <strong>meteo.md</strong>. Não editar à mão.</p>
+                    <p style="font-size: 0.82rem; color: var(--text-muted);">Tempo, temperaturas, chuva e vento, dia a dia. Gerado pelo <strong>meteo.py</strong>, a mesma fonte que escreve o <strong>meteo.md</strong>. Não editar à mão.</p>
 
                     <!-- WEATHER-AUTO:START -->
                     <!-- Gerado por python meteo.py --html index.html a sexta, 11 de setembro de 2026. Não editar à mão: correr o comando outra vez. -->
                     <div class="weather-strip">
-                        <div class="weather-day-card">
-                            <div class="weather-day-head">
-                                <span class="weather-day-label">Dia 1 · Qua 23</span>
-                                <span class="weather-src is-forecast">previsão</span>
+                        <div class="wx-row" data-dia="1" data-wet="1">
+                            <div class="wx-when">
+                                <span class="wx-dayno">Dia 1</span>
+                                <span class="wx-date">Qua 23</span>
+                                <span class="wx-src is-forecast">previsão</span>
                             </div>
-                            <div class="weather-stop-row">
-                                <span class="weather-stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich">Viena</a></span>
-                                <span class="weather-stop-temp">25°</span>
-                                <span class="weather-stop-rain">⛅ 4.8 mm</span>
-                            </div>
-                        </div>
-                        <div class="weather-day-card">
-                            <div class="weather-day-head">
-                                <span class="weather-day-label">Dia 2 · Qui 24</span>
-                                <span class="weather-src is-forecast">previsão</span>
-                            </div>
-                            <div class="weather-stop-row">
-                                <span class="weather-stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich">Viena</a></span>
-                                <span class="weather-stop-temp">15°</span>
-                                <span class="weather-stop-rain">🌦️ 34.2 mm</span>
+                            <div class="wx-stops">
+                                <div class="wx-stop">
+                                    <span class="wx-place"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich">Viena</a></span>
+                                    <span class="wx-sky"><b>🌦️</b>Aguaceiros fracos</span>
+                                    <span class="wx-temp"><b>25°</b><i>mín. 10°</i></span>
+                                    <span class="wx-feels"><span class="wx-k">sensação</span> 22°</span>
+                                    <span class="wx-rain" data-wet="1"><span class="wx-meter"><span style="width:34%"></span></span><b>4,8 mm</b><i><span class="wx-k">em</span> 3 h</i></span>
+                                    <span class="wx-wind">💨 35 km/h</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="weather-day-card">
-                            <div class="weather-day-head">
-                                <span class="weather-day-label">Dia 3 · Sex 25</span>
-                                <span class="weather-src is-forecast">previsão</span>
+                        <div class="wx-row" data-dia="2" data-wet="4">
+                            <div class="wx-when">
+                                <span class="wx-dayno">Dia 2</span>
+                                <span class="wx-date">Qui 24</span>
+                                <span class="wx-src is-forecast">previsão</span>
                             </div>
-                            <div class="weather-stop-row">
-                                <span class="weather-stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150">Augsburg</a></span>
-                                <span class="weather-stop-temp">10°</span>
-                                <span class="weather-stop-rain">🌦️ 10.2 mm</span>
-                            </div>
-                        </div>
-                        <div class="weather-day-card">
-                            <div class="weather-day-head">
-                                <span class="weather-day-label">Dia 4 · Sáb 26</span>
-                                <span class="weather-src is-forecast">previsão</span>
-                            </div>
-                            <div class="weather-day-place">Alpes</div>
-                            <div class="weather-stop-row">
-                                <span class="weather-stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau">Neuschwanstein</a></span>
-                                <span class="weather-stop-temp">18°</span>
-                                <span class="weather-stop-rain">☁️ 5.2 mm</span>
-                            </div>
-                            <div class="weather-stop-row">
-                                <span class="weather-stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487">Oberammergau</a></span>
-                                <span class="weather-stop-temp">19°</span>
-                                <span class="weather-stop-rain">☁️ 6.5 mm</span>
-                            </div>
-                            <div class="weather-stop-row">
-                                <span class="weather-stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau">Eibsee</a></span>
-                                <span class="weather-stop-temp">19°</span>
-                                <span class="weather-stop-rain">☁️ 9.8 mm</span>
+                            <div class="wx-stops">
+                                <div class="wx-stop">
+                                    <span class="wx-place"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich">Viena</a></span>
+                                    <span class="wx-sky"><b>🌦️</b>Aguaceiros fracos</span>
+                                    <span class="wx-temp"><b>15°</b><i>mín. 9°</i></span>
+                                    <span class="wx-feels"><span class="wx-k">sensação</span> 15°</span>
+                                    <span class="wx-rain" data-wet="4"><span class="wx-meter"><span style="width:100%"></span></span><b>34,2 mm</b><i><span class="wx-k">em</span> 21 h</i></span>
+                                    <span class="wx-wind is-strong">💨 55 km/h</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="weather-day-card">
-                            <div class="weather-day-head">
-                                <span class="weather-day-label">Dia 5 · Dom 27</span>
-                                <span class="weather-src is-clima">média 10 anos</span>
+                        <div class="wx-row" data-dia="3" data-wet="2">
+                            <div class="wx-when">
+                                <span class="wx-dayno">Dia 3</span>
+                                <span class="wx-date">Sex 25</span>
+                                <span class="wx-src is-forecast">previsão</span>
                             </div>
-                            <div class="weather-stop-row">
-                                <span class="weather-stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541">Rothenburg</a></span>
-                                <span class="weather-stop-temp">17°</span>
-                                <span class="weather-stop-rain">🌦️ 3.2 mm</span>
-                            </div>
-                        </div>
-                        <div class="weather-day-card">
-                            <div class="weather-day-head">
-                                <span class="weather-day-label">Dia 6 · Seg 28</span>
-                                <span class="weather-src is-clima">média 10 anos</span>
-                            </div>
-                            <div class="weather-stop-row">
-                                <span class="weather-stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland">Munique</a></span>
-                                <span class="weather-stop-temp">16°</span>
-                                <span class="weather-stop-rain">🌦️ 3.4 mm</span>
+                            <div class="wx-stops">
+                                <div class="wx-stop">
+                                    <span class="wx-place"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150">Augsburg</a></span>
+                                    <span class="wx-sky"><b>🌦️</b>Chuvisco</span>
+                                    <span class="wx-temp"><b>10°</b><i>mín. 6°</i></span>
+                                    <span class="wx-feels"><span class="wx-k">sensação</span> 6°</span>
+                                    <span class="wx-rain" data-wet="2"><span class="wx-meter"><span style="width:56%"></span></span><b>10,2 mm</b><i><span class="wx-k">em</span> 24 h</i></span>
+                                    <span class="wx-wind">💨 41 km/h</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="weather-day-card">
-                            <div class="weather-day-head">
-                                <span class="weather-day-label">Dia 7 · Ter 29</span>
-                                <span class="weather-src is-clima">média 10 anos</span>
+                        <div class="wx-row" data-dia="4" data-wet="2">
+                            <div class="wx-when">
+                                <span class="wx-dayno">Dia 4</span>
+                                <span class="wx-date">Sáb 26</span>
+                                <span class="wx-src is-forecast">previsão</span>
                             </div>
-                            <div class="weather-stop-row">
-                                <span class="weather-stop-name"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland">Munique</a></span>
-                                <span class="weather-stop-temp">17°</span>
-                                <span class="weather-stop-rain">🌦️ 1.3 mm</span>
+                            <div class="wx-stops">
+                                <div class="wx-stop">
+                                    <span class="wx-place"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau">Neuschwanstein</a></span>
+                                    <span class="wx-sky"><b>🌦️</b>Chuvisco fraco</span>
+                                    <span class="wx-temp"><b>18°</b><i>mín. 5°</i></span>
+                                    <span class="wx-feels"><span class="wx-k">sensação</span> 17°</span>
+                                    <span class="wx-rain" data-wet="2"><span class="wx-meter"><span style="width:36%"></span></span><b>5,2 mm</b><i><span class="wx-k">em</span> 15 h</i></span>
+                                    <span class="wx-wind">💨 22 km/h</span>
+                                </div>
+                                <div class="wx-stop">
+                                    <span class="wx-place"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487">Oberammergau</a></span>
+                                    <span class="wx-sky"><b>🌦️</b>Chuvisco fraco</span>
+                                    <span class="wx-temp"><b>19°</b><i>mín. 6°</i></span>
+                                    <span class="wx-feels"><span class="wx-k">sensação</span> 18°</span>
+                                    <span class="wx-rain" data-wet="2"><span class="wx-meter"><span style="width:41%"></span></span><b>6,5 mm</b><i><span class="wx-k">em</span> 15 h</i></span>
+                                    <span class="wx-wind">💨 24 km/h</span>
+                                </div>
+                                <div class="wx-stop">
+                                    <span class="wx-place"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau">Eibsee</a></span>
+                                    <span class="wx-sky"><b>🌦️</b>Chuvisco fraco</span>
+                                    <span class="wx-temp"><b>19°</b><i>mín. 5°</i></span>
+                                    <span class="wx-feels"><span class="wx-k">sensação</span> 18°</span>
+                                    <span class="wx-rain" data-wet="2"><span class="wx-meter"><span style="width:54%"></span></span><b>9,8 mm</b><i><span class="wx-k">em</span> 15 h</i></span>
+                                    <span class="wx-wind">💨 22 km/h</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wx-row" data-dia="5" data-wet="1">
+                            <div class="wx-when">
+                                <span class="wx-dayno">Dia 5</span>
+                                <span class="wx-date">Dom 27</span>
+                                <span class="wx-src is-clima">média 10 anos</span>
+                            </div>
+                            <div class="wx-stops">
+                                <div class="wx-stop">
+                                    <span class="wx-place"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541">Rothenburg</a></span>
+                                    <span class="wx-sky"><b>🌦️</b>Chuva fraca</span>
+                                    <span class="wx-temp"><b>17°</b><i>mín. 10°</i></span>
+                                    <span class="wx-feels"><span class="wx-k">sensação</span> 15°</span>
+                                    <span class="wx-rain" data-wet="1"><span class="wx-meter"><span style="width:26%"></span></span><b>3,2 mm</b><i><span class="wx-k">em</span> 14 h</i></span>
+                                    <span class="wx-wind">💨 31 km/h</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wx-row" data-dia="6" data-wet="1">
+                            <div class="wx-when">
+                                <span class="wx-dayno">Dia 6</span>
+                                <span class="wx-date">Seg 28</span>
+                                <span class="wx-src is-clima">média 10 anos</span>
+                            </div>
+                            <div class="wx-stops">
+                                <div class="wx-stop">
+                                    <span class="wx-place"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland">Munique</a></span>
+                                    <span class="wx-sky"><b>🌦️</b>Chuva fraca</span>
+                                    <span class="wx-temp"><b>16°</b><i>mín. 10°</i></span>
+                                    <span class="wx-feels"><span class="wx-k">sensação</span> 15°</span>
+                                    <span class="wx-rain" data-wet="1"><span class="wx-meter"><span style="width:27%"></span></span><b>3,4 mm</b><i><span class="wx-k">em</span> 23 h</i></span>
+                                    <span class="wx-wind">💨 23 km/h</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wx-row" data-dia="7" data-wet="1">
+                            <div class="wx-when">
+                                <span class="wx-dayno">Dia 7</span>
+                                <span class="wx-date">Ter 29</span>
+                                <span class="wx-src is-clima">média 10 anos</span>
+                            </div>
+                            <div class="wx-stops">
+                                <div class="wx-stop">
+                                    <span class="wx-place"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland">Munique</a></span>
+                                    <span class="wx-sky"><b>🌦️</b>Chuva fraca</span>
+                                    <span class="wx-temp"><b>17°</b><i>mín. 8°</i></span>
+                                    <span class="wx-feels"><span class="wx-k">sensação</span> 15°</span>
+                                    <span class="wx-rain" data-wet="1"><span class="wx-meter"><span style="width:15%"></span></span><b>1,3 mm</b><i><span class="wx-k">em</span> 12 h</i></span>
+                                    <span class="wx-wind">💨 24 km/h</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <p class="weather-note"><strong>Como ler isto.</strong> «previsão» é o modelo real, que só tem detalhe até cerca de 10 dias de distância. «média 10 anos» é a média dos últimos 10 anos (ERA5) para a mesma data, que não é uma previsão. A tabela hora a hora e a tendência sazonal estão no <strong>meteo.md</strong>, e o comando que gera estes números é o mesmo que o gera a ele.</p>
+                    <p class="weather-note"><strong>Como ler isto.</strong> Cada linha é um dia. Os <strong>milímetros</strong> são quanto chove no total e as <strong>horas</strong> são quanto tempo dura: 30 mm em 2 horas é um dilúvio, 30 mm em 20 horas é chuva miudinha. A barra compara dias e satura aos 25 mm; a cor da esquerda segue a mesma escala. «previsão» é o modelo real, com detalhe até cerca de 10 dias de distância; «média 10 anos» é a média dos últimos 10 anos para a mesma data, que não é uma previsão. A tabela hora a hora e a tendência sazonal estão no <strong>meteo.md</strong>, gerado pelo mesmo comando que gera isto.</p>
                     <!-- WEATHER-AUTO:END -->
 
                     <div class="pro-tip" style="margin-top: 1.2rem; margin-bottom: 0.7rem; background: rgba(125,125,125,0.06); padding: 0.75rem; border-radius: var(--radius-sm); font-size: 0.82rem; display: flex; gap: 0.6rem; align-items: center;">

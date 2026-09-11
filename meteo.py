@@ -208,6 +208,58 @@ def synth_code(precip: float | None, cloud: float | None) -> int:
     return 0
 
 
+# Códigos WMO sem precipitação: só estes deixam um dia «seco» para efeitos de ícone.
+DRY_CODES = frozenset({0, 1, 2, 3, 45, 48})
+
+
+def day_icon(codes: list[int], rain: float) -> int | None:
+    """O código do dia, sem contradizer a chuva.
+
+    A moda dos códigos horários escolhia «encoberto» num dia de 34 mm, porque há
+    mais horas nubladas do que horas de chuva. Num dia com chuva a sério manda o
+    código molhado mais frequente; nos outros continua a ser a moda.
+    """
+    if not codes:
+        return None
+    molhados = [c for c in codes if c not in DRY_CODES]
+    if rain >= 1 and molhados:
+        return statistics.mode(molhados)
+    return statistics.mode(codes)
+
+
+def wet_level(rain: float, prob: float | None) -> int:
+    """0 seco · 1 pouco · 2 chuva · 3 chuva forte · 4 chuva intensa.
+
+    Os cortes foram calibrados contra esta viagem, e não escolhidos a dedo: com o
+    limiar dos 3 mm, quatro dos sete dias ficavam âmbar e a escala deixava de
+    distinguir coisa nenhuma, porque o olho não tem para onde ir. Aos 5 mm, a
+    chuva de dia inteiro do Dia 3 separa-se do aguaceiro do Dia 1, e o Dia 2 fica
+    sozinho no topo, que é a leitura certa desta previsão.
+
+    A probabilidade entra só para desempatar: 0,2 mm com 60% de probabilidade não
+    é um dilúvio, mas também não é um dia seco.
+    """
+    if rain >= 30:
+        return 4
+    if rain >= 15:
+        return 3
+    if rain >= 5:
+        return 2
+    if rain >= 0.3:
+        return 1
+    return 1 if (prob or 0) >= 50 else 0
+
+
+def dec(value: float | None, nd: int = 1, unit: str = "") -> str:
+    """Número com vírgula decimal, que é como se lê em português.
+
+    O cartão escrevia «4.8 mm» com ponto, ao lado de um guia inteiro em «€10,20».
+    """
+    if value is None:
+        return "?"
+    return f"{value:.{nd}f}".replace(".", ",") + unit
+
+
 #  Cache de rede, só em memória e só por esta execução. O comando documentado é
 #  `--md meteo.md --html index.html`: sem isto, o relatório e o cartão do guia
 #  pediam exatamente os mesmos dados à Open-Meteo, duas vezes, incluindo as dez
@@ -528,23 +580,50 @@ def collect(stop: Stop, days: list[date], skip_seasonal: bool
     return rows_by_day, source, norms, outlook
 
 
-def day_facts(rows: list[dict]) -> tuple[str, float | None, float]:
-    """Tempo, máxima e chuva de um dia, para a matriz e para o resumo HTML.
+def day_facts(rows: list[dict]) -> dict:
+    """Tudo o que o cartão do guia diz de um dia, numa leitura só.
 
-    A máxima sai em bruto, e não já formatada, porque o markdown escreve «—»
-    quando não há dado e o index.html não pode: a regra 6 proíbe o travessão lá.
+    Devolve um dicionário e não uma tupla: o cartão passou a mostrar sete coisas e
+    uma tupla de sete posições é um convite a trocá-las de sítio sem dar por isso.
+    Os valores saem em bruto, porque o markdown escreve «—» quando não há dado e o
+    index.html não pode (a regra 6 proíbe o travessão lá).
     """
-    temps = [r["temperature_2m"] for r in rows if r.get("temperature_2m") is not None]
-    rain = sum(r.get("precipitation") or 0 for r in rows)
+    def col(key: str) -> list:
+        return [r[key] for r in rows if r.get(key) is not None]
+
+    temps, feels = col("temperature_2m"), col("apparent_temperature")
+    gust, vento = col("wind_gusts_10m"), col("wind_speed_10m")
+    prob = col("precipitation_probability")
     codes = [int(r["weather_code"]) for r in rows if r.get("weather_code") is not None]
-    emoji, _ = describe(statistics.mode(codes) if codes else None)
-    return emoji, (max(temps) if temps else None), rain
+    rain = sum(r.get("precipitation") or 0 for r in rows)
+    molhadas = sum(1 for r in rows if (r.get("precipitation") or 0) >= 0.1)
+    prob_max = max(prob) if prob else None
+    emoji, texto = describe(day_icon(codes, rain))
+
+    return {
+        "emoji": emoji,
+        "texto": texto,
+        "tmin": min(temps) if temps else None,
+        "tmax": max(temps) if temps else None,
+        "fmax": max(feels) if feels else None,
+        "rain": rain,
+        #  Quantas horas chove, que é a dimensão que nem o total nem o código do
+        #  dia dão. O Dia 2 de Viena tem 34 mm em 21 horas seguidas de chuva
+        #  miudinha, e o Dia 4 pode ter os mesmos 34 mm numa hora de trovoada: o
+        #  total é igual, o dia não. Sem isto, «Aguaceiros fracos · 34,2 mm» lê-se
+        #  como contradição em vez de «chove o dia todo, mas pouco de cada vez».
+        "horas": molhadas,
+        "prob": prob_max,
+        "gust": max(gust) if gust else None,
+        "wind": max(vento) if vento else None,
+        "level": wet_level(rain, prob_max),
+    }
 
 
 def day_cell(rows: list[dict]) -> str:
     """Resumo de um dia numa célula: tempo, máxima e chuva."""
-    emoji, tmax, rain = day_facts(rows)
-    return f"{emoji} {fmt(tmax, '°')} {rain:.1f}mm"
+    f = day_facts(rows)
+    return f"{f['emoji']} {fmt(f['tmax'], '°')} {f['rain']:.1f}mm"
 
 
 def matrix_block(stops: list[Stop], markdown: bool) -> list[str]:
@@ -642,11 +721,38 @@ def swap_hints(stops: list[Stop], wet: dict[str, dict[date, float]], markdown: b
     return [head, ""] + hints + ["", tail, ""]
 
 
+# Escala do medidor de chuva, em milímetros. Vinte e cinco é o teto da barra: num
+# dia de 34 mm ela fica cheia e é o número que diz o resto.
+RAIN_METER_MAX = 25.0
+
+# A partir daqui o vento deixa de ser um detalhe e passa a ser um aviso: em Viena,
+# 55 km/h de rajada no Dia 2 é informação para levar o corta-vento.
+GUST_STRONG = 45
+
+
+def rain_meter(rain: float) -> int:
+    """Largura da barra de chuva em percentagem.
+
+    Raiz e não linear: numa escala linear, 0,5 mm de um dia de chuvisco ficava
+    invisível ao lado de um dia de 34 mm, e a barra existe precisamente para os
+    comparar de relance.
+    """
+    if rain <= 0:
+        return 0
+    return round(100 * min(1.0, (rain / RAIN_METER_MAX) ** 0.65))
+
+
 def render_weather_html() -> list[str]:
-    """Bloco do index.html: uma célula por dia da viagem, com a fonte rotulada.
+    """Bloco do index.html: uma linha por dia da viagem, com a fonte rotulada.
 
     Sai embrulhado nos marcadores WEATHER_HTML_* para o `--html` ser idempotente.
     Não leva travessão nenhum: o verificar.py recusa o carácter no index.html.
+
+    A composição é uma lista, uma linha por dia, e não uma grelha de células: o
+    guia inteiro é uma linha do tempo vertical, e sete células iguais davam à
+    viagem o ar de tabela em vez de a manterem na linguagem do resto. É também o
+    que dá largura para os números que interessam, que numa célula de 148 px não
+    cabem.
     """
     by_name = {s.name: s for s in STOPS}
     needed: dict[str, list[date]] = {}
@@ -656,12 +762,13 @@ def render_weather_html() -> list[str]:
 
     #  Uma recolha por paragem, com todos os seus dias de uma vez: agrupar poupa
     #  as dez chamadas de arquivo por cada ano da climatologia.
-    facts: dict[tuple[str, date], tuple[str, float | None, float, str]] = {}
+    facts: dict[tuple[str, date], dict] = {}
     for name, days in needed.items():
         rows_by_day, source, _, _ = collect(by_name[name], sorted(days), skip_seasonal=True)
         for day in days:
-            emoji, tmax, rain = day_facts(rows_by_day.get(day, []))
-            facts[(name, day)] = (emoji, tmax, rain, source.get(day, "previsão"))
+            entry = day_facts(rows_by_day.get(day, []))
+            entry["fonte"] = source.get(day, "previsão")
+            facts[(name, day)] = entry
 
     hoje = pretty_date(date.today())
     out = [
@@ -672,35 +779,57 @@ def render_weather_html() -> list[str]:
     ]
 
     for day, place, names in DAY_SUMMARY:
-        source = facts[(names[0], day)][3]
-        forecast = source == "previsão"
+        paradas = [facts[(n, day)] for n in names]
+        forecast = paradas[0]["fonte"] == "previsão"
+        #  O dia vale pelo pior que lhe acontece: o Dia 4 mostra três paragens
+        #  alpinas e é a mais molhada delas que decide o casaco.
+        nivel = max(p["level"] for p in paradas)
         numero = (day - d(23)).days + 1
         rotulo = f"{WEEKDAYS[day.weekday()][:3].capitalize()} {day.day}"
-        out.append('    <div class="weather-day-card">')
-        out.append('        <div class="weather-day-head">')
-        out.append(f'            <span class="weather-day-label">Dia {numero} · {rotulo}</span>')
-        out.append(f'            <span class="weather-src {"is-forecast" if forecast else "is-clima"}">'
+
+        #  data-dia é o gancho estável do verificar.py: ele conta estes em vez de
+        #  contar nomes de classe. Nomes de classe mudam com o estilo, e a última
+        #  vez que mudaram o verificador deixou de ver o bloco e deu-o por vazio.
+        out.append(f'    <div class="wx-row" data-dia="{numero}" data-wet="{nivel}">')
+        out.append('        <div class="wx-when">')
+        out.append(f'            <span class="wx-dayno">Dia {numero}</span>')
+        out.append(f'            <span class="wx-date">{rotulo}</span>')
+        out.append(f'            <span class="wx-src {"is-forecast" if forecast else "is-clima"}">'
                    f'{"previsão" if forecast else "média 10 anos"}</span>')
         out.append('        </div>')
-        if len(names) > 1:
-            out.append(f'        <div class="weather-day-place">{place}</div>')
-        for name in names:
-            emoji, tmax, rain, _ = facts[(name, day)]
+        out.append('        <div class="wx-stops">')
+        for name, fato in zip(names, paradas):
             curto = STOP_SHORT.get(name, name)
-            temp = f"{tmax:.0f}°" if tmax is not None else "?"
-            out.append('        <div class="weather-stop-row">')
-            out.append(f'            <span class="weather-stop-name">{geo_html(curto, name)}</span>')
-            out.append(f'            <span class="weather-stop-temp">{temp}</span>')
-            out.append(f'            <span class="weather-stop-rain">{emoji} {rain:.1f} mm</span>')
-            out.append('        </div>')
+            grau = rain_meter(fato["rain"])
+            forte = (fato["gust"] or 0) >= GUST_STRONG
+            out.append('            <div class="wx-stop">')
+            out.append(f'                <span class="wx-place">{geo_html(curto, name)}</span>')
+            out.append(f'                <span class="wx-sky"><b>{fato["emoji"]}</b>'
+                       f'{fato["texto"]}</span>')
+            out.append('                <span class="wx-temp">'
+                       f'<b>{dec(fato["tmax"], 0, "°")}</b>'
+                       f'<i>mín. {dec(fato["tmin"], 0, "°")}</i></span>')
+            out.append(f'                <span class="wx-feels">'
+                       f'<span class="wx-k">sensação</span> {dec(fato["fmax"], 0, "°")}</span>')
+            out.append(f'                <span class="wx-rain" data-wet="{fato["level"]}">'
+                       f'<span class="wx-meter"><span style="width:{grau}%"></span></span>'
+                       f'<b>{dec(fato["rain"], 1, " mm")}</b>'
+                       f'<i><span class="wx-k">em</span> {fato["horas"]} h</i></span>')
+            out.append(f'                <span class="wx-wind{" is-strong" if forte else ""}">'
+                       f'💨 {dec(fato["gust"], 0, " km/h")}</span>')
+            out.append('            </div>')
+        out.append('        </div>')
         out.append('    </div>')
 
     out.append('</div>')
-    out.append('<p class="weather-note"><strong>Como ler isto.</strong> «previsão» é o modelo '
-               'real, que só tem detalhe até cerca de 10 dias de distância. «média 10 anos» é a média '
-               'dos últimos 10 anos (ERA5) para a mesma data, que não é uma previsão. A tabela hora a '
-               'hora e a tendência sazonal estão no <strong>meteo.md</strong>, e o comando que gera '
-               'estes números é o mesmo que o gera a ele.</p>')
+    out.append('<p class="weather-note"><strong>Como ler isto.</strong> Cada linha é um dia. '
+               'Os <strong>milímetros</strong> são quanto chove no total e as <strong>horas</strong> '
+               'são quanto tempo dura: 30 mm em 2 horas é um dilúvio, 30 mm em 20 horas é chuva '
+               'miudinha. A barra compara dias e satura aos 25 mm; a cor da esquerda segue a mesma '
+               'escala. «previsão» é o modelo real, com detalhe até cerca de 10 dias de distância; '
+               '«média 10 anos» é a média dos últimos 10 anos para a mesma data, que não é uma '
+               'previsão. A tabela hora a hora e a tendência sazonal estão no '
+               '<strong>meteo.md</strong>, gerado pelo mesmo comando que gera isto.</p>')
     out.append(WEATHER_HTML_END)
     return out
 

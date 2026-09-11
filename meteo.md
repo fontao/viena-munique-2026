@@ -9,13 +9,13 @@ Para decidir trocas de dia. Cada célula: tempo · máxima · chuva total. 🏞�
 | Paragem | qua 23/09 | qui 24/09 | sex 25/09 | sáb 26/09 | dom 27/09 | seg 28/09 | ter 29/09 |
 |---|---|---|---|---|---|---|---|
 | Lisboa | **☁️ 35° 0.0mm** | ☀️ 35° 0.0mm | ☀️ 29° 0.0mm | 🌤️ 23° 0.0mm | 🌤️ 25° 0.3mm | 🌤️ 26° 0.0mm | ☀️ 27° 0.2mm |
-| 🏞️ Viena | **⛅ 25° 4.8mm** | **🌦️ 15° 34.2mm** | **☁️ 10° 10.2mm** | ☁️ 25° 1.5mm | 🌦️ 19° 2.0mm | 🌦️ 20° 2.2mm | ⛅ 18° 0.6mm |
+| 🏞️ Viena | **🌦️ 25° 4.8mm** | **🌦️ 15° 34.2mm** | **🌧️ 10° 10.2mm** | 🌧️ 25° 1.5mm | 🌦️ 19° 2.0mm | 🌦️ 20° 2.2mm | ⛅ 18° 0.6mm |
 | Augsburg | ☁️ 21° 0.9mm | 🌦️ 12° 7.2mm | **🌦️ 10° 10.2mm** | **☁️ 18° 0.8mm** | **🌦️ 18° 1.8mm** | **🌦️ 17° 2.2mm** | ⛅ 17° 0.8mm |
-| 🏞️ Neuschwanstein / Füssen | ☀️ 19° 1.5mm | 🌦️ 8° 10.8mm | 🌦️ 4° 15.6mm | **☁️ 18° 5.2mm** | 🌦️ 15° 3.7mm | 🌦️ 14° 4.1mm | 🌦️ 14° 2.2mm |
-| 🏞️ Oberammergau | ☁️ 21° 1.5mm | 🌦️ 8° 17.1mm | 🌨️ 6° 26.1mm | **☁️ 19° 6.5mm** | 🌦️ 16° 4.0mm | 🌦️ 15° 3.9mm | 🌦️ 15° 2.9mm |
-| 🏞️ Lago Eibsee | ☁️ 20° 1.5mm | 🌨️ 7° 13.5mm | 🌨️ 4° 25.5mm | **☁️ 19° 9.8mm** | 🌦️ 15° 4.5mm | 🌦️ 14° 4.0mm | 🌦️ 15° 2.9mm |
-| 🏞️ Rothenburg ob der Tauber | 🌦️ 13° 2.7mm | 🌦️ 10° 2.7mm | 🌦️ 12° 3.6mm | 🌦️ 15° 3.3mm | **🌦️ 17° 3.2mm** | ⛅ 16° 1.4mm | ⛅ 16° 0.7mm |
-| Munique | ☁️ 22° 1.5mm | 🌦️ 10° 10.5mm | 🌦️ 9° 10.5mm | ☁️ 22° 1.4mm | 🌦️ 18° 3.3mm | **🌦️ 16° 3.4mm** | **🌦️ 17° 1.3mm** |
+| 🏞️ Neuschwanstein / Füssen | 🌦️ 19° 1.5mm | 🌦️ 8° 10.8mm | 🌦️ 4° 15.6mm | **🌦️ 18° 5.2mm** | 🌦️ 15° 3.7mm | 🌦️ 14° 4.1mm | 🌦️ 14° 2.2mm |
+| 🏞️ Oberammergau | 🌦️ 21° 1.5mm | 🌦️ 8° 17.1mm | 🌨️ 6° 26.1mm | **🌦️ 19° 6.5mm** | 🌦️ 16° 4.0mm | 🌦️ 15° 3.9mm | 🌦️ 15° 2.9mm |
+| 🏞️ Lago Eibsee | 🌨️ 20° 1.5mm | 🌨️ 7° 13.5mm | 🌨️ 4° 25.5mm | **🌦️ 19° 9.8mm** | 🌦️ 15° 4.5mm | 🌦️ 14° 4.0mm | 🌦️ 15° 2.9mm |
+| 🏞️ Rothenburg ob der Tauber | 🌦️ 13° 2.7mm | 🌦️ 10° 2.7mm | 🌦️ 12° 3.6mm | 🌦️ 15° 3.3mm | **🌦️ 17° 3.2mm** | 🌦️ 16° 1.4mm | ⛅ 16° 0.7mm |
+| Munique | 🌦️ 22° 1.5mm | 🌦️ 10° 10.5mm | 🌦️ 9° 10.5mm | 🌦️ 22° 1.4mm | 🌦️ 18° 3.3mm | **🌦️ 16° 3.4mm** | **🌦️ 17° 1.3mm** |
 
 Dias agendados marcados a negrito.
 
@@ -187,34 +187,34 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 | 22:00 | 🌦️ Chuvisco | 6 °C | 4 °C | 0.5 mm | 25% | 10 km/h | 35 km/h | 98% |
 | 23:00 | 🌦️ Chuvisco | 6 °C | 4 °C | 0.5 mm | 24% | 10 km/h | 32 km/h | 99% |
 
-**sábado, 26 de setembro de 2026** — ☁️ Encoberto · 8–18 °C · chuva 0.8 mm, máx. 23% prob. · rajadas até 38 km/h
+**sábado, 26 de setembro de 2026** — ☁️ Encoberto · 8–18 °C · chuva 0.8 mm, máx. 23% prob. · rajadas até 24 km/h
 
 | Hora | Tempo | Temp | Sensação | Chuva | Prob. | Vento | Rajada | Nuvens |
 |---|---|---|---|---|---|---|---|---|
 | 00:00 | 🌦️ Chuvisco | 8 °C | 6 °C | 0.4 mm | 23% | 10 km/h | 24 km/h | 99% |
 | 01:00 | 🌦️ Chuvisco | 10 °C | 8 °C | 0.2 mm | 22% | 9 km/h | 18 km/h | 100% |
-| 02:00 | 🌦️ Chuvisco | 12 °C | 10 °C | 0.1 mm | 22% | 7 km/h | 13 km/h | 100% |
-| 03:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | 22% | 5 km/h | 8 km/h | 100% |
-| 04:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | 22% | 4 km/h | 7 km/h | 100% |
+| 02:00 | 🌦️ Chuvisco | 12 °C | 10 °C | 0.1 mm | 22% | 7 km/h | 11 km/h | 100% |
+| 03:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | 22% | 5 km/h | 6 km/h | 100% |
+| 04:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | 22% | 4 km/h | 6 km/h | 100% |
 | 05:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | — | 4 km/h | 6 km/h | 100% |
 | 06:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | — | 3 km/h | 6 km/h | 100% |
-| 07:00 | ☁️ Encoberto | 14 °C | 14 °C | 0.0 mm | — | 2 km/h | 6 km/h | 100% |
-| 08:00 | ☁️ Encoberto | 14 °C | 14 °C | 0.0 mm | — | 4 km/h | 6 km/h | 100% |
-| 09:00 | ☁️ Encoberto | 15 °C | 15 °C | 0.0 mm | — | 6 km/h | 6 km/h | 100% |
-| 10:00 | ☁️ Encoberto | 17 °C | 16 °C | 0.0 mm | — | 8 km/h | 5 km/h | 100% |
-| 11:00 | ☁️ Encoberto | 18 °C | 17 °C | 0.0 mm | — | 10 km/h | 5 km/h | 100% |
-| 12:00 | ☁️ Encoberto | 18 °C | 17 °C | 0.0 mm | — | 10 km/h | 7 km/h | 100% |
-| 13:00 | ☁️ Encoberto | 18 °C | 16 °C | 0.0 mm | — | 11 km/h | 9 km/h | 100% |
-| 14:00 | ☁️ Encoberto | 17 °C | 16 °C | 0.0 mm | — | 12 km/h | 11 km/h | 100% |
-| 15:00 | ☁️ Encoberto | 18 °C | 16 °C | 0.0 mm | — | 13 km/h | 11 km/h | 93% |
-| 16:00 | ☁️ Encoberto | 18 °C | 16 °C | 0.0 mm | — | 14 km/h | 11 km/h | 84% |
-| 17:00 | ⛅ Parcialmente nublado | 18 °C | 16 °C | 0.0 mm | — | 14 km/h | 11 km/h | 79% |
-| 18:00 | ☁️ Encoberto | 16 °C | 15 °C | 0.0 mm | — | 12 km/h | 9 km/h | 82% |
-| 19:00 | ☁️ Encoberto | 15 °C | 14 °C | 0.0 mm | — | 9 km/h | 8 km/h | 90% |
+| 07:00 | ☁️ Encoberto | 14 °C | 14 °C | 0.0 mm | — | 2 km/h | 8 km/h | 100% |
+| 08:00 | ☁️ Encoberto | 14 °C | 14 °C | 0.0 mm | — | 4 km/h | 9 km/h | 100% |
+| 09:00 | ☁️ Encoberto | 15 °C | 15 °C | 0.0 mm | — | 6 km/h | 12 km/h | 100% |
+| 10:00 | ☁️ Encoberto | 17 °C | 16 °C | 0.0 mm | — | 8 km/h | 15 km/h | 100% |
+| 11:00 | ☁️ Encoberto | 18 °C | 17 °C | 0.0 mm | — | 10 km/h | 17 km/h | 100% |
+| 12:00 | ☁️ Encoberto | 18 °C | 17 °C | 0.0 mm | — | 10 km/h | 19 km/h | 100% |
+| 13:00 | ☁️ Encoberto | 18 °C | 16 °C | 0.0 mm | — | 11 km/h | 20 km/h | 100% |
+| 14:00 | ☁️ Encoberto | 17 °C | 16 °C | 0.0 mm | — | 12 km/h | 21 km/h | 100% |
+| 15:00 | ☁️ Encoberto | 18 °C | 16 °C | 0.0 mm | — | 13 km/h | 21 km/h | 93% |
+| 16:00 | ☁️ Encoberto | 18 °C | 16 °C | 0.0 mm | — | 14 km/h | 19 km/h | 84% |
+| 17:00 | ⛅ Parcialmente nublado | 18 °C | 16 °C | 0.0 mm | — | 14 km/h | 18 km/h | 79% |
+| 18:00 | ☁️ Encoberto | 16 °C | 15 °C | 0.0 mm | — | 12 km/h | 16 km/h | 82% |
+| 19:00 | ☁️ Encoberto | 15 °C | 14 °C | 0.0 mm | — | 9 km/h | 13 km/h | 90% |
 | 20:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | — | 7 km/h | 10 km/h | 96% |
-| 21:00 | ☁️ Encoberto | 13 °C | 13 °C | 0.0 mm | — | 6 km/h | 19 km/h | 98% |
-| 22:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | — | 6 km/h | 31 km/h | 99% |
-| 23:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | — | 6 km/h | 38 km/h | 100% |
+| 21:00 | ☁️ Encoberto | 13 °C | 13 °C | 0.0 mm | — | 6 km/h | 9 km/h | 98% |
+| 22:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | — | 6 km/h | 9 km/h | 99% |
+| 23:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | — | 6 km/h | 8 km/h | 100% |
 
 **domingo, 27 de setembro de 2026** — 🌦️ Chuva fraca · 10–18 °C · chuva 1.8 mm, máx. 50% prob. · rajadas até 30 km/h  ⚠️ média dos últimos 10 anos (fora do horizonte de previsão)
 
@@ -276,34 +276,34 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 
 ## Neuschwanstein / Füssen — Dia 4 — castelo
 
-**sábado, 26 de setembro de 2026** — ☁️ Encoberto · 5–18 °C · chuva 5.2 mm, máx. 25% prob. · rajadas até 21 km/h
+**sábado, 26 de setembro de 2026** — ☁️ Encoberto · 5–18 °C · chuva 5.2 mm, máx. 25% prob. · rajadas até 22 km/h
 
 | Hora | Tempo | Temp | Sensação | Chuva | Prob. | Vento | Rajada | Nuvens |
 |---|---|---|---|---|---|---|---|---|
-| 00:00 | 🌨️ Aguaceiros de neve | 5 °C | 3 °C | 0.7 mm | 24% | 9 km/h | 21 km/h | 97% |
-| 01:00 | 🌨️ Aguaceiros de neve | 7 °C | 5 °C | 0.5 mm | 25% | 9 km/h | 16 km/h | 98% |
-| 02:00 | 🌨️ Aguaceiros de neve | 9 °C | 7 °C | 0.2 mm | 25% | 9 km/h | 10 km/h | 100% |
-| 03:00 | ☁️ Encoberto | 12 °C | 9 °C | 0.0 mm | 25% | 9 km/h | 6 km/h | 100% |
-| 04:00 | ☁️ Encoberto | 12 °C | 9 °C | 0.0 mm | 25% | 9 km/h | 6 km/h | 100% |
-| 05:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 9 km/h | 6 km/h | 100% |
-| 06:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 9 km/h | 8 km/h | 100% |
+| 00:00 | 🌨️ Aguaceiros de neve | 5 °C | 3 °C | 0.7 mm | 24% | 9 km/h | 22 km/h | 97% |
+| 01:00 | 🌨️ Aguaceiros de neve | 7 °C | 5 °C | 0.5 mm | 25% | 9 km/h | 18 km/h | 98% |
+| 02:00 | 🌨️ Aguaceiros de neve | 9 °C | 7 °C | 0.2 mm | 25% | 9 km/h | 15 km/h | 100% |
+| 03:00 | ☁️ Encoberto | 12 °C | 9 °C | 0.0 mm | 25% | 9 km/h | 12 km/h | 100% |
+| 04:00 | ☁️ Encoberto | 12 °C | 9 °C | 0.0 mm | 25% | 9 km/h | 11 km/h | 100% |
+| 05:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 9 km/h | 10 km/h | 100% |
+| 06:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 9 km/h | 9 km/h | 100% |
 | 07:00 | ☁️ Encoberto | 12 °C | 11 °C | 0.0 mm | — | 8 km/h | 9 km/h | 100% |
-| 08:00 | ☁️ Encoberto | 13 °C | 12 °C | 0.0 mm | — | 7 km/h | 9 km/h | 100% |
-| 09:00 | ☁️ Encoberto | 15 °C | 14 °C | 0.0 mm | — | 3 km/h | 7 km/h | 100% |
-| 10:00 | ☁️ Encoberto | 17 °C | 16 °C | 0.0 mm | — | 3 km/h | 5 km/h | 100% |
+| 08:00 | ☁️ Encoberto | 13 °C | 12 °C | 0.0 mm | — | 7 km/h | 8 km/h | 100% |
+| 09:00 | ☁️ Encoberto | 15 °C | 14 °C | 0.0 mm | — | 3 km/h | 6 km/h | 100% |
+| 10:00 | ☁️ Encoberto | 17 °C | 16 °C | 0.0 mm | — | 3 km/h | 4 km/h | 100% |
 | 11:00 | ☁️ Encoberto | 18 °C | 17 °C | 0.0 mm | — | 7 km/h | 3 km/h | 99% |
-| 12:00 | 🌦️ Chuvisco fraco | 18 °C | 17 °C | 0.1 mm | — | 9 km/h | 3 km/h | 97% |
-| 13:00 | 🌦️ Chuvisco fraco | 17 °C | 16 °C | 0.1 mm | — | 9 km/h | 4 km/h | 93% |
-| 14:00 | 🌦️ Chuvisco fraco | 16 °C | 15 °C | 0.1 mm | — | 10 km/h | 5 km/h | 92% |
-| 15:00 | 🌦️ Chuvisco fraco | 15 °C | 14 °C | 0.3 mm | — | 9 km/h | 6 km/h | 94% |
-| 16:00 | 🌦️ Chuvisco fraco | 14 °C | 14 °C | 0.3 mm | — | 7 km/h | 8 km/h | 97% |
-| 17:00 | 🌦️ Chuvisco fraco | 13 °C | 13 °C | 0.3 mm | — | 6 km/h | 9 km/h | 100% |
-| 18:00 | 🌦️ Chuvisco | 12 °C | 13 °C | 0.7 mm | — | 4 km/h | 8 km/h | 100% |
-| 19:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 3 km/h | 6 km/h | 100% |
-| 20:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 2 km/h | 5 km/h | 100% |
-| 21:00 | 🌦️ Chuvisco fraco | 11 °C | 11 °C | 0.2 mm | — | 2 km/h | 4 km/h | 100% |
-| 22:00 | 🌦️ Chuvisco fraco | 11 °C | 11 °C | 0.2 mm | — | 3 km/h | 3 km/h | 100% |
-| 23:00 | 🌦️ Chuvisco fraco | 11 °C | 11 °C | 0.2 mm | — | 3 km/h | 2 km/h | 100% |
+| 12:00 | 🌦️ Chuvisco fraco | 18 °C | 17 °C | 0.1 mm | — | 9 km/h | 5 km/h | 97% |
+| 13:00 | 🌦️ Chuvisco fraco | 17 °C | 16 °C | 0.1 mm | — | 9 km/h | 7 km/h | 93% |
+| 14:00 | 🌦️ Chuvisco fraco | 16 °C | 15 °C | 0.1 mm | — | 10 km/h | 9 km/h | 92% |
+| 15:00 | 🌦️ Chuvisco fraco | 15 °C | 14 °C | 0.3 mm | — | 9 km/h | 9 km/h | 94% |
+| 16:00 | 🌦️ Chuvisco fraco | 14 °C | 14 °C | 0.3 mm | — | 7 km/h | 9 km/h | 97% |
+| 17:00 | 🌦️ Chuvisco fraco | 13 °C | 13 °C | 0.3 mm | — | 6 km/h | 8 km/h | 100% |
+| 18:00 | 🌦️ Chuvisco | 12 °C | 13 °C | 0.7 mm | — | 4 km/h | 9 km/h | 100% |
+| 19:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 3 km/h | 10 km/h | 100% |
+| 20:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 2 km/h | 10 km/h | 100% |
+| 21:00 | 🌦️ Chuvisco fraco | 11 °C | 11 °C | 0.2 mm | — | 2 km/h | 9 km/h | 100% |
+| 22:00 | 🌦️ Chuvisco fraco | 11 °C | 11 °C | 0.2 mm | — | 3 km/h | 7 km/h | 100% |
+| 23:00 | 🌦️ Chuvisco fraco | 11 °C | 11 °C | 0.2 mm | — | 3 km/h | 5 km/h | 100% |
 
 ## Oberammergau — Dia 4 — tarde
 
@@ -312,29 +312,29 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 | Hora | Tempo | Temp | Sensação | Chuva | Prob. | Vento | Rajada | Nuvens |
 |---|---|---|---|---|---|---|---|---|
 | 00:00 | 🌦️ Chuvisco | 6 °C | 3 °C | 0.7 mm | 21% | 9 km/h | 24 km/h | 98% |
-| 01:00 | 🌦️ Chuvisco | 8 °C | 5 °C | 0.5 mm | 23% | 9 km/h | 17 km/h | 98% |
-| 02:00 | 🌦️ Chuvisco | 10 °C | 7 °C | 0.2 mm | 24% | 10 km/h | 11 km/h | 100% |
-| 03:00 | ☁️ Encoberto | 11 °C | 9 °C | 0.0 mm | 24% | 9 km/h | 5 km/h | 100% |
-| 04:00 | ☁️ Encoberto | 11 °C | 9 °C | 0.0 mm | 24% | 9 km/h | 6 km/h | 100% |
-| 05:00 | ☁️ Encoberto | 12 °C | 9 °C | 0.0 mm | — | 9 km/h | 6 km/h | 100% |
-| 06:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 9 km/h | 7 km/h | 100% |
-| 07:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 9 km/h | 8 km/h | 100% |
-| 08:00 | ☁️ Encoberto | 13 °C | 11 °C | 0.0 mm | — | 7 km/h | 9 km/h | 100% |
-| 09:00 | ☁️ Encoberto | 15 °C | 14 °C | 0.0 mm | — | 4 km/h | 7 km/h | 100% |
-| 10:00 | ☁️ Encoberto | 17 °C | 17 °C | 0.0 mm | — | 2 km/h | 5 km/h | 100% |
+| 01:00 | 🌦️ Chuvisco | 8 °C | 5 °C | 0.5 mm | 23% | 9 km/h | 19 km/h | 98% |
+| 02:00 | 🌦️ Chuvisco | 10 °C | 7 °C | 0.2 mm | 24% | 10 km/h | 15 km/h | 100% |
+| 03:00 | ☁️ Encoberto | 11 °C | 9 °C | 0.0 mm | 24% | 9 km/h | 10 km/h | 100% |
+| 04:00 | ☁️ Encoberto | 11 °C | 9 °C | 0.0 mm | 24% | 9 km/h | 9 km/h | 100% |
+| 05:00 | ☁️ Encoberto | 12 °C | 9 °C | 0.0 mm | — | 9 km/h | 9 km/h | 100% |
+| 06:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 9 km/h | 9 km/h | 100% |
+| 07:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 9 km/h | 9 km/h | 100% |
+| 08:00 | ☁️ Encoberto | 13 °C | 11 °C | 0.0 mm | — | 7 km/h | 8 km/h | 100% |
+| 09:00 | ☁️ Encoberto | 15 °C | 14 °C | 0.0 mm | — | 4 km/h | 6 km/h | 100% |
+| 10:00 | ☁️ Encoberto | 17 °C | 17 °C | 0.0 mm | — | 2 km/h | 4 km/h | 100% |
 | 11:00 | ☁️ Encoberto | 19 °C | 18 °C | 0.0 mm | — | 5 km/h | 3 km/h | 99% |
-| 12:00 | 🌦️ Chuvisco fraco | 19 °C | 18 °C | 0.3 mm | — | 7 km/h | 3 km/h | 96% |
-| 13:00 | 🌦️ Chuvisco fraco | 19 °C | 18 °C | 0.3 mm | — | 10 km/h | 4 km/h | 93% |
-| 14:00 | 🌦️ Chuvisco fraco | 18 °C | 17 °C | 0.3 mm | — | 10 km/h | 5 km/h | 91% |
-| 15:00 | 🌦️ Chuvisco fraco | 17 °C | 17 °C | 0.2 mm | — | 10 km/h | 6 km/h | 93% |
-| 16:00 | 🌦️ Chuvisco fraco | 16 °C | 16 °C | 0.2 mm | — | 8 km/h | 8 km/h | 97% |
-| 17:00 | 🌦️ Chuvisco fraco | 14 °C | 15 °C | 0.2 mm | — | 6 km/h | 8 km/h | 100% |
-| 18:00 | 🌦️ Chuvisco | 14 °C | 14 °C | 0.8 mm | — | 4 km/h | 7 km/h | 100% |
-| 19:00 | 🌦️ Chuvisco | 13 °C | 13 °C | 0.8 mm | — | 2 km/h | 5 km/h | 100% |
-| 20:00 | 🌦️ Chuvisco | 12 °C | 13 °C | 0.8 mm | — | 2 km/h | 4 km/h | 100% |
-| 21:00 | 🌦️ Chuvisco fraco | 12 °C | 12 °C | 0.4 mm | — | 2 km/h | 4 km/h | 100% |
-| 22:00 | 🌦️ Chuvisco fraco | 12 °C | 12 °C | 0.4 mm | — | 2 km/h | 5 km/h | 100% |
-| 23:00 | 🌦️ Chuvisco fraco | 12 °C | 12 °C | 0.4 mm | — | 3 km/h | 5 km/h | 100% |
+| 12:00 | 🌦️ Chuvisco fraco | 19 °C | 18 °C | 0.3 mm | — | 7 km/h | 4 km/h | 96% |
+| 13:00 | 🌦️ Chuvisco fraco | 19 °C | 18 °C | 0.3 mm | — | 10 km/h | 6 km/h | 93% |
+| 14:00 | 🌦️ Chuvisco fraco | 18 °C | 17 °C | 0.3 mm | — | 10 km/h | 8 km/h | 91% |
+| 15:00 | 🌦️ Chuvisco fraco | 17 °C | 17 °C | 0.2 mm | — | 10 km/h | 8 km/h | 93% |
+| 16:00 | 🌦️ Chuvisco fraco | 16 °C | 16 °C | 0.2 mm | — | 8 km/h | 7 km/h | 97% |
+| 17:00 | 🌦️ Chuvisco fraco | 14 °C | 15 °C | 0.2 mm | — | 6 km/h | 7 km/h | 100% |
+| 18:00 | 🌦️ Chuvisco | 14 °C | 14 °C | 0.8 mm | — | 4 km/h | 8 km/h | 100% |
+| 19:00 | 🌦️ Chuvisco | 13 °C | 13 °C | 0.8 mm | — | 2 km/h | 8 km/h | 100% |
+| 20:00 | 🌦️ Chuvisco | 12 °C | 13 °C | 0.8 mm | — | 2 km/h | 9 km/h | 100% |
+| 21:00 | 🌦️ Chuvisco fraco | 12 °C | 12 °C | 0.4 mm | — | 2 km/h | 8 km/h | 100% |
+| 22:00 | 🌦️ Chuvisco fraco | 12 °C | 12 °C | 0.4 mm | — | 2 km/h | 7 km/h | 100% |
+| 23:00 | 🌦️ Chuvisco fraco | 12 °C | 12 °C | 0.4 mm | — | 3 km/h | 6 km/h | 100% |
 
 ## Lago Eibsee — Dia 4 — fim de tarde
 
@@ -343,29 +343,29 @@ Sugestão baseada só na chuva — confirmar contra bilhetes com hora marcada (N
 | Hora | Tempo | Temp | Sensação | Chuva | Prob. | Vento | Rajada | Nuvens |
 |---|---|---|---|---|---|---|---|---|
 | 00:00 | ❄️ Aguaceiros de neve fortes | 5 °C | 2 °C | 1.1 mm | 21% | 6 km/h | 22 km/h | 100% |
-| 01:00 | ❄️ Aguaceiros de neve fortes | 7 °C | 4 °C | 0.8 mm | 23% | 7 km/h | 16 km/h | 98% |
-| 02:00 | ❄️ Aguaceiros de neve fortes | 8 °C | 6 °C | 0.4 mm | 24% | 9 km/h | 10 km/h | 96% |
-| 03:00 | ☁️ Encoberto | 10 °C | 8 °C | 0.0 mm | 24% | 10 km/h | 5 km/h | 96% |
-| 04:00 | ☁️ Encoberto | 10 °C | 8 °C | 0.0 mm | 24% | 10 km/h | 6 km/h | 98% |
-| 05:00 | ☁️ Encoberto | 11 °C | 8 °C | 0.0 mm | — | 9 km/h | 6 km/h | 100% |
-| 06:00 | ☁️ Encoberto | 11 °C | 9 °C | 0.0 mm | — | 9 km/h | 7 km/h | 100% |
-| 07:00 | ☁️ Encoberto | 11 °C | 9 °C | 0.0 mm | — | 9 km/h | 8 km/h | 100% |
-| 08:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 8 km/h | 9 km/h | 100% |
-| 09:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | — | 5 km/h | 7 km/h | 100% |
-| 10:00 | ☁️ Encoberto | 17 °C | 16 °C | 0.0 mm | — | 1 km/h | 5 km/h | 100% |
+| 01:00 | ❄️ Aguaceiros de neve fortes | 7 °C | 4 °C | 0.8 mm | 23% | 7 km/h | 18 km/h | 98% |
+| 02:00 | ❄️ Aguaceiros de neve fortes | 8 °C | 6 °C | 0.4 mm | 24% | 9 km/h | 14 km/h | 96% |
+| 03:00 | ☁️ Encoberto | 10 °C | 8 °C | 0.0 mm | 24% | 10 km/h | 10 km/h | 96% |
+| 04:00 | ☁️ Encoberto | 10 °C | 8 °C | 0.0 mm | 24% | 10 km/h | 9 km/h | 98% |
+| 05:00 | ☁️ Encoberto | 11 °C | 8 °C | 0.0 mm | — | 9 km/h | 9 km/h | 100% |
+| 06:00 | ☁️ Encoberto | 11 °C | 9 °C | 0.0 mm | — | 9 km/h | 9 km/h | 100% |
+| 07:00 | ☁️ Encoberto | 11 °C | 9 °C | 0.0 mm | — | 9 km/h | 9 km/h | 100% |
+| 08:00 | ☁️ Encoberto | 12 °C | 10 °C | 0.0 mm | — | 8 km/h | 8 km/h | 100% |
+| 09:00 | ☁️ Encoberto | 14 °C | 13 °C | 0.0 mm | — | 5 km/h | 6 km/h | 100% |
+| 10:00 | ☁️ Encoberto | 17 °C | 16 °C | 0.0 mm | — | 1 km/h | 4 km/h | 100% |
 | 11:00 | ☁️ Encoberto | 19 °C | 18 °C | 0.0 mm | — | 2 km/h | 3 km/h | 99% |
-| 12:00 | 🌦️ Chuvisco fraco | 19 °C | 18 °C | 0.4 mm | — | 5 km/h | 3 km/h | 95% |
-| 13:00 | 🌦️ Chuvisco fraco | 18 °C | 18 °C | 0.4 mm | — | 8 km/h | 4 km/h | 90% |
-| 14:00 | 🌦️ Chuvisco fraco | 17 °C | 17 °C | 0.4 mm | — | 9 km/h | 5 km/h | 88% |
-| 15:00 | 🌦️ Chuvisco fraco | 16 °C | 16 °C | 0.4 mm | — | 8 km/h | 6 km/h | 91% |
-| 16:00 | 🌦️ Chuvisco fraco | 15 °C | 15 °C | 0.4 mm | — | 6 km/h | 8 km/h | 96% |
-| 17:00 | 🌦️ Chuvisco fraco | 14 °C | 14 °C | 0.4 mm | — | 5 km/h | 8 km/h | 100% |
-| 18:00 | 🌧️ Chuvisco forte | 13 °C | 13 °C | 1.0 mm | — | 5 km/h | 7 km/h | 100% |
-| 19:00 | 🌧️ Chuvisco forte | 13 °C | 13 °C | 1.0 mm | — | 6 km/h | 5 km/h | 100% |
-| 20:00 | 🌧️ Chuvisco forte | 12 °C | 12 °C | 1.0 mm | — | 6 km/h | 4 km/h | 100% |
-| 21:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 6 km/h | 4 km/h | 100% |
-| 22:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 5 km/h | 5 km/h | 100% |
-| 23:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 4 km/h | 5 km/h | 100% |
+| 12:00 | 🌦️ Chuvisco fraco | 19 °C | 18 °C | 0.4 mm | — | 5 km/h | 4 km/h | 95% |
+| 13:00 | 🌦️ Chuvisco fraco | 18 °C | 18 °C | 0.4 mm | — | 8 km/h | 6 km/h | 90% |
+| 14:00 | 🌦️ Chuvisco fraco | 17 °C | 17 °C | 0.4 mm | — | 9 km/h | 8 km/h | 88% |
+| 15:00 | 🌦️ Chuvisco fraco | 16 °C | 16 °C | 0.4 mm | — | 8 km/h | 8 km/h | 91% |
+| 16:00 | 🌦️ Chuvisco fraco | 15 °C | 15 °C | 0.4 mm | — | 6 km/h | 7 km/h | 96% |
+| 17:00 | 🌦️ Chuvisco fraco | 14 °C | 14 °C | 0.4 mm | — | 5 km/h | 7 km/h | 100% |
+| 18:00 | 🌧️ Chuvisco forte | 13 °C | 13 °C | 1.0 mm | — | 5 km/h | 8 km/h | 100% |
+| 19:00 | 🌧️ Chuvisco forte | 13 °C | 13 °C | 1.0 mm | — | 6 km/h | 8 km/h | 100% |
+| 20:00 | 🌧️ Chuvisco forte | 12 °C | 12 °C | 1.0 mm | — | 6 km/h | 9 km/h | 100% |
+| 21:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 6 km/h | 8 km/h | 100% |
+| 22:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 5 km/h | 7 km/h | 100% |
+| 23:00 | 🌦️ Chuvisco | 12 °C | 12 °C | 0.7 mm | — | 4 km/h | 6 km/h | 100% |
 
 ## Rothenburg ob der Tauber — Dia 5
 

@@ -150,6 +150,18 @@ compares their generation dates and flags a half-refresh.
 including the three alpine stops of Day 4. It mirrors the itinerary's day titles, so update it
 alongside `STOPS` when a day's route changes.
 
+The card is one row per trip day, and each row carries every field the summary can produce:
+weather, high and low, feels-like, rain in millimetres plus how many hours it falls, and the
+peak gust. `wet_level()` turns the millimetres into the 0–4 scale that drives the row's colour,
+and its thresholds (5 / 15 / 30 mm) were calibrated against this trip: at the original 3 mm,
+four of the seven days came out the same amber and the scale stopped distinguishing anything.
+
+**The checker reads a `data-dia` attribute, not a class name.** Class names are styling and
+change; when `weather-day-card` became `wx-row` on 11 September 2026, `verificar.py` went on
+counting the old name and reported the forecast block as empty while seven days sat inside it.
+Anything the checker counts has to be a contract, so emit the hook from the generator and keep
+it stable across redesigns.
+
 Which of the three sources answers for a given day is decided automatically by how far away
 that day is, and each is labelled in the output:
 

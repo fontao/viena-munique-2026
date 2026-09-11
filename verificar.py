@@ -705,10 +705,18 @@ def check_meteo(meteo: list[str], html: list[str]) -> Seccao:
         return s
 
     bloco = texto_html.split(WEATHER_START, 1)[1].split(WEATHER_END, 1)[0]
-    dias = bloco.count('class="weather-day-card"')
-    rotulos = bloco.count('class="weather-src')
+    #  Conta-se o gancho data-dia, e não nomes de classe: os nomes de classe são
+    #  estilo e mudam, e a 11/09/2026 mudaram (weather-day-card deu lugar a
+    #  wx-row) sem que nada aqui desse por isso. O resultado foi o verificador
+    #  declarar vazio um bloco cheio, que é o pior dos dois erros possíveis.
+    dias = bloco.count('class="wx-row" data-dia=')
+    rotulos = bloco.count('class="wx-src')
     if dias == 0:
         s.erro("index.html", "o bloco da previsão está vazio; correr `python meteo.py --html index.html`.")
+    elif dias != len(DIAS_VIAGEM):
+        s.erro("index.html",
+               f"{dias} dias no cartão da previsão, quando a viagem tem {len(DIAS_VIAGEM)}: "
+               "ou falta um dia ou há um a mais.")
     elif rotulos != dias:
         s.erro("index.html",
                f"{dias} dias mas {rotulos} rótulos de fonte: há um dia sem dizer de onde vem o número.")

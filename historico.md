@@ -14,6 +14,58 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 23.ª revisão · 11 de setembro de 2026
+
+**O cartão do tempo foi redesenhado, e o desenho obrigou a corrigir o conteúdo.**
+
+1. **O que faltava não era beleza, eram dados.** O cartão mostrava **tempo, máxima e
+   milímetros**, e mais nada. Estava a deitar fora quase tudo o que o `meteo.py` já recolhia:
+   **mínima** (uma máxima de 25 °C não diz se o dia é 10–25 ou 22–25), **sensação** (o corpo
+   sente o vento e a humidade, não o termómetro), **vento** e **probabilidade de chuva**. Passou
+   a mostrar os seis, por dia e por paragem.
+
+2. **Uma contradição que só se viu ao escrever o novo layout.** O Dia 2 dizia
+   *«Aguaceiros fracos · 34,2 mm · prob. 18%»*, que se lê como disparate: 34 mm é o dia mais
+   molhado da viagem e a probabilidade é a mais baixa. Duas causas, as duas corrigidas:
+   - **O ícone do dia era a moda dos códigos horários**, e num dia com 21 horas de chuva miudinha
+     a maioria das horas é «nublado». Agora, num dia com chuva a sério, manda o código **molhado**
+     mais frequente.
+   - **A probabilidade máxima não serve para isto.** Foi trocada pela **duração**: em quantas
+     horas chove. É a dimensão que faltava e a que distingue os casos que importam: 30 mm em 2
+     horas é um dilúvio, 30 mm em 20 horas é um dia de chuva miudinha. O Dia 2 fica «em 21 h», e
+     o número explica-se sozinho.
+
+3. **A composição mudou de células para linhas.** Eram sete cartões iguais numa grelha, o que
+   dava à viagem o ar de tabela e espremia os números em 148 px. Passou a ser uma lista, uma
+   linha por dia, que é a linguagem do resto do guia. Ganhos concretos: cabe tudo numa linha no
+   ecrã largo, e no telemóvel a paragem passa a bloco com a ordem de leitura certa.
+
+4. **A cor foi calibrada, e à segunda.** O primeiro corte punha **4 dos 7 dias âmbar**, e uma
+   escala em que quase tudo é igual não distingue nada: o olho não tem para onde ir e o Dia 2
+   desaparecia no meio. Os cortes passaram a 5 / 15 / 30 mm, e o fundo das linhas no tema claro
+   subiu de 0,06 para 0,10–0,16 de opacidade, porque a 0,06 era literalmente invisível. Agora o
+   Dia 2 é o único a vermelho, o Dia 3 laranja, e os dias de 1 a 5 mm azul ou âmbar.
+
+5. **Um erro de processo, e é o mais importante desta revisão.** Ao mudar os nomes de classe, o
+   **`verificar.py` deixou de reconhecer o bloco**: contava `weather-day-card` e passou a haver
+   `wx-row`. O resultado foi o verificador declarar **«o bloco da previsão está vazio»** num
+   bloco com sete dias lá dentro. Não é um erro de estilo, é o pior dos dois: um verificador que
+   dá um falso alarme ensina a ignorá-lo. Corrigido nas duas pontas: o gerador passou a emitir um
+   gancho estável (`data-dia`), e o verificador passou a contar esse gancho em vez de nomes de
+   classe, que são estilo e mudam. Ganhou também a verificação de que são **sete** dias e não
+   outro número qualquer. **Fica a lição:** o que o verificador procura tem de ser um contrato,
+   não uma aparência.
+
+6. **Verificação.** `verificar.py` sem erros, 757 `<a>` para 757 `</a>`, 683 divs para 683,
+   9 ligações do Maps dentro do bloco, **zero travessões**, gerador idempotente (duas passagens,
+   ficheiro igual), e testado a **320, 390, 1440 px** e nos **dois temas**, sem um único
+   elemento em estouro. A 320 px o número e a unidade chegavam a partir-se («34,2» e «mm» em
+   linhas diferentes) e ficaram colados.
+
+   > **O que fica:** o cartão passou a responder à pergunta que se faz à porta de casa, «como é
+   > que me visto hoje», e a responder também à que se faz à noite, «que dia é que me vai correr
+   > mal». A primeira era conteúdo em falta, a segunda é a cor.
+
 ## 22.ª revisão · 11 de setembro de 2026
 
 **Sincronização do tempo, e a regeneração apagou os links do cartão.**
