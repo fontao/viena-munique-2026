@@ -36,7 +36,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
    qual a noite do Dia 1 foi montada à porta de casa.
 3. 🔴 **A semana de discotecas em Viena é quinta a sábado.** À quarta a oferta é genuinamente
    fina: bares há aos montes, discotecas a sério são duas ou três.
-4. 🔴 **A Kaiser Wiesn abre na quinta 24 e, aos dias de semana, só a partir das 15:00.**
+4. 🔴 **A Kaiser Wiesn abre na quinta 24 (dia de abertura: recinto abre às 10:00, barril às 12:00; nos restantes dias de semana às 15:00).**
    Entrada no recinto e nas tendas **gratuita durante o dia**; só os eventos noturnos nas tendas
    são pagos.
 5. 🔴 **No Das Loft não se reserva.** O bar é *walk-in*, chega-se e entra-se; quem reservar
@@ -308,7 +308,7 @@ incerta, **telefonar**).
 
 | Item | Horário | Preço | Nota |
 |---|---|---|---|
-| **Wiener Kaiser Wiesn** ⭐🌙✅ | 🔴 **24 set – 11 out. O dia 24 é a abertura (Anstich).** Seg–sex **desde as 15:00**; sáb/dom desde as 11:00 | 🔴 **Recinto e tendas GRÁTIS durante o dia**; só eventos noturnos nas tendas são pagos | 5.ª edição, lema *"Das Leben is a Fest"*. 3 tendas (Gösser, Wiesbauer, Nordic Spirit Kaiser), 5 *Almen*, aldeia Wiesendorf, 150+ concertos. **A 23/9 ainda não abriu.** |
+| **Wiener Kaiser Wiesn** ⭐🌙✅ | 🔴 **24 set – 11 out. O dia 24 é a abertura (cortejo 10:00, barril 12:00).** Seg–sex desde as 15:00 (exceto dia 24); sáb/dom desde as 11:00 | 🔴 **Recinto e tendas GRÁTIS durante o dia**; só eventos noturnos nas tendas são pagos | 5.ª edição, lema *"Das Leben is a Fest"*. 3 tendas (Gösser, Wiesbauer, Nordic Spirit Kaiser), 5 *Almen*, aldeia Wiesendorf, 150+ concertos. **A 23/9 ainda não abriu.** |
 | **Wiener Riesenrad** 🌙 | ~09:00–22:45 a partir de 5/9 | ~€14,50 | A roda de 1897 de *O Terceiro Homem*. Cara para o que é, mas iconicamente indispensável. **Melhor ao anoitecer.** |
 | **Wurstelprater** ⭐ | atrações 10:00–00:00 | **entrada grátis**, €3,50–8 por atração | Praterturm (baloiços a 117 m), montanhas-russas, autódromo. Kitsch delicioso. |
 | **Prater, Hauptallee** | 24h | grátis | Avenida arborizada de 4,5 km. |
@@ -383,7 +383,7 @@ para 24/9 · **futebol** (a jornada da Bundesliga austríaca joga-se tipicamente
 | Dia 1, 15:30 | Torre Sul do Stephansdom, €8,00 | Preço ✅ confirmado. Vale a pena decidir **Sul vs Norte**: a Norte tem elevador. |
 | Dia 2, 20:30 | Reserva no Das Loft | 🔴 **Para o bar não se reserva** (walk-in); reservar mesa de restaurante para depois só beber custa **€25/pax**. |
 | Dia 2, 14:00 | Schönbrunn, acesso | ⚠️ **Regras de acesso alteradas de 14 a 27/9.** A zona da fachada esteve fechada de 14 a 20; a 24 o palácio está aberto, mas o percurso até ao portão pode mudar. Ver o plano oficial. |
-| Dia 2, 17:00 | Kaiser Wiesn | ✅ Confirmado. **Abre às 15:00 aos dias de semana** e a entrada é grátis de dia, chegar às 17:00 funciona. |
+| Dia 2, 17:00 | Kaiser Wiesn | ✅ Confirmado. **No dia 24 abre às 10:00 e o barril às 12:00** (restantes dias de semana às 15:00); entrada grátis de dia, chegar às 17:00 funciona. |
 | Dia 2 | Schönbrunn "Schlossticket €42" | ✅ Confirmado. A versão curta (*State Apartments*) é **€30**. **O parque e a Gloriette são grátis**, é uma alternativa legítima. |
 | - | *(não está no roteiro)* | **A Filarmónica de Viena toca no Musikverein na quinta 24**, com Salonen. E há **Macbeth** na Staatsoper com lugares de pé a €13. |
 
