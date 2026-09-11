@@ -45,6 +45,10 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
    - O plano base e mais económico mantém-se com o comboio ÖBB Railjet + Metro U1 (€5,50/pessoa = €22 para os 4 pax, ~45 min).
    - Foi adicionada a alternativa prática para o grupo avaliar à chegada: caso estejam cansados da madrugada (despertar às 04:45) e prefiram evitar carregar malas de porão/cabine por cais, escadas rolantes e transbordo na Hauptbahnhof, podem abrir a aplicação da Uber (Uber XL) ou Bolt logo após o desembarque. Uma carrinha/XL para 4 pessoas com malas fica por ~€40 a €50 no total (~€10 a €12,50 por pessoa, uma diferença de apenas ~€5 a €7 por pessoa face ao comboio) e deixa o grupo à porta da Judengasse 11 em ~25 a 30 minutos. A recolha de TVDE no aeroporto de Viena realiza-se no piso de partidas.
 
+9. **Remoção da secção de Créditos das Imagens e simplificação do dossiê de alojamentos e emergências.**
+   - A secção final de tabela de créditos de imagens do Wikimedia Commons foi totalmente removida do guia interativo, limpando o rodapé e reduzindo peso e ruído visual no final da página.
+   - A secção de Alojamentos, Carro & Emergências (`#logistics`) foi simplificada: expurgou-se a longa lista redundante de tarefas repetitivas ("Confirmar Antes de Fechar") que duplicava as notas diárias e a lista de preparação, mantendo 4 cartões limpos, operacionais e de consulta imediata: Alojamento Viena (4 pax), Alojamento Augsburg (6 pax), Aluguer de Viatura Enterprise (carrinha 7L) e Contactos de Emergência & Apoio (112, Táxi Munique 24h para 6+, Enterprise 24h, Embaixada PT e piquete de saúde 116 117).
+
 ---
 
 ## 25.ª revisão · 11 de setembro de 2026
