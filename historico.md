@@ -14,6 +14,61 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 16.ª revisão · 11 de setembro de 2026
+
+**A noite do Dia 1, sítio a sítio. O plano aguenta-se; faltava-lhe o que existe à quarta fora do
+Bermudadreieck.**
+
+1. **O que estava certo, e ficou.** Abertos na fonte primária: **Krah Krah** fecha à
+   **meia-noite** de segunda a quinta (é o que o guia dizia); **Salzamt** até à **01:00**, todos
+   os dias; **First Floor** dom–qui até às **02:00**; **DANZÓN** com a *FIESTA* das quartas,
+   **20:00–04:00**, confirmada no Instagram e no Facebook do clube e a **12 min a pé** (medido,
+   899 m). E a **FLEX não tem evento a 23 de setembro**: o calendário oficial de setembro lista
+   22 (WITCHZ) e 24 (Average & Kayo) e mais nada. O plano não mudou de destino.
+
+2. **A regra do metro confirmou-se e era a peça que decide tudo.** A U-Bahn de Viena só circula
+   24 horas à **sexta, ao sábado e nas vésperas de feriado**; à quarta a última composição útil
+   passa por volta das **00:30** e a partir daí são os autocarros noturnos, a partir das ~00:30,
+   de 30 em 30 minutos, com nó em Schwedenplatz. A frase antiga ("última composição
+   ~00:15–00:30") ficou mais precisa.
+
+3. **Quatro correções pequenas.** A **Cabaret Fledermaus** não está a 7 minutos: são **651 m e
+   9 min**. O **Roter Engel** não tem música ao vivo "por volta das 23:00": o site da casa dá
+   **22:00–01:00**. O **Praterdome** abre de **quinta a sábado**, não de sexta a sábado. E no
+   `catalogo_viena.md` o preço do **U4** estava errado: dizia **€10 pela app**, e a página
+   oficial do clube diz **€5 à porta** na noite de quarta (o Heartbreak Hotel, noutra página,
+   diz €12). Passou a **€5 a €12 conforme a noite**. Nos quatro casos a fonte secundária era
+   mais confiante do que a primária.
+
+4. **Duas coisas saíram por não se conseguirem confirmar.** O **Volksgarten** mantém o **21+**
+   (a organização escreve "Einlass ausschließlich ab 21 Jahren"), mas os **€18 só em dinheiro**
+   não aparecem em fonte nenhuma e foram retirados. A **VIE i PEE** mantinha um "grátis antes da
+   meia-noite" que nenhuma fonte sustenta: ficou ⚠️. **Um preço que não se consegue mostrar não
+   é um preço, é uma memória.**
+
+5. **E faltava o essencial: o que é que abre à quarta fora do triângulo.** Adicionado com
+   distâncias medidas a partir da Judengasse 11, e a distinção que o guia não fazia:
+
+   | Alternativa de quarta | Onde | A pé | Entrada | Regresso |
+   |---|---|---|---|---|
+   | **Cabaret Fledermaus**, *Holiday CLUB* | Spiegelgasse 2 | **651 m, 9 min** | **livre** | a pé |
+   | **VIE i PEE**, *Mixwoch* | Waldsteingartenstr. 135, 1020 | **2,8 km, 37 min** | ⚠️ €5–10 | U1 + N-bus |
+   | **U4**, *Heartbreak Hotel* | Schönbrunner Str. 222, 1120 | **5,3 km, 1h11** | €5–12, 18+ | só táxi |
+   | **Das Werk**, *Rave am Mittwoch* | Spittelauer Lände 12, 1090 | U4 até Spittelau | donativo | Bolt ou N-bus |
+
+   **A única que se faz a pé e não paga entrada é a Fledermaus**, e é a que tem a data
+   confirmada: o FALTER lista o *Holiday Club* para **quarta, 23 de setembro de 2026**, às 21:00,
+   com entrada livre, e a própria casa anuncia "FREIER EINTRITT". Passa a ser o plano B oficial
+   do DANZÓN, e o guia diz isso em vez de a enterrar numa lista de quatro nomes.
+
+   > **A lição desta revisão:** uma lista de "planos B" sem distância nem preço não é um plano,
+   > é um índice. As três alternativas que sobraram custam 37 minutos a pé, 1h11 a pé e um
+   > táxi, respetivamente, e é isso que decide a noite, não o nome do clube.
+
+6. **O que não se reconfirmou, para ficar dito:** o programa de setembro da **Grelle Forelle**
+   (a página oficial não carregou) e a série de quartas grátis do **O – der Klub**. Ambos
+   continuam no catálogo como estavam, com o ⚠️ que já tinham.
+
 ## 15.ª revisão · 11 de setembro de 2026
 
 **O jantar do Dia 1 foi verificado todo. A escolha não mudou; as distâncias estavam erradas em

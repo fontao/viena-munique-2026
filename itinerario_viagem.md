@@ -554,15 +554,18 @@ confirmadas abertas à quarta, a terceira não.**
 #### 🌙 A noite · 21:15 em diante
 
 > ### 🚫 Onde não ir nesta noite, e porquê
-> - **Volksgarten Clubdiskothek: fechado às quartas** (só qui–sáb). E mesmo aberto seria o pior
->   cenário possível: **21+, €18 só em dinheiro** e porta agressiva com grupos masculinos.
-> - **FLEX: o calendário oficial de setembro de 2026 não tem evento a 23.** *(O **Flex Café
->   Bar** abre às quartas, 19:00–01:00, entrada livre, mas é um bar, não a discoteca.)*
-> - 🔴 **E o facto logístico que decide tudo: o metro de Viena não circula toda a noite à
->   quarta**, só sexta, sábado e vésperas de feriado. **Última composição ~00:15–00:30.**
->   Depois é autocarro noturno da linha N (vários com nó em **Schwedenplatz, à porta de casa**)
->   ou Bolt, a €12–16. Tudo o que fique no Gürtel, em Meidling ou no Prater sai bem mais caro
->   do que parece. **É por isso que o destino desta noite fica a 12 minutos a pé.**
+> - **Volksgarten Clubdiskothek: fechado às quartas**, só de quinta a sábado, 23:00–06:00.
+>   Confirma-se o **21+**; o resto da reputação não se conseguiu confirmar.
+> - **Praterdome: fechado às quartas**, abre só de quinta a sábado.
+> - **FLEX: o calendário oficial de setembro de 2026 não tem evento a 23** (tem a 22 e a 24).
+>   *(O **Flex Café Bar** abre às quartas, 19:00–01:00, entrada livre, mas é um bar, não a
+>   discoteca.)*
+> - 🔴 **E o facto logístico que decide tudo: o metro de Viena só circula 24 horas à sexta, ao
+>   sábado e nas vésperas de feriado.** À quarta a última composição útil passa por volta das
+>   **00:30**; depois são os autocarros noturnos da linha N (a partir das ~00:30, de 30 em 30
+>   minutos, com nó em **Schwedenplatz, à porta de casa**) ou Bolt. Tudo o que fique no Gürtel,
+>   em Meidling ou no Prater sai bem mais caro do que parece. **É por isso que o destino desta
+>   noite fica a 12 minutos a pé.**
 
 - **21:15 – 22:18**: **Rota de bares no Bermudadreieck**, à porta de casa. Os horários contam as caminhadas: 11 minutos do jantar até cá, 12 daqui ao DANZÓN. Todos sem entrada
   paga e sem dress code:
@@ -570,24 +573,36 @@ confirmadas abertas à quarta, a terceira não.**
     cervejas. ⚠️ **Fecha à meia-noite à quarta:** serve para começar, não para acabar.
   - **Salzamt** (*Ruprechtsplatz 1*, **1 min**), esplanada na praça, ambiente adulto, até à 01:00.
   - **First Floor** (*Seitenstettengasse 5*, **2 min**), cocktails a sério e um aquário atrás
-    do balcão, até às 02:00. O contraponto de qualidade ao ruído do resto do triângulo.
+    do balcão, **dom–qui até às 02:00**. O contraponto de qualidade ao ruído do resto do triângulo.
 - **22:30 – ~02:30**: **DANZÓN Latin Club** (*Johannesgasse 3*, **12 min a pé**). 🔴 *Os bares acabavam às 22:30 e o DANZÓN começava às 22:30, sem os 12 minutos de caminhada pelo meio. Sai-se às 22:18 para chegar às 22:30, que é a hora certa de chegar.*
   - 🎉 **"FIESTA", todas as quartas, 20:00–04:00.** Reggaeton, latin house e bachata, público
     de 20 a 35 anos muito internacional. **Sem porta seletiva e sem dress code.**
+  - ⚠️ **O preço à porta não está publicado em lado nenhum:** confirmar no Instagram do clube.
   - ⏰ **Chegar às 22:30, não antes.** Os workshops de dança acabam às 21:00 e a sala só enche
     depois, às 21:15 seria cedo demais.
   - ✅ **Estando a 12 minutos a pé, podem sair à hora que quiserem sem logística nenhuma**, que
     é exatamente a razão pela qual esta é a escolha certa numa noite em que o metro fecha à
     00:30 e no dia seguinte há um dia inteiro de Viena pela frente.
-- **~02:30**: Regresso a pé. Se apetecer, **Würstelstand am Hoher Markt** (aberto até ~04:00,
-  a **3 min de casa**) para a *Käsekrainer* da praxe.
+- **~02:30**: Regresso a pé. Se apetecer, **Würstelstand am Hoher Markt** (aberto
+  **09:00–04:00**, a **2 min de casa**) para a *Käsekrainer* da praxe.
+- 🚪 **As alternativas de quarta que existem de verdade, e o que custam:**
+  - **Cabaret Fledermaus** (*Spiegelgasse 2*, **9 min a pé**): **HOLIDAY CLUB toda a quarta,
+    entrada livre**, dance hits dos 90 e 2000. É a única alternativa que se faz a pé e não paga
+    entrada, e o FALTER tem-na marcada para **quarta, 23 de setembro**. **Se o DANZÓN estiver
+    cheio, é para aqui.**
+  - **VIE i PEE, "Mixwoch"** (*Waldsteingartenstraße 135, 1020*, **2,8 km**): quarta desde as
+    23:00, hip-hop. Vai-se de **U1 até Praterstern**; a pé são 37 minutos.
+  - **U4, "Heartbreak Hotel"** (*Schönbrunner Straße 222, 1120*, **5,3 km**): 90s e 2000s, portas
+    às 23:00, 18+, **€5 a €12 conforme a noite**. Fácil de lá chegar de metro (U4 direto), o pior
+    de voltar: **1h11 a pé**, só táxi.
+  - **Das Werk, "Rave am Mittwoch"** (*Spittelauer Lände 12, Bogen 331*, 1090): rave de quarta,
+    23:00 às 04:00, **entrada por donativo**, a partir de €5 dão um shot. U4 até Spittelau.
 - 🅱️ **Planos B, todos a pé:** **Kaktus** (*Seitenstettengasse 5*, 19:00–04:00, com pista),
-  **Roter Engel** (*Rabensteig 5*, ter–sáb 18:00–04:00, música ao vivo por volta das 23:00),
-  **Cabaret Fledermaus** (*Spiegelgasse 2*, 7 min, **entrada livre a partir das 21:00**) e
-  **Loos American Bar** (*Kärntner Durchgang 10*, **aberto até às 04:00 todos os dias**, 27 m²
-  desenhados por Adolf Loos em 1908, sem reservas, ir cedo).
-- ☎️ **A confirmar em setembro, uma coisa só:** a residência *FIESTA* das quartas no Instagram
-  do DANZÓN, e o preço à porta, que não está publicado.
+  **Roter Engel** (*Rabensteig 5*, ter–sáb 18:00–04:00, música ao vivo das 22:00 à 01:00) e
+  **Loos American Bar** (*Kärntner Durchgang 10*, **9 min**, **aberto até às 04:00 todos os
+  dias**, 27 m² desenhados por Adolf Loos em 1908, sem reservas, ir cedo).
+- ☎️ **A confirmar a 23 de setembro:** a residência *FIESTA* das quartas no Instagram do DANZÓN,
+  e o preço à porta, que não está publicado em lado nenhum.
 
 ---
 

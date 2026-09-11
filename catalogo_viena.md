@@ -82,7 +82,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 |---|---|---|---|---|
 | **Krah Krah** ✅ | Rabensteig 8 | 11:00–**24:00** | meia-noite | ~60 cervejas, sandes abertas. O fundador do triângulo (1980). **Serve para começar, não para acabar.** |
 | **Kaktus** ✅ | Seitenstettengasse 5 | 19:00–**04:00** | 04:00 | Com pista. Música alta, não é sítio de conversa. **Um dos poucos que aguenta a madrugada.** |
-| **Roter Engel** ✅ | Rabensteig 5 | ter–sáb 18:00–**04:00** | 04:00 | Música ao vivo quase todas as noites (~23:00). Confirmar se há banda. |
+| **Roter Engel** ✅ | Rabensteig 5 | ter–sáb 18:00–**04:00** | 04:00 | Música ao vivo **22:00–01:00**. Confirmar se há banda. |
 | **First Floor** ✅ | Seitenstettengasse 5 | dom–qui 18:00–**02:00** | 02:00 | Cocktails a sério, aquário atrás do balcão. O contraponto de qualidade ao ruído do resto. |
 | **Salzamt** ⚠️ | Ruprechtsplatz 1 | 17:00–01:00 | 01:00 | **1 minuto.** Esplanada na praça, ambiente adulto. |
 | **Santo Spirito** ⭐⚠️ | Kumpfgasse 7 | ~17:00–24:00 (fontes divergem, algumas até 02:00) | - | **Ópera clássica a todo o volume até de madrugada.** Excêntrico e absolutamente vienense. |
@@ -119,11 +119,11 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 
 | Clube | Onde | Noite fixa | Horário | Preço | Porta | Trajeto | Regresso |
 |---|---|---|---|---|---|---|---|
-| **Cabaret Fledermaus** ⭐ | Spiegelgasse 2, 1010 | *Holiday Club* | desde as 21:00 | **entrada livre a partir das 21:00** | sem porta a sério | **7–8 min a pé** | a pé |
+| **Cabaret Fledermaus** ⭐✅ | Spiegelgasse 2, 1010 | *Holiday CLUB*, todas as quartas | **20:00–04:00** (a festa é anunciada às 21:00) | **entrada livre**, confirmada nos canais da casa | sem porta a sério | **9 min a pé** | a pé |
 | **DANZÓN Latin Club** ⭐ | Johannesgasse 3, 1010 | ***FIESTA*, todas as quartas** | 20:00–04:00 | a confirmar no local | sem seleção | **10–12 min a pé** | a pé |
 | **Das Werk** ⭐ | Spittelauer Lände, Bogen 331 | ***Rave am Mittwoch*** | 23:00–~04/06:00 | **donativo** (a partir de €5 oferecem shot) | *"NO DRESSCODE // COME AS YOU ARE"*, equipa de awareness | U4 → Spittelau, 15–18 min | Bolt ~€15 ou N-bus |
-| **VIE i PEE** ⭐ | Waldsteingartenstr. 135 (Prater) | ***Mixwoch*** | 23:00–06:00 | €5–10; **grátis antes da meia-noite** | acessível | U1 → Praterstern, ~20 min | N-bus para Schwedenplatz |
-| **U4** | Schönbrunner Str. 222, 1120 | *Heartbreak Hotel* / *RESET*: 90s e 2000s | 23:00–06:00 | **€12 à porta / €10 pela app antes da meia-noite**, 18+ | nenhuma | U4 direto de Schwedenplatz, 15–25 min | ⚠️ **o pior regresso de todos** |
+| **VIE i PEE** ⭐ | Waldsteingartenstr. 135 (Prater) | ***Mixwoch***, todas as quartas | 23:00–06:00 | ⚠️ €5–10, por confirmar | acessível | U1 → Praterstern, ~20 min | N-bus para Schwedenplatz |
+| **U4** | Schönbrunner Str. 222, 1120 | *Heartbreak Hotel* / *RESET*, 90s e 2000s, **todas as quartas** | **portas às 23:00** | ⚠️ **€5 a €12 conforme a noite**, 18+ | nenhuma | U4 direto, 20–25 min | ⚠️ **5,3 km: 1h11 a pé, só táxi** |
 | **Club U** | Otto-Wagner-Pavillon, Karlsplatz | - | 19:00–04:00 | grátis ou ~€5 ⚠️ | informal | U1, ~10 min | fácil |
 | **Chelsea** | Lerchenfelder Gürtel 29–31 | sem noite fixa; 23/9 é semana de Champions | diário 18:00–04:00 | grátis a €10 | nenhuma | ~20–25 min | N6 ou Bolt |
 | **Café Concerto** ⭐ | Lerchenfelder Gürtel 53 | **jam session de jazz fixa à quarta** | qua–sáb 19:00–02:00 | **grátis** | nenhuma | ~23–26 min | N6 ou Bolt |
@@ -139,11 +139,11 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 
 | Clube | Prova |
 |---|---|
-| **Volksgarten Clubdiskothek** | Só qui–sáb. **E mesmo aberto seria o pior cenário:** 21+, €18 **só em dinheiro**, porta agressiva com grupos masculinos. |
+| **Volksgarten Clubdiskothek** | Só qui–sáb, 23:00–06:00. **21+ confirmado** (Einlass ausschließlich ab 21). E mesmo aberto não serve a esta noite. |
 | **Grelle Forelle** | O programa oficial de setembro de 2026 lista 4, 5, 11, 12, 19, 25, 26, 28, **o dia 23 não aparece.** |
 | **Flex** *(o clube)* | O calendário oficial de setembro lista apenas 3 e 5. ✅ **Mas o Flex Café Bar abre às quartas 19:00–01:00, entrada livre**, a 8–10 min pelo canal. |
 | **Sass Music Club** | Só qui–dom. |
-| **Praterdome** | Só sex/sáb. |
+| **Praterdome** | Só de quinta a sábado. |
 | **Camera Club** | Site oficial: só sex/sáb 23:00–06:00. *(Guias que falam de hip-hop à quarta estão desatualizados.)* |
 | **Passage** | Qui–sáb. Admissão **explicitamente discricionária**, exige ID com foto. Das portas mais duras de Viena. |
 | **Titanic, B72, Säulenhalle, Werk** | Padrão de fim de semana. |
@@ -365,7 +365,7 @@ para 24/9 · **futebol** (a jornada da Bundesliga austríaca joga-se tipicamente
 
 | Onde | O que está lá | O que devia estar |
 |---|---|---|
-| Dia 1, noite | "FLEX ou Volksgarten Club" | **Ambos falham.** O Volksgarten está fechado à quarta (e é 21+, €18 só em dinheiro, porta agressiva); o Flex não tem evento a 23. |
+| Dia 1, noite | "FLEX ou Volksgarten Club" | **Ambos falham.** O Volksgarten está fechado à quarta (e é 21+); o Flex não tem evento a 23 (ver 1.4). |
 | Dia 1, 18:30 | "Sol põe-se às ~19:00" | **18:49.** Antecipar os pré-copos para as 18:00. |
 | Dia 1, 18:30 | "*Tel Aviv Beach* e os bares junto à Schwedenbrücke" | 🔴 O Tel Aviv Beach **já não existe**, é o NENI am Wasser. As opções reais são **Motto am Fluss** (2–4 min) e **Badeschiff** (10 min). |
 | Dia 1, aviso | "Não ir ao Strandbar Herrmann hoje" *(por distância)* | Continua certo, mas por outro motivo: **a época acaba a ~21 de setembro.** Está fechado. |
