@@ -170,6 +170,13 @@ Never present the climatology or seasonal rows as a forecast, and keep their war
 seasonal block reports the p10–p90 spread on purpose: it shows the uncertainty rather than
 hiding it behind a single number.
 
+**Do not change the itinerary on a partial forecast.** A refresh may cover only some of the
+seven days, and the days it does not cover are still averages wearing a forecast's clothes. No
+plan, clothing list or day swap changes until **all seven days (23–29 September) are inside the
+forecast window**, which happens when `forecast_horizon()` reaches 29 September (from **14
+September**). Sync and record before that; do not act. Until then the numbers are for context
+only, and the ones furthest out are the most fragile.
+
 ### The matrix, and why it exists
 
 Every stop is fetched for **every day of the trip**, not just its scheduled day, and the
