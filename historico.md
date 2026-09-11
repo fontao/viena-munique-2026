@@ -107,6 +107,11 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
       3) **19:45 – 21:00 (Jantar & Descanso):** nó autónomo para jantar calmo no Lechviertel/Rathausplatz e recolher cedo ao alojamento em preparação para a maratona da Oktoberfest no Dia 6.
     - **Validação total:** verificação de cronometria estrita, 0 sobreposições, 0 travessões e paridade total em `verificar.py` (86 preços comuns, 0 órfãos).
 
+18. **Despoluição do Dia 4: eliminação de debate retrospetivo de planeador e precisão do pequeno-almoço no apartamento.**
+    - **Remoção de meta-narrativa e ensaio justificativo (Regras 9 e 11):** Eliminada a caixa de texto redundante no guia (`index.html`) e a respetiva citação no itinerário (`itinerario_viagem.md`) que debatia a decisão de não entrar no Castelo de Neuschwanstein («A decisão que dá forma a este dia... O que se perde, e não vale a pena minimizar... A troca é paisagem contra interiores, e faz-se com os olhos abertos»). O itinerário limita-se agora a apresentar o plano executável e a salvaguarda prática essencial: a ponte Marienbrücke e os miradouros são gratuitos, enquanto o pátio interior do castelo exige torniquete/bilhete.
+    - **Uniformização do pequeno-almoço nos Dias 4 e 5:** Eliminadas as menções contraditórias a «café rápido numa padaria próxima» ou «pastelaria de domingo aberta no centro de Augsburg». O pequeno-almoço matinal de sábado e domingo é tomado de forma tranquila no apartamento na Am Bogen 6, usufruindo diretamente das provisões de supermercado compradas na véspera.
+    - **Validação de paridade e integridade:** Execução do `verificar.py` com 0 erros, 0 preços órfãos e 0 travessões.
+
 ---
 
 

@@ -714,24 +714,6 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 ### 🏔️ 🇩🇪 Dia 4: Sábado, 26 de Setembro · [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) & Lago [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)
 **⏰ Acordar 10:00 · Saída às 10:30. Continua a não ser preciso madrugar, e agora nem há hora marcada.**
 
-> ### 🚨 A decisão que dá forma a este dia: não se entra em castelo nenhum
-> **Vai-se à [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), que é de graça e não precisa de bilhete, e não se compra a visita
-> guiada ao [Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau).** O interior só existia em alemão às horas que serviam a este dia,
-> e o áudio-guia em português só aparecia às 17:55, refém do último shuttle das 17:30. Trocar
-> o interior pela paisagem custa zero euros, poupa **€141** e devolve ao dia **duas horas e um
-> quarto**, que é o que faltava para haver almoço e para o [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) não ser uma corrida.
->
-> 🚫 **Atenção ao que isto exclui, e não é só o interior.** A própria hohenschwangau.de
-> escreve: *"Sie benötigen kein Ticket, wenn Sie das Schloss nur von außen sehen möchten. Der
-> Zugang zum Schlosshof ist jedoch ohne Eintrittskarte leider nicht möglich."* **A ponte é
-> livre, o pátio do castelo não.** Descer os 15 minutos íngremes da paragem do shuttle até à
-> porta do [Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau) dá numa cancela que não se atravessa, e obriga a voltar a subir.
-> **Não se faz.** Fica-se do lado da ponte e do miradouro, que é de onde se vê o castelo
-> inteiro.
->
-> **O que continua a mandar na tarde: [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) vem antes do [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)**, porque a aldeia
-> entra em sombra por volta das 17:40 e o pôr do sol no lago é às 19:03.
-
 > ### 🍽️ O almoço, sentado, na aldeia
 > O dia tem **onze horas de programa** e esta é a única refeição sentada: os 115 minutos em
 > [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) são para almoçar, não para chegar a um torniquete às 14:00. Almoça-se na
@@ -746,7 +728,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 
 - **10:00 – 10:30**: **Acordar no apartamento, pequeno-almoço e preparativos da carrinha.**
   - 💤 Acordar às 10:00 com descanso merecido no apartamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%206%2C%2086152%20Augsburg) após a primeira noite e brinde no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg). Sem pressas nem hora marcada de bilheteira nos castelos.
-  - ☕ Pequeno-almoço no apartamento com as provisões compradas na véspera no supermercado (pão, queijo, café, leite e fruta) ou café rápido numa padaria próxima.
+  - ☕ Pequeno-almoço no apartamento com as provisões compradas na véspera no supermercado (pão, queijo, café, leite e fruta).
   - 🎒 **Tarefas essenciais antes de arrancar às 10:30:**
     - 📞 **Fazer as duas reservas do dia por telefone:** 1) Almoço no **[Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)** para as **14:15** (+49 8362 98200); 2) Jantar bávaro em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) para as **21:30** (+49 821 153644 ou taberna local), garantindo mesa para os 6 em pleno sábado de Oktoberfest.
     - 🧥 **Levar agasalhos e corta-vento na carrinha:** o [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) está a 973 m e ao fim da tarde cai facilmente para os **8 °C a 12 °C**.
@@ -771,6 +753,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
   - ⚠️ **Confirmar o estado da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau) em hohenschwangau.de na véspera.** Fecha por mau
     tempo ou obras, sem aviso, e neste plano ela é o ponto central da manhã. *(A garganta do Pöllat está
     fechada por deslizamento, mas o roteiro nunca a incluiu.)*
+  - 🚫 **Atenção ao acesso:** a [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau) e os miradouros são gratuitos e de livre acesso, mas o pátio interior do [Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau) exige bilhete. Não descer a rampa do shuttle até à cancela do castelo: o foco é a ponte e os miradouros exteriores.
 - **14:15 – 15:15**: **Almoço no [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)**, em [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). Ver a caixa acima.
   - ⚠️ **São 60 minutos, e continuam a ser poucos.** Seis pessoas a entrar, escolher,
     comer e pagar num restaurante cheio ao sábado não se fazem em três quartos de hora. **Para
@@ -829,7 +812,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 
 - **10:00 – 11:00**: **Acordar no apartamento, pequeno-almoço e preparação da viagem.**
   - 💤 Acordar às 10:00 no apartamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%206%2C%2086152%20Augsburg) com sono recuperado do dia nos Alpes, sem correrias nem despertador madrugador.
-  - ☕ Pequeno-almoço tranquilo em casa com os mantimentos do frigorífico ou café numa pastelaria de domingo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150).
+  - ☕ Pequeno-almoço tranquilo em casa com as provisões do frigorífico compradas na véspera.
   - 📞 **Fazer a chamada da manhã para reservar o almoço para 6 em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) às 13:15:** escolher o **[Reichsküchenmeister](https://www.google.com/maps/search/?api=1&query=Hotel-Gasthof%20Reichsk%C3%BCchenmeister%2C%20Kirchplatz%208%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (+49 9861 9500) ou o **[Baumeisterhaus](https://www.google.com/maps/search/?api=1&query=Restaurant%20Baumeisterhaus%2C%20Obere%20Schmiedgasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (+49 9861 9470-0), ambas de cozinha contínua. Uma mesa para 6 ao domingo sem reserva é recusada.
   - 💶 **Levar dinheiro vivo:** a St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber) (€30 para os 6), as bancas de *Schneeballen* e pequenas lojas não aceitam cartão.
   - 🚗 Partida às 11:00 com todos a bordo na carrinha de 7 lugares.
