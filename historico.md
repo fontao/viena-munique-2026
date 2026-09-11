@@ -72,6 +72,10 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - Destaque crítico para a lei bávara de encerramento do comércio (*Bayerisches Ladenschlussgesetz*): os supermercados encerram impreterivelmente às 20:00 e fecham totalmente ao domingo. Dado que no sábado (Dia 4) o regresso do roadtrip dos Alpes ocorre após as 21:00 e no domingo (Dia 5) tudo está fechado, a tarde de sexta-feira é a única janela viável para abastecer a carrinha (águas e snacks para os Alpes) e o apartamento (cervejas bávaras e pequenos-almoços para os 6).
     - Adicionado o botão de acesso rápido do Google Maps ao EDEKA no cartão de check-in do guia web interativo (`index.html`).
 
+13. **Precisão de hiperligações e toponímia no Dia 1 (Schachtelwirt e Würstelstand).**
+    - Retificado o link da Judengasse 5 para apontar diretamente para o *Schachtelwirt*, evitando duplicar a morada do apartamento vizinho (Judengasse 11).
+    - Ajustado o nome e link oficial do quiosque de salsichas de recurso para *Würstelstand zum Hohen Markt* em ambos os ficheiros.
+
 ---
 
 

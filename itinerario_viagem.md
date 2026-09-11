@@ -225,7 +225,7 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | Item | Pax | Preço 2026 | Nota |
 |---|---|---|---|
 | **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €5,50/pax = **€22** | ✅ **Decidido.** Pedir *Flughafen [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) ➔ [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)* com zona central · alternativa: Uber XL / Bolt à chegada (~€40 a €50 total) |
-| **Almoço no Schachtelwirt** (Dia 1) | 4 | ⚠️ caixas **€4–9**, assado **€13–16** = **~€30 a €60** | **[Judengasse](https://www.google.com/maps/search/?api=1&query=Judengasse%2011%2C%201010%20Wien) 5**, a 1 min, com as malas · **mesas dentro** · abre às 11:30 |
+| **Almoço no [Schachtelwirt](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien)** (Dia 1) | 4 | ⚠️ caixas **€4–9**, assado **€13–16** = **~€30 a €60** | **[Judengasse 5](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien)**, a 1 min, com as malas · **mesas dentro** · abre às 11:30 |
 | **3× Bilhete Simples [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Linien** | 4 | **€9,00**/pax = **€36** | Comprar na app WienMobil (€3,00/bilhete) para Dia 2 (ida e volta do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) e Dia 3 (ida à estação) · poupa €0,70/pax face ao passe 24h (€9,70) |
 | **Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)** | 4 | ✅ **€8,00**/pax = **€32** | 343 degraus · **só dinheiro, na catedral** · aberta 09:00–19:00, última subida 18:15 |
 | **[Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien)** ([Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) | 4 | **grátis** | Dia 2 · vista exterior a partir da praça, sem subida (poupa €58) |
@@ -406,8 +406,7 @@ Augsburgo ➔ Munique) manda.
   **Central City Apartments** (*[Judengasse](https://www.google.com/maps/search/?api=1&query=Judengasse%2011%2C%201010%20Wien) 11, 1010 [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)*), no coração do [Bermudadreieck](https://www.google.com/maps/search/?api=1&query=Bermudadreieck%2C%201010%20Wien).
   - 🧳 **São duas malas, e não se anda a passear com elas.** O U1 deixa o grupo a 4 min da
     porta e é o único trajecto do dia em que as malas andam à mão.
-  - 🍽️ **Almoça-se aqui mesmo, com as malas debaixo da mesa: o *Schachtelwirt*, na [Judengasse](https://www.google.com/maps/search/?api=1&query=Judengasse%2011%2C%201010%20Wien)
-    5, a 43 m da porta do apartamento.** Às 14:30 quase tudo o que é restaurante já fechou a
+  - 🍽️ **Almoça-se aqui mesmo, com as malas debaixo da mesa: o *[Schachtelwirt](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien)*, na [Judengasse 5](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien), a 43 m da porta do apartamento.** Às 14:30 quase tudo o que é restaurante já fechou a
     cozinha ou está entre serviços (o *Koh-i-noor*, ao lado, fecha às 14:30) e o que sobra é
     *takeaway* de pé. O Schachtelwirt é a exceção: **tem mesas dentro**, **abre às 11:30**, e
     serve comida austríaca numa caixa, que é o almoço de escritório clássico desta cidade.
@@ -419,7 +418,7 @@ Augsburgo ➔ Munique) manda.
         **~€30 para os 4** e é a opção que serve o pedido de comer barato.
       - **O *Schweinsbraten* com *Semmelknödel* e *Sauerkraut*, €13 a €16:** o prato da casa, e
         o único que faz o almoço subir para **~€60 para os 4**.
-    - 🔴 **Se estiver cheio:** o **Würstelstand am [Hoher Markt](https://www.google.com/maps/search/?api=1&query=Hoher%20Markt%2C%201010%20Wien)**, a 3 min, aberto **09:00–04:00**
+    - 🔴 **Se estiver cheio:** o **[Würstelstand zum Hohen Markt](https://www.google.com/maps/search/?api=1&query=W%C3%BCrstelstand%20zum%20Hohen%20Markt%2C%201010%20Wien)**, a 3 min, aberto **09:00–04:00**
       e €5–7. É mais barato e é o mesmo sítio do fim da noite, mas é *takeaway* puro, **sem uma
       única mesa**: come-se de pé, com as malas ao lado.
   - 🔑 **O check-in é a única peça do dia que não está fechada: sabe-se por volta das 14:00 e o
