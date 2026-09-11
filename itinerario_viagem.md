@@ -201,8 +201,8 @@ e a entrada fixa das 14:00 estragava a paragem no Sacher. Além disso, as obras 
 de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 
 **O que se faz em vez disso:**
-- **[Tesouro Imperial (Schatzkammer)](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien)**: **€16** online (ou **€12** jovem com cartão de estudante até 25 anos), 1h30. A coroa do Sacro Império Romano, coroa austríaca, Tosão de Ouro. Reservar faixa horária em shop.khm.at.
-- **[Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien) da Biblioteca Nacional**: a 2 min a pé, **€12** (ou **€10** jovem até 27 anos), audioguia **€3**, ou **€2,50** a partir de duas pessoas. Sala barroca com 200 000 volumes. Às quintas aberta até às 21:00.
+- **[Tesouro Imperial (Schatzkammer)](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien)**: **€16** online, 1h30. A coroa do Sacro Império Romano, coroa austríaca, Tosão de Ouro. Reservar faixa horária em shop.khm.at.
+- **[Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien) da Biblioteca Nacional**: a 2 min a pé, **€12**, audioguia **€3**, ou **€2,50** a partir de duas pessoas. Sala barroca com 200 000 volumes. Às quintas aberta até às 21:00.
 
 ---
 
@@ -611,8 +611,7 @@ confirmadas abertas à quarta, a terceira não.**
     melhor miradouro sobre a fachada da Ópera. Na base, o *[Bitzinger](https://www.google.com/maps/search/?api=1&query=Bitzinger%20W%C3%BCrstelstand%2C%20Albertinaplatz%2C%201010%20Wien)*, o quiosque de salsichas mais
     famoso de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich). Dois minutos, custo zero.
 - **13:40 – 15:10**: **[Tesouro Imperial (Schatzkammer)](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien)**, dentro do Hofburg. **1h30.**
-  - ✅ **€16 online, ou €12 com cartão de estudante até aos 25 anos.** É o desconto jovem que o
-    [Café Korb](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Korb%2C%20Brandst%C3%A4tte%209%2C%201010%20Wien) e o [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) não dão.
+  - ✅ **€16 online.**
   - 🎫 **A partir de 1 de abril de 2026 a entrada é só por faixa horária: reservar**, em shop.khm.at.
   - **O que é:** a **coroa do Sacro Império Romano**, do século X, a coroa austríaca, o Tosão de
     Ouro, e o *corno de unicórnio*, que é um dente de narval. É o melhor museu-do-tesouro da
@@ -621,8 +620,7 @@ confirmadas abertas à quarta, a terceira não.**
     17:00. Depois do almoço é a altura certa, e é quando o dia tem o buraco a preencher.
 - **15:15 – 15:55**: **[Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien)** da Biblioteca Nacional, *[Josefsplatz](https://www.google.com/maps/search/?api=1&query=Josefsplatz%2C%201010%20Wien) 1*,
   **a 2 min a pé do Tesouro**.
-  - ✅ **€12, ou €10 com cartão de estudante até aos 27 anos.** Audioguia **€3**, ou €2,50 a partir
-    de duas pessoas.
+  - ✅ **€12.** Audioguia **€3**, ou **€2,50** a partir de duas pessoas.
   - **O que é:** uma sala barroca de **80 metros de comprimento e 20 de altura**, com 200 000
     volumes, quatro globos venezianos com mais de um metro e frescos na cúpula. É provavelmente a
     sala mais impressionante de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich), e são **40 minutos**, não uma tarde.

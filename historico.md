@@ -27,6 +27,9 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 3. **Instituição da Regra 11: proibição de meta-narrativa e gabarolice de planeador nos documentos de terreno.**
    O itinerário (`itinerario_viagem.md`) e o guia web interativo (`index.html`) são ferramentas de navegação e instrução para quem está na rua, não diários de conceção. Foram expurgados comentários de bastidores e justificações retrospetivas (ex.: *"que o Dia 1 deixou de fora de propósito para nenhuma rua se andar duas vezes"*). Foi adicionada a Regra 11 ao `CLAUDE.md` e a respetiva convenção ao `.claude/referencia/convencoes.md`, estipulando que a lógica de interligação e desenho de percurso pertence exclusivamente ao `historico.md`.
 
+4. **Preço normal nos bilhetes do Hofburg: remoção dos descontos de estudante.**
+   Descartadas as menções às tarifas de estudante no Tesouro Imperial (€12 até aos 25 anos) e no Prunksaal (€10 até aos 27 anos). Os documentos passam a indicar exclusivamente a tarifa normal de adulto (€16 online no Tesouro e €12 no Prunksaal, com audioguia a €3 ou €2,50 a partir de 2 pessoas).
+
 ---
 
 ## 25.ª revisão · 11 de setembro de 2026
@@ -44,8 +47,8 @@ O grupo avaliou que Schönbrunn ocupava demasiado tempo no meio do dia, ficava d
    Com a entrada fixa das 14:00 em Schönbrunn, o grupo dispunha de apenas 40 minutos para descer a Kärntner Straße e passar pelo Café Sacher, o que obrigava a abdicar de sentar e mandava comprar a tarte na Sacher Confiserie. Sem essa amarra, o grupo tem 35 minutos tranquilos para desfrutar da Sachertorte ou visitar a Confiserie, ver o terraço da Albertina e entrar calmamente no Hofburg logo a seguir.
 
 3. **Duas das peças culturais mais marcantes da Europa.**
-   - **Tesouro Imperial (Schatzkammer):** no Schweizerhof do Hofburg. Guarda a coroa imperial do Sacro Império Romano-Germânico (século X), a coroa imperial da Áustria, o tesouro da Ordem do Tosão de Ouro e a relíquia do corno de unicórnio (dente de narval). Aberto das 09:00 às 17:30 (última entrada 17:00). Visita de 1h30 (13:40–15:10). Bilhetes: €16 online (€12 jovem estudante até 25 anos); entrada por faixa horária em shop.khm.at.
-   - **Prunksaal da Biblioteca Nacional:** na Josefsplatz 1, a 2 minutos a pé do Tesouro. Salão cerimonial barroco de 80 metros de comprimento e 20 metros de altura com 200 000 volumes históricos, 4 globos venezianos e cúpula afrescada por Daniel Gran. Às quintas-feiras encerra excepcionalmente às 21:00 (em vez das 18:00), o que proporciona total folga operacional. Visita de 40 minutos (15:15–15:55). Bilhetes: €12 (€10 estudante até 27 anos); audioguia €3 (ou €2,50 a partir de 2 pessoas).
+   - **Tesouro Imperial (Schatzkammer):** no Schweizerhof do Hofburg. Guarda a coroa imperial do Sacro Império Romano-Germânico (século X), a coroa imperial da Áustria, o tesouro da Ordem do Tosão de Ouro e a relíquia do corno de unicórnio (dente de narval). Aberto das 09:00 às 17:30 (última entrada 17:00). Visita de 1h30 (13:40–15:10). Bilhetes: €16 online; entrada por faixa horária em shop.khm.at.
+   - **Prunksaal da Biblioteca Nacional:** na Josefsplatz 1, a 2 minutos a pé do Tesouro. Salão cerimonial barroco de 80 metros de comprimento e 20 metros de altura com 200 000 volumes históricos, 4 globos venezianos e cúpula afrescada por Daniel Gran. Às quintas-feiras encerra excepcionalmente às 21:00 (em vez das 18:00), o que proporciona total folga operacional. Visita de 40 minutos (15:15–15:55). Bilhetes: €12; audioguia €3 (ou €2,50 a partir de 2 pessoas).
 
 4. **Poupança financeira de €168 em entradas e €0,70/pax em transportes.**
    - Não se compram os bilhetes de Schönbrunn (Schlossticket 4 × €42 = €168 poupados).
