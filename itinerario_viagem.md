@@ -513,33 +513,38 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
 #### 🍽️ Jantar · 19:45 às 21:00
 
 Com um despertar às 04:45 e o almoço às 14:25, são cinco horas de cidade sem comer até ao
-jantar, e por isso esta noite tem jantar marcado. **Três opções, todas a pé e todas confirmadas
-abertas à quarta:**
+jantar, e por isso esta noite tem jantar marcado. **Três opções, todas a pé; as duas primeiras
+confirmadas abertas à quarta, a terceira não.**
 
 | Opção | Onde | Horário | Preço | A pé | Reserva |
 |---|---|---|---|---|---|
-| ⭐ **Schöne Perle** | Große Pfarrgasse 2, **1020** | Diário 11:00–24:00, cozinha até 22:30 | **€14,90–29,50** | 11 min | recomendada, não crítica |
-| **Gasthaus Pöschl** | Weihburggasse 17, 1010 | Seg–sáb 12:00–23:00, cozinha até 22:00 | ~€19–29 | 10 min | **obrigatória** |
-| **Zum Bettelstudent** | Johannesgasse 12, 1010 | Seg–qui 11:00–24:00 | ~€14–22 | 11 min | não precisa |
+| ⭐ **Schöne Perle** | Große Pfarrgasse 2, **1020** | Diário 11:00–24:00, sem dia de descanso, cozinha até 22:30 | pratos **€15,00–29,50** | 13 min | recomendada, não crítica |
+| **Gasthaus Pöschl** | Weihburggasse 17, 1010 | Seg–sáb 12:00–23:00, cozinha até 22:00, **fechado dom** | pratos **€14,80–29,50** | 11 min | **obrigatória** |
+| **Zum Bettelstudent** | Johannesgasse 12, 1010 | ⚠️ a casa dá dois horários no mesmo site | ⚠️ não publicado | 15 min | não precisa |
 
 - ⭐ **A escolha é a Schöne Perle.** Fica no **Karmeliterviertel**, do outro lado da
-  Schwedenbrücke, ou seja, **no fim natural do passeio do canal**. Cozinha vienense honesta,
-  preços confirmados no site, ambiente de bairro descontraído, com opções vegetarianas. É o
-  bairro onde a cidade é real: ninguém repara que são turistas.
-  - ✅ **Horário confirmado no site da casa.** A
-    schoene-perle.at dá **aberto todos os dias das 11:00 às 24:00**, com a **cozinha de
-    segunda a sexta das 11:30 às 22:30** (sábados, domingos e feriados a partir das 11:00).
+  Schwedenbrücke, ou seja, **no fim natural do passeio do canal**: **8 min a pé desde a ponta
+  do canal na Salztorbrücke**, 13 min desde casa. Cozinha vienense honesta, ambiente de bairro
+  descontraído, com opções vegetarianas e veganas. É o bairro onde a cidade é real: ninguém
+  repara que são turistas.
+  - 🕐 **Aberto todos os dias, sem dia de descanso: 11:00–24:00**, cozinha até às 22:30.
     Jantando das 19:45 às 21:00 há **90 minutos de folga** até a cozinha fechar.
-    *(O "quarta-feira fecha às 23:00 com cozinha até às 21:30" que
-    aparece em agregadores é falso.)*
-    Reservar na mesma, pelo **+43 1 890 32 04**, e levar dinheiro, que é frequente estes
-    sítios de bairro não aceitarem cartão estrangeiro.
+  - 💶 **Pratos €15,00–29,50**; os veganos começam nos €14,90.
+  - 📞 **Reservas só por telefone: +43 1 890 32 04.** Levem dinheiro: nestes sítios de bairro
+    o cartão estrangeiro falha.
 - **Se quiserem o melhor prato da noite:** o *Gasthaus Pöschl*, o Beisl moderno mais respeitado
   do 1.º distrito, minúsculo e cheio de vienenses. **Liguem com dias de antecedência:
-  +43 1 513 52 88** (atendem a partir das 10:00). Peçam o *Beuschel*, o *Backhendl* ou o
-  *Tafelspitz*.
-- **Se chegarem atrasados do canal:** o *Zum Bettelstudent*, barato, barulhento, sem pretensões,
-  entra-se e senta-se. E fica **a 100 m do DANZÓN**, que é o destino a seguir.
+  +43 1 513 52 88** (atendem a partir das 10:00). Peçam o *Backhendl* (€19,40) ou o *Tafelspitz*
+  (€24,40).
+- **Se chegarem atrasados do canal:** o *Zum Bettelstudent*, barulhento, sem pretensões,
+  entra-se e senta-se sem reserva. Fica **a 3 min do DANZÓN**, que é o destino a seguir.
+- 🥡 **Se a ideia for comer em casa, é mais barato e fica mais perto:**
+  - **District Kebab** (*Marc-Aurel-Straße 7*, **2 min**): döner, dürüm e pide, **seg–qui
+    11:00–23:00**, 4,7★ em mais de 2200 avaliações.
+  - **Würstelstand do Schwedenplatz** (à saída do U-Bahn, **7 min**): **09:00–06:00 todos os
+    dias**, salsicha com pão por **€5–7**, **só dinheiro e sem uma única mesa**.
+  - **Billa a 86 m de casa** (seg–sex até às 20:00, sáb até às 18:00): serve para provisões,
+    mas **fecha antes de vocês voltarem do canal**.
 - 🚫 **Não jantar dentro do Bermudadreieck nem na Griechengasse.** À noite enchem de grupos e
   despedidas de solteiro. O triângulo é excelente para o que vão fazer lá **depois**: beber.
   Evitar em concreto: **Griechenbeisl** (a armadilha canónica, com autocarros à porta),

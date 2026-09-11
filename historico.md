@@ -14,6 +14,61 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 15.ª revisão · 11 de setembro de 2026
+
+**O jantar do Dia 1 foi verificado todo. A escolha não mudou; as distâncias estavam erradas em
+todas as linhas.**
+
+1. **A Schöne Perle é a escolha certa, e o horário dela era a única coisa certa.** O site da casa
+   confirma tudo o que o guia dizia: **aberto todos os dias, sem dia de descanso ("kein
+   Ruhetag"), das 11:00 às 24:00**, cozinha até às 22:30, e **reservas exclusivamente por
+   telefone**. Jantando das 19:45 às 21:00 sobram 90 minutos até a cozinha fechar. Ficou, e caiu
+   só a frase "preços confirmados no site", que era a arqueologia que a regra 10 manda apagar, e
+   a nota sobre o horário falso de quarta-feira, que já estava registada na 13.ª revisão.
+
+2. **Os preços dos pratos estavam lidos por baixo e por alto ao mesmo tempo.** O guia dizia
+   €14,90–29,50. A carta da casa dá os **pratos entre €15,00 e €29,50**; os €14,90 são os
+   veganos, na secção das entradas. Não é uma correção grande, mas é a diferença entre citar a
+   carta e citar o intervalo que dá jeito.
+
+3. **Todas as distâncias estavam erradas.** A pé, a partir da Judengasse 11, medido no OSRM
+   hoje:
+
+   | Casa a | Dizia | Mede |
+   |---|---|---|
+   | Schöne Perle | 11 min | **13 min** (8 min desde a Salztorbrücke, no canal) |
+   | Gasthaus Pöschl | 10 min | **11 min** |
+   | Zum Bettelstudent | 11 min | **15 min** |
+
+   A do Bettelstudent é a que mais engana: são **1,1 km**, não uma caminhada curta. E a do "fica
+   a 100 m do DANZÓN" era a pior do parágrafo: são **257 m, 3 minutos**, medidos. Um número
+   redondo inventado encostado a um número medido.
+
+4. **O Pöschl recomendava um prato que já não está na carta.** O guia mandava pedir *Beuschel*,
+   *Backhendl* ou *Tafelspitz*. A carta atual tem o *Backhendl* (€19,40) e o *Tafelspitz*
+   (€24,40) e **não tem Beuschel em lado nenhum**. E não é o restaurante caro que o "~€19 a €29"
+   sugeria: os pratos vão de **€14,80 a €29,50**, com a maioria entre os €16 e os €25.
+
+5. **O Bettelstudent não publica preços e contradiz-se nas horas.** O guia chamava-lhe "barato" e
+   dava "seg–qui 11:00–24:00". O site da casa, na mesma página, escreve **duas coisas diferentes**
+   (09:00–23:00 e 11:00–24:00 para segunda a quinta), tem uma terceira versão nos destaques e não
+   publica carta com preços. O "barato" saiu, porque nada o sustenta, e a linha passou a ⚠️ com o
+   motivo escrito.
+
+6. **Faltava a opção de comer em casa, e ela estava a dois minutos.** Pedido explicitamente.
+   Três hipóteses, todas medidas:
+
+   - **District Kebab** (*Marc-Aurel-Straße 7*), **162 m e 2 min** da porta, döner, dürüm e pide,
+     **seg–qui até às 23:00**, 4,7★ em mais de 2200 avaliações.
+   - **Würstelstand do Schwedenplatz**, à saída do U-Bahn, **7 min**, **09:00–06:00 todos os
+     dias**, €5–7, **só dinheiro e sem uma única mesa**.
+   - **Billa a 86 m de casa** (seg–sex até às 20:00): o mais barato de todos, mas não serve para
+     este jantar, porque **fecha antes de o grupo voltar do canal**.
+
+   > **A regra que fica:** uma lista de restaurantes precisa das três coisas ao mesmo tempo, a
+   > hora a que a cozinha fecha, o preço do prato mais barato e a distância medida. Faltando uma,
+   > "recomendado" é uma opinião.
+
 ## 14.ª revisão · 10 de setembro de 2026
 
 **Duas igrejas grátis que o guia oferecia sem dizer quando, e um sítio na internet que já não é
