@@ -14,6 +14,52 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 21.ª revisão · 11 de setembro de 2026
+
+**O mesmo tratamento do Dia 1 e do Dia 2, agora nos Dias 3 a 7. A arqueologia acabou.**
+
+1. **O que se removeu, e é sempre a mesma forma.** Parágrafos que discutiam versões anteriores
+   deste próprio guia, em vez de dizerem o que é. Saiu tudo:
+
+   | Onde | O que estava escrito |
+   |---|---|
+   | Dia 3 | *"A estimativa antiga de €39,90–59,90/pax não existe"* |
+   | Dia 3 | *"Donde vem esta hora: … a noite foi montada a partir daí"* |
+   | Dia 3 | *"A reserva era às 18:45 e recuou 15 minutos"* |
+   | Dia 4 | *"A 03/09/2026 este horário chegou a ser mudado para «abre às 12:00»… Voltou a 11:00"* |
+   | Dia 4 | *"Agora há almoço, e é a maior mudança prática do dia"* / *"Este dia passava onze horas sem comer"* |
+   | Dia 4 | *"Os 15 minutos vieram de Oberammergau… ganha em relação ao plano antigo"* |
+   | Dia 4 | *"Foi aqui que a decisão do castelo se pagou"* / *"que até aqui competiam um com o outro"* |
+   | Dia 5 | *"Atenção, isto mudou: as versões anteriores diziam «146 km, ~1h49»"* |
+   | Dia 5 | *"Isto ficou mais apertado do que era"* |
+   | Dia 6 | *"O bloco encolheu de 30 para 25 minutos"* / *"Nesta ordem deixou de ser um desvio"* |
+   | Dia 7 | *"Este guia dava-a como o ponto alto do dia: dava mal"* |
+   | Dia 7 | *"e este guia dizia o contrário"* (sobre a Olympiaturm) |
+
+   Saíram também as referências inline ao `historico.md` espalhadas pelos dias. O guia aponta a
+   esse ficheiro **uma vez, na capa e no rodapé**, que é onde faz sentido; repetir *"ver o
+   histórico"* a cada parágrafo é ruído.
+
+2. **Um erro corrigido de verdade, encontrado na verificação.** O guia dizia que o
+   **Perlachturm de Augsburgo reabria no outono de 2027**. A imprensa local de 2026 diz que
+   **já não** — a obra voltou a atrasar-se e ficou mais cara. Ficou: *"fechado desde 2017, e a
+   reabertura já escorregou para lá de 2027"*. Era uma data específica e errada.
+
+3. **Confirmado sem alterações:** Fuggerei €8 e 9:00–20:00; **Rathaus e Goldener Saal fechados,
+   com reabertura a 28 de setembro de 2026** (três dias depois de passarem por lá); Alpenstuben
+   com cozinha contínua 11:00–21:00; Kriminalmuseum €10,50 e 10:00–18:00; St. Jakobskirche €5;
+   vigia noturno €9 às 20:00 e **Baumgartner reforma-se a 31 de outubro de 2026**; Maß a
+   €14,80–15,90; último RE9 às 22:58; Nymphenburg €20; **BMW Art Cars fechados a 31 de agosto**;
+   Olympiaturm encerrada até outubro de 2027; FC Bayern Museum €12; Königsschlösser.
+
+4. **Verificação.** `verificar.py` sem erros, **22 factos com paridade HTML↔markdown**, 757 `<a>`
+   para 757 `</a>`, divs equilibrados, **zero arqueologia no DOM** e **zero estouros** nos cinco
+   dias revistos a 390 px.
+
+   > **O que fica, e é a regra desta série toda:** o guia diz o que é. Quem o lê na rua não
+   > precisa de saber o que ele dizia antes, e cada frase gasta a explicar a versão anterior é
+   > uma frase que não está a dizer onde ir.
+
 ## 20.ª revisão · 11 de setembro de 2026
 
 **Todos os nomes de lugar passaram a ser clicáveis para o Google Maps, nas duas versões.**

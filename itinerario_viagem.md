@@ -55,7 +55,7 @@ parque **P4 ([Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%
 *(Tabela oficial da hohenschwangau.de.)*
 
 ⚠️ **Confirmar o estado da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau) na véspera**, em hohenschwangau.de. Fecha por mau
-tempo ou obras, sem aviso, e neste plano ela deixou de ser um extra e passou a ser o dia.
+tempo ou obras, sem aviso, e neste plano é ela que faz o dia.
 
 #### 2. ✅ DECIDIDO · [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) **sem mesa reservada**, a andar entre tendas
 
@@ -66,7 +66,7 @@ consome, e não o que uma mesa reservada obrigaria a consumir adiantado em vouch
 
 **O que a decisão custa é a garantia.** Uma mesa é um lugar certo às 17:00. Sem ela, o dia
 tem de ser jogado às horas certas, e é por isso que a [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) **começa às 13:45 e não às
-17:00**. 📖 *As contas que levaram a esta decisão estão em [`historico.md`](historico.md).*
+17:00**.
 
 **As regras que decidem o plano.** Salvo onde se diz o contrário, tudo o que se segue está na
 [oktoberfest.de](https://www.oktoberfest.de/en), que é a fonte a usar para a [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen):
@@ -287,7 +287,7 @@ documento com fotografia.
 
 **⚠️ O que não está em tabela nenhuma: a estrada.** O aluguer da carrinha (€427,58) não
 inclui combustível nem estacionamento, e o roteiro faz **~791 km** ao volante: 311 no Dia 4,
-376 no Dia 5 e 104 no Dia 7 *(os três dias remedidos no OSRM a 27/08/2026)*. A uma carrinha de
+376 no Dia 5 e 104 no Dia 7 *(os três dias medidos no OSRM a 27/08/2026)*. A uma carrinha de
 sete lugares isso são **€100 a €130 de
 combustível** ⚠️ *(estimativa: ~7,5 l/100 km a preços alemães de 2026, não é uma cotação)*.
 Somam-se os parques: ✅ **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) €10** (até 4 h, depois €1,00/h), [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) ⚠️ **€5,50**,
@@ -306,7 +306,7 @@ com a rota do Dia 4 invertida também não é preciso comprar a vinheta austría
 
 ---
 
-## ⚠️ Mudanças de 2026 que alteram o plano original
+## ⚠️ Mudanças de 2026 que alteram o plano
 
 **Transportes de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich): os passes de 48h e 72h foram descontinuados** a 1 de janeiro de
 2026.
@@ -350,14 +350,11 @@ fechada (até outubro de 2027):
 
 **Mexeu-se dentro dos dias, não entre dias.** A ordem dos 7 dias está fechada e trocar qualquer
 um deles piora o roteiro. As amarras são os **voos** e a **hora marcada de [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien)** na
-quinta; a terceira é a [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) à segunda, que sem mesa reservada deixou de ser comodidade
-e passou a ser condição do plano. **O sábado deixou de ser uma amarra a 28/08/2026**, quando
-se decidiu não comprar o [Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau): o Dia 4 já não tem hora marcada nenhuma. Isso
+quinta; a terceira é a [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) à segunda, que sem mesa reservada passa a condição do
+plano. E o Dia 4 **já não tem hora marcada nenhuma**, desde que se decidiu não comprar o
+[Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau). Isso
 alarga a folga do dia, não a ordem dos dias, que continua fechada pelas outras três.
 
-📖 **Cada troca considerada, o veredicto e a razão estão em [`historico.md`](historico.md)**,
-na secção *Decisões que não se voltam a discutir*. Antes de repropor uma troca, ler lá: é
-provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
 
 **Ordem geográfica do Dia 7** ([Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) ➜ [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) ➜ [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) ➜ MUC) já é a ótima:
 é uma linha de oeste para nordeste que acaba no aeroporto, sem retrocessos.
@@ -704,7 +701,7 @@ confirmadas abertas à quarta, a terceira não.**
 > primeira sexta-feira cheia da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), que em 2026 decorre de **19 de setembro a 4 de
 > outubro**: **não há Sparschiene** no corredor [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)–[Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland). Um
 > bilhete único [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Hbf ➔ [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg) está a **€134,10/pessoa = €536,40** para os 4, em
-> *todas* as partidas viáveis da manhã. A estimativa antiga de €39,90–59,90/pax não existe.
+> *todas* as partidas viáveis da manhã.
 >
 > **A solução foi partir a viagem em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich)** e comprar cada metade ao operador mais barato:
 > a Westbahn até à fronteira, a DB a partir dela.
@@ -771,10 +768,9 @@ confirmadas abertas à quarta, a terceira não.**
     check-in.
 - **17:40 – 17:55**: A carrinha estaciona junto ao apartamento e o grupo junta-se todo.
   **O resto da noite é tudo a pé** e o carro não se volta a usar hoje.
-  - ⏱️ **Donde vem esta hora:** levantamento às 17:00 mais **30 a 40 minutos ao balcão** dão
-    saída às 17:30–17:40, e a Aindlinger Str. 14 fica a **4,7 km e 8 minutos** do Am Bogen 6
-    *(OSRM, 27/08/2026; numa sexta à tarde contar 12 a 15)*. **A carrinha não está no
-    apartamento antes das 17:40**, e a noite foi montada a partir daí.
+  - ⏱️ A Aindlinger Str. 14 fica a **4,7 km e 8 minutos** do Am Bogen 6 *(OSRM; numa sexta à
+    tarde contem 12 a 15)*. **A carrinha não está no apartamento antes das 17:40**, e a noite
+    foi montada a partir daí.
   - 🅿️ ⚠️ **Combinar o parque antes de chegar.** *Am Bogen* fica no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg), de ruelas
     estreitas e estacionamento de superfície reservado a residentes (*Anwohnerparken*). Uma
     carrinha de sete lugares não fica na rua sem dístico. **Perguntar ao anfitrião do
@@ -811,10 +807,9 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 - **18:35 – 18:55**: **[Damenhof](https://www.google.com/maps/search/?api=1&query=Damenhof%2C%20Maximilianstra%C3%9Fe%2040%2C%2086150%20Augsburg)**, no *[Fuggerhäuser](https://www.google.com/maps/search/?api=1&query=Fuggerh%C3%A4user%2C%2086150%20Augsburg)* (*[Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg) 36–38*). Pátio de
   arcadas construído por Jakob Fugger em 1515, considerado o claustro renascentista florentino
   mais refinado a norte dos Alpes. **Acesso livre e gratuito**, 10 minutos de visita.
-  - ⚠️ **São 725 m e não 350**, ou seja **9 minutos a pé** pelo [Vorderer Lech](https://www.google.com/maps/search/?api=1&query=Vorderer%20Lech%2C%2086150%20Augsburg) e o
-    [Judenberg](https://www.google.com/maps/search/?api=1&query=Judenberg%2C%2086150%20Augsburg) *(OSRM, 26/08/2026)*.
-    Continua a ser em cima do caminho para o jantar, mas o bloco passa de 15 para 20 minutos
-    porque metade dele é a caminhada.
+  - ⚠️ **São 725 m, ou seja 9 minutos a pé** pelo [Vorderer Lech](https://www.google.com/maps/search/?api=1&query=Vorderer%20Lech%2C%2086150%20Augsburg) e o
+    [Judenberg](https://www.google.com/maps/search/?api=1&query=Judenberg%2C%2086150%20Augsburg) *(OSRM)*. Fica em cima do caminho
+    para o jantar, e metade do bloco é a caminhada.
   - ℹ️ **Não é um pátio vazio a que se espreita:** funciona concessionado como bar de
     esplanada (*[Damenhof](https://www.google.com/maps/search/?api=1&query=Damenhof%2C%20Maximilianstra%C3%9Fe%2040%2C%2086150%20Augsburg) Bar*), à sexta a partir das 15:00. Entra-se na mesma e não se paga
     nada para ver, mas há mesas e gente lá dentro. Quem quiser um copo antes do jantar,
@@ -823,12 +818,12 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   Sugestão: **Altstadtgasthaus Bauerntanz**, *Bauerntanzgäßchen 1*, no beco atrás da Câmara,
   a taberna mais antiga da cidade, cozinha suábia-bávara, sexta 11:30–22:00, cozinha quente até
   às 21:00.
-  **Reservar para as 19:00: +49 821 153644** (mesa de 6 à sexta à noite não aparece sozinha). 🔴 *A reserva era às 18:45 e recuou 15 minutos, porque a carrinha não chega ao apartamento antes das 17:40.*
+  **Reservar para as 19:00: +49 821 153644** (mesa de 6 à sexta à noite não aparece sozinha).
   - ⚠️ **Não contar com a Câmara nem com a torre.** O **Rathaus e o [Goldener Saal](https://www.google.com/maps/search/?api=1&query=Goldener%20Saal%2C%20Rathausplatz%202%2C%2086150%20Augsburg) estão
     fechados para obras** e só reabrem a **28 de setembro de 2026**: três dias depois, e
     nesse dia estão na [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen). Há apenas uma exposição gratuita no átrio (10:00–17:30).
-    O **[Perlachturm](https://www.google.com/maps/search/?api=1&query=Perlachturm%2C%20Rathausplatz%2C%2086150%20Augsburg) está fechado desde 2017** e só reabre no **outono de 2027**: a vista
-    panorâmica que os guias antigos prometem não existe.
+    O **[Perlachturm](https://www.google.com/maps/search/?api=1&query=Perlachturm%2C%20Rathausplatz%2C%2086150%20Augsburg) está fechado desde 2017**, e a reabertura já escorregou para lá
+    de 2027: a vista panorâmica não existe.
 - **20:30 – 21:30**: **Passeio noturno, grátis.** O sol põe-se às ~19:05, portanto a cidade já
   está iluminada. Circuito curto e circular: **[Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg)** ([Augustusbrunnen](https://www.google.com/maps/search/?api=1&query=Augustusbrunnen%2C%20Rathausplatz%2C%2086150%20Augsburg)) ➔
   **[Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)**, a avenida renascentista com o *[Merkurbrunnen](https://www.google.com/maps/search/?api=1&query=Merkurbrunnen%2C%20Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)* e o *[Herkulesbrunnen](https://www.google.com/maps/search/?api=1&query=Herkulesbrunnen%2C%20Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)* ➔
@@ -854,8 +849,6 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > e o áudio-guia em português só aparecia às 17:55, refém do último shuttle das 17:30. Trocar
 > o interior pela paisagem custa zero euros, poupa **€141** e devolve ao dia **duas horas e um
 > quarto**, que é o que faltava para haver almoço e para o [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) não ser uma corrida.
-> *(O debate completo, com as cinco opções pesadas e as que foram eliminadas, está no
-> `historico.md`.)*
 >
 > 🚫 **Atenção ao que isto exclui, e não é só o interior.** A própria hohenschwangau.de
 > escreve: *"Sie benötigen kein Ticket, wenn Sie das Schloss nur von außen sehen möchten. Der
@@ -868,20 +861,16 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > **O que continua a mandar na tarde: [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) vem antes do [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)**, porque a aldeia
 > entra em sombra por volta das 17:40 e o pôr do sol no lago é às 19:03.
 
-> ### 🍽️ Agora há almoço, e é a maior mudança prática do dia
-> Este dia passava **onze horas sem uma paragem para comer**, porque os 115 minutos em
-> [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) eram para chegar a um torniquete às 14:00. Sem torniquete, almoça-se na
+> ### 🍽️ O almoço, sentado, na aldeia
+> O dia tem **onze horas de programa** e esta é a única refeição sentada: os 115 minutos em
+> [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) são para almoçar, não para chegar a um torniquete às 14:00. Almoça-se na
 > aldeia, sentado, entre a ponte e a estrada para [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487).
 >
 > ✅ **Hotel-Restaurant [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau), [Alpseestraße](https://www.google.com/maps/search/?api=1&query=Alpseestra%C3%9Fe%2C%2087645%20Schwangau) 8, aos pés do castelo.** Tem **cozinha quente
 > das 11:00 às 21:00**, todos os dias e sem dia de descanso. **O "durchgehend" é o que interessa:**
 > a maioria das cozinhas alemãs fecha o almoço entre as 14:00 e as 14:30, e esta não fecha, o
 > que é a razão de ser possível almoçar às 14:15. **Reservar de manhã à mesma**, que são
-> 6 pessoas num sábado de setembro em [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). *(alpenstuben.de.)*
-> 🔴 *A 03/09/2026 este horário chegou a ser mudado para "abre às 12:00, cozinha até às 20:30",
-> com base numa listagem da schwangau.de. Estava errado: a própria casa publica "Täglich
-> durchgehend warme Küche von 11 bis 21 Uhr". Voltou a 11:00. **O almoço das 14:15 nunca esteve
-> em causa:** o que o sustenta é a cozinha contínua, e essa confirma-se nas duas versões.* O *Bräustüberl* do Kloster [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) (10:00–23:00) é o plano B, mas
+> 6 pessoas num sábado de setembro em [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). *(alpenstuben.de.)* O *Bräustüberl* do Kloster [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) (10:00–23:00) é o plano B, mas
 > fica tarde de mais para almoço.
 >
 > 🪙 **Levar moedas de 0,50 € e 1 €.** As casas de banho da aldeia e dos parques funcionam a
@@ -910,18 +899,16 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     🚫 **Não se sobe de carro até ao castelo.** Ao meio-dia de um sábado de setembro os parques
     de cima (P3 e P4, junto ao [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) e à paragem do shuttle) costumam já estar cheios: contem
     com ser encaminhados para o P1 ou P2, o que acrescenta **5 a 8 minutos de caminhada**.
-    Sem hora marcada, isso deixou de ser um problema e passou a ser um aborrecimento.
+    Sem hora marcada, isso é um aborrecimento, não um problema.
   - 🏞️ **O [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) fica ali mesmo**, ao lado do Ticket Center, e é grátis. É onde se gastam os
     minutos que sobrarem, e agora sobram de propósito.
   - ⚠️ **Confirmar o estado da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau) em hohenschwangau.de na véspera.** Fecha por mau
     tempo ou obras, sem aviso, e neste plano ela é o dia inteiro. *(A garganta do Pöllat está
     fechada por deslizamento, mas o roteiro nunca a incluiu.)*
 - **14:15 – 15:15**: **Almoço no [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)**, em [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). Ver a caixa acima.
-  - ⚠️ **São 60 minutos e não 45, e continuam a ser poucos.** Seis pessoas a entrar, escolher,
-    comer e pagar num restaurante cheio ao sábado não se fazem em três quartos de hora. Os 15
-    minutos vieram de [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487), que fica com 75 em vez de 90 e mesmo assim ganha em relação
-    ao plano antigo. **Para caber: reservar de manhã, decidir o prato no caminho e pedir a
-    conta com a comida.** Se derrapar, o que se corta é tempo de aldeia, não o [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau).
+  - ⚠️ **São 60 minutos, e continuam a ser poucos.** Seis pessoas a entrar, escolher,
+    comer e pagar num restaurante cheio ao sábado não se fazem em três quartos de hora. **Para
+    caber: reservar de manhã, decidir o prato no caminho e pedir a conta com a comida.** Se derrapar, o que se corta é tempo de aldeia, não o [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau).
 - **15:15**: Saída de [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). **É aqui que se escolhe entre duas tardes**, e a escolha
   faz-se no carro, à hora, sem nada reservado nem pago.
 
@@ -942,8 +929,8 @@ O centro histórico inteiro atravessa-se em 15 minutos.
 > - **16:05 – 16:40**: **[Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal).** A loja dos monges e um olhar à basílica.
 > - **16:40 – 16:50**: ➔ [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) (6 km, ~7 min).
 > - **16:50 – 17:35**: **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487), 45 minutos**, ainda com sol.
-> - **17:35 – 18:11**: ➔ **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)**. Chega-se com a mesma luz que o plano antigo dava, **52
->   minutos até ao pôr do sol**.
+> - **17:35 – 18:11**: ➔ **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)**. Chega-se com a mesma luz, **52 minutos até ao pôr
+>   do sol**.
 >
 > 🔁 **O que a Rota B custa, dito à letra: faz-se o mesmo troço de estrada três vezes.**
 > Passa-se ao lado de [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) sem parar para ir a [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal), volta-se 6 km atrás a [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487),
@@ -975,8 +962,7 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   Alemanha). O sol põe-se às **19:03** e sai-se às **19:15**.
   - ⚠️ **Os 36 minutos são fluxo livre, e a chegada honesta é mais perto das 18:05.** O troço
     atravessa [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) ao fim de uma tarde de sábado, com semáforos e trânsito de regresso.
-    Mesmo assim sobram ~58 minutos de luz, que é mais do que o plano antigo dava. **A margem
-    existe agora, e é isso que interessa.**
+    Mesmo assim sobram ~58 minutos de luz. **A margem existe, e é isso que interessa.**
   - ⚠️ **Continua a não se fazer a volta ao lago.** O *[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Rundweg* tem **7,5 km e demora
     ~2 horas**. **O que se faz:** do parque de estacionamento (a 100 m da margem) caminha-se
     pelo trilho da **margem norte** até à **ponte do Untersee** e volta-se, cerca de 2 km cada
@@ -1011,20 +997,16 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     O carro não fica à porta: conta-se com um parque e a caminhada até à mesa. **Se atrasarem,
     telefona-se do carro**, que uma mesa avisada espera e uma mesa calada não.
 
-> ### O que este dia deixou de ter
-> **Deixou de ter hora marcada, bilhete pago e margem contada ao minuto.**
+> ### O que se perde e o que se ganha sem entrar no castelo
+> **Perde-se o interior:** as ~15 divisões acabadas incluem a **Sala do Trono**, uma nave de dois
+> pisos em estilo bizantino, a **Sala dos Cantores**, a maior do castelo, a **gruta artificial**
+> com que Ludwig II ligou dois aposentos, e a cozinha do século XIX. Perde-se também a vista das
+> janelas do castelo sobre o [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) e [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau), que foi a que o rei mandou
+> construir para si, e o **pátio**, que sem bilhete não se atravessa.
 >
-> **E perdeu coisas a sério, que não vale a pena minimizar.** As ~15 divisões acabadas incluem a
-> **Sala do Trono**, uma nave de dois pisos em estilo bizantino, a **Sala dos Cantores**, que é
-> a maior do castelo, a **gruta artificial** com que Ludwig II ligou dois aposentos, e a cozinha
-> do século XIX. E incluem uma vista que a [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau) não dá: a das janelas do castelo sobre
-> o [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) e o [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau), que foi a que o rei mandou construir para si. Também se perde o
-> **pátio**, que sem bilhete não se atravessa.
->
-> **O que se ganhou:** um almoço sentado, 75 minutos de sol em [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) em vez de 75 a
-> correr, **79 minutos no [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) em vez de 52**, **€141 de volta** e um sábado que já não parte
-> se o shuttle tiver fila. **A troca é paisagem contra interiores**, e foi feita com os olhos
-> abertos. *(O raciocínio completo e as opções rejeitadas estão no `historico.md`.)*
+> **Ganha-se o dia:** almoço sentado, 75 minutos de sol em [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487), **79 minutos no
+> [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)**, **€141 de volta** e um sábado que não parte se o shuttle tiver fila. **É paisagem
+> contra interiores**, com os olhos abertos.
 
 ---
 
@@ -1036,13 +1018,11 @@ O centro histórico inteiro atravessa-se em 15 minutos.
     para **oeste até Ulm**, e só aí é que a A7 sobe para norte até à saída 108.
   - **Estrada Romântica (B25):** **~152 km, ~2h30** de condução, passando por Donauwörth,
     Harburg, Nördlingen e Dinkelsbühl. É a bonita, mas obriga a sair às **10:30**.
-  - 🔴 **Atenção, isto mudou:** as versões anteriores diziam "146 km, ~1h49" pela autoestrada,
-    o que fazia a Estrada Romântica parecer um desvio caro. **É ao contrário.** A autoestrada
+  - ⚠️ **A autoestrada é a mais longa das duas.** A A8 não vai a direito e
     é **34 km mais longa** por causa da volta por Ulm, e a estrada bonita custa apenas
     **~30 minutos a mais**. Ida e volta, a autoestrada obriga a **~68 km** a mais, e ao combustível
     correspondente.
-  - *(O plano original dizia "1h30 pela A7" a passar por essas vilas. As duas coisas são
-    incompatíveis: essas vilas ficam na B25, não na A7.)*
+  - *(As vilas da Estrada Romântica ficam na B25, não na A7.)*
 > ### 🍽️ O almoço tem hora, e é por uma razão
 > **As cozinhas alemãs fecham o serviço de almoço entre as 14:00 e as 14:30 e só reabrem às
 > 17:30.** Quem visitar primeiro e for comer às 15:15 encontra tudo fechado, e fica sem
@@ -1086,9 +1066,8 @@ O centro histórico inteiro atravessa-se em 15 minutos.
   - 🎧 **Há visitas guiadas gratuitas**, em época e aos fins de semana, por regra às **11:00 e
     às 14:30**. A das 14:30 coincide com a chegada, mas presumivelmente é em alemão: **isto não
     o confirmei**, e não é motivo para mudar a hora.
-  - ⚠️ **O "só dinheiro" continua por confirmar.** Este guia diz que a igreja não aceita cartão
-    e a página da paróquia **não diz nada sobre meios de pagamento**, nem num sentido nem no
-    outro. Fica como estava, porque levar €30 em notas não custa nada e chegar sem eles custa
+  - ⚠️ **O «só dinheiro» continua por confirmar.** A igreja não publica nada sobre meios de
+    pagamento, nem num sentido nem no outro. Fica como estava, porque levar €30 em notas não custa nada e chegar sem eles custa
     a visita, mas **não é um facto verificado**: é uma precaução. No piso superior está o **Altar do
   Sangue Sagrado**, entalhado em tília por **Tilman Riemenschneider entre 1500 e 1505**: é um
   dos maiores tesouros da escultura sacra alemã e é, com alguma probabilidade, **a melhor
@@ -1176,18 +1155,14 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
 > inglês costuma juntar **mais de uma centena de pessoas**, por isso convém estar no Rathaus uns minutos
 > antes das 20:00, senão fica-se atrás e não se ouve nada. Detalhe que vale a pena
 > saber: **2026 é o último ano do vigia histórico Hans Georg Baumgartner**, que se reforma a 31
-> de outubro depois de décadas a fazer a ronda. 🔴 **Mas não é ele que vos calha.** A
-> rothenburg.de diz que Baumgartner faz a ronda às **segundas, terças, sextas e sábados**, e
-> vocês vão a um **domingo**: sai um colega da equipa, que faz o mesmo percurso e o mesmo
-> texto. *(Quem quiser mesmo o Baumgartner tem de trocar o dia, e
-> isso não se faz por causa disto.)* O lugar está a concurso e o sucessor entra em abril de 2027. A ronda acaba pelas **21:00**, e com a
+> de outubro. A rothenburg.de diz que Baumgartner faz a ronda às **segundas, terças, sextas e
+> sábados**, e vocês vão a um **domingo**: sai um colega da equipa, que faz o mesmo percurso e o
+> mesmo texto. O lugar está a concurso e o sucessor entra em abril de 2027. A ronda acaba pelas **21:00**, e com a
 > caminhada ao carro e as 2h de autoestrada isso põe o grupo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) por volta das
 > **23:30**, não às 23:00. **Ao domingo à noite o regresso faz-se pela autoestrada e não pela
-> B25**, que atravessa bosques da Francónia sem visibilidade e com javalis.
-> 🔴 **Isto ficou mais apertado do que era.** Com a [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) a começar às 13:45 em
-> vez das 17:00, o Dia 6 passou a exigir sair de casa às **10:40**, e não a meio da tarde.
-> Continua a dar, porque o despertar do Dia 6 é às 10:00 e sobram sete horas de sono, mas
-> deixou de haver a folga que havia. Quem quiser dormir mais salta o vigia noturno.
+> B25**, que atravessa bosques da Francónia sem visibilidade e com javalis. O Dia 6 começa às
+> 13:45 e exige sair de casa às **10:40**; com o despertar às 10:00 sobram sete horas de sono,
+> mas sem folga. Quem quiser dormir mais salta o vigia noturno.
 
 ---
 
@@ -1215,8 +1190,6 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
 > almoço a sério passa a ser o *Hendl* dentro da tenda. A Eisbachwelle é a perda a sério e não
 > há como disfarçá-la.
 >
-> 📖 *A alternativa examinada, o comboio das 10:47, e a razão por que foi rejeitada, estão
-> no [`historico.md`](historico.md).*
 
 > ### 🚨 A manhã cabe, e cabe por pouco
 > Acaba no [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) às **13:32**, a tempo do metro e da chegada à [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) às 13:45.
@@ -1226,7 +1199,7 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
 > escadaria estreita de sentido único, numa segunda-feira em plena [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen). Sem ele a
 > manhã fecha. A vista de cima de uma cidade já se faz no Dia 1, na Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien);
 > o que se perde é [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) com os Alpes ao fundo em dia limpo, e é uma perda a sério.
-> Poupam-se **€30** (€5 × 6). *(As alternativas examinadas estão no `historico.md`.)*
+> Poupam-se **€30** (€5 × 6).
 
 - **10:40 – 10:57**: **Sair de casa a pé para a [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg).** São **17 minutos** desde o
   Am Bogen 6, e não há folga nenhuma para os esquecer: saindo às 11:00 chega-se ao cais em
@@ -1254,7 +1227,7 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
     das 12:00 acaba por volta das **12:12**: chegando às 12:10 apanham os últimos dois minutos,
     ou seja, nada. **Não vale a pena reorganizar o dia por causa disto:** são 12 minutos de bonecos a rodar, é o espetáculo mais sobrevalorizado de
     [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland), e **o das 17:00 apanha-vos dentro da tenda**, que é onde é para estar.
-  - ⏱️ **O bloco encolheu de 30 para 25 minutos** para absorver a S-Bahn sem tocar nas 13:45.
+  - ⏱️ **O bloco são 25 minutos**, para absorver a S-Bahn sem tocar nas 13:45.
     Dá para a fachada do Neues Rathaus, os 445 m até à [Frauenkirche](https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen) e uma volta pela nave.
     **Não dá para lojas nem para fotografias individuais.**
   - 🎫 A **[Frauenkirche](https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen)** é grátis e abre das 08:00 às 20:00. Fica a **445 m** da [Marienplatz](https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen),
@@ -1270,17 +1243,15 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
   dentro chegam. Construída pelos irmãos Asam entre 1733 e 1746 num terreno com **8 metros de
   largura**, para uso próprio: é a coisa mais densamente barroca da Alemanha, com iluminação
   indireta e colunas torcidas.
-  - ✅ **Nesta ordem deixou de ser um desvio.** Quando o [Viktualienmarkt](https://www.google.com/maps/search/?api=1&query=Viktualienmarkt%2C%2080331%20M%C3%BCnchen) vinha depois dela, a
-    [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) custava 11 minutos de volta ao caminho. Agora fica entre o mercado e o
+  - ✅ **Fica entre o mercado e o
     [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen), que é exatamente a direção da [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), e não custa nada.
-- **13:22 – 13:34**: A pé até ao **[Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) (Stachus)** (885 m, 12 min). **São 12 e não 10, e
-  é o troço a vigiar da manhã.**
+- **13:22 – 13:34**: A pé até ao **[Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) (Stachus)** (885 m, 12 min). **É o troço a
+  vigiar da manhã.**
 - **13:34 – 13:45**: **U4 ou U5, [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) ➔ [Theresienwiese](https://www.google.com/maps/search/?api=1&query=Theresienwiese%2C%2080339%20M%C3%BCnchen), duas paragens** (com a
   Hauptbahnhof pelo meio), ~3 minutos de viagem. Incluído no Bayern-Ticket. Os **11 minutos** do
   bloco são para descer ao cais, esperar e sair no meio do fluxo de gente, que num dia de
-  [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) não é pouca. **São 11 e não 13 porque a caminhada da [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) ao [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) come os
-  dois minutos que faltavam** *(OSRM, 10/09/2026)*, o que torna a [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) ainda mais a
-  primeira coisa a cortar se o dia derrapar.
+  [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) não é pouca. **A caminhada da [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) ao [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) são 12
+  minutos** *(OSRM)*, o que torna a [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) a primeira coisa a cortar se o dia derrapar.
 - **13:45 – 22:20**: **OKTOBERFEST 2026 na [Theresienwiese](https://www.google.com/maps/search/?api=1&query=Theresienwiese%2C%2080339%20M%C3%BCnchen).** Cerveja de litro *Maß*
   (€14,80–15,90), frango assado *Hendl* (€16–19), cantoria e brinde
   (*"Ein Prosit, ein Prosit, der Gemütlichkeit! Oans, zwoa, drei, g'suffa!"*).
@@ -1324,7 +1295,6 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 > ⚠️ **E há um limite físico a respeitar:** dois litros de cerveja a 6% em 105 minutos é muita
 > velocidade para quem tem de aguentar até às 22:20.
 >
-> 📖 *A objeção séria a este plano, e a alternativa examinada, estão no `historico.md`.*
 
 - **Andar, das 13:45 às 15:30.** É agora que a decisão de não reservar se paga: as portas estão
   abertas e as tendas ainda respiram. **Duas tendas, escolhidas destas:** a
@@ -1404,23 +1374,21 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 > às 11:00, com as tendas praticamente vazias. Custa a manhã de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) inteira e um despertar
 > às 08:30, e não se justifica numa segunda: às 13:45 ainda há lugar.
 >
-> **O [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) saiu deste dia**: fica a 45 min do centro e não cabia. Passou para o Dia 7,
-> onde fica geograficamente ao lado de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen).
+> **O [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) faz-se no Dia 7**, onde fica ao lado de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen).
 
 ---
 
 ### ⚽ ✈️ Dia 7: Terça-feira, 29 de Setembro · [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen), [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen), [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) & Regresso
 **⏰ Acordar às 10:00. Depois da noite de [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), vai fazer falta.**
 
-> ### 🚨 As transições deste dia são de 30 e 40 minutos, não de 15
+> ### 🚨 As transições deste dia são de 30 e 40 minutos
 > Entre sair de um sítio e entrar no outro há **voltar ao carro, pagar o parque, conduzir,
 > entrar noutro parque e andar até à porta**. Só a condução dá **[Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) ➜ [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen)
 > 6,0 km em 9 min** e **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) ➜ [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) 11 km em 16 min**, mas o que o dia gasta são
 > **30 e 40 minutos**. Os blocos abaixo parecem generosos e não são: é o último dia e a dívida
 > sairia do fim, que é onde está o voo.
 >
-> **Não há Olympiaberg, e o almoço é na [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen).** *(Porquê: [`historico.md`](historico.md).)*
-
+> **Não há Olympiaberg, e o almoço é na [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen).** 
 - **11:00**: Check-out do apartamento em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), bagagens já acomodadas na carrinha
   *(confirmar a hora de check-out; ⚠️ na Alemanha o normal é **10:00** e não 11:00, e se o
   Lexapartments não autorizar saída tardia o dia todo recua uma hora)*.
@@ -1453,8 +1421,8 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
   - 🔴 **Os 20 BMW Art Cars já não estão cá, e é preciso contar com isso.** A exposição
     *"BMW ART CARS: 20 ARTISTS, 50 YEARS OF INNOVATION"*, que juntou os 20 carros pintados por
     Calder, Lichtenstein, Warhol, Koons e companhia pela primeira vez na história, esteve na
-    [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) de **29 de julho a 31 de agosto de 2026** e **fechou quatro semanas antes de
-    vocês chegarem**. *(Comunicado oficial do BMW Group PressClub, T0457568DE.)* **Este guia dava-a como o ponto alto do dia: dava mal.** O que fica na BMW
+    [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) de **29 de julho a 31 de agosto de 2026** e **já fechou**. *(Comunicado oficial do BMW
+    Group PressClub, T0457568DE.)* O que fica na BMW
     Welt é o pavilhão permanente, que é gratuito e cabe nos 60 minutos, mas é uma paragem
     normal e não um acontecimento. Quem quiser Art Cars tem de contar com o **Museu BMW** ao
     lado, que é pago e mostra exemplares rotativos da coleção, não os 20.
@@ -1467,13 +1435,12 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     pernas, no dia em que elas estão piores. **A vista de cima de uma cidade já se fez no
     Dia 1**, na Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien). Se por milagre estiverem adiantados às
     14:00, é a primeira coisa a acrescentar: é o melhor miradouro gratuito de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland).
-    🔴 **A [Olympiaturm](https://www.google.com/maps/search/?api=1&query=Olympiaturm%2C%20Spiridon-Louis-Ring%207%2C%2080809%20M%C3%BCnchen) está fechada, e este guia dizia o contrário.** A torre e o edifício do
+    ⚠️ **A [Olympiaturm](https://www.google.com/maps/search/?api=1&query=Olympiaturm%2C%20Spiridon-Louis-Ring%207%2C%2080809%20M%C3%BCnchen) está fechada.** A torre e o edifício do
     átrio **estão encerrados desde 1 de junho de 2024** para renovação de elevadores, proteção
-    contra incêndios e do restaurante giratório *181*, e a reabertura **escorregou para 2027**.
-    *([Olympiapark](https://www.google.com/maps/search/?api=1&query=Olympiapark%2C%2080809%20M%C3%BCnchen) [München](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) / SWM.)* Não é o Estádio Olímpico que está
-    confundido com a torre: **estão os dois fechados**, o estádio desde outubro de 2025. Não
-    muda o dia, porque o Olympiaberg não está no plano, mas **quem contasse subir à torre não
-    subia**.
+    contra incêndios e do restaurante giratório *181*, e a reabertura **está prevista para
+    outubro de 2027**. *([Olympiapark](https://www.google.com/maps/search/?api=1&query=Olympiapark%2C%2080809%20M%C3%BCnchen) [München](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) / SWM.)* **O Estádio Olímpico também está
+    fechado**, e por mais tempo. Não muda o dia, porque o Olympiaberg não está no plano, mas
+    **quem contasse subir à torre não subia**.
   - ✅ *(O Museu BMW, ao lado, é pago e **não cabe neste horário**: ter–dom **10:00–18:00**,
     última entrada às **17:30**. Se alguma vez entrar no plano, o bilhete avulso é €17 mas
     **em grupo de 5 ou mais pessoas são €16 por pessoa**, ou seja €96 para os 6 e não €102.)*
@@ -1496,8 +1463,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     portanto não há Bundesliga *nem* Champions durante toda a viagem (1.ª jornada da Champions
     a 8–10 set, 2.ª só a 13–14 out). Zona tranquila, e o museu e o tour do estádio funcionam
     com horário normal se quiserem entrar.
-  - ✅ **E há uma opção que este guia não dava, muito mais compatível com os 40 minutos que o
-    dia tem:** o **[FC Bayern Museum](https://www.google.com/maps/search/?api=1&query=FC%20Bayern%20Museum%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) sozinho custa €12** e dura ~1h30, com áudio-guia em 11
+  - ✅ **Se o grupo quiser entrar:** o **[FC Bayern Museum](https://www.google.com/maps/search/?api=1&query=FC%20Bayern%20Museum%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) custa €12** e dura ~1h30, com áudio-guia em 11
     idiomas. Os ~€25 que aqui estavam são o *Museum + Arena Tour*, que dura **2h30** e não cabe
     de todo. Pelo meio há o *Museum + Arena View* a €19, também ~1h30.
     **Nada disto cabe nos 40 minutos do plano**, mas se o grupo decidir no local que quer
