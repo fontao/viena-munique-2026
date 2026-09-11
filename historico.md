@@ -40,6 +40,14 @@ o sítio.**
    Haas & Haas (5 min), **1,7 km e 23 min a pé**, mais 15 min dentro de cada uma. A meia hora
    que isto custa sai da manhã, não do dia.
 
+   > 🔴 **Cortadas no mesmo dia.** Com a hora já escrita no guia, a decisão foi que **nenhuma
+   > das duas igrejas interessa**, e o bloco saiu inteiro dos dois documentos. Fica registado o
+   > que isto custou, porque é a segunda vez que estas duas igrejas ocupam espaço sem ninguém as
+   > querer: a primeira foi oferecidas sem hora, a segunda foi medidas e cronometradas para
+   > acabarem cortadas. **O que sobrevive são as medições**, que servem o `catalogo_viena.md` e
+   > não o roteiro. Se as duas igrejas voltarem a aparecer numa revisão futura, o encaixe está
+   > no ponto 3, e a resposta continua a ser não.
+
 3. **As distâncias das duas nunca tinham sido medidas.** O guia dizia "150 m de casa" para a
    Maria am Gestade e "250 m do Stephansdom" para a Jesuitenkirche. Medido no OSRM, perfil a
    pé, a 10/09/2026: **438 m e 6 min** e **426 m e 6 min**. A distância em linha recta de casa

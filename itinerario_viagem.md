@@ -483,12 +483,6 @@ provável que já tenha sido examinada e rejeitada, e a razão continua a valer.
   - ⏰ **Sair do Volksgarten às 17:45, não às 18:00.** Com o sol a pôr-se às **18:49**, isto dá
     tempo para passar em casa, largar as mochilas e estar no canal às 18:20, a tempo da hora
     dourada, e não já com ela a acabar.
-  - ➕ **Duas igrejas grátis, e a única hora em que cabem.** **Nenhuma cabe no Dia 1:** a tarde
-    das 15:05 às 17:45 não tem folga, e cada uma custa uns 20 min. A folga do plano está antes
-    do brunch do Dia 2, e para isso é preciso **sair de casa às 10:00**, meia hora mais cedo.
-    Fazem-se as duas de seguida, numa linha só: casa ➔ **Maria am Gestade** (6 min) ➔
-    **Jesuitenkirche** (12 min) ➔ **Haas & Haas** (5 min). São **1,7 km e 23 min a pé**, mais
-    15 min dentro de cada uma, e acaba à porta do brunch. *(OSRM, perfil a pé, 10/09/2026.)*
 - **18:05 – 18:20**: **Passar em casa.** Largar mochilas, trocar de roupa. O regresso pelo Ring
   passa à porta e não custa tempo nenhum.
 - **18:20 – 19:35**: **Pôr do sol no Canal do Danúbio**, a 300 m a pé. **O sol põe-se às
