@@ -57,13 +57,13 @@ skills below; these are the constraints that hold regardless.
    punctuation**, in any language, in prose or in comments: use a comma, a colon, brackets or
    a full stop. The en-dash (–) stays only in time ranges. See
    `.claude/referencia/convencoes.md`.
+7. **Get a second opinion from Gemini** before closing a replanned day or a batch of price
+   updates. Ask it for everything and filter afterwards.
+8. **Say what you did not verify.** An honest gap beats a confident invention.
 9. **The itinerary carries the decision, not the archaeology.** Never write "a versão anterior
    dizia X" into `itinerario_viagem.md` or `index.html`. Keep the reason that still governs
    behaviour (why 14:00, why this train, what the choice cost) and put what changed, what was
    rejected and why into `historico.md`.
-7. **Get a second opinion from Gemini** before closing a replanned day or a batch of price
-   updates. Ask it for everything and filter afterwards.
-8. **Say what you did not verify.** An honest gap beats a confident invention.
 10. **No confirmation stamps in the prose.** Never write `(confirmado a 26/08/2026)`,
    `(hohenschwangau.de, confirmada a 10/09/2026)` or `(Consultado a …)` beside a fact, in
    `index.html` or in `itinerario_viagem.md`. The marker (✅ ⚠️ 🔴) already says whether a
@@ -74,6 +74,13 @@ skills below; these are the constraints that hold regardless.
    not, and the date is the part that goes stale. **Measurement provenance is the one
    exception:** `(OSRM, perfil a pé, 10/09/2026)` stays, because a distance with no tool and
    no date beside it is indistinguishable from a guess.
+11. **No planner meta-talk or craft justifications in the guide or timetable.** The itinerary
+   (`itinerario_viagem.md`) and interactive guide (`index.html`) are field instructions for the
+   travellers, not a design diary. Never include backstage planner commentary, route-craft
+   justifications or self-congratulatory remarks like "que o Dia 1 deixou de fora de propósito
+   para nenhuma rua se andar duas vezes", "o plano foi pensado para...", or "esta escolha foi
+   feita para evitar...". State plainly where to go, how long it takes, and what to see; the
+   architectural logic of how days interlock belongs in `historico.md`.
 
 ## Skills
 

@@ -14,6 +14,21 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 26.ª revisão · 11 de setembro de 2026
+
+**Remoção da alternativa de ópera (*Macbeth*), retificação do pequeno-almoço no Café Korb e instituição da Regra 11 contra meta-narrativa de planeador.**
+
+1. **Rejeição definitiva de *Macbeth* na Staatsoper.**
+   A alternativa cultural de ver a ópera *Macbeth* às 19:00 na quinta-feira 24 foi expressamente descartada pelo grupo. O plano foca-se inteiramente no Prater, na Kaiser Wiesn, na Riesenrad e no Schweizerhaus, seguido do rooftop Das Loft. A caixa de alternativa foi removida do itinerário e do guia interativo, e a menção no catálogo cultural foi atualizada para "rejeitado pelo grupo". Com a sua remoção, os valores residuais de lugares de pé (€13, €15, €18) deixaram de figurar no itinerário, mantendo paridade estrita com o guia.
+
+2. **Retificação gastronómica do Café Korb: pequeno-almoço vienense autêntico.**
+   A descrição do Café Korb no Dia 2 referia incorretamente "ovos com bacon €14", um anglicismo/americanismo que colidia com a realidade visual da casa. O Café Korb (fundado em 1904) serve pequenos-almoços tradicionais durante todo o dia (*ganztägig*): o clássico *Wiener Frühstück* (Kaisersemmel, manteiga e compota, €8–10), pratos de ovos mexidos (*Eierspeisen*, até €14 na versão *Würsteleierspeise* com Frankfurter ou com Speck), o seu célebre *Apfelstrudel* caseiro e cafés vienenses de especialidade (€4,20–7,50). Os preços-âncora (€14 e €4,20–7,50) mantêm-se rigorosamente alinhados entre os dois ficheiros.
+
+3. **Instituição da Regra 11: proibição de meta-narrativa e gabarolice de planeador nos documentos de terreno.**
+   O itinerário (`itinerario_viagem.md`) e o guia web interativo (`index.html`) são ferramentas de navegação e instrução para quem está na rua, não diários de conceção. Foram expurgados comentários de bastidores e justificações retrospetivas (ex.: *"que o Dia 1 deixou de fora de propósito para nenhuma rua se andar duas vezes"*). Foi adicionada a Regra 11 ao `CLAUDE.md` e a respetiva convenção ao `.claude/referencia/convencoes.md`, estipulando que a lógica de interligação e desenho de percurso pertence exclusivamente ao `historico.md`.
+
+---
+
 ## 25.ª revisão · 11 de setembro de 2026
 
 **O Palácio de Schönbrunn saiu do Dia 2 e foi substituído pelo Tesouro Imperial (Kaiserliche Schatzkammer) e pelo Prunksaal no Hofburg.**

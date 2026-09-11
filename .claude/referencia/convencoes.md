@@ -173,6 +173,11 @@ alguém que já foi confirmar as coisas e explica porquê.
   Um dia que nunca foi reconstruído não tem nenhum dos dois blocos.
 - **Nomear o custo de cada escolha.** «O custo de tudo isto: jantar às 21:15 em vez
   das 20:45.» Um plano sem contrapartidas explícitas não foi pensado.
+- **Sem meta-narrativa nem justificações de planeador no guia (`index.html`) e no roteiro (`itinerario_viagem.md`).**
+  O viajante que lê o telemóvel na rua quer instruções diretas, operacionais e claras. Não precisa de ouvir o planeador a gabar-se do desenho do roteiro nem de justificações retrospetivas:
+  - ❌ *«que o Dia 1 deixou de fora de propósito para nenhuma rua se andar duas vezes»* ➔ ✅ *«descer a pedonal Kärntner Straße até à Ópera (8 min a pé, 700 m).»*
+  - ❌ *«este caminho foi desenhado para maximizar...»* ➔ ✅ *«seguir por...»*
+  Toda a comparação de opções descartadas, racional de planeamento e arqueologia do desenho do percurso pertencem ao `historico.md`.
 - Emoji com parcimónia e sempre com função. Sinaliza a categoria de uma linha
   (`🎫` bilhete, `⏰` hora crítica, `⚠️` risco, `🅿️` estacionamento, `🚌`
   transporte, `🏞️` alternativa ao ar livre). Nunca decorativo.

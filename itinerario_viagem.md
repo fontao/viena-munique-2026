@@ -439,8 +439,7 @@ Augsburgo ➔ Munique) manda.
 - **15:05 – 17:45**: Passeio a pé pelos monumentos imperiais, **numa linha reta para poente,
   sem voltar atrás**, e **sem malas**: arranca depois do check-in. Três das paragens são
   **gratuitas** e ficam literalmente em cima do caminho, sem custar tempo nenhum. A **Ópera** e
-  a **[Kärntner Straße](https://www.google.com/maps/search/?api=1&query=K%C3%A4rntner%20Stra%C3%9Fe%2C%201010%20Wien)** ficam de fora de propósito: são o braço sul da zona pedonal, que se faz
-  amanhã a caminho do metro, para nenhuma rua se andar duas vezes.
+  a **[Kärntner Straße](https://www.google.com/maps/search/?api=1&query=K%C3%A4rntner%20Stra%C3%9Fe%2C%201010%20Wien)** ficam para a manhã do Dia 2: são o braço sul da zona pedonal a caminho do Hofburg.
   - **15:05**: **Ruprechtskirche** (*Ruprechtsplatz 1*), a **100 m de casa**. É a igreja mais
     antiga de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich), do século XII sobre fundações do ano 740. Grátis, 10 min.
     - ⚠️ **Não publica horário: contem com a porta fechada e tratem o interior como bónus.**
@@ -600,11 +599,10 @@ confirmadas abertas à quarta, a terceira não.**
 > a troca devolve ao grupo os **€168** que estavam reservados para os 4 pax.
 
 - **11:00 – 12:30**: Brunch no **[Café Korb](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Korb%2C%20Brandst%C3%A4tte%209%2C%201010%20Wien)**
-  (*[Brandstätte](https://www.google.com/maps/search/?api=1&query=Brandst%C3%A4tte%2C%201010%20Wien) 9*), a 5 min a pé de casa. Casa de café de 1904, com a sala dos anos 60
-  intacta e, na cave, a **Art Lounge** com obras de Günter Brus, Peter Weibel e Peter Kogler.
-  O pequeno-almoço é servido todo o dia: ovos com bacon **€14**, café **€4,20–7,50**.
+  (*[Brandstätte](https://www.google.com/maps/search/?api=1&query=Brandst%C3%A4tte%2C%201010%20Wien) 9*), a 5 min a pé de casa. Casa de café histórica de 1904, com a sala dos anos 60
+  intacta e, na cave, a **Art Lounge** com obras de Günter Brus e Peter Kogler.
+  O pequeno-almoço vienense é servido todo o dia: o clássico *Wiener Frühstück* (Kaisersemmel, manteiga e compota, €8–10), pratos de ovos mexidos (*Eierspeise*, até **€14** com Frankfurter ou Speck), o famoso *Apfelstrudel* caseiro da casa e cafés de especialidade vienense (**€4,20–7,50**).
 - **12:40 – 13:00**: **Descer a [Kärntner Straße](https://www.google.com/maps/search/?api=1&query=K%C3%A4rntner%20Stra%C3%9Fe%2C%201010%20Wien)** até à Ópera, **8 min a pé** (700 m).
-  É a rua que o Dia 1 deixou de fora de propósito, para ser feita hoje: **nenhuma rua se anda duas vezes.**
 - **13:00 – 13:35**: **[Sacher Confiserie](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%2C%20Philharmoniker%20Stra%C3%9Fe%204%2C%201010%20Wien)** para a Sachertorte e o **terraço da [Albertina](https://www.google.com/maps/search/?api=1&query=Albertina%2C%20Albertinaplatz%201%2C%201010%20Wien)**.
   - ✅ **Sem a entrada das 14:00, a fila deixou de ser um problema.** Quem quiser sentar-se no
     [Café Sacher](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%2C%20Philharmoniker%20Stra%C3%9Fe%204%2C%201010%20Wien) tem agora 35 minutos para isso; quem não quiser compra na *Sacher Confiserie*,
@@ -686,21 +684,6 @@ confirmadas abertas à quarta, a terceira não.**
     que fecha à 01:00: no Dia 2 o plano B fecha mais tarde do que o plano A.* Alternativa mais longe: **Meliá 57** (57.º andar da DC
     Tower, interior envidraçado, seg–qui 17:00–00:00).
 
-> ### 🎭 Alternativa: Macbeth na Ópera (substitui a noite do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien), não o rooftop)
-> Na quinta 24 a [Staatsoper](https://www.google.com/maps/search/?api=1&query=Wiener%20Staatsoper%2C%20Opernring%202%2C%201010%20Wien) dá **Verdi, *Macbeth*, às 19:00**, com **fim às 22:00** e um
-> intervalo (85 min + 25 + 70) *(wiener-staatsoper.at)*. Em pé custa **€13 no balcão, €15
-> na galeria, €18 na plateia**. Os lugares de pé põem-se à venda **online a partir das
-> 10:00 do próprio dia**, ainda em casa antes do brunch: a bilheteira lateral
-> (*Stehplatzkassa*, **entrada Operngasse**) só abre o seu contingente **80 min antes**,
-> às 17:40, quando o grupo ainda está no [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien).
->
-> **Não é uma troca de rooftops: é outro Dia 2.**
-> Às 19:00 não se chega saindo do [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien) às 20:15: da [Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien) à Ópera são ~30
-> minutos de metro, portanto tem de se **sair do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) por volta das 18:25 e jantar noutro
-> sítio que não o [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien)**, cujo bloco é das 18:15 às 20:15 e não cabe. Quem
-> escolher a ópera faz o Dia 2 assim: Hofburg ([Tesouro](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien) & [Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien)), [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) até às 18:15, Ópera às 19:00.
-> **O rooftop às 22:15, depois da ópera, é possível se o bar ainda estiver aberto, mas não
-> é um plano.**
 
 ---
 

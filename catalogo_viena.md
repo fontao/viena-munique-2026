@@ -336,7 +336,7 @@ incerta, **telefonar**).
 | Data | Evento | Detalhe |
 |---|---|---|
 | **Qua 23, 19:00** | **Staatsoper, Mozart, *La clemenza di Tito*** | Em pé €13/€15/€18. ⚠️ **Colide com a noite de festa**: acaba por volta das 22:00. |
-| **Qui 24, 19:00** | **Staatsoper, Verdi, *Macbeth*** | ⭐ **Esta é a noite realista para a ópera**, se quisermos. |
+| **Qui 24, 19:00** | **Staatsoper, Verdi, *Macbeth*** | ❌ **Rejeitado pelo grupo**: prefere-se o Prater e Kaiser Wiesn. |
 | **Qui 24 e sex 25** | **Musikverein, Sala Dourada, Wiener Philharmoniker, maestro Esa-Pekka Salonen** (Lutosławski / Debussy / Sibelius) | ⭐ **Provavelmente o melhor evento cultural da nossa quinta-feira.** Confirmar hora em musikverein.at. |
 | **Qui 24 → 11 out** | **Wiener Kaiser Wiesn**, Kaiserwiese, Prater | **Dia de abertura.** 🔴 **No dia 24 começa às 10:00**, com o cortejo desde o Kolariks Luftburg, e o **barril é aberto às 12:00** (comunicação do próprio organizador). O catálogo dizia "a partir das 15:00", que está errado e fazia parecer que ir mais cedo não valia nada: vale, o recinto está vivo desde a hora de almoço. Entrada grátis de dia. |
 | **Sex 25** | **Vienna Design Week 2026** (20.ª edição) começa | Saímos às 10:00, só apanharíamos o arranque. |
@@ -385,7 +385,7 @@ para 24/9 · **futebol** (a jornada da Bundesliga austríaca joga-se tipicamente
 | Dia 2, 14:00 | Schönbrunn, acesso | ⚠️ **Regras de acesso alteradas de 14 a 27/9.** A zona da fachada esteve fechada de 14 a 20; a 24 o palácio está aberto, mas o percurso até ao portão pode mudar. Ver o plano oficial. |
 | Dia 2, 17:00 | Kaiser Wiesn | ✅ Confirmado. **No dia 24 abre às 10:00 e o barril às 12:00** (restantes dias de semana às 15:00); entrada grátis de dia, chegar às 17:00 funciona. |
 | Dia 2 | Schönbrunn "Schlossticket €42" | ✅ Confirmado. A versão curta (*State Apartments*) é **€30**. **O parque e a Gloriette são grátis**, é uma alternativa legítima. |
-| - | *(não está no roteiro)* | **A Filarmónica de Viena toca no Musikverein na quinta 24**, com Salonen. E há **Macbeth** na Staatsoper com lugares de pé a €13. |
+| - | *(não está no roteiro)* | **A Filarmónica de Viena toca no Musikverein na quinta 24**, com Salonen. Macbeth na Staatsoper rejeitado pelo grupo. |
 
 ---
 
