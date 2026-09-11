@@ -206,14 +206,14 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 |---|---|---|---|---|---|
 | **Schatzkammer** ⭐✅ | 09:00–17:30, **fechado às terças** | **€16 online / €18 porta** | 1h30 | 10 min a pé | Coroa do Sacro Império, o "corno de unicórnio", o manto normando de 1133. **O melhor museu-do-tesouro da Europa.** |
 | **Prunksaal da Biblioteca Nacional** ⭐✅ | 09:00–18:00 (qui até 21), **fechado seg** | €12 | 45 min | 12 min | Provavelmente a sala barroca mais bonita do mundo. 30 min chegam. |
-| **Sisi Museum + Apartamentos + Silberkammer** ✅ | diário 09:00–17:30, última 16:30 | **€20** | 2h | 10 min | O bloco imperial "obrigatório". |
+| **Sisi Museum + Apartamentos Imperiais** ⭐✅ | diário 09:00–17:30, última 16:30 | **€20** (estudante 19–25 com ISIC **€18**) | **~1h** | 14 min a pé | 🔴 **A Silberkammer está fechada desde abril de 2023**, sem data de reabertura: o bilhete dá o museu e os apartamentos, e mais nada. O site da casa conta **~60 min**, não as 2h que aqui constavam. **Entrada só com bilhete online e hora marcada**, em imperialtickets.com, pela *Michaelerkuppel*. A 420 m do Café Sacher. |
 | **Hofburg, pátios e Heldenplatz** | 24h | grátis | 30 min | 11 min | - |
 | 🔴 **Schönbrunn, State Apartments** ✅ | ~09:00–17:30, hora marcada | **€30** | 1h | U4, ~20 min | *(ex-"Imperial Tour")* |
 | 🔴 **Schönbrunn, Palace Ticket** ✅ | ~09:00–17:30, hora marcada | **€42** | 1h30 | idem | *(ex-"Grand Tour")* |
 | **Schönbrunn, parque + Gloriette** ⭐ | parque desde as 06:30 | **grátis** | 1h30 | idem | **Fazer só o parque é uma opção perfeitamente legítima e gratuita.** |
 | **Schönbrunn, "Exclusive Gardens"** ✅ | 09:30–17:30 | €16 | 1h30 | idem | Labirinto + Jardim Privado + Orangerie + terraço da Gloriette. Boa alternativa barata ao interior. |
-| **Belvedere Superior** ⭐✅ | ~10:00–18:00 ⚠️ (o horário de verão acaba a 31/8) | **€23** | 1h30 | Elétrico D, 15 min | *O Beijo* de Klimt + a vista do jardim sobre a cidade. Hora marcada. |
-| **Belvedere Inferior** ✅ | 10:00–18:00 | €20 | 1h | idem | Só exposições temporárias. |
+| **Belvedere Superior** ⭐✅ | 🔴 **diário 09:00–18:00** (não até às 19:00; o horário de verão é que é excecional) | **€23** | 1h30 | 38 min a pé, ou elétrico D | *O Beijo* de Klimt + a vista do jardim sobre a cidade. Hora marcada. ⚠️ Só por isto não vale a travessia: fica a oeste, como o Schönbrunn. |
+| **Belvedere Inferior** ✅ | 10:00–18:00 | €17 | 1h | idem | Só exposições temporárias. **O preço aqui estava €20 e é €17.** |
 | **Kaisergruft (cripta dos Capuchinhos)** ⭐✅ | diário 10:00–18:00, última 17:30 | **€15** | 45 min | 12 min | 150 Habsburgo em sarcófagos barrocos delirantes. |
 | **Augustinerkirche** | ~08:00–18:00 | grátis | 20 min | 12 min | Onde casaram Sisi e Maria Antonieta; **os corações dos Habsburgo em urnas de prata.** |
 | **Karlskirche** ✅ | seg–sáb 09:00–18:00; dom 11:30–19:00 | €9,50 | 40 min | U1, 8 min | 🔴 **O elevador para a cúpula foi desmontado em 2022**: vendedores terceiros ainda o anunciam. |
@@ -338,7 +338,7 @@ incerta, **telefonar**).
 | **Qua 23, 19:00** | **Staatsoper, Mozart, *La clemenza di Tito*** | Em pé €13/€15/€18. ⚠️ **Colide com a noite de festa**: acaba por volta das 22:00. |
 | **Qui 24, 19:00** | **Staatsoper, Verdi, *Macbeth*** | ⭐ **Esta é a noite realista para a ópera**, se quisermos. |
 | **Qui 24 e sex 25** | **Musikverein, Sala Dourada, Wiener Philharmoniker, maestro Esa-Pekka Salonen** (Lutosławski / Debussy / Sibelius) | ⭐ **Provavelmente o melhor evento cultural da nossa quinta-feira.** Confirmar hora em musikverein.at. |
-| **Qui 24 → 11 out** | **Wiener Kaiser Wiesn**, Kaiserwiese, Prater | **Dia de abertura.** Seg–sex a partir das **15:00**. Entrada grátis de dia. |
+| **Qui 24 → 11 out** | **Wiener Kaiser Wiesn**, Kaiserwiese, Prater | **Dia de abertura.** 🔴 **No dia 24 começa às 10:00**, com o cortejo desde o Kolariks Luftburg, e o **barril é aberto às 12:00** (comunicação do próprio organizador). O catálogo dizia "a partir das 15:00", que está errado e fazia parecer que ir mais cedo não valia nada: vale, o recinto está vivo desde a hora de almoço. Entrada grátis de dia. |
 | **Sex 25** | **Vienna Design Week 2026** (20.ª edição) começa | Saímos às 10:00, só apanharíamos o arranque. |
 | **Sex 25, 19:00** | Staatsoper, Ballet *Living Legacies* | Já partimos. |
 

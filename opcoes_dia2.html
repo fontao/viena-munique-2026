@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-PT" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dia 2 sem Schönbrunn · Opções no centro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+    :root {
+        --bg-base: #f4f6fb;
+        --bg-surface: #ffffff;
+        --bg-raised: #f8fafc;
+        --border-subtle: rgba(15, 23, 42, 0.08);
+        --border-hover: rgba(15, 23, 42, 0.20);
+        --text-main: #0f172a;
+        --text-muted: #475569;
+        --text-dim: #64748b;
+        --accent-blue: #0369a1;
+        --accent-indigo: #4f46e5;
+        --accent-gold: #b45309;
+        --accent-emerald: #047857;
+        --accent-rose: #be123c;
+        --accent-orange: #c2410c;
+        --tint-emerald: rgba(4, 120, 87, 0.09);
+        --tint-blue: rgba(3, 105, 161, 0.09);
+        --tint-gold: rgba(180, 83, 9, 0.10);
+        --tint-rose: rgba(190, 18, 60, 0.09);
+        --tint-grey: rgba(15, 23, 42, 0.04);
+        --shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px rgba(15, 23, 42, 0.05);
+        --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+        --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --radius-sm: 8px;
+        --radius-md: 14px;
+        --radius-lg: 20px;
+        --radius-full: 9999px;
+    }
+    [data-theme="dark"] {
+        --bg-base: #090d16;
+        --bg-surface: #0f1626;
+        --bg-raised: #162035;
+        --border-subtle: rgba(255, 255, 255, 0.08);
+        --border-hover: rgba(255, 255, 255, 0.20);
+        --text-main: #f8fafc;
+        --text-muted: #94a3b8;
+        --text-dim: #8496ad;
+        --accent-blue: #38bdf8;
+        --accent-indigo: #818cf8;
+        --accent-gold: #fbbf24;
+        --accent-emerald: #34d399;
+        --accent-rose: #fb7185;
+        --accent-orange: #fb923c;
+        --tint-emerald: rgba(52, 211, 153, 0.13);
+        --tint-blue: rgba(56, 189, 248, 0.13);
+        --tint-gold: rgba(251, 191, 36, 0.13);
+        --tint-rose: rgba(251, 113, 133, 0.13);
+        --tint-grey: rgba(255, 255, 255, 0.04);
+        --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+        margin: 0;
+        background: var(--bg-base);
+        color: var(--text-main);
+        font-family: var(--font-body);
+        font-size: 16px;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3, h4 { font-family: var(--font-heading); margin: 0; line-height: 1.2; }
+    h1 { font-size: clamp(1.6rem, 5vw, 2.4rem); font-weight: 800; letter-spacing: -0.02em; }
+    h2 { font-size: clamp(1.15rem, 3vw, 1.4rem); font-weight: 700; }
+    h3 { font-size: 1.05rem; font-weight: 700; }
+    p { margin: 0 0 0.9rem; }
+    a { color: var(--accent-blue); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 2.5rem 1.15rem 4rem; }
+    .measure { max-width: 68ch; }
+
+    /* ---------- cabeçalho ---------- */
+    .tag {
+        display: inline-flex; align-items: center; gap: 0.4rem;
+        font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em;
+        text-transform: uppercase; color: var(--accent-gold);
+        background: var(--tint-gold); border-radius: var(--radius-full);
+        padding: 0.28rem 0.7rem; margin-bottom: 0.9rem;
+    }
+    .sub { color: var(--text-muted); font-size: 1.02rem; margin-top: 0.7rem; }
+    .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.6rem; }
+    .chip {
+        background: var(--bg-surface); border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-md); padding: 0.55rem 0.85rem;
+        box-shadow: var(--shadow); min-width: 7.5rem;
+    }
+    .chip b {
+        display: block; font-family: var(--font-heading);
+        font-size: 1.25rem; font-weight: 800; color: var(--text-main);
+        font-variant-numeric: tabular-nums; line-height: 1.1;
+    }
+    .chip span { font-size: 0.72rem; color: var(--text-dim); line-height: 1.3; display: block; margin-top: 0.15rem; }
+
+    /* ---------- painéis ---------- */
+    .panel {
+        background: var(--bg-surface); border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-lg); padding: 1.35rem 1.4rem;
+        box-shadow: var(--shadow); margin-top: 2rem;
+    }
+    .panel h2 { display: flex; align-items: center; gap: 0.55rem; margin-bottom: 0.8rem; }
+    .panel.accent { border-left: 4px solid var(--accent-emerald); }
+    .panel.gains { border-left: 4px solid var(--accent-blue); }
+    .panel ul { margin: 0.4rem 0 0; padding-left: 1.15rem; }
+    .panel li { margin-bottom: 0.6rem; }
+    .panel li:last-child { margin-bottom: 0; }
+
+    .pick-head {
+        display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem;
+        margin-bottom: 0.7rem;
+    }
+    .pick-head h2 { margin: 0; }
+    .verdict {
+        display: inline-block; font-size: 0.68rem; font-weight: 700;
+        letter-spacing: 0.05em; text-transform: uppercase;
+        padding: 0.25rem 0.6rem; border-radius: var(--radius-full);
+        white-space: nowrap;
+    }
+    .v-rec { background: var(--tint-emerald); color: var(--accent-emerald); }
+    .v-alt { background: var(--tint-blue); color: var(--accent-blue); }
+    .v-free { background: var(--tint-gold); color: var(--accent-gold); }
+    .v-no { background: var(--tint-rose); color: var(--accent-rose); }
+
+    /* ---------- tabela comparativa ---------- */
+    .table-wrap { margin-top: 2.4rem; }
+    .table-hint { font-size: 0.75rem; color: var(--text-dim); margin: 0 0 0.5rem; }
+    table { width: 100%; border-collapse: collapse; background: var(--bg-surface); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow); }
+    caption { text-align: left; font-family: var(--font-heading); font-weight: 700; font-size: 1.15rem; padding-bottom: 0.7rem; color: var(--text-main); }
+    th, td { text-align: left; padding: 0.7rem 0.8rem; border-bottom: 1px solid var(--border-subtle); font-size: 0.86rem; vertical-align: top; }
+    thead th { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim); font-weight: 700; background: var(--bg-raised); }
+    tbody tr:last-child td { border-bottom: none; }
+    td.walk { font-family: var(--font-heading); font-weight: 800; font-size: 1rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    td.walk small { display: block; font-family: var(--font-body); font-weight: 500; font-size: 0.7rem; color: var(--text-dim); }
+    .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .ok { color: var(--accent-emerald); font-weight: 700; }
+    .warn { color: var(--accent-gold); font-weight: 700; }
+    .bad { color: var(--accent-rose); font-weight: 700; }
+
+    /* ---------- cartões de opção ---------- */
+    .opts { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 1.1rem; }
+    .opt {
+        background: var(--bg-surface); border: 1px solid var(--border-subtle);
+        border-left: 4px solid var(--edge, var(--border-subtle));
+        border-radius: var(--radius-md); padding: 1.1rem 1.2rem;
+        box-shadow: var(--shadow);
+    }
+    .opt[data-v="rec"] { --edge: var(--accent-emerald); }
+    .opt[data-v="alt"] { --edge: var(--accent-blue); }
+    .opt[data-v="free"] { --edge: var(--accent-gold); }
+    .opt[data-v="no"] { --edge: var(--accent-rose); }
+    .opt-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.6rem; margin-bottom: 0.5rem; }
+    .opt-head h3 { flex: 1 1 auto; }
+    .facts { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; margin: 0.7rem 0; font-size: 0.81rem; }
+    .facts div { display: flex; align-items: baseline; gap: 0.35rem; }
+    .facts dt { color: var(--text-dim); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; font-weight: 700; }
+    .facts dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+    .big { font-family: var(--font-heading); font-size: 1.35rem; font-weight: 800; }
+    .why { font-size: 0.88rem; color: var(--text-muted); margin: 0.6rem 0 0; }
+    .why strong { color: var(--text-main); }
+    .caveat {
+        margin-top: 0.75rem; font-size: 0.82rem;
+        background: var(--tint-grey); border-radius: var(--radius-sm);
+        padding: 0.6rem 0.75rem; color: var(--text-muted);
+    }
+
+    /* ---------- descartados ---------- */
+    .killed { margin-top: 1.1rem; }
+    .killed .row {
+        display: grid; grid-template-columns: minmax(9rem, 13rem) 1fr;
+        gap: 0.25rem 1rem; padding: 0.65rem 0;
+        border-top: 1px dashed var(--border-subtle); font-size: 0.85rem;
+    }
+    .killed .row:first-child { border-top: none; }
+    .killed .row b { font-family: var(--font-heading); }
+
+    /* ---------- plano ---------- */
+    .plan { list-style: none; margin: 0.6rem 0 0; padding: 0; }
+    .plan li {
+        display: grid; grid-template-columns: 6.2rem 1fr; gap: 0.9rem;
+        padding: 0.5rem 0; border-top: 1px dashed var(--border-subtle);
+        font-size: 0.87rem; align-items: baseline;
+    }
+    .plan li:first-child { border-top: none; }
+    .plan time { font-family: var(--font-heading); font-weight: 800; font-size: 0.82rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .plan .anchor { color: var(--accent-emerald); }
+
+    /* ---------- rodapé ---------- */
+    footer { margin-top: 2.6rem; padding-top: 1.2rem; border-top: 1px solid var(--border-subtle); font-size: 0.75rem; color: var(--text-dim); }
+    footer p { margin-bottom: 0.5rem; }
+    .toggle {
+        position: fixed; top: 1rem; right: 1rem; z-index: 10;
+        width: 2.6rem; height: 2.6rem; border-radius: var(--radius-full);
+        border: 1px solid var(--border-subtle); background: var(--bg-surface);
+        color: var(--text-main); cursor: pointer; font-size: 1.1rem;
+        box-shadow: var(--shadow); display: grid; place-items: center;
+    }
+    .toggle:hover { border-color: var(--border-hover); }
+    .toggle:focus-visible { outline: 3px solid var(--accent-blue); outline-offset: 2px; }
+
+    /* ---------- telemóvel ---------- */
+    @media (max-width: 760px) {
+        .wrap { padding: 2rem 0.9rem 3rem; }
+        .chip { flex: 1 1 40%; min-width: 0; }
+        table, thead, tbody, th, td, tr { display: block; }
+        thead { display: none; }
+        caption { padding-bottom: 0.5rem; }
+        tbody tr {
+            border: 1px solid var(--border-subtle); border-radius: var(--radius-md);
+            margin-bottom: 0.6rem; padding: 0.5rem 0.2rem; background: var(--bg-surface);
+        }
+        td { border-bottom: none; display: grid; grid-template-columns: 8.5rem 1fr; gap: 0.6rem; padding: 0.35rem 0.8rem; }
+        td::before { content: attr(data-label); font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim); }
+        td.walk { font-size: 0.95rem; }
+        /* A nota da distância («ou U1 até Praterstern») ia para a coluna das
+           etiquetas e lia-se como se fosse mais um rótulo. Fica debaixo do valor. */
+        td.walk small { grid-column: 2; }
+        .killed .row { grid-template-columns: 1fr; }
+        /* A coluna da hora precisa de 82 px para «11:00 – 12:30» com nowrap, e a
+           4.6rem só dava 74: o intervalo transbordava o próprio elemento. */
+        .plan li { grid-template-columns: 5.6rem 1fr; gap: 0.7rem; }
+    }
+</style>
+</head>
+<body>
+<button class="toggle" id="theme-toggle" type="button" aria-label="Alternar tema claro e escuro">◐</button>
+
+<div class="wrap">
+
+    <header>
+        <span class="tag">Dia 2 · quinta, 24 de setembro · 4 pessoas</span>
+        <h1>O Dia 2 sem Schönbrunn</h1>
+        <p class="sub measure">O palácio custa <strong>3h05</strong> do meio do dia e é a única altura em que o grupo atravessa a cidade para voltar ao ponto de partida. Com ele fora, fica uma tarde inteira a pé de casa, e a entrada das 14:00 deixa de mandar no dia.</p>
+
+        <div class="chips">
+            <div class="chip"><b>3h05</b><span>livres, 13:20 – 16:25</span></div>
+            <div class="chip"><b>0</b><span>minutos de metro, se ficarmos no centro</span></div>
+            <div class="chip"><b>€168</b><span>que não se gastam (4 × €42)</span></div>
+            <div class="chip"><b>34,2 mm</b><span>de chuva previstos neste dia</span></div>
+        </div>
+    </header>
+
+    <section class="panel gains">
+        <h2>O que se ganha, e não é só o tempo</h2>
+        <ul>
+            <li><strong>A entrada das 14:00 é o que hoje estraga o Café Sacher.</strong> É ela que obriga a despachar a paragem em 40 minutos, e é por causa dela que o guia manda não tentar mesa e comprar a Sachertorte na loja ao lado. Sem hora marcada, a fila de 30 minutos deixa de ser um risco e passa a ser tempo de mesa.</li>
+            <li><strong>É a única travessia do dia que não serve para nada.</strong> O resto do Dia 2 é todo em volta de casa e do Prater. Schönbrunn é ir a oeste à hora de almoço para voltar ao centro e seguir para leste à tarde.</li>
+            <li><strong>O dia está de chuva.</strong> 34,2 mm em 21 horas seguidas, com rajadas de 55 km/h. Uma tarde fechada não perde nada, e a Gloriette ao vento e à chuva era justamente a parte mais exposta do plano.</li>
+        </ul>
+    </section>
+
+    <section class="panel accent">
+        <div class="pick-head">
+            <span class="verdict v-rec">Recomendado</span>
+            <h2>Hofburg: Sisi Museum e Apartamentos Imperiais</h2>
+        </div>
+        <p class="measure">É a mesma história imperial do Schönbrunn, contada a <strong>14 minutos a pé de casa</strong>, e é a única opção que faz o dia ficar <em>mais</em> leve em vez de trocar uma viagem por outra. O Dia 1 já passou pelo Hofburg por fora, às 16:45, a caminho do Volksgarten. Isto é entrar.</p>
+        <div class="facts">
+            <div><dt>A pé</dt><dd class="big">14 min</dd></div>
+            <div><dt>Visita</dt><dd>~1h30 com fila</dd></div>
+            <div><dt>Preço</dt><dd>€20/pax · €80</dd></div>
+            <div><dt>Reserva</dt><dd>obrigatória, com hora</dd></div>
+        </div>
+        <p class="why"><strong>Porquê esta e não outra:</strong> é a que fica mais perto do que o palácio, é a mais curta das que valem a pena, e é coberta. Uma tarde de 34 mm de chuva pede um plano fechado, e este é o único que não obriga a sair para a rua a meio.</p>
+        <div class="caveat">
+            ⚠️ <strong>Duas correções ao que o catálogo dizia.</strong> A <em>Silberkammer</em> (coleção de prata) está <strong>fechada</strong> desde abril de 2023, sem data de reabertura: o bilhete de dia dá acesso ao museu e aos apartamentos, e só. E o próprio museu conta <strong>cerca de 60 minutos</strong> de visita, não as 2h que constavam. Com fila e guarda-volumes, contar 1h30.<br>
+            Entrada pela <em>Michaelerkuppel</em>. <strong>Bilhete exclusivamente online</strong> em imperialtickets.com, com hora marcada: o museu diz que a entrada só está garantida com bilhete comprado para um intervalo.
+        </div>
+    </section>
+
+    <div class="table-wrap">
+        <p class="table-hint">Distâncias a pé desde a Judengasse 11 (OSRM, perfil a pé, 11/09/2026). Preços por pessoa, para 4.</p>
+        <table>
+            <caption>As opções do centro, comparadas pelo que custam em tempo</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Opção</th>
+                    <th scope="col">A pé</th>
+                    <th scope="col">Visita</th>
+                    <th scope="col">€/pax</th>
+                    <th scope="col">Reserva</th>
+                    <th scope="col">Cabe em 3h05</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Hofburg, Sisi e Apartamentos</th>
+                    <td class="walk" data-label="A pé">14 min</td>
+                    <td data-label="Visita">~1h30</td>
+                    <td class="num" data-label="€/pax">€20</td>
+                    <td data-label="Reserva">hora marcada</td>
+                    <td data-label="Cabe?"><span class="ok">✅ com folga</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">MuseumsQuartier e MQ Libelle</th>
+                    <td class="walk" data-label="A pé">22 min</td>
+                    <td data-label="Visita">1h a 2h</td>
+                    <td class="num" data-label="€/pax">grátis</td>
+                    <td data-label="Reserva">não</td>
+                    <td data-label="Cabe?"><span class="ok">✅ com folga</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Albertina</th>
+                    <td class="walk" data-label="A pé">14 min</td>
+                    <td data-label="Visita">~1h30</td>
+                    <td class="num" data-label="€/pax">€20,90</td>
+                    <td data-label="Reserva">sem hora marcada</td>
+                    <td data-label="Cabe?"><span class="ok">✅ com folga</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Prater mais cedo, Kaiser Wiesn</th>
+                    <td class="walk" data-label="A pé">27 min<small>ou U1 até Praterstern</small></td>
+                    <td data-label="Visita">o resto da tarde</td>
+                    <td class="num" data-label="€/pax">grátis de dia</td>
+                    <td data-label="Reserva">não, de dia</td>
+                    <td data-label="Cabe?"><span class="ok">✅ e é o dia de abertura</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Kunsthistorisches Museum</th>
+                    <td class="walk" data-label="A pé">18 min</td>
+                    <td data-label="Visita">2h a 3h</td>
+                    <td class="num" data-label="€/pax">€22 online</td>
+                    <td data-label="Reserva">hora marcada</td>
+                    <td data-label="Cabe?"><span class="warn">⚠️ só à pressa</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Belvedere Superior, O Beijo</th>
+                    <td class="walk" data-label="A pé">38 min<small>ou elétrico D</small></td>
+                    <td data-label="Visita">1h30 a 2h</td>
+                    <td class="num" data-label="€/pax">€23</td>
+                    <td data-label="Reserva">hora marcada</td>
+                    <td data-label="Cabe?"><span class="bad">🔴 é o mesmo problema</span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Haus des Meeres</th>
+                    <td class="walk" data-label="A pé">34 min</td>
+                    <td data-label="Visita">~2h</td>
+                    <td class="num" data-label="€/pax">€23,50</td>
+                    <td data-label="Reserva">sem hora marcada</td>
+                    <td data-label="Cabe?"><span class="bad">🔴 34 min a pé</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2 style="margin-top: 2.6rem;">As quatro que valem, ao detalhe</h2>
+    <div class="opts">
+
+        <article class="opt" data-v="rec">
+            <div class="opt-head">
+                <h3>1. Hofburg: Sisi Museum e Apartamentos Imperiais</h3>
+                <span class="verdict v-rec">Recomendado</span>
+            </div>
+            <div class="facts">
+                <div><dt>A pé</dt><dd class="big">14 min</dd></div>
+                <div><dt>Distância</dt><dd class="num">1,02 km</dd></div>
+                <div><dt>Visita</dt><dd>~1h30</dd></div>
+                <div><dt>4 pessoas</dt><dd class="num">€80</dd></div>
+            </div>
+            <p class="why"><strong>O que é:</strong> os aposentos verdadeiros de Francisco José e Sisi, mobiliário, retratos e o museu sobre a imperatriz, dentro do complexo por onde o Dia 1 passou por fora. Entra-se pela <em>Michaelerkuppel</em>, que fica a <strong>6 minutos a pé do Café Sacher</strong> (420 m), o que faz a tarde encaixar sem uma única viagem de metro até ao Prater.<br>
+            <strong>O senão:</strong> a coleção de prata está fechada e a visita é mais curta do que o catálogo prometia. Sobra tempo, e isso resolve-se com um café no fim.</p>
+            <div class="caveat">Estudantes até 25 anos pagam <strong>€18</strong> com cartão ISIC, mas isso só conta se levarem comprovativo de estudante: pelo preço normal são €20.</div>
+        </article>
+
+        <article class="opt" data-v="alt">
+            <div class="opt-head">
+                <h3>2. MuseumsQuartier e MQ Libelle</h3>
+                <span class="verdict v-alt">Alternativa</span>
+            </div>
+            <div class="facts">
+                <div><dt>A pé</dt><dd class="big">22 min</dd></div>
+                <div><dt>Distância</dt><dd class="num">1,61 km</dd></div>
+                <div><dt>Visita</dt><dd>1h a 2h</dd></div>
+                <div><dt>Custo</dt><dd class="num">grátis</dd></div>
+            </div>
+            <p class="why"><strong>O que é:</strong> os pátios do antigo quartel imperial, hoje o sítio onde a cidade se senta em sofás ao ar livre, com o <strong>MQ Libelle</strong>, um terraço grátis sobre os telhados, sem consumo obrigatório. É a opção mais próxima do que pediram: jovem, sem bilhete, sem fila e sem guia.<br>
+            <strong>O senão:</strong> o Libelle fecha com mau tempo, e este dia tem 34 mm de chuva previstos. Se estiver a chover, isto perde metade do sentido, e o Hofburg ganha por knockout.</p>
+        </article>
+
+        <article class="opt" data-v="alt">
+            <div class="opt-head">
+                <h3>3. Albertina</h3>
+                <span class="verdict v-alt">Alternativa</span>
+            </div>
+            <div class="facts">
+                <div><dt>A pé</dt><dd class="big">14 min</dd></div>
+                <div><dt>Visita</dt><dd>~1h30</dd></div>
+                <div><dt>4 pessoas</dt><dd class="num">€83,60</dd></div>
+            </div>
+            <p class="why"><strong>O que é:</strong> Monet, Picasso e uma coleção densa em pouco espaço, a <strong>50 metros de onde a paragem do Sacher já vos deixa</strong>. O terraço, na base, é o melhor miradouro sobre a Ópera e é grátis, com ou sem bilhete para o museu.<br>
+            <strong>O senão:</strong> é a mais parecida com um museu convencional das quatro, e não acrescenta nada que Schönbrunn também não desse. O terraço vale a pena em qualquer dos casos.</p>
+        </article>
+
+        <article class="opt" data-v="free">
+            <div class="opt-head">
+                <h3>4. Prater mais cedo, no dia de abertura da Kaiser Wiesn</h3>
+                <span class="verdict v-free">Sem bilhetes</span>
+            </div>
+            <div class="facts">
+                <div><dt>A pé</dt><dd class="big">27 min</dd></div>
+                <div><dt>Ou</dt><dd>U1 até Praterstern</dd></div>
+                <div><dt>Recinto de dia</dt><dd class="num">grátis</dd></div>
+                <div><dt>Espetáculos à noite</dt><dd class="num">€39 a €49</dd></div>
+            </div>
+            <p class="why"><strong>O que é:</strong> a <em>Kaiser Wiesn</em>, a Oktoberfest de Viena, abre exatamente <strong>nesta quinta, 24 de setembro</strong>, e o grupo já lá vai às 17:00. <strong>No dia de abertura o cortejo sai às 10:00 e o barril é aberto às 12:00</strong>, portanto o recinto está a andar desde a hora de almoço, e de dia <strong>não se paga nada</strong>: três tendas, cinco <em>Almen</em>, música ao vivo, <em>Dirndl</em> e <em>Lederhosen</em>.<br>
+            <strong>Porque é a mais barata:</strong> sair do centro às 15:00 em vez das 16:25 não custa um único euro e troca um museu por música ao vivo. <strong>O senão:</strong> transforma o Dia 2 num dia inteiro de Prater, das 15:00 às 23:00, o que é muito do mesmo sítio.</p>
+            <div class="caveat">Os concertos da noite dentro das tendas (<em>Die Lauser</em>, <em>Die Dirndlrocker</em>, <em>Bengels Reloaded</em>) são pagos e é preciso escolher a tenda. De dia não é preciso nada.</div>
+        </article>
+
+    </div>
+
+    <section class="panel" style="margin-top: 2rem;">
+        <h2>Descartadas, e porquê</h2>
+        <div class="killed">
+            <div class="row"><b>Belvedere</b><span>38 minutos a pé ou elétrico. É o mesmo problema que o Schönbrunn, só mais perto: continua a ser sair do centro para voltar. O <em>Beijo</em> de Klimt não paga 76 minutos de caminho ida e volta.</span></div>
+            <div class="row"><b>Haus des Meeres</b><span>34 minutos a pé, e o aquário pede duas horas. Fica fora e é longo, exactamente o que se quer evitar.</span></div>
+            <div class="row"><b>Kunsthistorisches</b><span>Boa opção em qualquer outro dia, e na quinta está aberto até às 21:00. Aqui não cabe: 2 a 3 horas não convivem com o Prater às 17:00, e vê-lo à pressa em 1h30 é pior do que não o ver.</span></div>
+            <div class="row"><b>Naschmarkt</b><span>27 minutos a pé, e a comida deste dia já está tomada pelo Café Korb e pelo Sacher. Sobraria ir a um mercado logo depois de almoçar.</span></div>
+            <div class="row"><b>Secession e Karlskirche</b><span>Curtas demais para ocupar a tarde, e na Karlskirche o elevador para a cúpula foi desmontado em 2022.</span></div>
+        </div>
+    </section>
+
+    <section class="panel" style="margin-top: 2rem;">
+        <h2>Como o dia ficaria, com o Hofburg</h2>
+        <ol class="plan">
+            <li><time>11:00 – 12:30</time><span>Brunch no Café Korb, a 5 minutos de casa</span></li>
+            <li><time>12:40 – 13:20</time><span>Kärntner Straße até ao Café Sacher. <strong>Com a entrada das 14:00 fora, há tempo para mesa.</strong></span></li>
+            <li><time>13:25 – 13:35</time><span>Terraço da Albertina (grátis, 50 metros) e o Bitzinger na base, se ainda houver fome</span></li>
+            <li><time>13:45 – 15:30</time><span class="anchor">Hofburg: Sisi Museum e Apartamentos Imperiais. Entrada pela Michaelerkuppel, 6 minutos a pé do Sacher (420 m)</span></li>
+            <li><time>15:30 – 16:20</time><span>Graben e Kohlmarkt sem pressa, que no Dia 1 se fizeram a correr</span></li>
+            <li><time>16:20 – 16:30</time><span>A pé até ao Stephansplatz (590 m, 8 min)</span></li>
+            <li><time>16:30</time><span>U1 do Stephansplatz até Praterstern, já pago pelo bilhete de 24h</span></li>
+            <li><time>17:00</time><span class="anchor">Prater, como já estava previsto, com a Kaiser Wiesn a abrir</span></li>
+        </ol>
+        <p class="why" style="margin-top: 1rem;"><strong>O que isto custa:</strong> perde-se o palácio e a subida à Gloriette, e o Dia 2 passa a ter dois blocos de museu em vez de um. Ganham-se 3h05 sem metro, uma sesta de manhã que o Dia 1 a seguir a 20h15 bem precisa, e a única tarde coberta da estadia em Viena.</p>
+    </section>
+
+    <footer>
+        <p><strong>Proveniência.</strong> Distâncias a pé medidas com OSRM, perfil a pé, a 11/09/2026, a partir da Judengasse 11. Preços e horários lidos nos sites oficiais: sisimuseum-hofburg.at e belvedere.at a 11/09/2026, khm.at a 11/09/2026. O preço da Albertina, do Haus des Meeres e o horário do MQ Libelle vêm do <em>catalogo_viena.md</em>, onde estão marcados como confirmados.</p>
+        <p><strong>O que não foi verificado.</strong> Se o Sisi Museum exige escolher hora para o dia 24 de setembro em concreto, e se há faixas esgotadas, só se sabe na bilheteira. O MQ Libelle fecha com mau tempo, e isso não se sabe antes do próprio dia. Os preços dos espetáculos da Kaiser Wiesn mudam com a procura.</p>
+        <p>Documento de apoio à decisão. Não é o roteiro, e não substitui o <em>itinerario_viagem.md</em>: nada entra no plano sem passar pela skill <em>planear-dia</em>.</p>
+    </footer>
+
+</div>
+
+<script>
+    (function () {
+        var root = document.documentElement;
+        var btn = document.getElementById('theme-toggle');
+        var saved = null;
+        try { saved = localStorage.getItem('vm_opcoes_dia2_2026'); } catch (e) {}
+        if (saved) {
+            root.setAttribute('data-theme', saved);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            root.setAttribute('data-theme', 'dark');
+        }
+        btn.addEventListener('click', function () {
+            var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            root.setAttribute('data-theme', next);
+            try { localStorage.setItem('vm_opcoes_dia2_2026', next); } catch (e) {}
+        });
+    })();
+</script>
+</body>
+</html>
