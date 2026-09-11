@@ -58,7 +58,7 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
       2) Atraso da Westbahn em Salzburgo: apanhar o RJX das 15:00 para München Hbf (chegada às 16:32) e ligar para Augsburg Hbf (chegada ~17:15–17:29). A noite em Augsburg não é afetada porque todo o programa é a pé a partir do apartamento.
     - **Eliminação de discursos e meta-narrativa:** Expurgaram-se sermões como *"🚨 Porque é que se sai às 09:50 e não mais tarde..."*, *"E aqui não há segunda oportunidade..."*, *"🚨 O grupo divide-se no cais, e não no apartamento. A razão é uma só..."*, e frases opinativas como *"não é só bonito, é o motivo pelo qual Augsburg existe"*.
     - **Expurgo de datas de confirmação no texto (Regra 10):** Removidas referências como *"Isto ficou mais fácil a 28/08/2026: sem bilhete marcado no castelo, o Dia 4 aguenta atrasos que antes o partiam"*.
-    - **Condensação de caixas de aviso:** No `index.html`, o nó dos comboios e da Enterprise foram reorganizados em caixas de aviso estruturadas, focadas estritamente em ações práticas (estacionamento no Lechviertel, cartão de crédito físico do condutor titular e rebatimento 50/50 da 3.ª fila de bancos).
+    - **Condensação de caixas de aviso e despoluição:** No `index.html`, foi removida a caixa de aviso deslocada sobre a noite a pé no nó de separação do grupo (informação já incorporada nos nós da Fuggerei e do jantar). No bloco de levantamento do carro, eliminou-se a menção supérflua ao valor total do aluguer (€427,58, que já consta do dossiê logístico e de orçamento), mantendo o foco operacional nos prazos de balcão e nos requisitos práticos da viatura.
     - **Paridade e validação:** Ambos os ficheiros mantêm rigorosa paridade, e o `verificar.py` executou com 0 erros e 0 preços órfãos.
 
 ---

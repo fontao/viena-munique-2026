@@ -681,7 +681,7 @@ confirmadas abertas à quarta, a terceira não.**
 - **16:14 – 16:45**: **Separação do grupo no cais de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150):**
   - 🚕 **Condutores diretos à Enterprise:** apanham o táxi pré-reservado para as 16:20 à porta da estação e vão diretos à Enterprise Rent-A-Car (*Aindlinger Str. 14*, ~6,5 km, ~€15–20), chegando por volta das 16:30, sem malas.
   - 🧳 **Restantes com a bagagem:** seguem de táxi ou tram até ao **Lexapartments Zentral 101m²** (*Am Bogen 6*), fazem o check-in e recebem os 2 amigos que chegam da Alemanha (**grupo de 6 reunido**).
-  - 🚗 **Carro reservado:** levantamento às **17:00**, 7-Seater SUV automático (VW Touran ou similar), 4 dias, **€427,58**. Devolução terça-feira às 17:00 no Mietwagenzentrum do Aeroporto de Munique (MUC).
+  - 🚗 **Carro reservado:** levantamento às **17:00**, 7-Seater SUV automático (VW Touran ou similar, 4 dias). Devolução terça-feira às 17:00 no Mietwagenzentrum do Aeroporto de Munique (MUC).
   - ⏱️ A entrega ao balcão demora ~30 a 40 minutos (papelada, seguro e inspeção de danos). Com o balcão a fechar às 18:00, a marcação às 17:00 assegura margem confortável.
 - **17:40 – 17:55**: A carrinha chega ao apartamento e junta-se ao grupo. O resto da noite é percorrido a pé.
   - 🅿️ ⚠️ **Estacionamento no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg):** ruelas estreitas com estacionamento reservado a residentes (*Anwohnerparken*). Confirmar com o anfitrião do Lexapartments onde estacionar ou recorrer a um parque coberto do centro (*[Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%2086150%20Augsburg)* ou *City-Galerie*).
