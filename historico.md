@@ -30,6 +30,11 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 4. **Preço normal nos bilhetes do Hofburg: remoção dos descontos de estudante.**
    Descartadas as menções às tarifas de estudante no Tesouro Imperial (€12 até aos 25 anos) e no Prunksaal (€10 até aos 27 anos). Os documentos passam a indicar exclusivamente a tarifa normal de adulto (€16 online no Tesouro e €12 no Prunksaal, com audioguia a €3 ou €2,50 a partir de 2 pessoas).
 
+5. **Roda Gigante vista do exterior (poupança de €58) e Jantar no recinto da Kaiser Wiesn (Opção B).**
+   - **Riesenrad por fora:** o grupo optou expressamente por não andar na Roda Gigante no Dia 2, apreciando e fotografando a estrutura icónica a partir da Riesenradplatz exteriormente. Isso eliminou o custo de bilheteira (€14,50/pax, poupando €58 no total do grupo) e o tempo de fila para embarque.
+   - **Jantar no recinto da Kaiser Wiesn:** em vez de reservar e caminhar até ao restaurante Schweizerhaus (580 m mais para o interior do parque), o grupo aproveita o primeiro dia da *Wiener Kaiser Wiesn* para jantar diretamente nas bancas da aldeia (*Wiesn-Dorf*) e nos chalés rústicos (*Almen*) instalados na Kaiserwiese. Jantar ao ar livre com especialidades austríacas tradicionais (*Stelze*, *Käsekrainer*, *Leberkäse*, *Bretzeln* e cerveja Gösser) sem necessidade de marcação de mesa nem rigidez de horário.
+   - **Ganhos logísticos:** a Kaiserwiese situa-se logo à entrada do Prater, a meros 250 metros (3 minutos a pé) da estação de Praterstern. A saída às 20:15 para apanhar o metro U1 direto até Schwedenplatz/Das Loft tornou-se ainda mais rápida e cómoda do que a partir do Schweizerhaus (que exigia 850 m / 11 min a pé no escuro).
+
 ---
 
 ## 25.ª revisão · 11 de setembro de 2026
