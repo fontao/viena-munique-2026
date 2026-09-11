@@ -14,6 +14,54 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 17.ª revisão · 11 de setembro de 2026
+
+**A regra da noite mudou: só o que se faz a pé, no máximo 30 minutos para casa. E é para gente de
+25 anos.**
+
+1. **A revisão anterior tinha encontrado quatro alternativas e três delas não servem.** Medidas
+   de novo, a partir da Judengasse 11, com o critério do grupo (30 min no máximo, e o regresso
+   sempre a pé):
+
+   | Alternativa | A pé para casa | Veredicto |
+   |---|---|---|
+   | Cabaret Fledermaus | **651 m, 9 min** | fica |
+   | Kaktus | **2 min** | fica |
+   | DANZÓN | **899 m, 12 min** | fica (é a escolha) |
+   | Club U | **1,6 km, 22 min** | fica |
+   | VIE i PEE | 2,8 km, **37 min** | **corta** |
+   | U4 | 5,3 km, **1h11** | **corta** |
+   | Das Werk | Spittelau, U4 | **corta** |
+   | Praterdome | fecha à quarta | já estava fora |
+
+   **O corte não é por qualidade, é por logística:** o VIE i PEE é uma boa festa de quarta e o U4
+   custa €5, mas a 37 minutos e a 1h11 a pé, respetivamente, o regresso passa a ser táxi às 03:00
+   numa noite que termina antes de um dia inteiro de Viena. **Uma alternativa que exige táxi não
+   é uma alternativa, é outro plano.**
+
+2. **Entrou o Kaktus, que estava debaixo do nariz.** A 2 minutos da porta, **entrada livre**,
+   aberto **todos os dias desde as 19:00** e com pista. É o único sítio da lista que não custa
+   nada, não exige deslocação e não tem hora de fecho antes das 04:00. Estava no catálogo desde
+   sempre e nunca tinha sido ligado à noite do Dia 1.
+
+3. **O Club U entra com reserva.** O perfil é exatamente o do grupo: no pavilhão Otto Wagner, no
+   Karlsplatz, **público jovem, eletrónica, indie e alternative**, 22 minutos a pé. Mas **não tem
+   evento de quarta anunciado** em nenhum calendário, e por isso vai marcado com ⚠️ e com a
+   instrução de ver o Instagram no dia. **Não inventei uma noite fixa para o encaixar.**
+
+4. **Duas coisas confirmadas pelo caminho.** O **VOLUME lista o RESET no U4 para quarta, 23 de
+   setembro, à porta por €5** (90s e 2000s), o que confirma o preço que o clube publica. E o
+   **próprio Kaktus anuncia "Free Entry, Mo–So ab 19 Uhr"**, o que resolve a única dúvida que
+   havia sobre ele.
+
+5. **O Fluc sai da conversa.** À quarta, 23 de setembro, o programa oficial do Fluc é um
+   **concerto ao vivo** (AK'CHAMEL + Krampot, às 20:00), não uma noite de clube. Fica como o que
+   é, e não como plano B de dança.
+
+   > **A regra que fica, para não voltar a acontecer:** uma alternativa de noite mede-se em
+   > minutos a pé para casa, não em reputação. Depois de decidido o critério, metade da lista
+   > caiu sozinha.
+
 ## 16.ª revisão · 11 de setembro de 2026
 
 **A noite do Dia 1, sítio a sítio. O plano aguenta-se; faltava-lhe o que existe à quarta fora do

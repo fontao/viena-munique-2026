@@ -81,7 +81,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 | Bar | Morada | Horário 4ª | Fecha | Nota |
 |---|---|---|---|---|
 | **Krah Krah** ✅ | Rabensteig 8 | 11:00–**24:00** | meia-noite | ~60 cervejas, sandes abertas. O fundador do triângulo (1980). **Serve para começar, não para acabar.** |
-| **Kaktus** ✅ | Seitenstettengasse 5 | 19:00–**04:00** | 04:00 | Com pista. Música alta, não é sítio de conversa. **Um dos poucos que aguenta a madrugada.** |
+| **Kaktus** ✅🌟 | Seitenstettengasse 5 | 19:00–**04:00**, **todos os dias** | 04:00 | **Entrada livre.** Com pista. Música alta, não é sítio de conversa. **A 2 min de casa: a opção mais próxima e a única que não custa nada.** |
 | **Roter Engel** ✅ | Rabensteig 5 | ter–sáb 18:00–**04:00** | 04:00 | Música ao vivo **22:00–01:00**. Confirmar se há banda. |
 | **First Floor** ✅ | Seitenstettengasse 5 | dom–qui 18:00–**02:00** | 02:00 | Cocktails a sério, aquário atrás do balcão. O contraponto de qualidade ao ruído do resto. |
 | **Salzamt** ⚠️ | Ruprechtsplatz 1 | 17:00–01:00 | 01:00 | **1 minuto.** Esplanada na praça, ambiente adulto. |
@@ -124,7 +124,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 | **Das Werk** ⭐ | Spittelauer Lände, Bogen 331 | ***Rave am Mittwoch*** | 23:00–~04/06:00 | **donativo** (a partir de €5 oferecem shot) | *"NO DRESSCODE // COME AS YOU ARE"*, equipa de awareness | U4 → Spittelau, 15–18 min | Bolt ~€15 ou N-bus |
 | **VIE i PEE** ⭐ | Waldsteingartenstr. 135 (Prater) | ***Mixwoch***, todas as quartas | 23:00–06:00 | ⚠️ €5–10, por confirmar | acessível | U1 → Praterstern, ~20 min | N-bus para Schwedenplatz |
 | **U4** | Schönbrunner Str. 222, 1120 | *Heartbreak Hotel* / *RESET*, 90s e 2000s, **todas as quartas** | **portas às 23:00** | ⚠️ **€5 a €12 conforme a noite**, 18+ | nenhuma | U4 direto, 20–25 min | ⚠️ **5,3 km: 1h11 a pé, só táxi** |
-| **Club U** | Otto-Wagner-Pavillon, Karlsplatz | - | 19:00–04:00 | grátis ou ~€5 ⚠️ | informal | U1, ~10 min | fácil |
+| **Club U** ⭐ | Otto-Wagner-Pavillon, Karlsplatz | 19:00–04:00 | grátis ou ~€5 ⚠️ | informal | **22 min a pé** | fácil (U1/U2/U4) |
 | **Chelsea** | Lerchenfelder Gürtel 29–31 | sem noite fixa; 23/9 é semana de Champions | diário 18:00–04:00 | grátis a €10 | nenhuma | ~20–25 min | N6 ou Bolt |
 | **Café Concerto** ⭐ | Lerchenfelder Gürtel 53 | **jam session de jazz fixa à quarta** | qua–sáb 19:00–02:00 | **grátis** | nenhuma | ~23–26 min | N6 ou Bolt |
 | **Loco** | Währinger Gürtel 172–174 | karaoke à quarta ⚠️ | diário 19:00–05:00 | baixo | nenhuma | ~15–18 min | a 30 m do U6 |
@@ -134,6 +134,11 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 | **Fluc + Fluc Wanne** | Praterstern 5 | bar sim; clube depende do programa | bar 18:00–04:00, 7 dias | bar grátis; cave €5–10 | **zero seletividade** | U1, ~10 min | bom plano B |
 | **rhiz** | Lerchenfelder Gürtel 37–38 | concertos frequentes | **19:00–01:00, fecha cedo** | grátis a €12 | nenhuma | ~20 min | eletrónica experimental de nicho |
 | **O – der Klub** ⚠️ | Opernring (🔴 *não* Passauer Platz) | série *"entrada grátis todas as quartas, maio–setembro"* | madrugada | grátis se a série ainda correr | **a porta mais exigente desta lista** | ~12 min a pé | **23/9 está mesmo no limite da série, verificar** |
+
+> 🌟 **A pé, só quatro, com o critério de 30 min no máximo para casa:** **Kaktus** (2 min,
+> entrada livre), **Cabaret Fledermaus** (9 min, entrada livre), **DANZÓN** (12 min) e **Club U**
+> (22 min). Todas as outras linhas desta tabela exigem metro ou táxi à volta, e por isso não
+> servem para uma noite que termina antes de um dia cheio.
 
 ### ❌ Fechadas à quarta, não percam a viagem
 

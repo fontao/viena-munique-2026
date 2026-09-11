@@ -585,22 +585,23 @@ confirmadas abertas à quarta, a terceira não.**
     00:30 e no dia seguinte há um dia inteiro de Viena pela frente.
 - **~02:30**: Regresso a pé. Se apetecer, **Würstelstand am Hoher Markt** (aberto
   **09:00–04:00**, a **2 min de casa**) para a *Käsekrainer* da praxe.
-- 🚪 **As alternativas de quarta que existem de verdade, e o que custam:**
-  - **Cabaret Fledermaus** (*Spiegelgasse 2*, **9 min a pé**): **HOLIDAY CLUB toda a quarta,
-    entrada livre**, dance hits dos 90 e 2000. É a única alternativa que se faz a pé e não paga
-    entrada, e o FALTER tem-na marcada para **quarta, 23 de setembro**. **Se o DANZÓN estiver
-    cheio, é para aqui.**
-  - **VIE i PEE, "Mixwoch"** (*Waldsteingartenstraße 135, 1020*, **2,8 km**): quarta desde as
-    23:00, hip-hop. Vai-se de **U1 até Praterstern**; a pé são 37 minutos.
-  - **U4, "Heartbreak Hotel"** (*Schönbrunner Straße 222, 1120*, **5,3 km**): 90s e 2000s, portas
-    às 23:00, 18+, **€5 a €12 conforme a noite**. Fácil de lá chegar de metro (U4 direto), o pior
-    de voltar: **1h11 a pé**, só táxi.
-  - **Das Werk, "Rave am Mittwoch"** (*Spittelauer Lände 12, Bogen 331*, 1090): rave de quarta,
-    23:00 às 04:00, **entrada por donativo**, a partir de €5 dão um shot. U4 até Spittelau.
-- 🅱️ **Planos B, todos a pé:** **Kaktus** (*Seitenstettengasse 5*, 19:00–04:00, com pista),
-  **Roter Engel** (*Rabensteig 5*, ter–sáb 18:00–04:00, música ao vivo das 22:00 à 01:00) e
-  **Loos American Bar** (*Kärntner Durchgang 10*, **9 min**, **aberto até às 04:00 todos os
-  dias**, 27 m² desenhados por Adolf Loos em 1908, sem reservas, ir cedo).
+- 🚪 **Alternativas de quarta, só o que se faz a pé (30 min no máximo, e sempre a pé para casa):**
+  - **Cabaret Fledermaus** (*Spiegelgasse 2*, **9 min**): **HOLIDAY CLUB toda a quarta, entrada
+    livre**, hits dos 90 e 2000. É a única outra pista a sério que se faz a pé e não paga nada, e
+    o FALTER tem-na marcada para **quarta, 23 de setembro**. **Se o DANZÓN estiver cheio, é para
+    aqui.**
+  - **Kaktus** (*Seitenstettengasse 5*, **2 min**): **entrada livre, aberto todos os dias desde
+    as 19:00**, pista e música alta. É a opção à porta de casa, para começar ou para acabar.
+  - **Club U** (*Karlsplatz*, **22 min**): no pavilhão Otto Wagner, público jovem, eletrónica,
+    indie e alternative. ⚠️ **Não tem evento de quarta anunciado:** ver o Instagram no dia.
+- 🚫 **Os clubes grandes ficam de fora, e é a distância que os corta:** o VIE i PEE está a
+  **2,8 km (37 min a pé)**, o U4 a **5,3 km (1h11)**, o Das Werk e o Praterdome ainda mais longe.
+  **Numa noite em que há um dia inteiro no dia seguinte, um regresso de táxi às 03:00 não vale a
+  pena.**
+- 🅱️ **Bares à porta, se a noite acabar mais cedo:** **Roter Engel** (*Rabensteig 5*, ter–sáb
+  18:00–04:00, música ao vivo das 22:00 à 01:00) e **Loos American Bar** (*Kärntner Durchgang
+  10*, **9 min**, **aberto até às 04:00 todos os dias**, 27 m² desenhados por Adolf Loos em 1908,
+  sem reservas, ir cedo).
 - ☎️ **A confirmar a 23 de setembro:** a residência *FIESTA* das quartas no Instagram do DANZÓN,
   e o preço à porta, que não está publicado em lado nenhum.
 
