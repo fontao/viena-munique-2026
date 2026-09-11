@@ -688,7 +688,7 @@ confirmadas abertas à quarta, a terceira não.**
   - 🚗 **Carro reservado:** levantamento às **17:00**, 7-Seater SUV automático (VW Touran ou similar, 4 dias). Devolução terça-feira às 17:00 no Mietwagenzentrum do Aeroporto de Munique (MUC).
   - ⏱️ A entrega ao balcão demora ~30 a 40 minutos (papelada, seguro e inspeção de danos). Com o balcão a fechar às 18:00, a marcação às 17:00 assegura margem confortável.
 - **17:40 – 17:55**: A carrinha chega ao apartamento e junta-se ao grupo. O resto da noite é percorrido a pé.
-  - 🅿️ ⚠️ **Estacionamento no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg):** ruelas estreitas com estacionamento reservado a residentes (*Anwohnerparken*). Confirmar com o anfitrião do Lexapartments onde estacionar ou recorrer a um parque coberto do centro (*[Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%2086150%20Augsburg)* ou *City-Galerie*).
+  - 🅿️ ⚠️ **Estacionamento no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg):** ruelas estreitas com estacionamento reservado a residentes (*Anwohnerparken*). Confirmar com o anfitrião do Lexapartments onde estacionar ou recorrer a um parque coberto do centro (*[Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg)* ou *City-Galerie*). 🗺️ [Waze GPS: Parkhaus Zeughaus](https://waze.com/ul?q=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg&navigate=yes)
   - 💳 **Condições de levantamento:** apresentar cartão de crédito físico em nome do condutor titular para caução. Se houver segundo condutor, deve estar presente com a carta de condução. Confirmar no momento da entrega se a 3.ª fila rebate em metades independentes para acomodar os 6 passageiros e a bagagem.
 
 > **🆘 Contingências no transporte e aluguer do carro:**
@@ -732,7 +732,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
   - 🅿️ ✅ **Estacionamento: €12,00 até 6 horas**, mais €1,00 por cada hora seguinte, com
     **teto de €16,00 ao dia**, nos parques oficiais P1 a P4, a pagar em posto automático com
     cartão ou moedas. *(Tabela oficial da hohenschwangau.de.)*
-    Entrando às 12:05 e saindo às 15:00 são **€12**.
+    Entrando às 12:05 e saindo às 15:00 são **€12**. 🗺️ [Waze GPS: Parkplatz P4 Alpsee](https://waze.com/ul?q=Parkplatz%20P4%20Alpsee%2C%20Alpseestra%C3%9Fe%2024%2C%2087645%20Schwangau&navigate=yes)
     🚫 **Não se sobe de carro até ao castelo.** Ao meio-dia de um sábado de setembro os parques
     de cima (P3 e P4, junto ao [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) e à paragem do shuttle) costumam já estar cheios: contem
     com ser encaminhados para o P1 ou P2, o que acrescenta **5 a 8 minutos de caminhada**.
@@ -758,7 +758,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 >
 > **Rota B · com a [Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)**
 > - **15:15 – 16:05**: [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) ➔ **[Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)** (51 km, **49 min**, OSRM).
-> - **16:05 – 16:40**: **[Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal).** A loja dos monges e visita rápida à basílica.
+> - **16:05 – 16:40**: **[Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal).** A loja dos monges e visita rápida à basílica. 🗺️ [Waze GPS: Kloster Ettal](https://waze.com/ul?q=Kloster%20Ettal%2C%20Kaiser-Ludwig-Platz%201%2C%2082488%20Ettal&navigate=yes)
 > - **16:40 – 16:50**: ➔ [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) (6 km, ~7 min).
 > - **16:50 – 17:35**: **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487), 45 minutos**, ainda com sol.
 > - **17:35 – 18:11**: ➔ **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)**. Chegada com luz natural, **52 minutos até ao pôr do sol**.
@@ -774,18 +774,18 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 >
 > 🎯 **A recomendação é a Rota A**, priorizando o tempo no [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) com a luz mais favorável sobre a montanha. A Rota B é uma alternativa cultural viável, decidida no carro e sem custos adicionais de bilheteira.
 >
-- **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487)**: fachadas pintadas com frescos tradicionais (*Lüftlmalerei*), a Pilatushaus, o artesanato em madeira.
+- **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487)**: fachadas pintadas com frescos tradicionais (*Lüftlmalerei*), a Pilatushaus, o artesanato em madeira. 🗺️ [Waze GPS: Oberammergau (P Eugen-Papst-Str)](https://waze.com/ul?q=Parkplatz%20Eugen-Papst-Stra%C3%9Fe%2C%2082487%20Oberammergau&navigate=yes)
   - ☀️ **A hora de saída é o fator determinante:** a aldeia encosta à face do monte [Kofel](https://www.google.com/maps/search/?api=1&query=Kofel%2C%20Oberammergau) (1.342 m), perdendo o sol direto por volta das **17:35 a 17:45**. Por isso as duas opções saem antes dessa janela, aproveitando a luminosidade no início da paragem.
 - **Lago [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) ao pôr do sol**, aos pés da **[Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen)** (2.962 m, ponto mais alto da Alemanha). O sol põe-se às **19:03** e a saída faz-se às **19:15**.
   - ⚠️ **Previsão de tráfego:** os 36 minutos medem fluxo livre; o percurso atravessa [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) ao fim de tarde de sábado, sendo a chegada estimada por volta das 18:05. Mantém-se uma margem confortável de cerca de 58 minutos até ao pôr do sol.
   - 🚶 **Percurso pedestre recomendado:** em vez da volta completa ao lago (*[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Rundweg*, 7,5 km, ~2 horas), segue-se do parque de estacionamento (a 100 m da margem) pelo trilho da **margem norte** até à **ponte do Untersee** (~2 km por sentido, cerca de 50 minutos ida e volta), com a melhor panorâmica sobre o maciço da [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen).
   - 🍺 **Serviço no lago:** o *[seeRestaurant Eibsee Pavillon](https://www.google.com/maps/search/?api=1&query=seeRestaurant%20Eibsee%20Pavillon%2C%20Eibsee%201%2C%2082491%20Grainau)* encerra às **18:00** *(eibsee.de)*, e o **Biergarten am See** funciona dependente de bom tempo. Pela Rota A chega-se às 17:56, quatro minutos antes do fecho das esplanadas: o foco do programa é a caminhada e a paisagem alpina, ficando o brinde de celebração para o jantar em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) (ou no Bräustüberl de [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) se for pela Rota B). Contacto do complexo: **+49 8821 98810**.
-  - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €1,00 por hora (dinheiro ou cartão). Ficando das 17:56 às 19:15 são **€10**. *(Tabela oficial zugspitze.de.)*
+  - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €1,00 por hora (dinheiro ou cartão). Ficando das 17:56 às 19:15 são **€10**. *(Tabela oficial zugspitze.de.)* 🗺️ [Waze GPS: Parkplatz Eibsee-Hotel](https://waze.com/ul?q=Eibsee%20Hotel%2C%20Am%20Eibsee%201%2C%2082491%20Grainau&navigate=yes)
     - 🚨 **Atenção ao parque contíguo:** o parque do **Seilbahn [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) / Zugspitzbahnhof [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)** cobra **€20,00 por 4 horas** (desconto de €11 exclusivo a utilizadores do teleférico). Sem bilhete de teleférico da [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen), aplica-se a tarifa cheia de €20,00. O parque correto é o do lado do **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Hotel**, a €10.
     - ℹ️ Proibido estacionar de noite entre as 22:00 e as 05:00, com multa de €50.
 - **19:15 – 21:15**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) via [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) (**~131 km, ~2h00**).
   - ⚠️ **Trajeto com trânsito de regresso de sábado:** o percurso direto tem 131 km (~1h55 em fluxo livre, OSRM). O bloco contempla **2h00** de condução para absorver eventuais retenções à saída de Garmisch.
-  - 🅿️ **Chegada a Augsburg às 21:15:** os 15 minutos entre as 21:15 e as 21:30 destinam-se a estacionar a carrinha no centro histórico ou no [Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%2086150%20Augsburg) e caminhar descontraídos até à mesa às 21:30.
+  - 🅿️ **Chegada a Augsburg às 21:15:** os 15 minutos entre as 21:15 e as 21:30 destinam-se a estacionar a carrinha no centro histórico ou no [Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg) e caminhar descontraídos até à mesa às 21:30. 🗺️ [Waze GPS: Parkhaus Zeughaus](https://waze.com/ul?q=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg&navigate=yes)
 - **21:30 – 23:00**: **Jantar bávaro em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) & celebração dos Alpes.**
   - 🍻 **Brinde de celebração:** refeição tradicional para os 6 com mesa reservada de manhã para as **21:30** no centro histórico ou no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg). Num sábado à noite em plena época de [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), a marcação antecipada é indispensável.
   - ⚠️ Em caso de atraso na estrada, telefonar do carro para segurar a mesa.
@@ -820,7 +820,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 
 - **13:00 – 13:15**: **Estacionar e entrar pela porta medieval.** Apontar ao **P4
   ([Galgentor](https://www.google.com/maps/search/?api=1&query=Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber))**, que é o que fica em frente ao melhor troço da muralha; se estiver cheio, o
-  **P3 (Schweinsdorfer Straße)** é o maior de todos, tem sempre lugar e fica a 7 min do centro.
+  **P3 (Schweinsdorfer Straße)** é o maior de todos, tem sempre lugar e fica a 7 min do centro. 🗺️ [Waze GPS: Parkplatz P4 Galgentor](https://waze.com/ul?q=Parkplatz%20P4%20Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber&navigate=yes)
   - ⚠️ **Parquímetro: no máximo €5,50 para a tarde, e o preço lê-se na máquina.** Os grandes
     parques (P1 a P5) pagam-se das **09:00 às 18:00** e são **gratuitos** fora dessa janela; a
     tarifa afixada é **€1,10/hora com teto de €5,50/dia** *(fichas dos parques; a
@@ -1183,7 +1183,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
   *(confirmar a hora de check-out; ⚠️ na Alemanha o normal é **10:00** e não 11:00, e se o
   Lexapartments não autorizar saída tardia o dia todo recua uma hora)*.
 - **11:00 – 12:00**: Condução [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) ➔ [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) (**60 km, 45 min em fluxo livre**), mais o
-  parque de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) e a caminhada até ao palácio.
+  parque de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) e a caminhada até ao palácio. 🗺️ [Waze GPS: Parkplatz Nymphenburg](https://waze.com/ul?q=Parkplatz%20Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen&navigate=yes)
 - **12:00 – 13:10**: **Palácio e Jardins de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen)** (zona Oeste): caminhada ao longo do
   canal central com cisnes e jardins barrocos. Aberto das 9:00 às 18:00 (até 15 de outubro).
   - 🎟️ **Não comprem o bilhete combinado.** A *Gesamtkarte* de verão custa **€20/pax** e cobre palácio, Marstallmuseum, pavilhões do parque e Fábrica
@@ -1200,7 +1200,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     os cisnes ficam, o resto do efeito não.
 - **13:10 – 13:40**: **Transição para a [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen).** Voltar ao carro, sair do parque de
   [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen), **6,0 km pelo Mittlerer Ring (9 min em fluxo livre, 15 a 20 com semáforos)**,
-  entrar na garagem subterrânea da [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) e subir. São **30 minutos**, não 15.
+  entrar na garagem subterrânea da [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) e subir. São **30 minutos**, não 15. 🗺️ [Waze GPS: Parkhaus BMW Welt](https://waze.com/ul?q=Parkhaus%20BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen&navigate=yes)
 - **13:40 – 14:40**: **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) e almoço.** Pavilhão futurista com superdesportivos, e a
   icónica cobertura em tenda de 1972 do Parque Olímpico logo ao lado. **Almoça-se aqui**, nos
   restaurantes do próprio edifício ou no [Olympiapark](https://www.google.com/maps/search/?api=1&query=Olympiapark%2C%2080809%20M%C3%BCnchen).
@@ -1236,7 +1236,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     **em grupo de 5 ou mais pessoas são €16 por pessoa**, ou seja €96 para os 6 e não €102.)*
 - **14:40 – 15:20**: **Transição para a [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen).** Pagar o parque na máquina, **~11 km
   até Fröttmaning (16 min em fluxo livre)**, entrar no parque do estádio e percorrer a
-  **Esplanade, que tem 543 m de rampa**, até ao edifício. São **40 minutos**, não 15.
+  **Esplanade, que tem 543 m de rampa**, até ao edifício. São **40 minutos**, não 15. 🗺️ [Waze GPS: Parkhaus Allianz Arena](https://waze.com/ul?q=Parkhaus%20Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen&navigate=yes)
 - **15:20 – 16:00**: **[Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)** (Fröttmaning): acesso livre e gratuito à esplanada
   exterior para admirar a fachada de almofadas ETFE, fotos de grupo, e visita ao **FC Bayern
   Store**.
@@ -1273,7 +1273,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     de ponta das devoluções.
 - **17:00 – 17:20**: **Devolução da carrinha** e caminhada até ao Terminal 2. Não há shuttle
   nem é preciso: o *Mietwagenzentrum* liga ao **Terminal 2 a pé pelo Munich Airport Center**,
-  são 350 a 500 m e 6 a 10 minutos com carrinhos de bagagem.
+  são 350 a 500 m e 6 a 10 minutos com carrinhos de bagagem. 🗺️ [Waze GPS: Mietwagenzentrum MUC](https://waze.com/ul?q=Mietwagenzentrum%20Flughafen%20M%C3%BCnchen%2C%2085356%20M%C3%BCnchen&navigate=yes)
   - 🔍 **Antes de entregar a chave, revistar o carro todo.** Bolsas das portas, debaixo dos
     bancos, o porta-luvas. Com seis pessoas a descarregar à pressa é assim que ficam
     carregadores, casacos e carteiras para trás, e depois já não há como voltar.
