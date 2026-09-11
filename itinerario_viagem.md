@@ -645,22 +645,16 @@ confirmadas abertas à quarta, a terceira não.**
 - **20:15 – 20:55**: **Da [Kaiserwiese](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien) ao [Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien), de metro.**
   - ✅ **Percurso rápido:** a [Kaiserwiese](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien) fica colada à estação de **[Praterstern](https://www.google.com/maps/search/?api=1&query=Praterstern%2C%201020%20Wien)** (apenas **250 m, 3 min a pé**). Apanhar a linha **U1** duas paragens até **[Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien)**, paragem rápida no apartamento para refrescar, e travessia da ponte até ao SO/ Vienna (*Praterstraße 1*). Ao todo são ~30 a 35 min.
   - 👔 **Troca de roupa em casa:** o recinto da festa é de chão batido e comida rústica; o [Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien) é um bar panorâmico requintado de hotel de cinco estrelas com *smart casual dress code*. Como o metro vos deixa a 4 minutos da porta de casa, passar 10 minutos para trocar de roupa é o ideal.
-- **20:55 – 23:00**: Cocktails no **Rooftop [Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien)** (18.º andar do Hotel SO/ Vienna,
-  *Praterstraße 1*). Vista noturna de 360° e teto de vidro multicolorido.
-  - ✅ **Para o bar não se reserva.** A política publicada é **walk-in**, chega-se e entra-se, e
-    se estiver cheio espera-se no *BAR/terre*, o bar do átrio, com uma bebida de boas-vindas
-    oferecida.
-  - 🚨 **Atenção a esta, que custa dinheiro:** quem reservar **mesa de restaurante** e depois só
-    beber no bar paga **€25 por pessoa** de taxa, e a reserva exige garantia de cartão de
-    crédito. **Para o que o grupo vai fazer, que é beber cocktails, reservar é pior do que não
-    reservar.** Contacto, se quiserem confirmar à chegada: **+43 664 8868 2556**, atende das
-    10:00 às 18:00.
-  - 👔 **Há dress code**, e é por isso que a passagem por casa às 20:15 vale a pena.
-  - 🅱️ **Plano B, a 4 min a pé de casa:** **Lamée Rooftop** (*Rotenturmstraße 15*), com vista
-    direta para as torres do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien) e cobertura instalada em 2024, por isso não depende
-    do tempo. ℹ️ *Às quintas, sextas e sábados vai **até às 02:00**, e é de domingo a quarta
-    que fecha à 01:00: no Dia 2 o plano B fecha mais tarde do que o plano A.* Alternativa mais longe: **Meliá 57** (57.º andar da DC
-    Tower, interior envidraçado, seg–qui 17:00–00:00).
+- **20:55 – 23:00**: **Noite em [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich): Rooftops Panorâmicos ou [Donaukanal](https://www.google.com/maps/search/?api=1&query=Donaukanal%2C%201010%20Wien).**
+  Após o regresso a casa para refrescar, o grupo tem três opções excelentes:
+  - 🍸 **Opção 1 · Rooftop 360° Sofisticado: [Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien)** (18.º andar do SO/ Vienna, *Praterstraße 1*).
+    Vista noturna circular sobre a cidade iluminada e teto de vidro multicolorido. 👔 *Smart casual dress code* (camisa recomendada). Cerveja a **€6,50–8,00** (pressão Kaltenhausen €6,50, garrafa Tegernseer €7,50) e cocktails de autor a **€18,00–21,00**. Aberto até à 01:00 à quinta-feira.
+    - ✅ **Para o bar não se reserva.** A política oficial é **walk-in** (chega-se e entra-se, e se estiver cheio aguarda-se no *BAR/terre* do átrio com uma bebida de boas-vindas).
+    - 🚨 **Atenção a esta taxa:** quem reservar mesa de refeição online e depois só consumir bebidas paga **€25 por pessoa** de penalização com retenção no cartão. Não reservar. Contacto: **+43 664 8868 2556**.
+  - 🏛️ **Opção 2 · Rooftop da Catedral Protegido: [Lamée Rooftop](https://www.google.com/maps/search/?api=1&query=Lam%C3%A9e%20Rooftop%2C%20Rotenturmstra%C3%9Fe%2015%2C%201010%20Wien)** (*Rotenturmstraße 15*).
+    A escassos **4 min a pé de casa**. Vista direta e deslumbrante para as torres do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien) e cobertura retrátil envidraçada instalada em 2024 (imune a chuva ou vento). Cerveja Ottakringer a **€6,50** e cocktails/spritzers a **€12,00–16,00**. Às quintas-feiras vai **até às 02:00**.
+  - 🍺 **Opção 3 · [Donaukanal](https://www.google.com/maps/search/?api=1&query=Donaukanal%2C%201010%20Wien) & Bares Jovens na Margem (junto à [Schwedenbrücke](https://www.google.com/maps/search/?api=1&query=Schwedenbr%C3%BCcke%2C%201010%20Wien)).**
+    Apenas a **2 min a pé de casa**. Ponto de encontro de eleição dos jovens vienenses para convívio descontraído entre murais de street art, sem qualquer exigência de vestuário ou dress code. Pode-se beber cerveja de supermercado no betão à beira de água (**€1,50**) ou sentar nos barcos: **[Badeschiff](https://www.google.com/maps/search/?api=1&query=Badeschiff%2C%20Franz-Josefs-Kai%206a%2C%201010%20Wien)** (cerveja Budweiser de pressão a **€4,30–5,60**, aberto até à 01:00) ou o deck do **[Motto am Fluss](https://www.google.com/maps/search/?api=1&query=Motto%20am%20Fluss%2C%20Franz-Josefs-Kai%202%2C%201010%20Wien)** (bar aberto até às 02:00).
 
 
 ---
