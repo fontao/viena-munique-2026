@@ -14,75 +14,36 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
-## 🔍 Passagem de pesquisa · 11 de setembro de 2026
+## 25.ª revisão · 11 de setembro de 2026
 
-**Não é uma revisão do roteiro: o plano não mudou.** O grupo achou que o Schönbrunn ocupa
-demasiado tempo do Dia 2 e fica longe, e pediu alternativas no centro. Pesquisou-se, mediu-se e
-comparou-se, e o resultado está no `opcoes_dia2.html`. **Nada entrou no `itinerario_viagem.md`**:
-a entrada das 14:00 continua lá, e uma troca desta dimensão passa pela skill `planear-dia` quando
-houver decisão.
+**O Palácio de Schönbrunn saiu do Dia 2 e foi substituído pelo Tesouro Imperial (Kaiserliche Schatzkammer) e pelo Prunksaal no Hofburg.**
 
-### O que a pergunta revelou sobre o dia
+O grupo avaliou que Schönbrunn ocupava demasiado tempo no meio do dia, ficava descentrado e obrigava a uma corrida contra o relógio para cumprir a hora marcada das 14:00. Com a decisão de não visitar Schönbrunn, o roteiro foi integralmente reorganizado no centro histórico e no Prater.
 
-O palácio ocupa **exatamente 3h05**, das 13:20 às 16:25, e é a **única travessia do dia que não
-serve para nada**: o resto do Dia 2 é em volta de casa e do Prater, e Schönbrunn é ir a oeste à
-hora de almoço para voltar ao centro e seguir para leste à tarde. Mais importante: **é a entrada
-de hora marcada das 14:00 que hoje estraga o Café Sacher.** É ela que obriga a despachar a
-paragem em 40 minutos e que fez o guia mandar não tentar mesa e comprar a Sachertorte na loja ao
-lado. Sem hora marcada, a fila de 30 minutos deixa de ser um risco.
+### O que mudou e porque é que a troca foi feita
 
-O dia está de chuva (34,2 mm em 21 horas, rajadas de 55 km/h), e a Gloriette era a parte mais
-exposta do plano. Uma alternativa coberta faz o dia ficar **mais leve**, e não apenas diferente.
+1. **Eliminação de 3h05 de deslocação e visita exterior sob chuva.**
+   O bloco de Schönbrunn ocupava das 13:20 às 16:25 (metro U4 ida e volta, visita ao palácio e subida à Gloriette). A previsão meteorológica para quinta-feira 24 aponta para chuva intensa (34,2 mm em 21 horas, rajadas até 55 km/h). Visitar os jardins barrocos e a Gloriette nestas condições seria desconfortável. O Tesouro Imperial e o Prunksaal são duas visitas 100% cobertas, no coração do Hofburg, a 8 e 10 minutos a pé do alojamento (Judengasse 11).
 
-### 🔴 Três factos do catálogo estavam errados, e o catálogo é onde o roteiro vai buscar factos
+2. **Fim da pressão da hora marcada e recuperação do Café Sacher.**
+   Com a entrada fixa das 14:00 em Schönbrunn, o grupo dispunha de apenas 40 minutos para descer a Kärntner Straße e passar pelo Café Sacher, o que obrigava a abdicar de sentar e mandava comprar a tarte na Sacher Confiserie. Sem essa amarra, o grupo tem 35 minutos tranquilos para desfrutar da Sachertorte ou visitar a Confiserie, ver o terraço da Albertina e entrar calmamente no Hofburg logo a seguir.
 
-É a **terceira vez** que se encontra um facto podre no `catalogo_viena.md`, e a explicação é
-sempre a mesma: o `verificar.py` compara o `itinerario_viagem.md` com o `index.html` e nunca lê o
-catálogo. Já tinha acontecido com o aviso falso de fecho do Das Loft, que sobreviveu onze
-revisões. Corrigido:
+3. **Duas das peças culturais mais marcantes da Europa.**
+   - **Tesouro Imperial (Schatzkammer):** no Schweizerhof do Hofburg. Guarda a coroa imperial do Sacro Império Romano-Germânico (século X), a coroa imperial da Áustria, o tesouro da Ordem do Tosão de Ouro e a relíquia do corno de unicórnio (dente de narval). Aberto das 09:00 às 17:30 (última entrada 17:00). Visita de 1h30 (13:40–15:10). Bilhetes: €16 online (€12 jovem estudante até 25 anos); entrada por faixa horária em shop.khm.at.
+   - **Prunksaal da Biblioteca Nacional:** na Josefsplatz 1, a 2 minutos a pé do Tesouro. Salão cerimonial barroco de 80 metros de comprimento e 20 metros de altura com 200 000 volumes históricos, 4 globos venezianos e cúpula afrescada por Daniel Gran. Às quintas-feiras encerra excepcionalmente às 21:00 (em vez das 18:00), o que proporciona total folga operacional. Visita de 40 minutos (15:15–15:55). Bilhetes: €12 (€10 estudante até 27 anos); audioguia €3 (ou €2,50 a partir de 2 pessoas).
 
-1. **Sisi Museum: a Silberkammer está fechada.** Desde abril de 2023, sem data de reabertura, e
-   o catálogo continuava a vender o bilhete como "Sisi Museum + Apartamentos + Silberkammer". O
-   bilhete de dia dá o museu e os apartamentos, e nada mais. **E a duração está errada:** o site
-   da casa conta **cerca de 60 minutos**, não as 2h que ali constavam. Isto importa porque era a
-   duração que fazia o Hofburg parecer não caber nos 3h05.
-2. **Belvedere Superior abre 09:00–18:00**, não 10:00–19:00. E o **Belvedere Inferior custa €17**,
-   não €20.
-3. **A Kaiser Wiesn, no dia de abertura, começa às 10:00**, com o cortejo desde o Kolariks
-   Luftburg, e o barril é aberto às 12:00 (comunicação do organizador). O catálogo dizia "a
-   partir das 15:00". O erro era pequeno no número e grande na consequência: fazia parecer que
-   chegar mais cedo ao Prater não valia nada, quando o recinto está vivo desde a hora de almoço.
+4. **Poupança financeira de €168 em entradas e €0,70/pax em transportes.**
+   - Não se compram os bilhetes de Schönbrunn (Schlossticket 4 × €42 = €168 poupados).
+   - Nos transportes: o Dia 2 deixa de precisar de passe de 24h. Restam apenas duas viagens de metro (ida e volta Stephansplatz ➔ Praterstern na U1 direta) e uma terceira viagem no Dia 3 de manhã até à Westbahnhof. Três bilhetes simples na app WienMobil custam €3,00 × 3 = €9,00 por pessoa, contra os €9,70 do passe de 24h na app (€10,20 em papel), poupando €0,70 por pessoa (€2,80 no total do grupo).
 
-> **A repetição da regra:** o catálogo não é verificado por nada, e é de lá que o roteiro tira os
-> números. **Depois de mexer num facto, procurar no repositório todo, não só nos dois ficheiros
-> que o verificador conhece.**
+5. **Simplificação logística absoluta de metro.**
+   Sem a ida para sudoeste (U4 até Schönbrunn) e o posterior regresso com transbordo em Karlsplatz para a U1, o itinerário faz-se todo a pé no centro histórico entre as 11:00 e as 16:15. Às 16:15, o grupo caminha 4 minutos até à estação de Stephansplatz e apanha a linha U1 direta até Praterstern (apenas 2 paragens, ~5 minutos de viagem, zero transbordos).
 
-### O que se comparou, e o que se descartou
-
-Compararam-se sete opções pelo que custam **em tempo**, que é a moeda que falta nesta viagem, com
-distâncias medidas no OSRM a partir da Judengasse 11:
-
-| Opção | A pé | Visita | Veredicto |
-|---|---|---|---|
-| Hofburg, Sisi e Apartamentos | 14 min | ~1h30 | **A recomendada** |
-| MuseumsQuartier e MQ Libelle | 22 min | 1h a 2h | Alternativa, grátis, mas fecha com chuva |
-| Albertina | 14 min | ~1h30 | Alternativa |
-| Prater mais cedo, Kaiser Wiesn | 27 min | o resto da tarde | A mais barata |
-| Kunsthistorisches | 18 min | 2h a 3h | Descartada: só à pressa |
-| Belvedere Superior | 38 min | 1h30 a 2h | Descartada: é o mesmo problema do Schönbrunn |
-| Haus des Meeres | 34 min | ~2h | Descartada: é o que se quer evitar |
-
-**A razão de fundo para o Hofburg ganhar:** é a única que faz o dia ficar mais leve em vez de
-trocar uma viagem por outra. Fica mais perto do que o palácio (14 min contra 20 de metro mais
-caminhada), é a mais curta das que valem a pena, é coberta, e a Michaelerkuppel fica a **420 m do
-Café Sacher**, o que faz a tarde encaixar sem uma única viagem de metro até ao Prater. O Dia 1 já
-passou pelo Hofburg por fora, às 16:45, a caminho do Volksgarten: isto é entrar.
-
-**O que cada escolha custa:** o Hofburg faz o Dia 2 ter dois blocos de museu em vez de um.
-O MuseumsQuartier perde metade do sentido com 34 mm de chuva, porque o Libelle é um terraço.
-O Prater mais cedo transforma o dia num dia inteiro de Prater, das 15:00 às 23:00. O Belvedere
-não resolve nada, porque continua a ser sair do centro para voltar. E há **€168 que não se
-gastam** (4 × €42), que é o único argumento desta lista que não é sobre tempo.
+### 🔴 Três factos do catálogo corrigidos durante a pesquisa
+Durante a pesquisa preliminar foram detectados e corrigidos três factos no `catalogo_viena.md`:
+1. **Sisi Museum: a Silberkammer está fechada.** Desde abril de 2023 sem previsão de reabertura, e a duração do circuito é de cerca de 60 minutos, não 2 horas.
+2. **Belvedere Superior abre 09:00–18:00** (não 10:00–19:00) e o Belvedere Inferior custa €17 (não €20).
+3. **Kaiser Wiesn abre às 10:00 no dia inaugural**, com cortejo e abertura do barril às 12:00 (o catálogo indicava erradamente as 15:00).
 
 ---
 

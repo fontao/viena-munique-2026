@@ -3,12 +3,12 @@
 **Datas:** 23 a 29 de Setembro de 2026 (7 Dias / 6 Noites)
 **Viajantes:** 6 amigos · **4 partem de [Lisboa](https://www.google.com/maps/search/?api=1&query=Lisboa%2C%20Portugal)** ([Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich), dias 1 a 3) + **2 juntam-se em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)** (dia 3)
 **Voos Oficiais:** TAP Air Portugal (TP 1270 LIS ➔ VIE / TP 555 MUC ➔ LIS)
-**Revisto em:** 11 de setembro de 2026 (24.ª revisão)
+**Revisto em:** 11 de setembro de 2026 (25.ª revisão)
 **Porque é que o plano é este:** ver [`historico.md`](historico.md), onde ficam as decisões
 tomadas, as alternativas rejeitadas e o que cada escolha custou.
 
 > ⚠️ **Atenção ao número de pessoas em cada bilhete.** Tudo o que é em [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) (transfers,
-> comboio para [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien), [Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien), [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)) é para **4 pessoas**. Só a
+> comboio para [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), [Tesouro Imperial](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien), [Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien), [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)) é para **4 pessoas**. Só a
 > partir do Dia 3 à noite é que o grupo é de **6**.
 
 ---
@@ -20,7 +20,7 @@ tomadas, as alternativas rejeitadas e o que cada escolha custou.
 | ✅ ~~1~~ | ~~**[Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau)** (6 pax) · ~~**€141**~~ | **DECIDIDO a 28/08/2026: não se compra.** O interior só existia em alemão às horas que serviam ao Dia 4, e o áudio-guia em português só às 17:55, dependente do último shuttle das 17:30. **Vai-se à [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), que é grátis.** O prazo desaparece e o Dia 4 muda de forma. | - |
 | ✅ ~~2~~ | ~~**Mesa na [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen)**~~ | **DECIDIDO: não se reserva mesa.** Vai-se sem reserva, a andar entre tendas. **O prazo de 27 de agosto deixa de existir**, e o Dia 6 muda de forma por causa disso. Ver o ponto 2 do hub. | - |
 | ✅ ~~3~~ | ~~**Viagem [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) ➔ [Augsburgo](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)** (4 pax)~~ | **COMPRADO**: Westbahn 910 (€175,96) + ICE 116 na DB (€157,96). **Total €333,92.** | - |
-| 🔴 **4** | **[Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien)** (4 pax) · **€168** | Hora marcada e as faixas esgotam com semanas de antecedência. **Atenção: mudou de nome e subiu para €42/pax em 2026.** ✅ *Preço na imperialtickets.com: Schlossticket €42, Staatsappartements €30.* | [imperialtickets.com](https://www.imperialtickets.com) |
+| ✅ ~~4~~ | ~~**[Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien)** (4 pax) · ~~**€168**~~~~ | **DECIDIDO: cancelado.** Substituído pelo [Tesouro Imperial](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien) e [Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien) no Hofburg. Poupam-se €168 e o dia não tem travessias a meio. Ver ponto 4 do hub. | - |
 
 ---
 
@@ -192,17 +192,17 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 > minutos** de folga em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich). A Westbahn teria de acumular quase uma hora de atraso numa
 > viagem de 2h30 para isso acontecer.
 
-#### 4. [Palácio de Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) · 4 pax · **€168** (ou €120)
-⚠️ **[Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) mudou os bilhetes em 2026 e ficou mais caro do que o plano previa.**
-- A antiga "Grand Tour" já não existe. Agora é o **Schlossticket, €42/pessoa**: toda a
-  Beletage, ~75 min, audioguia incluído. **4 pax = €168.**
-- A versão curta chama-se **Staatsappartements, €30/pessoa**: 40 min, menos salas.
-  **4 pax = €120.** Se o objetivo é ver Sissi e seguir para o [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien), esta chega.
-- **Com hora marcada.** Reservar para as **14:00** de quinta 24, não 13:00: com o brunch e a
-  fila do Sacher, às 13:00 chegavam atrasados (ver Dia 2).
-- Setembro: **08:30–17:30**, última entrada 45 min antes do fecho.
-- Portal oficial: **[imperialtickets.com](https://www.imperialtickets.com)** (é a plataforma
-  da própria Schloss [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien), o site schoenbrunn.at remete para lá).
+#### 4. ✅ DECIDIDO · [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) cancelado: [Tesouro Imperial](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien) e [Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien) no Hofburg
+
+**Não se compra Schönbrunn. Poupam-se €168 para os 4 e o Dia 2 deixa de ter travessia de metro a meio.**
+
+**Porquê.** O palácio ocupava 3h05, ficava a oeste contra o resto do dia que é no centro e a leste,
+e a entrada fixa das 14:00 estragava a paragem no Sacher. Além disso, as obras no acesso (14 a 27
+de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
+
+**O que se faz em vez disso:**
+- **[Tesouro Imperial (Schatzkammer)](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien)**: **€16** online (ou **€12** jovem com cartão de estudante até 25 anos), 1h30. A coroa do Sacro Império Romano, coroa austríaca, Tosão de Ouro. Reservar faixa horária em shop.khm.at.
+- **[Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien) da Biblioteca Nacional**: a 2 min a pé, **€12** (ou **€10** jovem até 27 anos), audioguia **€3**, ou **€2,50** a partir de duas pessoas. Sala barroca com 200 000 volumes. Às quintas aberta até às 21:00.
 
 ---
 
@@ -230,7 +230,7 @@ Bayern-Ticket só volta a entrar no **Dia 6**.
 |---|---|---|---|
 | **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €5,50/pax = **€22** | ✅ **Decidido.** Pedir *Flughafen [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) ➔ [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)*, com zona central |
 | **Almoço no Schachtelwirt** (Dia 1) | 4 | ⚠️ caixas **€4–9**, assado **€13–16** = **~€30 a €60** | **[Judengasse](https://www.google.com/maps/search/?api=1&query=Judengasse%2011%2C%201010%20Wien) 5**, a 1 min, com as malas · **mesas dentro** · abre às 11:30 |
-| **Bilhete 24h [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Linien** | 4 | €10,20/pax = **€40,80** | Ativar no Dia 2 às **13:20**, no [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) |
+| **3× Bilhete Simples [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Linien** | 4 | **€9,00**/pax = **€36** | Comprar na app WienMobil (€3,00/bilhete) para Dia 2 (ida e volta do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) e Dia 3 (ida à estação) · poupa €0,70/pax face ao passe 24h (€9,70) |
 | **Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)** | 4 | ✅ **€8,00**/pax = **€32** | 343 degraus · **só dinheiro, na catedral** · aberta 09:00–19:00, última subida 18:15 |
 | **[Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien)** ([Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) | 4 | ✅ €14,50/pax = **€58** | Dia 2 · **quinta 24: 09:00–22:45**, no calendário oficial da própria data |
 | **[Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg)** (Dia 3, noite) | 6 | €8/pax = **€48** | Aberta até às 20:00; bilheteira no local |
@@ -313,8 +313,10 @@ com a rota do Dia 4 invertida também não é preciso comprar a vinheta austría
 Só existem: bilhete simples **€3,20 em papel e €3,00 na app**, **24h €10,20 em papel e
 €9,70 na app** (comprar na app poupa €0,50 × 4 = **€2**) e um de 7 dias que
 ❌ **não serve para nada aqui**, porque só há três dias em [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich).
-Um único bilhete de 24h ativado na manhã do Dia 2 cobre [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) + [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) + a ida à
-estação no Dia 3, é a opção mais barata para o grupo.
+Sem [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien), o Dia 2 tem apenas **duas** viagens de metro (ida e volta do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) e o
+Dia 3 uma terceira até à estação. São três bilhetes simples: **€9,00/pax na app** (€3,00 cada)
+contra **€9,70/pax** do passe de 24h. O passe fica **€0,70 mais caro por pessoa**: compram-se
+três bilhetes simples na app da Wiener Linien.
 
 **Obras no aeroporto de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich).** Desde **7 de setembro de 2026** a S-Bahn Stammstrecke está
 fechada (até outubro de 2027):
@@ -328,19 +330,12 @@ fechada (até outubro de 2027):
 - ❌ **"U2 cortado entre Schottentor e [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien)": FALSO.** A U2 **voltou a circular
   integralmente de [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) até Seestadt a 6 de dezembro de 2024**, depois de três anos de
   obras. A informação tinha quase dois anos de atraso.
-  *Mas o trajeto do Dia 2 não muda*: de [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) para [Praterstern](https://www.google.com/maps/search/?api=1&query=Praterstern%2C%201020%20Wien), na **U1 são 4 estações**
-  ([Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien), [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien), Nestroyplatz) e na **U2 são 7**, porque dá a volta ao Ring.
-  Mantém-se **U4 ➔ [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) ➔ U1**. A rota estava certa; era a explicação que estava errada.
+  *E para [Praterstern](https://www.google.com/maps/search/?api=1&query=Praterstern%2C%201020%20Wien)*: a U1 é sempre a linha rápida (duas paragens a partir do [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)),
+  ao passo que a U2 dá a volta ao Ring.
 - ✅ **"U4 cortado entre Hütteldorf e [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) de 2 de julho a 4 de setembro de 2026": esse
   corte não existiu.** Foi ao ficheiro da Wiener Linien e o que houve na U4 em 2026 foi
   outra coisa: uma **interrupção de 3 de julho a 3 de agosto entre [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) e
-  Landstraße**, no centro, para trocar agulhas e cruzamentos de via, com a linha partida em
-  Heiligenstadt–[Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) e Hütteldorf–Landstraße. **O troço Hütteldorf–[Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) andou
-  o tempo todo.** O corte Hütteldorf–[Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) foi de um ano anterior e faz parte da fase
-  já concluída do programa de modernização.
-  **Este roteiro andava a avisar de uma obra que já não existe: o aviso sai.**
-  Continua a valer a pena dar uma vista de olhos em wienerlinien.at na véspera, como para
-  qualquer cidade, mas não há aqui risco nenhum a preparar.
+  Landstraße**, no centro. Como o [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) saiu do plano, a U4 nem sequer é necessária no Dia 2.
 - ✅ **Boa notícia inesperada:** a partir de 7 de setembro de 2026, para compensar o fecho da
   Stammstrecke, as linhas **U1, U2, U4 e U6 passam a circular com frequência reforçada**.
 
@@ -349,11 +344,10 @@ fechada (até outubro de 2027):
 ## 🔄 Trocar dias? Não.
 
 **Mexeu-se dentro dos dias, não entre dias.** A ordem dos 7 dias está fechada e trocar qualquer
-um deles piora o roteiro. As amarras são os **voos** e a **hora marcada de [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien)** na
-quinta; a terceira é a [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) à segunda, que sem mesa reservada passa a condição do
-plano. E o Dia 4 **já não tem hora marcada nenhuma**, desde que se decidiu não comprar o
-[Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau). Isso
-alarga a folga do dia, não a ordem dos dias, que continua fechada pelas outras três.
+um deles piora o roteiro. As amarras são os **voos** e a **[Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen)** à segunda,
+que sem mesa reservada passa a condição do plano. O Dia 2 (Hofburg) e o Dia 4 ([Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau))
+já não têm horários rígidos que obriguem a manter ou descartar dias, mas a rota geográfica (Viena ➔
+Augsburgo ➔ Munique) manda.
 
 
 **Ordem geográfica do Dia 7** ([Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) ➜ [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) ➜ [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) ➜ MUC) já é a ótima:
@@ -586,49 +580,65 @@ confirmadas abertas à quarta, a terceira não.**
 
 ---
 
-### 🇦🇹 Dia 2: Quinta-feira, 24 de Setembro · [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien), [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) & Rooftop [Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien)
+### 🇦🇹 Dia 2: Quinta-feira, 24 de Setembro · [Hofburg](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien), Centro & [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)
 **⏰ Acordar 10:00 · Sair 11:00**
+
+> ### 🚨 O que estava errado e mudou
+> **O [Palácio de Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) saiu do Dia 2.** Custava **3h05** do meio do dia
+> e era a única travessia do dia que não servia para nada: o resto do Dia 2 é em volta de casa e
+> do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien), e o palácio obrigava a ir a oeste à hora de almoço para voltar ao centro e
+> seguir para leste à tarde. Sobretudo, era a **entrada de hora marcada das 14:00** que estragava
+> a paragem no Sacher: obrigava a despachar o café em 40 minutos, e era por causa dela que aqui se
+> dizia para não tentar mesa.
+>
+> **O que entra:** o **[Tesouro Imperial](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien) (Schatzkammer)** e o **[Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien)**, os dois
+> **dentro do Hofburg**, a 8 e 10 minutos a pé de casa. É a mesma matéria imperial em dois terços
+> do tempo, e sem uma única viagem de metro a meio.
+>
+> **O que custa:** perdem-se o palácio, os jardins e a subida à Gloriete, e o dia passa a ter dois
+> blocos de sala em vez de um. **As [entradas de Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) ainda não estavam compradas**, portanto
+> a troca devolve ao grupo os **€168** que estavam reservados para os 4 pax.
 
 - **11:00 – 12:30**: Brunch no **[Café Korb](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Korb%2C%20Brandst%C3%A4tte%209%2C%201010%20Wien)**
   (*[Brandstätte](https://www.google.com/maps/search/?api=1&query=Brandst%C3%A4tte%2C%201010%20Wien) 9*), a 5 min a pé de casa. Casa de café de 1904, com a sala dos anos 60
   intacta e, na cave, a **Art Lounge** com obras de Günter Brus, Peter Weibel e Peter Kogler.
   O pequeno-almoço é servido todo o dia: ovos com bacon **€14**, café **€4,20–7,50**.
-- **12:40 – 13:20**: Descer a **[Kärntner Straße](https://www.google.com/maps/search/?api=1&query=K%C3%A4rntner%20Stra%C3%9Fe%2C%201010%20Wien)** (8 min) até ao **Café Sacher**, ao lado da Ópera.
-  - 🚨 **Não tentem sentar-se no Café Sacher.** A fila de mesa em setembro costuma ser de **30
-    minutos ou mais** e o bloco só tem 40: se a fila estiver no limite, sobram zero minutos para
-    comer *e* perde-se a entrada de hora marcada das 14:00 em [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien), que não se reemite.
-    **Comprar a Sachertorte na loja ao lado, a *Sacher Confiserie*: é a mesma tarte, da mesma
-    casa, e demora 5 minutos.** Come-se no [Burggarten](https://www.google.com/maps/search/?api=1&query=Burggarten%2C%201010%20Wien) ou leva-se para o comboio do dia
-    seguinte. Se mesmo assim quiserem mesa, a alternativa com fila muito menor é a *Gerstner
-    K.u.K.* (Kärntner Str. 51), com três pisos de salões imperiais sobre a Ópera.
-  - **Regra prática:** se às **12:20** ainda estiverem à mesa, pedir a conta imediatamente.
-  - Ao lado, 50 m: o **terraço da [Albertina](https://www.google.com/maps/search/?api=1&query=Albertina%2C%20Albertinaplatz%201%2C%201010%20Wien)** (acesso livre pelas escadas exteriores) é o
-    melhor miradouro sobre a fachada da Ópera, e na base fica o *[Bitzinger](https://www.google.com/maps/search/?api=1&query=Bitzinger%20W%C3%BCrstelstand%2C%20Albertinaplatz%2C%201010%20Wien)*, o quiosque de
-    salsichas mais famoso de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich). Dois minutos, custo zero.
-- **13:20**: **Ativar o bilhete de 24h** (€10,20) e apanhar o **U4 em [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien)**.
-  - 🚇 **[Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien), não [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien).** Estando no Sacher, o [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) fica a **400 m
-    (5 min)** e o [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) a **1,4 km (17 min)**, e ambos servem o U4 para [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien).
-    Voltar a [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) é andar 1 km para nordeste para depois seguir para sudoeste.
-    **Poupa ~15 minutos** e duas estações.
-- **14:00 – 15:15**: **[Palácio de Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien)**, Schlossticket com hora marcada (75 min,
-  audioguia, **€42**; a versão curta, *Staatsappartements*, custa **€30** e são 40 min).
-  **15:15 – 16:05**: subida à colina da **Gloriette** (700 m a subir) para a panorâmica sobre [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich).
-  - ⚠️ **A descida da Gloriette até ao metro são ~20 minutos.** São **~1,6 km** da Gloriette à
-    estação **[Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) (U4)**, atravessando o jardim todo *(OSRM, perfil a pé, 10/09/2026)*. É
-    por isso que o bloco acaba às **16:05**: os 20 minutos seguintes são a descida, e é o que põe
-    o grupo no cais às 16:25.
-  - ⚠️ **Obras no acesso, de 14 a 27 de setembro.** O próprio [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) avisa que há **regras de
-    acesso alteradas** nesse período, e o plano oficial marca a zona da fachada (Haupttor e
-    Ehrenhof) como **fechada de 14 a 20 de setembro**. O dia 24 já não apanha a zona fechada, mas
-    ainda apanha as regras de acesso: **ver o plano em schoenbrunn.at e contar com uns minutos a
-    mais até ao portão.**
-  - ✅ **O U4 chega a [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) sem interrupções** *(Wiener Linien)*. Plano B, que não custa
-    nada saber: U4 até [Meidling](https://www.google.com/maps/search/?api=1&query=Meidling%2C%201120%20Wien) + elétrico 10 ou 60 até [Hietzing](https://www.google.com/maps/search/?api=1&query=Hietzing%2C%201130%20Wien), ou o autocarro 10A.
-- **16:25 – 17:00**: **U4 até [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien), mudar para o U1 até [Praterstern](https://www.google.com/maps/search/?api=1&query=Praterstern%2C%201020%20Wien)** (~35 min).
-  - *Mudar em [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) e não em [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien):* o U1 e o U4 cruzam-se nos dois sítios, mas
-    vindo de [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) o [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) aparece **três estações antes**.
-  - *E porquê a U1 e não a U2, que também sai do [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien)?* Porque a U2 **dá a volta ao
-    Ring**: de [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) a [Praterstern](https://www.google.com/maps/search/?api=1&query=Praterstern%2C%201020%20Wien) são **7 estações** pela U2 contra **4** pela U1.
+- **12:40 – 13:00**: **Descer a [Kärntner Straße](https://www.google.com/maps/search/?api=1&query=K%C3%A4rntner%20Stra%C3%9Fe%2C%201010%20Wien)** até à Ópera, **8 min a pé** (700 m).
+  É a rua que o Dia 1 deixou de fora de propósito, para ser feita hoje: **nenhuma rua se anda duas vezes.**
+- **13:00 – 13:35**: **[Sacher Confiserie](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%2C%20Philharmoniker%20Stra%C3%9Fe%204%2C%201010%20Wien)** para a Sachertorte e o **terraço da [Albertina](https://www.google.com/maps/search/?api=1&query=Albertina%2C%20Albertinaplatz%201%2C%201010%20Wien)**.
+  - ✅ **Sem a entrada das 14:00, a fila deixou de ser um problema.** Quem quiser sentar-se no
+    [Café Sacher](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%2C%20Philharmoniker%20Stra%C3%9Fe%204%2C%201010%20Wien) tem agora 35 minutos para isso; quem não quiser compra na *Sacher Confiserie*,
+    que é a mesma tarte da mesma casa e demora 5 minutos. **Deixou de ser preciso escolher.**
+  - O **terraço da [Albertina](https://www.google.com/maps/search/?api=1&query=Albertina%2C%20Albertinaplatz%201%2C%201010%20Wien)** (acesso livre pelas escadas exteriores) fica a 50 m e é o
+    melhor miradouro sobre a fachada da Ópera. Na base, o *[Bitzinger](https://www.google.com/maps/search/?api=1&query=Bitzinger%20W%C3%BCrstelstand%2C%20Albertinaplatz%2C%201010%20Wien)*, o quiosque de salsichas mais
+    famoso de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich). Dois minutos, custo zero.
+- **13:40 – 15:10**: **[Tesouro Imperial (Schatzkammer)](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien)**, dentro do Hofburg. **1h30.**
+  - ✅ **€16 online, ou €12 com cartão de estudante até aos 25 anos.** É o desconto jovem que o
+    [Café Korb](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Korb%2C%20Brandst%C3%A4tte%209%2C%201010%20Wien) e o [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) não dão.
+  - 🎫 **A partir de 1 de abril de 2026 a entrada é só por faixa horária: reservar**, em shop.khm.at.
+  - **O que é:** a **coroa do Sacro Império Romano**, do século X, a coroa austríaca, o Tosão de
+    Ouro, e o *corno de unicórnio*, que é um dente de narval. É o melhor museu-do-tesouro da
+    Europa, e é o que quase toda a gente troca pelas salas da Sisi sem saber o que perde.
+  - ⚠️ **Fecha às terças.** Numa quinta está aberto das 09:00 às 17:30, e a última entrada é às
+    17:00. Depois do almoço é a altura certa, e é quando o dia tem o buraco a preencher.
+- **15:15 – 15:55**: **[Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien)** da Biblioteca Nacional, *[Josefsplatz](https://www.google.com/maps/search/?api=1&query=Josefsplatz%2C%201010%20Wien) 1*,
+  **a 2 min a pé do Tesouro**.
+  - ✅ **€12, ou €10 com cartão de estudante até aos 27 anos.** Audioguia **€3**, ou €2,50 a partir
+    de duas pessoas.
+  - **O que é:** uma sala barroca de **80 metros de comprimento e 20 de altura**, com 200 000
+    volumes, quatro globos venezianos com mais de um metro e frescos na cúpula. É provavelmente a
+    sala mais impressionante de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich), e são **40 minutos**, não uma tarde.
+  - ℹ️ **Às quintas abre até às 21:00**, quando nos outros dias fecha às 18:00. É a folga que faz
+    este bloco caber sem pressas, e é a razão de ele estar aqui e não noutro dia.
+- **15:55 – 16:15**: Voltar a pé ao **[Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)** (750 m, 10 min).
+- **16:15 – 16:45**: **U1 do [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien) a [Praterstern](https://www.google.com/maps/search/?api=1&query=Praterstern%2C%201020%20Wien)**
+  (duas paragens, ~5 min) e 10 min a pé até à [Kaiserwiese](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien).
+  - 🚇 **Duas paragens e nenhum transbordo.** Sem o palácio deixou de haver mudança em
+    [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien), e o [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien) está a 4 min de casa.
+  - 🎫 **O bilhete de 24h deixou de compensar.** O Dia 2 passou a ter **duas** viagens de metro
+    (ida e volta do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) e o Dia 3 uma terceira até à estação. São três bilhetes simples,
+    **€9,00/pax na app** a €3,00 cada, contra **€9,70/pax** do passe: o passe fica **€0,70 mais
+    caro por pessoa**. Só vale a pena se contarem com viagens extra.
 - **17:00 – 20:15**: **Wiener [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)**, e este ano com um bónus.
   - 🎪 **17:00 – 17:30 · [Kaiser Wiesn](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien), e hoje é o dia de abertura.** A *Wiener [Kaiser Wiesn](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien)*,
     a [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich), decorre de **24 de setembro a 11 de outubro** na **[Kaiserwiese](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien)**,
@@ -654,7 +664,7 @@ confirmadas abertas à quarta, a terceira não.**
   - ✅ **O que se faz:** a pé até **[Praterstern](https://www.google.com/maps/search/?api=1&query=Praterstern%2C%201020%20Wien)** (850 m, ~11 min), **U1 duas paragens até
     [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien)**, passagem por casa, e a pé pela [Schwedenbrücke](https://www.google.com/maps/search/?api=1&query=Schwedenbr%C3%BCcke%2C%201010%20Wien) até à *Praterstraße 1*. Ao
     todo, com a espera do metro e os 10 minutos de trocar de roupa, são **~40 minutos**. O
-    bilhete de 24h cobre a viagem.
+    bilhete simples de metro cobre a viagem.
   - 👔 **Aproveitem que o metro vos deixa a 4 minutos de casa.** O [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien) é um jardim
     onde se come pernil com as mãos, entre fumo de grelhados; o [Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien) é um bar de hotel de
     cinco estrelas com *dress code*. **Passar em casa para trocar de camisa custa 10 minutos**
@@ -688,7 +698,7 @@ confirmadas abertas à quarta, a terceira não.**
 > Às 19:00 não se chega saindo do [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien) às 20:15: da [Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien) à Ópera são ~30
 > minutos de metro, portanto tem de se **sair do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) por volta das 18:25 e jantar noutro
 > sítio que não o [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien)**, cujo bloco é das 18:15 às 20:15 e não cabe. Quem
-> escolher a ópera faz o Dia 2 assim: [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien), [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) até às 18:15, Ópera às 19:00.
+> escolher a ópera faz o Dia 2 assim: Hofburg ([Tesouro](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien) & [Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien)), [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) até às 18:15, Ópera às 19:00.
 > **O rooftop às 22:15, depois da ópera, é possível se o bar ainda estiver aberto, mas não
 > é um plano.**
 
