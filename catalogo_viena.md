@@ -183,10 +183,10 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 | **Torre Norte** ✅ (elevador, sino Pummerin) | diário 09:00–19:00, última 18:30 | €8 | 20 min | A favor da Norte: elevador, sem escadas, plataforma ao ar livre. Contra: mais baixa (~60 m) e com rede. |
 | **Catacumbas** ✅ (só com guia) | seg–sáb 10:00–16:30; dom 13:30–16:30 | €8 | 30 min | Ossários e vísceras dos Habsburgo em jarros. Mórbido, curto, agrada a grupos. |
 | **All-Inclusive** ✅ | válido 1 ano | €29 | - | Só compensa com 3+ componentes. |
-| **Ruprechtskirche** ⭐ | horário rotativo de voluntários, verificar em ruprechtskirche.online | grátis | 10 min | **A 1 minuto.** A igreja mais antiga de Viena, coberta de hera. Nem que seja por fora. |
-| **Maria am Gestade** | ~08:00–18:00 | grátis | 15 min | **A 3 minutos.** Gótico esguio do séc. XIV, torre rendilhada, quase sempre vazia. |
+| **Ruprechtskirche** ⭐ | horário rotativo de voluntários, verificar em ruprechtskirche.at | grátis | 10 min | **A 1 minuto.** A igreja mais antiga de Viena, coberta de hera. Nem que seja por fora. |
+| **Maria am Gestade** | ~08:00–18:00 | grátis | 15 min | **A 6 min a pé.** Gótico esguio do séc. XIV, torre rendilhada, quase sempre vazia. |
 | **Peterskirche** ⭐ | seg–sáb 07:00–20:00 · **concertos de órgão grátis seg–sex às 15:00** | grátis | 20 min | O melhor rácio qualidade/€0 de Viena. |
-| **Jesuitenkirche** ⭐ | ~07:00–19:00 | grátis | 15 min | A cúpula falsa em *trompe-l'œil* de Andrea Pozzo, há uma marca no chão de onde a ilusão é perfeita. |
+| **Jesuitenkirche** ⭐ | ~07:00–19:00 | grátis | 15 min | **A 6 min do Stephansdom.** A cúpula falsa em *trompe-l'œil* de Andrea Pozzo, há uma marca no chão de onde a ilusão é perfeita. |
 | **Am Hof** (praça + igreja) | ~08:00–18:00 | grátis | 15 min | O largo mais bonito e menos turístico do centro. |
 | **Minoritenkirche** | ~08:00–18:00 | grátis | 20 min | Mosaico gigante da *Última Ceia* encomendado por Napoleão. |
 | **Ankeruhr** | 24h · **desfile das 12 figuras ao meio-dia** | grátis | 10 min | A 2 minutos. |
@@ -352,7 +352,7 @@ para 24/9 · **futebol** (a jornada da Bundesliga austríaca joga-se tipicamente
 7. **Sirbu (Heuriger)**: abertura em fins de setembro genuinamente incerta. Só por telefone.
 8. **`ra.co/events/at/vienna`** filtrado por 23/9, o Resident Advisor bloqueou o acesso
    automático, portanto **nada neste documento está cruzado com ele.**
-9. **Ruprechtskirche**: horário de voluntários, rotativo. Ver ruprechtskirche.online na véspera.
+9. **Ruprechtskirche**: horário de voluntários, rotativo. Ver ruprechtskirche.at na véspera.
 10. **Preços marcados ⚠️**: Riesenrad, Donauturm, Klimt Villa, horário de setembro do Belvedere.
 
 ---

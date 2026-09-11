@@ -14,6 +14,55 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 14.ª revisão · 10 de setembro de 2026
+
+**Duas igrejas grátis que o guia oferecia sem dizer quando, e um sítio na internet que já não é
+o sítio.**
+
+1. **A caixa das duas igrejas mandava ler o `catalogo_viena.md`.** Num ficheiro que se lê no
+   telemóvel, na rua, isso é um beco sem saída: quem está à porta da igreja não abre um
+   markdown. A caixa passa a dar as duas horas em vez de dar um sítio onde as procurar.
+
+2. **Não havia hora nenhuma, e a razão é que não havia encaixe. E no Dia 1 não há.** O passeio
+   do Dia 1 arranca às 15:05, depois do check-in, e o bloco das 15:05 às 17:45 tem cerca de
+   cinco minutos livres: a Torre Sul leva 60, a Peterskirche 10 e o Graben–Hofburg 60. As duas
+   igrejas eram oferecidas "se o grupo estiver adiantado", o que nunca é uma hora.
+
+   A primeira tentativa de lhes dar hora foi pôr a **Jesuitenkirche no Dia 1, às 16:30**, à
+   saída da torre, por ser quase ao lado do Stephansdom. **Não cabe.** Custa uns 20 min de
+   desvio, e neste dia esses 20 min só podem sair do Graben e do Hofburg, que já estão contados
+   ao minuto até à saída das 17:45. **Um desvio que se paga cortando outro sítio não é folga, é
+   troca**, e a troca não estava declarada: era exactamente o problema de origem.
+
+   Ficam as duas juntas na única folga real do plano de Viena, e passam a ter hora: **antes do
+   brunch do Dia 2, com saída de casa às 10:00** em vez das 11:00. É um circuito fechado que
+   começa e acaba onde interessa: casa ➔ Maria am Gestade (6 min) ➔ Jesuitenkirche (12 min) ➔
+   Haas & Haas (5 min), **1,7 km e 23 min a pé**, mais 15 min dentro de cada uma. A meia hora
+   que isto custa sai da manhã, não do dia.
+
+3. **As distâncias das duas nunca tinham sido medidas.** O guia dizia "150 m de casa" para a
+   Maria am Gestade e "250 m do Stephansdom" para a Jesuitenkirche. Medido no OSRM, perfil a
+   pé, a 10/09/2026: **438 m e 6 min** e **426 m e 6 min**. A distância em linha recta de casa
+   à Maria am Gestade é de 267 m, o que explica o número antigo: foi lido no mapa, não medido
+   na rua. O cabeçalho da secção, "tudo a 3–8 min de casa", sempre esteve certo; a linha da
+   Maria am Gestade é que era a excepção, e o catálogo dizia o mesmo erro noutra unidade ("a 3
+   minutos").
+
+   Medido na mesma passagem, para o circuito do ponto 2: casa ➔ Maria am Gestade **438 m, 6
+   min** · Maria am Gestade ➔ Jesuitenkirche **881 m, 12 min** · Jesuitenkirche ➔ Haas & Haas
+   **409 m, 5 min**. Total **1,7 km, 23 min**.
+
+   > **A repetição da regra:** um número que aparece em dois ficheiros e só foi medido num
+   > deles não está confirmado, está copiado.
+
+4. **A Ruprechtskirche estava referida no domínio errado.** O catálogo mandava verificar em
+   `ruprechtskirche.online`. Esse sítio existe, responde 200, e é um **arquivo morto de
+   serviços online de 2020 a 2022**, alojado em Wix, que aponta de volta para o site
+   verdadeiro. A paróquia está em **`ruprechtskirche.at`**, onde estão o calendário, a missa de
+   sábado às 17:00 e o Ruprechtsfest de 26 de setembro de 2026. **O roteiro sempre usou o
+   `.at`; era o catálogo que discordava dele**, e mandava o leitor para uma página que não
+   publica horários há quatro anos.
+
 ## 13.ª revisão · 10 de setembro de 2026
 
 **São duas malas, e a hora do check-in só se confirma no próprio dia.** Isso mudou a forma da
