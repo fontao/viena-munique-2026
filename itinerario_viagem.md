@@ -595,14 +595,14 @@ confirmadas abertas à quarta, a terceira não.**
 - **11:00 – 12:30**: Brunch sem pressas no pátio escondido do **Haas & Haas**
   (*Stephansplatz 4*), a 7 min a pé de casa.
 - **12:40 – 13:20**: Descer a **Kärntner Straße** (8 min) até ao **Café Sacher**, ao lado da Ópera.
-  - 🚨 **Não tentem sentar-se no Café Sacher.** A fila de mesa em setembro é de **30 a 45
-    minutos** e o bloco só tem 40, se a fila estiver no limite, sobram zero minutos para
+  - 🚨 **Não tentem sentar-se no Café Sacher.** A fila de mesa em setembro costuma ser de **30
+    minutos ou mais** e o bloco só tem 40: se a fila estiver no limite, sobram zero minutos para
     comer *e* perde-se a entrada de hora marcada das 14:00 em Schönbrunn, que não se reemite.
     **Comprar a Sachertorte na loja ao lado, a *Sacher Confiserie*: é a mesma tarte, da mesma
     casa, e demora 5 minutos.** Come-se no Burggarten ou leva-se para o comboio do dia
     seguinte. Se mesmo assim quiserem mesa, a alternativa com fila muito menor é a *Gerstner
     K.u.K.* (Kärntner Str. 51), com três pisos de salões imperiais sobre a Ópera.
-  - **Regra prática:** se às **12:20** ainda estiverem à mesa, pedir a conta imediatamente. 🔴 *Esta regra dizia 12:45, quinze minutos depois da hora a que o bloco manda sair (12:40): era um travão que só disparava tarde demais.*
+  - **Regra prática:** se às **12:20** ainda estiverem à mesa, pedir a conta imediatamente.
   - Ao lado, 50 m: o **terraço da Albertina** (acesso livre pelas escadas exteriores) é o
     melhor miradouro sobre a fachada da Ópera, e na base fica o *Bitzinger*, o quiosque de
     salsichas mais famoso de Viena. Dois minutos, custo zero.
@@ -612,18 +612,19 @@ confirmadas abertas à quarta, a terceira não.**
     Voltar a Schwedenplatz é andar 1 km para nordeste para depois seguir para sudoeste.
     **Poupa ~15 minutos** e duas estações.
 - **14:00 – 15:15**: **Palácio de Schönbrunn**, Schlossticket com hora marcada (75 min,
-  audioguia). **15:15 – 16:05**: subida à colina da **Gloriette** (700 m a subir) para a
-  panorâmica sobre Viena.
-  - ⚠️ **A descida da Gloriette até ao metro são ~20 minutos, e não 5.** São **~1,6 km** da
-    Gloriette à estação **Schönbrunn (U4)**, atravessando o jardim todo *(OSRM, perfil a pé,
-    10/09/2026, medido com coordenadas)*. É por isso que o bloco acaba às **16:05**: os 20
-    minutos seguintes são a descida, e é o que põe o grupo no cais às 16:25.
-  - ⚠️ **Porque é que passou das 13:00 para as 14:00:** brunch até às 12:30 + Sacher (que tem
-    tipicamente 20–40 min de fila) + metro deixava-vos no palácio por volta das **13:20**:
-    atrasados para uma entrada com hora marcada. Às 14:00 a manhã fica realmente sem pressas
-    e continua a sobrar tempo para tudo o resto.
-  - ✅ **O U4 chega a Schönbrunn sem interrupções** *(Wiener Linien)*. Plano B, que não custa nada saber: U4 até Meidling + elétrico 10 ou 60 até
-    Hietzing, ou o autocarro 10A.
+  audioguia, **€42**; a versão curta, *Staatsappartements*, custa **€30** e são 40 min).
+  **15:15 – 16:05**: subida à colina da **Gloriette** (700 m a subir) para a panorâmica sobre Viena.
+  - ⚠️ **A descida da Gloriette até ao metro são ~20 minutos.** São **~1,6 km** da Gloriette à
+    estação **Schönbrunn (U4)**, atravessando o jardim todo *(OSRM, perfil a pé, 10/09/2026)*. É
+    por isso que o bloco acaba às **16:05**: os 20 minutos seguintes são a descida, e é o que põe
+    o grupo no cais às 16:25.
+  - ⚠️ **Obras no acesso, de 14 a 27 de setembro.** O próprio Schönbrunn avisa que há **regras de
+    acesso alteradas** nesse período, e o plano oficial marca a zona da fachada (Haupttor e
+    Ehrenhof) como **fechada de 14 a 20 de setembro**. O dia 24 já não apanha a zona fechada, mas
+    ainda apanha as regras de acesso: **ver o plano em schoenbrunn.at e contar com uns minutos a
+    mais até ao portão.**
+  - ✅ **O U4 chega a Schönbrunn sem interrupções** *(Wiener Linien)*. Plano B, que não custa
+    nada saber: U4 até Meidling + elétrico 10 ou 60 até Hietzing, ou o autocarro 10A.
 - **16:25 – 17:00**: **U4 até Karlsplatz, mudar para o U1 até Praterstern** (~35 min).
   - *Mudar em Karlsplatz e não em Schwedenplatz:* o U1 e o U4 cruzam-se nos dois sítios, mas
     vindo de Schönbrunn o Karlsplatz aparece **três estações antes**.
@@ -641,44 +642,35 @@ confirmadas abertas à quarta, a terceira não.**
     **A reserva do Schweizerhaus deixa de ser recomendável e passa a ser obrigatória**,
     e confirmada por telefone na semana anterior, não só online.
   - **17:30 – 18:15**: **Riesenrad** (**€14,50**; o bilhete de €17 é o *Flex*, com validade de
-    um ano, de que não precisam).
-    - ✅ **Aberta das 09:00 às 22:45 na quinta, 24 de setembro de 2026.** Não é o horário
-      genérico de setembro: é o que o calendário oficial da wienerriesenrad.com dá **para esta
-      data**, dia a dia. **O bloco das 17:30 cabe com horas de sobra**, e quem se atrasar no
-      Schönbrunn sobe à mesma.
+    um ano, de que não precisam). Em setembro abre até às **22:45** e o bloco cabe com horas de
+    sobra. ⚠️ O calendário oficial marca alterações pontuais (a 22 de setembro só abre às
+    11:30): vale confirmar em wienerriesenrad.com.
   - **18:15 – 20:15**: Jantar de grupo a **8 min a pé** (580 m), no lendário **Schweizerhaus**:
-    pernis de porco estaladiços (*Stelze*) e cerveja Budweiser de pressão. 🔴 *Dizia aqui
-    "4 min": são 8, remedidos no OSRM a 03/09/2026, e num dia de abertura da Kaiser Wiesn com
-    o Prater cheio contem com mais. **Reservar para as 18:30 e não para as 18:15.***
+    pernis de porco estaladiços (*Stelze*) e cerveja Budweiser de pressão. **Num dia de abertura
+    da Kaiser Wiesn, com o Prater cheio: reservar para as 18:30 e não para as 18:15.**
 - **20:15 – 20:55**: **Do Schweizerhaus ao Das Loft, de metro, não a pé.**
   - ⚠️ **Não se vá a pé.** Do Schweizerhaus, que fica dentro do Prater, ao Das Loft são
     **1,7 km e 23 minutos a pé** *(OSRM, 26/08/2026)*, no escuro e depois de um dia inteiro em
     pé. *(Os "8 minutos" que circulam são de **casa** ao Das Loft, não do Schweizerhaus.)*
-  - ✅ **O que se faz:** a pé até **Praterstern**, **U1 duas paragens até Schwedenplatz**,
-    passagem por casa, e a pé pela Schwedenbrücke até à *Praterstraße 1*.
-  - 🔴 **São 40 minutos e não 20, e este bloco estava mal medido.** As caminhadas foram
-    remedidas no OSRM a **03/09/2026** e nenhuma das três batia certo: do Schweizerhaus a
-    Praterstern são **850 m e 11,5 minutos**, e não 5; de casa ao Das Loft são **630 m e
-    8,5 minutos**, e não 3. Somando os **~6 minutos** de espera e viagem do U1, os **4** de
-    Schwedenplatz a casa e os **10** de trocar de roupa, dá **~40 minutos**. O bloco antigo
-    dizia "~13 minutos" e punha o grupo no bar às 20:35: na verdade chegava por volta das
-    **20:55**, e é essa a hora que aqui fica. O bilhete de 24h continua a cobrir a viagem.
+  - ✅ **O que se faz:** a pé até **Praterstern** (850 m, ~11 min), **U1 duas paragens até
+    Schwedenplatz**, passagem por casa, e a pé pela Schwedenbrücke até à *Praterstraße 1*. Ao
+    todo, com a espera do metro e os 10 minutos de trocar de roupa, são **~40 minutos**. O
+    bilhete de 24h cobre a viagem.
   - 👔 **Aproveitem que o metro vos deixa a 4 minutos de casa.** O Schweizerhaus é um jardim
     onde se come pernil com as mãos, entre fumo de grelhados; o Das Loft é um bar de hotel de
     cinco estrelas com *dress code*. **Passar em casa para trocar de camisa custa 10 minutos**
-    e é a diferença entre entrar e ficar à porta. A pé, este desvio não existia.
+    e é a diferença entre entrar e ficar à porta.
 - **20:55 – 23:00**: Cocktails no **Rooftop Das Loft** (18.º andar do Hotel SO/ Vienna,
   *Praterstraße 1*). Vista noturna de 360° e teto de vidro multicolorido.
-  **Não se reserva, e há dress code.**
-  - ✅ **Para o bar não se reserva.** A política publicada é **walk-in**, chega-se e entra-se, e se estiver cheio
-    espera-se no *BAR/terre*, o bar do átrio, com uma bebida de boas-vindas oferecida.
-  - 🚨 **Atenção a esta, que custa dinheiro:** quem reservar **mesa de restaurante** e depois
-    só beber no bar paga **€25 por pessoa** de taxa, e a reserva exige garantia de cartão de
+  - ✅ **Para o bar não se reserva.** A política publicada é **walk-in**, chega-se e entra-se, e
+    se estiver cheio espera-se no *BAR/terre*, o bar do átrio, com uma bebida de boas-vindas
+    oferecida.
+  - 🚨 **Atenção a esta, que custa dinheiro:** quem reservar **mesa de restaurante** e depois só
+    beber no bar paga **€25 por pessoa** de taxa, e a reserva exige garantia de cartão de
     crédito. **Para o que o grupo vai fazer, que é beber cocktails, reservar é pior do que não
     reservar.** Contacto, se quiserem confirmar à chegada: **+43 664 8868 2556**, atende das
     10:00 às 18:00.
-  - 👔 **O que se mantém é o dress code**, e é por isso que a passagem por casa às 20:15
-    continua a valer a pena.
+  - 👔 **Há dress code**, e é por isso que a passagem por casa às 20:15 vale a pena.
   - 🅱️ **Plano B, a 4 min a pé de casa:** **Lamée Rooftop** (*Rotenturmstraße 15*), com vista
     direta para as torres do Stephansdom e cobertura instalada em 2024, por isso não depende
     do tempo. ℹ️ *Às quintas, sextas e sábados vai **até às 02:00**, e é de domingo a quarta

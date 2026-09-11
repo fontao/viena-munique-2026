@@ -26,7 +26,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 
 ---
 
-## 🚨 Sete factos que mudam o plano
+## 🚨 Oito factos que mudam o plano
 
 1. 🔴 **O sol põe-se às 18:49**, não às 19:00. Os pré-copos devem começar às **18:00**.
 2. 🔴 **O metro só circula 24 horas à sexta, ao sábado e nas vésperas de feriado.** À quarta a
@@ -39,14 +39,16 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 4. 🔴 **A Kaiser Wiesn abre na quinta 24 e, aos dias de semana, só a partir das 15:00.**
    Entrada no recinto e nas tendas **gratuita durante o dia**; só os eventos noturnos nas tendas
    são pagos.
-5. 🔴 **No Das Loft não se reserva, e o aviso de obras era falso.** O bar é *walk-in*, chega-se
-   e entra-se; quem reservar **mesa de restaurante** para depois só beber paga **€25 por
-   pessoa**. O roteiro tinha lá reserva marcada para quinta à noite e tem de a tirar. *(O
-   "esteve fechado e reabriu a 3/9/2026 com conceito novo" não tem vestígio em fonte nenhuma:
-   o sítio publicou programa ao longo de todo o ano.)*
-6. 🔴 **O Café Central está fechado** (renovação até ao inverno de 2026). Substituto: *DECENTRAL*,
+5. 🔴 **No Das Loft não se reserva.** O bar é *walk-in*, chega-se e entra-se; quem reservar
+   **mesa de restaurante** para depois só beber paga **€25 por pessoa**.
+6. 🔴 **O Schönbrunn tem o acesso alterado de 14 a 27 de setembro de 2026**, por causa de uma
+   evento no recinto. O plano oficial fecha a zona da fachada (*Haupttor* e *Ehrenhof*) de **14
+   a 20 de setembro**; de 21 a 27 o palácio está aberto mas as **regras de acesso continuam
+   alteradas**, e o desvio até ao portão pode custar uns minutos. O dia 24 é o nosso, e o palácio
+   está aberto: confirmar o plano em `schoenbrunn.at` antes de sair.
+7. 🔴 **O Café Central está fechado** (renovação até ao inverno de 2026). Substituto: *DECENTRAL*,
    Freyung 3, diário 07:30–22:00.
-7. ✅ **Não há feriados nem greves a 23–25 de setembro.** Próximo feriado: 26 de outubro.
+8. ✅ **Não há feriados nem greves a 23–25 de setembro.** Próximo feriado: 26 de outubro.
    **Terças-feiras** fecham Schatzkammer, NHM, Leopold, Klimt Villa, Josephinum;
    **segundas** fecha quase tudo o resto. **A quinta 24 é um dia excelente, está quase tudo aberto.**
 
@@ -68,7 +70,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 | **MQ Libelle** ⭐ | Leopold Museum, MuseumsQuartier | ✅ Sim | 10:00–22:00, última subida 21:30 | 15 min (U3) | **Entrada grátis, sem consumo obrigatório.** Poente a oeste sobre a Innenstadt. Fecha com mau tempo. |
 | **MuseumsQuartier, sofás Enzi** ⭐ | Museumsplatz | 24h | sempre | 15 min | O melhor sítio da cidade para beber uma cerveja ao entardecer. Grátis. |
 | **Terraço da Albertina** ⭐ | Albertinaplatz | 24h | sempre | 12 min | **Grátis.** O melhor enquadramento da Ópera. |
-| **Das Loft** | SO/ Vienna, Praterstr. 1 | ✅ Sim | bar **walk-in**, sem reserva | 8 min | A melhor panorâmica de Viena. **Para o bar não se reserva**; reservar mesa de restaurante para depois só beber custa **€25/pax**. 🔴 O aviso de obras ("reabriu 3/9/2026") era falso: o sítio publicou programa todo o ano. |
+| **Das Loft** | SO/ Vienna, Praterstr. 1 | ✅ Sim | bar **walk-in**, sem reserva | 8 min | A melhor panorâmica de Viena. **Para o bar não se reserva**; reservar mesa de restaurante para depois só beber custa **€25/pax**. |
 | **NENI am Wasser** (ex-Tel Aviv Beach) | Obere Donaustr. | ✅ Provável | ~12:00–00:00 | 8–10 min | 🔴 **Já não é praia urbana**, é um restaurante aberto todo o ano. |
 | **Sky Bar (Steffl)** | Kärntner Str. 19 | ⚠️ **Fontes divergem** | uma diz seg–sáb 10:00–24:00; outra diz que o SKY Bar só abre sex/sáb | 10 min | Telefonar antes de subir. |
 | **Meliá 57 (DC Tower)** | Donau-City-Str. 7 | ✅ Sim | seg–qui 17:00–00:00 | 25 min | 57.º andar, interior envidraçado, **sem risco de chuva**. |
@@ -207,7 +209,7 @@ Onde as fontes se contradizem, está assinalado. Onde há erro, está corrigido.
 | **Sisi Museum + Apartamentos + Silberkammer** ✅ | diário 09:00–17:30, última 16:30 | **€20** | 2h | 10 min | O bloco imperial "obrigatório". |
 | **Hofburg, pátios e Heldenplatz** | 24h | grátis | 30 min | 11 min | - |
 | 🔴 **Schönbrunn, State Apartments** ✅ | ~09:00–17:30, hora marcada | **€30** | 1h | U4, ~20 min | *(ex-"Imperial Tour")* |
-| 🔴 **Schönbrunn, Palace Ticket** ✅ | idem | **€42** | 1h30 | idem | *(ex-"Grand Tour")*. **Qualquer preço de €22 ou €28 é velho.** |
+| 🔴 **Schönbrunn, Palace Ticket** ✅ | ~09:00–17:30, hora marcada | **€42** | 1h30 | idem | *(ex-"Grand Tour")* |
 | **Schönbrunn, parque + Gloriette** ⭐ | parque desde as 06:30 | **grátis** | 1h30 | idem | **Fazer só o parque é uma opção perfeitamente legítima e gratuita.** |
 | **Schönbrunn, "Exclusive Gardens"** ✅ | 09:30–17:30 | €16 | 1h30 | idem | Labirinto + Jardim Privado + Orangerie + terraço da Gloriette. Boa alternativa barata ao interior. |
 | **Belvedere Superior** ⭐✅ | ~10:00–18:00 ⚠️ (o horário de verão acaba a 31/8) | **€23** | 1h30 | Elétrico D, 15 min | *O Beijo* de Klimt + a vista do jardim sobre a cidade. Hora marcada. |
@@ -351,19 +353,20 @@ para 24/9 · **futebol** (a jornada da Bundesliga austríaca joga-se tipicamente
 
 # ☎️ PARTE 4 · A confirmar antes de fechar seja o que for
 
-1. **Das Loft**: o aviso de obras era falso, o sítio publicou programa ao longo de todo o ano.
-   **O que interessa é outra coisa: para o bar não se reserva** (walk-in), e reservar mesa de
-   restaurante para depois só beber custa **€25/pax**. O roteiro tinha lá reserva e já a tirou.
-2. **O – der Klub**: a série de quartas grátis ainda corre a 23/9? Era "maio–setembro".
-3. **Das Werk, VIE i PEE, DANZÓN, Fledermaus**: confirmar as residências no Instagram em setembro.
-4. **Flex, Fluc, B72, rhiz**, só publicam programa com 3–4 semanas de antecedência.
-5. **Lamée Rooftop**: uma fonte não conseguiu verificar. Telefonar.
-6. **Sky Bar (Steffl)**: abre à quarta ou só sex/sáb? Fontes contraditórias.
-7. **Sirbu (Heuriger)**: abertura em fins de setembro genuinamente incerta. Só por telefone.
-8. **`ra.co/events/at/vienna`** filtrado por 23/9, o Resident Advisor bloqueou o acesso
+1. **Das Loft**: **para o bar não se reserva** (walk-in), e reservar mesa de restaurante para
+   depois só beber custa **€25/pax**. O roteiro tinha lá reserva e já a tirou.
+2. **Schönbrunn**: as regras de acesso estão alteradas até 27/9 (ver facto 6). O palácio está
+   aberto no dia 24, mas vale confirmar o plano de acessos em `schoenbrunn.at` antes de sair.
+3. **O – der Klub**: a série de quartas grátis ainda corre a 23/9? Era "maio–setembro".
+4. **Das Werk, VIE i PEE, DANZÓN, Fledermaus**: confirmar as residências no Instagram em setembro.
+5. **Flex, Fluc, B72, rhiz**, só publicam programa com 3–4 semanas de antecedência.
+6. **Lamée Rooftop**: uma fonte não conseguiu verificar. Telefonar.
+7. **Sky Bar (Steffl)**: abre à quarta ou só sex/sáb? Fontes contraditórias.
+8. **Sirbu (Heuriger)**: abertura em fins de setembro genuinamente incerta. Só por telefone.
+9. **`ra.co/events/at/vienna`** filtrado por 23/9, o Resident Advisor bloqueou o acesso
    automático, portanto **nada neste documento está cruzado com ele.**
-9. **Ruprechtskirche**: horário de voluntários, rotativo. Ver ruprechtskirche.at na véspera.
-10. **Preços marcados ⚠️**: Riesenrad, Donauturm, Klimt Villa, horário de setembro do Belvedere.
+10. **Ruprechtskirche**: horário de voluntários, rotativo. Ver ruprechtskirche.at na véspera.
+11. **Preços marcados ⚠️**: Riesenrad, Donauturm, Klimt Villa, horário de setembro do Belvedere.
 
 ---
 
@@ -376,7 +379,8 @@ para 24/9 · **futebol** (a jornada da Bundesliga austríaca joga-se tipicamente
 | Dia 1, 18:30 | "*Tel Aviv Beach* e os bares junto à Schwedenbrücke" | 🔴 O Tel Aviv Beach **já não existe**, é o NENI am Wasser. As opções reais são **Motto am Fluss** (2–4 min) e **Badeschiff** (10 min). |
 | Dia 1, aviso | "Não ir ao Strandbar Herrmann hoje" *(por distância)* | Continua certo, mas por outro motivo: **a época acaba a ~21 de setembro.** Está fechado. |
 | Dia 1, 15:30 | Torre Sul do Stephansdom, €8,00 | Preço ✅ confirmado. Vale a pena decidir **Sul vs Norte**: a Norte tem elevador. |
-| Dia 2, 20:30 | Reserva no Das Loft | 🔴 **Para o bar não se reserva** (walk-in); reservar mesa de restaurante para depois só beber custa **€25/pax**. O aviso de obras era falso. |
+| Dia 2, 20:30 | Reserva no Das Loft | 🔴 **Para o bar não se reserva** (walk-in); reservar mesa de restaurante para depois só beber custa **€25/pax**. |
+| Dia 2, 14:00 | Schönbrunn, acesso | ⚠️ **Regras de acesso alteradas de 14 a 27/9.** A zona da fachada esteve fechada de 14 a 20; a 24 o palácio está aberto, mas o percurso até ao portão pode mudar. Ver o plano oficial. |
 | Dia 2, 17:00 | Kaiser Wiesn | ✅ Confirmado. **Abre às 15:00 aos dias de semana** e a entrada é grátis de dia, chegar às 17:00 funciona. |
 | Dia 2 | Schönbrunn "Schlossticket €42" | ✅ Confirmado. A versão curta (*State Apartments*) é **€30**. **O parque e a Gloriette são grátis**, é uma alternativa legítima. |
 | - | *(não está no roteiro)* | **A Filarmónica de Viena toca no Musikverein na quinta 24**, com Salonen. E há **Macbeth** na Staatsoper com lugares de pé a €13. |

@@ -14,6 +14,64 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 19.ª revisão · 11 de setembro de 2026
+
+**O mesmo tratamento do Dia 1, agora no Dia 2. E desta vez apareceu um facto que faltava.**
+
+1. **O Schönbrunn tem o acesso alterado de 14 a 27 de setembro de 2026, e o guia não dizia
+   nada.** Bateu-se à porta do sítio oficial para confirmar o preço do bilhete (€42, correto) e
+   o que saltou foi um aviso em rodapé: *"devido a um evento, há restrições no recinto a partir
+   de 10/9 e regras de acesso alteradas de 14 a 27/9"*. Descarregou-se o plano oficial, e o mapa
+   mostra a zona da fachada (*Haupttor* e *Ehrenhof*) a vermelho com a legenda **"zona fechada,
+   de 14 a 20 de setembro de 2026"**. O dia 24 **já não apanha a zona fechada** mas **ainda
+   apanha as regras de acesso**. Ficou uma caixa no Dia 2 e o facto no catálogo.
+
+2. **A arqueologia saiu toda.** O Dia 2 tinha o mesmo vício do Dia 1: parágrafos a discutir
+   versões antigas do próprio guia. Saíram:
+
+   | O que estava escrito | Decisão |
+   |---|---|
+   | *"São 40 minutos e não 20, e este bloco estava mal medido... o bloco antigo dizia ~13 minutos e punha o grupo às 20:35"* | Fica **"~40 minutos"**, e o resultado (20:55) |
+   | *"Dizia aqui «4 min»: são 8, remedidos no OSRM a 03/09/2026"* | Fica **"8 min a pé (580 m)"** e a hora de reserva |
+   | *"Porque é que passou das 13:00 para as 14:00"* | Fica **"a entrada é às 14:00 e é com hora marcada"** |
+   | *"Esta regra dizia 12:45, quinze minutos depois da hora a que o bloco manda sair"* | Fica só a regra: **12:20** |
+   | *"A obra da U4 foi de 3 de julho a 3 de agosto... o corte Hütteldorf–Schönbrunn era de um ano anterior"* | Fica **"o U4 chega sem interrupções"** |
+   | *"2,8 km a sudoeste... não vale a pena redesenhar o dia"* | **Caixa inteira removida:** justificava o desenho do dia em vez de informar |
+   | *"Este é o único ponto do guia sem fotografia, e é de propósito. A que aqui estava mostrava... o Le Ciel"* | **Caixa removida:** era sobre o processo de produção do guia |
+
+   **A regra:** o guia diz o que é, não o que já foi. Quem correu com a versão antiga não precisa
+   de saber que ela estava errada.
+
+3. **O Dia 2 passou de 12 caixas para 11.** Saíram duas que não informavam nada (a que
+   justificava a travessia da cidade e a que explicava a fotografia em falta) e entrou uma de
+   conteúdo que faltava (o Sacher, ponto 4). O saldo é 11, mas o que conta é que **nenhuma das
+   onze existe para dizer o que já foi**.
+
+4. **Faltava um aviso no HTML que já existia no markdown.** O bloco do **Café Sacher** (a fila
+   de 30 minutos, a *Sacher Confiserie* ao lado, o terraço da Albertina e o Bitzinger) estava no
+   `.md` e não estava na página. Foi reposto, e o range da fila, que aparecia como **"30 a 45
+   min"** numa versão e **"20 a 40 min"** na outra, passou a ser um só: **"30 minutos ou mais"**.
+
+5. **Uma afirmação forte foi suavizada, e por honestidade.** O guia dizia que o Riesenrad estava
+   aberto *"das 09:00 às 22:45 nesta quinta, 24 de setembro"*, apresentando-o como leitura
+   dia-a-dia do calendário oficial. O calendário existe, mas abre na data de hoje e a página
+   avisa de **alterações pontuais** (a 22 de setembro só abre às 11:30). Não se conseguiu ler o
+   dia 24, portanto ficou: **"em setembro abre até às 22:45, e vale confirmar"**.
+
+6. **Confirmado sem alterações:** bilhete de 24h a **€10,20** (tarifa de 2026, e os passes de 48
+   e 72 horas deixaram de existir a 1 de janeiro); **Lamée Rooftop** dom–qua 12:00–01:00 e
+   qui–sáb até às 02:00; **Schweizerhaus** aberto até 31/10, diário 11:00–23:00; **Kaiser Wiesn**
+   de 24 de setembro a 11 de outubro com entrada grátis de dia; **lugares de pé da Staatsoper** a
+   €13 no balcão, €15 na galeria, €18 na plateia; **Das Loft** continua *walk-in* para o bar.
+
+7. **Erro de execução, registado para não se repetir.** Ao remover a caixa da fotografia, o
+   bloco de substituição levou atrás os `</div>` de fecho do nó, da timeline e do Dia 2. Foi
+   detetado e corrigido antes do commit, com a estrutura conferida no browser.
+
+   > **O que fica desta revisão:** o Dia 2 estava certo nos números e errado no tom. A verificação
+   > oficial não confirmou só o que já lá estava (o preço do bilhete), apanhou o que lá faltava
+   > (o acesso alterado), e é essa a diferença entre rever e reescrever.
+
 ## 18.ª revisão · 11 de setembro de 2026
 
 **A noite do Dia 1 tinha cinco caixas para dizer três coisas. Ficou com duas.**
