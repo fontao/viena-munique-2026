@@ -14,6 +14,56 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 ---
 
+## 20.ª revisão · 11 de setembro de 2026
+
+**Todos os nomes de lugar passaram a ser clicáveis para o Google Maps, nas duas versões.**
+
+1. **O mecanismo já existia e estava a ser usado a meio.** Havia uma classe `a.geo` definida no
+   CSS desde o início (sublinhado tracejado e um pino de mapa depois do nome), mas só **55**
+   sítios a usavam, e o markdown não tinha nenhum. O pedido era claro: se o texto nomeia um
+   lugar, tem de se poder tocar nele.
+
+2. **O que se ligou.** De 55 para **671 ligações no HTML** e **de 0 para 615 no markdown**,
+   cobrindo as sete páginas de dia, o mapa, o roteiro, os bilhetes, a Oktoberfest, a gastronomia,
+   a logística e os créditos. Não são 671 lugares distintos: são **152 nomes** que se repetem ao
+   longo do guia, sempre com a mesma morada na pesquisa, para o link não mudar de sítio conforme
+   a página.
+
+3. **A regra que se aplicou:** só se liga o que é um lugar. Cidades, praças, ruas, estações,
+   restaurantes, clubes, monumentos e portões. **Não** se liga o que não se visita: nomes de
+   comboios (Westbahn, ICE 116, Railjet), tipos de bilhete (Bayern-Ticket, WestSuperpreis),
+   planos de metro (U1, U4), operadores (Wiener Linien, Enterprise) nem conceitos (OSRM,
+   Oide Wiesn como categoria de bilhete).
+
+4. **Três nomes existem em duas cidades, e ligá-los à toa seria pior do que não ligar.** Foram
+   resolvidos pelo contexto, um a um:
+   - **Burggarten**: o do **Sacher**, em Viena (1 uso), e o do **promontório de Rothenburg**
+     (5 usos, no Dia 5).
+   - **Karlsplatz**: o de **Viena** (a estação do U4, no Dia 2) e o **Stachus, em Munique**
+     (6 usos, no Dia 6). O título do Dia 6 passou a dizer **"Karlsplatz (Stachus)"** para que a
+     distinção se leia, e não só se clique.
+   - **Rathausplatz**: o de **Augsburg** (a praça do jantar do Dia 3), não o de Viena.
+
+5. **Como foi feito, e por que não à mão.** São 671 inserções: escrevê-las à mão era garantir
+   erros de morada e links repetidos com endereços diferentes. Fez-se com um script que percorre
+   o ficheiro **fora de âncoras, de blocos de código e de `script`/`style`** e liga primeiro os
+   nomes mais longos, para que "Rothenburg ob der Tauber" não seja comido por "Rothenburg" nem
+   "Oide Wiesn" por "Wiesn". Depois do script, uma passagem manual pelos casos ambíguos.
+
+6. **Verificação, porque inserir 670 âncoras num ficheiro é uma boa maneira de o partir:**
+   - **759 abre `<a>` para 759 fecha**, e os `<div>` continuam equilibrados (677/677).
+   - **0 âncoras aninhadas** (uma âncora dentro de outra, que é o erro clássico deste tipo de
+     substituição).
+   - **0 `href` vazios** e **0 links fora do domínio do Google Maps**.
+   - No browser: **669 âncoras, 0 inválidas, 0 sem `target="_blank"`, 0 erros de consola**.
+   - No markdown: parênteses e colchetes equilibrados como estavam, **0 links aninhados**.
+   - A **390 px**, os nós dos dias não têm um único elemento em estouro: os links quebram de
+     linha em vez de empurrar a caixa.
+
+   > **O que fica desta revisão:** o guia passou a poder ser usado a andar na rua, que era o
+   > ponto. Um nome que não se pode tocar obriga a copiar a morada à mão para outra aplicação, e
+   > é exatamente aí que se perde o tempo que o guia existe para poupar.
+
 ## 19.ª revisão · 11 de setembro de 2026
 
 **O mesmo tratamento do Dia 1, agora no Dia 2. E desta vez apareceu um facto que faltava.**
