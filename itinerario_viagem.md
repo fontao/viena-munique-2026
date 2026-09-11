@@ -712,7 +712,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 ---
 
 ### 🏔️ 🇩🇪 Dia 4: Sábado, 26 de Setembro · [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) & Lago [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)
-**⏰ Acordar 10:00 · Sair 10:30. Continua a não ser preciso madrugar, e agora nem há hora marcada.**
+**⏰ Acordar 10:00 · Saída às 10:30. Continua a não ser preciso madrugar, e agora nem há hora marcada.**
 
 > ### 🚨 A decisão que dá forma a este dia: não se entra em castelo nenhum
 > **Vai-se à [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), que é de graça e não precisa de bilhete, e não se compra a visita
@@ -743,14 +743,15 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 > que é a razão de ser possível almoçar às 14:15. **Reservar de manhã à mesma**, que são
 > 6 pessoas num sábado de setembro em [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). *(alpenstuben.de.)* O *Bräustüberl* do Kloster [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) (10:00–23:00) é o plano B, mas
 > fica tarde de mais para almoço.
->
-> 🪙 **Levar moedas de 0,50 € e 1 €.** As casas de banho da aldeia e dos parques funcionam a
-> moeda e muitas não aceitam cartão nem notas.
->
-> 🧥 **E levar corta-vento no carro.** O [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) está a 973 m e às 18:30, à sombra da
-> [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen), cai facilmente para os **8 °C a 12 °C**. Quem sair de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) vestido para os
-> 16 °C da cidade e deixar o casaco no apartamento passa o pôr do sol a tremer.
 
+- **10:00 – 10:30**: **Acordar no apartamento, pequeno-almoço e preparativos da carrinha.**
+  - 💤 Acordar às 10:00 com descanso merecido no apartamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%206%2C%2086152%20Augsburg) após a primeira noite e brinde no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg). Sem pressas nem hora marcada de bilheteira nos castelos.
+  - ☕ Pequeno-almoço no apartamento com as provisões compradas na véspera no supermercado (pão, queijo, café, leite e fruta) ou café rápido numa padaria próxima.
+  - 🎒 **Tarefas essenciais antes de arrancar às 10:30:**
+    - 📞 **Fazer as duas reservas do dia por telefone:** 1) Almoço no **[Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)** para as **14:15** (+49 8362 98200); 2) Jantar bávaro em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) para as **21:30** (+49 821 153644 ou taberna local), garantindo mesa para os 6 em pleno sábado de Oktoberfest.
+    - 🧥 **Levar agasalhos e corta-vento na carrinha:** o [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) está a 973 m e ao fim da tarde cai facilmente para os **8 °C a 12 °C**.
+    - 🪙 **Levar moedas de 0,50 € e 1 €:** necessárias para as casas de banho públicas da aldeia e dos parques que não aceitam cartão.
+    - 💧 Carregar na carrinha as garrafas de água e provisões para a viagem.
 - **10:30 – 12:05**: Condução panorâmica pela **B17** de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) até [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)
   (**103 km, ~1h27 em fluxo livre**, OSRM). O percurso contempla **1h35** de condução como margem de segurança, prevendo o afunilamento da B17 para faixa simples a sul de [Schongau](https://www.google.com/maps/search/?api=1&query=Schongau%2C%2086956) e o tráfego de sábado em direção aos castelos.
 - **12:05 – 14:15**: **[Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), miradouro e [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau). 130 minutos, sem hora marcada.**

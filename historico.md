@@ -90,6 +90,13 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - **Exequibilidade horária e cronometria (Regra 5):** Cadeia cronológica fechada e folgas validadas (partida de Augsburg às 10:30, chegada a Hohenschwangau às 12:05, almoço 14:15–15:15, Oberammergau 75 min, Eibsee 79 min com pôr do sol às 19:03, partida às 19:15, chegada a Augsburg às 21:15 e jantar às 21:30).
     - **Validação de paridade e regras linguísticas (Regras 2 e 6):** Português europeu estrito, 0 travessões (`—`) e 0 preços órfãos na execução do `verificar.py`.
 
+16. **Modularização da manhã do Dia 4: separação de acordar/pequeno-almoço e viagem de carro.**
+    - No guia web (`index.html`) e no itinerário (`itinerario_viagem.md`), a manhã do Dia 4 foi decomposta em dois cartões/blocos autónomos:
+      1) **10:00 – 10:30 (Pequeno-Almoço & Preparação):** acordar às 10:00 sem pressas no apartamento em Augsburg (*Am Bogen 6*), pequeno-almoço com os mantimentos comprados no Dia 3, agasalhos/corta-vento para a carrinha (Eibsee a 8–12 °C), moedas para as casas de banho e a realização imediata das duas reservas telefónicas do dia (almoço no Alpenstuben às 14:15 e jantar em Augsburg às 21:30).
+      2) **10:30 – 12:05 (Condução Cénica pela B17):** viagem de 103 km até Hohenschwangau, com 1h35 de condução e estacionamento nos parques oficiais P1 a P4.
+    - Sincronização e validação de paridade de preços de transporte em Viena no Ticket 7 do guia (incorporando a poupança comparativa face ao passe de 24h a €9,70 e €10,20).
+    - `verificar.py` validado com 0 erros e 0 preços órfãos.
+
 ---
 
 
