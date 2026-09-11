@@ -49,7 +49,15 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
    - A secção final de tabela de créditos de imagens do Wikimedia Commons foi totalmente removida do guia interativo, limpando o rodapé e reduzindo peso e ruído visual no final da página.
    - A secção de Alojamentos, Carro & Emergências (`#logistics`) foi simplificada: expurgou-se a longa lista redundante de tarefas repetitivas ("Confirmar Antes de Fechar") que duplicava as notas diárias e a lista de preparação, mantendo 4 cartões limpos, operacionais e de consulta imediata: Alojamento Viena (4 pax), Alojamento Augsburg (6 pax), Aluguer de Viatura Enterprise (carrinha 7L) e Contactos de Emergência & Apoio (112, Táxi Munique 24h para 6+, Enterprise 24h, Embaixada PT e piquete de saúde 116 117).
 
+10. **Despoluição profunda e simplificação do Dia 3 (Regras 6, 9, 10 e 11).**
+    - **Remoção de arqueologia e justificações de poupança (Regra 9 e 11):** O itinerário e o guia continham blocos gigantes com a comparação de 4 alternativas de comboio rejeitadas (Westbahn vs ÖBB vs Bayern-Ticket vs bilhete único) e auto-elogios de planeador ("poupa €202,48", "compra 2 horas de sono", "a noite foi montada a partir daí"). A decisão está tomada e os bilhetes comprados; essa comparação já pertencia exclusivamente ao histórico. O resumo da viagem foi condensado no essencial: dois comboios comprados (€333,92 total para 4 pax, com 52 min de margem em Salzburgo).
+    - **Eliminação de discursos e meta-narrativa:** Expurgaram-se sermões como *"🚨 Porque é que se sai às 09:50 e não mais tarde..."*, *"E aqui não há segunda oportunidade..."*, *"🚨 O grupo divide-se no cais, e não no apartamento. A razão é uma só..."*, e frases opinativas como *"não é só bonito, é o motivo pelo qual Augsburg existe"*.
+    - **Expurgo de datas de confirmação no texto (Regra 10):** Removidas referências como *"Isto ficou mais fácil a 28/08/2026: sem bilhete marcado no castelo, o Dia 4 aguenta atrasos que antes o partiam"*.
+    - **Condensação de caixas de aviso:** No `index.html`, o nó dos comboios tinha 4 caixas empilhadas (duas das quais repetiam os mesmos valores de poupança) e o nó da Enterprise tinha 5 caixas seguidas com repetições. Foram reorganizadas em caixas de aviso estruturadas, focadas estritamente em ações práticas (estacionamento para residentes no Lechviertel, cartão de crédito físico do condutor titular e rebatimento independente da 3.ª fila de bancos para 6 pessoas com malas).
+    - **Paridade e validação:** Ambos os ficheiros mantêm rigorosa paridade, e o `verificar.py` executou com 0 erros e 0 preços órfãos.
+
 ---
+
 
 ## 25.ª revisão · 11 de setembro de 2026
 

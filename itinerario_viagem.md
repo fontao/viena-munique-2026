@@ -664,145 +664,51 @@ confirmadas abertas à quarta, a terceira não.**
 **⏰ Acordar 09:30 · Dois comboios, dois bilhetes, já comprados.**
 *Fazer as malas na véspera. Sair de casa às 09:50.*
 
-> ### 🚨 O bilhete direto custava €536,40. Este plano custou €333,92.
-> O dia 25 de setembro é a
-> primeira sexta-feira cheia da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), que em 2026 decorre de **19 de setembro a 4 de
-> outubro**: **não há Sparschiene** no corredor [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)–[Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland). Um
-> bilhete único [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Hbf ➔ [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg) está a **€134,10/pessoa = €536,40** para os 4, em
-> *todas* as partidas viáveis da manhã.
+> ### 🚆 Viagem Viena ➔ Salzburgo ➔ Augsburg: 2 comboios comprados (€333,92 total)
+> Comprados dois bilhetes divididos em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) (**€333,92** no total para os 4), evitando a tarifa de balcão de **€536,40** (**€134,10**/pessoa) e poupando **€202,48**.
+> - **10:38 – 13:08**: Westbahn 910 ([Wien Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien) ➔ [Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg)).
+> - **13:08 – 14:00**: Transbordo e pausa de 52 min em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) (margem de segurança entre bilhetes independentes).
+> - **14:00 – 16:14**: ICE 116 ([Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg) ➔ [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg)).
 >
-> **A solução foi partir a viagem em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich)** e comprar cada metade ao operador mais barato:
-> a Westbahn até à fronteira, a DB a partir dela.
->
-> | Opção | Composição | Chegada [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) | Total 4 pax |
-> |---|---|---|---|
-> | **Westbahn + ICE 116** ✅ **comprado** | 10:38 [Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien) → [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) → ICE direto | **16:14** | **€333,92** |
-> | Westbahn + RE5 + RE (Bayern-Ticket) | 08:38 [Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien) → [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) → 2 regionais | 15:12 | €239,96 |
-> | ÖBB RJX + Bayern-Ticket | 09:28 [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Hbf → [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich) → 2 regionais | 15:12 | €306,00 |
-> | Bilhete único ÖBB ❌ | RJX direto 11:28 | 16:14 | €536,40 |
->
-> A opção escolhida custa €94 mais do que a mais barata, mas **compra 2 horas de sono**
-> (acordar às 09:30 em vez das 07:30), **uma só mudança em vez de duas**, e ainda assim
-> **poupa €202,48** face ao bilhete direto.
->
-> A **Enterprise de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) fecha sexta às 18:00** (sábado só 09:00–12:00). Chegar às 16:14
-> deixa **1h45** de margem.
+> A Enterprise de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) fecha às **18:00**. A chegada às 16:14 garante **1h45** de margem para o levantamento do carro.
 
 - **09:30**: Acordar. **09:50**: Check-out *(combinar a hora com o anfitrião na véspera)*.
-- **09:50 – 10:22**: Metro **U1 [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) ➔ [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)**, mudar para o **U3 ➔
-  [Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)**. ⚠️ **Não é a [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Hbf**: a Westbahn parte da *[Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)*. Usa-se o 3.º bilhete simples de metro (**€3,00 na app WienMobil**, o transbordo U1➔U3 está incluído).
-  > 🚨 **Porque é que se sai às 09:50 e não mais tarde.** O trajeto não são 25 minutos com
-  > malas numa sexta de manhã: são **~30**, somando os 4 min a pé até [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien), duas
-  > esperas de linha, o **transbordo na [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)**, que é uma estação funda com escadas
-  > rolantes e corredores longos, as 5 paragens da U3 e a subida ao cais.
-  >
-  > **E aqui não há segunda oportunidade:** o bilhete da Westbahn é *WestSuperpreis*, preso
-  > àquele comboio e não reembolsável, e perdê-lo faz cair o ICE 116 atrás dele, que é o que
-  > paga o carro à hora certa. Saindo às 09:50 chega-se ao cais por volta das **10:22**, com
-  > **16 minutos de folga**.
-- **10:38 – 13:08**: **Westbahn comboio 910**, [Wien Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien) ➔ **[Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg)** (2h30,
-  direto). Classe *2 | Standard*, **€175,96**. Lugares **224A, 224B, 223A, 223B**.
-- **13:08 – 14:00**: **52 minutos em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich).** Almoço na estação ou 10 min a pé até à
-  ponte sobre o [Salzach](https://www.google.com/maps/search/?api=1&query=Salzach%2C%20Salzburg) para ver a cidade velha. Esta folga é deliberada, como os dois
-  bilhetes são contratos independentes, é a única proteção contra um atraso.
-- **14:00 – 16:14**: **ICE 116**, [Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg) **cais 2** ➔ **[Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg)**. Direto, 2h14,
-  **€157,96** com reserva de lugares.
-> ### 🚨 O grupo divide-se no cais, e não no apartamento
-> **Dividem-se à saída do comboio**, e a razão é uma só: **o levantamento do carro não pode
-> depender de o check-in correr bem**, num dia em que o balcão fecha às 18:00 e o sábado
-> seguinte só abre das 09:00 às 12:00. É o único ponto do dia sem plano B, e dividir o grupo
-> devolve-lhe meia hora de margem sem custar nada.
+- **09:50 – 10:22**: Metro **U1 [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) ➔ [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)**, mudar para o **U3 ➔ [Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)**.
+  3.º bilhete simples de metro (**€3,00 na app WienMobil**, transbordo incluído).
+  ⚠️ **Atenção à estação:** a Westbahn parte da **[Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien)** e não da Wien Hbf. A saída às 09:50 permite chegar ao cais por volta das 10:22, com 16 min de folga para acomodar o transbordo com malas.
+- **10:38 – 13:08**: **Westbahn comboio 910**, [Wien Westbahnhof](https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien) ➔ **[Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg)** (2h30, direto). Classe *2 | Standard*, **€175,96**. Lugares **224A, 224B, 223A, 223B**.
+- **13:08 – 14:00**: **52 minutos em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich).** Almoço na estação ou caminhada de 10 min até à margem do rio [Salzach](https://www.google.com/maps/search/?api=1&query=Salzach%2C%20Salzburg). Esta folga é deliberada: como são dois bilhetes independentes, protege a ligação contra atrasos.
+- **14:00 – 16:14**: **ICE 116**, [Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg) **cais 2** ➔ **[Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg)**. Direto, 2h14, **€157,96** com reserva de lugares.
 
-- **16:14 – 16:45**: **O grupo separa-se no cais, e os dois ramos correm ao mesmo tempo.**
-  - 🚕 **Os 1 ou 2 condutores** apanham o **táxi pré-reservado na praça da estação** e vão
-    diretos à **Enterprise Rent-A-Car** (*Aindlinger Str. 14*, ~6,5 km, ~€15–20), onde estão por
-    volta das **16:30**. Não passam pelo apartamento e não levam malas: as deles seguem com o
-    resto do grupo. ⚠️ **Reservar o táxi por telefone na véspera**, para as **16:20**, à porta
-    da estação. Não confiar na praça de táxis, e contar 15 a 20 min de trajeto na hora de
-    ponta de sexta.
-  - 🧳 **Os restantes levam as malas todas** de táxi ou tram até ao **Lexapartments Zentral
-    101m²** (*Am Bogen 6, [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)*), fazem o **check-in** e recebem os **2 amigos vindos da
-    Alemanha**. **Grupo completo de 6 a partir daqui.**
-  - ✅ **Reservado: levantamento às 17:00**, 7-Seater SUV automático (VW Touran ou similar),
-    4 dias, **€427,58**. Devolução terça às 17:00 no *Mietwagenzentrum* do MUC.
-  - ⏱️ **Contar 30 a 40 minutos no balcão, não 15.** Levantar uma carrinha implica papelada,
-    seguro e volta de inspeção de danos, em balcões pequenos isto demora. É por isso que a
-    marcação é às **17:00** e não às 17:30: com o balcão a fechar às 18:00, meia hora mais
-    tarde e o processo acabaria depois de fecharem.
-  - ✅ Com chegada a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) às 16:14 e indo diretos, os condutores estão ao balcão por
-    volta das **16:30**, com **1h30 de margem** antes das 18:00 e sem terem dependido do
-    check-in.
-- **17:40 – 17:55**: A carrinha estaciona junto ao apartamento e o grupo junta-se todo.
-  **O resto da noite é tudo a pé** e o carro não se volta a usar hoje.
-  - ⏱️ A Aindlinger Str. 14 fica a **4,7 km e 8 minutos** do Am Bogen 6 *(OSRM; numa sexta à
-    tarde contem 12 a 15)*. **A carrinha não está no apartamento antes das 17:40**, e a noite
-    foi montada a partir daí.
-  - 🅿️ ⚠️ **Combinar o parque antes de chegar.** *Am Bogen* fica no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg), de ruelas
-    estreitas e estacionamento de superfície reservado a residentes (*Anwohnerparken*). Uma
-    carrinha de sete lugares não fica na rua sem dístico. **Perguntar ao anfitrião do
-    Lexapartments onde estaciona**, e ter como alternativa um parque coberto do centro
-    (*[Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%2086150%20Augsburg)* ou *City-Galerie*). Isto vale para as quatro noites, não só para hoje.
+- **16:14 – 16:45**: **Separação do grupo no cais de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150):**
+  - 🚕 **Condutores diretos à Enterprise:** apanham o táxi pré-reservado para as 16:20 à porta da estação e vão diretos à Enterprise Rent-A-Car (*Aindlinger Str. 14*, ~6,5 km, ~€15–20), chegando por volta das 16:30, sem malas.
+  - 🧳 **Restantes com a bagagem:** seguem de táxi ou tram até ao **Lexapartments Zentral 101m²** (*Am Bogen 6*), fazem o check-in e recebem os 2 amigos que chegam da Alemanha (**grupo de 6 reunido**).
+  - 🚗 **Carro reservado:** levantamento às **17:00**, 7-Seater SUV automático (VW Touran ou similar), 4 dias, **€427,58**. Devolução terça-feira às 17:00 no Mietwagenzentrum do Aeroporto de Munique (MUC).
+  - ⏱️ A entrega ao balcão demora ~30 a 40 minutos (papelada, seguro e inspeção de danos). Com o balcão a fechar às 18:00, a marcação às 17:00 assegura margem confortável.
+- **17:40 – 17:55**: A carrinha chega ao apartamento e junta-se ao grupo. O resto da noite é percorrido a pé.
+  - 🅿️ ⚠️ **Estacionamento no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg):** ruelas estreitas com estacionamento reservado a residentes (*Anwohnerparken*). Confirmar com o anfitrião do Lexapartments onde estacionar ou recorrer a um parque coberto do centro (*[Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%2086150%20Augsburg)* ou *City-Galerie*).
+  - 💳 **Condições de levantamento:** apresentar cartão de crédito físico em nome do condutor titular para caução. Se houver segundo condutor, deve estar presente com a carta de condução. Confirmar no momento da entrega se a 3.ª fila rebate em metades independentes para acomodar os 6 passageiros e a bagagem.
 
-> **🆘 Se o ICE 116 se atrasar:** o bilhete é da DB, por isso os direitos de passageiro
-> aplicam-se e não se perde nada, mas telefonar à Enterprise a partir do comboio: **+49 821 448360**.
-> Um atraso superior a ~1h30 esgota a margem e obriga a levantar o carro no sábado de manhã
-> (09:00–12:00), o que faz colapsar o Dia 4.
->
-> **🆘 Se perderem o ICE 116 em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich)** (só acontece com ~1h de atraso da Westbahn): a
-> ligação seguinte é o **RJX das 15:00**, que chega a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) às **17:29**: tarde demais
-> para o levantamento. Nesse caso, telefonar imediatamente à Enterprise a partir do comboio e
-> tentar remarcar o levantamento para as 17:45, ou reorganizar o Dia 4 para levantar o carro
-> ao sábado às 09:00 e sair de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) mais tarde. **Isto ficou mais fácil a 28/08/2026**:
-> sem bilhete marcado no castelo, o Dia 4 aguenta atrasos que antes o partiam.
+> **🆘 Contingências no transporte:**
+> - **Se o ICE 116 se atrasar:** telefonar à Enterprise a partir do comboio (+49 821 448360). Se o atraso exceder ~1h30, o levantamento transfere-se para sábado de manhã (09:00–12:00).
+> - **Se perderem o ICE 116 em [Salzburgo](https://www.google.com/maps/search/?api=1&query=Salzburg%2C%20%C3%96sterreich):** o comboio seguinte (RJX das 15:00) só chega a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) às 17:29. Telefonar imediatamente à agência para tentar remarcar ou reorganizar o levantamento para sábado de manhã.
 
-#### Noite em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150): tudo à distância de caminhada
+#### Noite em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150): centro histórico a pé
 
-O apartamento fica a **300 m da [Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg)** (4 min) e a **550 m da [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg)** (7 min).
-O centro histórico inteiro atravessa-se em 15 minutos.
+O apartamento fica a 300 m da [Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg) (4 min) e a 550 m da [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg) (7 min). O centro histórico percorre-se facilmente em 15 minutos.
 
-- **17:55 – 18:35**: **[Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg)** (*[Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg) 56*), **€8/pessoa**, aberta **todos os dias das
-  9:00 às 20:00** (horário de verão, até 30 de setembro; bilheteira até às 19:30).
-  O bairro social mais antigo do mundo ainda em funcionamento: Jakob Fugger mandou-o construir
-  em **1521** para os cidadãos pobres de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) e continua a servir exatamente para isso:
-  **67 casas, 142 apartamentos, ~150 residentes**. A renda anual nunca mudou em 500 anos:
-  **0,88 €/ano** (um florim renano) mais três orações diárias pela família fundadora. O bilhete
-  inclui o museu, o bunker da II Guerra e um apartamento-modelo mobilado. 40 min chegam.
-  - 🎯 **É hoje ou nunca:** Dia 4 regressam às 21:15, Dia 5 às 19:30, Dia 6 estão na
-    [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) e Dia 7 saem às 11:00. Única alternativa: **Dia 7, 9:30–10:30**, antes do
-    check-out.
-- **18:35 – 18:55**: **[Damenhof](https://www.google.com/maps/search/?api=1&query=Damenhof%2C%20Maximilianstra%C3%9Fe%2040%2C%2086150%20Augsburg)**, no *[Fuggerhäuser](https://www.google.com/maps/search/?api=1&query=Fuggerh%C3%A4user%2C%2086150%20Augsburg)* (*[Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg) 36–38*). Pátio de
-  arcadas construído por Jakob Fugger em 1515, considerado o claustro renascentista florentino
-  mais refinado a norte dos Alpes. **Acesso livre e gratuito**, 10 minutos de visita.
-  - ⚠️ **São 725 m, ou seja 9 minutos a pé** pelo [Vorderer Lech](https://www.google.com/maps/search/?api=1&query=Vorderer%20Lech%2C%2086150%20Augsburg) e o
-    [Judenberg](https://www.google.com/maps/search/?api=1&query=Judenberg%2C%2086150%20Augsburg) *(OSRM)*. Fica em cima do caminho
-    para o jantar, e metade do bloco é a caminhada.
-  - ℹ️ **Não é um pátio vazio a que se espreita:** funciona concessionado como bar de
-    esplanada (*[Damenhof](https://www.google.com/maps/search/?api=1&query=Damenhof%2C%20Maximilianstra%C3%9Fe%2040%2C%2086150%20Augsburg) Bar*), à sexta a partir das 15:00. Entra-se na mesma e não se paga
-    nada para ver, mas há mesas e gente lá dentro. Quem quiser um copo antes do jantar,
-    é aqui que ele existe.
+- **17:55 – 18:35**: **[Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg)** (*[Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg) 56*), **€8/pessoa**, aberta todos os dias das 09:00 às 20:00 (horário de verão até 30 de setembro; bilheteira até às 19:30).
+  O complexo habitacional social mais antigo do mundo em funcionamento contínuo: fundado por Jakob Fugger em **1521** para cidadãos necessitados de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150). Mantém 67 casas, 142 habitações e ~150 residentes, com a renda histórica inalterada de **0,88 € por ano** (um florim renano) acrescida de 3 orações diárias. O bilhete inclui o museu, o bunker da II Guerra Mundial e a habitação-modelo.
+  - 🎯 **Oportunidade no roteiro:** é o único dia com horário disponível antes do encerramento das atrações (única alternativa seria no Dia 7 antes do check-out).
+- **18:35 – 18:55**: **[Damenhof](https://www.google.com/maps/search/?api=1&query=Damenhof%2C%20Maximilianstra%C3%9Fe%2040%2C%2086150%20Augsburg)**, no *[Fuggerhäuser](https://www.google.com/maps/search/?api=1&query=Fuggerh%C3%A4user%2C%2086150%20Augsburg)* (*[Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg) 36–38*).
+  Pátio renascentista com arcadas construído por Jakob Fugger em 1515, de estilo florentino. **Acesso livre e gratuito** (caminhada de 9 min a partir da Fuggerei pelo [Vorderer Lech](https://www.google.com/maps/search/?api=1&query=Vorderer%20Lech%2C%2086150%20Augsburg) e [Judenberg](https://www.google.com/maps/search/?api=1&query=Judenberg%2C%2086150%20Augsburg)). O espaço funciona como esplanada do Damenhof Bar, permitindo tomar uma bebida antes do jantar.
 - **19:00 – 20:30**: **Jantar bávaro na [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg)** (7 min a pé pelas ruelas do [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg)).
-  Sugestão: **Altstadtgasthaus Bauerntanz**, *Bauerntanzgäßchen 1*, no beco atrás da Câmara,
-  a taberna mais antiga da cidade, cozinha suábia-bávara, sexta 11:30–22:00, cozinha quente até
-  às 21:00.
-  **Reservar para as 19:00: +49 821 153644** (mesa de 6 à sexta à noite não aparece sozinha).
-  - ⚠️ **Não contar com a Câmara nem com a torre.** O **Rathaus e o [Goldener Saal](https://www.google.com/maps/search/?api=1&query=Goldener%20Saal%2C%20Rathausplatz%202%2C%2086150%20Augsburg) estão
-    fechados para obras** e só reabrem a **28 de setembro de 2026**: três dias depois, e
-    nesse dia estão na [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen). Há apenas uma exposição gratuita no átrio (10:00–17:30).
-    O **[Perlachturm](https://www.google.com/maps/search/?api=1&query=Perlachturm%2C%20Rathausplatz%2C%2086150%20Augsburg) está fechado desde 2017**, e a reabertura já escorregou para lá
-    de 2027: a vista panorâmica não existe.
-- **20:30 – 21:30**: **Passeio noturno, grátis.** O sol põe-se às ~19:05, portanto a cidade já
-  está iluminada. Circuito curto e circular: **[Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg)** ([Augustusbrunnen](https://www.google.com/maps/search/?api=1&query=Augustusbrunnen%2C%20Rathausplatz%2C%2086150%20Augsburg)) ➔
-  **[Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)**, a avenida renascentista com o *[Merkurbrunnen](https://www.google.com/maps/search/?api=1&query=Merkurbrunnen%2C%20Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)* e o *[Herkulesbrunnen](https://www.google.com/maps/search/?api=1&query=Herkulesbrunnen%2C%20Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)* ➔
-  regresso pelo **[Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg)**, o antigo bairro dos artesãos cortado por canais estreitos a
-  que chamam "Pequena Veneza", passando pela **Augsburger Puppenkiste**. Acaba a 5 min do
-  apartamento.
-  - ⛪ **Se ainda for antes das 19:00**, ou seja, se jantarem mais tarde, vale a pena o desvio de
-    500 m até ao topo sul da [Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg) para a **Basílica de St. Ulrich und Afra**
-    (*Ulrichsplatz 19*), grátis: três altares barrocos em talha dourada e as criptas dos
-    padroeiros de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150). A torre em bolbo domina a avenida e faz uma boa última fotografia.
-  - 🏛️ Isto é **Património Mundial da UNESCO**: o *Sistema de Gestão da Água de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)* foi
-    classificado em 2019, 22 monumentos e 199 km de canais. As três fontes da [Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)
-    e os canais do [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg) fazem parte da classificação.
+  Sugestão: **Altstadtgasthaus Bauerntanz** (*Bauerntanzgäßchen 1*), taberna histórica com gastronomia tradicional da Suábia e Baviera (aberta sexta até às 22:00, cozinha até às 21:00).
+  **Reservar com antecedência: +49 821 153644**.
+  - ⚠️ **Edifícios em obras:** a Câmara Municipal (Rathaus) e a Sala Dourada ([Goldener Saal](https://www.google.com/maps/search/?api=1&query=Goldener%20Saal%2C%20Rathausplatz%202%2C%2086150%20Augsburg)) encontram-se encerradas para intervenções até 28 de setembro. A torre [Perlachturm](https://www.google.com/maps/search/?api=1&query=Perlachturm%2C%20Rathausplatz%2C%2086150%20Augsburg) também se encontra encerrada.
+- **20:30 – 21:30**: **Passeio noturno.**
+  Circuito a pé pelo centro iluminado: **[Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg)** ([Augustusbrunnen](https://www.google.com/maps/search/?api=1&query=Augustusbrunnen%2C%20Rathausplatz%2C%2086150%20Augsburg)) ➔ **[Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)** (fontes renascentistas *[Merkurbrunnen](https://www.google.com/maps/search/?api=1&query=Merkurbrunnen%2C%20Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)* e *[Herkulesbrunnen](https://www.google.com/maps/search/?api=1&query=Herkulesbrunnen%2C%20Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)*) ➔ regresso pelos canais pitorescos do **[Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg)**, passando pelo histórico teatro de marionetas **Augsburger Puppenkiste**. O percurso termina a 5 min do alojamento.
+  - 🏛️ Os canais do [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg) e os sistemas monumentais de água integram o Património Mundial da UNESCO (*Sistema de Gestão da Água de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)*, classificado em 2019).
 
 ---
 
