@@ -211,7 +211,6 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | **Jantar de quarta, Dia 1, 19:45** | 4 | reserva grátis | **[Schöne Perle](https://www.google.com/maps/search/?api=1&query=Sch%C3%B6ne%20Perle%2C%20Gro%C3%9Fe%20Pfarrgasse%202%2C%201020%20Wien)** +43 1 890 32 04 · ou **Pöschl** +43 1 513 52 88 (*este é obrigatório*) |
 | ~~**[Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien)** rooftop, Dia 2~~ · ✅ **não se reserva**, o bar é walk-in | 4 | - | Reservar mesa e só beber custa **€25/pax** · plano B: **Lamée Rooftop** |
 | Jantar de sábado em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), Dia 4, **21:30** | 6 | reserva grátis | reservar de manhã |
-| Almoço de sábado, **[Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)** ([Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)), Dia 4, **14:15** | 6 | reserva grátis | [Alpseestraße](https://www.google.com/maps/search/?api=1&query=Alpseestra%C3%9Fe%2C%2087645%20Schwangau) 8 · reservar de manhã, é a segunda chamada do mesmo dia |
 | **Contacto de táxi/van de 6+ lugares em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland)** (Dia 6) | 6 | - | ver Dia 6 |
 
 ---
@@ -228,7 +227,7 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | **Passeio pelo [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg)** (Dia 3, noite) | 6 | **grátis** | Caminhada pelos canais históricos UNESCO e brinde na Rathausplatz antes do jantar |
 | **Shuttle da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau)** (Dia 4) | 6 | ✅ **€5,00**/pax ida e volta = **€30** | Sai do **P4** · só ida €3,50 · subidas das 08:00 às 17:30 |
 | **Estacionamento** ([Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)) | - | ✅ **€12** até 6 h | Dia 4 · P1 a P4 · teto de €16/dia · cartão ou moedas |
-| **Almoço no [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)** (Dia 4) | 6 | a la carte | [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) · cozinha quente **11:00–21:00** · **reservar de manhã** |
+| **Almoço informal no [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau)** (Dia 4) | 6 | **grátis** / ~€4–6 | Piquenique com comida de casa/takeaway junto ao lago ou quiosque/tasca rápida na aldeia · sem reservas |
 | **[Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)** (Dia 4, opcional) | 6 | Basílica **grátis** | Só na Rota B · basílica 08:00–18:00 · **loja fecha às 17:00** |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €54 (3 pax) + €54 (3 pax) = **€108** | Repartir 3+3 e não 5+1: custa o mesmo |
 | **Palácio de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen)** | 6 | Parque **grátis** · palácio **€10**/pax · *Gesamtkarte* **€20** | Ver Dia 7: só há 75 min |
@@ -714,26 +713,14 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 ### 🏔️ 🇩🇪 Dia 4: Sábado, 26 de Setembro · [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) & Lago [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)
 **⏰ Acordar 10:00 · Saída às 10:30. Continua a não ser preciso madrugar, e agora nem há hora marcada.**
 
-> ### 🍽️ O almoço, sentado, na aldeia
-> O dia tem **onze horas de programa** e esta é a única refeição sentada: os 115 minutos em
-> [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) são para almoçar, não para chegar a um torniquete às 14:00. Almoça-se na
-> aldeia, sentado, entre a ponte e a estrada para [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487).
->
-> ✅ **Hotel-Restaurant [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau), [Alpseestraße](https://www.google.com/maps/search/?api=1&query=Alpseestra%C3%9Fe%2C%2087645%20Schwangau) 8, aos pés do castelo.** Tem **cozinha quente
-> das 11:00 às 21:00**, todos os dias e sem dia de descanso. **O "durchgehend" é o que interessa:**
-> a maioria das cozinhas alemãs fecha o almoço entre as 14:00 e as 14:30, e esta não fecha, o
-> que é a razão de ser possível almoçar às 14:15. **Reservar de manhã à mesma**, que são
-> 6 pessoas num sábado de setembro em [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). *(alpenstuben.de.)* O *Bräustüberl* do Kloster [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) (10:00–23:00) é o plano B, mas
-> fica tarde de mais para almoço.
-
 - **10:00 – 10:30**: **Acordar no apartamento, pequeno-almoço e preparativos da carrinha.**
   - 💤 Acordar às 10:00 com descanso merecido no apartamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%206%2C%2086152%20Augsburg) após a primeira noite e brinde no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg). Sem pressas nem hora marcada de bilheteira nos castelos.
   - ☕ Pequeno-almoço no apartamento com as provisões compradas na véspera no supermercado (pão, queijo, café, leite e fruta).
   - 🎒 **Tarefas essenciais antes de arrancar às 10:30:**
-    - 📞 **Fazer as duas reservas do dia por telefone:** 1) Almoço no **[Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)** para as **14:15** (+49 8362 98200); 2) Jantar bávaro em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) para as **21:30** (+49 821 153644 ou taberna local), garantindo mesa para os 6 em pleno sábado de Oktoberfest.
+    - 📞 **Reserva telefónica do jantar:** marcar mesa para os 6 às **21:30** em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) (+49 821 153644 ou taberna local), garantindo lugar em pleno sábado de Oktoberfest. Para o almoço não é precisa qualquer reserva.
+    - 🧺 **Preparar comida e piquenique:** carregar na carrinha a comida trazida de casa (sandes preparadas de manhã, sobras de takeaway da véspera ou fruta e provisões do supermercado) e garrafas de água para o almoço junto ao lago.
     - 🧥 **Levar agasalhos e corta-vento na carrinha:** o [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) está a 973 m e ao fim da tarde cai facilmente para os **8 °C a 12 °C**.
     - 🪙 **Levar moedas de 0,50 € e 1 €:** necessárias para as casas de banho públicas da aldeia e dos parques que não aceitam cartão.
-    - 💧 Carregar na carrinha as garrafas de água e provisões para a viagem.
 - **10:30 – 12:05**: Condução panorâmica pela **B17** de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) até [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)
   (**103 km, ~1h27 em fluxo livre**, OSRM). O percurso contempla **1h35** de condução como margem de segurança, prevendo o afunilamento da B17 para faixa simples a sul de [Schongau](https://www.google.com/maps/search/?api=1&query=Schongau%2C%2086956) e o tráfego de sábado em direção aos castelos.
 - **12:05 – 14:15**: **[Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), miradouro e [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau). 130 minutos, sem hora marcada.**
@@ -751,13 +738,12 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
     com ser encaminhados para o P1 ou P2, o que acrescenta **5 a 8 minutos de caminhada**.
   - 🏞️ **O [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) fica ali mesmo**, ao lado do Ticket Center, e é grátis. Espaço ideal para caminhar junto à água enquanto se aguarda o shuttle ou a hora de almoço.
   - ⚠️ **Confirmar o estado da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau) em hohenschwangau.de na véspera.** Fecha por mau
-    tempo ou obras, sem aviso, e neste plano ela é o ponto central da manhã. *(A garganta do Pöllat está
-    fechada por deslizamento, mas o roteiro nunca a incluiu.)*
+    tempo ou obras, sem aviso prévio, e neste plano ela é o ponto central da manhã. *(A garganta do Pöllat encontra-se encerrada por risco de derrocada).*
   - 🚫 **Atenção ao acesso:** a [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau) e os miradouros são gratuitos e de livre acesso, mas o pátio interior do [Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau) exige bilhete. Não descer a rampa do shuttle até à cancela do castelo: o foco é a ponte e os miradouros exteriores.
-- **14:15 – 15:15**: **Almoço no [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)**, em [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). Ver a caixa acima.
-  - ⚠️ **São 60 minutos, e continuam a ser poucos.** Seis pessoas a entrar, escolher,
-    comer e pagar num restaurante cheio ao sábado não se fazem em três quartos de hora. **Para
-    caber: reservar de manhã, decidir o prato no caminho e pedir a conta com a comida.** Se derrapar, o que se corta é tempo de aldeia, não o [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau).
+- **14:15 – 15:15**: **Almoço descontraído: piquenique no [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) ou Imbiss / tasca local.**
+  - 🧺 **Opção recomendada · Piquenique junto às margens do [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau):** almoço tranquilo ao ar livre aproveitando a comida trazida de casa no apartamento (sandes feitas de manhã, sobras de takeaway da véspera ou fruta e compras de supermercado). Custo nulo, sem filas e com vista direta para a água cristalina alpina.
+  - 🌭 **Alternativa rápida e quente · Quiosque ou Imbiss de rua:** para quem preferir uma refeição quente e económica no local, quiosques na aldeia ou junto ao lago vendem Bratwurst no pão, Leberkäse Semmel ou pretzels por **~€4 a €6** por pessoa. Rápido e sem necessidade de reservar mesa formal de restaurante.
+  - 🕒 **Sem pressas nem horários rígidos:** sem reserva de restaurante a condicionar a manhã, o grupo almoça com calma e parte para a etapa seguinte às **15:15** (ou logo que termine).
 - **15:15**: Saída de [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). **É aqui que se escolhe entre duas tardes**, e a escolha
   faz-se no carro, à hora, sem nada reservado nem pago.
 
@@ -790,7 +776,6 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 >
 - **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487)**: fachadas pintadas com frescos tradicionais (*Lüftlmalerei*), a Pilatushaus, o artesanato em madeira.
   - ☀️ **A hora de saída é o fator determinante:** a aldeia encosta à face do monte [Kofel](https://www.google.com/maps/search/?api=1&query=Kofel%2C%20Oberammergau) (1.342 m), perdendo o sol direto por volta das **17:35 a 17:45**. Por isso as duas opções saem antes dessa janela, aproveitando a luminosidade no início da paragem.
-  - *(Wieskirche, Linderhof, Partnachklamm e a subida à [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) foram consideradas mas ficam de fora para garantir a chegada ao [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) com luz. Na [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen), o último teleférico de descida é às 16:45.)*
 - **Lago [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) ao pôr do sol**, aos pés da **[Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen)** (2.962 m, ponto mais alto da Alemanha). O sol põe-se às **19:03** e a saída faz-se às **19:15**.
   - ⚠️ **Previsão de tráfego:** os 36 minutos medem fluxo livre; o percurso atravessa [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) ao fim de tarde de sábado, sendo a chegada estimada por volta das 18:05. Mantém-se uma margem confortável de cerca de 58 minutos até ao pôr do sol.
   - 🚶 **Percurso pedestre recomendado:** em vez da volta completa ao lago (*[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Rundweg*, 7,5 km, ~2 horas), segue-se do parque de estacionamento (a 100 m da margem) pelo trilho da **margem norte** até à **ponte do Untersee** (~2 km por sentido, cerca de 50 minutos ida e volta), com a melhor panorâmica sobre o maciço da [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen).

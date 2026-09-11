@@ -112,6 +112,14 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - **Uniformização do pequeno-almoço nos Dias 4 e 5:** Eliminadas as menções contraditórias a «café rápido numa padaria próxima» ou «pastelaria de domingo aberta no centro de Augsburg». O pequeno-almoço matinal de sábado e domingo é tomado de forma tranquila no apartamento na Am Bogen 6, usufruindo diretamente das provisões de supermercado compradas na véspera.
     - **Validação de paridade e integridade:** Execução do `verificar.py` com 0 erros, 0 preços órfãos e 0 travessões.
 
+19. **Revisão integral do Dia 4: descarte do almoço sentado no Alpenstuben a favor de piquenique no Alpsee ou tasca/Imbiss local rápido.**
+    - **Nova abordagem para o almoço nos Alpes (preferência do grupo):** Rejeitada a imposição de um almoço formal de 60 minutos no Hotel-Restaurant Alpenstuben em Hohenschwangau. O grupo determinou que só almoçaria fora se fosse algo muito barato e local (tasca/Imbiss), preferindo em alternativa levar comida de casa (sandes preparadas de manhã no apartamento), sobras do takeaway da véspera ou refeições/mantimentos comprados no supermercado.
+    - **Piquenique cénico junto ao Lago Alpsee:** A refeição principal do meio-dia passa a ser flexível e informal, decorrendo preferencialmente nas margens do Alpsee ou miradouros adjacentes com as provisões trazidas na carrinha. Em alternativa rápida e quente, o grupo pode recorrer a quiosques e pequenos pontos de rua na aldeia/lago para uma *Bratwurst* ou *Leberkäse Semmel* por ~€4 a €6.
+    - **Eliminação de constrangimentos e chamadas matinais:** Foi eliminada a chamada telefónica de manhã para o Alpenstuben (+49 8362 98200), restando unicamente a reserva do jantar para as 21:30 em Augsburg. Foram expurgadas as caixas de aviso com queixas e alertas sobre "60 minutos são poucos para almoçar".
+    - **Despoluição de arqueologia (Regras 9 e 11):** Removida a menção de opções rejeitadas no nó de Oberammergau (*"Wieskirche, Linderhof, Partnachklamm e a subida à Zugspitze foram consideradas mas ficam de fora..."*).
+    - **Atualização nas tabelas de bilhetes e reservas:** Retirada a linha do Alpenstuben da tabela "Tratar antes de partir" e atualizada a tabela "Comprar no local" para o formato de piquenique/Imbiss descontraído.
+    - **Validação:** `verificar.py` executado com 0 erros, 87 preços em comum e 0 travessões proibidos.
+
 ---
 
 
