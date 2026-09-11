@@ -214,10 +214,6 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | Almoço de sábado, **[Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)** ([Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)), Dia 4, **14:15** | 6 | reserva grátis | [Alpseestraße](https://www.google.com/maps/search/?api=1&query=Alpseestra%C3%9Fe%2C%2087645%20Schwangau) 8 · reservar de manhã, é a segunda chamada do mesmo dia |
 | **Contacto de táxi/van de 6+ lugares em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland)** (Dia 6) | 6 | - | ver Dia 6 |
 
-> **Não é preciso vinheta austríaca.** Com a rota do Dia 4 toda em estrada alemã, não se entra
-> na Áustria: poupam-se €12,80 e, mais importante, evita-se o trânsito de fronteira de sábado
-> em Reutte/Lermoos.
-
 ---
 
 ### 🟢 Comprar no local
@@ -756,17 +752,13 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 > 16 °C da cidade e deixar o casaco no apartamento passa o pôr do sol a tremer.
 
 - **10:30 – 12:05**: Condução panorâmica pela **B17** de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) até [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)
-  (**103 km, ~1h27 em fluxo livre**, medido no OSRM a 26/08/2026; o bloco fica com **1h35**
-  de propósito, porque a B17 estreita para faixa simples a sul de [Schongau](https://www.google.com/maps/search/?api=1&query=Schongau%2C%2086956) e é um sábado de
-  setembro com toda a gente a ir para os castelos).
-- **12:05 – 14:15**: **[Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), miradouro e [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau). 130 minutos, e nenhum deles com hora
-  marcada.** Se o shuttle tiver fila ou os mandarem para o P1, não há nada que se falhe.
+  (**103 km, ~1h27 em fluxo livre**, OSRM). O percurso contempla **1h35** de condução como margem de segurança, prevendo o afunilamento da B17 para faixa simples a sul de [Schongau](https://www.google.com/maps/search/?api=1&query=Schongau%2C%2086956) e o tráfego de sábado em direção aos castelos.
+- **12:05 – 14:15**: **[Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), miradouro e [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau). 130 minutos, sem hora marcada.**
   - 🚌 ✅ **Shuttle do P4, €5,00 por pessoa ida e volta = €30 para os 6.** Só ida são €3,50.
     Sai da paragem ao lado do parque **P4 ([Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau))** e larga no miradouro *Jugend*, a **5
     minutos a pé da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau)**. Primeira partida às 08:00, última subida às 17:30,
-    sem horário fixo, mais ou menos de 20 em 20 minutos. *(Tabela oficial da
-    hohenschwangau.de.)*
-    A subida a pé do P4 à ponte são **45 minutos** de rampa: paga-se o shuttle.
+    sem horário fixo, mais ou menos de 20 em 20 minutos. *(Tabela oficial da hohenschwangau.de.)*
+    A subida a pé do P4 à ponte são **45 minutos** de rampa: recomenda-se o shuttle (carruagem de cavalos em alternativa: €8 a subir e €4 a descer).
   - 🅿️ ✅ **Estacionamento: €12,00 até 6 horas**, mais €1,00 por cada hora seguinte, com
     **teto de €16,00 ao dia**, nos parques oficiais P1 a P4, a pagar em posto automático com
     cartão ou moedas. *(Tabela oficial da hohenschwangau.de.)*
@@ -774,11 +766,9 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
     🚫 **Não se sobe de carro até ao castelo.** Ao meio-dia de um sábado de setembro os parques
     de cima (P3 e P4, junto ao [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) e à paragem do shuttle) costumam já estar cheios: contem
     com ser encaminhados para o P1 ou P2, o que acrescenta **5 a 8 minutos de caminhada**.
-    Sem hora marcada, isso é um aborrecimento, não um problema.
-  - 🏞️ **O [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) fica ali mesmo**, ao lado do Ticket Center, e é grátis. É onde se gastam os
-    minutos que sobrarem, e agora sobram de propósito.
+  - 🏞️ **O [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) fica ali mesmo**, ao lado do Ticket Center, e é grátis. Espaço ideal para caminhar junto à água enquanto se aguarda o shuttle ou a hora de almoço.
   - ⚠️ **Confirmar o estado da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau) em hohenschwangau.de na véspera.** Fecha por mau
-    tempo ou obras, sem aviso, e neste plano ela é o dia inteiro. *(A garganta do Pöllat está
+    tempo ou obras, sem aviso, e neste plano ela é o ponto central da manhã. *(A garganta do Pöllat está
     fechada por deslizamento, mas o roteiro nunca a incluiu.)*
 - **14:15 – 15:15**: **Almoço no [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)**, em [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). Ver a caixa acima.
   - ⚠️ **São 60 minutos, e continuam a ser poucos.** Seis pessoas a entrar, escolher,
@@ -787,101 +777,47 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 - **15:15**: Saída de [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau). **É aqui que se escolhe entre duas tardes**, e a escolha
   faz-se no carro, à hora, sem nada reservado nem pago.
 
-> ### 🔀 Às 15:00 decide-se: mais lago, ou a [Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)
-> As duas versões jantam à mesma hora e nenhuma tem bilhete. **A diferença é só onde se
-> gastam 50 minutos.**
+> ### 🔀 Às 15:15 decide-se: mais lago, ou a [Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)
+> As duas versões jantam à mesma hora e nenhuma tem bilhete. **A diferença é onde se gastam 50 minutos.**
 >
-> **Rota A · mais tempo no lago** *(a recomendada, se o que se quer é a paisagem)*
-> - **15:15 – 16:05**: [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) ➔ **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487)** (46 km, **45 min** em fluxo livre,
->   *OSRM 28/08/2026*, bloco de 50).
-> - **16:05 – 17:20**: **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487), 75 minutos e todos com sol.**
+> **Rota A · mais tempo no lago** *(a recomendada, privilegiando a paisagem alpina)*
+> - **15:15 – 16:05**: [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) ➔ **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487)** (46 km, **45 min** em fluxo livre, OSRM, bloco de 50 min).
+> - **16:05 – 17:20**: **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487), 75 minutos com sol.**
 > - **17:20 – 17:56**: ➔ **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)** (30 km, **36 min em fluxo livre**).
-> - **17:56 – 19:15**: **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau), 79 minutos.** Cabem o trilho da margem norte *e* o pôr do sol,
->   que até aqui competiam um com o outro.
+> - **17:56 – 19:15**: **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau), 79 minutos.** Tempo para percorrer o trilho panorâmico da margem norte e apreciar o pôr do sol.
 >
 > **Rota B · com a [Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)**
-> - **15:15 – 16:05**: [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) ➔ **[Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)** (51 km, **49 min**, *OSRM 28/08/2026*).
-> - **16:05 – 16:40**: **[Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal).** A loja dos monges e um olhar à basílica.
+> - **15:15 – 16:05**: [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) ➔ **[Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)** (51 km, **49 min**, OSRM).
+> - **16:05 – 16:40**: **[Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal).** A loja dos monges e visita rápida à basílica.
 > - **16:40 – 16:50**: ➔ [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) (6 km, ~7 min).
 > - **16:50 – 17:35**: **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487), 45 minutos**, ainda com sol.
-> - **17:35 – 18:11**: ➔ **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)**. Chega-se com a mesma luz, **52 minutos até ao pôr
->   do sol**.
+> - **17:35 – 18:11**: ➔ **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)**. Chegada com luz natural, **52 minutos até ao pôr do sol**.
 >
-> 🔁 **O que a Rota B custa, dito à letra: faz-se o mesmo troço de estrada três vezes.**
+> 🔁 **Logística da Rota B:**
 > Passa-se ao lado de [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) sem parar para ir a [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal), volta-se 6 km atrás a [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487),
-> e desce-se outra vez por [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) a caminho do [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau). São ~14 minutos de andar para trás, e é o
-> preço de apanhar a loja aberta. **E 35 minutos em [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) são para a loja**, não para uma visita:
-> estacionar, comprar e sair, com a basílica vista de passagem.
+> e desce-se novamente por [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) rumo ao [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) (~14 minutos de percurso adicional para apanhar o mosteiro aberto). Os 35 minutos em [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) destinam-se à loja e a uma passagem pela basílica.
 >
-> ✅ **Porque é que [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) tem de vir primeiro:** o **Klosterladen fecha às 17:00 ao sábado**
-> (09:30–17:00 de segunda a sábado) e é lá que se compram as cervejas e os licores do mosteiro.
-> A **basílica é grátis e está aberta das 08:00 às 18:00**, e o *Bräustüberl* das 10:00 às
-> 23:00. Fazer [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) primeiro e [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) depois chega à loja fechada.
-> *(kloster-ettal.de/wissenswertes/oeffnungszeiten.)*
+> ✅ **Horários em [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal):** o **Klosterladen fecha às 17:00 ao sábado**
+> (09:30–17:00 de segunda a sábado) e é lá que se compram as cervejas e licores do mosteiro.
+> A **basílica é grátis e está aberta das 08:00 às 18:00**, e o *Bräustüberl* das 10:00 às 23:00.
+> *(kloster-ettal.de.)*
 >
-> 🎯 **A recomendação é a Rota A**, porque o que este dia passou a ter de melhor é a hora
-> extra no [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau), e a basílica de [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) é meia hora bonita que não é o motivo de se vir aos
-> Alpes. Mas a Rota B é uma troca limpa, decide-se no carro e não custa dinheiro nenhum.
-
-- **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487)**: fachadas pintadas com frescos tradicionais (*Lüftlmalerei*), a Pilatushaus,
-  o artesanato em madeira.
-  - ☀️ **A hora de saída é que manda, não a de chegada.** A aldeia encosta à face do monte
-    [Kofel](https://www.google.com/maps/search/?api=1&query=Kofel%2C%20Oberammergau) (1.342 m), que lhe levanta o horizonte a poente para uns 12° a 15°: as fachadas
-    perdem o sol direto por volta das **17:35 a 17:45**. Por isso as duas rotas saem antes
-    disso, e o tempo que se ganha gasta-se **no início do bloco, com sol**.
-  - *(Wieskirche, Linderhof, Partnachklamm e a subida à [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) foram consideradas e nenhuma
-    cabe, nem sequer neste dia mais folgado: a mais barata delas custa 40 minutos e todas
-    comem o pôr do sol no [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau). A [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) nem é possível, o último teleférico desce às
-    16:45.)*
-- **Lago [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) ao pôr do sol**, aos pés da **[Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen)** (2.962 m, ponto mais alto da
-  Alemanha). O sol põe-se às **19:03** e sai-se às **19:15**.
-  - ⚠️ **Os 36 minutos são fluxo livre, e a chegada honesta é mais perto das 18:05.** O troço
-    atravessa [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) ao fim de uma tarde de sábado, com semáforos e trânsito de regresso.
-    Mesmo assim sobram ~58 minutos de luz. **A margem existe, e é isso que interessa.**
-  - ⚠️ **Continua a não se fazer a volta ao lago.** O *[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Rundweg* tem **7,5 km e demora
-    ~2 horas**. **O que se faz:** do parque de estacionamento (a 100 m da margem) caminha-se
-    pelo trilho da **margem norte** até à **ponte do Untersee** e volta-se, cerca de 2 km cada
-    sentido, com a melhor vista sobre a [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen). São ~50 minutos.
-  - 🍺 **A cerveja no lago continua a não entrar na conta.** O *seeRestaurant [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) Pavillon*
-    é das **10:00 às 18:00** *(eibsee.de)*, e o **Biergarten am See**
-    ao lado só abre com bom tempo (*"Längstens geöffnet bis 04. Oktober 2026"*). Pela Rota A
-    chega-se às 17:56, quatro minutos antes de fechar, o que não é um plano: **não se conta
-    com ela**, e a cerveja de sábado bebe-se em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) ao jantar, ou no Bräustüberl de [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)
-    se for a Rota B. *(O +49 8821 98810 fica só para quem quiser confirmar que nada mudou.)*
-  - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €1,00 por hora.
-    Dinheiro ou cartão. Ficando das 17:56 às 19:15 são **€10**. *(Tabela oficial
-    "Übersicht Parkgebühren, Sommer 2026, gültig ab Juli 2026" da zugspitze.de. A tabela é publicada como imagem, e é por isso que nenhuma leitura de texto
-    da página a apanhava.)*
-    - 🚨 **E há uma armadilha cara, agora confirmada: o parque ao lado custa o dobro.** O
-      **Seilbahn [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) / Zugspitzbahnhof [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)** cobra **€20,00 por 4 horas**, com um
-      desconto de €11,00 só para quem compra bilhete do teleférico. **Nós não subimos à
-      [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen), portanto pagaríamos os €20 inteiros.** O parque certo é o do lado do
-      **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Hotel**, a €10. Se o do lago estiver cheio, vale mais dar a volta e esperar do
-      que entrar no do teleférico às cegas.
-    - ℹ️ Proibido estacionar de noite entre as 22:00 e as 05:00, com multa de €50. Sai-se às
-      19:15, portanto não toca no plano.
+> 🎯 **A recomendação é a Rota A**, priorizando o tempo no [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) com a luz mais favorável sobre a montanha. A Rota B é uma alternativa cultural viável, decidida no carro e sem custos adicionais de bilheteira.
+>
+- **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487)**: fachadas pintadas com frescos tradicionais (*Lüftlmalerei*), a Pilatushaus, o artesanato em madeira.
+  - ☀️ **A hora de saída é o fator determinante:** a aldeia encosta à face do monte [Kofel](https://www.google.com/maps/search/?api=1&query=Kofel%2C%20Oberammergau) (1.342 m), perdendo o sol direto por volta das **17:35 a 17:45**. Por isso as duas opções saem antes dessa janela, aproveitando a luminosidade no início da paragem.
+  - *(Wieskirche, Linderhof, Partnachklamm e a subida à [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) foram consideradas mas ficam de fora para garantir a chegada ao [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) com luz. Na [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen), o último teleférico de descida é às 16:45.)*
+- **Lago [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) ao pôr do sol**, aos pés da **[Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen)** (2.962 m, ponto mais alto da Alemanha). O sol põe-se às **19:03** e a saída faz-se às **19:15**.
+  - ⚠️ **Previsão de tráfego:** os 36 minutos medem fluxo livre; o percurso atravessa [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) ao fim de tarde de sábado, sendo a chegada estimada por volta das 18:05. Mantém-se uma margem confortável de cerca de 58 minutos até ao pôr do sol.
+  - 🚶 **Percurso pedestre recomendado:** em vez da volta completa ao lago (*[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Rundweg*, 7,5 km, ~2 horas), segue-se do parque de estacionamento (a 100 m da margem) pelo trilho da **margem norte** até à **ponte do Untersee** (~2 km por sentido, cerca de 50 minutos ida e volta), com a melhor panorâmica sobre o maciço da [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen).
+  - 🍺 **Serviço no lago:** o *[seeRestaurant Eibsee Pavillon](https://www.google.com/maps/search/?api=1&query=seeRestaurant%20Eibsee%20Pavillon%2C%20Eibsee%201%2C%2082491%20Grainau)* encerra às **18:00** *(eibsee.de)*, e o **Biergarten am See** funciona dependente de bom tempo. Pela Rota A chega-se às 17:56, quatro minutos antes do fecho das esplanadas: o foco do programa é a caminhada e a paisagem alpina, ficando o brinde de celebração para o jantar em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) (ou no Bräustüberl de [Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal) se for pela Rota B). Contacto do complexo: **+49 8821 98810**.
+  - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €1,00 por hora (dinheiro ou cartão). Ficando das 17:56 às 19:15 são **€10**. *(Tabela oficial zugspitze.de.)*
+    - 🚨 **Atenção ao parque contíguo:** o parque do **Seilbahn [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) / Zugspitzbahnhof [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)** cobra **€20,00 por 4 horas** (desconto de €11 exclusivo a utilizadores do teleférico). Sem bilhete de teleférico da [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen), aplica-se a tarifa cheia de €20,00. O parque correto é o do lado do **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Hotel**, a €10.
+    - ℹ️ Proibido estacionar de noite entre as 22:00 e as 05:00, com multa de €50.
 - **19:15 – 21:15**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) via [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) (**~131 km, ~2h00**). **Jantar às 21:30.**
-  - ⚠️ **É o trajeto mais apertado do dia, e é o único que não melhorou.** O OSRM mede **1h55
-    em fluxo livre** (131 km), que é o **mínimo teórico**, e isto é um sábado à noite de
-    regresso dos Alpes em setembro. Daí o bloco ser de **2h00** e o jantar às **21:30**.
-  - ⚠️ **Reservar o jantar de sábado de manhã, antes de sair.** Sábado à noite em plena época
-    de [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), um grupo de 6 sem mesa não se senta em lado nenhum decente. **Reservar para
-    as 21:30**, não para as 21:00. *(São duas reservas a fazer de manhã: esta e o almoço no
-    [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau).)*
-  - ⚠️ **Os 15 minutos entre as 21:15 e as 21:30 são para estacionar e andar**, não são folga.
-    O carro não fica à porta: conta-se com um parque e a caminhada até à mesa. **Se atrasarem,
-    telefona-se do carro**, que uma mesa avisada espera e uma mesa calada não.
-
-> ### O que se perde e o que se ganha sem entrar no castelo
-> **Perde-se o interior:** as ~15 divisões acabadas incluem a **Sala do Trono**, uma nave de dois
-> pisos em estilo bizantino, a **Sala dos Cantores**, a maior do castelo, a **gruta artificial**
-> com que Ludwig II ligou dois aposentos, e a cozinha do século XIX. Perde-se também a vista das
-> janelas do castelo sobre o [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) e [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau), que foi a que o rei mandou
-> construir para si, e o **pátio**, que sem bilhete não se atravessa.
->
-> **Ganha-se o dia:** almoço sentado, 75 minutos de sol em [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487), **79 minutos no
-> [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)**, **€141 de volta** e um sábado que não parte se o shuttle tiver fila. **É paisagem
-> contra interiores**, com os olhos abertos.
+  - ⚠️ **Trajeto com trânsito de regresso de sábado:** o percurso direto tem 131 km (~1h55 em fluxo livre, OSRM). O bloco contempla **2h00** de condução para absorver eventuais retenções à saída de Garmisch, apontando o jantar para as **21:30**.
+  - ⚠️ **Reservar o jantar de sábado de manhã, antes de sair:** num sábado à noite em plena época de [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), um grupo de 6 sem mesa reservada arrisca não encontrar lugar. **Reservar para as 21:30** (fazer ambas as marcações de manhã: jantar em Augsburg e almoço no [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)).
+  - ⚠️ **Os 15 minutos entre as 21:15 e as 21:30 destinam-se a estacionar e caminhar até ao restaurante:** em caso de imprevisto na estrada, telefonar a avisar a casa para manter a mesa.
 
 ---
 

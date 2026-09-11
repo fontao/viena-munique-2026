@@ -82,6 +82,14 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - Alinhamento das hiperligações dos estabelecimentos noturnos alternativos do Dia 1 (Cabaret Fledermaus, Kaktus Bar, Club U, Roter Engel e Loos American Bar) entre o itinerário em markdown e o guia web.
     - Teste de conectividade HTTP com resolução a 100% com código 200 OK.
 
+15. **Auditoria integral e despoluição do Dia 4 contra todas as regras.**
+    - **Remoção de arqueologia e alternativas mortas (Regra 9):** Eliminada a caixa de aviso obsoleta no guia (`index.html`) e no itinerário (`itinerario_viagem.md`) que debatia a antiga rota pela B179 Fernpass e a poupança da vinheta austríaca de €12,80. Com a rota 100% em autoestrada e estrada alemã (A96 ➔ B17 ➔ B23 ➔ B2), a vinheta não é necessária e a discussão anterior sobre trânsito em Reutte/Lermoos pertencia ao histórico.
+    - **Expurgo de texto redundante e retrospetivas no itinerário:** Removida a secção duplicada em prosa sobre as vantagens de não entrar no interior do Castelo de Neuschwanstein, uma vez que a rota exterior (Marienbrücke, miradouros e Alpseerundweg) já se encontra plenamente detalhada no bloco do meio-dia.
+    - **Eliminação de meta-narrativa, gabarolice de planeador e queixas de raspagem (Regra 11):** Expurgadas justificações de bastidores como "o bloco fica com 1h35 de propósito", "sobram de propósito", "que até aqui competiam", "o que este dia passou a ter de melhor", "Nós não subimos...", "o que não é um plano...", bem como desculpas técnicas sobre tabelas publicadas como imagem pelo site oficial do shuttle.
+    - **Rigor de lotação e preços (Regras 3 e 4):** Validados todos os custos e capacidades para os 6 pax (shuttle Marienbrücke a €5/pax ida e volta = €30, parque de estacionamento P4 a €12/dia, almoço reservado para 6 no Alpenstuben, e jantar para 6 às 21:30 em Augsburg). Sincronizada a menção à carruagem de cavalos como alternativa de subida/descida (€8 subida / €4 descida) e a coima de estacionamento noturno (€50).
+    - **Exequibilidade horária e cronometria (Regra 5):** Cadeia cronológica fechada e folgas validadas (partida de Augsburg às 10:30, chegada a Hohenschwangau às 12:05, almoço 14:15–15:15, Oberammergau 75 min, Eibsee 79 min com pôr do sol às 19:03, partida às 19:15, chegada a Augsburg às 21:15 e jantar às 21:30).
+    - **Validação de paridade e regras linguísticas (Regras 2 e 6):** Português europeu estrito, 0 travessões (`—`) e 0 preços órfãos na execução do `verificar.py`.
+
 ---
 
 
