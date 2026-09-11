@@ -74,7 +74,13 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 
 13. **Precisão de hiperligações e toponímia no Dia 1 (Schachtelwirt e Würstelstand).**
     - Retificado o link da Judengasse 5 para apontar diretamente para o *Schachtelwirt*, evitando duplicar a morada do apartamento vizinho (Judengasse 11).
-    - Ajustado o nome e link oficial do quiosque de salsichas de recurso para *Würstelstand zum Hohen Markt* em ambos os ficheiros.
+    - Unificado o nome oficial e query completa do quiosque de salsichas do Hoher Markt em ambos os ficheiros para *Würstelstand am Hohen Markt* (*Hoher Markt 1, 1010 Wien*).
+
+14. **Auditoria e validação integral das 135 hiperligações do Google Maps.**
+    - Verificação de todas as 570+ instâncias de links para o Google Maps em `itinerario_viagem.md` e `index.html`.
+    - Confirmação de que todas as 135 queries únicas seguem a norma Universal URL da Google (`https://www.google.com/maps/search/?api=1&query=...`) com codificação correta de caracteres (sem *double encoding* de `%25`, sem vírgulas soltas e com identificação precisa de morada/código postal/cidade).
+    - Alinhamento das hiperligações dos estabelecimentos noturnos alternativos do Dia 1 (Cabaret Fledermaus, Kaktus Bar, Club U, Roter Engel e Loos American Bar) entre o itinerário em markdown e o guia web.
+    - Teste de conectividade HTTP com resolução a 100% com código 200 OK.
 
 ---
 

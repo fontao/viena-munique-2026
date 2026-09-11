@@ -229,7 +229,7 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | **3× Bilhete Simples [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Linien** | 4 | **€9,00**/pax = **€36** | Comprar na app WienMobil (€3,00/bilhete) para Dia 2 (ida e volta do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) e Dia 3 (ida à estação) · poupa €0,70/pax face ao passe 24h (€9,70) |
 | **Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)** | 4 | ✅ **€8,00**/pax = **€32** | 343 degraus · **só dinheiro, na catedral** · aberta 09:00–19:00, última subida 18:15 |
 | **[Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien)** ([Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) | 4 | **grátis** | Dia 2 · vista exterior a partir da praça, sem subida (poupa €58) |
-| **[Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg)** (Dia 3, noite) | 6 | €8/pax = **€48** | Aberta até às 20:00; bilheteira no local |
+| **Passeio pelo [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg)** (Dia 3, noite) | 6 | **grátis** | Caminhada pelos canais históricos UNESCO e brinde na Rathausplatz antes do jantar |
 | **Shuttle da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau)** (Dia 4) | 6 | ✅ **€5,00**/pax ida e volta = **€30** | Sai do **P4** · só ida €3,50 · subidas das 08:00 às 17:30 |
 | **Estacionamento** ([Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)) | - | ✅ **€12** até 6 h | Dia 4 · P1 a P4 · teto de €16/dia · cartão ou moedas |
 | **Almoço no [Alpenstuben](https://www.google.com/maps/search/?api=1&query=Alpenstuben%2C%20Hohenschwangau%2C%2087645%20Schwangau)** (Dia 4) | 6 | a la carte | [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) · cozinha quente **11:00–21:00** · **reservar de manhã** |
@@ -418,7 +418,7 @@ Augsburgo ➔ Munique) manda.
         **~€30 para os 4** e é a opção que serve o pedido de comer barato.
       - **O *Schweinsbraten* com *Semmelknödel* e *Sauerkraut*, €13 a €16:** o prato da casa, e
         o único que faz o almoço subir para **~€60 para os 4**.
-    - 🔴 **Se estiver cheio:** o **[Würstelstand zum Hohen Markt](https://www.google.com/maps/search/?api=1&query=W%C3%BCrstelstand%20zum%20Hohen%20Markt%2C%201010%20Wien)**, a 3 min, aberto **09:00–04:00**
+    - 🔴 **Se estiver cheio:** o **[Würstelstand am Hohen Markt](https://www.google.com/maps/search/?api=1&query=W%C3%BCrstelstand%20am%20Hohen%20Markt%2C%20Hoher%20Markt%201%2C%201010%20Wien)**, a 3 min, aberto **09:00–04:00**
       e €5–7. É mais barato e é o mesmo sítio do fim da noite, mas é *takeaway* puro, **sem uma
       única mesa**: come-se de pé, com as malas ao lado.
   - 🔑 **O check-in é a única peça do dia que não está fechada: sabe-se por volta das 14:00 e o
@@ -568,15 +568,14 @@ confirmadas abertas à quarta, a terceira não.**
   - ✅ **Estando a 12 minutos a pé, podem sair à hora que quiserem sem logística nenhuma**, e no
     dia seguinte há um dia inteiro de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) pela frente.
 - **~02:30**: Regresso a pé.
-- 🚪 **Alternativas, todas a pé.** **Cabaret Fledermaus** (*Spiegelgasse 2*, **9 min**), com o
+- 🚪 **Alternativas, todas a pé.** **[Cabaret Fledermaus](https://www.google.com/maps/search/?api=1&query=Cabaret%20Fledermaus%2C%20Spiegelgasse%202%2C%201010%20Wien)** (*Spiegelgasse 2*, **9 min**), com o
   *HOLIDAY CLUB* de quarta e **entrada livre** (hits dos 90 e 2000): **se o [DANZÓN](https://www.google.com/maps/search/?api=1&query=Danz%C3%B3n%2C%20Johannesgasse%203%2C%201010%20Wien) estiver cheio,
-  é para aqui.** **Kaktus** (*Seitenstettengasse 5*, **2 min**), **entrada livre** e aberto todos
-  os dias desde as 19:00, com pista. **Club U** (*[Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien)*, **22 min**), público jovem,
+  é para aqui.** **[Kaktus Bar](https://www.google.com/maps/search/?api=1&query=Kaktus%20Bar%2C%20Seitenstettengasse%205%2C%201010%20Wien)** (*Seitenstettengasse 5*, **2 min**), **entrada livre** e aberto todos
+  os dias desde as 19:00, com pista. **[Club U](https://www.google.com/maps/search/?api=1&query=Club%20U%2C%20Karlsplatz%2C%201010%20Wien)** (*[Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien)*, **22 min**), público jovem,
   eletrónica e indie, mas **sem evento de quarta anunciado**: ver o Instagram no dia. Para acabar
-  a noite sentado, **Roter Engel** (música ao vivo das 22:00 à 01:00) e **Loos American Bar**
+  a noite sentado, **[Roter Engel](https://www.google.com/maps/search/?api=1&query=Roter%20Engel%2C%20Rabensteig%205%2C%201010%20Wien)** (música ao vivo das 22:00 à 01:00) e **[Loos American Bar](https://www.google.com/maps/search/?api=1&query=Loos%20American%20Bar%2C%20K%C3%A4rntner%20Durchgang%2010%2C%201010%20Wien)**
   (**9 min**, até às 04:00). Os clubes grandes ficam de fora: o VIE i PEE está a **37 min a pé** e
-  o U4 a **1h11**, portanto o regresso seria táxi às 03:00. 🌭 **E no regresso: Würstelstand am
-  [Hoher Markt](https://www.google.com/maps/search/?api=1&query=Hoher%20Markt%2C%201010%20Wien)**, aberto **09:00–04:00**, a **2 min de casa**.
+  o U4 a **1h11**, portanto o regresso seria táxi às 03:00. 🌭 **E no regresso: [Würstelstand am Hohen Markt](https://www.google.com/maps/search/?api=1&query=W%C3%BCrstelstand%20am%20Hohen%20Markt%2C%20Hoher%20Markt%201%2C%201010%20Wien)**, aberto **09:00–04:00**, a **2 min de casa**.
 
 ---
 
@@ -687,7 +686,7 @@ confirmadas abertas à quarta, a terceira não.**
   - 🧳 **Restantes com a bagagem:** seguem de táxi ou tram até ao **Lexapartments Zentral 101m²** (*Am Bogen 6*), fazem o check-in e recebem os 2 amigos que chegam da Alemanha (**grupo de 6 reunido**).
   - 🛒 **Supermercado e abastecimento para os 6 (janela 16:45–17:40):**
     Enquanto os condutores tratam do carro, os 4 amigos no alojamento têm cerca de 50 minutos para uma ida rápida às compras:
-    - **[EDEKA](https://www.google.com/maps/search/?api=1&query=EDEKA%2C%20Bei%20der%20Jakobskirche%203%2C%2086152%20Augsburg)** (*Bei der Jakobskirche 3*, a 350 m, 4 min a pé): no caminho para a Fuggerei, aberto até às 20:00.
+    - **[EDEKA](https://www.google.com/maps/search/?api=1&query=EDEKA%2C%20Bei%20der%20Jakobskirche%203%2C%2086152%20Augsburg)** (*Bei der Jakobskirche 3*, a 350 m, 4 min a pé): a leste do apartamento, aberto até às 20:00.
     - **[REWE](https://www.google.com/maps/search/?api=1&query=REWE%2C%20Maximilianstra%C3%9Fe%207%2C%2086150%20Augsburg)** (*Maximilianstraße 7*, a 500 m, 6 min a pé): alternativa central, também aberto até às 20:00.
     - ⚠️ **Atenção aos horários bávaros (*Ladenschlussgesetz*):** na Baviera os supermercados fecham impreterivelmente às **20:00** e **ao domingo estão totalmente encerrados por lei**. Como no sábado (Dia 4) o regresso dos Alpes é após as 21:00, esta sexta-feira à tarde é a única oportunidade para abastecer a carrinha e o frigorífico para o fim de semana.
     - **O que comprar para os 6:** garrafas e garrafões de água (indispensáveis para o roadtrip do Dia 4 aos Alpes/Eibsee), snacks de viagem (frutos secos, fruta, bolachas), cervejas bávaras para o frigorífico (Augustiner, Paulaner, Riegele local) e mantimentos para os pequenos-almoços (pão, café, leite, manteiga).
@@ -703,17 +702,13 @@ confirmadas abertas à quarta, a terceira não.**
 
 #### Noite em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150): centro histórico a pé
 
-O apartamento fica a 300 m da [Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg) (4 min) e a 550 m da [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg) (7 min). O centro histórico percorre-se facilmente em 15 minutos.
+O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg) e a apenas 550 m da [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg) (7 min a pé). O centro histórico percorre-se facilmente a pé.
 
-- **17:55 – 18:35**: **[Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg)** (*[Fuggerei](https://www.google.com/maps/search/?api=1&query=Fuggerei%2C%20Jakoberstra%C3%9Fe%2026%2C%2086152%20Augsburg) 56*), **€8/pessoa**, aberta todos os dias das 09:00 às 20:00 (horário de verão até 30 de setembro; bilheteira até às 19:30).
-  O complexo habitacional social mais antigo do mundo em funcionamento contínuo: fundado por Jakob Fugger em **1521** para cidadãos necessitados de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150). Mantém 67 casas, 142 habitações e ~150 residentes, com a renda histórica inalterada de **0,88 € por ano** (um florim renano) acrescida de 3 orações diárias. O bilhete inclui o museu, o bunker da II Guerra Mundial e a habitação-modelo.
-  - 🎯 **Oportunidade no roteiro:** é o único dia com horário disponível antes do encerramento das atrações (única alternativa seria no Dia 7 antes do check-out).
-- **18:35 – 18:55**: **[Damenhof](https://www.google.com/maps/search/?api=1&query=Damenhof%2C%20Maximilianstra%C3%9Fe%2040%2C%2086150%20Augsburg)**, no *[Fuggerhäuser](https://www.google.com/maps/search/?api=1&query=Fuggerh%C3%A4user%2C%2086150%20Augsburg)* (*[Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg) 36–38*).
-  Pátio renascentista com arcadas construído por Jakob Fugger em 1515, de estilo florentino. **Acesso livre e gratuito** (caminhada de 9 min a partir da Fuggerei pelo [Vorderer Lech](https://www.google.com/maps/search/?api=1&query=Vorderer%20Lech%2C%2086150%20Augsburg) e [Judenberg](https://www.google.com/maps/search/?api=1&query=Judenberg%2C%2086150%20Augsburg)). O espaço funciona como esplanada do Damenhof Bar, permitindo tomar uma bebida antes do jantar.
+- **17:55 – 18:55**: **Passeio pelos Canais do [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg) & Brinde Inaugural na [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg)** (**grátis**).
+  Com os 6 amigos finalmente reunidos e as bagagens arrumadas, saída a pé para um passeio descontraído pelas ruelas e pequenas pontes sobre os canais medievais do Lechviertel ("Pequena Veneza" de Augsburg, Património Mundial da UNESCO), subindo pelo [Judenberg](https://www.google.com/maps/search/?api=1&query=Judenberg%2C%2086150%20Augsburg) em direção à praça central. Paragem numa esplanada ou bar da [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg) para uma primeira cerveja de celebração e reencontro antes do jantar. Sem bilhetes nem correrias (poupança de **€48** face à entrada na Fuggerei).
 - **19:00 – 20:30**: **Jantar bávaro na [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg)** (7 min a pé pelas ruelas do [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg)).
-  Sugestão: **Altstadtgasthaus Bauerntanz** (*Bauerntanzgäßchen 1*), taberna histórica com gastronomia tradicional da Suábia e Baviera (aberta sexta até às 22:00, cozinha até às 21:00).
-  **Reservar com antecedência: +49 821 153644**.
-  - ⚠️ **Edifícios em obras:** a Câmara Municipal (Rathaus) e a Sala Dourada ([Goldener Saal](https://www.google.com/maps/search/?api=1&query=Goldener%20Saal%2C%20Rathausplatz%202%2C%2086150%20Augsburg)) encontram-se encerradas para intervenções até 28 de setembro. A torre [Perlachturm](https://www.google.com/maps/search/?api=1&query=Perlachturm%2C%20Rathausplatz%2C%2086150%20Augsburg) também se encontra encerrada.
+  Sugestão: **Altstadtgasthaus Bauerntanz** (*Bauerntanzgäßchen 1*), taberna histórica com gastronomia tradicional da Suábia e Baviera (aberta sexta até às 22:00, cozinha até às 21:00). Reservar com antecedência: **+49 821 153644**.
+
 - **20:30 – 21:30**: **Passeio noturno.**
   Circuito a pé pelo centro iluminado: **[Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg)** ([Augustusbrunnen](https://www.google.com/maps/search/?api=1&query=Augustusbrunnen%2C%20Rathausplatz%2C%2086150%20Augsburg)) ➔ **[Maximilianstraße](https://www.google.com/maps/search/?api=1&query=Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)** (fontes renascentistas *[Merkurbrunnen](https://www.google.com/maps/search/?api=1&query=Merkurbrunnen%2C%20Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)* e *[Herkulesbrunnen](https://www.google.com/maps/search/?api=1&query=Herkulesbrunnen%2C%20Maximilianstra%C3%9Fe%2C%2086150%20Augsburg)*) ➔ regresso pelos canais pitorescos do **[Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg)**, passando pelo histórico teatro de marionetas **Augsburger Puppenkiste**. O percurso termina a 5 min do alojamento.
   - 🏛️ Os canais do [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg) e os sistemas monumentais de água integram o Património Mundial da UNESCO (*Sistema de Gestão da Água de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)*, classificado em 2019).
