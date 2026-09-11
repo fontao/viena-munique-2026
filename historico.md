@@ -66,6 +66,12 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - Mapeadas as duas opções mais próximas do apartamento da Judengasse 11: o **BILLA Corso** (*Hoher Markt 12*, a 200 m, 2 min a pé) e o **SPAR Gourmet** (*Fleischmarkt 5*, a 250 m, 3 min a pé), ambos abertos até às 20:00.
     - Foco nos mantimentos prioritários para os 4 elementos: garrafas de água para levar nas mochilas, garrafões para casa, cervejas austríacas (Ottakringer, Stiegl, Gösser) para o frigorífico e pequenos-almoços/lanches rápidos (fruta, leite, pães).
 
+12. **Abastecimento de supermercado em Augsburg para os 6 elementos no Dia 3.**
+    - Aproveitamento da janela logística de ~50 minutos (16:45–17:40) em que os 2 condutores se deslocam à Enterprise para levantar a carrinha, permitindo aos 4 elementos que ficam no Lexapartments Zentral (*Am Bogen 6*) fazerem as compras para toda a casa.
+    - Mapeadas as duas principais superfícies de proximidade: o **EDEKA** (*Bei der Jakobskirche 3*, a 350 m, 4 min a pé, mesmo no caminho da Fuggerei) e o **REWE** (*Maximilianstraße 7*, a 500 m, 6 min a pé), ambos a fechar às 20:00.
+    - Destaque crítico para a lei bávara de encerramento do comércio (*Bayerisches Ladenschlussgesetz*): os supermercados encerram impreterivelmente às 20:00 e fecham totalmente ao domingo. Dado que no sábado (Dia 4) o regresso do roadtrip dos Alpes ocorre após as 21:00 e no domingo (Dia 5) tudo está fechado, a tarde de sexta-feira é a única janela viável para abastecer a carrinha (águas e snacks para os Alpes) e o apartamento (cervejas bávaras e pequenos-almoços para os 6).
+    - Adicionado o botão de acesso rápido do Google Maps ao EDEKA no cartão de check-in do guia web interativo (`index.html`).
+
 ---
 
 

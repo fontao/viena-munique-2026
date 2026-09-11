@@ -686,6 +686,12 @@ confirmadas abertas à quarta, a terceira não.**
 - **16:14 – 16:45**: **Separação do grupo no cais de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150):**
   - 🚕 **Condutores diretos à Enterprise:** apanham o táxi pré-reservado para as 16:20 à porta da estação e vão diretos à Enterprise Rent-A-Car (*Aindlinger Str. 14*, ~6,5 km, ~€15–20), chegando por volta das 16:30, sem malas.
   - 🧳 **Restantes com a bagagem:** seguem de táxi ou tram até ao **Lexapartments Zentral 101m²** (*Am Bogen 6*), fazem o check-in e recebem os 2 amigos que chegam da Alemanha (**grupo de 6 reunido**).
+  - 🛒 **Supermercado e abastecimento para os 6 (janela 16:45–17:40):**
+    Enquanto os condutores tratam do carro, os 4 amigos no alojamento têm cerca de 50 minutos para uma ida rápida às compras:
+    - **[EDEKA](https://www.google.com/maps/search/?api=1&query=EDEKA%2C%20Bei%20der%20Jakobskirche%203%2C%2086152%20Augsburg)** (*Bei der Jakobskirche 3*, a 350 m, 4 min a pé): no caminho para a Fuggerei, aberto até às 20:00.
+    - **[REWE](https://www.google.com/maps/search/?api=1&query=REWE%2C%20Maximilianstra%C3%9Fe%207%2C%2086150%20Augsburg)** (*Maximilianstraße 7*, a 500 m, 6 min a pé): alternativa central, também aberto até às 20:00.
+    - ⚠️ **Atenção aos horários bávaros (*Ladenschlussgesetz*):** na Baviera os supermercados fecham impreterivelmente às **20:00** e **ao domingo estão totalmente encerrados por lei**. Como no sábado (Dia 4) o regresso dos Alpes é após as 21:00, esta sexta-feira à tarde é a única oportunidade para abastecer a carrinha e o frigorífico para o fim de semana.
+    - **O que comprar para os 6:** garrafas e garrafões de água (indispensáveis para o roadtrip do Dia 4 aos Alpes/Eibsee), snacks de viagem (frutos secos, fruta, bolachas), cervejas bávaras para o frigorífico (Augustiner, Paulaner, Riegele local) e mantimentos para os pequenos-almoços (pão, café, leite, manteiga).
   - 🚗 **Carro reservado:** levantamento às **17:00**, 7-Seater SUV automático (VW Touran ou similar, 4 dias). Devolução terça-feira às 17:00 no Mietwagenzentrum do Aeroporto de Munique (MUC).
   - ⏱️ A entrega ao balcão demora ~30 a 40 minutos (papelada, seguro e inspeção de danos). Com o balcão a fechar às 18:00, a marcação às 17:00 assegura margem confortável.
 - **17:40 – 17:55**: A carrinha chega ao apartamento e junta-se ao grupo. O resto da noite é percorrido a pé.
