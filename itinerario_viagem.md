@@ -635,7 +635,7 @@ confirmadas abertas à quarta, a terceira não.**
     (ida e volta do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) e o Dia 3 uma terceira até à estação. São três bilhetes simples,
     **€9,00/pax na app** a €3,00 cada, contra **€9,70/pax** do passe: o passe fica **€0,70 mais
     caro por pessoa**. Só vale a pena se contarem com viagens extra.
-- **17:00 – 20:15**: **Wiener [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)**, e este ano com um bónus.
+- **17:00 – 18:15**: **Wiener [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)**: **[Kaiser Wiesn](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien)** e **[Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien)**.
   - 🎪 **17:00 – 17:30 · [Kaiser Wiesn](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien), e hoje é o dia de abertura.** A *Wiener [Kaiser Wiesn](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien)*,
     a [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich), decorre de **24 de setembro a 11 de outubro** na **[Kaiserwiese](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien)**,
     que fica **ao lado da Roda Gigante e do [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien)**. Vocês chegam ao [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)
@@ -643,16 +643,15 @@ confirmadas abertas à quarta, a terceira não.**
     tendas, cinco "alpes", 20 000 m², *Dirndl* e *Lederhosen*, música ao vivo. Só os eventos
     noturnos dentro das tendas é que são pagos, e **esses não vale a pena comprar**: seria
     pagar para ver uma versão pequena do que já têm garantido em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) no Dia 6.
-  - ⚠️ **Consequência prática:** o [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) vai estar muito mais cheio do que num dia normal.
-    **A reserva do [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien) deixa de ser recomendável e passa a ser obrigatória**,
-    e confirmada por telefone na semana anterior, não só online.
   - **17:30 – 18:15**: **[Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien)** (**€14,50**; o bilhete de €17 é o *Flex*, com validade de
     um ano, de que não precisam). Em setembro abre até às **22:45** e o bloco cabe com horas de
     sobra. ⚠️ O calendário oficial marca alterações pontuais (a 22 de setembro só abre às
     11:30): vale confirmar em wienerriesenrad.com.
-  - **18:15 – 20:15**: Jantar de grupo a **8 min a pé** (580 m), no lendário **[Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien)**:
-    pernis de porco estaladiços (*Stelze*) e cerveja Budweiser de pressão. **Num dia de abertura
-    da [Kaiser Wiesn](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien), com o [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) cheio: reservar para as 18:30 e não para as 18:15.**
+- **18:15 – 20:15**: Jantar de grupo a **8 min a pé** (580 m), no lendário **[Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien)**:
+  pernis de porco estaladiços (*Stelze*) e cerveja Budweiser de pressão.
+  - ⚠️ **Consequência prática:** o [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien) vai estar muito mais cheio do que num dia normal por ser o dia de abertura da [Kaiser Wiesn](https://www.google.com/maps/search/?api=1&query=Kaiserwiese%2C%20Prater%2C%201020%20Wien).
+    **A reserva do [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien) deixa de ser recomendável e passa a ser obrigatória**,
+    e confirmada por telefone na semana anterior, não só online. **Reservar mesa para as 18:30 e não para as 18:15.**
 - **20:15 – 20:55**: **Do [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien) ao [Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien), de metro, não a pé.**
   - ⚠️ **Não se vá a pé.** Do [Schweizerhaus](https://www.google.com/maps/search/?api=1&query=Schweizerhaus%2C%20Prater%20116%2C%201020%20Wien), que fica dentro do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien), ao [Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien) são
     **1,7 km e 23 minutos a pé** *(OSRM, 26/08/2026)*, no escuro e depois de um dia inteiro em
