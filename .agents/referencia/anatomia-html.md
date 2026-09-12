@@ -151,7 +151,7 @@ O painel abre com o cartaz do dia:
 ```
 
 A `day-banner-tag` escreve-se em maiúsculas, com `•` a separar. Fica `Sáb 26` no
-separador e `SÁB 26 SETEMBRO` no cartaz, e o `verificar.py` confirma que a data
+separador e `SÁB 26 SETEMBRO` no cartaz, e o `scripts/verificar.py` confirma que a data
 bate certo com o cabeçalho do markdown.
 
 ## Um marcador no mapa
@@ -177,7 +177,7 @@ valor **novo de `city`** que precisa de um botão novo, senão o pin fica invis�
 assim que alguém filtrar.
 
 **As coordenadas vêm do `osm` MCP** (`geocode`), nunca de memória nem de um
-blogue. Latitude primeiro. O `verificar.py` rejeita qualquer par que caia fora da
+blogue. Latitude primeiro. O `scripts/verificar.py` rejeita qualquer par que caia fora da
 caixa da viagem, que é o que apanha uma latitude trocada com a longitude.
 
 ## As fotografias em `img/`
@@ -203,7 +203,7 @@ im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS).save(
 ⚠️ **A extensão aparece em três sítios**, e esquecer um deixa a foto partida sem
 erro nenhum: o `src` do `<img>`, o campo `img:` do marcador no mapa, e a regra CSS
 `.hero-bg-overlay`, que é a única referência que não é um `<img>` e por isso escapa
-a qualquer procura por `src=`. O `verificar.py --seccao imagens` conta as três.
+a qualquer procura por `src=`. O `scripts/verificar.py --seccao imagens` conta as três.
 
 E **não confundir com os `.jpg` da tabela de créditos**: esses são os nomes dos
 ficheiros originais no Wikimedia Commons, ficam como estão.
@@ -212,12 +212,12 @@ ficheiros originais no Wikimedia Commons, ficam como estão.
 
 Na secção `#logistics`, o bloco entre `<!-- WEATHER-AUTO:START -->` e
 `<!-- WEATHER-AUTO:END -->` **não é escrita à mão**: é escrito pelo
-`python meteo.py --html index.html`, com uma célula por dia da viagem. Editá-lo à mão
+`python scripts/meteo.py --html index.html`, com uma célula por dia da viagem. Editá-lo à mão
 perde-se na atualização seguinte.
 
 O estilo dele vive nas regras `.weather-strip`, `.weather-day-card`, `.weather-src`
 (com `.is-forecast` a verde e `.is-clima` a âmbar) e `.weather-note`. A alteração que
-fizer sentido fazer no cartão faz-se **no `meteo.py`**, não aqui.
+fizer sentido fazer no cartão faz-se **no `scripts/meteo.py`**, não aqui.
 
 ## Persistência
 

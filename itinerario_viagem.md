@@ -96,7 +96,7 @@ tem de ser jogado às horas certas, e é por isso que a [Oktoberfest](https://ww
 - 🚫 **Não se ocupa uma mesa com placa de reserva**, mesmo que esteja vazia. E se a tenda
   tiver *Einlasssperre* (entrada fechada por lotação), não há como contornar.
 - 🌧️ **O tempo mexe com isto mais do que parece:** com chuva as tendas enchem porque toda a
-  gente se abriga, com sol enchem os Biergärten. Ver o `meteo.py` na véspera.
+  gente se abriga, com sol enchem os Biergärten. Ver o `scripts/meteo.py` na véspera.
 - ⏰ **Horário da segunda-feira:** recinto e tendas grandes das **10:00 às 23:30**, **última
   cerveja e última música às 22:30**. As tendas pequenas servem até às 23:00, e a *Käfer
   [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen)-Schänke* e o *[Weinzelt](https://www.google.com/maps/search/?api=1&query=Weinzelt%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen)* vão até à 01:00. Nada disto vos serve: saem às 22:20.
@@ -1113,7 +1113,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
     de dentro.
   - 🏞️ **Se estiver bom tempo**, os Biergärten das tendas são a alternativa: nunca têm
     reservas. **Se estiver a chover**, contem com tudo mais cheio, porque toda a gente se
-    abriga lá dentro. Ver o `meteo.py` na véspera.
+    abriga lá dentro. Ver o `scripts/meteo.py` na véspera.
 
 #### 🚨 O fim da noite: leiam isto antes de irem
 

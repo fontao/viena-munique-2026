@@ -2,7 +2,7 @@
 name: bilhete
 description: Acrescenta ou atualiza um bilhete, passe ou reserva no hub de bilhetes, nos dois documentos. Usar quando se compra alguma coisa, quando um preço ou prazo muda, quando se marca um bilhete como comprado, ou quando se acrescenta uma reserva nova.
 argument-hint: [bilhete] [o que mudou]
-allowed-tools: Bash(python verificar.py *), Read, Edit, Grep, WebSearch, WebFetch
+allowed-tools: Bash(python scripts/verificar.py *), Read, Edit, Grep, WebSearch, WebFetch
 ---
 
 # Bilhetes, passes e reservas
@@ -22,7 +22,7 @@ Sem exceção, e por esta ordem de importância:
   Dia 3. Bilhetes repartidos têm de somar o grupo: `5 pax + 1 pax = 6`, nunca 7.
 - **Preço unitário e total**, com vírgula decimal: `€23,50/pax = €141`.
 - **Onde se compra**, que é o site oficial e não um revendedor. A lista está em
-  `.claude/referencia/fontes.md`.
+   `.agents/referencia/fontes.md`.
 - **Até quando**, e porque é urgente, se for.
 - **O estado**, com marcador: `🔴` comprar já, `🟡` antes de partir, `🟢` no local,
   `✅` comprado com o valor pago, `⚠️` preço por confirmar.
@@ -53,7 +53,7 @@ nunca nasce assim.**
 
 Preço e horário de fonte primária, aberta nesse momento. Se não se abriu, fica
 `⚠️`. Depois: entrada no hub, cartão em `#tickets` (modelo em
-`.claude/referencia/anatomia-html.md`, com o `ticket-badge` conforme o estado),
+`.agents/referencia/anatomia-html.md`, com o `ticket-badge` conforme o estado),
 `callout-box` no dia em que se usa, e linha na tabela de prazos se tiver
 data-limite.
 
@@ -72,5 +72,5 @@ ajusta e não a margem que se encolhe. Ver a skill `planear-dia`.
 
 ## Fechar
 
-`python verificar.py --seccao pessoas precos` sem 🔴, e ao utilizador: o que mudou,
+`python scripts/verificar.py --seccao pessoas precos` sem 🔴, e ao utilizador: o que mudou,
 quanto custa agora o total, e o que continua por tratar com data marcada.

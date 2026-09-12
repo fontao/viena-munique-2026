@@ -12,11 +12,11 @@ verificação factual continua a ser confirmada em fonte primária, à mão.
 Biblioteca padrão apenas. Sem dependências, sem rede.
 
 Uso:
-    python verificar.py                 # tudo
-    python verificar.py --dia 4         # só o Dia 4
-    python verificar.py --so-erros      # só o que está mal
-    python verificar.py --seccao horarios precos
-    python verificar.py --listar        # nomes das secções
+    python scripts/verificar.py                 # tudo
+    python scripts/verificar.py --dia 4         # só o Dia 4
+    python scripts/verificar.py --so-erros      # só o que está mal
+    python scripts/verificar.py --seccao horarios precos
+    python scripts/verificar.py --listar        # nomes das secções
 
 Código de saída: 1 se houver algum ERRO, 0 caso contrário (os AVISOS não
 chumbam, porque muitos são legítimos e têm de ser vistos por uma pessoa).
@@ -33,7 +33,7 @@ from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parent
+RAIZ = Path(__file__).resolve().parent.parent
 MD = RAIZ / "itinerario_viagem.md"
 HTML = RAIZ / "index.html"
 METEO = RAIZ / "meteo.md"
@@ -712,7 +712,7 @@ def check_meteo(meteo: list[str], html: list[str]) -> Seccao:
     dias = bloco.count('class="wx-row" data-dia=')
     rotulos = bloco.count('class="wx-src')
     if dias == 0:
-        s.erro("index.html", "o bloco da previsão está vazio; correr `python meteo.py --html index.html`.")
+        s.erro("index.html", "o bloco da previsão está vazio; correr `python scripts/meteo.py --html index.html`.")
     elif dias != len(DIAS_VIAGEM):
         s.erro("index.html",
                f"{dias} dias no cartão da previsão, quando a viagem tem {len(DIAS_VIAGEM)}: "
@@ -732,7 +732,7 @@ def check_meteo(meteo: list[str], html: list[str]) -> Seccao:
     if m_md and m_html and m_md.group(1) != m_html.group(1):
         s.aviso("meteo.md / index.html",
                 f"gerados em datas diferentes ({m_md.group(1)} e {m_html.group(1)}): "
-                "voltar a correr `python meteo.py --md meteo.md --html index.html`.")
+                "voltar a correr `python scripts/meteo.py --md meteo.md --html index.html`.")
     elif m_md and m_html:
         s.info("ambos", f"previsão de {m_md.group(1)}, nos dois ficheiros.")
     elif m_md and not m_html:

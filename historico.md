@@ -25,7 +25,7 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
    A descrição do Café Korb no Dia 2 referia incorretamente "ovos com bacon €14", um anglicismo/americanismo que colidia com a realidade visual da casa. O Café Korb (fundado em 1904) serve pequenos-almoços tradicionais durante todo o dia (*ganztägig*): o clássico *Wiener Frühstück* (Kaisersemmel, manteiga e compota, €8–10), pratos de ovos mexidos (*Eierspeisen*, até €14 na versão *Würsteleierspeise* com Frankfurter ou com Speck), o seu célebre *Apfelstrudel* caseiro e cafés vienenses de especialidade (€4,20–7,50). Os preços-âncora (€14 e €4,20–7,50) mantêm-se rigorosamente alinhados entre os dois ficheiros.
 
 3. **Instituição da Regra 11: proibição de meta-narrativa e gabarolice de planeador nos documentos de terreno.**
-   O itinerário (`itinerario_viagem.md`) e o guia web interativo (`index.html`) são ferramentas de navegação e instrução para quem está na rua, não diários de conceção. Foram expurgados comentários de bastidores e justificações retrospetivas (ex.: *"que o Dia 1 deixou de fora de propósito para nenhuma rua se andar duas vezes"*). Foi adicionada a Regra 11 ao `CLAUDE.md` e a respetiva convenção ao `.claude/referencia/convencoes.md`, estipulando que a lógica de interligação e desenho de percurso pertence exclusivamente ao `historico.md`.
+   O itinerário (`itinerario_viagem.md`) e o guia web interativo (`index.html`) são ferramentas de navegação e instrução para quem está na rua, não diários de conceção. Foram expurgados comentários de bastidores e justificações retrospetivas (ex.: *"que o Dia 1 deixou de fora de propósito para nenhuma rua se andar duas vezes"*). Foi adicionada a Regra 11 ao `AGENTS.md` e a respetiva convenção ao `.agents/referencia/convencoes.md`, estipulando que a lógica de interligação e desenho de percurso pertence exclusivamente ao `historico.md`.
 
 4. **Preço normal nos bilhetes do Hofburg: remoção dos descontos de estudante.**
    Descartadas as menções às tarifas de estudante no Tesouro Imperial (€12 até aos 25 anos) e no Prunksaal (€10 até aos 27 anos). Os documentos passam a indicar exclusivamente a tarifa normal de adulto (€16 online no Tesouro e €12 no Prunksaal, com audioguia a €3 ou €2,50 a partir de 2 pessoas).
@@ -59,7 +59,7 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - **Eliminação de discursos e meta-narrativa:** Expurgaram-se sermões como *"🚨 Porque é que se sai às 09:50 e não mais tarde..."*, *"E aqui não há segunda oportunidade..."*, *"🚨 O grupo divide-se no cais, e não no apartamento. A razão é uma só..."*, e frases opinativas como *"não é só bonito, é o motivo pelo qual Augsburg existe"*.
     - **Expurgo de datas de confirmação no texto (Regra 10):** Removidas referências como *"Isto ficou mais fácil a 28/08/2026: sem bilhete marcado no castelo, o Dia 4 aguenta atrasos que antes o partiam"*.
     - **Condensação de caixas de aviso e despoluição:** No `index.html`, foi removida a caixa de aviso deslocada sobre a noite a pé no nó de separação do grupo (informação já incorporada nos nós da Fuggerei e do jantar). No bloco de levantamento do carro, eliminou-se a menção supérflua ao valor total do aluguer (€427,58, que já consta do dossiê logístico e de orçamento), mantendo o foco operacional nos prazos de balcão e nos requisitos práticos da viatura.
-    - **Paridade e validação:** Ambos os ficheiros mantêm rigorosa paridade, e o `verificar.py` executou com 0 erros e 0 preços órfãos.
+    - **Paridade e validação:** Ambos os ficheiros mantêm rigorosa paridade, e o `scripts/verificar.py` executou com 0 erros e 0 preços órfãos.
 
 11. **Abastecimento de supermercado para o apartamento no Dia 1.**
     - Integrada a paragem de compras essenciais de supermercado logo à chegada a Viena, no bloco das 14:20–15:00 após o check-in ou no regresso do passeio monumental às 18:05.
@@ -88,14 +88,14 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - **Eliminação de meta-narrativa, gabarolice de planeador e queixas de raspagem (Regra 11):** Expurgadas justificações de bastidores como "o bloco fica com 1h35 de propósito", "sobram de propósito", "que até aqui competiam", "o que este dia passou a ter de melhor", "Nós não subimos...", "o que não é um plano...", bem como desculpas técnicas sobre tabelas publicadas como imagem pelo site oficial do shuttle.
     - **Rigor de lotação e preços (Regras 3 e 4):** Validados todos os custos e capacidades para os 6 pax (shuttle Marienbrücke a €5/pax ida e volta = €30, parque de estacionamento P4 a €12/dia, almoço reservado para 6 no Alpenstuben, e jantar para 6 às 21:30 em Augsburg). Sincronizada a menção à carruagem de cavalos como alternativa de subida/descida (€8 subida / €4 descida) e a coima de estacionamento noturno (€50).
     - **Exequibilidade horária e cronometria (Regra 5):** Cadeia cronológica fechada e folgas validadas (partida de Augsburg às 10:30, chegada a Hohenschwangau às 12:05, almoço 14:15–15:15, Oberammergau 75 min, Eibsee 79 min com pôr do sol às 19:03, partida às 19:15, chegada a Augsburg às 21:15 e jantar às 21:30).
-    - **Validação de paridade e regras linguísticas (Regras 2 e 6):** Português europeu estrito, 0 travessões (`—`) e 0 preços órfãos na execução do `verificar.py`.
+    - **Validação de paridade e regras linguísticas (Regras 2 e 6):** Português europeu estrito, 0 travessões (`—`) e 0 preços órfãos na execução do `scripts/verificar.py`.
 
 16. **Modularização da manhã do Dia 4: separação de acordar/pequeno-almoço e viagem de carro.**
     - No guia web (`index.html`) e no itinerário (`itinerario_viagem.md`), a manhã do Dia 4 foi decomposta em dois cartões/blocos autónomos:
       1) **10:00 – 10:30 (Pequeno-Almoço & Preparação):** acordar às 10:00 sem pressas no apartamento em Augsburg (*Am Bogen 6*), pequeno-almoço com os mantimentos comprados no Dia 3, agasalhos/corta-vento para a carrinha (Eibsee a 8–12 °C), moedas para as casas de banho e a realização imediata das duas reservas telefónicas do dia (almoço no Alpenstuben às 14:15 e jantar em Augsburg às 21:30).
       2) **10:30 – 12:05 (Condução Cénica pela B17):** viagem de 103 km até Hohenschwangau, com 1h35 de condução e estacionamento nos parques oficiais P1 a P4.
     - Sincronização e validação de paridade de preços de transporte em Viena no Ticket 7 do guia (incorporando a poupança comparativa face ao passe de 24h a €9,70 e €10,20).
-    - `verificar.py` validado com 0 erros e 0 preços órfãos.
+    - `scripts/verificar.py` validado com 0 erros e 0 preços órfãos.
 
 17. **Modularização e autonomia de blocos: regresso e jantar no Dia 4, e dia completo no Dia 5.**
     - **Regresso e jantar no Dia 4:** a viagem de volta dos Alpes e o jantar de celebração em Augsburg deixaram de constar como parágrafos secundários no nó do Lago Eibsee, passando a constituir dois blocos autónomos em ambos os ficheiros:
@@ -105,12 +105,12 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
       1) **10:00 – 11:00 (Pequeno-Almoço & Preparação):** nó autónomo para despertar às 10:00 sem pressas no apartamento em Augsburg (*Am Bogen 6*), pequeno-almoço tranquilo, marcação telefónica matinal do almoço de domingo para as 13:15 (Reichsküchenmeister ou Baumeisterhaus, ambas de cozinha contínua) e verificação de dinheiro vivo no bolso.
       2) **17:35 – 19:35 (Regresso de Carro):** nó autónomo para a viagem de 186 km de regresso a Augsburg pela A7 e A8, aproveitando a proibição dominical de circulação de camiões (*Sonntagsfahrverbot*).
       3) **19:45 – 21:00 (Jantar & Descanso):** nó autónomo para jantar calmo no Lechviertel/Rathausplatz e recolher cedo ao alojamento em preparação para a maratona da Oktoberfest no Dia 6.
-    - **Validação total:** verificação de cronometria estrita, 0 sobreposições, 0 travessões e paridade total em `verificar.py` (86 preços comuns, 0 órfãos).
+    - **Validação total:** verificação de cronometria estrita, 0 sobreposições, 0 travessões e paridade total em `scripts/verificar.py` (86 preços comuns, 0 órfãos).
 
 18. **Despoluição do Dia 4: eliminação de debate retrospetivo de planeador e precisão do pequeno-almoço no apartamento.**
     - **Remoção de meta-narrativa e ensaio justificativo (Regras 9 e 11):** Eliminada a caixa de texto redundante no guia (`index.html`) e a respetiva citação no itinerário (`itinerario_viagem.md`) que debatia a decisão de não entrar no Castelo de Neuschwanstein («A decisão que dá forma a este dia... O que se perde, e não vale a pena minimizar... A troca é paisagem contra interiores, e faz-se com os olhos abertos»). O itinerário limita-se agora a apresentar o plano executável e a salvaguarda prática essencial: a ponte Marienbrücke e os miradouros são gratuitos, enquanto o pátio interior do castelo exige torniquete/bilhete.
     - **Uniformização do pequeno-almoço nos Dias 4 e 5:** Eliminadas as menções contraditórias a «café rápido numa padaria próxima» ou «pastelaria de domingo aberta no centro de Augsburg». O pequeno-almoço matinal de sábado e domingo é tomado de forma tranquila no apartamento na Am Bogen 6, usufruindo diretamente das provisões de supermercado compradas na véspera.
-    - **Validação de paridade e integridade:** Execução do `verificar.py` com 0 erros, 0 preços órfãos e 0 travessões.
+    - **Validação de paridade e integridade:** Execução do `scripts/verificar.py` com 0 erros, 0 preços órfãos e 0 travessões.
 
 19. **Revisão integral do Dia 4: descarte do almoço sentado no Alpenstuben a favor de piquenique no Alpsee ou tasca/Imbiss local rápido.**
     - **Nova abordagem para o almoço nos Alpes (preferência do grupo):** Rejeitada a imposição de um almoço formal de 60 minutos no Hotel-Restaurant Alpenstuben em Hohenschwangau. O grupo determinou que só almoçaria fora se fosse algo muito barato e local (tasca/Imbiss), preferindo em alternativa levar comida de casa (sandes preparadas de manhã no apartamento), sobras do takeaway da véspera ou refeições/mantimentos comprados no supermercado.
@@ -118,7 +118,7 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - **Eliminação de constrangimentos e chamadas matinais:** Foi eliminada a chamada telefónica de manhã para o Alpenstuben (+49 8362 98200), restando unicamente a reserva do jantar para as 21:30 em Augsburg. Foram expurgadas as caixas de aviso com queixas e alertas sobre "60 minutos são poucos para almoçar".
     - **Despoluição de arqueologia (Regras 9 e 11):** Removida a menção de opções rejeitadas no nó de Oberammergau (*"Wieskirche, Linderhof, Partnachklamm e a subida à Zugspitze foram consideradas mas ficam de fora..."*).
     - **Atualização nas tabelas de bilhetes e reservas:** Retirada a linha do Alpenstuben da tabela "Tratar antes de partir" e atualizada a tabela "Comprar no local" para o formato de piquenique/Imbiss descontraído.
-    - **Validação:** `verificar.py` executado com 0 erros, 87 preços em comum e 0 travessões proibidos.
+    - **Validação:** `scripts/verificar.py` executado com 0 erros, 87 preços em comum e 0 travessões proibidos.
 
 ---
 
@@ -191,7 +191,7 @@ parado da viagem. A troca é de sítio, não de horário: o bloco continua a ser
    distância medida. Um local já listado ganha os factos que faltavam em vez de uma segunda
    entrada ao lado.
 
-5. **Preços nos dois ficheiros.** O `verificar.py` cruza os preços do `index.html` com os do
+5. **Preços nos dois ficheiros.** O `scripts/verificar.py` cruza os preços do `index.html` com os do
    `itinerario_viagem.md` e assinala órfãos, portanto os **€14** e os **€4,20–7,50** foram
    escritos nos dois. E só entram valores com fonte: os dois vêm da carta oficial da casa.
 
@@ -204,7 +204,7 @@ parado da viagem. A troca é de sítio, não de horário: o bloco continua a ser
 **O cartão do tempo foi redesenhado, e o desenho obrigou a corrigir o conteúdo.**
 
 1. **O que faltava não era beleza, eram dados.** O cartão mostrava **tempo, máxima e
-   milímetros**, e mais nada. Estava a deitar fora quase tudo o que o `meteo.py` já recolhia:
+   milímetros**, e mais nada. Estava a deitar fora quase tudo o que o `scripts/meteo.py` já recolhia:
    **mínima** (uma máxima de 25 °C não diz se o dia é 10–25 ou 22–25), **sensação** (o corpo
    sente o vento e a humidade, não o termómetro), **vento** e **probabilidade de chuva**. Passou
    a mostrar os seis, por dia e por paragem.
@@ -232,7 +232,7 @@ parado da viagem. A troca é de sítio, não de horário: o bloco continua a ser
    Dia 2 é o único a vermelho, o Dia 3 laranja, e os dias de 1 a 5 mm azul ou âmbar.
 
 5. **Um erro de processo, e é o mais importante desta revisão.** Ao mudar os nomes de classe, o
-   **`verificar.py` deixou de reconhecer o bloco**: contava `weather-day-card` e passou a haver
+   **`scripts/verificar.py` deixou de reconhecer o bloco**: contava `weather-day-card` e passou a haver
    `wx-row`. O resultado foi o verificador declarar **«o bloco da previsão está vazio»** num
    bloco com sete dias lá dentro. Não é um erro de estilo, é o pior dos dois: um verificador que
    dá um falso alarme ensina a ignorá-lo. Corrigido nas duas pontas: o gerador passou a emitir um
@@ -241,7 +241,7 @@ parado da viagem. A troca é de sítio, não de horário: o bloco continua a ser
    outro número qualquer. **Fica a lição:** o que o verificador procura tem de ser um contrato,
    não uma aparência.
 
-6. **Verificação.** `verificar.py` sem erros, 757 `<a>` para 757 `</a>`, 683 divs para 683,
+6. **Verificação.** `scripts/verificar.py` sem erros, 757 `<a>` para 757 `</a>`, 683 divs para 683,
    9 ligações do Maps dentro do bloco, **zero travessões**, gerador idempotente (duas passagens,
    ficheiro igual), e testado a **320, 390, 1440 px** e nos **dois temas**, sem um único
    elemento em estouro. A 320 px o número e a unidade chegavam a partir-se («34,2» e «mm» em
@@ -255,7 +255,7 @@ parado da viagem. A troca é de sítio, não de horário: o bloco continua a ser
 
 **Sincronização do tempo, e a regeneração apagou os links do cartão.**
 
-1. **Um defeito que só aparecia ao correr o comando.** O `meteo.py --html` reescreve o bloco
+1. **Um defeito que só aparecia ao correr o comando.** O `scripts/meteo.py --html` reescreve o bloco
    entre os marcadores `WEATHER-AUTO` e emite o nome de cada paragem como **texto simples**. Na
    20.ª revisão, os links do Google Maps foram acrescentados a esse bloco. Resultado: a primeira
    regeneração a seguir **apagou nove links**, e o cartão ficou a única parte do guia onde um
@@ -296,7 +296,7 @@ parado da viagem. A troca é de sítio, não de horário: o bloco continua a ser
    entraram no horizonte, 27 a 29 ainda não. É a confirmação mais limpa de que o corte entre
    previsão e climatologia está a ser feito onde deve.
 
-4. **Nada disto muda o plano, e é regra.** Fica escrito no `CLAUDE.md`: **não se altera
+4. **Nada disto muda o plano, e é regra.** Fica escrito no `AGENTS.md`: **não se altera
    itinerário, lista de roupa nem troca de dia enquanto os sete dias não estiverem dentro da
    janela de previsão**, o que só acontece quando o horizonte chegar a **29 de setembro**, ou
    seja a **14 de setembro**. Até lá, sincronizar e registar, nunca decidir. O que está na
@@ -369,7 +369,7 @@ parado da viagem. A troca é de sítio, não de horário: o bloco continua a ser
    €14,80–15,90; último RE9 às 22:58; Nymphenburg €20; **BMW Art Cars fechados a 31 de agosto**;
    Olympiaturm encerrada até outubro de 2027; FC Bayern Museum €12; Königsschlösser.
 
-4. **Verificação.** `verificar.py` sem erros, **22 factos com paridade HTML↔markdown**, 757 `<a>`
+4. **Verificação.** `scripts/verificar.py` sem erros, **22 factos com paridade HTML↔markdown**, 757 `<a>`
    para 757 `</a>`, divs equilibrados, **zero arqueologia no DOM** e **zero estouros** nos cinco
    dias revistos a 390 px.
 
@@ -758,7 +758,7 @@ tarde do Dia 1, que até aqui começava a andar às 14:45, antes de a porta abri
    `(confirmado a 26/08/2026)` e `(alpenstuben.de, confirmada a 10/09/2026)` saíram dos dois
    documentos: o marcador ✅⚠️🔴 já diz se o facto está confirmado e a razão ao lado do número já
    diz o que o governa. **O nome da fonte fica quando é ele que torna a estimativa verificável;
-   a data sai, porque é essa a parte que envelhece.** Passa a ser a regra 10 do `CLAUDE.md` e
+   a data sai, porque é essa a parte que envelhece.** Passa a ser a regra 10 do `AGENTS.md` e
    está também nas convenções. A proveniência de medição é a única exceção:
    `(OSRM, perfil a pé, 10/09/2026)` fica, porque uma distância sem ferramenta e sem data ao
    lado é indistinguível de um palpite.
@@ -953,12 +953,12 @@ interface do Antigravity, à mão, não por este CLI.
 
 ## 11.ª revisão · 10 de setembro de 2026
 
-**Segunda passagem no mesmo dia, esta sobre o roteiro e não sobre o `meteo.py`:** todas as
+**Segunda passagem no mesmo dia, esta sobre o roteiro e não sobre o `scripts/meteo.py`:** todas as
 distâncias remedidas no OSRM e todos os preços reabertos em fonte primária, a 13 dias da
 partida.
 
 **Quatro números errados, e o que se paga por não os ter visto antes.** Dois ficheiros de
-acordo sobre um número falso é exatamente a falha que o `verificar.py` não apanha, porque ele
+acordo sobre um número falso é exatamente a falha que o `scripts/verificar.py` não apanha, porque ele
 compara os dois entre si e nunca vai à fonte. Foram quatro:
 
 1. **O parque do Eibsee cobra €1,00 por cada hora a mais, e não €2,00.** A tabela é do próprio
@@ -1023,7 +1023,7 @@ lacuna, não um detalhe.
 
 ## 10.ª revisão · 10 de setembro de 2026
 
-**Um erro de um dia no `meteo.py`, que só agora se viu.** O script tratava a janela da
+**Um erro de um dia no `scripts/meteo.py`, que só agora se viu.** O script tratava a janela da
 Open-Meteo como «hoje + 16», mas a API conta o dia de hoje como o primeiro dos seus 16: o
 último dia a que responde é **hoje + 15**, e pedir hoje + 16 devolve **HTTP 400**, não uma
 tabela vazia. Enquanto os dias da viagem estiveram todos a mais de 16 dias, a conta errada
@@ -1032,7 +1032,7 @@ de correr**. A fronteira passou a viver numa só função, `forecast_horizon()`,
 duas contas a divergir.
 
 **O que isso muda no dossier:** o primeiro dia da viagem entra na janela a **8 de setembro**,
-e não a 7 como diziam o `CLAUDE.md` e a skill `meteo`. Ficaram os dois corrigidos.
+e não a 7 como diziam o `AGENTS.md` e a skill `meteo`. Ficaram os dois corrigidos.
 
 **A previsão mudou de fonte, e só nos dias 23 a 25.** Até aqui tudo era climatologia. Com 23
 a 25 de setembro dentro da janela, a previsão real dá-os **secos**: Viena a 0,0 mm nos três
@@ -1048,11 +1048,11 @@ antes de as propor.
 **O cartão do tempo do guia passou a ser gerado, e a decisão é essa e não outra.** O
 `index.html` mostrava «Temperaturas Médias Previstas» com uma média sazonal escrita à mão
 (19 °C, 14 °C, 18 °C) que não era a previsão de ninguém e envelhecia sozinha. Passou a ser uma
-faixa de sete dias, uma célula por dia da viagem, escrita pelo `meteo.py --html` entre os
+faixa de sete dias, uma célula por dia da viagem, escrita pelo `scripts/meteo.py --html` entre os
 marcadores `WEATHER-AUTO`. **A alternativa era buscar a previsão ao vivo no browser**, e foi
 posta de lado por uma razão: o dossiê exige que o guia e o markdown digam o mesmo, e duas
 fontes vivas divergem por construção. Assim os dois saem **da mesma leitura do mesmo modelo**,
-e o `verificar.py` ganhou uma secção que compara as datas de geração e denuncia uma
+e o `scripts/verificar.py` ganhou uma secção que compara as datas de geração e denuncia uma
 atualização feita só a metade. O que se perde é a frescura automática: o cartão só muda quando
 o comando volta a correr.
 
@@ -1061,7 +1061,7 @@ verde ou «média 10 anos» a âmbar. A regra de nunca dar climatologia como pre
 valer dentro do guia, e é a mesma que já valia no `meteo.md`.
 
 **E a faixa só ficou pronta depois de a ver num browser, o que corrigiu três defeitos que
-nenhuma verificação de texto apanha.** O `verificar.py` lê o `index.html` como texto e não
+nenhuma verificação de texto apanha.** O `scripts/verificar.py` lê o `index.html` como texto e não
 tem como saber se o que lá está cabe no ecrã. Foi preciso abrir a página a sério:
 
 1. **Os nomes das paragens saíam cortados.** Com nome, temperatura e chuva na mesma linha, a

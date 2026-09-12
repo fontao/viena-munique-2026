@@ -2,7 +2,7 @@
 name: planear-dia
 description: Planeia ou replaneia um dia da viagem de ponta a ponta e escreve-o nos dois documentos. Usar quando se pede para mudar o programa de um dia, acrescentar ou trocar uma visita, ajustar horários, inverter a ordem da tarde, ou quando se pergunta se um dia ainda cabe no tempo que tem.
 argument-hint: [n.º do dia] [o que mudar]
-allowed-tools: Bash(python verificar.py *), Bash(python meteo.py *), Bash(agy *), Read, Edit, Grep, Glob, WebSearch, WebFetch, mcp__osm__route, mcp__osm__route_matrix, mcp__osm__geocode
+allowed-tools: Bash(python scripts/verificar.py *), Bash(python scripts/meteo.py *), Bash(agy *), Read, Edit, Grep, Glob, WebSearch, WebFetch, mcp__osm__route, mcp__osm__route_matrix, mcp__osm__geocode
 ---
 
 # Planear ou replanear um dia
@@ -10,10 +10,10 @@ allowed-tools: Bash(python verificar.py *), Bash(python meteo.py *), Bash(agy *)
 O objetivo não é produzir um programa bonito. É produzir um programa que **fecha
 no relógio** e que fica escrito igual nos dois documentos.
 
-As regras de escrita estão em `.claude/referencia/convencoes.md` (língua,
+As regras de escrita estão em `.agents/referencia/convencoes.md` (língua,
 pontuação, marcadores, número de pessoas, voz). Os blocos de HTML a copiar estão
-em `.claude/referencia/anatomia-html.md`. As fontes aceitáveis estão em
-`.claude/referencia/fontes.md`.
+em `.agents/referencia/anatomia-html.md`. As fontes aceitáveis estão em
+`.agents/referencia/fontes.md`.
 
 ## 1. Ler o que já lá está, primeiro
 
@@ -41,7 +41,7 @@ Nunca estimar de cabeça:
   facto fica `⚠️`.
 - **Luz do dia:** a hora do pôr do sol decide a ordem da tarde. Este roteiro já se
   enganou nisso uma vez, e ia fotografar Oberammergau no escuro.
-- **Tempo:** `python meteo.py --cidade <nome>`, se o dia tiver programa ao ar
+- **Tempo:** `python scripts/meteo.py --cidade <nome>`, se o dia tiver programa ao ar
   livre. Até meados de setembro os números são climatologia e não previsão, e isso
   diz-se ao utilizador em vez de os apresentar como previsão. Se o `meteo.py`
   sugerir uma troca de dias, **a decisão é do utilizador**, porque a sugestão olha
@@ -88,15 +88,15 @@ No markdown:
 Em `index.html`, no painel `#day-view-N`: o cartaz do dia (`day-banner-tag`,
 título, `day-banner-meta`), os `timeline-node` pela mesma ordem, e o separador
 `data-day="N"` se o resumo do dia mudou. Os blocos a copiar estão em
-`.claude/referencia/anatomia-html.md`. Atenção a um pormenor fácil de falhar: o
+`.agents/referencia/anatomia-html.md`. Atenção a um pormenor fácil de falhar: o
 markdown usa `–` nos intervalos e as `time-pill` do HTML usam `→`.
 
 Se o dia ganhou ou perdeu um sítio, atualizar também o array `locations` do mapa
-(ver a skill `mapa`) e, se a rota mudou de cidade, a lista `STOPS` do `meteo.py`.
+(ver a skill `mapa`) e, se a rota mudou de cidade, a lista `STOPS` do `scripts/meteo.py`.
 
 ## 5. Fechar
 
-1. `python verificar.py --dia N` e depois `python verificar.py`, sem 🔴. Agora sim:
+1. `python scripts/verificar.py --dia N` e depois `python scripts/verificar.py`, sem 🔴. Agora sim:
    o dia já está escrito e há alguma coisa para verificar.
 2. Segunda opinião do Gemini sobre a exequibilidade do dia, com a skill
    `segunda-opiniao`. É um modelo com pesquisa própria e apanha horários

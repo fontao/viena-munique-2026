@@ -34,14 +34,14 @@ serve melhor uma vírgula, dois pontos, um parêntesis ou um ponto final.
 O meio travessão (–) continua a usar-se nos intervalos de horas, que é uma
 convenção tipográfica e não pontuação: `10:30 – 12:05`.
 
-**Isto é verificado, não é uma questão de memória.** `python verificar.py --seccao
+**Isto é verificado, não é uma questão de memória.** `python scripts/verificar.py --seccao
 linguagem` dá **erro** em qualquer travessão longo que apareça nos dois documentos,
-e o `verificar.py` sai com código 1. O travessão volta sempre que alguém cola texto
+e o `scripts/verificar.py` sai com código 1. O travessão volta sempre que alguém cola texto
 vindo de fora, e a leitura não o apanha.
 
 ### O que conta como aviso, e porque é que devem ser poucos
 
-Um `verificar.py` com dezasseis avisos permanentes não é um verificador, é ruído: ninguém os
+Um `scripts/verificar.py` com dezasseis avisos permanentes não é um verificador, é ruído: ninguém os
 lê e o aviso verdadeiro passa despercebido no meio deles. **A regra é que todo o aviso ou se
 corrige, ou se explica ao verificador.** Três mecanismos, por ordem de preferência:
 
@@ -60,7 +60,7 @@ corrige, ou se explica ao verificador.** Três mecanismos, por ordem de preferê
 **⏰ Acordar ~04:45, o único dia madrugador, imposto pelo voo. Dia longo assumido: 20h15.**
 ```
 
-O `verificar.py` compara o número declarado com o que mede. Se baterem certo, o dia passa a
+O `scripts/verificar.py` compara o número declarado com o que mede. Se baterem certo, o dia passa a
 informação. **Se não baterem, avisa**, e é aí que isto vale alguma pena: acrescentar 90
 minutos ao fim do Dia 1 faz o aviso voltar no instante seguinte, a dizer «declara 20h15 mas
 tem 21h45». Um dia que não se declara continua a ser avisado acima das 17h, como sempre.
@@ -72,7 +72,7 @@ armadilha que fica armada.
 ⚠️ **Ao substituir travessões em massa, reler o resultado.** Uma vírgula no sítio de
 um travessão dá com frequência uma frase agramatical ou uma sequência ilegível de
 vírgulas, sobretudo em cabeçalhos, em células de tabela (`| — |`) e onde a frase já
-tinha dois pontos. Também parte os padrões do `verificar.py` que contavam com o
+tinha dois pontos. Também parte os padrões do `scripts/verificar.py` que contavam com o
 travessão, como o `RE_BLOCO`, que hoje aceita `,`, `:` e `·` por causa disso.
 
 ## Datas, horas e dinheiro
@@ -89,7 +89,7 @@ travessão, como o `RE_BLOCO`, que hoje aceita `,`, `:` e `·` por causa disso.
 | Distância | vírgula decimal | `1,5 km`, `113 km` |
 
 Aproximações levam `~` colado ao número: `~1h50`, `~285 km`. Uma hora aproximada
-dentro de um bloco (`22:30 – ~02:30`) é legítima, e o `verificar.py` sabe lê-la.
+dentro de um bloco (`22:30 – ~02:30`) é legítima, e o `scripts/verificar.py` sabe lê-la.
 
 ## Marcadores de confiança
 
@@ -141,7 +141,7 @@ gente escreve-se por extenso: «mais de uma centena de pessoas» na ronda do vig
 «o consumo de oito a dez lugares» numa mesa da Oktoberfest, «com sete pessoas isto era o
 risco n.º 1» a falar do plano antigo.
 
-Não é preciosismo. O `verificar.py` assinala todo o `N pessoas` com N maior que 6, porque é
+Não é preciosismo. O `scripts/verificar.py` assinala todo o `N pessoas` com N maior que 6, porque é
 assim que o plano de sete viajantes reaparece. Se as lotações e as notas históricas usarem
 algarismos, a verificação passa a ter quatro avisos permanentes que ninguém lê, e o aviso a
 sério perde-se no meio. Com esta regra, **um algarismo grande ao lado de `pessoas` é sempre

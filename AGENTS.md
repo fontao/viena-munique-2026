@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
@@ -21,11 +21,11 @@ the plan (e.g. "Six travellers, not seven, and lock the car booking times").
 | `index.html` | Single-file interactive guide rendering that same plan. Must be kept in sync with the markdown. |
 | `historico.md` | **Why the plan is what it is**: decisions taken, alternatives rejected, what each choice cost, and errors already made. Not checked by `verificar.py`. |
 | `catalogo_viena.md` | Research backlog of Vienna options: the pool the itinerary is chosen *from*, not the plan itself. |
-| `meteo.py` / `meteo.md` | Weather script and its generated report. `meteo.md` is output. The same script also generates the guide's forecast card, between the `WEATHER-AUTO` markers in `index.html`. Regenerate both, never hand-edit them. |
-| `verificar.py` | Consistency checker across both documents. Knows nothing about the world, only whether the two files agree. |
+| `scripts/meteo.py` / `meteo.md` | Weather script and its generated report. `meteo.md` is output. The same script also generates the guide's forecast card, between the `WEATHER-AUTO` markers in `index.html`. Regenerate both, never hand-edit them. |
+| `scripts/verificar.py` | Consistency checker across both documents. Knows nothing about the world, only whether the two files agree. |
 | `img/` | Local photos referenced by `index.html`. |
-| `.claude/skills/` | The procedures for changing the dossier. See **Skills** below. |
-| `.claude/referencia/` | Shared reference the skills load on demand: writing conventions, HTML block templates, primary sources. |
+| `.agents/skills/` | The procedures for changing the dossier. See **Skills** below. |
+| `.agents/referencia/` | Shared reference the skills load on demand: writing conventions, HTML block templates, primary sources. |
 
 When a fact changes (a price, a time, a headcount), it usually has to change in **both**
 `itinerario_viagem.md` and `index.html`. Grep the number across both before declaring done.
@@ -42,10 +42,10 @@ skills below; these are the constraints that hold regardless.
 1. **`itinerario_viagem.md` is the source of truth.** When the two documents disagree, the
    markdown wins, unless it is plainly the stale one, in which case you say so out loud rather
    than quietly aligning to it.
-2. **A fact changes in both files or in neither.** Run `python verificar.py` before calling
+2. **A fact changes in both files or in neither.** Run `python scripts/verificar.py` before calling
    any change done; it exists so this stops being a matter of memory.
 3. **Never promote a ⚠️ to a ✅ without opening a primary source in that moment.** A plausible
-   number is not a confirmed number. `.claude/referencia/fontes.md` lists what counts.
+   number is not a confirmed number. `.agents/referencia/fontes.md` lists what counts.
 4. **Every ticket line states how many people it covers.** 4 in Vienna (days 1–3), 6 from the
    evening of day 3. Split tickets must sum to the group. The old 7-traveller plan still
    leaves residue.
@@ -56,7 +56,7 @@ skills below; these are the constraints that hold regardless.
    reason for every number, and name what the choice cost. **No em-dashes (—) as
    punctuation**, in any language, in prose or in comments: use a comma, a colon, brackets or
    a full stop. The en-dash (–) stays only in time ranges. See
-   `.claude/referencia/convencoes.md`.
+   `.agents/referencia/convencoes.md`.
 7. **Get a second opinion from Gemini** before closing a replanned day or a batch of price
    updates. Ask it for everything and filter afterwards.
 8. **Say what you did not verify.** An honest gap beats a confident invention.
@@ -84,7 +84,7 @@ skills below; these are the constraints that hold regardless.
 
 ## Skills
 
-Nine project skills in `.claude/skills/`. Invoke with `/<name>`, or let them load when the
+Nine project skills in `.agents/skills/`. Invoke with `/<name>`, or let them load when the
 request matches.
 
 | Skill | For |
@@ -106,54 +106,54 @@ on is *true*, and `catalogo` researches options without ever touching the itiner
 ## Commands
 
 ```bash
-python verificar.py                # coherence check across both documents
-python verificar.py --dia 4        # just day 4's timings
-python verificar.py --so-erros     # only what is broken
-python verificar.py --seccao pessoas precos
-python verificar.py --seccao linguagem   # em-dashes, which rule 6 forbids
-python verificar.py --listar       # list the check sections
+python scripts/verificar.py                # coherence check across both documents
+python scripts/verificar.py --dia 4        # just day 4's timings
+python scripts/verificar.py --so-erros     # only what is broken
+python scripts/verificar.py --seccao pessoas precos
+python scripts/verificar.py --seccao linguagem   # em-dashes, which rule 6 forbids
+python scripts/verificar.py --listar       # list the check sections
 
-python meteo.py                    # matrix + hourly tables for every stop, to stdout
-python meteo.py --matriz           # just the stops × days matrix (the day-swap view)
-python meteo.py --hoje             # next 24 h only
-python meteo.py --cidade Viena     # filter stops by (partial) name, ignoring accents
-python meteo.py --listar           # list stops and exit
-python meteo.py --md meteo.md      # regenerate the committed report
-python meteo.py --html index.html  # inject the per-day forecast into the HTML guide
-python meteo.py --sem-sazonal      # skip the seasonal model (fewer calls, faster)
-python meteo.py --sem-matriz       # hourly tables only
-python meteo.py --todos-os-dias    # hourly tables for every stop on every trip day
+python scripts/meteo.py                    # matrix + hourly tables for every stop, to stdout
+python scripts/meteo.py --matriz           # just the stops × days matrix (the day-swap view)
+python scripts/meteo.py --hoje             # next 24 h only
+python scripts/meteo.py --cidade Viena     # filter stops by (partial) name, ignoring accents
+python scripts/meteo.py --listar           # list stops and exit
+python scripts/meteo.py --md meteo.md      # regenerate the committed report
+python scripts/meteo.py --html index.html  # inject the per-day forecast into the HTML guide
+python scripts/meteo.py --sem-sazonal      # skip the seasonal model (fewer calls, faster)
+python scripts/meteo.py --sem-matriz       # hourly tables only
+python scripts/meteo.py --todos-os-dias    # hourly tables for every stop on every trip day
 
-python meteo.py --md meteo.md --html index.html   # the refresh: one run, both documents
+python scripts/meteo.py --md meteo.md --html index.html   # the refresh: one run, both documents
 ```
 
 `--hoje`, `--todos-os-dias`, `--matriz`/`--sem-matriz`, `--sem-sazonal` and `--cidade` shape the
 report that goes to stdout. Naming two that contradict each other (`--hoje --todos-os-dias`,
 `--matriz --sem-matriz`) is an error instead of a silent pick, and `--md` refuses all of them: it
-regenerates the canonical report, and a partial one would be committed while `verificar.py`
+regenerates the canonical report, and a partial one would be committed while `scripts/verificar.py`
 stayed quiet. A flag whose request is already granted is fine, so `--matriz --sem-sazonal` and
 `--html` with `--sem-matriz` both work. `--cidade` matches without accents, so `fussen` finds
 `Füssen`.
 
-Standard library only, no dependencies, no build step. `verificar.py` is the closest thing
+Standard library only, no dependencies, no build step. `scripts/verificar.py` is the closest thing
 this repository has to a test suite: it is deterministic, it never touches the network, and
 it answers only "do the two documents agree with each other", never "is this fact true".
 `index.html` is opened directly in a browser, with no server and no bundler.
 
 ## Refreshing the weather
 
-`meteo.py` uses Open-Meteo (no API key, stdlib only). Refreshing is just re-running it,
-because there is no cache or state. Regenerate the committed report with `python meteo.py --md
+`scripts/meteo.py` uses Open-Meteo (no API key, stdlib only). Refreshing is just re-running it,
+because there is no cache or state. Regenerate the committed report with `python scripts/meteo.py --md
 meteo.md`; `meteo.md` is output and is never hand-edited.
 
-**The guide's forecast card is generated too, by the same command.** `python meteo.py --html
+**The guide's forecast card is generated too, by the same command.** `python scripts/meteo.py --html
 index.html` rewrites the block between the `WEATHER-AUTO:START` and `WEATHER-AUTO:END` markers
 in `index.html`: one cell per trip day, with the source labelled on each. Never hand-edit
 inside those markers, and run the two flags together, `--md meteo.md --html index.html`, so
-both documents come from one fetch of one model run. `python verificar.py --seccao meteo`
+both documents come from one fetch of one model run. `python scripts/verificar.py --seccao meteo`
 compares their generation dates and flags a half-refresh.
 
-`DAY_SUMMARY` at the top of `meteo.py` decides which stops represent each day in that card,
+`DAY_SUMMARY` at the top of `scripts/meteo.py` decides which stops represent each day in that card,
 including the three alpine stops of Day 4. It mirrors the itinerary's day titles, so update it
 alongside `STOPS` when a day's route changes.
 
@@ -164,7 +164,7 @@ and its thresholds (5 / 15 / 30 mm) were calibrated against this trip: at the or
 four of the seven days came out the same amber and the scale stopped distinguishing anything.
 
 **The checker reads a `data-dia` attribute, not a class name.** Class names are styling and
-change; when `weather-day-card` became `wx-row` on 11 September 2026, `verificar.py` went on
+change; when `weather-day-card` became `wx-row` on 11 September 2026, `scripts/verificar.py` went on
 counting the old name and reported the forecast block as empty while seven days sat inside it.
 Anything the checker counts has to be a contract, so emit the hook from the generator and keep
 it stable across redesigns.
@@ -180,7 +180,7 @@ that day is, and each is labelled in the output:
 
 Open-Meteo counts today as the first of its 16 days, so the last day it answers for is **today
 + 15**, not today + 16: asking for today + 16 is an HTTP 400, not an empty table.
-`forecast_horizon()` in `meteo.py` is the single place that boundary is computed.
+`forecast_horizon()` in `scripts/meteo.py` is the single place that boundary is computed.
 
 **A detailed forecast further out than ~14 days does not exist.** Deterministic skill runs
 out at ~7–10 days. Sites showing hour-by-hour 30-day forecasts are dressing up climatology.
@@ -338,7 +338,7 @@ public transport**. So:
   predicts traffic a year out. A live-traffic reading of today would not be more accurate.
 
 Public OSM services are rate-limited (~1 req/s), so batch questions with `route_matrix`
-instead of firing many `route` calls. For weather use `meteo.py`, not a maps tool.
+instead of firing many `route` calls. For weather use `scripts/meteo.py`, not a maps tool.
 
 Findings still belong in `itinerario_viagem.md` and `index.html`; the MCP is a check, not a
 record.
@@ -371,10 +371,10 @@ Every item below cost real time in this dossier. The common thread is that a too
   answers (**1.2.0**) while `agy models` never returns, so the fault is the model connection,
   not the binary. Rule 7 therefore stays unmet, and `historico.md` says so. **Bound such a call
   with a timeout and read the log file, never just the status.**
-- **Re-run `verificar.py` after any edit that reflows prose.** It counts strings, so a line
+- **Re-run `scripts/verificar.py` after any edit that reflows prose.** It counts strings, so a line
   break through "6 pessoas" dropped the pax count from 23 to 22 and the section still said
   "nothing to report". **Read the INFO lines, not only the errors.**
-- **Two files outside `verificar.py`'s scope.** It compares `itinerario_viagem.md` with
+- **Two files outside `scripts/verificar.py`'s scope.** It compares `itinerario_viagem.md` with
   `index.html` and nothing else, so `catalogo_viena.md` and `historico.md` are unchecked. A
   false Das Loft closure notice survived **eleven revisions** in the catalogue precisely
   because nothing reads it, and the catalogue is where the roteiro takes facts from. **After
@@ -386,7 +386,7 @@ Every item below cost real time in this dossier. The common thread is that a too
 
 ### The page in a real browser
 
-`verificar.py` reads the HTML as text, so it cannot see a layout that overflows, a colour that
+`scripts/verificar.py` reads the HTML as text, so it cannot see a layout that overflows, a colour that
 fails contrast, or a panel that renders empty. For that there is a second MCP, **`playwright`**
 in `.mcp.json`, which drives a headless Chromium over the `file://` page.
 

@@ -1,28 +1,28 @@
 ---
 name: meteo
 description: Atualiza a previsão do tempo e avalia se vale a pena trocar dias da viagem por causa da chuva. Usar quando se pergunta pelo tempo, se vai chover, se convém trocar o dia do castelo com o de Rothenburg, ou quando se pede para regenerar o meteo.md.
-allowed-tools: Bash(python meteo.py *), Read, Edit
+allowed-tools: Bash(python scripts/meteo.py *), Read, Edit
 ---
 
 # Tempo e trocas de dias
 
-O `meteo.py` usa a Open-Meteo, sem chave e só com biblioteca padrão. Não há cache
+O `scripts/meteo.py` usa a Open-Meteo, sem chave e só com biblioteca padrão. Não há cache
 nem estado guardado: atualizar é voltar a correr.
 
 ```bash
-python meteo.py                  # matriz e tabelas horárias de todas as paragens
-python meteo.py --matriz         # só a matriz paragens × dias, que é a vista de decisão
-python meteo.py --hoje           # próximas 24 horas
-python meteo.py --cidade Viena   # filtrar por nome parcial, sem maiúsculas nem acentos
-python meteo.py --md meteo.md    # regenerar o relatório versionado
-python meteo.py --html index.html  # injetar o resumo por dia no guia HTML
+python scripts/meteo.py                  # matriz e tabelas horárias de todas as paragens
+python scripts/meteo.py --matriz         # só a matriz paragens × dias, que é a vista de decisão
+python scripts/meteo.py --hoje           # próximas 24 horas
+python scripts/meteo.py --cidade Viena   # filtrar por nome parcial, sem maiúsculas nem acentos
+python scripts/meteo.py --md meteo.md    # regenerar o relatório versionado
+python scripts/meteo.py --html index.html  # injetar o resumo por dia no guia HTML
 ```
 
 Os filtros que mudam a vista (`--hoje`, `--todos-os-dias`, `--matriz`, `--sem-matriz`,
 `--sem-sazonal`, `--cidade`) são para a saída do terminal. Combinar dois que se contradizem
 (`--hoje --todos-os-dias`, `--matriz --sem-matriz`) **dá erro**, em vez de escolher um por
 conta própria, e o `--md` recusa-os todos: ele escreve o relatório completo, e uma versão
-parcial dele ficaria commitada sem que o `verificar.py` desse por isso. Um pedido já satisfeito
+parcial dele ficaria commitada sem que o `scripts/verificar.py` desse por isso. Um pedido já satisfeito
 passa: `--matriz --sem-sazonal` é legítimo, porque a matriz nunca consulta o modelo sazonal.
 O `--cidade` ignora maiúsculas **e acentos**, portanto `fussen` encontra `Füssen`.
 
@@ -34,14 +34,14 @@ uma célula por dia da viagem, com a fonte rotulada em cada uma. **Não se edita
 dentro à mão.** Correr os dois juntos, para os dois ficheiros saírem da mesma leitura:
 
 ```bash
-python meteo.py --md meteo.md --html index.html
+python scripts/meteo.py --md meteo.md --html index.html
 ```
 
 Quem decide que paragens representam cada dia nesse cartão é a lista `DAY_SUMMARY`, no
-topo do `meteo.py`, incluindo as três paragens alpinas do Dia 4. Espelha os títulos
+topo do `scripts/meteo.py`, incluindo as três paragens alpinas do Dia 4. Espelha os títulos
 dia-a-dia do itinerário, portanto muda com eles.
 
-`python verificar.py --seccao meteo` compara as datas de geração dos dois e assinala uma
+`python scripts/verificar.py --seccao meteo` compara as datas de geração dos dois e assinala uma
 atualização feita só a metade.
 
 ## A honestidade é o ponto
@@ -100,7 +100,7 @@ seja, uma troca decidida hoje é uma troca decidida sobre médias. Isso diz-se.
 
 ## Manutenção
 
-As paragens vivem na lista `STOPS`, no topo do `meteo.py`, e têm de espelhar a rota
+As paragens vivem na lista `STOPS`, no topo do `scripts/meteo.py`, e têm de espelhar a rota
 do itinerário. **Se a rota mudar no `itinerario_viagem.md`, atualizar `STOPS`.**
 
 **A `DAY_SUMMARY`, logo abaixo, também muda com a rota:** é ela que diz quais das

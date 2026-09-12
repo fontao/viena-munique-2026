@@ -1,7 +1,7 @@
 ---
 name: auditar
 description: Auditoria completa ao dossiê. Exequibilidade dos sete dias, prazos vencidos, preços por confirmar, coerência entre os documentos, e segunda opinião do Gemini. Usar antes de dar uma revisão por fechada, quando se pergunta se está tudo bem, ou quando se retoma o dossiê depois de semanas parado.
-allowed-tools: Bash(python verificar.py *), Bash(python meteo.py *), Bash(agy *), Read, Edit, Grep, Glob, WebSearch, WebFetch
+allowed-tools: Bash(python scripts/verificar.py *), Bash(python scripts/meteo.py *), Bash(agy *), Read, Edit, Grep, Glob, WebSearch, WebFetch
 effort: high
 ---
 
@@ -14,7 +14,7 @@ skill `sincronizar`.
 ## Coerência interna
 
 ```!
-python verificar.py
+python scripts/verificar.py
 ```
 
 Resolver todos os 🔴 e classificar cada ⚠️ como real ou como legítimo e explicado.
@@ -62,7 +62,7 @@ janelas de reserva da Oktoberfest; e horários de comboio, que mudam em dezembro
 
 ## Tempo
 
-Se faltarem menos de 16 dias para a viagem, correr `python meteo.py --matriz` e
+Se faltarem menos de 16 dias para a viagem, correr `python scripts/meteo.py --matriz` e
 avaliar as sugestões de troca **à luz das restrições reais**: bilhetes de hora
 marcada, janela do carro, e o grupo só ser de seis a partir do Dia 3. A sugestão
 do script olha só para a chuva e não sabe nada disto.

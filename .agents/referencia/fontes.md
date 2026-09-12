@@ -60,7 +60,7 @@ pulseira da Oide Wiesn permite sair e voltar a entrar, e o estado do
 
 | O quê | Como |
 |---|---|
-| Previsão e clima | `python meteo.py`, que usa a Open-Meteo. Nunca um site de meteorologia |
+| Previsão e clima | `python scripts/meteo.py`, que usa a Open-Meteo. Nunca um site de meteorologia |
 | Distâncias e tempos de carro | `osm` MCP, ferramenta `route` |
 | Coordenadas | `osm` MCP, ferramenta `geocode` |
 

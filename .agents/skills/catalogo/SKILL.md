@@ -40,7 +40,7 @@ O que uma opção tem de trazer para ser utilizável mais tarde:
 - **Quanto tempo demora** a visita, a sério, e não o que o site diz.
 - **A que distância** fica daquilo que já está no plano.
 - **A fonte**, com marcador `✅` ou `⚠️`. A lista está em
-  `.claude/referencia/fontes.md`.
+  `.agents/referencia/fontes.md`.
 - **Se precisa de reserva**, e com que antecedência.
 
 ## Descartar
@@ -57,7 +57,7 @@ Fontes primárias, como em todo o resto: o site do próprio sítio, nunca uma li
 de um ponto, e o preço e o horário vêm depois, do site oficial.
 
 Escrever em português europeu, com a mesma voz do resto do dossiê, descrita em
-`.claude/referencia/convencoes.md`: afirmar, dar a razão de cada número, e dizer o
+`.agents/referencia/convencoes.md`: afirmar, dar a razão de cada número, e dizer o
 que cada opção custa em tempo, que é a moeda que falta nesta viagem. Dinheiro não
 é o problema.
 

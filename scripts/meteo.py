@@ -3,15 +3,15 @@
 
 Usa a API pública Open-Meteo (sem chave). Basta voltar a correr para actualizar:
 
-    python meteo.py                # todas as paragens, tabela por dia
-    python meteo.py --hoje         # só as próximas 24 h em cada cidade
-    python meteo.py --cidade Viena # filtra por nome, sem maiúsculas nem acentos
-    python meteo.py --listar       # lista as paragens e sai
-    python meteo.py --md meteo.md  # escreve um relatório markdown
-    python meteo.py --html index.html  # injeta o resumo por dia no guia HTML
+    python scripts/meteo.py                # todas as paragens, tabela por dia
+    python scripts/meteo.py --hoje         # só as próximas 24 h em cada cidade
+    python scripts/meteo.py --cidade Viena # filtra por nome, sem maiúsculas nem acentos
+    python scripts/meteo.py --listar       # lista as paragens e sai
+    python scripts/meteo.py --md meteo.md  # escreve um relatório markdown
+    python scripts/meteo.py --html index.html  # injeta o resumo por dia no guia HTML
 
 O `--md` e o `--html` escrevem no mesmo sítio a mesma informação, por isso
-correm-se juntos: `python meteo.py --md meteo.md --html index.html`.
+correm-se juntos: `python scripts/meteo.py --md meteo.md --html index.html`.
 
 Os filtros de vista (`--hoje`, `--todos-os-dias`, `--matriz`, `--sem-matriz`,
 `--sem-sazonal`, `--cidade`) são para a saída do terminal. Combinar dois que se
@@ -773,7 +773,7 @@ def render_weather_html() -> list[str]:
     hoje = pretty_date(date.today())
     out = [
         WEATHER_HTML_START,
-        f"<!-- Gerado por python meteo.py --html index.html a {hoje}."
+        f"<!-- Gerado por python scripts/meteo.py --html index.html a {hoje}."
         " Não editar à mão: correr o comando outra vez. -->",
         '<div class="weather-strip">',
     ]

@@ -1,7 +1,7 @@
 ---
 name: sincronizar
 description: Verifica e repara a coerência entre itinerario_viagem.md e index.html. Usar sempre que se muda um preço, uma hora, um número de pessoas ou um estado de bilhete, e quando se pergunta se os dois documentos estão a dizer a mesma coisa.
-allowed-tools: Bash(python verificar.py *), Read, Edit, Grep
+allowed-tools: Bash(python scripts/verificar.py *), Read, Edit, Grep
 ---
 
 # Pôr os dois documentos a dizer o mesmo
@@ -13,7 +13,7 @@ alguém escrever uma coisa errada, é alguém corrigir só metade.
 ## Estado atual
 
 ```!
-python verificar.py
+python scripts/verificar.py
 ```
 
 ## Como ler o que está em cima
@@ -53,7 +53,7 @@ Ordem de trabalho:
 4. **Marcadores.** Um `⚠️` nunca sobe a `✅` sem fonte primária aberta nesse
    momento.
 
-Depois de cada correção, correr `python verificar.py --so-erros` outra vez.
+Depois de cada correção, correr `python scripts/verificar.py --so-erros` outra vez.
 
 ## O que o verificador não apanha
 
@@ -68,10 +68,10 @@ Confirmar à mão sempre que a alteração os afete:
   `index.html` existe e que cada dia traz a fonte rotulada, mas **não compara número a
   número** com o `meteo.md`: se as datas de geração baterem certo, assume que batem.
   Quem quiser os números alinhados volta a correr
-  `python meteo.py --md meteo.md --html index.html`.
+  `python scripts/meteo.py --md meteo.md --html index.html`.
 - O bloco `## 🔄 Trocar dias?`, se a decisão que ali está descrita deixou de valer.
 
 ## Fechar
 
-`python verificar.py` sem 🔴, e ao utilizador: o que estava dessincronizado, por
+`python scripts/verificar.py` sem 🔴, e ao utilizador: o que estava dessincronizado, por
 qual dos dois lados se alinhou, e o que ficou como aviso por decisão humana.

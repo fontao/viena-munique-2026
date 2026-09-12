@@ -57,7 +57,7 @@ de coisas que foram decididas de propósito neste dossiê.
 1. Separar o que é factual (um preço, uma hora, um horário de abertura) do que é
    opinião («seria melhor visitar de manhã»).
 2. **Cada facto que ele levanta confirma-se em fonte primária** antes de se
-   tocar nos documentos. A lista está em `.claude/referencia/fontes.md`.
+   tocar nos documentos. A lista está em `.agents/referencia/fontes.md`.
 3. As opiniões avaliam-se à luz das decisões já registadas. Muitas já foram
    consideradas e rejeitadas, com a razão escrita no bloco `> ### Porque é que este
    dia foi reconstruído` ou na secção `## 🔄 Trocar dias?`.

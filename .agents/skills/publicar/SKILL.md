@@ -1,7 +1,7 @@
 ---
 name: publicar
 description: Fecha uma alteração ao dossiê, com verificação, commit no estilo do repositório e publicação no GitHub Pages. Usar quando se pede para guardar, fazer commit, publicar ou pôr no ar as alterações.
-allowed-tools: Bash(python verificar.py *), Bash(git status *), Bash(git diff *), Bash(git add *), Bash(git commit *), Bash(git push *), Bash(git log *), Read
+allowed-tools: Bash(python scripts/verificar.py *), Bash(git status *), Bash(git diff *), Bash(git add *), Bash(git commit *), Bash(git push *), Bash(git log *), Read
 ---
 
 # Fechar e publicar
@@ -11,7 +11,7 @@ partir do `main` de `github.com/fontao/viena-munique-2026`. Um push publica.
 
 ## Antes de tocar no git
 
-1. `python verificar.py`, **sem 🔴**. Um erro de coerência publicado é um erro que
+1. `python scripts/verificar.py`, **sem 🔴**. Um erro de coerência publicado é um erro que
    alguém vai ler no telemóvel à porta de um castelo.
 2. `git status --short` e `git diff`, para ler o que vai no commit. Confirmar que
    não vai nada a mais: o `.omc/`, o `.roundtable/` e o `.playwright-mcp/` estão no

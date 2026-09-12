@@ -2,7 +2,7 @@
 name: mapa
 description: Acrescenta, corrige ou remove um marcador no mapa interativo do index.html. Usar quando se acrescenta um sítio novo ao roteiro, quando um pin está no sítio errado, ou quando se pedem as coordenadas de um lugar.
 argument-hint: [sítio]
-allowed-tools: Bash(python verificar.py *), Read, Edit, Grep
+allowed-tools: Bash(python scripts/verificar.py *), Read, Edit, Grep
 ---
 
 # Marcadores do mapa
@@ -22,7 +22,7 @@ Latitude primeiro. Para vários sítios de uma vez faz-se uma pergunta em lote,
 porque os serviços públicos do OSM têm um limite de cerca de um pedido por segundo.
 
 Uma latitude trocada com a longitude dá um pin algures na Somália, e o verificador
-apanha isso: `python verificar.py --seccao mapa` rejeita coordenadas que caiam
+apanha isso: `python scripts/verificar.py --seccao mapa` rejeita coordenadas que caiam
 fora da área da viagem.
 
 ## `iconType`, a armadilha silenciosa
@@ -66,6 +66,6 @@ sítios onde um número velho sobrevive mais tempo.
 
 ## Ao acabar
 
-`python verificar.py --seccao mapa` sem 🔴, e confirmar que o sítio novo também
+`python scripts/verificar.py --seccao mapa` sem 🔴, e confirmar que o sítio novo também
 existe no dia respetivo do itinerário e do HTML. Um pin no mapa que não aparece em
 dia nenhum é um sítio que ninguém vai visitar.
