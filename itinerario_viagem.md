@@ -226,7 +226,7 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | **[Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien)** ([Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) | 4 | **grátis** | Dia 2 · vista exterior a partir da praça, sem subida (poupa €58) |
 | **Passeio pelo [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg)** (Dia 3, noite) | 6 | **grátis** | Caminhada pelos canais históricos UNESCO e brinde na Rathausplatz antes do jantar |
 | **Shuttle da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau)** (Dia 4) | 6 | ✅ **€5,00**/pax ida e volta = **€30** | Sai do **P4** · só ida €3,50 · subidas das 08:00 às 17:30 |
-| **Estacionamento** ([Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)) | - | ✅ **€12** até 6 h | Dia 4 · P1 a P4 · teto de €16/dia · cartão ou moedas |
+| **Estacionamento** ([Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)) | - | ✅ **€12** | Dia 4 · P1 a P4 |
 | **Almoço informal no [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau)** (Dia 4) | 6 | **grátis** / ~€4–6 | Piquenique com comida de casa/takeaway junto ao lago ou quiosque/tasca rápida na aldeia · sem reservas |
 | **[Abadia de Ettal](https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal)** (Dia 4, opcional) | 6 | Basílica **grátis** | Só na Rota B · basílica 08:00–18:00 · **loja fecha às 17:00** |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €54 (3 pax) + €54 (3 pax) = **€108** | Repartir 3+3 e não 5+1: custa o mesmo |
@@ -723,19 +723,16 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
     - 🪙 **Levar moedas de 0,50 € e 1 €:** necessárias para as casas de banho públicas da aldeia e dos parques que não aceitam cartão.
 - **10:30 – 12:05**: Condução panorâmica pela **B17** de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) até [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)
   (**103 km, ~1h27 em fluxo livre**, OSRM). O percurso contempla **1h35** de condução como margem de segurança, prevendo o afunilamento da B17 para faixa simples a sul de [Schongau](https://www.google.com/maps/search/?api=1&query=Schongau%2C%2086956) e o tráfego de sábado em direção aos castelos.
-- **12:05 – 14:15**: **[Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), miradouro e [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau). 130 minutos, sem hora marcada.**
+- **12:05 – 14:15**: **[Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), miradouro e [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) (130 min).**
   - 🚌 ✅ **Shuttle do P4, €5,00 por pessoa ida e volta = €30 para os 6.** Só ida são €3,50.
-    Sai da paragem ao lado do parque **P4 ([Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau))** e larga no miradouro *Jugend*, a **5
+    Sai da paragem na Alpseestraße, encostada ao parque **P4 ([Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau))** e junto ao Schlosshotel Lisl (se o carro ficar no P1 ou P2 são 5 a 8 min a pé a subir até à paragem). Larga no miradouro *Jugend*, a **5
     minutos a pé da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau)**. Primeira partida às 08:00, última subida às 17:30,
     sem horário fixo, mais ou menos de 20 em 20 minutos. *(Tabela oficial da hohenschwangau.de.)*
     A subida a pé do P4 à ponte são **45 minutos** de rampa: recomenda-se o shuttle (carruagem de cavalos em alternativa: €8 a subir e €4 a descer).
-  - 🅿️ ✅ **Estacionamento: €12,00 até 6 horas**, mais €1,00 por cada hora seguinte, com
-    **teto de €16,00 ao dia**, nos parques oficiais P1 a P4, a pagar em posto automático com
-    cartão ou moedas. *(Tabela oficial da hohenschwangau.de.)*
-    Entrando às 12:05 e saindo às 15:00 são **€12**. 🗺️ [Waze GPS: Parkplatz P4 Alpsee](https://waze.com/ul?q=Parkplatz%20P4%20Alpsee%2C%20Alpseestra%C3%9Fe%2024%2C%2087645%20Schwangau&navigate=yes)
+  - 🅿️ ✅ **Estacionamento: €12,00 até 6 horas**, mais €1,00 por cada hora seguinte e **teto de €16,00 ao dia**, nos parques oficiais P1 a P4, a pagar em posto automático com cartão ou moedas. *(Tabela oficial da hohenschwangau.de.)* Entrando às 12:05 e saindo às 15:00 são **€12**. 🗺️ [Waze GPS: Parkplatz P4 Alpsee](https://waze.com/ul?q=Parkplatz%20P4%20Alpsee%2C%20Alpseestra%C3%9Fe%2024%2C%2087645%20Schwangau&navigate=yes)
     🚫 **Não se sobe de carro até ao castelo.** Ao meio-dia de um sábado de setembro os parques
     de cima (P3 e P4, junto ao [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) e à paragem do shuttle) costumam já estar cheios: contem
-    com ser encaminhados para o P1 ou P2, o que acrescenta **5 a 8 minutos de caminhada**.
+    com ser encaminhados para o P1 ou P2, o que acrescenta **5 a 8 minutos de caminhada** a subir a Alpseestraße.
   - 🏞️ **O [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau) fica ali mesmo**, ao lado do Ticket Center, e é grátis. Espaço ideal para caminhar junto à água enquanto se aguarda o shuttle ou a hora de almoço.
   - ⚠️ **Confirmar o estado da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau) em hohenschwangau.de na véspera.** Fecha por mau
     tempo ou obras, sem aviso prévio, e neste plano ela é o ponto central da manhã. *(A garganta do Pöllat encontra-se encerrada por risco de derrocada).*

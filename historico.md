@@ -120,6 +120,11 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - **Atualização nas tabelas de bilhetes e reservas:** Retirada a linha do Alpenstuben da tabela "Tratar antes de partir" e atualizada a tabela "Comprar no local" para o formato de piquenique/Imbiss descontraído.
     - **Validação:** `scripts/verificar.py` executado com 0 erros, 87 preços em comum e 0 travessões proibidos.
 
+20. **Clarificação de terreno no Dia 4: localização da paragem do shuttle e remoção de redundância "sem hora marcada".**
+    - **Remoção de meta-talk (Regra 11):** O parágrafo descritivo do bloco da Marienbrücke iniciava-se com a expressão «130 minutos sem hora marcada.», o que constituía uma repetição desnecessária face ao badge de tempo (12:05–14:15) e um resquício de narrativa de planeador. O texto foi retificado para ir direto à instrução de navegação no terreno.
+    - **Localização explícita da paragem do shuttle:** O texto principal referia apenas «sobe-se de shuttle», sem especificar o ponto de partida. Foi clarificado que a paragem se localiza na Alpseestraße (junto ao Schlosshotel Lisl e encostada à entrada do parque oficial P4 Alpsee). Se os parques P3 e P4 estiverem lotados e o carro for encaminhado para o P1 ou P2, os viajantes têm uma subida a pé de 5 a 8 minutos pela Alpseestraße até à paragem. O autocarro sobe até ao miradouro Jugend, ficando a 5 minutos de caminhada da ponte Marienbrücke.
+    - **Validação:** Sincronizado entre `itinerario_viagem.md`, `partials/itinerary.html` e `index.html`. `scripts/verificar.py` validado com 0 erros.
+
 ---
 
 
