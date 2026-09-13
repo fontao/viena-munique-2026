@@ -1,7 +1,7 @@
 ---
 name: bilhete
 description: Acrescenta ou atualiza um bilhete, passe ou reserva no hub de bilhetes, nos dois documentos. Usar quando se compra alguma coisa, quando um preço ou prazo muda, quando se marca um bilhete como comprado, ou quando se acrescenta uma reserva nova.
-argument-hint: [bilhete] [o que mudou]
+argument-hint: "[bilhete] [o que mudou]"
 allowed-tools: Bash(python scripts/verificar.py *), Read, Edit, Grep, WebSearch, WebFetch
 ---
 

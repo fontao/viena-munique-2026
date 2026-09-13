@@ -1,7 +1,7 @@
 ---
 name: catalogo
 description: Faz a gestão do catálogo de opções pesquisadas, ou seja, o que se pode fazer numa cidade, com preço, horário e fonte, antes de entrar no roteiro. Usar quando se pede para pesquisar sítios, restaurantes ou bares, para comparar alternativas, ou quando se quer saber o que ficou de fora do plano e porquê.
-argument-hint: [cidade ou tema]
+argument-hint: "[cidade ou tema]"
 allowed-tools: Read, Edit, Write, Grep, Glob, WebSearch, WebFetch, mcp__osm__geocode, mcp__osm__find_nearby_pois
 ---
 

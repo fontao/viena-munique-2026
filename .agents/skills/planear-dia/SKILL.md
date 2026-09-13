@@ -1,7 +1,7 @@
 ---
 name: planear-dia
 description: Planeia ou replaneia um dia da viagem de ponta a ponta e escreve-o nos dois documentos. Usar quando se pede para mudar o programa de um dia, acrescentar ou trocar uma visita, ajustar horários, inverter a ordem da tarde, ou quando se pergunta se um dia ainda cabe no tempo que tem.
-argument-hint: [n.º do dia] [o que mudar]
+argument-hint: "[n.º do dia] [o que mudar]"
 allowed-tools: Bash(python scripts/verificar.py *), Bash(python scripts/meteo.py *), Bash(agy *), Read, Edit, Grep, Glob, WebSearch, WebFetch, mcp__osm__route, mcp__osm__route_matrix, mcp__osm__geocode
 ---
 

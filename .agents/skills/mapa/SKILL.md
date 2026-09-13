@@ -1,7 +1,7 @@
 ---
 name: mapa
 description: Acrescenta, corrige ou remove um marcador no mapa interativo do index.html. Usar quando se acrescenta um sítio novo ao roteiro, quando um pin está no sítio errado, ou quando se pedem as coordenadas de um lugar.
-argument-hint: [sítio]
+argument-hint: "[sítio]"
 allowed-tools: Bash(python scripts/verificar.py *), Read, Edit, Grep
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: segunda-opiniao
 description: Pede uma revisão independente ao Gemini 3.7 Flash através do Antigravity CLI. Usar quando um dia foi replaneado, quando se atualizou um lote de preços, quando há uma dúvida sobre um facto, ou sempre que se quer uma opinião externa antes de fechar uma alteração.
-argument-hint: [o que rever]
+argument-hint: "[o que rever]"
 allowed-tools: Bash(agy *), Read
 ---
 
