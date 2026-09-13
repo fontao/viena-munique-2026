@@ -12,7 +12,7 @@ Um bilhete vive em três sítios e tem de dizer o mesmo nos três:
 1. `itinerario_viagem.md`, na secção `## 🎫 Hub de Bilhetes, Passes & Reservas`, e
    também na tabela `## 🚨 Prazos Críticos` se tiver data-limite;
 2. `itinerario_viagem.md`, no dia em que se usa;
-3. `index.html`, no cartão da secção `#tickets` e na `callout-box` do bloco do dia.
+3. `partials/tickets.html` e o cartão do dia no respetivo partial (`partials/itinerary.html`).
 
 ## O que uma entrada tem de dizer
 
@@ -35,7 +35,7 @@ Sem exceção, e por esta ordem de importância:
    motivo da urgência pelo valor realmente pago.
 2. No hub: `✅` e o valor pago, que pode não ser o que estava estimado. Se mudou,
    dizê-lo em vez de apagar o número antigo em silêncio.
-3. Em `index.html`: `ticket-badge success` com `✅ Comprado`. **Não se mexe na
+3. Em `partials/tickets.html`: `ticket-badge success` com `✅ Comprado`. **Não se mexe na
    checkbox.** Quem indica o estado é a etiqueta, e não a caixa. Mantém-se
    `class="tkt-check"` e a `<span>` a dizer «Tratado», como já acontece na Westbahn
    e no ICE 116, que estão pagos e continuam a marcar-se à mão.

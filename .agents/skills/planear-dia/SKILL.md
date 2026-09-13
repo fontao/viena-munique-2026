@@ -85,7 +85,7 @@ No markdown:
 - se a mudança contraria uma decisão anterior, um bloco `> ### O que estava errado
   e mudou`, a explicar o quê, porquê e o que custou a troca.
 
-Em `index.html`, no painel `#day-view-N`: o cartaz do dia (`day-banner-tag`,
+Em `partials/itinerary.html`, no painel `#day-view-N`: o cartaz do dia (`day-banner-tag`,
 título, `day-banner-meta`), os `timeline-node` pela mesma ordem, e o separador
 `data-day="N"` se o resumo do dia mudou. Os blocos a copiar estão em
 `.agents/referencia/anatomia-html.md`. Atenção a um pormenor fácil de falhar: o

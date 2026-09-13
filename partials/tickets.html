@@ -1,0 +1,180 @@
+        <section id="tickets" class="tickets-section">
+            <div class="section-head">
+                <span class="section-tag" style="color: var(--accent-purple);"><i class="fa-solid fa-ticket"></i> Gestão de Reservas & Passes</span>
+                <h2 class="section-heading">Bilhetes a Comprar & Tratar</h2>
+                <p class="section-desc">Resumo essencial de preços, quantidades e momento de compra de todos os bilhetes da viagem.</p>
+            </div>
+
+            <div class="tickets-grid">
+                <!-- Ticket 1: Voos TAP -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge booked">Confirmado</span>
+                            <span style="font-size: 1.2rem;">✈️</span>
+                        </div>
+                        <h3 class="ticket-title">Voos TAP Air Portugal</h3>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Quantos bilhetes:</span> <strong>6 passageiros (ida e regresso)</strong></div>
+                            <div class="ticket-meta-row"><span>Quando:</span> <strong>Já comprado</strong></div>
+                            <div class="ticket-meta-row"><span>Check-in:</span> <strong>Online 36h antes</strong></div>
+                            <div class="ticket-meta-row"><span>Plataforma:</span> <strong>flytap.com</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_flights" checked disabled>
+                            <span style="font-size: 0.78rem; font-weight: 700; color: var(--accent-emerald);">Comprado</span>
+                        </label>
+                        <a href="https://www.flytap.com" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Site TAP</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 2: Westbahn Viena -> Salzburgo (Dia 3) -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge success">✅ Comprado</span>
+                            <span style="font-size: 1.2rem;">🚆</span>
+                        </div>
+                        <h3 class="ticket-title">Westbahn · <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wien%20Westbahnhof%2C%20Europaplatz%201%2C%201150%20Wien">Wien Westbahnhof</a> ➔ <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg">Salzburg Hbf</a></h3>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Quantos bilhetes:</span> <strong>4 pessoas (Comboio 910, 10:38 ➔ 13:08)</strong></div>
+                            <div class="ticket-meta-row"><span>Preço:</span> <strong>€43,99/pax = €175,96 total</strong></div>
+                            <div class="ticket-meta-row"><span>Quando:</span> <strong>Já comprado (25 Set)</strong></div>
+                            <div class="ticket-meta-row"><span>Lugares:</span> <strong>224A, 224B, 223A, 223B</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_train_rjx" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://westbahn.at/en/ticket-shop/buy-tickets/" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-train"></i> Westbahn</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 3: ICE 116 Salzburgo -> Augsburgo (Dia 3) -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge success">✅ Comprado</span>
+                            <span style="font-size: 1.2rem;">🚄</span>
+                        </div>
+                        <h3 class="ticket-title">DB ICE 116 · <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg">Salzburg Hbf</a> ➔ <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg">Augsburg Hbf</a></h3>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Quantos bilhetes:</span> <strong>4 pessoas (14:00 ➔ 16:14, direto)</strong></div>
+                            <div class="ticket-meta-row"><span>Preço:</span> <strong>€157,96 (€39,49/pax · tarifa €135,96 + reserva €22,00)</strong></div>
+                            <div class="ticket-meta-row"><span>Quando:</span> <strong>Já comprado (25 Set)</strong></div>
+                            <div class="ticket-meta-row"><span>Operador:</span> <strong>DB Fernverkehr AG (bahn.de)</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_ice116" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://www.bahn.de" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-train"></i> bahn.de</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 4: 2x Bayern-Ticket -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge local">Comprar na Véspera / App</span>
+                            <span style="font-size: 1.2rem;">🎫</span>
+                        </div>
+                        <h3 class="ticket-title">2x Bayern-Ticket (Deutsche Bahn)</h3>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Quantos bilhetes:</span> <strong>2 bilhetes (3 + 3 = 6 pessoas)</strong></div>
+                            <div class="ticket-meta-row"><span>Preço:</span> <strong>€108 total grupo (€54 cada bilhete)</strong></div>
+                            <div class="ticket-meta-row"><span>Quando comprar:</span> <strong>Véspera (dom 27 Set) ou manhã do Dia 6 (seg 28 Set)</strong></div>
+                            <div class="ticket-meta-row"><span>Onde comprar:</span> <strong>App DB Navigator</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_bayern" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://www.bahn.de" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-mobile-screen"></i> DB Navigator</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 5: Transfer Aeroporto Viena -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge local">Comprar à Chegada</span>
+                            <span style="font-size: 1.2rem;">🚌</span>
+                        </div>
+                        <h3 class="ticket-title">Transfer Aeroporto VIE (Railjet + U1)</h3>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Quantos bilhetes:</span> <strong>4 pessoas</strong></div>
+                            <div class="ticket-meta-row"><span>Preço:</span> <strong>€5,50/pax = €22 total grupo</strong></div>
+                            <div class="ticket-meta-row"><span>Quando comprar:</span> <strong>À chegada a Viena (qua 23 Set)</strong></div>
+                            <div class="ticket-meta-row"><span>Onde comprar:</span> <strong>Máquinas no aeroporto ou app ÖBB</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_transfer_vie" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://www.viennaairportlines.at" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-bus"></i> Info VAL</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 6: Hofburg (Tesouro Imperial & Prunksaal) -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge booked">Comprar Online</span>
+                            <span style="font-size: 1.2rem;">👑</span>
+                        </div>
+                        <h3 class="ticket-title"><a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien">Tesouro Imperial</a> & <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien">Prunksaal</a> (Hofburg)</h3>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Quantos bilhetes:</span> <strong>4 pessoas (Tesouro + Prunksaal)</strong></div>
+                            <div class="ticket-meta-row"><span>Preço:</span> <strong>Tesouro: €16/pax · Prunksaal: €12/pax (audioguia €3 / €2,50)</strong></div>
+                            <div class="ticket-meta-row"><span>Quando comprar:</span> <strong>Online antes da viagem (visita qui 24 Set 13:40)</strong></div>
+                            <div class="ticket-meta-row"><span>Onde comprar:</span> <strong>shop.khm.at · onb.ac.at</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_schonbrunn" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Decidido</span>
+                        </label>
+                        <a href="https://shop.khm.at/tickets/" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-ticket"></i> Bilhetes Oficiais</a>
+                    </div>
+                </div>
+
+                <!-- Ticket 7: Bilhetes Simples Viena -->
+                <div class="ticket-card glass-panel glass-panel-interactive">
+                    <div>
+                        <div class="ticket-top">
+                            <span class="ticket-badge local">Comprar na App / Na Hora</span>
+                            <span style="font-size: 1.2rem;">🚇</span>
+                        </div>
+                        <h3 class="ticket-title">3× Bilhete Simples Wiener Linien</h3>
+                        <div class="ticket-meta">
+                            <div class="ticket-meta-row"><span>Quantos bilhetes:</span> <strong>12 bilhetes (3 viagens × 4 pessoas)</strong></div>
+                            <div class="ticket-meta-row"><span>Preço:</span> <strong>€3,00 na app / bilhete = €36 total grupo (€9,00 por pax)</strong> (poupa face ao passe 24h de €9,70 na app ou €10,20 em papel; na app poupa €0,50 face ao papel)</div>
+                            <div class="ticket-meta-row"><span>Quando comprar:</span> <strong>Na hora/no próprio dia conforme viagens (24 e 25 Set)</strong></div>
+                            <div class="ticket-meta-row"><span>Onde comprar:</span> <strong>App WienMobil</strong></div>
+                        </div>
+                    </div>
+                    <div class="ticket-actions">
+                        <label class="pack-item-label" style="padding: 0; background: transparent; min-height: unset;">
+                            <input type="checkbox" id="tkt_wien_24h" class="tkt-check">
+                            <span style="font-size: 0.78rem;">Tratado</span>
+                        </label>
+                        <a href="https://www.wienerlinien.at" target="_blank" class="ticket-buy-btn"><i class="fa-solid fa-train-subway"></i> Wiener Linien</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= OKTOBERFEST HUB ================= -->

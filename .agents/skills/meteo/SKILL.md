@@ -15,7 +15,7 @@ python scripts/meteo.py --matriz         # só a matriz paragens × dias, que é
 python scripts/meteo.py --hoje           # próximas 24 horas
 python scripts/meteo.py --cidade Viena   # filtrar por nome parcial, sem maiúsculas nem acentos
 python scripts/meteo.py --md meteo.md    # regenerar o relatório versionado
-python scripts/meteo.py --html index.html  # injetar o resumo por dia no guia HTML
+python scripts/meteo.py --html partials/weather.html  # injetar o resumo por dia no guia HTML
 ```
 
 Os filtros que mudam a vista (`--hoje`, `--todos-os-dias`, `--matriz`, `--sem-matriz`,
@@ -29,12 +29,12 @@ O `--cidade` ignora maiúsculas **e acentos**, portanto `fussen` encontra `Füss
 O `meteo.md` é um ficheiro **gerado**. Regenera-se, nunca se edita à mão.
 
 **O cartão do tempo do guia também é gerado, pelo mesmo comando.** O `--html` reescreve
-o bloco entre os marcadores `WEATHER-AUTO:START` e `WEATHER-AUTO:END` no `index.html`:
+o bloco entre os marcadores `WEATHER-AUTO:START` e `WEATHER-AUTO:END` no `partials/weather.html`:
 uma célula por dia da viagem, com a fonte rotulada em cada uma. **Não se edita nada lá
 dentro à mão.** Correr os dois juntos, para os dois ficheiros saírem da mesma leitura:
 
 ```bash
-python scripts/meteo.py --md meteo.md --html index.html
+python scripts/meteo.py --md meteo.md --html partials/weather.html
 ```
 
 Quem decide que paragens representam cada dia nesse cartão é a lista `DAY_SUMMARY`, no

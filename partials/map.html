@@ -1,0 +1,50 @@
+    <main class="app-container">
+
+        <!-- ================= INTRICATE MAP SECTION ================= -->
+        <section id="map-view" class="map-section">
+            <div class="section-head">
+                <span class="section-tag"><i class="fa-solid fa-location-dot"></i> Navegação & Trajetos Detalhados</span>
+                <h2 class="section-heading">Mapa Interativo da Rota</h2>
+                <p class="section-desc">Clica em qualquer ponto ou rota para ver as fotografias reais, horários e direções no Google Maps.</p>
+            </div>
+
+            <div class="map-wrapper glass-panel">
+                <!-- Location Filters -->
+                <div class="map-controls-bar">
+                    <div class="map-filters" id="map-filters">
+                        <button class="map-filter-btn active" data-filter="all"><i class="fa-solid fa-layer-group"></i> Toda a Viagem</button>
+                        <button class="map-filter-btn" data-filter="lisbon"><i class="fa-solid fa-plane-departure"></i> 🇵🇹 <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Lisboa%2C%20Portugal">Lisboa</a> (LIS)</button>
+                        <button class="map-filter-btn" data-filter="vienna"><i class="fa-solid fa-landmark"></i> 🇦🇹 <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich">Viena</a></button>
+                        <button class="map-filter-btn" data-filter="augsburg"><i class="fa-solid fa-house"></i> 🇩🇪 <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150">Augsburg</a> Base</button>
+                        <button class="map-filter-btn" data-filter="alps"><i class="fa-solid fa-mountain"></i> 🏔️ Alpes, <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau">Eibsee</a> & <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487">Oberammergau</a></button>
+                        <button class="map-filter-btn" data-filter="rothenburg"><i class="fa-solid fa-chess-rook"></i> 🏰 <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541">Rothenburg</a> & Vilas</button>
+                        <button class="map-filter-btn" data-filter="munich"><i class="fa-solid fa-beer-mug-empty"></i> 🍺 <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland">Munique</a>, Palácio & Estádio</button>
+                    </div>
+                    <span style="font-size: 0.78rem; color: var(--text-dim);"><i class="fa-solid fa-route"></i> 6 Traçados & 32 Pins com Fotos</span>
+                </div>
+
+                <!-- Scenic Route Line Selectors -->
+                <div class="map-routes-bar">
+                    <span style="font-size: 0.74rem; font-weight: 700; text-transform: uppercase; color: var(--text-dim); margin-right: 0.2rem;">Traçados:</span>
+                    <button class="map-route-pill active" data-route="all"><i class="fa-solid fa-globe"></i> Todas as Linhas</button>
+                    <button class="map-route-pill" data-route="flight-in"><i class="fa-solid fa-plane-arrival"></i> ✈️ Voo LIS ➔ VIE</button>
+                    <button class="map-route-pill" data-route="ice"><i class="fa-solid fa-train"></i> 🚆 Comboio Westbahn + ICE <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich">Viena</a> ➔ <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150">Augsburg</a></button>
+                    <button class="map-route-pill" data-route="alps"><i class="fa-solid fa-mountain"></i> 🏔️ Circuito Alpes, <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau">Eibsee</a> & <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Kloster%20Ettal%2C%2082488%20Ettal">Ettal</a></button>
+                    <button class="map-route-pill" data-route="romantic"><i class="fa-solid fa-chess-rook"></i> 🏰 Circuito Medieval a <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541">Rothenburg</a></button>
+                    <button class="map-route-pill" data-route="munich-train"><i class="fa-solid fa-beer-mug-empty"></i> 🍺 Excursão <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen">Oktoberfest</a> <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland">Munique</a></button>
+                    <button class="map-route-pill" data-route="flight-out"><i class="fa-solid fa-plane-departure"></i> ✈️ <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen">Nymphenburg</a>, <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen">Allianz Arena</a> ➔ Aeroporto MUC</button>
+                </div>
+
+                <div id="interactive-map"></div>
+
+                <div class="map-legend-bar">
+                    <div class="legend-item"><span class="legend-line" style="background: #38bdf8;"></span> Corredores de Voo TAP (LIS ➔ VIE / MUC ➔ LIS)</div>
+                    <div class="legend-item"><span class="legend-line" style="background: #818cf8;"></span> Linha Férrea Westbahn + ICE de Alta Velocidade</div>
+                    <div class="legend-item"><span class="legend-line" style="background: #10b981;"></span> Circuito Alpino dos Lagos, Castelos & <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487">Oberammergau</a></div>
+                    <div class="legend-item"><span class="legend-line" style="background: #f59e0b;"></span> Circuito das Vilas Medievais da Baviera</div>
+                    <div class="legend-item"><span class="legend-line" style="background: #ea580c;"></span> Bayern-Ticket <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland">Munique</a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= ITINERARY SECTION ================= -->

@@ -68,7 +68,7 @@ Confirmar à mão sempre que a alteração os afete:
   `index.html` existe e que cada dia traz a fonte rotulada, mas **não compara número a
   número** com o `meteo.md`: se as datas de geração baterem certo, assume que batem.
   Quem quiser os números alinhados volta a correr
-  `python scripts/meteo.py --md meteo.md --html index.html`.
+  `python scripts/meteo.py --md meteo.md --html partials/weather.html`.
 - O bloco `## 🔄 Trocar dias?`, se a decisão que ali está descrita deixou de valer.
 
 ## Fechar

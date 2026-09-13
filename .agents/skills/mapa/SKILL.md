@@ -7,8 +7,8 @@ allowed-tools: Bash(python scripts/verificar.py *), Read, Edit, Grep
 
 # Marcadores do mapa
 
-O mapa é Leaflet e os pins vêm todos do array `locations` em `index.html`, por
-volta da linha 3819.
+O mapa é Leaflet e os pins vêm todos do array `locations` em `partials/footer.html`, por
+volta da linha 580 (no bloco JS).
 
 ```js
 { name: "Palácio de Nymphenburg", city: "munich", iconType: "castle",

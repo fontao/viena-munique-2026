@@ -18,10 +18,12 @@ the plan (e.g. "Six travellers, not seven, and lock the car booking times").
 | File | Role |
 |---|---|
 | `itinerario_viagem.md` | **Source of truth** for the plan: deadlines, ticket hub, day-by-day schedule, prices. Holds the *decision*, never the history of how it changed. |
-| `index.html` | Single-file interactive guide rendering that same plan. Must be kept in sync with the markdown. |
+| `index.html` | Generated single-file interactive guide. Built from `partials/` by `build.py`. Never edit directly. |
+| `partials/` | The 10 HTML partials that compose the guide: `head.html`, `header.html`, `hero.html`, `map.html`, `itinerary.html`, `tickets.html`, `oktoberfest.html`, `weather.html`, `dossier.html`, `footer.html`. **This is what you edit.** |
+| `build.py` | Concatenates `partials/*` into `index.html`. Run after editing any partial. |
 | `historico.md` | **Why the plan is what it is**: decisions taken, alternatives rejected, what each choice cost, and errors already made. Not checked by `verificar.py`. |
 | `catalogo_viena.md` | Research backlog of Vienna options: the pool the itinerary is chosen *from*, not the plan itself. |
-| `scripts/meteo.py` / `meteo.md` | Weather script and its generated report. `meteo.md` is output. The same script also generates the guide's forecast card, between the `WEATHER-AUTO` markers in `index.html`. Regenerate both, never hand-edit them. |
+| `scripts/meteo.py` / `meteo.md` | Weather script and its generated report. `meteo.md` is output. The same script also generates the guide's forecast card, between the `WEATHER-AUTO` markers in `partials/weather.html`. Regenerate both, never hand-edit them. |
 | `scripts/verificar.py` | Consistency checker across both documents. Knows nothing about the world, only whether the two files agree. |
 | `img/` | Local photos referenced by `index.html`. |
 | `.agents/skills/` | The procedures for changing the dossier. See **Skills** below. |
@@ -106,6 +108,8 @@ on is *true*, and `catalogo` researches options without ever touching the itiner
 ## Commands
 
 ```bash
+python build.py                             # rebuild index.html from partials
+
 python scripts/verificar.py                # coherence check across both documents
 python scripts/verificar.py --dia 4        # just day 4's timings
 python scripts/verificar.py --so-erros     # only what is broken
@@ -119,12 +123,12 @@ python scripts/meteo.py --hoje             # next 24 h only
 python scripts/meteo.py --cidade Viena     # filter stops by (partial) name, ignoring accents
 python scripts/meteo.py --listar           # list stops and exit
 python scripts/meteo.py --md meteo.md      # regenerate the committed report
-python scripts/meteo.py --html index.html  # inject the per-day forecast into the HTML guide
+python scripts/meteo.py --html partials/weather.html  # inject forecast into the weather partial
 python scripts/meteo.py --sem-sazonal      # skip the seasonal model (fewer calls, faster)
 python scripts/meteo.py --sem-matriz       # hourly tables only
 python scripts/meteo.py --todos-os-dias    # hourly tables for every stop on every trip day
 
-python scripts/meteo.py --md meteo.md --html index.html   # the refresh: one run, both documents
+python scripts/meteo.py --md meteo.md --html partials/weather.html   # the refresh: one run, both documents
 ```
 
 `--hoje`, `--todos-os-dias`, `--matriz`/`--sem-matriz`, `--sem-sazonal` and `--cidade` shape the
@@ -147,11 +151,11 @@ because there is no cache or state. Regenerate the committed report with `python
 meteo.md`; `meteo.md` is output and is never hand-edited.
 
 **The guide's forecast card is generated too, by the same command.** `python scripts/meteo.py --html
-index.html` rewrites the block between the `WEATHER-AUTO:START` and `WEATHER-AUTO:END` markers
-in `index.html`: one cell per trip day, with the source labelled on each. Never hand-edit
-inside those markers, and run the two flags together, `--md meteo.md --html index.html`, so
-both documents come from one fetch of one model run. `python scripts/verificar.py --seccao meteo`
-compares their generation dates and flags a half-refresh.
+partials/weather.html` rewrites the block between the `WEATHER-AUTO:START` and `WEATHER-AUTO:END` markers
+in `partials/weather.html`: one cell per trip day, with the source labelled on each. Never hand-edit
+inside those markers, and run the two flags together, `--md meteo.md --html partials/weather.html`, so
+both documents come from one fetch of one model run. Then run `python build.py` to rebuild `index.html`.
+`python scripts/verificar.py --seccao meteo` compares their generation dates and flags a half-refresh.
 
 `DAY_SUMMARY` at the top of `scripts/meteo.py` decides which stops represent each day in that card,
 including the three alpine stops of Day 4. It mirrors the itinerary's day titles, so update it
@@ -221,11 +225,27 @@ day-by-day route. If the route changes in `itinerario_viagem.md`, update `STOPS`
 Climatology reconstructs its WMO weather code from mean rain and cloud cover (`synth_code`)
 because averaging real codes produces contradictions like "clear sky · 3 mm of rain".
 
-## index.html structure
+## Partials structure
 
-~4500 lines: `<style>` (from line ~23), markup, then one `<script>` (~line 3713) split into
-numbered comment sections (theme, countdown, navbar, map, day tabs, phrases, tickets,
-packing, lightbox, toasts).
+`index.html` is generated by `build.py` from 10 partials in `partials/`. **Edit the partials,
+not the generated file.** After editing, run `python build.py` to regenerate.
+
+| Partial | Lines | What it contains |
+|---|---|---|
+| `head.html` | ~2073 | `<!DOCTYPE>` through `<body>`, all `<style>` CSS |
+| `header.html` | ~30 | Navbar with nav links |
+| `hero.html` | ~83 | Hero banner + metrics bar |
+| `map.html` | ~50 | `<main>` open + Leaflet map section |
+| `itinerary.html` | ~1353 | Day-by-day timeline (the largest section) |
+| `tickets.html` | ~180 | Ticket hub |
+| `oktoberfest.html` | ~59 | Oktoberfest guide |
+| `weather.html` | ~185 | Weather card + packing checklist (has `WEATHER-AUTO` markers) |
+| `dossier.html` | ~136 | Accommodation, car rental, emergencies + `</main>` |
+| `footer.html` | ~721 | Footer, lightbox, scroll-to-top, all `<script>` JS |
+
+Each partial is a well-formed HTML fragment. The build script concatenates them in order with
+no transformation. GitHub Actions runs `build.py` on every push to `main` and deploys the
+result to GitHub Pages.
 
 - **Theming**: `data-theme="light"|"dark"` on `<html>`, all colors via CSS custom properties
   defined in `:root` (dark) and a `[data-theme="light"]` block. Light is the default. Never

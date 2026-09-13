@@ -1,0 +1,721 @@
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-flags">🇦🇹 🇩🇪 🇵🇹</div>
+        <p><strong>EuroTrip 2026: <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich">Viena</a> & <a class="geo" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland">Munique</a></strong>, 6 amigos, 7 dias, memórias para toda a vida.</p>
+        <div class="footer-links">
+            <a href="#itinerary">Roteiro</a>
+            <a href="#tickets">Bilhetes</a>
+            <a href="#map-view">Mapa</a>
+            <a href="#oktoberfest">Oktoberfest</a>
+            <a href="#logistics">Logística</a>
+            <a href="historico.md">Linha de pensamento</a>
+        </div>
+        <p style="font-size: 0.78rem; color: var(--text-dim); margin-top: 0.8rem;">Feito com ❤️ para o melhor grupo de sempre.</p>
+    </footer>
+
+    <!-- Fullscreen Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
+        <button class="lightbox-btn-close" id="lightbox-close" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
+        <img alt="Imagem ampliada" id="lightbox-img">
+    </div>
+
+    <!-- Scroll to Top Floating Button -->
+    <button class="btn-scroll-top" id="scroll-top" aria-label="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification Message -->
+    <div class="toast-msg" id="toast-msg">
+        <i class="fa-solid fa-circle-check" style="color: var(--accent-emerald);"></i>
+        <span id="toast-text-msg">Copiado com sucesso!</span>
+    </div>
+
+    <!-- Leaflet Map JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        // ================= 1. THEME SWITCHER (DARK / LIGHT) =================
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        let currentTheme = localStorage.getItem('vm_theme_2026') || 'light';
+
+        function applyTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('vm_theme_2026', theme);
+            if (theme === 'light') {
+                themeIcon.className = 'fa-solid fa-moon';
+                themeToggle.setAttribute('title', 'Mudar para Modo Escuro');
+            } else {
+                themeIcon.className = 'fa-solid fa-sun';
+                themeToggle.setAttribute('title', 'Mudar para Modo Claro');
+            }
+            updateMapTileLayer(theme);
+        }
+
+        themeToggle.addEventListener('click', () => {
+            currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            applyTheme(currentTheme);
+        });
+
+        // ================= 2. COUNTDOWN TIMER =================
+        const takeoffDate = new Date('2026-09-23T08:05:00+01:00').getTime();
+
+        function renderCountdown() {
+            const now = new Date().getTime();
+            const diff = takeoffDate - now;
+
+            if (diff <= 0) {
+                document.getElementById('cd-days').innerText = '00';
+                document.getElementById('cd-hours').innerText = '00';
+                document.getElementById('cd-minutes').innerText = '00';
+                document.getElementById('cd-seconds').innerText = '00';
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('cd-days').innerText = String(days).padStart(2, '0');
+            document.getElementById('cd-hours').innerText = String(hours).padStart(2, '0');
+            document.getElementById('cd-minutes').innerText = String(minutes).padStart(2, '0');
+            document.getElementById('cd-seconds').innerText = String(seconds).padStart(2, '0');
+        }
+        setInterval(renderCountdown, 1000);
+        renderCountdown();
+
+        // ================= 3. NAVBAR SCROLL & MOBILE TOGGLE =================
+        const siteHeader = document.getElementById('site-header');
+        const scrollTopBtn = document.getElementById('scroll-top');
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const toggleIcon = document.getElementById('toggle-icon');
+        const navMenu = document.getElementById('nav-menu');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 40) {
+                siteHeader.classList.add('scrolled');
+            } else {
+                siteHeader.classList.remove('scrolled');
+            }
+
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        function toggleMobileNav() {
+            const isOpen = navMenu.classList.toggle('open');
+            toggleIcon.className = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+        }
+
+        mobileToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleMobileNav();
+        });
+
+        // Close mobile nav on link click
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('open');
+                toggleIcon.className = 'fa-solid fa-bars';
+            });
+        });
+
+        // Close mobile nav on outside click
+        document.addEventListener('click', (e) => {
+            if (!siteHeader.contains(e.target) && navMenu.classList.contains('open')) {
+                navMenu.classList.remove('open');
+                toggleIcon.className = 'fa-solid fa-bars';
+            }
+        });
+
+        // ================= 4. INTRICATE LEAFLET INTERACTIVE MAP =================
+        const mapLocations = [
+            // Lisbon
+            { name: "Aeroporto Humberto Delgado (LIS)", city: "lisbon", iconType: "plane", coords: [38.7742, -9.1342], desc: "Partida do voo TAP TP 1270 às 08:05 e chegada no regresso TP 555 às 22:25." },
+
+            // Vienna
+            { name: "Aeroporto de Viena Schwechat (VIE)", city: "vienna", iconType: "plane", coords: [48.1103, 16.5697], desc: "Chegada do voo TAP TP 1270 às 12:35. Railjet das 13:33 até Wien Hbf + U1 até Schwedenplatz, €5,50/pessoa no mesmo bilhete.", img: "img/vienna_airport.webp" },
+            { name: "Stephansdom (Catedral de Viena)", city: "vienna", iconType: "monument", coords: [48.2085, 16.3738], desc: "Catedral gótica no centro histórico e vista 360° a partir da torre.", img: "img/vienna_stephansdom_1786477232698.webp" },
+            { name: "Palácio de Schönbrunn & Gloriette", city: "vienna", iconType: "castle", coords: [48.1845, 16.3122], desc: "Residência de verão dos Habsburgos, jardins barrocos e vista da Gloriette.", img: "img/schonbrunn_palace_1786477746840.webp" },
+            { name: "Wiener Prater & Kaiser Wiesn", city: "vienna", iconType: "beer", coords: [48.2166, 16.3959], desc: "Roda gigante centenária Riesenrad vista por fora e ambiente de festa no recinto da Kaiser Wiesn.", img: "img/wiener_prater_1786477757000.webp" },
+            { name: "Donaukanal (pôr do sol, 18:49)", city: "vienna", iconType: "cocktail", coords: [48.2128, 16.3768], desc: "Street art, bares improvisados e gente sentada no betão. Cerveja de supermercado, grátis. Motto am Fluss (2 min) e Badeschiff (10 min) para copo com serviço.", img: "img/donaukanal_vienna_1786477802836.webp" },
+            { name: "Jantar, Schöne Perle (Karmeliterviertel)", city: "vienna", iconType: "beer", coords: [48.2187, 16.3774], desc: "Große Pfarrgasse 2, 1020. Cozinha vienense honesta num bairro sem turistas, 8 min a pé do canal. Pratos €15,00–29,50. Aberto todos os dias 11:00–24:00, cozinha até 22:30. Reservas só por telefone: +43 1 890 32 04." },
+            { name: "DANZÓN Latin Club, \"FIESTA\"", city: "vienna", iconType: "cocktail", coords: [48.2049, 16.3739], desc: "Johannesgasse 3. Festa latina fixa todas as quartas, 20:00–04:00. Reggaeton, latin house e bachata. Sem porta seletiva nem dress code, a 12 min a pé de casa." },
+            { name: "Rooftop Bar Das Loft", city: "vienna", iconType: "cocktail", coords: [48.2132, 16.3792], desc: "Cocktail lounge no 18º andar (SO/ Vienna) com vista panorâmica sobre a cidade." },
+            { name: "Wien Westbahnhof ➔ Augsburg (via Salzburgo)", city: "vienna", iconType: "train", coords: [48.1966, 16.3387], desc: "Westbahn 910 às 10:38 até Salzburgo (13:08), depois ICE 116 direto até Augsburg (14:00-16:14). Dois bilhetes: €175,96 + €157,96 = €333,92.", img: "img/ice_train_austria.webp" },
+
+            // Transit / Augsburg
+            { name: "Augsburg (Base Alemanha & Rathausplatz)", city: "augsburg", iconType: "hotel", coords: [48.3721, 10.8955], desc: "Apartamento base dos 6 amigos (Am Bogen 6) e centro histórico medieval.", img: "img/augsburg_oldtown.webp" },
+            { name: "Rathausplatz & Perlachturm (Augsburg)", city: "augsburg", iconType: "monument", coords: [48.3688, 10.8987], desc: "Praça central com a Câmara Renascentista e torre Perlachturm. Esplanadas, brinde de reencontro e ponto de partida para o jantar dos 6." },
+            { name: "Lechviertel & Maximilianstraße (Augsburg)", city: "augsburg", iconType: "monument", coords: [48.3660, 10.8975], desc: "Bairro dos artesãos com canais (\"Pequena Veneza\") e a avenida renascentista com as fontes UNESCO. Passeio noturno grátis do Dia 3." },
+
+            // Bavarian Alps & Lakes
+            { name: "Castelo de Hohenschwangau & Lago Alpsee", city: "alps", iconType: "castle", coords: [47.5558, 10.7360], desc: "Castelo de verão da família real bávara e lago de montanha Alpsee.", img: "img/hohenschwangau.webp" },
+            { name: "Castelo de Neuschwanstein & Marienbrücke", city: "alps", iconType: "castle", coords: [47.5576, 10.7498], desc: "O castelo de conto de fadas do Rei Ludwig II e miradouro da ponte suspensa.", img: "img/neuschwanstein_castle_1786477245568.webp" },
+            { name: "Lago Alpino Eibsee & Zugspitze (2.962m)", city: "alps", iconType: "water", coords: [47.4578, 10.9928], desc: "Lago turquesa cristalino aos pés do pico mais alto da Alemanha.", img: "img/eibsee_lake_1786477275785.webp" },
+            { name: "Oberammergau (Aldeia dos Frescos & Ettal)", city: "alps", iconType: "monument", coords: [47.5967, 11.0633], desc: "Vila com fachadas de frescos alpinos (Lüftlmalerei) e Abadia barroca de Ettal.", img: "img/oberammergau_alps.webp" },
+
+            // Medieval Towns Circuit
+            { name: "Dinkelsbühl (Muralhas Medievais)", city: "rothenburg", iconType: "castle", coords: [49.0694, 10.3197], desc: "Casario medieval preservado do século XIV e muralhas completas com torres.", img: "img/dinkelsbuhl.webp" },
+            { name: "Rothenburg ob der Tauber (Plönlein)", city: "rothenburg", iconType: "castle", coords: [49.3773, 10.1789], desc: "A joia medieval mais famosa da Europa, praça Plönlein e doces Schneeballen.", img: "img/rothenburg_tauber_1786477768269.webp" },
+
+            // Munich & Oktoberfest
+            { name: "BMW Welt & Parque Olímpico 1972", city: "munich", iconType: "car", coords: [48.1768, 11.5592], desc: "Pavilhão com superdesportivos BMW e cobertura futurista do Parque Olímpico.", img: "img/bmw_welt_1786477793413.webp" },
+            { name: "Marienplatz, Neues Rathaus & Centro de Munique", city: "munich", iconType: "monument", coords: [48.1374, 11.5755], desc: "Coração de Munique com a câmara neo-gótica, Glockenspiel e torres da cidade.", img: "img/marienplatz_munich_1786477812668.webp" },
+            { name: "Viktualienmarkt & Cervejaria Hofbräuhaus", city: "munich", iconType: "food", coords: [48.1351, 11.5762], desc: "Mercado gastronómico tradicional bávaro e cervejaria histórica fundada em 1589.", img: "img/viktualienmarkt.webp" },
+            { name: "Theresienwiese (OKTOBERFEST 2026)", city: "munich", iconType: "beer", coords: [48.1314, 11.5498], desc: "A maior festa da cerveja do planeta com as lendárias tendas Hacker, Augustiner e Hofbräu!", img: "img/munich_oktoberfest_1786477260028.webp" },
+
+            // Day 7 Highlights
+            { name: "Palácio de Nymphenburg", city: "munich", iconType: "castle", coords: [48.1582, 11.5036], desc: "Grandioso palácio barroco de verão da realeza bávara, jardins e canais com cisnes.", img: "img/nymphenburg_palace.webp" },
+            { name: "Allianz Arena (Esplanada Exterior & Megastore)", city: "munich", iconType: "monument", coords: [48.2188, 11.6247], desc: "Estádio do Bayern de Munique: fachada de almofadas ETFE e FC Bayern Megastore.", img: "img/allianz_arena_munich.webp" },
+            { name: "Aeroporto de Munique (MUC) Terminal 2", city: "munich", iconType: "plane", coords: [48.3537, 11.7750], desc: "Devolução da carrinha Enterprise e voo de regresso TAP TP 555 para Lisboa.", img: "img/munich_airport.webp" }
+        ];
+
+        let mapInstance = null;
+        let currentTileLayer = null;
+        let mapMarkers = [];
+        let routePolylines = {};
+
+        function updateMapTileLayer(theme) {
+            if (!mapInstance) return;
+            if (currentTileLayer) mapInstance.removeLayer(currentTileLayer);
+
+            const tileUrl = theme === 'light'
+                ? 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
+                : 'https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png';
+
+            currentTileLayer = L.tileLayer(tileUrl, {
+                attribution: '&copy; OpenStreetMap &copy; CARTO',
+                subdomains: 'abcd',
+                maxZoom: 19
+            }).addTo(mapInstance);
+        }
+
+        function initInteractiveMap() {
+            mapInstance = L.map('interactive-map', {
+                center: [48.25, 12.8],
+                zoom: 7,
+                zoomControl: true
+            });
+
+            updateMapTileLayer(currentTheme);
+
+            function getMarkerMeta(loc) {
+                if (loc.iconType === 'plane') return { bg: '#38bdf8', icon: '✈️' };
+                if (loc.iconType === 'train') return { bg: '#818cf8', icon: '🚆' };
+                if (loc.iconType === 'hotel') return { bg: '#a855f7', icon: '🏨' };
+                if (loc.iconType === 'castle') return { bg: '#ec4899', icon: '🏰' };
+                if (loc.iconType === 'beer') return { bg: '#f59e0b', icon: '🍺' };
+                if (loc.iconType === 'water') return { bg: '#06b6d4', icon: '🌊' };
+                if (loc.iconType === 'car') return { bg: '#10b981', icon: '🚗' };
+                if (loc.iconType === 'cocktail') return { bg: '#fb7185', icon: '🍸' };
+                if (loc.iconType === 'food') return { bg: '#f97316', icon: '🍴' };
+                /* Ardósia para o património construído: catedrais, praças, bairros
+                   históricos e o estádio. Sete marcadores usavam 'monument' sem que
+                   esta função o conhecesse, e caíam todos no pin azul genérico. */
+                if (loc.iconType === 'monument') return { bg: '#94a3b8', icon: '🏛️' };
+                return { bg: '#38bdf8', icon: '📍' };
+            }
+
+            mapLocations.forEach(loc => {
+                const meta = getMarkerMeta(loc);
+                const customIcon = L.divIcon({
+                    className: 'custom-map-pin',
+                    html: `
+                        <div style="background: ${meta.bg}; width: 28px; height: 28px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 14px ${meta.bg}; display: flex; align-items: center; justify-content: center; font-size: 13px; transform: translate(-6px, -6px); cursor: pointer;">
+                            ${meta.icon}
+                        </div>
+                    `,
+                    iconSize: [28, 28],
+                    iconAnchor: [14, 14]
+                });
+
+                const marker = L.marker(loc.coords, { icon: customIcon }).addTo(mapInstance);
+                marker.category = loc.city;
+
+                const popupHtml = `
+                    <div class="popup-card">
+                        ${loc.img ? `<img src="${loc.img}" alt="${loc.name}" class="enlargeable">` : ''}
+                        <h3>${loc.name}</h3>
+                        <p>${loc.desc}</p>
+                        <a href="https://maps.google.com/?q=${encodeURIComponent(loc.name)}" target="_blank" class="popup-btn">
+                            <i class="fa-solid fa-location-arrow"></i> Direções no Google Maps
+                        </a>
+                    </div>
+                `;
+                marker.bindPopup(popupHtml);
+                mapMarkers.push(marker);
+            });
+
+            // Route Polylines
+            const flightInCoords = [
+                [38.7742, -9.1342],
+                [42.5, 2.0],
+                [46.8, 10.5],
+                [48.1103, 16.5697]
+            ];
+            routePolylines['flight-in'] = L.polyline(flightInCoords, {
+                color: '#38bdf8',
+                weight: 3.5,
+                opacity: 0.9,
+                dashArray: '8, 8'
+            }).addTo(mapInstance);
+
+            const iceTrainCoords = [
+                [48.1852, 16.3764], // Wien Hbf
+                [48.2085, 15.6264], // St. Pölten
+                [48.3064, 14.2858], // Linz
+                [47.8131, 13.0458], // Salzburg Hbf
+                [47.8564, 12.1289], // Rosenheim
+                [48.1402, 11.5583], // München Hbf
+                [48.3654, 10.8858]  // Augsburg Hbf
+            ];
+            routePolylines['ice'] = L.polyline(iceTrainCoords, {
+                color: '#818cf8',
+                weight: 4,
+                opacity: 0.95,
+                dashArray: '6, 6'
+            }).addTo(mapInstance);
+
+            const alpsRoadCoords = [
+                [48.3721, 10.8955],
+                [48.0531, 10.8719],
+                [47.7817, 10.8967],
+                [47.5697, 10.7003],
+                [47.5576, 10.7498],
+                [47.5558, 10.7360],
+                [47.4789, 10.8122],
+                [47.4578, 10.9928],
+                [47.4917, 11.0955],
+                [47.5967, 11.0633],
+                [47.6833, 11.2000],
+                [48.3721, 10.8955]
+            ];
+            routePolylines['alps'] = L.polyline(alpsRoadCoords, {
+                color: '#10b981',
+                weight: 4,
+                opacity: 0.95
+            }).addTo(mapInstance);
+
+            const romanticRoadCoords = [
+                [48.3721, 10.8955],
+                [48.7188, 10.7797],
+                [48.7867, 10.6903],
+                [48.8517, 10.4889],
+                [49.0694, 10.3197],
+                [49.1917, 10.2319],
+                [49.3773, 10.1789],
+                [49.2500, 10.4000],
+                [48.3721, 10.8955]
+            ];
+            routePolylines['romantic'] = L.polyline(romanticRoadCoords, {
+                color: '#f59e0b',
+                weight: 4,
+                opacity: 0.95
+            }).addTo(mapInstance);
+
+            const munichLoopCoords = [
+                [48.3654, 10.8858],
+                [48.2000, 11.2500],
+                [48.1402, 11.5583],
+                [48.1768, 11.5592],
+                [48.1374, 11.5755],
+                [48.1432, 11.5878],
+                [48.1314, 11.5498],
+                [48.1402, 11.5583],
+                [48.3654, 10.8858]
+            ];
+            routePolylines['munich-train'] = L.polyline(munichLoopCoords, {
+                color: '#ea580c',
+                weight: 4,
+                opacity: 0.95,
+                dashArray: '4, 4'
+            }).addTo(mapInstance);
+
+            const flightOutCoords = [
+                [48.3721, 10.8955],
+                [48.1582, 11.5036],
+                [48.2188, 11.6247],
+                [48.3537, 11.7750],
+                [45.0, 5.0],
+                [38.7742, -9.1342]
+            ];
+            routePolylines['flight-out'] = L.polyline(flightOutCoords, {
+                color: '#38bdf8',
+                weight: 3.5,
+                opacity: 0.9,
+                dashArray: '8, 8'
+            }).addTo(mapInstance);
+        }
+
+        // Location Filter Buttons
+        document.querySelectorAll('.map-filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.map-filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+
+                const activeCoords = [];
+                mapMarkers.forEach(marker => {
+                    if (filter === 'all' || marker.category === filter) {
+                        marker.addTo(mapInstance);
+                        activeCoords.push(marker.getLatLng());
+                    } else {
+                        mapInstance.removeLayer(marker);
+                    }
+                });
+
+                if (activeCoords.length > 0) {
+                    const bounds = L.latLngBounds(activeCoords);
+                    if (filter === 'all') {
+                        mapInstance.setView([48.25, 12.8], 7);
+                    } else {
+                        mapInstance.fitBounds(bounds, { padding: [50, 50], maxZoom: 13 });
+                    }
+                }
+            });
+        });
+
+        // Scenic Route Selector Pills
+        document.querySelectorAll('.map-route-pill').forEach(pill => {
+            pill.addEventListener('click', () => {
+                document.querySelectorAll('.map-route-pill').forEach(p => p.classList.remove('active'));
+                pill.classList.add('active');
+                const routeKey = pill.dataset.route;
+
+                if (routeKey === 'all') {
+                    Object.values(routePolylines).forEach(poly => poly.addTo(mapInstance));
+                    mapInstance.setView([48.25, 12.8], 7);
+                } else {
+                    Object.entries(routePolylines).forEach(([key, poly]) => {
+                        if (key === routeKey) {
+                            poly.addTo(mapInstance);
+                            mapInstance.fitBounds(poly.getBounds(), { padding: [50, 50] });
+                        } else {
+                            mapInstance.removeLayer(poly);
+                        }
+                    });
+                }
+            });
+        });
+
+        // Initialize App & Apply Theme
+        window.addEventListener('DOMContentLoaded', () => {
+            applyTheme(currentTheme);
+            initInteractiveMap();
+            loadTicketsState();
+        });
+
+        // ================= 5. DAY TABS & TIMELINE FILTER =================
+        const dayTabs = document.querySelectorAll('.day-tab-card');
+        const dayViews = document.querySelectorAll('.day-view-container');
+
+        // The tabs are divs, so they need explicit tab/panel semantics and
+        // keyboard handling to be reachable without a mouse.
+        document.getElementById('day-selector')?.setAttribute('role', 'tablist');
+        dayViews.forEach(v => {
+            v.setAttribute('role', 'tabpanel');
+            v.setAttribute('aria-labelledby', `day-tab-${v.id.replace('day-view-', '')}`);
+        });
+
+        function selectDay(tab, { focus = false } = {}) {
+            const dayNum = tab.dataset.day;
+            dayTabs.forEach(t => {
+                const on = t === tab;
+                t.classList.toggle('active', on);
+                t.setAttribute('aria-selected', on ? 'true' : 'false');
+                t.tabIndex = on ? 0 : -1;          // roving tabindex
+            });
+            dayViews.forEach(v => {
+                const on = v.id === `day-view-${dayNum}`;
+                v.classList.toggle('active', on);
+                v.hidden = !on;
+            });
+            if (focus) tab.focus();
+        }
+
+        dayTabs.forEach((tab, i) => {
+            tab.id = `day-tab-${tab.dataset.day}`;
+            tab.setAttribute('role', 'tab');
+            tab.setAttribute('aria-controls', `day-view-${tab.dataset.day}`);
+            const active = tab.classList.contains('active');
+            tab.setAttribute('aria-selected', active ? 'true' : 'false');
+            tab.tabIndex = active ? 0 : -1;
+
+            tab.addEventListener('click', () => selectDay(tab));
+            tab.addEventListener('keydown', e => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    selectDay(tab);
+                    return;
+                }
+                const step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+                if (step) {
+                    e.preventDefault();
+                    selectDay(dayTabs[(i + step + dayTabs.length) % dayTabs.length], { focus: true });
+                } else if (e.key === 'Home' || e.key === 'End') {
+                    e.preventDefault();
+                    selectDay(dayTabs[e.key === 'Home' ? 0 : dayTabs.length - 1], { focus: true });
+                }
+            });
+        });
+
+        // Category Tag Filter for Timelines
+        const tagPills = document.querySelectorAll('.tag-pill');
+        tagPills.forEach(pill => {
+            pill.addEventListener('click', () => {
+                tagPills.forEach(p => p.classList.remove('active'));
+                pill.classList.add('active');
+                const cat = pill.dataset.cat;
+
+                document.querySelectorAll('.timeline-node').forEach(node => {
+                    const nodeCat = node.dataset.category || '';
+                    if (cat === 'all' || nodeCat.includes(cat)) {
+                        node.style.display = 'block';
+                    } else {
+                        node.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Search in Timeline
+        const itinerarySearch = document.getElementById('itinerary-search');
+        itinerarySearch.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            document.querySelectorAll('.timeline-node').forEach(node => {
+                const text = node.innerText.toLowerCase();
+                if (!query || text.includes(query)) {
+                    node.style.display = 'block';
+                } else {
+                    node.style.display = 'none';
+                }
+            });
+        });
+
+        // ================= 6. TICKETS LOCALSTORAGE =================
+        function loadTicketsState() {
+            const savedTickets = JSON.parse(localStorage.getItem('vm_tickets_state_2026')) || {};
+            document.querySelectorAll('.tkt-check').forEach(chk => {
+                if (savedTickets[chk.id]) {
+                    chk.checked = true;
+                    chk.nextElementSibling.innerText = 'Comprado ✓';
+                    chk.nextElementSibling.style.color = 'var(--accent-emerald)';
+                    chk.nextElementSibling.style.fontWeight = '700';
+                }
+                chk.addEventListener('change', (e) => {
+                    savedTickets[chk.id] = e.target.checked;
+                    localStorage.setItem('vm_tickets_state_2026', JSON.stringify(savedTickets));
+                    if (e.target.checked) {
+                        chk.nextElementSibling.innerText = 'Comprado ✓';
+                        chk.nextElementSibling.style.color = 'var(--accent-emerald)';
+                        chk.nextElementSibling.style.fontWeight = '700';
+                        showToast('Reserva marcada como concluída!');
+                    } else {
+                        chk.nextElementSibling.innerText = 'Tratado';
+                        chk.nextElementSibling.style.color = 'var(--text-muted)';
+                        chk.nextElementSibling.style.fontWeight = '400';
+                    }
+                });
+            });
+        }
+
+        // ================= 7. PACKING CHECKLIST WITH LOCALSTORAGE =================
+        const defaultPackItems = [
+            { text: "Cartão de Cidadão / Passaporte" },
+            { text: "Cartão de Saúde Europeu (CESD)" },
+            { text: "Powerbank & Cabo USB" },
+            { text: "Casaco Corta-Vento / Chuva" },
+            { text: "Sapatilhas Confortáveis (Caminhada)" },
+            { text: "Roupa de Festa (DANZÓN, sem dress code, mas o Loos e o Lamée pedem arranjo)" },
+            { text: "Camisola Térmica para os Alpes" },
+            { text: "Óculos de Sol & Protetor Solar" },
+            { text: "Adaptador / Carregador Rápido" },
+            { text: "Kit Farmácia (Ben-u-ron, Guronsan)" },
+            { text: "Toalha Compacta / Artigos de Higiene" },
+            { text: "Auscultadores para as 4h45 de comboio do Dia 3" }
+        ];
+
+        const checklistContainer = document.getElementById('packing-checklist');
+        const packPercent = document.getElementById('pack-percent');
+        const packProgressFill = document.getElementById('pack-progress-fill');
+        let packState = JSON.parse(localStorage.getItem('vm_pack_state_2026')) || {};
+
+        function renderPackingList() {
+            checklistContainer.innerHTML = '';
+            let checkedCount = 0;
+
+            defaultPackItems.forEach((item, idx) => {
+                const id = `pack_${idx}`;
+                const isChecked = !!packState[id];
+                if (isChecked) checkedCount++;
+
+                const label = document.createElement('label');
+                label.className = 'pack-item-label';
+                label.innerHTML = `
+                    <input type="checkbox" id="${id}" ${isChecked ? 'checked' : ''}>
+                    <span>${item.text}</span>
+                `;
+
+                label.querySelector('input').addEventListener('change', (e) => {
+                    packState[id] = e.target.checked;
+                    localStorage.setItem('vm_pack_state_2026', JSON.stringify(packState));
+                    updatePackProgress();
+                });
+
+                checklistContainer.appendChild(label);
+            });
+
+            updatePackProgress();
+        }
+
+        function updatePackProgress() {
+            const total = defaultPackItems.length;
+            let checked = 0;
+            defaultPackItems.forEach((_, idx) => {
+                if (packState[`pack_${idx}`]) checked++;
+            });
+            const pct = Math.round((checked / total) * 100);
+            packPercent.innerText = `${pct}% Pronto`;
+            packProgressFill.style.width = `${pct}%`;
+        }
+        renderPackingList();
+
+        // ================= 8. LIGHTBOX PHOTO MODAL =================
+        const lightboxModal = document.getElementById('lightbox-modal');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxClose = document.getElementById('lightbox-close');
+
+        let lightboxOpener = null;
+
+        function openLightbox(el) {
+            const img = el.tagName === 'IMG' ? el : el.querySelector('img');
+            if (!img || !img.src) return;
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt || 'Imagem ampliada';
+            lightboxModal.classList.add('active');
+            lightboxModal.inert = false;
+            lightboxOpener = el;
+            lightboxClose.focus();
+        }
+
+        function closeLightbox() {
+            if (!lightboxModal.classList.contains('active')) return;
+            lightboxModal.classList.remove('active');
+            // Blur before going inert, or focus would land on <body>.
+            lightboxOpener?.focus();   // return focus where it came from
+            lightboxModal.inert = true;
+            lightboxOpener = null;
+        }
+
+        lightboxModal.inert = true;   // dismissed on load
+
+        function setupLightboxListeners() {
+            document.querySelectorAll('.enlargeable').forEach(el => {
+                if (el.dataset.lightboxBound) return;
+                el.dataset.lightboxBound = '1';
+                // Non-button elements need explicit semantics to be reachable.
+                el.setAttribute('role', 'button');
+                el.setAttribute('tabindex', '0');
+                if (!el.getAttribute('aria-label')) {
+                    const img = el.tagName === 'IMG' ? el : el.querySelector('img');
+                    el.setAttribute('aria-label', `Ampliar imagem: ${img?.alt || 'fotografia'}`);
+                }
+                el.addEventListener('click', (e) => { e.stopPropagation(); openLightbox(el); });
+                el.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(el); }
+                });
+            });
+        }
+        setupLightboxListeners();
+
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxModal.addEventListener('click', (e) => {
+            if (e.target !== lightboxImg) closeLightbox();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
+            // Trap focus on the only control while the overlay is open.
+            if (e.key === 'Tab' && lightboxModal.classList.contains('active')) {
+                e.preventDefault();
+                lightboxClose.focus();
+            }
+        });
+
+        // ================= 9. TOAST NOTIFICATION & UNIVERSAL CLIPBOARD =================
+        const toastMsg = document.getElementById('toast-msg');
+        const toastTextMsg = document.getElementById('toast-text-msg');
+
+        function showToast(msg) {
+            toastTextMsg.innerText = msg;
+            toastMsg.classList.add('show');
+            setTimeout(() => toastMsg.classList.remove('show'), 3000);
+        }
+
+        function copyUniversal(text, successMessage = 'Copiado com sucesso!') {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showToast(successMessage);
+                }).catch(() => {
+                    fallbackCopy(text, successMessage);
+                });
+            } else {
+                fallbackCopy(text, successMessage);
+            }
+        }
+
+        function fallbackCopy(text, successMessage) {
+            const temp = document.createElement("textarea");
+            temp.value = text;
+            temp.style.position = "fixed";
+            temp.style.left = "-9999px";
+            temp.style.top = "0";
+            document.body.appendChild(temp);
+            temp.focus();
+            temp.select();
+            try {
+                document.execCommand('copy');
+                showToast(successMessage);
+            } catch (err) {
+                showToast('Erro ao copiar!');
+            }
+            document.body.removeChild(temp);
+        }
+
+        document.querySelectorAll('.copy-addr').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const text = btn.dataset.clipboard;
+                copyUniversal(text, 'Morada copiada!');
+            });
+        });
+
+        // Export Itinerary Summary for WhatsApp
+        document.getElementById('btn-export-summary').addEventListener('click', () => {
+            const summary = `✈️ *EUROTRIP 2026: VIENA & MUNIQUE (23-29 SET)*
+👥 6 Amigos | 2 Países | Oktoberfest 2026
+
+📅 *Qua 23 Set*: Voo TAP TP 1270 (08:05->12:35) ➔ Railjet 13:33 + U1 ➔ Judengasse 11 (almoço Schachtelwirt, check-in) ➔ Stephansdom ➔ Donaukanal (sol 18:49) ➔ Jantar Schöne Perle ➔ Bermudadreieck ➔ DANZÓN
+📅 *Qui 24 Set*: Brunch Café Korb ➔ Hofburg (Tesouro & Prunksaal) ➔ Prater (Kaiser Wiesn) ➔ Rooftop Das Loft
+📅 *Sex 25 Set*: Westbahn 910 *10:38->13:08* Wien Westbahnhof->Salzburgo ➔ ICE 116 *14:00->16:14* Augsburg (direto, cais 2) ➔ Check-in Am Bogen 6 ➔ Carro Enterprise às 17:00 (fecha às 18:00!) ➔ Passeio nos canais do Lechviertel & brinde na Rathausplatz ➔ Jantar dos 6 no Bauerntanz ➔ Noite de cerveja
+📅 *Sáb 26 Set*: 🏔️ Rota dos Alpes, *sem bilhetes e sem hora marcada*: Marienbrücke (12:05-14:15) + almoço descontraído / piquenique no Alpsee (14:15) + Oberammergau (15:50, com sol) + Lago Eibsee ao pôr do sol (17:56, sol às 19:03). Jantar 21:30. *Opcional: Abadia de Ettal em vez de uma hora no lago*
+📅 *Dom 27 Set*: 🏰 Circuito Medieval: Rothenburg ob der Tauber & Muralhas (2h00 de autoestrada)
+📅 *Seg 28 Set*: 🍺 Comboio 11:17 ➔ Marienplatz + Frauenkirche + Viktualienmarkt + Asamkirche ➔ OKTOBERFEST 2026 *sem mesa: entrar às 13:45 e estar sentado às 15:30* (2x Bayern-Ticket). Último comboio de volta: *22:58*!
+📅 *Ter 29 Set*: 🏰 Nymphenburg ➔ 🏎️ BMW Welt ➔ ⚽ Allianz Arena (Exterior/Megastore) ➔ Devolução Carro MUC ➔ Voo TAP TP 555 Regresso a Lisboa (20:00->22:25)
+
+✅ *DECIDIDO*: Schönbrunn cancelado, substituído por Tesouro Imperial e Prunksaal no Hofburg (poupa €168)
+✅ *DECIDIDO*: Neuschwanstein sem bilhete, só a Marienbrücke (poupa €141)
+✅ *JÁ COMPRADO*: Comboios Viena➔Augsburg (€333,92) | Carro Enterprise (€427,58)`;
+
+            copyUniversal(summary, 'Resumo para WhatsApp copiado!');
+        });
+    </script>
+</body>
+</html>
