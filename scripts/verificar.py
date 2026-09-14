@@ -749,7 +749,7 @@ def check_meteo(meteo: list[str], html: list[str]) -> Seccao:
     #  correr o meteo.py só para metade dos destinos, e o guia mostra números que
     #  já não são os do relatório.
     m_md = re.search(r"Actualizado a (.+?) · fonte: Open-Meteo", "\n".join(meteo))
-    m_html = re.search(r"WEATHER-AUTO:START -->\s*<!-- Gerado por python meteo\.py "
+    m_html = re.search(r"WEATHER-AUTO:START -->\s*<!-- Gerado por python scripts/meteo\.py "
                        r"--html index\.html a (.+?)\.", texto_html)
     if m_md and m_html and m_md.group(1) != m_html.group(1):
         s.aviso("meteo.md / index.html",
