@@ -36,6 +36,9 @@ em vez de alargar esta passagem.
 
 ## Reparar
 
+> 🔴 **REGRA OBRIGATÓRIA: NUNCA editar `index.html` diretamente.**
+> Qualquer alteração ao guia web tem de ser feita no partial correspondente em `partials/` (`partials/itinerary.html`, `partials/tickets.html`, etc.). Após editar o partial, correr imediatamente `python build.py` antes de verificar.
+
 `itinerario_viagem.md` é o documento que manda. Perante uma divergência, o markdown
 ganha, **exceto** quando é evidente que foi o markdown que ficou para trás. Nesse
 caso diz-se isso explicitamente ao utilizador, em vez de alinhar em silêncio.
@@ -52,6 +55,7 @@ Ordem de trabalho:
    se está desatualizado de um dos lados ou se é detalhe que só existe no markdown.
 4. **Marcadores.** Um `⚠️` nunca sobe a `✅` sem fonte primária aberta nesse
    momento.
+5. **Recompilar o HTML:** se algum ficheiro em `partials/` foi alterado, correr `python build.py`.
 
 Depois de cada correção, correr `python scripts/verificar.py --so-erros` outra vez.
 

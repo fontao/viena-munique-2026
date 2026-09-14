@@ -64,6 +64,7 @@ ajusta e não a margem que se encolhe. Ver a skill `planear-dia`.
 
 ## Nunca
 
+- Editar `index.html` diretamente: qualquer alteração de HTML tem de ser feita em `partials/tickets.html` ou `partials/itinerary.html`, seguida de `python build.py`.
 - Subir um `⚠️` a `✅` sem ter aberto a fonte nesse momento.
 - Escrever um preço de revendedor como se fosse o oficial.
 - Deixar uma entrada sem o número de pessoas.
@@ -72,5 +73,6 @@ ajusta e não a margem que se encolhe. Ver a skill `planear-dia`.
 
 ## Fechar
 
-`python scripts/verificar.py --seccao pessoas precos` sem 🔴, e ao utilizador: o que mudou,
-quanto custa agora o total, e o que continua por tratar com data marcada.
+1. Correr `python build.py` se alterou ficheiros em `partials/`.
+2. `python scripts/verificar.py --seccao pessoas precos` sem 🔴, e ao utilizador: o que mudou,
+   quanto custa agora o total, e o que continua por tratar com data marcada.

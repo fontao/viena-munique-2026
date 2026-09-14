@@ -12,6 +12,65 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 > comportamento (porquê às 14:00, porquê este comboio, o que a escolha custou). A arqueologia
 > vem toda para aqui.
 
+## 28.ª revisão · 13 de setembro de 2026
+
+**Decisão definitiva da Rota A no Dia 4: eliminação da bifurcação com a Abadia de Ettal e linearização do horário da tarde.**
+
+1. **A decisão do grupo:**
+   O grupo decidiu expressamente seguir a **Rota A** para a tarde de sábado 26 nos Alpes bávaros. A alternativa da Rota B (com paragem na Abadia de Ettal e no seu mosteiro beneditino) foi descartada, privilegiando o tempo na natureza, a tranquilidade e a contemplação do Lago Eibsee aos pés da Zugspitze à hora dourada.
+
+2. **O que muda na estrutura do Dia 4:**
+   - **Eliminação da bifurcação (fork) às 15:15:** o itinerário e o guia interativo deixam de ter a decisão condicional ("Às 15:15 decide-se: mais lago, ou a Abadia de Ettal"). A tarde passa a ter uma sequência linear, contínua e cronometrada ao minuto, de ponta a ponta.
+   - **Sequência linear confirmada:**
+     - `15:15 – 16:05`: Condução de Hohenschwangau até Oberammergau (46 km, 45 min em fluxo livre no OSRM, bloco de 50 min com margem turística).
+     - `16:05 – 17:20`: Oberammergau, Aldeia dos Frescos (75 minutos com sol pleno antes de o monte Kofel projetar sombra às 17:35–17:45).
+     - `17:20 – 17:56`: Condução até ao Lago Eibsee (30 km via Garmisch, 36 min em fluxo livre no OSRM; chegada entre as 17:56 e as 18:05).
+     - `17:56 – 19:15`: Lago Eibsee aos pés da Zugspitze (79 minutos; pôr do sol às 19:03, saída às 19:15).
+     - `19:15 – 21:15`: Regresso a Augsburg (~131 km, bloco de 2h00 para absorver trânsito de sábado).
+     - `21:15 – 21:30`: Estacionamento e caminhada até à mesa.
+     - `21:30 – 23:00`: Jantar reservado para os 6 em Augsburg.
+   - **Resolução da folga no verificador:** com a linearização da tarde fora de caixas de citação, os blocos horários passam a ser validados de forma contínua pelo `scripts/verificar.py`, eliminando o antigo aviso de 240 minutos de folga.
+
+3. **Expurgo de referências a Ettal em todos os documentos:**
+   - Removida a linha opcional da Abadia de Ettal da tabela de bilhetes de `itinerario_viagem.md`.
+   - Atualizado o nó de Oberammergau em `partials/itinerary.html` (removido o botão Waze para Ettal e os horários do Klosterladen).
+   - Atualizado o nó do Eibsee em `partials/itinerary.html` e `itinerario_viagem.md` (removida a referência ao Bräustüberl de Ettal).
+   - Atualizado o botão de rota nos Alpes em `partials/map.html` (passou de "Eibsee & Ettal" para "Eibsee & Oberammergau").
+   - Atualizado o marcador em `partials/footer.html` para "Oberammergau (Aldeia dos Frescos)" e limpo o resumo de exportação para WhatsApp.
+   - Executada a compilação com `python build.py` e verificação completa com `python scripts/verificar.py`, mantendo 0 erros e 0 preços órfãos.
+
+4. **Inclusão da Opção B Cénica (Lago Plansee & Ammersattel):**
+   - O grupo manteve a **Opção A (B17 ➔ B23 via Steingaden, 46 km, ~45 min)** como a rota base do plano e dos horários oficiais (assegurando 75 min com sol pleno em Oberammergau).
+   - Adicionou a **Opção B (~58 km, ~1h10 a 1h15)** como alternativa de condução de montanha para ser decidida no carro à saída do almoço. Esta rota desce à Áustria por Reutte, percorre a L255 ao longo do fiorde alpino do Lago Plansee, sobe o passo do Ammersattel (1.118 m) e desce o vale de Graswang (passando junto ao Palácio de Linderhof) até Oberammergau.
+   - Fornecido o botão Waze direto com ponto intermédio (*Hotel Forelle, Plansee*), visto que o Waze otimiza apenas o tempo e nunca sugere esta rota por ser 25 minutos mais lenta. Chegando a Oberammergau às ~16:25–16:30, o grupo fica com ~50 minutos de visita antes da sombra do monte Kofel às 17:35, mantendo o restante programa do Eibsee (17:56) e jantar (21:30) 100% inalterado. Ambas as estradas são estaduais e isentas de vinheta de autoestrada austríaca.
+
+---
+
+## 27.ª revisão · 13 de setembro de 2026
+
+**Persistência da aba ativa do roteiro e da posição de scroll entre atualizações de página (F5).**
+
+1. **O problema resolvido:**
+   Ao recarregar a página com F5 (ou reiniciar a navegação), o guia interativo regressava invariavelmente ao Dia 1 no topo, perdendo a aba de dia ativa (por exemplo, se o utilizador estivesse a ler o Dia 4 nos Alpes ou a comparar horários no Dia 6) e a posição exata de leitura. O utilizador tinha de voltar a clicar na aba do respetivo dia e percorrer a página até onde estava.
+
+2. **Implementação da persistência com chaves `vm_*_2026`:**
+   - Adicionada a chave `vm_active_day_2026` para guardar o número do dia selecionado ('1' a '7') no `localStorage`.
+   - Adicionada a chave `vm_scroll_pos_2026` para guardar a coordenada vertical exata (`window.scrollY`) no `localStorage`.
+   - Ambas as chaves cumprem rigorosamente a convenção do padrão `vm_[a-z_]+_2026`, validada pelo `scripts/verificar.py`.
+
+3. **Mecanismo de restauro fluido e proteção contra saltos:**
+   - `history.scrollRestoration = 'manual'` configurado para evitar que o motor do browser execute saltos prematuros e erráticos antes de os nós e vistas estarem montados.
+   - Restauro imediato da aba ativa logo na execução do script, garantindo que o contentor do dia correto fica visível antes do cálculo geométrico da altura da página.
+   - Restauro da posição de scroll com proteção contra sobreposição durante o carregamento inicial (guardada por temporizador de debounce e sincronizada no evento `beforeunload`).
+   - Botão flutuante de regresso ao topo (`#scroll-top`) repõe a posição a 0 no `localStorage`.
+   - Links com âncora explícita na barra de endereço (ex.: `#tickets` ou `#oktoberfest`) em navegações diretas preservam o destino pretendido sem bloqueio.
+
+4. **Definição da alternativa quente de almoço no Dia 4: 3 quiosques com link Google Maps e preços reais:**
+   - Substituída a menção genérica a "quiosques e pequenos pontos de rua na aldeia e junto ao lago" pela seleção de **3 quiosques / tascas de rua**, cada um com o seu link direto de navegação para o Google Maps:
+     1. **Kiosk am Alpsee** (Alpseestraße 27, junto ao P4 e ao shuttle): a opção de topo, com *Bratwurst im Semmel* a €4,50–5,50 e *Leberkässemmel* a €4,50–5,00. ⭐ O grande *plus*: mesas e bancos de madeira virados para a água do lago, para almoçar junto com quem faz piquenique da carrinha.
+     2. **Hotel Müller Takeaway** (Alpseestraße 16): balcão virado para a rua pedonal na aldeia, com especialidade em *Currywurst mit Pommes* a ~€9,00.
+     3. **Hotel Alpenstuben Imbiss** (Alpseestraße 8): quiosque rápido virado para o passeio junto ao parque P2.
+
 ---
 
 ## 26.ª revisão · 11 de setembro de 2026
@@ -124,6 +183,23 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
     - **Remoção de meta-talk (Regra 11):** O parágrafo descritivo do bloco da Marienbrücke iniciava-se com a expressão «130 minutos sem hora marcada.», o que constituía uma repetição desnecessária face ao badge de tempo (12:05–14:15) e um resquício de narrativa de planeador. O texto foi retificado para ir direto à instrução de navegação no terreno.
     - **Localização explícita da paragem do shuttle:** O texto principal referia apenas «sobe-se de shuttle», sem especificar o ponto de partida. Foi clarificado que a paragem se localiza na Alpseestraße (junto ao Schlosshotel Lisl e encostada à entrada do parque oficial P4 Alpsee). Se os parques P3 e P4 estiverem lotados e o carro for encaminhado para o P1 ou P2, os viajantes têm uma subida a pé de 5 a 8 minutos pela Alpseestraße até à paragem. O autocarro sobe até ao miradouro Jugend, ficando a 5 minutos de caminhada da ponte Marienbrücke.
     - **Validação:** Sincronizado entre `itinerario_viagem.md`, `partials/itinerary.html` e `index.html`. `scripts/verificar.py` validado com 0 erros.
+
+21. **Reorganização de nós e simplificação do estacionamento em Hohenschwangau (Dia 4).**
+    - **Deslocação da informação de estacionamento para o bloco de condução (10:30–12:05):** As instruções de acesso aos parques oficiais P1 a P4, o destino de GPS no P4 Alpsee e a nota de que não se sobe de carro até ao castelo foram migradas do bloco da visita para o cartão de condução pela B17 e chegada a Hohenschwangau.
+    - **Simplificação e desburocratização do custo de estacionamento:** Eliminada a dissertação detalhada sobre escalões ("€12,00 até 6 horas, mais €1,00 por hora seguinte e teto de €16,00 ao dia nos parques oficiais P1 a P4..."), substituída pela formulação concisa e direta "€12 a €14 (se for menos, boa!)", em conformidade com a tarifa oficial de €12 até 6 horas.
+    - **Estruturação passo a passo do circuito dos miradouros (12:05–14:15):** O nó da visita apresenta agora uma sequência cronológica clara de navegação no terreno: 1) Estacionamento e passeio inicial junto à margem do Lago Alpsee (10–15 min); 2) Subida de shuttle na Alpseestraße até ao miradouro Jugend (€5 ida e volta por pessoa); 3) Caminhada pedestre de 5 min até à ponte; 4) Ponte Marienbrücke e vista clássica de postal do Castelo de Neuschwanstein (sem descer à cancela do castelo); 5) Regresso de autocarro descendo até à beira do lago e P4 para o início do almoço/piquenique às 14:15.
+    - **Validação:** Sincronizado entre `itinerario_viagem.md`, `partials/itinerary.html` e `index.html`. `scripts/verificar.py` validado com 0 erros e 0 preços órfãos.
+
+22. **Instituição formal de regra estrita (Hard Rule): proibição de editar index.html diretamente e compilação obrigatória via partials/.**
+    - **Regra 12 consagrada em `AGENTS.md` e criação de `GEMINI.md`:** O ficheiro `index.html` é um produto final gerado; qualquer edição manual direta é estritamente proibida e será esmagada. Toda e qualquer alteração de HTML tem de ser realizada no ficheiro correspondente em `partials/` (`head.html`, `header.html`, `hero.html`, `map.html`, `itinerary.html`, `tickets.html`, `oktoberfest.html`, `weather.html`, `dossier.html`, `footer.html`), seguida de `python build.py`.
+    - **Verificação mecânica em `scripts/verificar.py` (secção `build`):** Acrescentada verificação automática que compara o `index.html` com a compilação exata dos 10 ficheiros de `partials/`. Se houver divergência, o verificador emite um erro bloqueador (`🔴`), impedindo que alterações diretas ao `index.html` ou esquecimentos de compilação sobrevivam.
+    - **Ajuste de guardrail no `build.py`:** Refinado o teste de aviso prévio do `build.py` através da comparação de carimbos de modificação (`mtime`), distinguindo edições diretas e espúrias de compilações legítimas resultantes da atualização dos partials.
+    - **Atualização sistemática das skills:** As skills `sincronizar`, `planear-dia`, `bilhete` e `mapa` foram atualizadas com o aviso obrigatório e com a chamada ao `python build.py` antes de qualquer validação.
+
+23. **Despoluição e remoção de caixas redundantes no circuito dos miradouros (Dia 4).**
+    - **Eliminação de caixas duplicadas:** Com a estruturação passo a passo da visita (12:05–14:15), as caixas de aviso separadas (`callout-box critical` e `callout-box info`) tornaram-se redundantes. A citação em alemão («Sie benötigen kein Ticket...»), o debate justificativo de planeador e a repetição das regras do shuttle foram suprimidos.
+    - **Aviso único e prático:** Consolidada apenas uma caixa amarela de aviso (`callout-box warning`), focada na instrução operacional essencial: verificar a abertura da Marienbrücke na véspera em hohenschwangau.de e a lembrança de não descer até à porta do castelo porque o pátio interior exige bilhete pago com torniquete.
+    - **Validação:** Sincronizado entre `partials/itinerary.html` (recompilado via `build.py`) e `itinerario_viagem.md`. `scripts/verificar.py` validado com 0 erros.
 
 ---
 

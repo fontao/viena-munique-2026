@@ -66,6 +66,9 @@ sítios onde um número velho sobrevive mais tempo.
 
 ## Ao acabar
 
-`python scripts/verificar.py --seccao mapa` sem 🔴, e confirmar que o sítio novo também
-existe no dia respetivo do itinerário e do HTML. Um pin no mapa que não aparece em
-dia nenhum é um sítio que ninguém vai visitar.
+> 🔴 **REGRA OBRIGATÓRIA: NUNCA editar `index.html` diretamente.** O array `locations` edita-se exclusivamente em `partials/footer.html`.
+
+1. `python build.py` para regenerar o `index.html` a partir do `partials/footer.html`.
+2. `python scripts/verificar.py --seccao mapa` sem 🔴, e confirmar que o sítio novo também
+   existe no dia respetivo do itinerário e do HTML. Um pin no mapa que não aparece em
+   dia nenhum é um sítio que ninguém vai visitar.

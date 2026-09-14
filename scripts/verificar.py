@@ -37,6 +37,28 @@ RAIZ = Path(__file__).resolve().parent.parent
 MD = RAIZ / "itinerario_viagem.md"
 HTML = RAIZ / "index.html"
 METEO = RAIZ / "meteo.md"
+PARTIALS_DIR = RAIZ / "partials"
+PARTIALS_ORDER = [
+    "head.html",
+    "header.html",
+    "hero.html",
+    "map.html",
+    "itinerary.html",
+    "tickets.html",
+    "oktoberfest.html",
+    "weather.html",
+    "dossier.html",
+    "footer.html",
+]
+BANNER = (
+    "<!-- ====================================================================\n"
+    "     GENERATED FILE - DO NOT EDIT DIRECTLY.\n"
+    "     This file is built from partials/ by build.py.\n"
+    "     Edit partials/head.html, partials/itinerary.html, etc. then run:\n"
+    "         python build.py\n"
+    "     GitHub Actions rebuilds this on every push to main.\n"
+    "     ==================================================================== -->\n"
+)
 
 #  O bloco da previsão dentro do index.html, gerado pelo `meteo.py --html`. Os
 #  marcadores são os mesmos que o meteo.py procura, e é isso que permite ao
@@ -744,9 +766,35 @@ def check_meteo(meteo: list[str], html: list[str]) -> Seccao:
     return s
 
 
+def check_build(html: list[str]) -> Seccao:
+    """Verifica se index.html corresponde rigorosamente à compilação de partials/*."""
+    s = Seccao("build", "Integridade da compilação (partials/ vs index.html)")
+    if not PARTIALS_DIR.exists():
+        s.erro("partials", "pasta partials/ não encontrada.")
+        return s
+
+    partes = []
+    for nome in PARTIALS_ORDER:
+        ficheiro = PARTIALS_DIR / nome
+        if not ficheiro.exists():
+            s.erro("partials", f"falta o partial {nome}.")
+            return s
+        partes.append(ficheiro.read_text(encoding="utf-8"))
+
+    esperado = (BANNER + "".join(partes)).splitlines()
+    if html != esperado:
+        s.erro("index.html",
+               "o ficheiro index.html diverge da compilação de partials/*. "
+               "Nunca editar index.html diretamente: editar sempre em partials/ "
+               "e correr «python build.py».")
+    else:
+        s.info("index.html", "100% sincronizado com os 10 ficheiros de partials/.")
+    return s
+
+
 # ---------------------------------------------------------------------- saída
 
-SECCOES = ["dias", "horarios", "precos", "pessoas", "prazos", "imagens", "mapa",
+SECCOES = ["build", "dias", "horarios", "precos", "pessoas", "prazos", "imagens", "mapa",
            "armazenamento", "marcadores", "linguagem", "meteo"]
 
 
@@ -774,6 +822,7 @@ def main() -> int:
     meteo = ler(METEO) if METEO.exists() else []
 
     todas = [
+        check_build(html),
         check_dias(md, html),
         check_horarios(md, args.dia),
         check_precos(md, html),

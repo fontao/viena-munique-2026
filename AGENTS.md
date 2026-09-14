@@ -41,6 +41,11 @@ physically possible end to end within a day.
 Non-negotiable, whatever the task. The *procedure* for each kind of change lives in the
 skills below; these are the constraints that hold regardless.
 
+> 🔴 **HARD RULE: NUNCA editar `index.html` diretamente. Editar SEMPRE em `partials/`.**
+> `index.html` é um ficheiro gerado automaticamente pelo `build.py` a partir dos ficheiros em `partials/`.
+> Qualquer alteração direta a `index.html` é estritamente proibida e será esmagada.
+> Editar o partial correspondente (`partials/itinerary.html`, `partials/tickets.html`, etc.) e correr logo `python build.py`.
+
 1. **`itinerario_viagem.md` is the source of truth.** When the two documents disagree, the
    markdown wins, unless it is plainly the stale one, in which case you say so out loud rather
    than quietly aligning to it.
@@ -83,6 +88,12 @@ skills below; these are the constraints that hold regardless.
    para nenhuma rua se andar duas vezes", "o plano foi pensado para...", or "esta escolha foi
    feita para evitar...". State plainly where to go, how long it takes, and what to see; the
    architectural logic of how days interlock belongs in `historico.md`.
+12. **NEVER edit `index.html` directly: always edit `partials/`.** `index.html` is an automated
+   build output. All HTML edits must be made directly in the corresponding file under `partials/`
+   (`head.html`, `header.html`, `hero.html`, `map.html`, `itinerary.html`, `tickets.html`,
+   `oktoberfest.html`, `weather.html`, `dossier.html`, `footer.html`). Any manual change made
+   directly to `index.html` is strictly forbidden and will be overwritten. After editing any
+   partial, immediately run `python build.py` to rebuild `index.html`.
 
 ## Skills
 

@@ -74,6 +74,9 @@ existe na cabeça. Corre-se a seguir, no passo 5.
 
 ## 4. Escrever nos dois documentos
 
+> 🔴 **REGRA OBRIGATÓRIA: NUNCA editar `index.html` diretamente.**
+> Toda a edição em HTML faz-se em `partials/itinerary.html` (e outros partials relevantes). Nunca tocar diretamente em `index.html`.
+
 **`itinerario_viagem.md` é o documento que manda, e é aí que se escreve primeiro.**
 
 No markdown:
@@ -96,12 +99,13 @@ Se o dia ganhou ou perdeu um sítio, atualizar também o array `locations` do ma
 
 ## 5. Fechar
 
-1. `python scripts/verificar.py --dia N` e depois `python scripts/verificar.py`, sem 🔴. Agora sim:
+1. Correr `python build.py` para regenerar `index.html` a partir dos partials alterados.
+2. `python scripts/verificar.py --dia N` e depois `python scripts/verificar.py`, sem 🔴. Agora sim:
    o dia já está escrito e há alguma coisa para verificar.
-2. Segunda opinião do Gemini sobre a exequibilidade do dia, com a skill
+3. Segunda opinião do Gemini sobre a exequibilidade do dia, com a skill
    `segunda-opiniao`. É um modelo com pesquisa própria e apanha horários
    impossíveis que uma autorrevisão não apanha.
-3. Ao utilizador: o que mudou, porquê, e **o que custou**. Que horas se
+4. Ao utilizador: o que mudou, porquê, e **o que custou**. Que horas se
    sacrificaram, o que ficou de fora, o que ficou por confirmar.
 
 Nunca dar um dia por fechado com um facto inventado. Um `⚠️` honesto vale mais do

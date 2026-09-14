@@ -68,24 +68,32 @@ def build():
         generated_body = _strip_banner(html)
 
         if existing_body != generated_body:
-            # Find first difference for diagnostics
-            for i, (a, b) in enumerate(zip(existing_body, generated_body)):
-                if a != b:
-                    line_num = existing_body[:i].count("\n") + 1
+            # Check if index.html was modified AFTER partials were updated
+            out_mtime = os.path.getmtime(OUTPUT)
+            partials_mtime = max(
+                os.path.getmtime(os.path.join(PARTIALS_DIR, p))
+                for p in ORDER
+                if os.path.exists(os.path.join(PARTIALS_DIR, p))
+            )
+            if out_mtime > partials_mtime:
+                # Find first difference for diagnostics
+                for i, (a, b) in enumerate(zip(existing_body, generated_body)):
+                    if a != b:
+                        line_num = existing_body[:i].count("\n") + 1
+                        print(
+                            f"WARNING: {OUTPUT} was edited directly (modified after partials; "
+                            f"first diff at ~line {line_num}). "
+                            f"Overwriting with partials build.",
+                            file=sys.stderr,
+                        )
+                        break
+                else:
                     print(
                         f"WARNING: {OUTPUT} was edited directly "
-                        f"(first diff at ~line {line_num}). "
-                        f"Overwriting with partials build.",
+                        f"(length mismatch: {len(existing_body):,} vs "
+                        f"{len(generated_body):,}). Overwriting with partials build.",
                         file=sys.stderr,
                     )
-                    break
-            else:
-                print(
-                    f"WARNING: {OUTPUT} was edited directly "
-                    f"(length mismatch: {len(existing_body):,} vs "
-                    f"{len(generated_body):,}). Overwriting with partials build.",
-                    file=sys.stderr,
-                )
 
         changed = existing_body != generated_body
     else:
