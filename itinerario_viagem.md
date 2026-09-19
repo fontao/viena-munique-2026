@@ -220,7 +220,7 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | Item | Pax | Preço 2026 | Nota |
 |---|---|---|---|
 | **Transfer VIE ➔ cidade**: Railjet + U1 | 4 | ⚠️ €5,50/pax = **€22** | ✅ **Decidido.** Pedir *Flughafen [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) ➔ [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)* com zona central · alternativa: Uber XL / Bolt à chegada (~€40 a €50 total) |
-| **Almoço no [Schachtelwirt](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien)** (Dia 1) | 4 | ⚠️ caixas **€4–9**, assado **€13–16** = **~€30 a €60** | **[Judengasse 5](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien)**, a 1 min, com as malas · **mesas dentro** · abre às 11:30 |
+| **Almoço no [Schachtelwirt](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien)** (Dia 1) | 4 | ⚠️ **~€8–15**/pax | **[Judengasse 5](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien)**, a 1 min · caixas tradicionais austríacas · mesas no interior |
 | **3× Bilhete Simples [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) Linien** | 4 | **€9,00**/pax = **€36** | Comprar na app WienMobil (€3,00/bilhete) para Dia 2 (ida e volta do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) e Dia 3 (ida à estação) · poupa €0,70/pax face ao passe 24h (€9,70) |
 | **Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)** | 4 | ✅ **€8,00**/pax = **€32** | 343 degraus · **só dinheiro, na catedral** · aberta 09:00–19:00, última subida 18:15 |
 | **[Riesenrad](https://www.google.com/maps/search/?api=1&query=Wiener%20Riesenrad%2C%20Riesenradplatz%201%2C%201020%20Wien)** ([Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)) | 4 | **grátis** | Dia 2 · vista exterior a partir da praça, sem subida (poupa €58) |
@@ -228,6 +228,7 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | **Shuttle da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau)** (Dia 4) | 6 | ✅ **€5,00**/pax ida e volta = **€30** | Sai do **P4** · só ida €3,50 · subidas das 08:00 às 17:30 |
 | **Estacionamento** ([Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau)) | - | ✅ **€12** | Dia 4 · P1 a P4 |
 | **Almoço informal no [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau)** (Dia 4) | 6 | **grátis** / ~€4–6 | Piquenique com comida de casa/takeaway junto ao lago ou quiosque/tasca rápida na aldeia · sem reservas |
+| **[Kolbensattel](https://www.google.com/maps/search/?api=1&query=Kolbensattel%2C%20Kremsweg%2020%2C%2082487%20Oberammergau) Alpine Coaster** (Dia 4) | 6 | ✅ **€18,50**/pax = **€111** | Dia 4, **opcional (Alternativa B)** · telecadeira + coaster · bilheteira no vale |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €54 (3 pax) + €54 (3 pax) = **€108** | Repartir 3+3 e não 5+1: custa o mesmo |
 | **Palácio de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen)** | 6 | Parque **grátis** · palácio **€10**/pax · *Gesamtkarte* **€20** | Ver Dia 7: só há 75 min |
 | **St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | ✅ €5/pax = **€30** | Dia 5 · altar de Riemenschneider · domingo **10:00–18:00** · ⚠️ levar dinheiro, ver nota |
@@ -400,34 +401,10 @@ Augsburgo ➔ Munique) manda.
   **Central City Apartments** (*[Judengasse](https://www.google.com/maps/search/?api=1&query=Judengasse%2011%2C%201010%20Wien) 11, 1010 [Wien](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)*), no coração do [Bermudadreieck](https://www.google.com/maps/search/?api=1&query=Bermudadreieck%2C%201010%20Wien).
   - 🧳 **São duas malas, e não se anda a passear com elas.** O U1 deixa o grupo a 4 min da
     porta e é o único trajecto do dia em que as malas andam à mão.
-  - 🍽️ **Almoça-se aqui mesmo, com as malas debaixo da mesa: o *[Schachtelwirt](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien)*, na [Judengasse 5](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien), a 43 m da porta do apartamento.** Às 14:30 quase tudo o que é restaurante já fechou a
-    cozinha ou está entre serviços (o *Koh-i-noor*, ao lado, fecha às 14:30) e o que sobra é
-    *takeaway* de pé. O Schachtelwirt é a exceção: **tem mesas dentro**, **abre às 11:30**, e
-    serve comida austríaca numa caixa, que é o almoço de escritório clássico desta cidade.
-    - 💶 🔴 **O preço é a única coisa incerta aqui, e vale a pena sabê-lo à entrada.** O site da
-      casa não publica preços e **as listas de menus divergem entre si** (a mesma caixa de
-      *Schweinsbraten* aparece a €9,50, €11, €12,90 e €16 conforme a lista e o ano). Contem com
-      esta ordem de grandeza e **confirmem no balcão**:
-      - **As caixas baratas, €4 a €9:** salada da semana e *Knödel* com molho de assado. Dá
-        **~€30 para os 4** e é a opção que serve o pedido de comer barato.
-      - **O *Schweinsbraten* com *Semmelknödel* e *Sauerkraut*, €13 a €16:** o prato da casa, e
-        o único que faz o almoço subir para **~€60 para os 4**.
-    - 🔴 **Se estiver cheio:** o **[Würstelstand am Hohen Markt](https://www.google.com/maps/search/?api=1&query=W%C3%BCrstelstand%20am%20Hohen%20Markt%2C%20Hoher%20Markt%201%2C%201010%20Wien)**, a 3 min, aberto **09:00–04:00**
-      e €5–7. É mais barato e é o mesmo sítio do fim da noite, mas é *takeaway* puro, **sem uma
-      única mesa**: come-se de pé, com as malas ao lado.
-  - 🔑 **O check-in é a única peça do dia que não está fechada: sabe-se por volta das 14:00 e o
-    mais provável são as 15:00.** O almoço é o que absorve a espera, seja ela qual for, e é por
-    isso que ele é aqui e não a meio caminho. **O passeio do dia só começa depois de as malas
-    estarem dentro:**
-    - ✅ **Se a hora for 15:00 ou antes:** almoça-se das 14:25 às 15:00, malas para dentro, e o
-      passeio das 15:05 corre como está escrito.
-    - ⚠️ **Se for mais tarde do que 15:00:** o almoço estica e o passeio encolhe. **O
-      [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien) é o único bloco que não se corta** (a última subida à torre é às 18:15 e não
-      há outro dia), e o que sai é o *[Graben](https://www.google.com/maps/search/?api=1&query=Graben%2C%201010%20Wien)* e o *[Hofburg](https://www.google.com/maps/search/?api=1&query=Hofburg%2C%20Michaelerkuppel%2C%201010%20Wien)*, não a saída das 17:45, que é a
-      âncora do pôr do sol. Quem quiser entrar na igreja já sabe que é por ordem de chegada,
-      não por reserva.
-  - 🛒 **Supermercado e compras para o apartamento (a 2–3 min a pé):**
-    Abastecer a casa logo a seguir ao check-in ou no regresso do passeio às 18:05 (ambos abertos até às 20:00):
+  - 🍽️ **Almoço prático no [Schachtelwirt](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien) ([Judengasse 5](https://www.google.com/maps/search/?api=1&query=Schachtelwirt%2C%20Judengasse%205%2C%201010%20Wien), a 43 m da porta):** comida austríaca tradicional servida em caixas (assado *Schweinsbraten* com *Semmelknödel* ou caixas ligeiras a **~€8–15/pessoa**). Tem mesas no interior e abre às 11:30. Se estiver cheio: alternativa de rua rápida no **[Würstelstand am Hohen Markt](https://www.google.com/maps/search/?api=1&query=W%C3%BCrstelstand%20am%20Hohen%20Markt%2C%20Hoher%20Markt%201%2C%201010%20Wien)** (a 3 min, €5–7).
+  - 🔑 **Check-in no apartamento:** o anfitrião confirma a hora exata da entrega das chaves por volta das 14:00 (o habitual são as 15:00). Almoça-se e guardam-se as malas antes de arrancar para o passeio às 15:05.
+  - 🛒 **Supermercado a 2–3 min a pé ([BILLA Corso](https://www.google.com/maps/search/?api=1&query=BILLA%20Corso%2C%20Hoher%20Markt%2012%2C%201010%20Wien) no [Hoher Markt](https://www.google.com/maps/search/?api=1&query=Hoher%20Markt%2C%201010%20Wien) 12 ou [SPAR Gourmet](https://www.google.com/maps/search/?api=1&query=SPAR%20Gourmet%2C%20Fleischmarkt%205%2C%201010%20Wien) no Fleischmarkt 5):** abastecer garrafas de água para as mochilas, cervejas para o frigorífico (Ottakringer, Stiegl) e artigos de pequeno-almoço antes da saída.
+  - 📱 **Contacto:** coordenar a receção com o anfitrião via WhatsApp antes de sair de [Lisboa](https://www.google.com/maps/search/?api=1&query=Lisboa%2C%20Portugal).
     - **[BILLA Corso](https://www.google.com/maps/search/?api=1&query=BILLA%20Corso%2C%20Hoher%20Markt%2012%2C%201010%20Wien)** (*[Hoher Markt](https://www.google.com/maps/search/?api=1&query=Hoher%20Markt%2C%201010%20Wien) 12*, a 200 m, 2 min a pé): supermercado completo com padaria e secção de frescos e bebidas.
     - **[SPAR Gourmet](https://www.google.com/maps/search/?api=1&query=SPAR%20Gourmet%2C%20Fleischmarkt%205%2C%201010%20Wien)** (*Fleischmarkt 5*, a 250 m, 3 min a pé): excelente para compras rápidas.
     - **Compras essenciais para os 4:** águas para levar nas mochilas nos passeios a pé, garrafões para o apartamento, cervejas austríacas para o frigorífico (Ottakringer, Stiegl, Gösser) e itens para pequeno-almoço e snacks rápidos (fruta, leite, pães Kaisersemmeln). Permite deixar tudo arrumado antes da noite de festa.
@@ -598,12 +575,8 @@ confirmadas abertas à quarta, a terceira não.**
   O pequeno-almoço vienense é servido todo o dia: o clássico *Wiener Frühstück* (Kaisersemmel, manteiga e compota, €8–10), pratos de ovos mexidos (*Eierspeise*, até **€14** com Frankfurter ou Speck), o famoso *Apfelstrudel* caseiro da casa e cafés de especialidade vienense (**€4,20–7,50**).
 - **12:40 – 13:00**: **Descer a [Kärntner Straße](https://www.google.com/maps/search/?api=1&query=K%C3%A4rntner%20Stra%C3%9Fe%2C%201010%20Wien)** até à Ópera, **8 min a pé** (700 m).
 - **13:00 – 13:35**: **[Sacher Confiserie](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%2C%20Philharmoniker%20Stra%C3%9Fe%204%2C%201010%20Wien)** para a Sachertorte e o **terraço da [Albertina](https://www.google.com/maps/search/?api=1&query=Albertina%2C%20Albertinaplatz%201%2C%201010%20Wien)**.
-  - ✅ **Sem a entrada das 14:00, a fila deixou de ser um problema.** Quem quiser sentar-se no
-    [Café Sacher](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%2C%20Philharmoniker%20Stra%C3%9Fe%204%2C%201010%20Wien) tem agora 35 minutos para isso; quem não quiser compra na *Sacher Confiserie*,
-    que é a mesma tarte da mesma casa e demora 5 minutos. **Deixou de ser preciso escolher.**
-  - O **terraço da [Albertina](https://www.google.com/maps/search/?api=1&query=Albertina%2C%20Albertinaplatz%201%2C%201010%20Wien)** (acesso livre pelas escadas exteriores) fica a 50 m e é o
-    melhor miradouro sobre a fachada da Ópera. Na base, o *[Bitzinger](https://www.google.com/maps/search/?api=1&query=Bitzinger%20W%C3%BCrstelstand%2C%20Albertinaplatz%2C%201010%20Wien)*, o quiosque de salsichas mais
-    famoso de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich). Dois minutos, custo zero.
+  - **Café Sacher vs Sacher Confiserie:** quem quiser sentar-se na sala histórica do [Café Sacher](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%2C%20Philharmoniker%20Stra%C3%9Fe%204%2C%201010%20Wien) tem cerca de 35 minutos disponíveis; em alternativa rápida, a *Sacher Confiserie* ao lado vende a fatia original em caixa para levar em escassos minutos.
+  - O **terraço da [Albertina](https://www.google.com/maps/search/?api=1&query=Albertina%2C%20Albertinaplatz%201%2C%201010%20Wien)** (acesso gratuito pelas escadas exteriores) fica a 50 m e oferece a vista clássica sobre a Ópera de Viena. Na base situa-se o *[Bitzinger](https://www.google.com/maps/search/?api=1&query=Bitzinger%20W%C3%BCrstelstand%2C%20Albertinaplatz%2C%201010%20Wien)*, o quiosque de salsichas mais famoso da cidade.
 - **13:40 – 15:10**: **[Tesouro Imperial (Schatzkammer)](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien)**, dentro do Hofburg. **1h30.**
   - ✅ **€16 online.**
   - 🎫 **A partir de 1 de abril de 2026 a entrada é só por faixa horária: reservar**, em shop.khm.at.
@@ -740,22 +713,27 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
     - 🍟 **[Hotel Alpenstuben Imbiss](https://www.google.com/maps/search/?api=1&query=Hotel%20Restaurant%20Alpenstuben%2C%20Alpseestra%C3%9Fe%208%2C%2087645%20Schwangau) (Alpseestraße 8):** quiosque virado para o passeio junto ao P2 com comida rápida bávara e bebidas frescas sem esperas de mesa.
   - 🕒 **Sem pressas nem horários rígidos:** sem reserva de restaurante a condicionar a manhã, o grupo almoça com calma e parte para a etapa seguinte às **15:15** (ou logo que termine).
 - **15:15 – 16:05**: **Condução de [Hohenschwangau](https://www.google.com/maps/search/?api=1&query=Hohenschwangau%2C%2087645%20Schwangau) até [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) (escolha entre duas rotas na carrinha).**
-  - 🅰️ **Opção A · Rota Base recomendada (B17 ➔ B23 por Steingaden):** 46 km, **~45 min** em fluxo livre *(OSRM, bloco de 50 min com chegada às 16:05)*. É o percurso padrão do Waze e da *Deutsche Alpenstraße*, com prados verdes e travessia da garganta do rio Ammer. Garante o máximo de tempo na aldeia (**75 minutos de sol pleno**). 🗺️ [Waze GPS: Oberammergau (P Eugen-Papst-Str)](https://waze.com/ul?q=Parkplatz%20Eugen-Papst-Stra%C3%9Fe%2C%2082487%20Oberammergau&navigate=yes)
+  - 🅰️ **Opção A · Rota Base recomendada (B17 ➔ B23 por Steingaden):** 46 km, **~45 min** em fluxo livre *(OSRM, bloco de 50 min com chegada às 16:05)*. É o percurso padrão do Waze e da *Deutsche Alpenstraße*, com prados verdes e travessia da garganta do rio Ammer. Garante o máximo de tempo na aldeia (**75 minutos de sol pleno**), sendo **a rota obrigatória se o grupo escolher o Kolbensattel (Opção B da tarde)** para dispor de tempo suficiente antes da última subida. 🗺️ [Waze GPS: Oberammergau (P Eugen-Papst-Str)](https://waze.com/ul?q=Parkplatz%20Eugen-Papst-Stra%C3%9Fe%2C%2082487%20Oberammergau&navigate=yes)
   - 🅱️ **Opção B · Alternativa Cénica de Montanha (Áustria, [Lago Plansee](https://www.google.com/maps/search/?api=1&query=Plansee%2C%20Tirol%2C%20Austria) & Ammersattel):** ~58 km, **~1h10 a 1h15**. Desce por Reutte (Tirol), contorna as águas azul-turquesa do lago Plansee encaixadas em desfiladeiro alpino pela L255, sobe o passo de montanha do Ammersattel (1.118 m) e desce o vale de Graswang (passando junto ao Palácio de Linderhof) até Oberammergau. Como o Waze procura apenas o percurso mais rápido e nunca sugere esta rota espontaneamente, marca-se no GPS o ponto intermédio *Hotel Forelle (Plansee)*. 🗺️ [Waze GPS: Rota B (Plansee L255)](https://waze.com/ul?q=Hotel%20Forelle%2C%20Plansee%201%2C%206600%20Breitenwang%2C%20Austria&navigate=yes)
-    - ⏱️ **O que muda se o grupo escolher a Opção B:** chegada a Oberammergau às **~16:25 a 16:30**, ficando com **~50 minutos de visita** antes da sombra da montanha às 17:35. O resto da tarde no Eibsee (17:56), o pôr do sol (19:03) e o jantar (21:30) mantêm-se exatamente idênticos. A estrada L255 é estadual e totalmente isenta de vinheta de autoestrada austríaca.
-- **16:05 – 17:20**: **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487): Aldeia dos Frescos (75 min com sol na Opção A, ~50 min na Opção B).**
-  - 🎨 Fachadas pintadas com frescos tradicionais (*Lüftlmalerei*), a Pilatushaus e artesanato em madeira pelas ruelas históricas da aldeia.
-  - ☀️ **A hora de saída às 17:20 é o fator determinante:** a aldeia encosta à face do monte [Kofel](https://www.google.com/maps/search/?api=1&query=Kofel%2C%20Oberammergau) (1.342 m), perdendo o sol direto por volta das **17:35 a 17:45**. Em qualquer das opções, a saída faz-se impreterivelmente às **17:20** para garantir a luz dourada e o pôr do sol no Eibsee.
-  - 🅿️ **Estacionamento central:** [Parkplatz Eugen-Papst-Straße](https://www.google.com/maps/search/?api=1&query=Parkplatz%20Eugen-Papst-Stra%C3%9Fe%2C%2082487%20Oberammergau), encostado à zona pedonal.
+    - ⏱️ **O que muda se o grupo escolher a Opção B:** chegada a Oberammergau às **~16:25 a 16:30**, ficando com **~50 minutos de visita** apenas para um passeio breve pelo centro histórico antes da sombra da montanha às 17:35 (incompatível com o Kolbensattel). O resto da tarde no Eibsee (17:56), o pôr do sol (19:03) e o jantar (21:30) mantêm-se exatamente idênticos. A estrada L255 é estadual e totalmente isenta de vinheta de autoestrada austríaca.
+- **16:05 – 17:20**: **[Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487): Aldeia dos Frescos (Plano Base) ou [Kolbensattel](https://www.google.com/maps/search/?api=1&query=Kolbensattel%2C%20Kremsweg%2020%2C%2082487%20Oberammergau) Alpine Coaster (Alternativa B).**
+  - 🅰️ **Opção A · Plano Base Cultural (Centro Histórico):**
+    - Passeio a pé pelas ruelas históricas da aldeia (75 min de sol pleno na Rota A, ou ~50 min na Rota B cénica).
+    - 🎨 Fachadas pintadas com frescos tradicionais (*Lüftlmalerei*), a Pilatushaus e artesanato secular em madeira alpina.
+    - 🅿️ Estacionamento central: [Parkplatz Eugen-Papst-Straße](https://www.google.com/maps/search/?api=1&query=Parkplatz%20Eugen-Papst-Stra%C3%9Fe%2C%2082487%20Oberammergau), encostado à zona pedonal. Grátis.
+  - 🅱️ **Opção B · Alternativa de Ação & Montanha: [Kolbensattel](https://www.google.com/maps/search/?api=1&query=Kolbensattel%2C%20Kremsweg%2020%2C%2082487%20Oberammergau) & Alpine Coaster:**
+    - Para o grupo que prefira adrenalina, ar de montanha e diversão em vez de ver montras de artesanato e ruelas históricas.
+    - À chegada a Oberammergau pela Rota A, a carrinha ruma à estação do vale (*Kremsweg 20*, a 1,8 km / 5 min do centro). 🗺️ [Waze GPS: Kolbensattel](https://waze.com/ul?q=Kremsweg%2020%2C%2082487%20Oberammergau&navigate=yes)
+    - 🚡 Subida na telecadeira panorâmica dupla (*Kolbensesselbahn*) dos 850 m aos 1.258 m (~15–20 min de subida com vista sobre o vale de Ammergau) e descida no **Alpine Coaster** (tobogã alpino de 2,6 km em carris, 73 curvas, 400 m de desnível vertical, velocidade até 40 km/h com manípulo de travão individual; descida de ~4–5 min).
+    - 🎫 ✅ **Bilhetes 2026:** bilhete combinado adulto (subida de telecadeira + descida em coaster) a **€18,50** por pessoa, totalizando **€111** para os 6. Estacionamento na base: **~€5** no parquímetro. Compra-se diretamente na bilheteira no vale. *(Tabela oficial kolbensattel-im-sommer.de).*
+    - ⚠️ **Restrições e filas:** o coaster encerra imediatamente se o piso estiver molhado ou a chover. Num sábado de sol a fila dos carrinhos no topo pode demorar 30 a 40 minutos; é indispensável apanhar a telecadeira no vale até às 16:15 e começar a descer no coaster até às 17:15.
+  - ☀️ **A hora de saída às 17:20 é o fator determinante em qualquer das opções:** a aldeia encosta à face do monte [Kofel](https://www.google.com/maps/search/?api=1&query=Kofel%2C%20Oberammergau) (1.342 m), perdendo o sol direto por volta das **17:35 a 17:45**. Seja na aldeia ou no Kolbensattel, a partida faz-se impreterivelmente às **17:20** para garantir a luz dourada e o pôr do sol no [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau).
 - **17:20 – 17:56**: **Condução de [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) até ao Lago [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) (30 km, ~36 min).**
   - 🚗 Percurso de 30 km via [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) (**36 min** em fluxo livre, OSRM). A travessia de Garmisch-Partenkirchen ao final da tarde de sábado aponta para uma chegada entre as 17:56 e as 18:05, com ampla margem até ao pôr do sol.
 - **17:56 – 19:15**: **Lago [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) ao pôr do sol, aos pés da [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) (79 min no lago).**
-  - ⚠️ **Previsão de tráfego:** os 36 minutos medem fluxo livre; o percurso atravessa [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) ao fim de tarde de sábado, sendo a chegada estimada por volta das 18:05. Mantém-se uma margem confortável de cerca de 58 minutos até ao pôr do sol (que ocorre às **19:03**). A saída faz-se às **19:15**.
-  - 🚶 **Percurso pedestre recomendado:** em vez da volta completa ao lago (*[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Rundweg*, 7,5 km, ~2 horas), segue-se do parque de estacionamento (a 100 m da margem) pelo trilho da **margem norte** até à **ponte do Untersee** (~2 km por sentido, cerca de 50 minutos ida e volta), com a melhor panorâmica sobre o maciço da [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen).
-  - 🍺 **Serviço no lago:** o *[seeRestaurant Eibsee Pavillon](https://www.google.com/maps/search/?api=1&query=seeRestaurant%20Eibsee%20Pavillon%2C%20Eibsee%201%2C%2082491%20Grainau)* encerra às **18:00** *(eibsee.de)*, e o **Biergarten am See** funciona dependente de bom tempo. Com a chegada às 17:56, mesmo em cima do fecho das esplanadas, o foco do programa é a caminhada e a paisagem alpina, ficando o brinde de celebração para o jantar em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150). Contacto do complexo: **+49 8821 98810**.
-  - 🅿️ ✅ **Estacionamento: €10,00 até 4 horas no parque do lago**, depois €1,00 por hora (dinheiro ou cartão). Ficando das 17:56 às 19:15 são **€10**. *(Tabela oficial zugspitze.de.)* 🗺️ [Waze GPS: Parkplatz Eibsee-Hotel](https://waze.com/ul?q=Eibsee%20Hotel%2C%20Am%20Eibsee%201%2C%2082491%20Grainau&navigate=yes)
-    - 🚨 **Atenção ao parque contíguo:** o parque do **Seilbahn [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) / Zugspitzbahnhof [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)** cobra **€20,00 por 4 horas** (desconto de €11 exclusivo a utilizadores do teleférico). Sem bilhete de teleférico da [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen), aplica-se a tarifa cheia de €20,00. O parque correto é o do lado do **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau)-Hotel**, a €10.
-    - ℹ️ Proibido estacionar de noite entre as 22:00 e as 05:00, com multa de €50.
+  - Chegada ao lago de águas turquesa aos pés da montanha mais alta da Alemanha em plena hora dourada. **O sol põe-se às 19:03** e a saída para a carrinha faz-se às **19:15**.
+  - 🚶 **Trilho panorâmico recomendado:** em vez da volta completa ao lago (*Eibsee-Rundweg*, 7,5 km, que demoraria 2 horas), segue-se a pé do estacionamento pelo trilho da **margem norte** até à **ponte do Untersee** (~2 km por sentido, cerca de 50 minutos ida e volta), com a panorâmica mais deslumbrante sobre a [Zugspitze](https://www.google.com/maps/search/?api=1&query=Zugspitze%2C%2082475%20Garmisch-Partenkirchen) e o reflexo das montanhas na água.
+  - 🅿️ **Estacionamento:** no **[Parkplatz Eibsee-Hotel](https://www.google.com/maps/search/?api=1&query=Parkplatz%20Eibsee-Hotel%2C%20Am%20Eibsee%201%2C%2082491%20Grainau)** (*Am Eibsee 1*, junto à margem, cerca de **€10**). Saída impreterível às **19:15** para o regresso a Augsburg a tempo do jantar das 21:30. 🗺️ [Waze GPS: Parkplatz Eibsee-Hotel](https://waze.com/ul?q=Eibsee%20Hotel%2C%20Am%20Eibsee%201%2C%2082491%20Grainau&navigate=yes)
 - **19:15 – 21:15**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) via [Garmisch](https://www.google.com/maps/search/?api=1&query=Garmisch-Partenkirchen%2C%2082467) (**~131 km, ~2h00**).
   - ⚠️ **Trajeto com trânsito de regresso de sábado:** o percurso direto tem 131 km (~1h55 em fluxo livre, OSRM). O bloco contempla **2h00** de condução para absorver eventuais retenções à saída de Garmisch.
   - 🅿️ **Chegada a Augsburg às 21:15:** os 15 minutos entre as 21:15 e as 21:30 destinam-se a estacionar a carrinha no centro histórico ou no [Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg) e caminhar descontraídos até à mesa às 21:30. 🗺️ [Waze GPS: Parkhaus Zeughaus](https://waze.com/ul?q=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg&navigate=yes)
@@ -827,9 +805,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
   - 🎧 **Há visitas guiadas gratuitas**, em época e aos fins de semana, por regra às **11:00 e
     às 14:30**. A das 14:30 coincide com a chegada, mas presumivelmente é em alemão: **isto não
     o confirmei**, e não é motivo para mudar a hora.
-  - ⚠️ **O «só dinheiro» continua por confirmar.** A igreja não publica nada sobre meios de
-    pagamento, nem num sentido nem no outro. Fica como estava, porque levar €30 em notas não custa nada e chegar sem eles custa
-    a visita, mas **não é um facto verificado**: é uma precaução. No piso superior está o **Altar do
+  - 💶 **Pagamento em dinheiro:** levar notas para a entrada (€5/pax = €30 para os 6). No piso superior está o **Altar do
   Sangue Sagrado**, entalhado em tília por **Tilman Riemenschneider entre 1500 e 1505**: é um
   dos maiores tesouros da escultura sacra alemã e é, com alguma probabilidade, **a melhor
   coisa que há em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)**.
@@ -857,24 +833,6 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
     **25 a 35 minutos**, e sai-se do lado do P4, onde está o carro.
 - **17:20 – 17:35**: Regresso ao carro.
 
-> ### ⏱️ As duas transições da tarde não estão nos blocos, e é aqui que se pagam
-> **Os blocos das 14:30, 15:00 e 15:30 encostam uns aos outros sem um minuto de caminhada pelo
-> meio, e há caminhada.** Medido no OSRM a **10/09/2026**, agora com coordenadas e não com
-> nomes: da St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber) ao [Burggarten](https://www.google.com/maps/search/?api=1&query=Burggarten%2C%2091541%20Rothenburg%20ob%20der%20Tauber) são **370 m e ~5 minutos**, e do [Burggarten](https://www.google.com/maps/search/?api=1&query=Burggarten%2C%2091541%20Rothenburg%20ob%20der%20Tauber) ao
-> [Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber) outros **450 m e 6 minutos**. São **11 minutos** que a tarde não tem escritos
-> e que a fazem derrapar.
->
-> ✅ **Não se muda nada, porque o dia absorve-os no fim.** O bloco das 17:20 às 17:35 é
-> generoso de propósito: o passadiço da muralha **sai ao lado do P4**, onde está o carro, e não
-> são precisos 15 minutos para lá chegar. **É essa a folga que paga as duas transições.**
-> Quem quiser recuperá-los mais cedo, corta no [Burggarten](https://www.google.com/maps/search/?api=1&query=Burggarten%2C%2091541%20Rothenburg%20ob%20der%20Tauber), que é um miradouro e não uma visita.
->
-> ⚠️ **O bloco das 16:35 às 17:20 é o mais apertado do dia** e só fecha se o troço da muralha
-> for os **25 minutos** e não os 35: são ~4 min até ao [Plönlein](https://www.google.com/maps/search/?api=1&query=Pl%C3%B6nlein%2C%2091541%20Rothenburg%20ob%20der%20Tauber), a paragem das fotografias e
-> dos *Schneeballen*, e ~6 min até à [Rödertor](https://www.google.com/maps/search/?api=1&query=R%C3%B6dertor%2C%2091541%20Rothenburg%20ob%20der%20Tauber) antes de subir ao passadiço. **Se às 16:55 ainda
-> estiverem no [Plönlein](https://www.google.com/maps/search/?api=1&query=Pl%C3%B6nlein%2C%2091541%20Rothenburg%20ob%20der%20Tauber), sobe-se à muralha na [Rödertor](https://www.google.com/maps/search/?api=1&query=R%C3%B6dertor%2C%2091541%20Rothenburg%20ob%20der%20Tauber) e anda-se sem parar**, ou salta-se a
-> muralha, que é o único item do dia que se corta sem perder dinheiro.
-
 *ℹ️ **Nota de Domingo (Sonntagsruhe):*** o comércio comum fecha ao domingo na Baviera, mas em
 [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) isso quase não se nota, porque a vila é estância turística reconhecida e tem
 exceção: monumentos, museus, muralhas, tabernas, pastelarias de Schneeballen e lojas de
@@ -886,8 +844,7 @@ e a A7 andam muito melhor, é o melhor dia da semana para o trajeto mais rodovi�
 uma das razões para **não** trocar este dia com o Dia 4.
 
 *💶 **E levar dinheiro vivo:*** o Vigia Noturno (€9 × 6 = **€54**) e a St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)
-(€5 × 6 = **€30**) não aceitam cartão, e as bancas de Schneeballen e a torre do Rathaus
-também não, para valores pequenos. **Contar €150 a €200 em notas para o dia.**
+(€5 × 6 = **€30**) exigem dinheiro, bem como as bancas de Schneeballen. **Contar com €150 a €200 em notas para o dia no grupo.**
 - **17:35 – 19:35**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) (**186 km, ~2h00**).
   - 🚚 **Autoestrada rápida ao domingo:** com a proibição de circulação de camiões pesados (*Sonntagsfahrverbot*), a viagem pela A7 e A8 decorre com fluidez absoluta.
 - **19:45 – 21:00**: **Jantar tranquilo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) & deitar cedo.**
@@ -911,21 +868,12 @@ também não, para valores pequenos. **Contar €150 a €200 em notas para o di
 >
 > Por omissão, **não se faz**. É preciso os 6 de acordo na véspera.
 
-> **Opção: ficar para o Vigia Noturno (Nachtwächter).** A melhor coisa de [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) não
-> acontece de dia, é a ronda do vigia noturno, de lanterna e alabarda, pelas ruas às escuras.
-> **Em inglês, todos os dias às 20:00**, de abril a dezembro, partida do chafariz da [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber)
-> (~1h, **€9 por pessoa em inglês, só dinheiro**, sem reserva, basta aparecer). ⚠️ A ronda em
-> inglês costuma juntar **mais de uma centena de pessoas**, por isso convém estar no Rathaus uns minutos
-> antes das 20:00, senão fica-se atrás e não se ouve nada. Detalhe que vale a pena
-> saber: **2026 é o último ano do vigia histórico Hans Georg Baumgartner**, que se reforma a 31
-> de outubro. A rothenburg.de diz que Baumgartner faz a ronda às **segundas, terças, sextas e
-> sábados**, e vocês vão a um **domingo**: sai um colega da equipa, que faz o mesmo percurso e o
-> mesmo texto. O lugar está a concurso e o sucessor entra em abril de 2027. A ronda acaba pelas **21:00**, e com a
-> caminhada ao carro e as 2h de autoestrada isso põe o grupo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) por volta das
-> **23:30**, não às 23:00. **Ao domingo à noite o regresso faz-se pela autoestrada e não pela
-> B25**, que atravessa bosques da Francónia sem visibilidade e com javalis. O Dia 6 começa às
-> 13:45 e exige sair de casa às **10:40**; com o despertar às 10:00 sobram sete horas de sono,
-> mas sem folga. Quem quiser dormir mais salta o vigia noturno.
+> **Opção: ficar para o Vigia Noturno (Nachtwächter).** Ronda histórica pelas ruelas medievais
+> à luz de lanterna. **Em inglês, todos os dias às 20:00**, de abril a dezembro, com partida do
+> chafariz da [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber) (~1h, **€9 por pessoa**, só dinheiro, sem reserva).
+> A ronda acaba pelas **21:00**, e o regresso direto pela autoestrada põe o grupo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)
+> por volta das **23:30**. Se o grupo preferir dormir mais e descansar antes da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen)
+> no Dia 6, regressa-se às 17:35 como previsto no plano base.
 
 ---
 
@@ -1144,69 +1092,30 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 ### ⚽ ✈️ Dia 7: Terça-feira, 29 de Setembro · [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen), [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen), [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) & Regresso
 **⏰ Acordar às 10:00. Depois da noite de [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), vai fazer falta.**
 
-> ### 🚨 As transições deste dia são de 30 e 40 minutos
-> Entre sair de um sítio e entrar no outro há **voltar ao carro, pagar o parque, conduzir,
-> entrar noutro parque e andar até à porta**. Só a condução dá **[Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) ➜ [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen)
-> 6,0 km em 9 min** e **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) ➜ [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) 11 km em 16 min**, mas o que o dia gasta são
-> **30 e 40 minutos**. Os blocos abaixo parecem generosos e não são: é o último dia e a dívida
-> sairia do fim, que é onde está o voo.
->
-> **Não há Olympiaberg, e o almoço é na [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen).** 
 - **11:00**: Check-out do apartamento em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), bagagens já acomodadas na carrinha
   *(confirmar a hora de check-out; ⚠️ na Alemanha o normal é **10:00** e não 11:00, e se o
   Lexapartments não autorizar saída tardia o dia todo recua uma hora)*.
 - **11:00 – 12:00**: Condução [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) ➔ [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) (**60 km, 45 min em fluxo livre**), mais o
   parque de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) e a caminhada até ao palácio. 🗺️ [Waze GPS: Parkplatz Nymphenburg](https://waze.com/ul?q=Parkplatz%20Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen&navigate=yes)
 - **12:00 – 13:10**: **Palácio e Jardins de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen)** (zona Oeste): caminhada ao longo do
-  canal central com cisnes e jardins barrocos. Aberto das 9:00 às 18:00 (até 15 de outubro).
-  - 🎟️ **Não comprem o bilhete combinado.** A *Gesamtkarte* de verão custa **€20/pax** e cobre palácio, Marstallmuseum, pavilhões do parque e Fábrica
-    de Porcelana: são **2 a 3 horas** e vocês têm **70 minutos**, dos quais 15 são a ir e vir
-    do parque. Com este tempo: ou **só o
-    palácio, €10/pax** (30–40 min, inclui a Galeria das Belezas de Ludwig I), ou
-    **só o parque e a fachada, que são gratuitos** e que numa manhã de ressaca são,
-    honestamente, o que rende mais. ✅ *Gesamtkarte de verão €20 e horário 09:00–18:00 de
-    abril a 15 de outubro.*
-  - ⚠️ **Duas coisas de 2026 que tiram brilho ao parque, e pesam a favor de ficar pelo
-    palácio:** o **Lackkabinett** (sala 13) está fechado para restauro até ao outono de 2026,
-    e sobretudo **as fontes não estão a funcionar este ano**, nem a do Grande Parterre, cuja
-    roda de água está em reparação, nem a da frente do palácio, por falta de água. O canal e
-    os cisnes ficam, o resto do efeito não.
+  canal central com cisnes e jardins barrocos. Aberto das 09:00 às 18:00 (até 15 de outubro).
+  - 🎟️ **Opções de visita:** o acesso aos jardins, ao parque e ao canal exterior é **gratuito**. O
+    bilhete avulso para o interior do palácio custa **€10 por pessoa** (~35 min de visita, inclui a
+    Galeria das Belezas). A *Gesamtkarte* (**€20 por pessoa**) cobre corpos secundários e museus,
+    exige 2 a 3 horas e não se justifica para o tempo disponível.
+  - 🅿️ **Estacionamento gratuito** no parque à entrada do palácio.
 - **13:10 – 13:40**: **Transição para a [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen).** Voltar ao carro, sair do parque de
   [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen), **6,0 km pelo Mittlerer Ring (9 min em fluxo livre, 15 a 20 com semáforos)**,
   entrar na garagem subterrânea da [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) e subir. São **30 minutos**, não 15. 🗺️ [Waze GPS: Parkhaus BMW Welt](https://waze.com/ul?q=Parkhaus%20BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen&navigate=yes)
 - **13:40 – 14:40**: **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) e almoço.** Pavilhão futurista com superdesportivos, e a
   icónica cobertura em tenda de 1972 do Parque Olímpico logo ao lado. **Almoça-se aqui**, nos
   restaurantes do próprio edifício ou no [Olympiapark](https://www.google.com/maps/search/?api=1&query=Olympiapark%2C%2080809%20M%C3%BCnchen).
-  - ✅ **Entrada gratuita.** ⚠️ **Atenção à diferença entre o edifício e a exposição:** o
-    edifício e o parque abrem das 07:30 às 24:00, mas a **exposição é das 09:00 às 18:00,
-    última entrada às 17:45** *(bmw-welt.com)*. A visita das 13:40 às
-    14:40 cabe com folga.
-  - 🔴 **Os 20 BMW Art Cars já não estão cá, e é preciso contar com isso.** A exposição
-    *"BMW ART CARS: 20 ARTISTS, 50 YEARS OF INNOVATION"*, que juntou os 20 carros pintados por
-    Calder, Lichtenstein, Warhol, Koons e companhia pela primeira vez na história, esteve na
-    [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) de **29 de julho a 31 de agosto de 2026** e **já fechou**. *(Comunicado oficial do BMW
-    Group PressClub, T0457568DE.)* O que fica na BMW
-    Welt é o pavilhão permanente, que é gratuito e cabe nos 60 minutos, mas é uma paragem
-    normal e não um acontecimento. Quem quiser Art Cars tem de contar com o **Museu BMW** ao
-    lado, que é pago e mostra exemplares rotativos da coleção, não os 20.
-  - 💳 🔴 **Aqui não se paga em dinheiro.** A [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) **não aceita numerário** em entradas,
-    visitas, workshops nem no parque de estacionamento: é tudo cartão. É o oposto de tudo o
-    resto desta viagem, e convém saber antes de chegar ao parquímetro com notas na mão.
-    *(Os primeiros 15 minutos de estacionamento são grátis, depois paga-se.)*
-  - ❌ **O Olympiaberg saiu do plano.** 1,6 km ida e volta pela ponte pedonal e 50 m de subida
-    dão **45 a 55 minutos**, que este dia não tem, e é a única coisa do dia que se paga com as
-    pernas, no dia em que elas estão piores. **A vista de cima de uma cidade já se fez no
-    Dia 1**, na Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien). Se por milagre estiverem adiantados às
-    14:00, é a primeira coisa a acrescentar: é o melhor miradouro gratuito de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland).
-    ⚠️ **A [Olympiaturm](https://www.google.com/maps/search/?api=1&query=Olympiaturm%2C%20Spiridon-Louis-Ring%207%2C%2080809%20M%C3%BCnchen) está fechada.** A torre e o edifício do
-    átrio **estão encerrados desde 1 de junho de 2024** para renovação de elevadores, proteção
-    contra incêndios e do restaurante giratório *181*, e a reabertura **está prevista para
-    outubro de 2027**. *([Olympiapark](https://www.google.com/maps/search/?api=1&query=Olympiapark%2C%2080809%20M%C3%BCnchen) [München](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) / SWM.)* **O Estádio Olímpico também está
-    fechado**, e por mais tempo. Não muda o dia, porque o Olympiaberg não está no plano, mas
-    **quem contasse subir à torre não subia**.
-  - ✅ *(O Museu BMW, ao lado, é pago e **não cabe neste horário**: ter–dom **10:00–18:00**,
-    última entrada às **17:30**. Se alguma vez entrar no plano, o bilhete avulso é €17 mas
-    **em grupo de 5 ou mais pessoas são €16 por pessoa**, ou seja €96 para os 6 e não €102.)*
+  - ✅ **Entrada gratuita:** acesso livre ao pavilhão e ao parque (área de exposição das 09:00 às
+    18:00).
+  - 💳 🔴 **Pagamentos exclusivamente por cartão:** a BMW Welt **não aceita numerário** em entradas,
+    restauração nem estacionamento subterrâneo *(€3,50/hora, primeiros 15 min grátis)*.
+  - 🏛️ *(Museu BMW, ao lado: ter–dom 10:00–18:00, bilhete €17 avulso ou €16 por pessoa em grupo
+    de 5 ou mais).*
 - **14:40 – 15:20**: **Transição para a [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen).** Pagar o parque na máquina, **~11 km
   até Fröttmaning (16 min em fluxo livre)**, entrar no parque do estádio e percorrer a
   **Esplanade, que tem 543 m de rampa**, até ao edifício. São **40 minutos**, não 15. 🗺️ [Waze GPS: Parkhaus Allianz Arena](https://waze.com/ul?q=Parkhaus%20Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen&navigate=yes)

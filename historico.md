@@ -12,15 +12,84 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 > comportamento (porquê às 14:00, porquê este comboio, o que a escolha custou). A arqueologia
 > vem toda para aqui.
 
+## 31.ª revisão · 19 de setembro de 2026
+
+**Despoluição geral do roteiro e do guia: eliminação de meta-talk de planeador, arqueologia de versões e micro-debates monetários.**
+
+Na sequência da simplificação do nó do Lago Eibsee, procedeu-se a uma auditoria aos nós de visita dos restantes dias que padeciam do mesmo excesso de texto, preciosismos sobre cêntimos e debates de bastidores de planeamento (Regras 9 e 11 do dossiê):
+
+1. **Dia 1 · Central City Apartments / Almoço informal (`14:20 → 15:00`):**
+   - Removida a arqueologia de menu do Schachtelwirt (preços prato a prato do Schweinsbraten a €12,90 e menus executivos a €9,50).
+   - O cartão foca-se agora no essencial prático de terreno: caixas tradicionais austríacas prontas a levar (~€8–15/pax), supermercados Billa Corso e Spar Gourmet para abastecer água e snacks, e confirmação do check-in por WhatsApp por volta das 14:00.
+
+2. **Dia 2 · Brunch no Café Korb & Sachertorte (`11:00 → 13:35`):**
+   - Eliminadas as justificações de desenho de percurso ("Sem a entrada fixa das 14:00, a fila deixou de ser um problema...").
+   - Mantida a instrução direta de terreno: brunch descontraído sem reserva no Korb e comparação objetiva da Sachertorte no Café Sacher (com fila) vs. Confiserie Sacher ao lado (balcão sem fila) ou esplanada da Albertina.
+
+3. **Dia 5 · Rothenburg ob der Tauber (`13:00 → 17:35`):**
+   - Removidos os blocos críticos de meta-comentário ("O almoço tem hora e o dia não tem folga...", "⏱️ As duas transições da tarde não estão nos blocos, e é aqui que se pagam..."). As transições já são absorvidas nos nós e no regresso ao P4.
+   - Eliminada a biografia e disputa jurídica do Vigia Noturno (a reforma do lendário Hans Georg Baumgartner, o concurso municipal e os processos judiciais). O guia retém apenas a instrução para o viajante: ronda em inglês às 20:00 na Marktplatz, €9/pax em dinheiro.
+   - Simplificada a nota de numerário na St. Jakobskirche (€5/pax) e nos Schneeballen, cortando o debate sobre se a bilheteira aceita ou não cartão temporariamente.
+
+4. **Dia 7 · Palácio de Nymphenburg e BMW Welt (`12:00 → 14:40`):**
+   - Eliminado o aviso crítico de meta-planeamento ("🚨 As transições deste dia são de 30 e 40 minutos..."), pois os tempos reais de condução e acesso já contam com nós de transição próprios.
+   - Nymphenburg: removida a arqueologia de preços anteriores ("os preços que aqui estavam eram os errados... palácio a €10 não €8..."). Sintetizado em: jardins e canal com acesso gratuito; visita interior ao palácio principal por €10/pax (~35 min); Gesamtkarte (€20) não compensa pelo tempo de 70 min. Parque gratuito.
+   - BMW Welt: expurgada a arqueologia sobre a exposição dos 20 BMW Art Cars (já encerrada em agosto de 2026), o diário de cancelamento da subida ao Olympiaberg e o relatório de obras da Olympiaturm até 2027. O nó foca-se na visita ao pavilhão futurista (grátis), almoço no local, pagamento exclusivamente por cartão (parque a €3,50/h) e menção concisa ao Museu BMW (€17 / €16 em grupo).
+
+5. **Verificação e compilação:**
+   - Ambos os ficheiros (`partials/itinerary.html` e `itinerario_viagem.md`) alinhados em absoluto.
+   - Reconstruído `index.html` via `build.py` com paridade 100%.
+   - `python scripts/verificar.py` executado com 0 erros e paridade integral de preços e passageiros.
+
+---
+
+## 30.ª revisão · 19 de setembro de 2026
+
+**Inclusão do Kolbensattel (Alpine Coaster) como Alternativa B oficial da tarde no Dia 4.**
+
+1. **A decisão do grupo:**
+   O grupo decidiu manter o passeio pelo centro histórico de Oberammergau (Lüftlmalerei, Pilatushaus, artesanato) como o Plano Base Cultural (Opção A), mas formalizou o **Kolbensattel (Alpine Coaster)** como a **Alternativa B oficial** para o bloco das 16:05–17:20 no Dia 4.
+   À saída do almoço no Alpsee, se o grupo estiver num registo de ação, montanha e adrenalina em vez de visitar ruelas históricas, pode optar diretamente pelo Kolbensattel, situado a 1,8 km do centro.
+
+2. **Factos e especificações verificados na fonte primária (kolbensattel-im-sommer.de):**
+   - Época de verão aberta até 27 de setembro de 2026 (abrangendo em pleno o sábado 26 de setembro).
+   - Telecadeira dupla (*Kolbensesselbahn*) aberta 10:00–18:00 (última subida 17:45); Alpine Coaster aberto 11:00–18:00.
+   - Pista com 2,6 km de extensão, 73 curvas, 400 m de desnível vertical e velocidade regulável por travão individual até 40 km/h (descida de ~4 a 5 min).
+   - Preço oficial 2026: bilhete combinado adulto (subida na telecadeira + descida no coaster) a €18,50 por pessoa (€111 no total para os 6 passageiros). Estacionamento na base a ~€5 no parquímetro.
+   - Requisitos operacionais e restrições: pista fecha com chuva ou humidade; filas de embarque no topo podem chegar a 30–40 min a um sábado à tarde solarengo.
+
+3. **Compatibilidade com o cronograma:**
+   - Para fazer o Kolbensattel, a condução de saída do almoço tem obrigatoriamente de seguir pela Rota A (B17 ➔ B23 por Steingaden, 46 km, ~50 min), garantindo chegada às 16:05 com os 75 minutos necessários.
+   - A partida faz-se impreterivelmente às 17:20 em qualquer das opções, garantindo a chegada ao Lago Eibsee às 17:56, a caminhada até à ponte e o pôr do sol às 19:03 aos pés da Zugspitze, sem alteração no restante dia nem no jantar das 21:30 em Augsburg.
+
+4. **Sincronização nos documentos:**
+   - Atualizado `itinerario_viagem.md` (tabela de bilhetes, condução e bloco de visita às 16:05).
+   - Atualizado `partials/itinerary.html` (nó de condução e nó de visita com botões Waze para Kremsweg 20 e link para o site oficial) e compilado com `build.py`.
+   - Verificação limpa com `python scripts/verificar.py`: 0 erros, paridade estrita de preços e pessoas.
+
+5. **Simplificação e despoluição do nó do Lago Eibsee (Dia 4):**
+   - Eliminadas as repetições textuais da caminhada até à ponte do Untersee (que surgia duplicada no corpo do texto e na caixa de aviso).
+   - Removida a sobreanálise de preços de estacionamento (€10 vs €20 do Seilbahn, coimas noturnas, decomposição de tarifas horárias): o parque oficial a usar é simplesmente o *Parkplatz Eibsee-Hotel* (~€10).
+   - Removidos dados desnecessários sobre o fecho do restaurante às 18:00 e números de telefone, mantendo o cartão focado no essencial: o trilho panorâmico da margem norte, a hora dourada, o pôr do sol às 19:03 e a saída impreterível às 19:15 para o jantar.
+
+---
+
 ## 29.ª revisão · 19 de setembro de 2026
 
-**Desacoplamento do bloco de condução e do bloco de visita em Oberammergau (Dia 4).**
+**Desacoplamento integral dos blocos de viagem e de visita no guia interativo (Dias 4 e 7).**
 
-1. **Separação em dois nós no guia interativo:**
-   O nó de Oberammergau no guia interativo (`partials/itinerary.html`) agrupava a deslocação desde Hohenschwangau com a visita pedestre à aldeia num único bloco (`15:15 → 17:20`).
-   Passou a ter dois nós dedicados e autónomos, em perfeita paridade com o `itinerario_viagem.md`:
-   - `🚗 15:15 → 16:05`: Condução Alpina (Hohenschwangau ➔ Oberammergau, escolha entre Rota A por Steingaden e Rota B cénica pelo Plansee com os respetivos botões Waze).
-   - `🎨 16:05 → 17:20`: Oberammergau: Aldeia dos Frescos (passeio a pé pelo centro histórico com os frescos *Lüftlmalerei*, artesanato em madeira, aviso solar do monte Kofel e botão Maps para o Parkplatz Eugen-Papst-Straße).
+Auditados todos os dias da viagem para garantir que nenhuma deslocação rodoviária ou viagem de transição partilha o mesmo bloco com visitas ou atrações. Foram identificados e corrigidos dois dias onde esse problema existia:
+
+1. **Dia 4 (Alpes):**
+   - Separado o troço Hohenschwangau ➔ Oberammergau (`🚗 15:15 → 16:05`, Condução Alpina com opções A e B) da visita pedestre à aldeia (`🎨 16:05 → 17:20`, Oberammergau: Aldeia dos Frescos).
+   - Separada a condução até ao lago (`🚗 17:20 → 17:56`, Oberammergau ➔ Lago Eibsee via Garmisch) da contemplação ao pôr do sol (`🌊 17:56 → 19:15`, Lago Eibsee aos pés da Zugspitze).
+
+2. **Dia 7 (Munique & Regresso):**
+   - Separada a condução matinal (`🚗 11:00 → 12:00`, Check-out em Augsburg ➔ Munique) da visita ao palácio (`🏰 12:00 → 13:10`, Palácio e Jardins de Nymphenburg).
+   - Criado nó autónomo de transporte para a travessia urbana até ao Olympiapark (`🚗 13:10 → 13:40`, Nymphenburg ➔ BMW Welt pelo Mittlerer Ring), antes da visita (`🏎️ 13:40 → 14:40`, BMW Welt & Parque Olímpico).
+   - Criado nó autónomo de transporte para o estádio (`🚗 14:40 → 15:20`, BMW Welt ➔ Allianz Arena pela A9), antes da visita exterior (`⚽ 15:20 → 16:00`, Allianz Arena & FC Bayern Megastore).
+
+Todos os 7 dias têm agora cada etapa de estrada ou comboio em cartão dedicado de categoria `transporte`, fechando o cronograma sem sobreposições.
 
 ---
 
