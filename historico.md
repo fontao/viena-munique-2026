@@ -12,6 +12,18 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 > comportamento (porquê às 14:00, porquê este comboio, o que a escolha custou). A arqueologia
 > vem toda para aqui.
 
+## 29.ª revisão · 19 de setembro de 2026
+
+**Desacoplamento do bloco de condução e do bloco de visita em Oberammergau (Dia 4).**
+
+1. **Separação em dois nós no guia interativo:**
+   O nó de Oberammergau no guia interativo (`partials/itinerary.html`) agrupava a deslocação desde Hohenschwangau com a visita pedestre à aldeia num único bloco (`15:15 → 17:20`).
+   Passou a ter dois nós dedicados e autónomos, em perfeita paridade com o `itinerario_viagem.md`:
+   - `🚗 15:15 → 16:05`: Condução Alpina (Hohenschwangau ➔ Oberammergau, escolha entre Rota A por Steingaden e Rota B cénica pelo Plansee com os respetivos botões Waze).
+   - `🎨 16:05 → 17:20`: Oberammergau: Aldeia dos Frescos (passeio a pé pelo centro histórico com os frescos *Lüftlmalerei*, artesanato em madeira, aviso solar do monte Kofel e botão Maps para o Parkplatz Eugen-Papst-Straße).
+
+---
+
 ## 28.ª revisão · 13 de setembro de 2026
 
 **Decisão definitiva da Rota A no Dia 4: eliminação da bifurcação com a Abadia de Ettal e linearização do horário da tarde.**
