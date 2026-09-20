@@ -12,6 +12,49 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 > comportamento (porquê às 14:00, porquê este comboio, o que a escolha custou). A arqueologia
 > vem toda para aqui.
 
+## 33.ª revisão · 19 de setembro de 2026
+
+**Cancelamento da entrada no interior de St. Jakobskirche (Dia 5, Rothenburg), poupança de €30 e desafogo do programa da tarde.**
+
+1. **A decisão do grupo:**
+   O grupo decidiu expressamente não entrar no interior da igreja gótica de St. Jakobskirche (*"não vamos entrar lá dentro"*), eliminando a visita ao piso superior do Altar do Sangue Sagrado e poupando €5 por pessoa (€30 para os 6 passageiros).
+
+2. **Reestruturação e desafogo da tarde em Rothenburg:**
+   - **Contemplação exterior e Burggarten (`14:30 – 15:15`, 45 min):** à saída do almoço (Kirchplatz / Obere Schmiedgasse), o grupo admira a imponência arquitetónica exterior e as torres góticas de St. Jakob a caminho da nobre Herrngasse, passeando sem pressa nos jardins do Burggarten com a panorâmica desafogada sobre o vale do rio Tauber.
+   - **Kriminalmuseum (`15:15 – 16:15`, 60 min):** visita de 1 hora ao museu de direito penal medieval (€10,50/pax = €63 para os 6) entre as 15:15 e as 16:15.
+   - **Plönlein, Schneeballen e troço nascente da muralha (`16:15 – 17:15`, 60 min):** a poupança de tempo na igreja permitiu expandir este bloco (anteriormente comprimido em 45 minutos) para uma hora completa e serena. Há tempo desafogado para a fotografia clássica no cruzamento do Plönlein, compra e prova de *Schneeballen* na pastelaria e o percurso no passadiço coberto da muralha entre a Rödertor e a Galgentor (25 a 35 min).
+   - **Regresso ao carro e partida (`17:15 – 17:35`, 20 min):** descida da muralha diretamente no P4 Galgentor com margem para paragem técnica e partida pontual às 17:35.
+
+3. **Orçamento e numerário:**
+   - A linha de St. Jakobskirche na tabela de bilhetes passa a **grátis** (poupa €30).
+   - A necessidade de dinheiro vivo para a manhã do Dia 5 cai para cerca de €80 a €100 (destinada a *Schneeballen*, compras tradicionais e os €54 do Vigia Noturno caso optem por ficar).
+
+4. **Sincronização e verificação:**
+   - Atualizados `itinerario_viagem.md` e `partials/itinerary.html`.
+   - Executado `python build.py` e validado com `python scripts/verificar.py` (0 erros, 0 preços órfãos).
+
+---
+
+## 32.ª revisão · 19 de setembro de 2026
+
+**Fixação da Estrada Romântica (B2 / B25) como rota oficial da viagem para Rothenburg no Dia 5.**
+
+1. **A decisão do grupo:**
+   Em vez de manter a autoestrada A8/A7 como trajeto padrão e a B25 como alternativa secundária, o grupo decidiu percorrer a **Estrada Romântica (*Romantische Straße*)** na viagem de ida para Rothenburg ob der Tauber.
+
+2. **Geografia, tempos e sincronização horária:**
+   - **Ida pela Estrada Romântica (B2 ➔ B25):** 155 km, ~2h30 a 2h40 de condução contínua (OSRM mediu 155,2 km e 138 min em fluxo livre). Serpenteia por Donauwörth, Harburg, Nördlingen e Dinkelsbühl. Menos 31 km do que a autoestrada e um percurso cénico que se desfruta em pleno à luz da manhã.
+   - **Ajuste na manhã:** para garantir a chegada ao P4 Galgentor às **12:55** e preservar a mesa de almoço reservada às **13:15** (no Reichsküchenmeister ou Baumeisterhaus), a saída de Augsburg foi antecipada para as **10:15** e o despertar para as **09:15** (garantindo ~9h de sono após o sábado nos Alpes).
+   - **Regresso rápido pela autoestrada (A7 ➔ A8 via Ulm):** 186 km, ~2h00. Ao cair da noite (sol põe-se às 19:03), a B25 perde o encanto cénico; em contrapartida, ao domingo vigora a proibição de circulação de camiões pesados (*Sonntagsfahrverbot*), tornando a autoestrada rápida, desafogada e segura para um regresso tranquilo até ao jantar das 19:45 em Augsburg.
+
+3. **Impacto no programa e documentos:**
+   - O programa da tarde em Rothenburg (almoço, St. Jakobskirche, Burggarten, Kriminalmuseum, Plönlein e troço nascente da muralha até às 17:35) fica **100% intocado**.
+   - Atualizado `itinerario_viagem.md` e `partials/itinerary.html` (tab do Dia 5, banner, nós de manhã, condução cénica com destaques e chegada ao P4).
+   - Atualizado o resumo para WhatsApp em `partials/footer.html`.
+   - `build.py` executado e `scripts/verificar.py` validado com 0 erros e 0 preços órfãos.
+
+---
+
 ## 31.ª revisão · 19 de setembro de 2026
 
 **Despoluição geral do roteiro e do guia: eliminação de meta-talk de planeador, arqueologia de versões e micro-debates monetários.**
@@ -1840,6 +1883,8 @@ os dois bilhetes são contratos de transporte independentes e não reembolsávei
 | **Comboio das 09:17 (Dia 6)** | ❌ Não | Punha o grupo na Wiesn às 11:00 com as tendas vazias, mas custa a manhã de Munique inteira. Numa segunda, às 13:45 ainda há lugar. |
 | **BMW Welt: Dia 6 ➔ Dia 7** | ✅ Feito | Fica a 45 min do centro e não cabia no dia da Oktoberfest; no Dia 7 fica a ~15 min de Nymphenburg, no caminho para o aeroporto. |
 | **Noite do Dia 3 em Augsburg** | ✅ Feito | O dia acabava no check-in. Ganhou Fuggerei, jantar e passeio noturno, tudo a pé. |
+| **Desvio a Nuremberga (Dia 5)** | ❌ Rejeitado | Não interessa aos viajantes. Um centro de documentação sobre a encenação nazi a meio de um domingo de cidades medievais e cerveja francónia altera totalmente o registo da viagem. Além disso, o desvio (+110 km e +2h10 de carro) sacrificava o Kriminalmuseum (de manhã) ou o descanso e deitar cedo antes da Oktoberfest (à tarde). Opção descartada em definitivo e removida do itinerário e do guia. |
+| **Vigia Noturno em Rothenburg (Dia 5)** | ❌ Rejeitado | Não interessa aos viajantes. Ficar para a ronda das 20:00 adiava o regresso a Augsburg para as 23:30, sacrificando o descanso e o recolher cedo na véspera da Oktoberfest. Opção descartada em definitivo e removida do itinerário, do guia e da tabela de bilhetes. |
 
 **Ordem geográfica do Dia 7** (Nymphenburg ➔ BMW Welt ➔ Allianz Arena ➔ MUC) já é a ótima: uma
 linha de oeste para nordeste que acaba no aeroporto, sem retrocessos.

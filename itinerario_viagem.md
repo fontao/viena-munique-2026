@@ -231,9 +231,8 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | **[Kolbensattel](https://www.google.com/maps/search/?api=1&query=Kolbensattel%2C%20Kremsweg%2020%2C%2082487%20Oberammergau) Alpine Coaster** (Dia 4) | 6 | ✅ **€18,50**/pax = **€111** | Dia 4, **opcional (Alternativa B)** · telecadeira + coaster · bilheteira no vale |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €54 (3 pax) + €54 (3 pax) = **€108** | Repartir 3+3 e não 5+1: custa o mesmo |
 | **Palácio de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen)** | 6 | Parque **grátis** · palácio **€10**/pax · *Gesamtkarte* **€20** | Ver Dia 7: só há 75 min |
-| **St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | ✅ €5/pax = **€30** | Dia 5 · altar de Riemenschneider · domingo **10:00–18:00** · ⚠️ levar dinheiro, ver nota |
+| **St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | **grátis** | Dia 5 · contemplação exterior da fachada a caminho do Burggarten · sem entrada no interior (poupa €30) |
 | **[Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | €10,50/pax = **€63** | Dia 5 · 10:00–18:00, última entrada 17:15 |
-| **Vigia Noturno** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | €9/pax = **€54** | Dia 5, **opcional** · 20:00, só dinheiro, sem reserva |
 | **Estacionamento** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | - | ⚠️ **€5,50** | Dia 5 · P4 ou P3 · pagam-se 09:00–18:00, grátis fora dessa janela · ler a máquina |
 | **[Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)**: esplanada + Megastore | 6 | **grátis** | ✅ **29/09: tudo 10:00–18:00.** Museu só **€12** · +Arena View €19 · +Tour €25 |
 | **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen)** | 6 | ✅ **grátis** | Museu BMW à parte: ✅ **€16/pax em grupo de 5+** (avulso €17) · ter–dom 10:00–18:00, última entrada 17:30 |
@@ -743,41 +742,30 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 
 ---
 
-### 🏰 🇩🇪 Dia 5: Domingo, 27 de Setembro · Circuito Medieval: [Rothenburg ob der Tauber](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)
-**⏰ Acordar 10:00 · Saída às 11:00. Dia mais leve e rodoviário, aproveitando o domingo sem camiões nas autoestradas.**
+### 🏰 🇩🇪 Dia 5: Domingo, 27 de Setembro · 🌻 Estrada Romântica & [Rothenburg ob der Tauber](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)
+**⏰ Acordar 09:15 · Saída às 10:15. Percurso cénico pela mítica Estrada Romântica (B2/B25) na ida e regresso desimpedido pela autoestrada.**
 
-- **10:00 – 11:00**: **Acordar no apartamento, pequeno-almoço e preparação da viagem.**
-  - 💤 Acordar às 10:00 no apartamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%206%2C%2086152%20Augsburg) com sono recuperado do dia nos Alpes, sem correrias nem despertador madrugador.
+- **09:15 – 10:15**: **Acordar no apartamento, pequeno-almoço e preparação da viagem.**
+  - 💤 Acordar às 09:15 no apartamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%2C%2086152%20Augsburg) com sono recuperado do dia nos Alpes (~9h de repouso).
   - ☕ Pequeno-almoço tranquilo em casa com as provisões do frigorífico compradas na véspera.
   - 📞 **Fazer a chamada da manhã para reservar o almoço para 6 em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) às 13:15:** escolher o **[Reichsküchenmeister](https://www.google.com/maps/search/?api=1&query=Hotel-Gasthof%20Reichsk%C3%BCchenmeister%2C%20Kirchplatz%208%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (+49 9861 9500) ou o **[Baumeisterhaus](https://www.google.com/maps/search/?api=1&query=Restaurant%20Baumeisterhaus%2C%20Obere%20Schmiedgasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (+49 9861 9470-0), ambas de cozinha contínua. Uma mesa para 6 ao domingo sem reserva é recusada.
-  - 💶 **Levar dinheiro vivo:** a St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber) (€30 para os 6), as bancas de *Schneeballen* e pequenas lojas não aceitam cartão.
-  - 🚗 Partida às 11:00 com todos a bordo na carrinha de 7 lugares.
-- **11:00 – 13:00**: Viagem de carro para norte. **Duas rotas, escolher uma:**
-  - **Autoestrada (recomendada):** **186 km, ~2h00**. Não vai a direito: a A8 leva-vos primeiro
-    para **oeste até Ulm**, e só aí é que a A7 sobe para norte até à saída 108.
-  - **Estrada Romântica (B25):** **~152 km, ~2h30** de condução, passando por Donauwörth,
-    Harburg, Nördlingen e Dinkelsbühl. É a bonita, mas obriga a sair às **10:30**.
-  - ⚠️ **A autoestrada é a mais longa das duas.** A A8 não vai a direito e
-    é **34 km mais longa** por causa da volta por Ulm, e a estrada bonita custa apenas
-    **~30 minutos a mais**. Ida e volta, a autoestrada obriga a **~68 km** a mais, e ao combustível
-    correspondente.
-  - *(As vilas da Estrada Romântica ficam na B25, não na A7.)*
-> ### 🍽️ O almoço tem hora, e é por uma razão
-> **As cozinhas alemãs fecham o serviço de almoço entre as 14:00 e as 14:30 e só reabrem às
-> 17:30.** Quem visitar primeiro e for comer às 15:15 encontra tudo fechado, e fica sem
-> refeição quente entre o pequeno-almoço em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) e o jantar da noite. Daí **os blocos
-> deste dia terem todos hora**, e daí as duas tabernas escolhidas serem as de **cozinha
-> contínua**.
-
-- **13:00 – 13:15**: **Estacionar e entrar pela porta medieval.** Apontar ao **P4
-  ([Galgentor](https://www.google.com/maps/search/?api=1&query=Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber))**, que é o que fica em frente ao melhor troço da muralha; se estiver cheio, o
-  **P3 (Schweinsdorfer Straße)** é o maior de todos, tem sempre lugar e fica a 7 min do centro. 🗺️ [Waze GPS: Parkplatz P4 Galgentor](https://waze.com/ul?q=Parkplatz%20P4%20Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber&navigate=yes)
+  - 💶 **Levar dinheiro vivo:** as bancas de *Schneeballen* e pequenas lojas tradicionais exigem numerário.
+  - 🚗 Partida às 10:15 na carrinha de 7 lugares *(ou às 10:00 se quiserem paragem fotográfica de 15 min junto a Harburg ou Dinkelsbühl)*.
+- **10:15 – 12:55**: **Condução cénica pela 🌻 Estrada Romântica (B2 ➔ B25): 155 km, ~2h30 a 2h40.**
+  - 🌻 **A Rota Oficial:** subida pela mítica *Romantische Straße* através da B2 até Donauwörth e daí pela B25 pelas colinas e vales da Suábia e Francónia. São menos 31 km do que a autoestrada e um percurso com castelos, cidades muradas e paisagens rurais deslumbrantes sob a luz da manhã.
+  - 🏰 **Destaques visuais a partir da estrada:**
+    - **Donauwörth (km 42):** confluência do Danúbio e do Wörnitz e início da secção clássica da rota.
+    - **Burg Harburg (km 58):** imponente fortaleza medieval sobranceira à estrada, com muralhas e baluartes intactos erguidos sobre o promontório rochoso.
+    - **Nördlingen (km 75):** cidade fortificada construída no coração da cratera de impacto de um meteorito gigante (*Geopark Ries*), avistando-se a torre gótica *Daniel* de 90 m.
+    - **Dinkelsbühl (km 108):** fossos defensivos e muralhas góticas intocadas, com torres de vigia a ladear a via.
+  - 🗺️ Para garantir que a navegação segue a B25 e não desvia para a autoestrada, definir no Waze os pontos de passagem via Donauwörth e Nördlingen até ao P4 Galgentor. 🗺️ [Waze GPS: Parkplatz P4 Galgentor](https://waze.com/ul?q=Parkplatz%20P4%20Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber&navigate=yes)
+- **12:55 – 13:15**: **Estacionamento no P4 ([Galgentor](https://www.google.com/maps/search/?api=1&query=Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber)) e entrada pela porta medieval.**
+  - Apontar ao **P4**, em frente ao melhor troço da muralha; se estiver cheio, o **P3 (Schweinsdorfer Straße)** é o maior parque de todos, tem sempre vagas e fica a 7 min do centro. 🗺️ [Waze GPS: Parkplatz P4 Galgentor](https://waze.com/ul?q=Parkplatz%20P4%20Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber&navigate=yes)
   - ⚠️ **Parquímetro: no máximo €5,50 para a tarde, e o preço lê-se na máquina.** Os grandes
     parques (P1 a P5) pagam-se das **09:00 às 18:00** e são **gratuitos** fora dessa janela; a
     tarifa afixada é **€1,10/hora com teto de €5,50/dia** *(fichas dos parques; a
     stadt.rothenburg.de regula a janela mas não publica tarifas)*. Ficando das 13:00 às 17:35
-    a tarde custa no máximo **€5,50**, e o mesmo bilhete cobre a noite inteira se ficarem para
-    o Vigia Noturno.
+    a tarde custa no máximo **€5,50**.
   - 🚫 **Não tentar estacionar dentro das muralhas.** Lá dentro paga-se das **08:00 às 20:00**
     e o **máximo são 2 horas**, o que não serve para nada neste dia.
   - ⚠️ **O P5 (Bezoldweg) só aceita viaturas até 2,00 m de altura.** Um VW Touran passa
@@ -788,32 +776,15 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
   tabernas tem mesas de 2 a 4 lugares e recusa sem marcação. **Escolher uma das duas que têm
   cozinha contínua**, que é a única proteção real se a viagem se atrasar:
   - ⭐ **Hotel-Gasthof [Reichsküchenmeister](https://www.google.com/maps/search/?api=1&query=Hotel-Gasthof%20Reichsk%C3%BCchenmeister%2C%20Kirchplatz%208%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (*Kirchplatz 8*, **+49 9861 9500**), cozinha
-    **11:30–21:00 sem interrupção**, e fica **encostado à St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**, que é a paragem
-    logo a seguir. *Fränkisches Schäufele*, *Bratwürste*, vinhos em *Bocksbeutel*.
+    **11:30–21:00 sem interrupção**, e fica **encostado à St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**, de onde se inicia o passeio logo a seguir. *Fränkisches Schäufele*, *Bratwürste*, vinhos em *Bocksbeutel*.
   - **Restaurant [Baumeisterhaus](https://www.google.com/maps/search/?api=1&query=Restaurant%20Baumeisterhaus%2C%20Obere%20Schmiedgasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (*Obere Schmiedgasse 3*, **+49 9861 9470-0**), cozinha
     **11:00–21:00**, num edifício de 1596 com pátio de galerias renascentistas.
   - 🚫 **Não contar com a *[Zur Höll](https://www.google.com/maps/search/?api=1&query=Zur%20H%C3%B6ll%2C%20Burggasse%208%2C%2091541%20Rothenburg%20ob%20der%20Tauber)***, que os guias todos recomendam: **fecha ao domingo**.
     E a *Altfränkische Weinstube* só abre às 18:00.
-- **14:30 – 15:05**: 🖼️ **St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (*Klostergasse 15*, 200 m da [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber)), **incluindo os 5 min a pé até ao [Burggarten](https://www.google.com/maps/search/?api=1&query=Burggarten%2C%2091541%20Rothenburg%20ob%20der%20Tauber) a seguir.**
-  ✅ **€5/pessoa, aberta ao domingo das 10:00 às 18:00.** A paróquia publica *"von 10-18 Uhr;
-  mittwochs bis 16.15 Uhr; samstags bis 17.30 Uhr"*, portanto o domingo é o horário cheio, e
-  **€5 para "Einzelpersonen und Gruppen unter 10 Personen"**, que é o caso dos 6.
-  *(rothenburg-evangelisch.de.)*
-  - ✅ **E há uma coincidência boa: 27 de setembro é o 4.º domingo do mês.** Nesses domingos o
-    culto das 09:30 é em Detwang e o das 11:00 na Heilig-Geist-Kirche, **não em St. Jakob**.
-    A igreja não tem serviço nesse dia, e as visitas só param por concerto ou evento.
-  - 🎧 **Há visitas guiadas gratuitas**, em época e aos fins de semana, por regra às **11:00 e
-    às 14:30**. A das 14:30 coincide com a chegada, mas presumivelmente é em alemão: **isto não
-    o confirmei**, e não é motivo para mudar a hora.
-  - 💶 **Pagamento em dinheiro:** levar notas para a entrada (€5/pax = €30 para os 6). No piso superior está o **Altar do
-  Sangue Sagrado**, entalhado em tília por **Tilman Riemenschneider entre 1500 e 1505**: é um
-  dos maiores tesouros da escultura sacra alemã e é, com alguma probabilidade, **a melhor
-  coisa que há em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)**.
-- **15:05 – 15:35**: 🌄 **[Burggarten](https://www.google.com/maps/search/?api=1&query=Burggarten%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** pela Herrngasse (~460 m da [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber), grátis, aberto
-  sempre), **incluindo os 6 min a pé até ao [Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber) a seguir**: o promontório onde estava o castelo imperial dos Hohenstaufen, com a panorâmica
-  mais desafogada sobre o vale do Tauber, os socalcos de vinha e a ponte medieval de arcos
-  duplos.
-- **15:35 – 16:35**: 🗡️ **Mittelalterliches [Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (*Burggasse 3–5*, domingo
+- **14:30 – 15:15**: 🌄 **Fachada de St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**, **Herrngasse e miradouro do [Burggarten](https://www.google.com/maps/search/?api=1&query=Burggarten%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (~460 m da [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber), grátis, aberto sempre), **incluindo os 6 min a pé até ao [Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber) a seguir.**
+  - ⛪ **St. Jakobskirche (exterior):** passagem pela imponente igreja gótica (*Klostergasse 15*) para contemplação exterior da imponente fachada e torres góticas (sem entrada no interior, poupando €5/pax = €30 para os 6).
+  - 🌳 **Herrngasse e Burggarten:** descida pela nobre Herrngasse até ao promontório onde estava o castelo imperial dos Hohenstaufen, com a panorâmica mais desafogada sobre o vale do Tauber, os socalcos de vinha e a ponte medieval de arcos duplos.
+- **15:15 – 16:15**: 🗡️ **Mittelalterliches [Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (*Burggasse 3–5*, domingo
   10:00–18:00, última entrada 17:15). Mil anos de história do direito penal germânico em
   50.000 peças: máscaras de vergonha, instrumentos originais, processos de inquisição e a
   desmontagem do mito da Dama de Ferro. É muito mais visual do que parece pelo nome.
@@ -824,14 +795,14 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
     permanente e museu, aberta ao domingo) mais a subida dos 220 degraus da **torre do
     Rathaus** (~€3, vista de 360° sobre a [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber)) enchem a mesma hora. *A filial da
     Untere Schmiedgasse, essa, fecha ao domingo.*
-- **16:35 – 17:20**: 📸 **[Plönlein](https://www.google.com/maps/search/?api=1&query=Pl%C3%B6nlein%2C%2091541%20Rothenburg%20ob%20der%20Tauber), Schneeballen e o troço da muralha que vale a pena.**
+- **16:15 – 17:15**: 📸 **[Plönlein](https://www.google.com/maps/search/?api=1&query=Pl%C3%B6nlein%2C%2091541%20Rothenburg%20ob%20der%20Tauber), Schneeballen e o troço da muralha que vale a pena.**
   A fotografia obrigatória no cruzamento do **[Plönlein](https://www.google.com/maps/search/?api=1&query=Pl%C3%B6nlein%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**, entre a Sieberstor e a Kobolzeller
   Tor, e os **Schneeballen** na *Bäckerei Striffler* ou no *Café Diller*.
   - 🧱 **A muralha inteira são 4 km e 2h30, e isso não cabe.** O troço a fazer é o
     **nascente, entre a [Rödertor](https://www.google.com/maps/search/?api=1&query=R%C3%B6dertor%2C%2091541%20Rothenburg%20ob%20der%20Tauber) e a [Galgentor](https://www.google.com/maps/search/?api=1&query=Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**: passadiço elevado e coberto, vista sobre os
     telhados góticos e as placas dos doadores que pagaram a reconstrução do pós-guerra.
     **25 a 35 minutos**, e sai-se do lado do P4, onde está o carro.
-- **17:20 – 17:35**: Regresso ao carro.
+- **17:15 – 17:35**: Regresso ao carro no P4 e preparação para a viagem.
 
 *ℹ️ **Nota de Domingo (Sonntagsruhe):*** o comércio comum fecha ao domingo na Baviera, mas em
 [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) isso quase não se nota, porque a vila é estância turística reconhecida e tem
@@ -843,37 +814,11 @@ mesmo** os supermercados, o vestuário, os bancos e as farmácias sem serviço d
 e a A7 andam muito melhor, é o melhor dia da semana para o trajeto mais rodoviário de todos, e
 uma das razões para **não** trocar este dia com o Dia 4.
 
-*💶 **E levar dinheiro vivo:*** o Vigia Noturno (€9 × 6 = **€54**) e a St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)
-(€5 × 6 = **€30**) exigem dinheiro, bem como as bancas de Schneeballen. **Contar com €150 a €200 em notas para o dia no grupo.**
+*💶 **E levar dinheiro vivo:*** as bancas de Schneeballen e compras tradicionais exigem dinheiro vivo. **Contar com cerca de €50 a €60 em notas para o dia no grupo.**
 - **17:35 – 19:35**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) (**186 km, ~2h00**).
   - 🚚 **Autoestrada rápida ao domingo:** com a proibição de circulação de camiões pesados (*Sonntagsfahrverbot*), a viagem pela A7 e A8 decorre com fluidez absoluta.
 - **19:45 – 21:00**: **Jantar tranquilo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) & deitar cedo.**
   - 🍽️ Jantar sereno no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg) ou na [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg) e recolher cedo ao alojamento: o Dia 6 é o grande dia da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland).
-
-> ### 🏛️ Opção: desvio a [Nuremberga](https://www.google.com/maps/search/?api=1&query=N%C3%BCrnberg%2C%20Deutschland), ao centro de documentação do Reichsparteitagsgelände
-> O **Dokumentationszentrum Reichsparteitagsgelände** (o museu na Kongresshalle inacabada,
-> ao lado do Zeppelinfeld) abre **ao domingo das 10:00 às 18:00**, **€7,50/pax = €45**
-> *(museen.nuernberg.de)*. Medido no OSRM: **+55 km e +~65 min de carro em cada sentido**
-> (ida por [Nuremberga](https://www.google.com/maps/search/?api=1&query=N%C3%BCrnberg%2C%20Deutschland) 241 km/3h00 contra 186 km/1h56 direto; volta 243 km/3h01 contra
-> 188 km/1h58), mais **90 a 120 min** no local.
->
-> **Dito sem rodeios: é outro registo.** Um centro de documentação sobre a encenação nazi
-> a meio de um domingo de castelos medievais e cerveja francónia. Se o grupo quiser ir,
-> há duas versões, e as duas matam alguma coisa:
->
-> - **De manhã** (sair de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) às 09:00, Dokuzentrum 11:00–13:00, [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)
->   14:30–17:35 comprimido): mata o **[Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**.
-> - **À tarde** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) primeiro, [Nuremberga](https://www.google.com/maps/search/?api=1&query=N%C3%BCrnberg%2C%20Deutschland) 15:00–17:00, casa às ~19:00+): mata a
->   **noite descansada antes do dia da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen)**.
->
-> Por omissão, **não se faz**. É preciso os 6 de acordo na véspera.
-
-> **Opção: ficar para o Vigia Noturno (Nachtwächter).** Ronda histórica pelas ruelas medievais
-> à luz de lanterna. **Em inglês, todos os dias às 20:00**, de abril a dezembro, com partida do
-> chafariz da [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber) (~1h, **€9 por pessoa**, só dinheiro, sem reserva).
-> A ronda acaba pelas **21:00**, e o regresso direto pela autoestrada põe o grupo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)
-> por volta das **23:30**. Se o grupo preferir dormir mais e descansar antes da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen)
-> no Dia 6, regressa-se às 17:35 como previsto no plano base.
 
 ---
 
@@ -1208,9 +1153,8 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
       às **21:30** (Dia 4), almoço em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) às **13:15** (Dia 5).
       🔴 *O **[Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien)** saiu desta lista a 27/08/2026: para o bar não se reserva, é walk-in, e
       reservar mesa para depois só beber custa €25 por pessoa.*
-- [ ] **Levar dinheiro vivo:** a **Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)** no Dia 1 (€8 × 4 = **€32**), o
-      Vigia Noturno de [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) (€9 × 6 = €54) e a St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber) (€5 × 6 = €30) não
-      aceitam cartão, e as bancas de Schneeballen e a torre do Rathaus também não.
+- [ ] **Levar dinheiro vivo:** a **Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)** no Dia 1 (€8 × 4 = **€32**) não
+      aceita cartão, e as bancas de Schneeballen e a torre do Rathaus em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) também não. (St. Jakobskirche é apreciada do exterior, poupando €30).
       🔴 *A Torre Sul entrou nesta lista a 28/08/2026: não se compra online e custa €8, não €4.*
 - [ ] **Confirmar no DB Navigator, na manhã do Dia 6**, se o RE9 das 22:58 se mantém e se
       existe algum ICE/IC mais tarde.
