@@ -220,8 +220,11 @@
             { name: "Oberammergau (Aldeia dos Frescos)", city: "alps", iconType: "monument", coords: [47.5967, 11.0633], desc: "Vila com fachadas de frescos alpinos (Lüftlmalerei) e artesanato em madeira.", img: "img/oberammergau_alps.webp" },
 
             // Medieval Towns Circuit
+            { name: "Burg Harburg (Muralhas & Baluartes)", city: "rothenburg", iconType: "castle", coords: [48.7869, 10.6868], desc: "Fortaleza feudal intocada do século XII sobranceira ao vale do rio Wörnitz, muralhas e baluartes.", img: "img/burg_harburg.webp" },
+            { name: "Nördlingen (Cratera do Ries & Torre Daniel)", city: "rothenburg", iconType: "monument", coords: [48.8509, 10.4886], desc: "Cidade medieval na cratera de meteorito de 15 milhões de anos. Torre Daniel com 350 degraus e muralha circular intacta.", img: "img/nordlingen_ries.webp" },
             { name: "Dinkelsbühl (Muralhas Medievais)", city: "rothenburg", iconType: "castle", coords: [49.0694, 10.3197], desc: "Casario medieval preservado do século XIV e muralhas completas com torres.", img: "img/dinkelsbuhl.webp" },
-            { name: "Rothenburg ob der Tauber (Plönlein)", city: "rothenburg", iconType: "castle", coords: [49.3773, 10.1789], desc: "A joia medieval mais famosa da Europa, praça Plönlein e doces Schneeballen.", img: "img/rothenburg_tauber_1786477768269.webp" },
+            { name: "Rothenburg ob der Tauber (Plönlein)", city: "rothenburg", iconType: "castle", coords: [49.3773, 10.1789], desc: "A joia medieval mais famosa da Europa, praça Plönlein, subida à Rathausturm e doces Schneeballen.", img: "img/rothenburg_tauber_1786477768269.webp" },
+            { name: "Ulm (Fischerviertel & Ulmer Münster)", city: "rothenburg", iconType: "monument", coords: [48.3969, 9.9926], desc: "Bairro histórico dos pescadores com canais da Blau e Schiefes Haus. Torre do Ulmer Münster iluminada (161,5 m).", img: "img/ulm_fischerviertel.webp" },
 
             // Munich & Oktoberfest
             { name: "BMW Welt & Parque Olímpico 1972", city: "munich", iconType: "car", coords: [48.1768, 11.5592], desc: "Pavilhão com superdesportivos BMW e cobertura futurista do Parque Olímpico.", img: "img/bmw_welt_1786477793413.webp" },
@@ -362,15 +365,15 @@
             }).addTo(mapInstance);
 
             const romanticRoadCoords = [
-                [48.3721, 10.8955],
-                [48.7188, 10.7797],
-                [48.7867, 10.6903],
-                [48.8517, 10.4889],
-                [49.0694, 10.3197],
-                [49.1917, 10.2319],
-                [49.3773, 10.1789],
-                [49.2500, 10.4000],
-                [48.3721, 10.8955]
+                [48.3721, 10.8955], // Augsburg
+                [48.7188, 10.7797], // Donauwörth
+                [48.7869, 10.6868], // Burg Harburg
+                [48.8509, 10.4886], // Nördlingen
+                [49.0694, 10.3197], // Dinkelsbühl
+                [49.1917, 10.2319], // Schillingsfürst
+                [49.3773, 10.1789], // Rothenburg
+                [48.3969, 9.9926],  // Ulm (A7)
+                [48.3721, 10.8955]  // Augsburg (A8)
             ];
             routePolylines['romantic'] = L.polyline(romanticRoadCoords, {
                 color: '#f59e0b',
@@ -812,7 +815,7 @@
 📅 *Qui 24 Set*: Brunch Café Korb ➔ Hofburg (Tesouro & Prunksaal) ➔ Prater (Kaiser Wiesn) ➔ Rooftop Das Loft
 📅 *Sex 25 Set*: Westbahn 910 *10:38->13:08* Wien Westbahnhof->Salzburgo ➔ ICE 116 *14:00->16:14* Augsburg (direto, cais 2) ➔ Check-in Am Bogen 6 ➔ Carro Enterprise às 17:00 (fecha às 18:00!) ➔ Passeio nos canais do Lechviertel & brinde na Rathausplatz ➔ Jantar dos 6 no Bauerntanz ➔ Noite de cerveja
 📅 *Sáb 26 Set*: 🏔️ Rota dos Alpes, *sem bilhetes e sem hora marcada*: Marienbrücke (12:05-14:15) + almoço descontraído / piquenique no Alpsee (14:15) + Oberammergau (16:05, com sol; ou desvio cénico pelo Plansee) + Lago Eibsee ao pôr do sol (17:56, sol às 19:03). Jantar 21:30.
-📅 *Dom 27 Set*: 🌻 Estrada Romântica (B2/B25) ➔ Rothenburg ob der Tauber & Muralhas (regresso rápido pela autoestrada)
+📅 *Dom 27 Set*: 🌻 Safari Medieval: Burg Harburg (10:15) ➔ Nördlingen & Cratera de Meteorito (11:35) ➔ Almoço em Dinkelsbühl (13:00) ➔ Rothenburg ob der Tauber & Rathausturm (15:00) ➔ Canais de Ulm ao anoitecer (19:25) ➔ Augsburg (21:40)
 📅 *Seg 28 Set*: 🍺 Comboio 11:17 ➔ Marienplatz + Frauenkirche + Viktualienmarkt + Asamkirche ➔ OKTOBERFEST 2026 *sem mesa: entrar às 13:45 e estar sentado às 15:30* (2x Bayern-Ticket). Último comboio de volta: *22:58*!
 📅 *Ter 29 Set*: 🏰 Nymphenburg ➔ 🏎️ BMW Welt ➔ ⚽ Allianz Arena (Exterior/Megastore) ➔ Devolução Carro MUC ➔ Voo TAP TP 555 Regresso a Lisboa (20:00->22:25)
 

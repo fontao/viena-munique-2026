@@ -3,7 +3,7 @@
 **Datas:** 23 a 29 de Setembro de 2026 (7 Dias / 6 Noites)
 **Viajantes:** 6 amigos · **4 partem de [Lisboa](https://www.google.com/maps/search/?api=1&query=Lisboa%2C%20Portugal)** ([Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich), dias 1 a 3) + **2 juntam-se em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)** (dia 3)
 **Voos Oficiais:** TAP Air Portugal (TP 1270 LIS ➔ VIE / TP 555 MUC ➔ LIS)
-**Revisto em:** 11 de setembro de 2026 (25.ª revisão)
+**Revisto em:** 20 de setembro de 2026 (34.ª revisão)
 **Porque é que o plano é este:** ver [`historico.md`](historico.md), onde ficam as decisões
 tomadas, as alternativas rejeitadas e o que cada escolha custou.
 
@@ -231,9 +231,11 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | **[Kolbensattel](https://www.google.com/maps/search/?api=1&query=Kolbensattel%2C%20Kremsweg%2020%2C%2082487%20Oberammergau) Alpine Coaster** (Dia 4) | 6 | ✅ **€18,50**/pax = **€111** | Dia 4, **opcional (Alternativa B)** · telecadeira + coaster · bilheteira no vale |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €54 (3 pax) + €54 (3 pax) = **€108** | Repartir 3+3 e não 5+1: custa o mesmo |
 | **Palácio de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen)** | 6 | Parque **grátis** · palácio **€10**/pax · *Gesamtkarte* **€20** | Ver Dia 7: só há 75 min |
-| **St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | **grátis** | Dia 5 · contemplação exterior da fachada a caminho do Burggarten · sem entrada no interior (poupa €30) |
-| **[Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | €10,50/pax = **€63** | Dia 5 · 10:00–18:00, última entrada 17:15 |
-| **Estacionamento** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | - | ⚠️ **€5,50** | Dia 5 · P4 ou P3 · pagam-se 09:00–18:00, grátis fora dessa janela · ler a máquina |
+| **Burg [Harburg](https://www.google.com/maps/search/?api=1&query=Burg%20Harburg%2C%2086655%20Harburg)** ([Harburg](https://www.google.com/maps/search/?api=1&query=Harburg%2C%20Schwaben)) | 6 | €3,50/pax = **€21** | Dia 5 · recinto e muralhas da fortaleza feudal (10:00–17:00) · estacionamento €1,00/h |
+| **Torre [Daniel](https://www.google.com/maps/search/?api=1&query=St.%20Georgskirche%2C%2086720%20N%C3%B6rdlingen)** ([Nördlingen](https://www.google.com/maps/search/?api=1&query=N%C3%B6rdlingen%2C%2086720)) | 6 | €4,00/pax = **€24** | Dia 5 · 350 degraus com vista de 360° da cratera de meteorito (10:00–18:00) · **só dinheiro** |
+| **Torre do [Rathaus](https://www.google.com/maps/search/?api=1&query=Rathaus%2C%20Marktplatz%201%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | €4,00/pax = **€24** | Dia 5 · 220 degraus + vista sobre o casario e vale (até às 17:00, última subida 16:30) · **só dinheiro** |
+| **Estacionamento** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | - | ⚠️ **€5,50** | Dia 5 · P4 Galgentor ou P3 · pagam-se 09:00–18:00 (€1,10/h), grátis a partir das 18:00 |
+| **Parkhaus [Fischerviertel](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Fischerviertel%2C%20Schwilmengasse%201%2C%2089073%20Ulm)** ([Ulm](https://www.google.com/maps/search/?api=1&query=Ulm%2C%20Deutschland)) | - | **€5,00** | Dia 5 · tarifa noturna fixa a partir das 19:00 (Schwilmengasse 1) |
 | **[Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)**: esplanada + Megastore | 6 | **grátis** | ✅ **29/09: tudo 10:00–18:00.** Museu só **€12** · +Arena View €19 · +Tour €25 |
 | **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen)** | 6 | ✅ **grátis** | Museu BMW à parte: ✅ **€16/pax em grupo de 5+** (avulso €17) · ter–dom 10:00–18:00, última entrada 17:30 |
 
@@ -648,7 +650,7 @@ confirmadas abertas à quarta, a terceira não.**
 - **14:00 – 16:14**: **ICE 116**, [Salzburg Hbf](https://www.google.com/maps/search/?api=1&query=Salzburg%20Hauptbahnhof%2C%205020%20Salzburg) **cais 2** ➔ **[Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg)**. Direto, 2h14, **€157,96** com reserva de lugares.
 
 - **16:14 – 16:45**: **Separação do grupo no cais de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150):**
-  - 🚕 **Condutores diretos à Enterprise:** apanham o táxi pré-reservado para as 16:20 à porta da estação e vão diretos à Enterprise Rent-A-Car (*Aindlinger Str. 14*, ~6,5 km, ~€15–20), chegando por volta das 16:30, sem malas.
+  - 🚕 **Condutores diretos à Enterprise:** apanham o táxi pré-reservado para as 16:20 à porta da estação e vão diretos à Enterprise Rent-A-Car (*Aindlinger Str. 14*, ~6,5 km, ~€15–20), chegando por volta das 16:30, sem malas. 🗺️ [Waze GPS: Enterprise](https://waze.com/ul?q=Aindlinger%20Str.%2014%2C%2086167%20Augsburg&navigate=yes)
   - 🧳 **Restantes com a bagagem:** seguem de táxi ou tram até ao **Lexapartments Zentral 101m²** (*Am Bogen 6*), fazem o check-in e recebem os 2 amigos que chegam da Alemanha (**grupo de 6 reunido**).
   - 🛒 **Supermercado e abastecimento para os 6 (janela 16:45–17:40):**
     Enquanto os condutores tratam do carro, os 4 amigos no alojamento têm cerca de 50 minutos para uma ida rápida às compras:
@@ -742,179 +744,103 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 
 ---
 
-### 🏰 🇩🇪 Dia 5: Domingo, 27 de Setembro · 🌻 Estrada Romântica & [Rothenburg ob der Tauber](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)
-**⏰ Acordar 09:15 · Saída às 10:15. Percurso cénico pela mítica Estrada Romântica (B2/B25) na ida e regresso desimpedido pela autoestrada.**
+### 🏰 🇩🇪 Dia 5: Domingo, 27 de Setembro · 🌻 Estrada Romântica, Castelos, Nördlingen, [Rothenburg ob der Tauber](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) & [Ulm](https://www.google.com/maps/search/?api=1&query=Ulm%2C%20Deutschland)
+**⏰ Acordar 08:30 · Saída às 09:30. Safari medieval pela Estrada Romântica (B2/B25), cratera de Nördlingen, almoço em Dinkelsbühl, tarde em Rothenburg e noite nos canais de Ulm.**
 
-- **09:15 – 10:15**: **Acordar no apartamento, pequeno-almoço e preparação da viagem.**
-  - 💤 Acordar às 09:15 no apartamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%2C%2086152%20Augsburg) com sono recuperado do dia nos Alpes (~9h de repouso).
-  - ☕ Pequeno-almoço tranquilo em casa com as provisões do frigorífico compradas na véspera.
-  - 📞 **Fazer a chamada da manhã para reservar o almoço para 6 em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) às 13:15:** escolher o **[Reichsküchenmeister](https://www.google.com/maps/search/?api=1&query=Hotel-Gasthof%20Reichsk%C3%BCchenmeister%2C%20Kirchplatz%208%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (+49 9861 9500) ou o **[Baumeisterhaus](https://www.google.com/maps/search/?api=1&query=Restaurant%20Baumeisterhaus%2C%20Obere%20Schmiedgasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (+49 9861 9470-0), ambas de cozinha contínua. Uma mesa para 6 ao domingo sem reserva é recusada.
-  - 💶 **Levar dinheiro vivo:** as bancas de *Schneeballen* e pequenas lojas tradicionais exigem numerário.
-  - 🚗 Partida às 10:15 na carrinha de 7 lugares *(ou às 10:00 se quiserem paragem fotográfica de 15 min junto a Harburg ou Dinkelsbühl)*.
-- **10:15 – 12:55**: **Condução cénica pela 🌻 Estrada Romântica (B2 ➔ B25): 155 km, ~2h30 a 2h40.**
-  - 🌻 **A Rota Oficial:** subida pela mítica *Romantische Straße* através da B2 até Donauwörth e daí pela B25 pelas colinas e vales da Suábia e Francónia. São menos 31 km do que a autoestrada e um percurso com castelos, cidades muradas e paisagens rurais deslumbrantes sob a luz da manhã.
-  - 🏰 **Destaques visuais a partir da estrada:**
-    - **Donauwörth (km 42):** confluência do Danúbio e do Wörnitz e início da secção clássica da rota.
-    - **Burg Harburg (km 58):** imponente fortaleza medieval sobranceira à estrada, com muralhas e baluartes intactos erguidos sobre o promontório rochoso.
-    - **Nördlingen (km 75):** cidade fortificada construída no coração da cratera de impacto de um meteorito gigante (*Geopark Ries*), avistando-se a torre gótica *Daniel* de 90 m.
-    - **Dinkelsbühl (km 108):** fossos defensivos e muralhas góticas intocadas, com torres de vigia a ladear a via.
-  - 🗺️ Para garantir que a navegação segue a B25 e não desvia para a autoestrada, definir no Waze os pontos de passagem via Donauwörth e Nördlingen até ao P4 Galgentor. 🗺️ [Waze GPS: Parkplatz P4 Galgentor](https://waze.com/ul?q=Parkplatz%20P4%20Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber&navigate=yes)
-- **12:55 – 13:15**: **Estacionamento no P4 ([Galgentor](https://www.google.com/maps/search/?api=1&query=Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber)) e entrada pela porta medieval.**
-  - Apontar ao **P4**, em frente ao melhor troço da muralha; se estiver cheio, o **P3 (Schweinsdorfer Straße)** é o maior parque de todos, tem sempre vagas e fica a 7 min do centro. 🗺️ [Waze GPS: Parkplatz P4 Galgentor](https://waze.com/ul?q=Parkplatz%20P4%20Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber&navigate=yes)
-  - ⚠️ **Parquímetro: no máximo €5,50 para a tarde, e o preço lê-se na máquina.** Os grandes
-    parques (P1 a P5) pagam-se das **09:00 às 18:00** e são **gratuitos** fora dessa janela; a
-    tarifa afixada é **€1,10/hora com teto de €5,50/dia** *(fichas dos parques; a
-    stadt.rothenburg.de regula a janela mas não publica tarifas)*. Ficando das 13:00 às 17:35
-    a tarde custa no máximo **€5,50**.
-  - 🚫 **Não tentar estacionar dentro das muralhas.** Lá dentro paga-se das **08:00 às 20:00**
-    e o **máximo são 2 horas**, o que não serve para nada neste dia.
-  - ⚠️ **O P5 (Bezoldweg) só aceita viaturas até 2,00 m de altura.** Um VW Touran passa
-    (~1,66 m), mas se a Enterprise entregar uma carrinha mais alta, o P5 fica de fora e a
-    escolha é P4 ou P3. Aos domingos entre as 11:30 e as 13:30 o P1 e o P4 enchem.
-- **13:15 – 14:30**: 🍽️ **Almoço francónio, com mesa reservada de manhã.**
-  Uma mesa de **6 pessoas** num domingo de setembro não aparece sozinha: a maioria das
-  tabernas tem mesas de 2 a 4 lugares e recusa sem marcação. **Escolher uma das duas que têm
-  cozinha contínua**, que é a única proteção real se a viagem se atrasar:
-  - ⭐ **Hotel-Gasthof [Reichsküchenmeister](https://www.google.com/maps/search/?api=1&query=Hotel-Gasthof%20Reichsk%C3%BCchenmeister%2C%20Kirchplatz%208%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (*Kirchplatz 8*, **+49 9861 9500**), cozinha
-    **11:30–21:00 sem interrupção**, e fica **encostado à St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**, de onde se inicia o passeio logo a seguir. *Fränkisches Schäufele*, *Bratwürste*, vinhos em *Bocksbeutel*.
-  - **Restaurant [Baumeisterhaus](https://www.google.com/maps/search/?api=1&query=Restaurant%20Baumeisterhaus%2C%20Obere%20Schmiedgasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (*Obere Schmiedgasse 3*, **+49 9861 9470-0**), cozinha
-    **11:00–21:00**, num edifício de 1596 com pátio de galerias renascentistas.
-  - 🚫 **Não contar com a *[Zur Höll](https://www.google.com/maps/search/?api=1&query=Zur%20H%C3%B6ll%2C%20Burggasse%208%2C%2091541%20Rothenburg%20ob%20der%20Tauber)***, que os guias todos recomendam: **fecha ao domingo**.
-    E a *Altfränkische Weinstube* só abre às 18:00.
-- **14:30 – 15:15**: 🌄 **Fachada de St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**, **Herrngasse e miradouro do [Burggarten](https://www.google.com/maps/search/?api=1&query=Burggarten%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (~460 m da [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber), grátis, aberto sempre), **incluindo os 6 min a pé até ao [Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber) a seguir.**
-  - ⛪ **St. Jakobskirche (exterior):** passagem pela imponente igreja gótica (*Klostergasse 15*) para contemplação exterior da imponente fachada e torres góticas (sem entrada no interior, poupando €5/pax = €30 para os 6).
-  - 🌳 **Herrngasse e Burggarten:** descida pela nobre Herrngasse até ao promontório onde estava o castelo imperial dos Hohenstaufen, com a panorâmica mais desafogada sobre o vale do Tauber, os socalcos de vinha e a ponte medieval de arcos duplos.
-- **15:15 – 16:15**: 🗡️ **Mittelalterliches [Kriminalmuseum](https://www.google.com/maps/search/?api=1&query=Kriminalmuseum%2C%20Burggasse%203%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (*Burggasse 3–5*, domingo
-  10:00–18:00, última entrada 17:15). Mil anos de história do direito penal germânico em
-  50.000 peças: máscaras de vergonha, instrumentos originais, processos de inquisição e a
-  desmontagem do mito da Dama de Ferro. É muito mais visual do que parece pelo nome.
-  ✅ **€10,50/pessoa: para 6 são €63.**
-  Aberto **todos os dias das 10:00 às 18:00, última entrada às 17:15**. *(Tabela oficial da
-  kriminalmuseum.eu.)*
-  - 🅱️ **Se ninguém quiser museu:** a **[Käthe Wohlfahrt](https://www.google.com/maps/search/?api=1&query=K%C3%A4the%20Wohlfahrt%2C%20Herrngasse%201%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (*Herrngasse 1*, aldeia de Natal
-    permanente e museu, aberta ao domingo) mais a subida dos 220 degraus da **torre do
-    Rathaus** (~€3, vista de 360° sobre a [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber)) enchem a mesma hora. *A filial da
-    Untere Schmiedgasse, essa, fecha ao domingo.*
-- **16:15 – 17:15**: 📸 **[Plönlein](https://www.google.com/maps/search/?api=1&query=Pl%C3%B6nlein%2C%2091541%20Rothenburg%20ob%20der%20Tauber), Schneeballen e o troço da muralha que vale a pena.**
-  A fotografia obrigatória no cruzamento do **[Plönlein](https://www.google.com/maps/search/?api=1&query=Pl%C3%B6nlein%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**, entre a Sieberstor e a Kobolzeller
-  Tor, e os **Schneeballen** na *Bäckerei Striffler* ou no *Café Diller*.
-  - 🧱 **A muralha inteira são 4 km e 2h30, e isso não cabe.** O troço a fazer é o
-    **nascente, entre a [Rödertor](https://www.google.com/maps/search/?api=1&query=R%C3%B6dertor%2C%2091541%20Rothenburg%20ob%20der%20Tauber) e a [Galgentor](https://www.google.com/maps/search/?api=1&query=Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**: passadiço elevado e coberto, vista sobre os
-    telhados góticos e as placas dos doadores que pagaram a reconstrução do pós-guerra.
-    **25 a 35 minutos**, e sai-se do lado do P4, onde está o carro.
-- **17:15 – 17:35**: Regresso ao carro no P4 e preparação para a viagem.
+- **08:30 – 09:30**: **Acordar no apartamento, pequeno-almoço e partida.**
+  - 💤 Acordar às 08:30 no apartamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%2C%2086152%20Augsburg) após uma noite de descanso (~9h de repouso). Manhã organizada para aproveitar o dia na estrada.
+  - ☕ Pequeno-almoço no alojamento com as provisões do frigorífico compradas na véspera.
+  - 💶 **Levar dinheiro vivo no bolso:** as subidas às torres (Daniel em Nördlingen e Rathaus em Rothenburg) e as bancas tradicionais de doces exigem pagamento em numerário. Contar com cerca de **€50 a €60** em notas para o dia no grupo.
+  - 🚗 Partida pontual às 09:30 na carrinha de 7 lugares para os 6 passageiros.
+- **09:30 – 10:15**: **Condução [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) ➔ [Burg Harburg](https://www.google.com/maps/search/?api=1&query=Burg%20Harburg%2C%2086655%20Harburg) (B2: 58 km, ~45 min).**
+  - 🌻 Saída de Augsburg rumo a norte pela B2 até [Donauwörth](https://www.google.com/maps/search/?api=1&query=Donauw%C3%B6rth%2C%2086609) (confluência do Danúbio com o [rio Wörnitz](https://www.google.com/maps/search/?api=1&query=W%C3%B6rnitz%2C%20Harburg)) e subida pelo vale até à imponente fortaleza de [Burg Harburg](https://www.google.com/maps/search/?api=1&query=Burg%20Harburg%2C%2086655%20Harburg). 🗺️ [Waze GPS: Burg Harburg](https://waze.com/ul?q=Burg%20Harburg%2C%2086655%20Harburg&navigate=yes)
+- **10:15 – 11:15**: 🏰 **[Burg Harburg](https://www.google.com/maps/search/?api=1&query=Burg%20Harburg%2C%2086655%20Harburg): muralhas, baluartes e caminho de ronda.**
+  - Fortaleza feudal intocada do século XII sobranceira ao [rio Wörnitz](https://www.google.com/maps/search/?api=1&query=W%C3%B6rnitz%2C%20Harburg), uma das mais antigas e imponentes da Alemanha.
+  - Entrada no recinto, baluartes, pátio e caminho de ronda coberto (*Wehrgang*): **€3,50/pax = €21 para os 6** (aberto das 10:00 às 17:00).
+  - Estacionamento no parque municipal junto ao castelo (**€1,00/h**, no cimo da colina, a 5 min a pé do portal).
+- **11:15 – 11:35**: **Condução [Harburg](https://www.google.com/maps/search/?api=1&query=Harburg%2C%20Schwaben) ➔ [Nördlingen](https://www.google.com/maps/search/?api=1&query=N%C3%B6rdlingen%2C%2086720) (B25: 17 km, ~20 min).**
+  - Percurso curto e rápido pela B25 entrando na gigantesca bacia do [Geopark Ries](https://www.google.com/maps/search/?api=1&query=Geopark%20Ries%2C%20N%C3%B6rdlingen).
+- **11:35 – 12:35**: ☄️ **[Nördlingen](https://www.google.com/maps/search/?api=1&query=N%C3%B6rdlingen%2C%2086720) ([Geopark Ries](https://www.google.com/maps/search/?api=1&query=Geopark%20Ries%2C%20N%C3%B6rdlingen)): [Torre Daniel](https://www.google.com/maps/search/?api=1&query=St.%20Georg%2C%20Marktplatz%2C%2086720%20N%C3%B6rdlingen) e [muralha circular](https://www.google.com/maps/search/?api=1&query=Stadtmauer%2C%2086720%20N%C3%B6rdlingen).**
+  - Cidade medieval única construída no centro exato da cratera de impacto de um meteorito gigante de há 15 milhões de anos.
+  - Subida à emblemática torre gótica **[Daniel](https://www.google.com/maps/search/?api=1&query=St.%20Georg%2C%20Marktplatz%2C%2086720%20N%C3%B6rdlingen)** da [St. Georgskirche](https://www.google.com/maps/search/?api=1&query=St.%20Georgskirche%2C%2086720%20N%C3%B6rdlingen): 350 degraus de madeira em caracol até ao topo (90 m) com vista panorâmica de 360° sobre o rebordo circular da cratera do Ries: **€4,00/pax = €24 para os 6** (**pagamento exclusivamente em dinheiro vivo** na *Türmerstube* no topo). Aberta das 10:00 às 18:00, última subida 17:30.
+  - Caminhada num troço da [Stadtmauer](https://www.google.com/maps/search/?api=1&query=Stadtmauer%2C%2086720%20N%C3%B6rdlingen), a única muralha medieval da Alemanha com o circuito defensivo de 2,7 km 100% completo, coberto e transitável a pé (**grátis**).
+  - Estacionamento **grátis** ao domingo junto à porta histórica [Löpsinger Tor](https://www.google.com/maps/search/?api=1&query=L%C3%B6psinger%20Tor%2C%2086720%20N%C3%B6rdlingen) ou no amplo [Parkplatz Kaiserwiese](https://www.google.com/maps/search/?api=1&query=Parkplatz%20Kaiserwiese%2C%2086720%20N%C3%B6rdlingen). 🗺️ [Waze GPS: Parkplatz Kaiserwiese](https://waze.com/ul?q=Kaiserwiese%2C%20N%C3%B6rdlingen&navigate=yes)
+- **12:35 – 13:00**: **Condução [Nördlingen](https://www.google.com/maps/search/?api=1&query=N%C3%B6rdlingen%2C%2086720) ➔ [Dinkelsbühl](https://www.google.com/maps/search/?api=1&query=Dinkelsb%C3%BChl%2C%2091550) (B25: 32 km, ~25 min).**
+  - Travessia da fronteira geográfica para a Francónia através de prados verdejantes e bosques.
+- **13:00 – 14:20**: 🍽️ **[Dinkelsbühl](https://www.google.com/maps/search/?api=1&query=Dinkelsb%C3%BChl%2C%2091550): almoço tradicional e fossos medievais.**
+  - 🔴 **Atenção à regra de domingo:** O trânsito automóvel é estritamente proibido no centro histórico (*Altstadt*) aos domingos entre as 13:00 e as 17:00. Estacionar nos parques exteriores **grátis**: **[P1 Schwedenwiese](https://www.google.com/maps/search/?api=1&query=Parkplatz%20P1%20Schwedenwiese%2C%20Luitpoldstra%C3%9Fe%2013%2C%2091550%20Dinkelsb%C3%BChl)** (Luitpoldstraße 13) ou [P2 Stadtmühle](https://www.google.com/maps/search/?api=1&query=Parkplatz%20P2%20Stadtm%C3%BChle%2C%2091550%20Dinkelsb%C3%BChl), colados às portas medievais (3 a 5 min a pé). 🗺️ [Waze GPS: P1 Schwedenwiese](https://waze.com/ul?q=P1%20Schwedenwiese%2C%20Dinkelsb%C3%BChl&navigate=yes)
+  - Almoço tradicional francónio no autêntico **[Gasthof Goldner Hirsch](https://www.google.com/maps/search/?api=1&query=Gasthof%20Goldner%20Hirsch%2C%20Weinmarkt%206%2C%2091550%20Dinkelsb%C3%BChl)** (*Weinmarkt 6*, taberna histórica familiar com cozinha quente contínua ao domingo 11:30–21:00, prato de domingo *Schäufele* no forno com bolos de batata a €16,50, *Käsespätzle* artesanal a €12,50 ou *Bratwurst* grelhada com chucrute caseiro a €9,50–€10,50) ou na cervejaria artesanal dos locais **[Weib's Brauhaus](https://www.google.com/maps/search/?api=1&query=Weib%27s%20Brauhaus%2C%20Untere%20Schmiedgasse%2013%2C%2091550%20Dinkelsb%C3%BChl)** (*Untere Schmiedgasse 13*, a 3 min a pé do Weinmarkt, cervejas não filtradas próprias e pratos a €10,70–€15, cozinha de almoço até às 14:00). Passeio a pé junto à igreja [Münster St. Georg](https://www.google.com/maps/search/?api=1&query=M%C3%BCnster%20St.%20Georg%2C%2091550%20Dinkelsb%C3%BChl) e entre as empenas góticas coloridas intactas do [Weinmarkt](https://www.google.com/maps/search/?api=1&query=Weinmarkt%2C%2091550%20Dinkelsb%C3%BChl).
+- **14:20 – 15:00**: **Condução [Dinkelsbühl](https://www.google.com/maps/search/?api=1&query=Dinkelsb%C3%BChl%2C%2091550) ➔ [Rothenburg ob der Tauber](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) (B25/St2419: 45 km, ~40 min).**
+  - Subida cénica pela Estrada Romântica até às portas fortificadas de Rothenburg. 🗺️ [Waze GPS: Parkplatz P4 Galgentor](https://waze.com/ul?q=Parkplatz%20P4%20Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber&navigate=yes)
+- **15:00 – 18:00**: 🏰 **[Rothenburg ob der Tauber](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541): Rathausturm, Käthe Wohlfahrt, Plönlein e muralha.**
+  - Estacionar no **[P4 (Galgentor)](https://www.google.com/maps/search/?api=1&query=Parkplatz%20P4%20Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber)**, em frente à muralha (se estiver cheio, [P3 Schweinsdorfer Straße](https://www.google.com/maps/search/?api=1&query=Parkplatz%20P3%20Schweinsdorfer%20Stra%C3%9Fe%2C%2091541%20Rothenburg%20ob%20der%20Tauber) a 7 min). Parquímetro com tarifa de **€1,10/hora** e teto de **€5,50** no máximo para a tarde toda (grátis a partir das 18:00).
+  - **15:10 – 15:50**: Subida imediata à [Torre do Rathaus](https://www.google.com/maps/search/?api=1&query=Rathausturm%2C%20Marktplatz%201%2C%2091541%20Rothenburg%20ob%20der%20Tauber) na [Marktplatz](https://www.google.com/maps/search/?api=1&query=Marktplatz%2C%2091541%20Rothenburg%20ob%20der%20Tauber): 220 degraus e alçapão exterior com vista espetacular de 360° sobre o mar de telhados e o vale do Tauber: **€4,00/pax = €24 para os 6** (**só em dinheiro vivo** na cabine superior; encerra às 17:00, última subida 16:30).
+  - **15:50 – 16:35**: Aldeia de Natal permanente **[Käthe Wohlfahrt Weihnachtsdorf](https://www.google.com/maps/search/?api=1&query=K%C3%A4the%20Wohlfahrt%20-%20Weihnachtsdorf&query_place_id=ChIJPQIGSKaPmEcR-DPz7P7GHQI)** (*Herrngasse 1*, entrada **grátis**) com a sua árvore monumental de 5 metros e decorações artesanais, passagem pela fachada gótica de St. [Jakobskirche](https://www.google.com/maps/search/?api=1&query=St.%20Jakobskirche%2C%2091541%20Rothenburg%20ob%20der%20Tauber) e miradouro do [Burggarten](https://www.google.com/maps/search/?api=1&query=Burggarten%2C%2091541%20Rothenburg%20ob%20der%20Tauber) sobre os socalcos de vinha.
+  - **16:35 – 17:40**: Fotografia emblemática no cruzamento do **[Plönlein](https://www.google.com/maps/search/?api=1&query=Pl%C3%B6nlein%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (entre a [Sieberstor](https://www.google.com/maps/search/?api=1&query=Sieberstor%2C%2091541%20Rothenburg%20ob%20der%20Tauber) e a [Kobolzeller Tor](https://www.google.com/maps/search/?api=1&query=Kobolzeller%20Tor%2C%2091541%20Rothenburg%20ob%20der%20Tauber)), prova de doces tradicionais *Schneeballen* na [Bäckerei Striffler](https://www.google.com/maps/search/?api=1&query=B%C3%A4ckerei%20Striffler%2C%20Unterer%20Schmiedgasse%201%2C%2091541%20Rothenburg%20ob%20der%20Tauber) ou [Café Diller](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Diller%2C%20Hofbronnengasse%201%2C%2091541%20Rothenburg%20ob%20der%20Tauber) (em dinheiro vivo) e caminhada no passadiço coberto da muralha nascente (entre a [Rödertor](https://www.google.com/maps/search/?api=1&query=R%C3%B6dertor%2C%2091541%20Rothenburg%20ob%20der%20Tauber) e a [Galgentor](https://www.google.com/maps/search/?api=1&query=Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber)).
+  - **17:40 – 18:00**: Regresso ao carro no [P4 Galgentor](https://www.google.com/maps/search/?api=1&query=Parkplatz%20P4%20Galgentor%2C%2091541%20Rothenburg%20ob%20der%20Tauber), paragem técnica e partida pontual às 18:00.
+- **18:00 – 19:25**: **Condução [Rothenburg ob der Tauber](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) ➔ [Ulm](https://www.google.com/maps/search/?api=1&query=Ulm%2C%20Deutschland) pela A7 (134 km, ~1h25).**
+  - 🚚 **Autoestrada rápida ao domingo:** com a proibição de circulação de pesados de mercadorias com mais de 7,5t (*Sonntagsfahrverbot*), a A7 corre desimpedida e sem tráfego de camiões. Chegada a Ulm em plena hora azul após o pôr do sol das 19:07. 🗺️ [Waze GPS: Parkhaus Fischerviertel](https://waze.com/ul?q=Parkhaus%20Fischerviertel%2C%20Schwilmengasse%201%2C%20Ulm&navigate=yes)
+- **19:25 – 20:45**: ⛵ **[Ulm](https://www.google.com/maps/search/?api=1&query=Ulm%2C%20Deutschland): [Fischerviertel](https://www.google.com/maps/search/?api=1&query=Fischerviertel%2C%2089073%20Ulm), Schiefes Haus, [Ulmer Münster](https://www.google.com/maps/search/?api=1&query=Ulmer%20M%C3%BCnster%2C%20M%C3%BCnsterplatz%2021%2C%2089073%20Ulm) e jantar nos canais.**
+  - Estacionar no [Parkhaus Fischerviertel](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Fischerviertel%2C%20Schwilmengasse%201%2C%2089073%20Ulm) (*Schwilmengasse 1*, tarifa noturna plana a partir das 19:00: **€5,00**).
+  - Passeio noturno pelo encantador bairro histórico dos pescadores ([Fischerviertel](https://www.google.com/maps/search/?api=1&query=Fischerviertel%2C%2089073%20Ulm)), com pontes de madeira e canais onde desagua o [rio Blau](https://www.google.com/maps/search/?api=1&query=Blau%2C%20Ulm). Contemplação da célebre [Schiefes Haus](https://www.google.com/maps/search/?api=1&query=Schiefes%20Haus%2C%20Schw%C3%B6rhausgasse%206%2C%2089073%20Ulm) (*Schwörhausgasse 6*, a casa mais inclinada do mundo).
+  - Vista exterior imponente da torre gótica do [Ulmer Münster](https://www.google.com/maps/search/?api=1&query=Ulmer%20M%C3%BCnster%2C%20M%C3%BCnsterplatz%2021%2C%2089073%20Ulm) iluminada na [Münsterplatz](https://www.google.com/maps/search/?api=1&query=M%C3%BCnsterplatz%2C%2089073%20Ulm) (a mais alta torre de igreja do mundo com 161,53 m).
+  - Jantar descontraído ou petisco à beira da água numa das tabernas históricas dos canais ([Zunfthaus der Schiffleute](https://www.google.com/maps/search/?api=1&query=Zunfthaus%20der%20Schiffleute%2C%20Fischergasse%2031%2C%2089073%20Ulm), [Zur Lochmühle](https://www.google.com/maps/search/?api=1&query=Zur%20Lochm%C3%BChle%2C%20Gerbergasse%206%2C%2089073%20Ulm) ou [Zur Forelle](https://www.google.com/maps/search/?api=1&query=Zur%20Forelle%2C%20Fischergasse%2025%2C%2089073%20Ulm)).
+- **20:45 – 21:40**: **Condução [Ulm](https://www.google.com/maps/search/?api=1&query=Ulm%2C%20Deutschland) ➔ [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) pela A8 (82 km, ~55 min) & descanso.**
+  - Regresso célere a Augsburg pela A8 também livre de camiões.
+  - Chegada ao alojamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%2C%2086152%20Augsburg) às 21:40. Recolher e descansar cedo para a grande jornada de segunda-feira (Dia 6) na [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland). 🗺️ [Waze GPS: Am Bogen 6](https://waze.com/ul?q=Am%20Bogen%206%2C%20Augsburg&navigate=yes) · [Parkhaus Zeughaus](https://waze.com/ul?q=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg&navigate=yes)
 
-*ℹ️ **Nota de Domingo (Sonntagsruhe):*** o comércio comum fecha ao domingo na Baviera, mas em
-[Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) isso quase não se nota, porque a vila é estância turística reconhecida e tem
-exceção: monumentos, museus, muralhas, tabernas, pastelarias de Schneeballen e lojas de
-lembranças abrem normalmente, incluindo a **[Käthe Wohlfahrt](https://www.google.com/maps/search/?api=1&query=K%C3%A4the%20Wohlfahrt%2C%20Herrngasse%201%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** (10:00–17:00/18:00). **Fecham
-mesmo** os supermercados, o vestuário, os bancos e as farmácias sem serviço de urgência.
+*ℹ️ **Nota de Domingo (Sonntagsruhe):*** o comércio comum fecha ao domingo na Alemanha, mas nas vilas e cidades turísticas da rota (Harburg, Nördlingen, Dinkelsbühl, Rothenburg e Ulm) os monumentos, torres históricas, museus, pastelarias e restaurantes abrem normalmente, incluindo a **[Käthe Wohlfahrt](https://www.google.com/maps/search/?api=1&query=K%C3%A4the%20Wohlfahrt%20-%20Weihnachtsdorf&query_place_id=ChIJPQIGSKaPmEcR-DPz7P7GHQI)** (10:00–18:00). Fecham apenas os supermercados e lojas convencionais.
 
-*🚚 **Bónus de domingo:*** os camiões estão proibidos nas autoestradas alemãs ao domingo. A A8
-e a A7 andam muito melhor, é o melhor dia da semana para o trajeto mais rodoviário de todos, e
-uma das razões para **não** trocar este dia com o Dia 4.
-
-*💶 **E levar dinheiro vivo:*** as bancas de Schneeballen e compras tradicionais exigem dinheiro vivo. **Contar com cerca de €50 a €60 em notas para o dia no grupo.**
-- **17:35 – 19:35**: Regresso a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) (**186 km, ~2h00**).
-  - 🚚 **Autoestrada rápida ao domingo:** com a proibição de circulação de camiões pesados (*Sonntagsfahrverbot*), a viagem pela A7 e A8 decorre com fluidez absoluta.
-- **19:45 – 21:00**: **Jantar tranquilo em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) & deitar cedo.**
-  - 🍽️ Jantar sereno no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg) ou na [Rathausplatz](https://www.google.com/maps/search/?api=1&query=Rathausplatz%2C%2086150%20Augsburg) e recolher cedo ao alojamento: o Dia 6 é o grande dia da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland).
+*🚚 **Bónus de domingo:*** a proibição legal de circulação de pesados (*Sonntagsfahrverbot*) vigora nas autoestradas alemãs até às 22:00. O percurso pela A7 e A8 é veloz e tranquilo.
 
 ---
 
 ### 🍺 🇩🇪 Dia 6: Segunda-feira, 28 de Setembro · [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) & OKTOBERFEST 2026!
-**⏰ Acordar 10:00 · O dia tem duas âncoras: estar na [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) às 13:45 e o comboio das 22:58.**
-*O carro fica seguro no apartamento em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), passa-se o dia de comboio.*
+**⏰ Acordar 09:00 · O dia tem duas âncoras: estar na [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) às 13:45 e o comboio das 22:58.**
+*O carro fica seguro no apartamento em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), passa-se o dia de comboio regional e transportes urbanos.*
 
-> ### 🚨 Sem mesa reservada, o dia inverte-se
-> **A [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) passa das 17:00 para as 13:45, e a tarde de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) cai.** O grupo decidiu
-> ir sem reserva, a andar entre tendas, e isso muda a hora a que se chega, não só o que se
-> bebe. Sem reserva há duas horas que mandam no dia:
+> ### 🚨 Sem mesa reservada, a Wiesn manda no relógio
+> **A [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) exige estar na [Theresienwiese](https://www.google.com/maps/search/?api=1&query=Theresienwiese%2C%2080339%20M%C3%BCnchen) às 13:45.** O grupo decidiu ir sem reserva, a andar entre tendas. Sem reserva há duas regras que mandam no festival:
 >
-> - **As 14:00**, que é o limite prático para seis pessoas sem reserva arranjarem lugar numa
->   segunda-feira.
-> - **As 16:00 às 18:00**, a troca de reservas, em que muitas tendas grandes fecham as portas
->   principais. **Chegar às 17:00 era chegar à porta fechada.**
+> - **As 14:00**, que é o limite prático para seis pessoas sem reserva arranjarem lugar junto numa segunda-feira.
+> - **As 16:00 às 18:00**, a troca de reservas, em que muitas tendas grandes fecham as portas principais. **Chegar às 17:00 era chegar à porta fechada.**
 >
-> **A jogada é entrar cedo e não sair da zona não reservável**, onde não há limite de
-> permanência: o lugar apanhado às 14:00 é o mesmo lugar às 22:00. Anda-se entre tendas
-> **antes** das 16:00, e a partir daí fixa-se uma.
->
-> **O que isto custa, e é caro:** perde-se o bloco da tarde, ou seja a **Odeonsplatz**, a
-> **Theatinerkirche**, o **Hofgarten** e a **Eisbachwelle**, os surfistas da onda fixa. Perde-se
-> também o almoço sentado no [Viktualienmarkt](https://www.google.com/maps/search/?api=1&query=Viktualienmarkt%2C%2080331%20M%C3%BCnchen), que passa a ser uma travessia a pé, porque o
-> almoço a sério passa a ser o *Hendl* dentro da tenda. A Eisbachwelle é a perda a sério e não
-> há como disfarçá-la.
->
+> **A jogada é entrar cedo e não sair da zona não reservável**, onde não há limite de permanência: o lugar apanhado às 14:00 é o mesmo lugar às 22:00. Anda-se entre tendas **antes** das 15:30/16:00, e a partir daí fixa-se uma mesa.
 
-> ### 🚨 A manhã cabe, e cabe por pouco
-> Acaba no [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) às **13:32**, a tempo do metro e da chegada à [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) às 13:45.
-> **Não há folga para acrescentar nada a esta manhã.**
+> ### 🎯 A manhã otimizada em Munique (11:10 às 13:25)
+> Acordando às **09:00** (9 horas de sono completas), ganha-se mais de uma hora de tempo útil no centro de Munique, permitindo ver os pontos altos sem correria antes da festa:
 >
-> **Não se sobe ao Alter Peter.** É o item cuja duração não se controla: 306 degraus numa
-> escadaria estreita de sentido único, numa segunda-feira em plena [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen). Sem ele a
-> manhã fecha. A vista de cima de uma cidade já se faz no Dia 1, na Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien);
-> o que se perde é [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) com os Alpes ao fundo em dia limpo, e é uma perda a sério.
-> Poupam-se **€30** (€5 × 6).
+> - Visita à [Marienplatz](https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen) e à imponente Catedral [Frauenkirche](https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen).
+> - Passagem pela praça histórica do [Platzl](https://www.google.com/maps/search/?api=1&query=Platzl%2C%2080331%20M%C3%BCnchen) e pela mítica cervejaria [Hofbräuhaus am Platzl](https://www.google.com/maps/search/?api=1&query=Hofbr%C3%A4uhaus%20M%C3%BCnchen%2C%20Platzl%209%2C%2080331%20M%C3%BCnchen) (fundada em 1589).
+> - **Almoço tradicional bávaro e sentado no [Viktualienmarkt](https://www.google.com/maps/search/?api=1&query=Viktualienmarkt%2C%2080331%20M%C3%BCnchen)**: 45 min para desfrutar de *Weißwürste*, pretzels quentes e cerveja bávara a preços justos de mercado (€6 a €10/pax).
+> - Deslumbre com o interior barroco rococó da [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) na Sendlinger Straße.
+> - **Não se sobe ao Alter Peter**: 306 degraus com escadaria estreita e fila imprevisível em dia de Wiesn; a vista de cima já se faz no Dia 1 na torre do Stephansdom (€30 poupados para o grupo).
 
-- **10:40 – 10:57**: **Sair de casa a pé para a [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg).** São **17 minutos** desde o
-  Am Bogen 6, e não há folga nenhuma para os esquecer: saindo às 11:00 chega-se ao cais em
-  cima da partida. **Sai-se às 10:40 e não às 10:50**, porque os 20 minutos que sobram são
-  para descer ao cais com seis pessoas, e para comprar os bilhetes se não vierem comprados.
-  ✅ **O melhor é levá-los já comprados de casa**, na app da DB: os 20 minutos deixam de ter
-  trabalho lá dentro e poupam-se **€2 por bilhete** da taxa de balcão. Ver o hub de bilhetes.
-  🔴 **Comprados na hora ou em casa, os nomes têm de estar preenchidos antes de entrar no
-  comboio.** O bilhete exige o nome e o apelido de cada passageiro nos campos próprios *antes*
-  do início da viagem, em letra de imprensa se for em papel, ou no ato da compra se for
-  digital. Sem os nomes preenchidos, o bilhete não é válido na fiscalização.
-- **11:17 – 11:55**: Comboio regional RE de [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg) para [München Hbf](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Hauptbahnhof%2C%2080335%20M%C3%BCnchen) (38 min) com os
-  **2× Bayern-Ticket** (válidos a partir das 09:00).
-> **A manhã faz-se agora num único varrimento para sudoeste**, da [Marienplatz](https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen) até ao [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen),
-> e daí uma paragem de metro até à [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen). São **2,6 km e 35 minutos de caminhada** ao todo.
-> *(Medido no OSRM, perfil a pé, 10/09/2026, com coordenadas em vez de nomes.)*
-
-- **11:55 – 12:10**: **Da [München Hbf](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Hauptbahnhof%2C%2080335%20M%C3%BCnchen) à [Marienplatz](https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen), de S-Bahn.**
-  - ⚠️ **A pé está fora de questão:** são **1,7 km e 23 minutos** *(OSRM, 10/09/2026)*. De S-Bahn são **duas paragens e 3 minutos de viagem**, mas de porta a praça, com
-    seis pessoas, são **~15**: sair do cais de superfície e atravessar o átrio (5 min), descer
-    à *Stammstrecke* (2 min), esperar (2 a 3 min), viajar (3 min) e subir da plataforma funda
-    da [Marienplatz](https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen) à superfície (3 min). Incluído no Bayern-Ticket.
-- **12:10 – 12:35**: **[Marienplatz](https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen)**, Neues Rathaus e a Catedral **[Frauenkirche](https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen)**.
-  - ⚠️ **O Glockenspiel perde-se, e mais vale saber já.** Toca às 11:00, 12:00 e 17:00, e o
-    das 12:00 acaba por volta das **12:12**: chegando às 12:10 apanham os últimos dois minutos,
-    ou seja, nada. **Não vale a pena reorganizar o dia por causa disto:** são 12 minutos de bonecos a rodar, é o espetáculo mais sobrevalorizado de
-    [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland), e **o das 17:00 apanha-vos dentro da tenda**, que é onde é para estar.
-  - ⏱️ **O bloco são 25 minutos**, para absorver a S-Bahn sem tocar nas 13:45.
-    Dá para a fachada do Neues Rathaus, os 445 m até à [Frauenkirche](https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen) e uma volta pela nave.
-    **Não dá para lojas nem para fotografias individuais.**
-  - 🎫 A **[Frauenkirche](https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen)** é grátis e abre das 08:00 às 20:00. Fica a **445 m** da [Marienplatz](https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen),
-    6 minutos a pé.
-- **12:35 – 12:45**: A pé da [Frauenkirche](https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen) até ao **[Viktualienmarkt](https://www.google.com/maps/search/?api=1&query=Viktualienmarkt%2C%2080331%20M%C3%BCnchen)** (608 m, 8 min). Não há tempo para vaguear: estes 10 minutos são quase todos a andar.
-- **12:45 – 13:00**: **[Viktualienmarkt](https://www.google.com/maps/search/?api=1&query=Viktualienmarkt%2C%2080331%20M%C3%BCnchen)**, de passagem e de pé. Uma *Weißwurst*, um pretzel
-  gigante, *Obatzda*, e segue-se.
-  - ⚠️ **Isto já não é o almoço.** O almoço é o *Hendl* dentro da tenda, daqui a uma hora. Não
-    se sentem: cada minuto aqui é um minuto a menos de margem para as 14:00.
-  - ✅ Ao domingo o [Viktualienmarkt](https://www.google.com/maps/search/?api=1&query=Viktualienmarkt%2C%2080331%20M%C3%BCnchen) fecha. Numa segunda está aberto, sorte do calendário.
-- **13:00 – 13:10**: A pé até à **[Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen)** (653 m, 9 min).
-- **13:10 – 13:22**: **[Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen)** (*Sendlinger Str. 32*). **Grátis**, e doze minutos lá
-  dentro chegam. Construída pelos irmãos Asam entre 1733 e 1746 num terreno com **8 metros de
-  largura**, para uso próprio: é a coisa mais densamente barroca da Alemanha, com iluminação
-  indireta e colunas torcidas.
-  - ✅ **Fica entre o mercado e o
-    [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen), que é exatamente a direção da [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), e não custa nada.
-- **13:22 – 13:34**: A pé até ao **[Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) (Stachus)** (885 m, 12 min). **É o troço a
-  vigiar da manhã.**
-- **13:34 – 13:45**: **U4 ou U5, [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) ➔ [Theresienwiese](https://www.google.com/maps/search/?api=1&query=Theresienwiese%2C%2080339%20M%C3%BCnchen), duas paragens** (com a
-  Hauptbahnhof pelo meio), ~3 minutos de viagem. Incluído no Bayern-Ticket. Os **11 minutos** do
-  bloco são para descer ao cais, esperar e sair no meio do fluxo de gente, que num dia de
-  [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) não é pouca. **A caminhada da [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) ao [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%20Stachus%2C%2080335%20M%C3%BCnchen) são 12
-  minutos** *(OSRM)*, o que torna a [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) a primeira coisa a cortar se o dia derrapar.
+- **09:40 – 09:58**: **Sair de casa a pé para a [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg).** São **17 minutos a pé** (1,2 km) desde o Am Bogen 6. Chegada às 09:58, dando **19 minutos de margem** para confirmar o cais nos monitores, descer à plataforma com calma e ter os **2× Bayern-Ticket preenchidos com os 6 nomes** antes de embarcar.
+  - ✅ **O melhor é levá-los já comprados de casa**, na app da DB Navigator: poupam-se **€2 por bilhete** de taxa de balcão e os 19 minutos ficam livres de burocracia.
+  - 🔴 **Os nomes têm de estar preenchidos antes de entrar no comboio.** O bilhete exige o nome e o apelido de cada passageiro nos campos próprios antes do início da viagem. Sem os nomes preenchidos, o bilhete não é válido na fiscalização.
+- **10:17 – 10:55**: Comboio regional RE9 (ou RE80) de [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg) para [München Hbf](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Hauptbahnhof%2C%2080335%20M%C3%BCnchen) (**38 min** diretos) com os **2× Bayern-Ticket** (válidos a partir das 09:00, **€108 para os 6**).
+- **10:55 – 11:10**: **Da [München Hbf](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Hauptbahnhof%2C%2080335%20M%C3%BCnchen) à [Marienplatz](https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen), de S-Bahn.**
+  - ⚠️ **A pé está fora de questão:** são **1,7 km e 23 minutos** *(OSRM)*. De S-Bahn são **duas paragens e 3 minutos de viagem**, somando **~15 min de porta a praça** com o grupo de seis (descer à *Stammstrecke*, esperar 2 a 3 min, viajar e subir à superfície na Marienplatz). Incluído no Bayern-Ticket.
+- **11:10 – 11:45**: 🏛️ **[Marienplatz](https://www.google.com/maps/search/?api=1&query=Marienplatz%2C%2080331%20M%C3%BCnchen)**, Neues Rathaus e Catedral **[Frauenkirche](https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen)**.
+  - Subida à praça central com a imponente câmara neo-gótica (*Neues Rathaus*) e a coluna dourada *Mariensäule*.
+  - Caminhada de **445 m e 6 minutos a pé** até à [Frauenkirche](https://www.google.com/maps/search/?api=1&query=Frauenkirche%2C%20Frauenplatz%2012%2C%2080331%20M%C3%BCnchen) (Catedral de Munique). Visita à nave monumental e à famosa «Pegada do Diabo» (*Teufelstritt*). Entrada **grátis** (aberta das 08:00 às 20:00).
+- **11:45 – 12:15**: 🍺 **Praça do [Platzl](https://www.google.com/maps/search/?api=1&query=Platzl%2C%2080331%20M%C3%BCnchen) & Cervejaria Histórica [Hofbräuhaus](https://www.google.com/maps/search/?api=1&query=Hofbr%C3%A4uhaus%20M%C3%BCnchen%2C%20Platzl%209%2C%2080331%20M%C3%BCnchen)**.
+  - Caminhada de 550 m (7 min) pelo miolo pedonal até ao Platzl, contemplando a cervejaria mais emblemática do planeta (fundada em 1589).
+  - Entrada no salão abobadado histórico (*Schwemme*), com tetos pintados a fresco, mesas comunitárias de madeira rústica e lustres seculares. Fotografias e imersão no berço da tradição cervejeira de Munique.
+- **12:15 – 13:00**: 🥨 **Almoço tradicional e sentado no [Viktualienmarkt](https://www.google.com/maps/search/?api=1&query=Viktualienmarkt%2C%2080331%20M%C3%BCnchen)**.
+  - Caminhada curta de 350 m (4 min) até ao mercado gastronómico histórico.
+  - Paragem de 45 minutos com lugares sentados nas mesas do mercado ou no Biergarten central. Almoço bávaro autêntico, descontraído e barato (**€6 a €10/pessoa**): *Münchner Weißwürste* com mostarda doce tradicional Händlmaier e pretzel fresco, *Leberkässemmel* estaladiço ou tábuas de queijos com *Obatzda*.
+  - ✅ O mercado abre às segundas-feiras com todas as bancas em plena atividade.
+- **13:00 – 13:25**: ⛪ **[Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen)** (*Sendlinger Str. 32*) & **Sendlinger Straße**.
+  - Caminhada de 653 m (9 min) pelo animado eixo pedonal.
+  - Visita ao interior deslumbrante da [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) (**grátis**), erguida pelos irmãos Asam entre 1733 e 1746 num lote privado com apenas 8 metros de largura: colunas salomónicas douradas, teto em trompe-l'œil e iluminação barroca indireta.
+- **13:25 – 13:45**: 🚇 **De [Sendlinger Tor](https://www.google.com/maps/search/?api=1&query=Sendlinger%20Tor%2C%2080336%20M%C3%BCnchen) à [Theresienwiese](https://www.google.com/maps/search/?api=1&query=Theresienwiese%2C%2080339%20M%C3%BCnchen)**.
+  - Caminhada de 250 m (3 min) pela rua pedonal até à estação [Sendlinger Tor](https://www.google.com/maps/search/?api=1&query=Sendlinger%20Tor%2C%2080336%20M%C3%BCnchen). Metro U3 ou U6 (1 paragem, 2 min) até [Goetheplatz](https://www.google.com/maps/search/?api=1&query=Goetheplatz%2C%2080337%20M%C3%BCnchen), com acesso pedonal desafogado (350 m a pé) pela entrada sul da Wiesn, contornando as enchentes da estação principal (em alternativa, U4/U5 a partir de Karlsplatz Stachus). Incluído no Bayern-Ticket.
 - **13:45 – 22:20**: **OKTOBERFEST 2026 na [Theresienwiese](https://www.google.com/maps/search/?api=1&query=Theresienwiese%2C%2080339%20M%C3%BCnchen).** Cerveja de litro *Maß*
   (€14,80–15,90), frango assado *Hendl* (€16–19), cantoria e brinde
   (*"Ein Prosit, ein Prosit, der Gemütlichkeit! Oans, zwoa, drei, g'suffa!"*).
-  - ⏰ **Chegam com 15 minutos de folga sobre as 14:00**, que é o limite prático para seis
-    pessoas sem reserva arranjarem lugar. Não é muita folga. **Se a manhã derrapar, corta-se a
-    [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen)**, e não o [Viktualienmarkt](https://www.google.com/maps/search/?api=1&query=Viktualienmarkt%2C%2080331%20M%C3%BCnchen): a igreja são 12 minutos inteiros, o mercado está no
-    caminho de qualquer maneira.
+  - ⏰ **Chegam com 15 minutos de folga sobre as 14:00**, que é o limite prático para seis pessoas sem reserva arranjarem lugar. Entrar imediatamente numa grande tenda e assegurar mesa na zona não reservável.
 
 > ### 🎒 Duas regras da [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) que decidem a manhã inteira, e não estão em mais lado nenhum
 > **🎒 Não se entra no recinto com mochilas.** O limite é de **3 litros**, ou seja
@@ -1150,11 +1076,11 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
       **segunda a sexta 08:00–18:00**. Deixa de ser preciso telefonar, e **o plano B do Dia 4 já
       contava com esta janela da manhã**, portanto não muda nada no plano.
 - [ ] **Mesas reservadas:** [Schöne Perle](https://www.google.com/maps/search/?api=1&query=Sch%C3%B6ne%20Perle%2C%20Gro%C3%9Fe%20Pfarrgasse%202%2C%201020%20Wien) ou Pöschl (Dia 1, **não crítica**), Bauerntanz (Dia 3), jantar de sábado
-      às **21:30** (Dia 4), almoço em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) às **13:15** (Dia 5).
+      às **21:30** (Dia 4), almoço em [Dinkelsbühl](https://www.google.com/maps/search/?api=1&query=Dinkelsb%C3%BChl%2C%2091550) às **13:00** (Dia 5).
       🔴 *O **[Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien)** saiu desta lista a 27/08/2026: para o bar não se reserva, é walk-in, e
       reservar mesa para depois só beber custa €25 por pessoa.*
 - [ ] **Levar dinheiro vivo:** a **Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)** no Dia 1 (€8 × 4 = **€32**) não
-      aceita cartão, e as bancas de Schneeballen e a torre do Rathaus em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) também não. (St. Jakobskirche é apreciada do exterior, poupando €30).
+      aceita cartão, e as bancas de Schneeballen e as torres medievais (Torre Daniel em [Nördlingen](https://www.google.com/maps/search/?api=1&query=N%C3%B6rdlingen%2C%2086720) e torre do Rathaus em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) também não. (St. Jakobskirche é apreciada do exterior, poupando €30).
       🔴 *A Torre Sul entrou nesta lista a 28/08/2026: não se compra online e custa €8, não €4.*
 - [ ] **Confirmar no DB Navigator, na manhã do Dia 6**, se o RE9 das 22:58 se mantém e se
       existe algum ICE/IC mais tarde.

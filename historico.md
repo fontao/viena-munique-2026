@@ -12,6 +12,144 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 > comportamento (porquê às 14:00, porquê este comboio, o que a escolha custou). A arqueologia
 > vem toda para aqui.
 
+## 38.ª revisão · 20 de setembro de 2026
+
+**Otimização da manhã do Dia 6 em Munique com despertar às 09:00: inclusão da Hofbräuhaus am Platzl e almoço sentado no Viktualienmarkt, assegurando a chegada à Wiesn às 13:45.**
+
+1. **Diagnóstico da versão anterior (despertar às 10:00) face à restrição de descanso:**
+   - Com o despertar às 10:00 da revisão original, o tempo útil no centro de Munique ficava comprimido a apenas 1h25 (12:00–13:25). Esse intervalo curto forçava uma passagem superficial a correr, cortava por completo a cervejaria histórica Hofbräuhaus am Platzl e reduzia o almoço no Viktualienmarkt a um lanche rápido em pé.
+   - O grupo estabeleceu a regra imperativa de descanso: **acordar às 09:00** (e não mais cedo). Tendo o grupo recolhido pelas 00:00 na noite anterior de domingo, o despertar às 09:00 garante 9 horas completas de sono retemperador antes do dia mais longo da viagem.
+
+2. **Ganhos práticos da antecipação para as 09:00 (+1h10 de tempo útil no centro de Munique):**
+   - **09:40–09:58 (17 min, 1,2 km a pé):** Caminhada da base em Augsburg (*Am Bogen 6*) até à Augsburg Hbf. Chegada com **19 minutos de margem** antes do comboio, tempo indispensável para conferir monitores e preencher com calma os 2× Bayern-Ticket com os nomes dos 6 passageiros (ou levá-los já comprados na app DB Navigator).
+   - **10:17–10:55 (38 min diretos):** Viagem no regional RE9 até München Hbf, com os 2× Bayern-Ticket (€108 para os 6) válidos a partir das 09:00 em dia útil de semana.
+   - **10:55–11:10 (15 min):** Transição de cais subterrâneo da S-Bahn (*Stammstrecke*) até à superfície da Marienplatz (2 paragens, 3 min de marcha efetiva).
+   - **11:10–11:45 (35 min):** Marienplatz, Neues Rathaus e visita ao interior monumental da Catedral Frauenkirche (grátis, pegada *Teufelstritt*). A subida ao Alter Peter mantém-se fora do plano (306 degraus e fila imprevisível em dia de Wiesn, poupando €30 ao grupo).
+   - **11:45–12:15 (30 min) · Novo destaque:** Caminhada pelo miolo histórico até à praça do Platzl e entrada no salão abobadado secular (*Schwemme*) da lendária cervejaria Hofbräuhaus am Platzl (fundada em 1589), berço da cultura cervejeira da cidade, para fotos e imersão histórica.
+   - **12:15–13:00 (45 min) · Almoço tradicional e sentado:** Paragem no Viktualienmarkt com lugares sentados nas mesas do mercado para almoço bávaro típico, farto e barato (€6 a €10/pax: *Münchner Weißwürste* com mostarda doce tradicional Händlmaier e pretzel fresco, ou *Leberkäse* e *Obatzda*).
+   - **13:00–13:25 (25 min):** Passeio pedonal pela Sendlinger Straße e contemplação do interior da Asamkirche (jóia rococó dos irmãos Asam, acesso gratuito).
+   - **13:25–13:45 (20 min):** Caminhada rápida (250 m) até à estação Sendlinger Tor, apanhando o metro U3/U6 até Goetheplatz (1 paragem, 2 min) e caminhada de 350 m até à entrada sul da Wiesn. Este trajeto evita o esmagamento das multidões na estação central Theresienwiese da U4/U5.
+   - **13:45–22:20 (8h35 na Wiesn):** A chegada às 13:45 garante os 15 minutos vitais de folga antes das 14:00 (hora em que se esgotam os lugares de 6 pessoas juntas na zona não reservável), cumprindo à risca a estratégia de assegurar mesa contínua antes do *Einlassstopp* das 16:00.
+
+3. **Atualização e paridade documental:**
+   - Atualizados `itinerario_viagem.md` e `partials/itinerary.html` (Nós 1 a 7 e banner herói com badge e horários sincronizados).
+   - Compilação limpa via `python build.py` e verificação com `python scripts/verificar.py` (0 erros, 0 avisos, paridade de 83 preços).
+
+---
+
+## 37.ª revisão · 20 de setembro de 2026
+
+**Pesquisa gastronómica em Dinkelsbühl: substituição do Meiser's por opções autênticas, locais e económicas (Gasthof Goldner Hirsch e Weib's Brauhaus).**
+
+1. **Diagnóstico da restauração em Dinkelsbühl ao domingo (13:00–14:20):**
+   - Na sequência do pedido de pesquisa («pesquisa restaurantes bons aqui... bons quer dizer locais e baratos! sítios onde os locais comem e não são roubados»), realizou-se um levantamento aprofundado com consulta de ementas reais, preçários e horários de cozinha dominical.
+   - O **Meiser's** (*Weinmarkt 10*), embora tenha uma esplanada moderna na praça e serviço contínuo, pertence ao grupo hoteleiro de 4 estrelas superior Meiser Hotels. Apresenta preços mais inflacionados (~€25–€35+ por refeição completa), carta virada para o turismo de passagem e clientes de hotel, sem a alma de taberna comunitária onde as famílias da terra almoçam ao domingo.
+
+2. **Opções locais autênticas pesquisadas e validadas em fontes primárias:**
+   - **Gasthof Goldner Hirsch (Weinmarkt 6) · Escolha principal recomendada:**
+     - Taberna histórica familiar no centro cívico (a 30 m de Münster St. Georg e a 4 min a pé do P1 Schwedenwiese).
+     - **Cozinha quente contínua ao domingo (11:30–21:00):** enorme vantagem logística, garantindo serviço pleno sem a pressão de fecho de cozinha no meio da tarde.
+     - **Preços e comida honesta francónia:** o tradicional *Fränkisches Schäufele* de domingo (pá de porco estaladiça assada no forno com bola de batata e salada) a **€16,50**, *Käsespätzle* com queijo de pasto Heumilchkäse a **€12,50**, salsichas *Fränkische Bratwurst* com chucrute caseiro e pão a **€9,50–€10,50**, pratos de frios (*Vesper*) a **€11–€13** e caneca de cerveja local (0,5L) a **€4,20–€4,80**.
+   - **Weib's Brauhaus (Untere Schmiedgasse 13) · Alternativa de microcervejaria artesanal:**
+     - Primeira e célebre microcervejaria da Alemanha fundada e gerida por uma mestre-cervejeira (*Braumeisterin*), a 250 m do Weinmarkt.
+     - Muito apreciada pela população local pelas cervejas próprias acabadas de produzir e não filtradas (*Weib's Helles*, *Weib's Weißbier*) e pratos a preços justos: *Bratwürste auf Sauerkraut* ou *Saure Zipfel* (salsichas cozidas em caldo aromático de vinagre e cebola) a **€10,70**, e goulash de cerveja ou schnitzel a **€14–€18**.
+     - **Nuance logística de domingo:** a cozinha de almoço encerra às 14:00 (reabre às 17:30). Chegando o grupo por volta das 13:00/13:10, o pedido tem de ser feito sem demoras.
+   - **Brauereigaststätte Zum Wilden Mann (Wörnitzstraße 1):**
+     - Taberna rústica histórica junto à Wörnitztor e ao P2 Stadtmühle, com comida caseira bávara/francónia abundante (*Schweinebraten* a €19,90, *Kässpätzle* com bacon a €16,80), com a ressalva de aceitar exclusivamente dinheiro vivo (*nur Barzahlung*).
+
+3. **Atualização documental e paridade:**
+   - Atualizados `itinerario_viagem.md` e `partials/itinerary.html` com as opções do Gasthof Goldner Hirsch e Weib's Brauhaus, incluindo novos botões interativos de navegação no Google Maps em `node-actions`.
+   - Reconstrução de `index.html` via `python build.py` e validação com `python scripts/verificar.py` (0 erros, 0 avisos).
+
+4. **Correção do link direto do Google Maps para a Käthe Wohlfahrt Weihnachtsdorf:**
+   - Detetado que a pesquisa genérica por morada textual (`Käthe Wohlfahrt, Herrngasse 1...`) abria no Google Maps uma lista ambígua de resultados com dois estabelecimentos vizinhos na mesma rua (*Weihnachtsdorf* no n.º 1 e *Christmas Market* no n.º 2).
+   - O link foi corrigido em ambos os documentos para a URL oficial da API do Google Maps com o identificador de local único (`query_place_id=ChIJPQIGSKaPmEcR-DPz7P7GHQI`), abrindo imediatamente a ficha oficial da atração principal sem ambiguidades.
+
+---
+
+## 36.ª revisão · 20 de setembro de 2026
+
+**Auditoria completa de imagens reais e expansão integral dos botões de ação interativos (Google Maps & Portais Oficiais).**
+
+1. **Objetivo e auditoria da cobertura visual e interativa:**
+   Na sequência dos pedidos dos viajantes («agora mete imagens de coisas que vamos ver que estão em falta, usa imagens reais» e «also some places don't have the clickable google maps»), procedeu-se a um levantamento rigoroso em todo o itinerário interativo (`partials/itinerary.html` e `partials/footer.html`):
+   - Identificação de todos os nós de visita e paragens que careciam de fotografias reais ou onde imagens estavam a ser repetidas indevidamente.
+   - Identificação de todos os nós da linha temporal (Dias 1 a 7) que não dispunham de botões de ação rápidos (`node-actions`) com links de Google Maps ou portais oficiais dos monumentos.
+
+2. **Novas imagens reais em formato WebP de alta resolução:**
+   - **Burg Harburg (`img/burg_harburg.webp`):** Adicionada fotografia real da fortaleza do séc. XII no cume da colina, integrada no Nó 3 do Dia 5 e no respetivo marcador no mapa interativo (`partials/footer.html`).
+   - **Nördlingen e Geopark Ries (`img/nordlingen_ries.webp`):** Adicionada panorâmica aérea real da cidade circular medieval e da Torre Daniel no centro da cratera meteorítica, integrada no Nó 5 do Dia 5 e no mapa.
+   - **Ulm Fischerviertel (`img/ulm_fischerviertel.webp`):** Adicionada fotografia real do bairro histórico dos pescadores e da Schiefes Haus sobre o rio Blau, integrada no Nó 11 do Dia 5 e no mapa.
+   - **Hofburg & Prunksaal (`img/vienna_hofburg_prunksaal.webp`):** Fotografia autêntica do barroco imperial da Biblioteca Nacional e Hofburg integrada no Nó 2 do Dia 2.
+   - **Badeschiff no Donaukanal (`img/vienna_badeschiff_donaukanal.webp`):** Fotografia real do navio-piscina e esplanadas no canal do Danúbio integrada no Nó 5 do Dia 2, eliminando a duplicação do ficheiro `donaukanal_vienna_1786477802836.webp` que era partilhado entre os Dias 1 e 2.
+   - Total em disco: 25 imagens WebP, 100% referenciadas no guia (25 na página, 23 em pins, 1 em CSS), com 0 imagens órfãs e 0 repetições indevidas.
+
+3. **Expansão de 100% dos botões de ação do Google Maps (`node-actions`):**
+   Todos os 57 nós do roteiro contam agora com botões de ação direta:
+   - **Dia 1:** Aeroporto VIE, Schwedenplatz, Donaukanal, Badeschiff e Motto am Fluss.
+   - **Dia 2:** Cafés históricos (Korb e Sacher), Albertina, Schatzkammer Imperial, Prunksaal, Riesenrad, recinto Kaiser Wiesn, e rooftops (Das Loft e Lamée).
+   - **Dia 3:** Estações ferroviárias (Wien Westbahnhof, Salzburg Hbf, Augsburg Hbf) e centro cívico de Augsburg (Bauerntanz, Rathausplatz).
+   - **Dia 4:** Apartamento em Augsburg, Marienbrücke, Castelo de Neuschwanstein, margem do Alpsee, quiosques e restauração de Füssen/Hohenschwangau, e Ratskeller Augsburg.
+   - **Dia 5:** Apartamento em Augsburg, Burg Harburg, Torre Daniel, Stadtmauer Löpsinger Tor, Meiser's e praça do Weinmarkt em Dinkelsbühl, Rathausturm, Käthe Wohlfahrt e Plönlein em Rothenburg, e Schiefes Haus, Ulmer Münster e canais do Fischerviertel em Ulm.
+   - **Dia 6:** Hauptbahnhof de Augsburg e Munique, Marienplatz, Frauenkirche, Viktualienmarkt, Hofbräuhaus, Asamkirche, Sendlinger Tor, Karlsplatz Stachus, recinto da Theresienwiese e Tenda Hacker-Pschorr.
+   - **Dia 7:** Palácio e Jardins de Nymphenburg, BMW Welt, Parque Olímpico de 1972, Allianz Arena, Terminal 2 do Aeroporto de Munique e Aeroporto de Lisboa.
+
+4. **Links geográficos inline clicáveis (`a.geo` e markdown):**
+   - Identificou-se que, com a recente introdução da Opção A do Dia 5 (Harburg, Nördlingen, Dinkelsbühl, Rothenburg e Ulm) e no Dia 7, vários nomes de locais e monumentos citados na prosa permaneciam em texto simples, sem ligação direta ao Google Maps.
+   - Foram convertidas todas as ocorrências em links geográficos interativos (`<a class="geo" ...>` no HTML e `[Nome](https://www.google.com/maps/search/?api=1&query=...)` no markdown): Nördlingen, Torre Daniel, St. Georg, Geopark Ries, Stadtmauer, Löpsinger Tor, Kaiserwiese, Donauwörth, rio Wörnitz, Meiser's, Weinmarkt, Münster St. Georg, P1 Schwedenwiese, P2 Stadtmühle, Rathausturm, Marktplatz, Bäckerei Striffler, Café Diller, Schiefes Haus, Ulmer Münster, Münsterplatz, rio Blau, tabernas históricas do Fischerviertel e Mietwagenzentrum / Munich Airport Center. O número de links geográficos no Dia 5 subiu de 37 para 77.
+
+5. **Validação estrita:**
+   - Execução do `build.py` com reconstrução de `index.html`.
+   - `python scripts/verificar.py` com resultado exemplar: 0 erros, 0 avisos, 0 preços órfãos, 0 travessões proibidos e paridade total.
+
+---
+
+## 35.ª revisão · 20 de setembro de 2026
+
+**Auditoria integral de estacionamentos e navegação GPS Waze: garantia do melhor parque por paragem e paridade absoluta de links diretos.**
+
+1. **Objetivo e auditoria exaustiva:**
+   Na sequência do pedido do viajante, procedeu-se a uma auditoria integral a todos os pontos do roteiro onde a carrinha de 7 lugares tem de estacionar (Dias 3, 4, 5 e 7), verificando se o parque selecionado é a melhor opção prática/oficial e garantindo que existem links diretos e operacionais de navegação no Waze (`https://waze.com/ul?q=...&navigate=yes`) em ambos os documentos (`itinerario_viagem.md` e `partials/itinerary.html` / `dossier.html`).
+
+2. **Parques validados e critérios de escolha:**
+   - **Dia 3 (Augsburg):** Enterprise Rent-A-Car (Aindlinger Str. 14) para levantamento; Parkhaus Zeughaus (Zeugplatz 5, ~500 m / 6 min a pé) como parque coberto, seguro e aberto 24h para pernoita e para a paragem de segunda-feira durante a Oktoberfest, face à proibição estrita de estacionamento de não-residentes (*Anwohnerparken*) no Lechviertel.
+   - **Dia 4 (Alpes Bávaros):** Parkplatz P4 Alpsee (Alpseestraße 24) em Hohenschwangau (colado ao lago e à paragem do shuttle bus da Marienbrücke, poupando a subida a pé de 15 min do P1/P2/P3); Parkplatz Eugen-Papst-Straße em Oberammergau (gratuito e colado ao centro histórico e frescos) com alternativas ativas no Kolbensattel (Kremsweg 20) e no Plansee (Hotel Forelle); Parkplatz Eibsee-Hotel (Am Eibsee 1) colado à margem do lago e início do trilho da Zugspitze; regresso ao Parkhaus Zeughaus em Augsburg.
+   - **Dia 5 (Estrada Romântica & Ulm):** Parque de Burg Harburg (no cimo da colina, a 5 min a pé do portal da fortaleza por €1,00/h); Parkplatz Kaiserwiese em Nördlingen (amplo, gratuito ao domingo, a passos da Löpsinger Tor); P1 Schwedenwiese em Dinkelsbühl (gratuito e obrigatório face à proibição legal de circulação dominical na Altstadt das 13:00 às 17:00); Parkplatz P4 Galgentor em Rothenburg (colado à muralha e entrada direta no centro); Parkhaus Fischerviertel em Ulm (parque coberto moderno com tarifa noturna plana de €5,00 após as 19:00 colado aos canais e à Schiefes Haus).
+   - **Dia 6 (Munique):** A viatura permanece segura no Parkhaus Zeughaus em Augsburg o dia inteiro; viagem em comboio regional RE9 com Bayern-Ticket (sem condução com álcool nem problemas de trânsito e parque em Munique).
+   - **Dia 7 (Munique com malas no carro):** Seleção estrita de parques vigiados ou dedicados para segurança das bagagens de 6 pessoas: Parkplatz Schloss Nymphenburg (gratuito no pátio do palácio); Parkhaus BMW Welt (garagem subterrânea vigiada por baixo do edifício); Parkhaus Allianz Arena (parque do estádio em Fröttmaning); e Mietwagenzentrum do Aeroporto de Munique (centro oficial de devolução de viaturas de aluguer, com passadiço coberto direto ao Terminal 2).
+
+3. **Sincronização e verificação:**
+   - Adicionados links Waze em falta na Enterprise Augsburg e no regresso a Augsburg no Dia 5, harmonizando 17 destinos únicos de Waze entre os dois documentos.
+   - `build.py` corrido e `scripts/verificar.py` validado com 0 erros e 0 preços órfãos.
+
+---
+
+## 34.ª revisão · 20 de setembro de 2026
+
+**Adoção do Safari Medieval & Cratera Cósmica (Opção A) no Dia 5: fracionamento da condução em etapas curtas, Burg Harburg, Nördlingen, almoço em Dinkelsbühl, tarde em Rothenburg e fecho nos canais de Ulm.**
+
+1. **A motivação da mudança:**
+   O plano anterior do Dia 5 continha duas tiradas monótonas e contínuas de condução (155 km / 2h40 de manhã até Rothenburg e 186 km / 2h00 de regresso à noite) e o programa da tarde em Rothenburg parecia desaproveitado após a remoção do desvio a Nuremberga e da ronda noturna. O grupo solicitou alternativas dinâmicas, com atividades físicas e paragens enriquecedoras pelo caminho, eliminando longas horas seguidas ao volante.
+
+2. **A solução adotada (Opção A):**
+   A rota transforma a jornada num verdadeiro safari medieval ao longo da Suábia, da bacia de meteorito do Ries e da Francónia, fracionando a estrada em tiradas curtas (20 a 45 min) e adicionando atrações únicas da região:
+   - **Burg Harburg (`10:15 – 11:15`):** fortaleza feudal intacta do séc. XII, sem registo de destruição bélica. Visita ao recinto exterior, baluartes e passadiço coberto (*Wehrgang*) por €3,50/pax (€21 para os 6; estacionamento municipal €1,00/h).
+   - **Nördlingen & Geopark Ries (`11:35 – 12:35`):** cidade fortificada construída no epicentro de uma colossal cratera de impacto de meteorito (15 milhões de anos). Subida de 350 degraus de madeira à Torre Daniel da St. Georgskirche com vista circular de 360° sobre o rebordo da cratera (€4,00/pax = €24 para os 6, exclusivamente em dinheiro vivo no topo) e passeio na *Stadtmauer*, a única muralha circular completa e transitável da Alemanha (grátis). Estacionamento gratuito de domingo no Kaiserwiese / Löpsinger Tor.
+   - **Dinkelsbühl (`13:00 – 14:20`):** almoço tradicional francónio no Meiser's (cozinha contínua 11:30–22:00) e passeio pelas empenas góticas e fossos de água. Respeitada a regra dominical de encerramento do centro histórico a viaturas particulares (13:00–17:00), estacionando no exterior no P1 Schwedenwiese (grátis).
+   - **Rothenburg ob der Tauber (`15:00 – 18:00`):** concentração da visita nos pontos fortes: subida imediata à Rathausturm (€4,00/pax = €24 para os 6, só em dinheiro; fecha às 17:00), aldeia de Natal permanente Käthe Wohlfahrt Weihnachtsdorf (grátis), fachada de St. Jakobskirche, miradouro do Burggarten, cruzamento do Plönlein, doces *Schneeballen* e troço nascente da muralha. O Kriminalmuseum foi retirado em favor da subida à torre e da dinâmica da vila medieval. Estacionamento no P4 Galgentor (€1,10/h, teto €5,50).
+   - **Ulm & Fischerviertel (`19:25 – 20:45`):** descida rápida pela A7 (134 km, 1h25) aproveitando a proibição dominical de camiões (*Sonntagsfahrverbot*). Paragem noturna nos canais medievais do Fischerviertel ao pôr do sol, contemplação da célebre *Schiefes Haus* sobre a água, vista da impressionante torre iluminada do Ulmer Münster (161,5 m, a torre de igreja mais alta do mundo) e jantar rápido/petisco nos canais antes de regressar a Augsburg (82 km, 55 min pela A8) às 21:40 para deitar cedo.
+
+3. **Orçamento e bilheteira:**
+   - Adicionados: Burg Harburg (€3,50/pax = €21), Torre Daniel (€4,00/pax = €24), Torre do Rathaus (€4,00/pax = €24), Parkhaus Fischerviertel em Ulm (€5,00 tarifa noturna).
+   - Removido: Kriminalmuseum (€10,50/pax = €63).
+   - O saldo global de bilhetes e visitas fica praticamente neutro, mas ganham-se três paragens cénicas e ativas de relevo.
+
+4. **Sincronização e verificação:**
+   - Atualizados `itinerario_viagem.md`, `partials/itinerary.html` e `partials/footer.html` (com 3 novos marcadores de mapa e polyline atualizada).
+   - Executado `python build.py` e validado com `python scripts/verificar.py` (0 erros, 0 preços órfãos, 0 travessões).
+
+---
+
 ## 33.ª revisão · 19 de setembro de 2026
 
 **Cancelamento da entrada no interior de St. Jakobskirche (Dia 5, Rothenburg), poupança de €30 e desafogo do programa da tarde.**
