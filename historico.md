@@ -12,6 +12,24 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 > comportamento (porquê às 14:00, porquê este comboio, o que a escolha custou). A arqueologia
 > vem toda para aqui.
 
+## 41.ª revisão · 21 de setembro de 2026
+
+**Auditoria mobile exaustiva a links Waze e Google Maps: validação de navegação em telemóvel e blindagem de moradas de estacionamento.**
+
+1. **Auditoria com Gemini 3.8 Flash:**
+   - Auditoria técnica integral a todos os 194 links do Google Maps e 15 links do Waze no dossiê.
+   - Confirmada a adesão estrita aos esquemas universais suportados por iOS e Android (`https://www.google.com/maps/search/?api=1&query=...` e `https://waze.com/ul?q=...&navigate=yes`), ausência de erros de percent-encoding ou parâmetros quebrados.
+
+2. **Refinamento cirúrgico de destinos físicos de condução:**
+   - Para eliminar qualquer risco de dispersão do algoritmo de pesquisa dos navegadores móveis, adicionaram-se as moradas de cancela e arruamento exatas a 4 locais estratégicos:
+     - **Mietwagenzentrum MUC (Devolução):** atualizado para `Terminalstraße Mitte, 85356 München-Flughafen` (morada oficial publicada pelo Aeroporto de Munique para navegação GPS à devolução de viaturas).
+     - **Schloss Nymphenburg (Parque de 450 lugares):** atualizado para `Nördliches Schlossrondell, 80638 München` (rua exata da bolsa de estacionamento gratuito do palácio).
+     - **P4 Galgentor (Rothenburg ob der Tauber):** atualizado para `Vorm Würzburger Tor 6, 91541 Rothenburg ob der Tauber` (morada postal da cancela de entrada no parque).
+     - **P1 Schwedenwiese (Dinkelsbühl):** atualizado no Waze para `Luitpoldstraße 13, 91550 Dinkelsbühl` (harmonizado a 100% com o link existente do Google Maps).
+   - Reconstrução executada com `python build.py` e validação limpa via `scripts/verificar.py` (0 erros).
+
+---
+
 ## 40.ª revisão · 21 de setembro de 2026
 
 **Formalização do Kolbensattel & Alpine Coaster como opção única e definitiva da tarde do Dia 4: exclusão da rota do Plansee, medição integral no OSRM e salvaguarda meteorológica.**
