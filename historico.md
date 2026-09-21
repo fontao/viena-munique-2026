@@ -12,6 +12,38 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 > comportamento (porquê às 14:00, porquê este comboio, o que a escolha custou). A arqueologia
 > vem toda para aqui.
 
+## 40.ª revisão · 21 de setembro de 2026
+
+**Formalização do Kolbensattel & Alpine Coaster como opção única e definitiva da tarde do Dia 4: exclusão da rota do Plansee, medição integral no OSRM e salvaguarda meteorológica.**
+
+1. **A decisão de acolher o Kolbensattel como plano único:**
+   - O grupo decidiu abandonar a divisão entre plano cultural e alternativa de montanha, elegendo o **Kolbensattel (Kolbensesselbahn & Alpine Coaster)** como a atividade exclusiva da tarde do Dia 4 (16:07–17:20).
+   - O passeio pedestre pelas ruelas históricas de Oberammergau (frescos *Lüftlmalerei*, Pilatushaus) deixa de concorrer pelo tempo da tarde e é despromovido a **plano de contingência meteorológica** (pois o tobogã encerra com chuva ou humidade no carril).
+
+2. **Exclusão da Rota Cénica pelo Lago Plansee (L255):**
+   - Com o Kolbensattel fixado como destino, a rota cénica pela Áustria e passo do Ammersattel foi definitivamente excluída. A medição no OSRM confirmou 57,9 km e 1h09 em fluxo livre absoluto, o que na prática de montanha empurraria a chegada para as 16:30, inviabilizando a apanha da telecadeira no vale e a descida no coaster antes do fecho da tarde.
+   - A condução de saída do almoço (15:15–16:07) segue unicamente pela rota direta da B17 ➔ B23 por Steingaden (47,8 km, 51 min no OSRM).
+
+3. **Medições oficiais de condução no OSRM (perfil automóvel):**
+   - **Augsburg ➔ Hohenschwangau (P4 Alpsee):** 103,4 km (1h29 fluxo livre no OSRM; bloco de 1h35 com margem mantido).
+   - **Hohenschwangau (P4 Alpsee) ➔ Kolbensattel:** 47,8 km (51 min fluxo livre no OSRM; chegada às ~16:07 para saída às 15:15).
+   - **Kolbensattel ➔ Lago Eibsee:** 30,7 km (39 min fluxo livre no OSRM via Garmisch; saída às 17:20 com chegada às 18:00 ao lago, garantindo 75 min de sol e margem ampla até ao pôr do sol às 19:03).
+   - **Lago Eibsee ➔ Augsburg:** 130,3 km (1h53 fluxo livre no OSRM; bloco de 2h00 para chegada às 21:15 e jantar às 21:30).
+   - **Distância total do circuito do Dia 4:** 312,6 km de condução acumulada.
+
+4. **Correção do endereço oficial e estacionamento do Kolbensattel:**
+   - Detetou-se que o endereço anteriormente anotado no dossiê (*Kremsweg 20*) não correspondia à estação da telecadeira. O endereço e parque de estacionamento oficiais ficam no **Kreislainenweg 1, 82487 Oberammergau** (coordenadas 47.5938, 11.0449).
+   - Estacionamento pago a €5,00 por viatura (parquímetro com leitura automática de matrícula; primeiros 59 min gratuitos).
+
+5. **Impacto orçamental e atualização dos documentos:**
+   - O bilhete combinado adulto (subida de telecadeira + descida em coaster) a €18,50 por pessoa passa a custo efetivo e garantido do grupo: **€111 para os 6 passageiros** (+€5 de parque).
+   - Atualizado `itinerario_viagem.md` (tabela de bilhetes no local, título do Dia 4, nó de condução e nó de visita).
+   - Atualizado `partials/itinerary.html` (separador do Dia 4, hero banner, nós de condução e visita) e `partials/tickets.html` (adicionado cartão Ticket 8 do Kolbensattel).
+   - Atualizado `partials/footer.html` (marcador do mapa Leaflet centrado em Kreislainenweg 1).
+   - Reconstrução integral via `build.py` e validação limpa com `scripts/verificar.py` (0 erros, 0 preços órfãos).
+
+---
+
 ## 39.ª revisão · 20 de setembro de 2026
 
 **Auditoria e consolidação do Dia 7 (Nymphenburg, BMW Welt, Allianz Arena e voo de regresso): fecho da decisão de visita estritamente exterior à Allianz Arena e validação de 100% da cadeia logística.**
