@@ -12,6 +12,41 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 > comportamento (porquê às 14:00, porquê este comboio, o que a escolha custou). A arqueologia
 > vem toda para aqui.
 
+## 39.ª revisão · 20 de setembro de 2026
+
+**Auditoria e consolidação do Dia 7 (Nymphenburg, BMW Welt, Allianz Arena e voo de regresso): fecho da decisão de visita estritamente exterior à Allianz Arena e validação de 100% da cadeia logística.**
+
+1. **Decisão sobre a Allianz Arena (visita exclusivamente exterior):**
+   - Na sequência da instrução explícita dos viajantes («o estádio só queremos ver de fora»), o plano foi clarificado e blindado contra dispersões.
+   - Foram formalmente descartadas as visitas ao FC Bayern Museum (€12) e os tours interiores com acesso ao relvado e balneários (€19 e €25). Uma visita interior exigiria entre 1h30 e 2h30, o que canibalizaria a margem de segurança para a devolução da carrinha e o voo.
+   - Os 40 minutos atribuídos (15:20–16:00) destinam-se exclusivamente à caminhada pela monumental Esplanade elevada, registo fotográfico panorâmico junto à fachada icónica de 2.784 almofadas de ar insufladas em ETFE (arquitetura futurista de Herzog & de Meuron) e uma passagem rápida pela FC Bayern Megastore oficial (loja aberta das 10:00 às 18:00 com acesso livre).
+   - O custo de bilhética fica a zero (mantendo-se apenas os €5,00 por viatura do estacionamento oficial do estádio em dia sem jogo).
+
+2. **Remoção de meta-talk de planeador (Regra 11):**
+   - Eliminadas formulações de comentário de bastidores («Fica no plano porque o grupo a quis, não porque a matemática a peça»), substituídas por instruções práticas de contingência para os viajantes: em caso de atraso na manhã ou no almoço, a Allianz Arena é a paragem a suprimir para seguir direto ao aeroporto.
+
+3. **Verificação integral da cadeia logística e horários do Dia 7:**
+   - **10:00 (Acordar):** 9h30 a 10h de sono retemperador após a noite de encerramento da Oktoberfest.
+   - **11:00 (Check-out):** Saída de Augsburg com malas na carrinha (lembrete mantido para confirmar se o Lexapartments exige saída às 10:00; se sim, o dia recua uma hora com folga ainda maior).
+   - **11:00–12:00 (Condução):** 60 km pela A8 (45 min fluxo livre OSRM + estacionamento gratuito em Nymphenburg).
+   - **12:00–13:10 (Nymphenburg):** 70 min para desfrutar da fachada e passear pelos jardins e canal barroco com cisnes (acesso exterior grátis).
+   - **13:10–13:40 (Transição urbana):** 6,0 km pelo Mittlerer Ring (9 min fluxo livre, 30 min com semáforos, estacionamento subterrâneo da BMW Welt).
+   - **13:40–14:40 (BMW Welt & Olympiapark):** Pavilhão futurista (grátis) e almoço no complexo. Estacionamento a €3,50/hora e pagamentos 100% por cartão.
+   - **14:40–15:20 (Transição norte):** 11 km até Fröttmaning (16 min fluxo livre) + parque do estádio (€5,00) + subida pedonal da Esplanade de 543 m = 40 min.
+   - **15:20–16:00 (Allianz Arena exterior):** 40 min para fotos da fachada e megastore. Sem jogos na semana (pausa FIFA de 21 de setembro a 6 de outubro).
+   - **16:00–16:15:** Regresso ao carro e pagamento do parque.
+   - **16:15–17:00 (Autoestrada e combustível):** 30 km pela A9/A92 (23 min fluxo livre) + abastecimento prévio em Eching/Neufahrn + entrada no Mietwagenzentrum.
+   - **17:00 (Devolução Enterprise):** Fecho rigoroso das 96 horas do contrato de 4 dias (levantamento sexta 25 às 17:00 ➔ devolução terça 29 às 17:00), evitando qualquer encargo de dia adicional.
+   - **17:00–17:20:** Vistoria e caminhada de 350 m a 500 m pelo Munich Airport Center até ao Terminal 2.
+   - **17:20–19:20 (Margem de segurança aeroportuária):** Chegada ao Terminal 2 com 1h55 antes do fecho da entrega de bagagens (19:15) e 2h40 antes da descolagem (20:00).
+   - **20:00–22:25 (Voo TP 555):** Voo direto para Lisboa (2h25), com aterragem às 22:25 locais.
+
+4. **Sincronização e integridade:**
+   - Atualizados `itinerario_viagem.md` e `partials/itinerary.html` (Nó 6 e tabela de bilhetes).
+   - Reconstruído `index.html` via `build.py` e verificado com `scripts/verificar.py` (0 erros, 0 avisos, paridade absoluta de 83 preços).
+
+---
+
 ## 38.ª revisão · 20 de setembro de 2026
 
 **Otimização da manhã do Dia 6 em Munique com despertar às 09:00: inclusão da Hofbräuhaus am Platzl e almoço sentado no Viktualienmarkt, assegurando a chegada à Wiesn às 13:45.**

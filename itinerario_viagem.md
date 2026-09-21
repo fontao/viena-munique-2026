@@ -236,7 +236,7 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | **Torre do [Rathaus](https://www.google.com/maps/search/?api=1&query=Rathaus%2C%20Marktplatz%201%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | €4,00/pax = **€24** | Dia 5 · 220 degraus + vista sobre o casario e vale (até às 17:00, última subida 16:30) · **só dinheiro** |
 | **Estacionamento** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | - | ⚠️ **€5,50** | Dia 5 · P4 Galgentor ou P3 · pagam-se 09:00–18:00 (€1,10/h), grátis a partir das 18:00 |
 | **Parkhaus [Fischerviertel](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Fischerviertel%2C%20Schwilmengasse%201%2C%2089073%20Ulm)** ([Ulm](https://www.google.com/maps/search/?api=1&query=Ulm%2C%20Deutschland)) | - | **€5,00** | Dia 5 · tarifa noturna fixa a partir das 19:00 (Schwilmengasse 1) |
-| **[Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)**: esplanada + Megastore | 6 | **grátis** | ✅ **29/09: tudo 10:00–18:00.** Museu só **€12** · +Arena View €19 · +Tour €25 |
+| **[Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)**: esplanada + Megastore | 6 | **grátis** | ✅ **Decisão: só exterior (grátis)** · Loja aberta 10:00–18:00 · Museu (€12) e tours (€19/€25) descartados |
 | **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen)** | 6 | ✅ **grátis** | Museu BMW à parte: ✅ **€16/pax em grupo de 5+** (avulso €17) · ter–dom 10:00–18:00, última entrada 17:30 |
 
 **Bayern-Ticket, as regras que interessam.** Válido **a partir das 09:00** de segunda a
@@ -993,25 +993,10 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 - **15:20 – 16:00**: **[Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)** (Fröttmaning): acesso livre e gratuito à esplanada
   exterior para admirar a fachada de almofadas ETFE, fotos de grupo, e visita ao **FC Bayern
   Store**.
-  - ✅ **Confirmado para a data exata, não para "uma terça qualquer".** A allianz-arena.com
-    publica os horários dia a dia e para **29/09/2026** dá estádio, museu, tours e **loja todos
-    das 10:00 às 18:00**, com o *[Paulaner Fantreff](https://www.google.com/maps/search/?api=1&query=Paulaner%20Fantreff%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) North* aberto e a restante restauração
-    fechada. O bloco das 15:20 às 16:00 cabe todo dentro disso.
-  - ✂️ **Se o dia derrapar, é isto que se corta, e não outra coisa.** É a paragem mais fora de
-    mão, custa €5,00 de parque (em dia sem jogo) e mais de 1 km de caminhada para ver a loja e o exterior de um
-    estádio vazio. Cortando-a, chega-se ao aeroporto uma hora mais cedo e o dia deixa de ser
-    uma corrida. **Fica no plano porque o grupo a quis**, não porque a matemática a peça.
-  - ✅ **Confirmado: não há futebol nenhum nesta semana.** A FIFA fundiu as pausas de setembro
-    e outubro numa só a partir de 2026, a janela vai de **21 de setembro a 6 de outubro**,
-    portanto não há Bundesliga *nem* Champions durante toda a viagem (1.ª jornada da Champions
-    a 8–10 set, 2.ª só a 13–14 out). Zona tranquila, e o museu e o tour do estádio funcionam
-    com horário normal se quiserem entrar.
-  - ✅ **Se o grupo quiser entrar:** o **[FC Bayern Museum](https://www.google.com/maps/search/?api=1&query=FC%20Bayern%20Museum%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) custa €12** e dura ~1h30, com áudio-guia em 11
-    idiomas. Os ~€25 que aqui estavam são o *Museum + Arena Tour*, que dura **2h30** e não cabe
-    de todo. Pelo meio há o *Museum + Arena View* a €19, também ~1h30.
-    **Nada disto cabe nos 40 minutos do plano**, mas se o grupo decidir no local que quer
-    entrar, é o de €12 que se compra, e sai-se do aeroporto a correr.
-    *(allianz-arena.com.)*
+  - 🎯 **Decisão confirmada: visita estritamente exterior.** O grupo definiu que pretende apenas ver o estádio de fora. Os 40 minutos destinam-se a caminhar pela esplanada monumental, tirar fotografias de grupo à imponente fachada de 2.784 almofadas em ETFE e espreitar a **[FC Bayern Store](https://www.google.com/maps/search/?api=1&query=FC%20Bayern%20Megastore%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)** oficial (loja aberta das 10:00 às 18:00 com acesso livre). Acesso totalmente gratuito à esplanada e à loja; opções de museu (€12) e tours interiores (€19 e €25) ficam expressamente descartadas por opção dos viajantes, garantindo que o fecho da viagem corre sem qualquer pressão horária.
+  - ✅ **Horários confirmados para 29/09/2026:** A allianz-arena.com publica horários dia a dia e para a data da viagem dá a loja aberta das 10:00 às 18:00, com o *[Paulaner Fantreff](https://www.google.com/maps/search/?api=1&query=Paulaner%20Fantreff%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) North* aberto e a restante restauração fechada. O bloco das 15:20 às 16:00 cabe com total folga.
+  - ✂️ **Plano de contingência:** Se a manhã ou o almoço na BMW Welt sofrerem algum atraso, a Allianz Arena é a paragem a cortar por ficar mais a norte (custa €5,00 de parque em dia sem jogo). Cortando-a, segue-se diretamente para o aeroporto, ganhando uma hora de folga extra.
+  - ✅ **Sem futebol nesta semana:** A pausa internacional da FIFA (21 de setembro a 6 de outubro de 2026) garante que não há jogos da Bundesliga nem da Champions. Zona tranquila em Fröttmaning e acessos completamente desimpedidos.
 
 > ⚠️ **Hoje a carrinha anda com as malas de 6 pessoas lá dentro** e fica estacionada em três
 > sítios diferentes de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland). Uma carrinha carregada é um alvo óbvio. Usar **estacionamento
