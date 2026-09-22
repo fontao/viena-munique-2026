@@ -230,14 +230,13 @@ de setembro) complicavam a chegada e a previsão é de 34,2 mm de chuva.
 | **Almoço informal no [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau)** (Dia 4) | 6 | **grátis** / ~€4–6 | Piquenique com comida de casa/takeaway junto ao lago ou quiosque/tasca rápida na aldeia · sem reservas |
 | **[Kolbensattel](https://www.google.com/maps/search/?api=1&query=Kolbensattel%2C%20Kreislainenweg%201%2C%2082487%20Oberammergau) Alpine Coaster** (Dia 4) | 6 | ✅ **€18,50**/pax = **€111** | Dia 4 · subida de telecadeira + descida em coaster · bilheteira no vale (Kreislainenweg 1) |
 | **2× Bayern-Ticket** (Dia 6) | 6 | €54 (3 pax) + €54 (3 pax) = **€108** | Repartir 3+3 e não 5+1: custa o mesmo |
-| **Palácio de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen)** | 6 | Parque **grátis** · palácio **€10**/pax · *Gesamtkarte* **€20** | Ver Dia 7: só há 75 min |
+| **[Museu BMW](https://www.google.com/maps/search/?api=1&query=BMW%20Museum%2C%20Am%20Olympiapark%202%2C%2080809%20M%C3%BCnchen) (Coleção Histórica)** (Dia 7) | 6 | ✅ **€16,00**/pax = **€96** | Tarifa de grupo (5+ pax) · acervo de clássicos (Dixi, 328, 507, Isetta, 2002 Turbo, motores) · ter–dom 10:00–18:00 |
 | **Burg [Harburg](https://www.google.com/maps/search/?api=1&query=Burg%20Harburg%2C%2086655%20Harburg)** ([Harburg](https://www.google.com/maps/search/?api=1&query=Harburg%2C%20Schwaben)) | 6 | €3,50/pax = **€21** | Dia 5 · recinto e muralhas da fortaleza feudal (10:00–17:00) · estacionamento €1,00/h |
 | **Torre [Daniel](https://www.google.com/maps/search/?api=1&query=St.%20Georgskirche%2C%2086720%20N%C3%B6rdlingen)** ([Nördlingen](https://www.google.com/maps/search/?api=1&query=N%C3%B6rdlingen%2C%2086720)) | 6 | €4,00/pax = **€24** | Dia 5 · 350 degraus com vista de 360° da cratera de meteorito (10:00–18:00) · **só dinheiro** |
 | **Torre do [Rathaus](https://www.google.com/maps/search/?api=1&query=Rathaus%2C%20Marktplatz%201%2C%2091541%20Rothenburg%20ob%20der%20Tauber)** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | 6 | €4,00/pax = **€24** | Dia 5 · 220 degraus + vista sobre o casario e vale (até às 17:00, última subida 16:30) · **só dinheiro** |
 | **Estacionamento** ([Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) | - | ⚠️ **€5,50** | Dia 5 · P4 Galgentor ou P3 · pagam-se 09:00–18:00 (€1,10/h), grátis a partir das 18:00 |
 | **Parkhaus [Fischerviertel](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Fischerviertel%2C%20Schwilmengasse%201%2C%2089073%20Ulm)** ([Ulm](https://www.google.com/maps/search/?api=1&query=Ulm%2C%20Deutschland)) | - | **€5,00** | Dia 5 · tarifa noturna fixa a partir das 19:00 (Schwilmengasse 1) |
 | **[Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)**: esplanada + Megastore | 6 | **grátis** | ✅ **Decisão: só exterior (grátis)** · Loja aberta 10:00–18:00 · Museu (€12) e tours (€19/€25) descartados |
-| **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen)** | 6 | ✅ **grátis** | Museu BMW à parte: ✅ **€16/pax em grupo de 5+** (avulso €17) · ter–dom 10:00–18:00, última entrada 17:30 |
 
 **Bayern-Ticket, as regras que interessam.** Válido **a partir das 09:00** de segunda a
 sexta e até às **03:00** do dia seguinte, 2.ª classe. Cobre o RE [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)–[Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) **e** toda
@@ -278,22 +277,16 @@ documento com fotografia.
 > Os €108 do plano estão certos.
 
 **⚠️ O que não está em tabela nenhuma: a estrada.** O aluguer da carrinha (€427,58) não
-inclui combustível nem estacionamento, e o roteiro faz **~791 km** ao volante: 311 no Dia 4,
-376 no Dia 5 e 104 no Dia 7 *(os três dias medidos no OSRM a 27/08/2026)*. A uma carrinha de
+inclui combustível nem estacionamento, e o roteiro faz **~790 km** ao volante: 311 no Dia 4,
+376 no Dia 5 e 103 no Dia 7 *(medidos no OSRM)*. A uma carrinha de
 sete lugares isso são **€100 a €130 de
 combustível** ⚠️ *(estimativa: ~7,5 l/100 km a preços alemães de 2026, não é uma cotação)*.
 Somam-se os parques: ✅ **[Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) €10** (até 4 h, depois €1,00/h), [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541) ⚠️ **€5,50**,
-✅ **[Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) grátis**, 🔴 **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) €3,50/hora com teto de €23 ao dia**, e [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)
+🔴 **Estacionamento do [Museu BMW](https://www.google.com/maps/search/?api=1&query=BMW%20Museum%2C%20Am%20Olympiapark%202%2C%2080809%20M%C3%BCnchen) (Parkhaus BMW Welt) €3,50/hora com teto de €23 ao dia** (~€7 para 2h de visita), e [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)
 ✅ **€5,00/dia**.
-🔴 *O parque de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) estava aqui a ~€5 e **não se paga**: a Bayerische
-Schlösserverwaltung dá ~450 lugares gratuitos para quem visita o palácio e o parque.
-(schloesser.bayern.de.)* ✅ *E o da [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) fechou-se a
-10/09/2026: **em dia sem jogo custa €5,00 por dia** para ligeiros, até 2 h depois de o
-estádio fechar, pago sem dinheiro, com cartão ou EC. Os ~€12 que aqui estavam eram tarifa de
-dia de jogo e nunca se aplicariam a uma terça sem futebol.
-(allianz-arena.com/de/anreise/spielfrei.)*
-🔴 *A [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) estava aqui a ~€12 e é por hora: com o bloco de uma hora do Dia 7 são €3,50, e
-não €12, mas quem se demorar paga bem mais. Corrigido a 28/08/2026 na bmw-welt.com.* **As autoestradas alemãs não têm portagem para automóveis ligeiros**, e
+✅ *O parque da [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) fechou-se: **em dia sem jogo custa €5,00 por dia** para ligeiros, até 2 h depois de o
+estádio fechar, pago sem dinheiro, com cartão ou EC. (allianz-arena.com/de/anreise/spielfrei.)*
+🔴 *A garagem subterrânea do Museu BMW (Parkhaus BMW Welt) custa €3,50 por hora (primeiros 15 min grátis) e não aceita numerário.* **As autoestradas alemãs não têm portagem para automóveis ligeiros**, e
 com a rota do Dia 4 invertida também não é preciso comprar a vinheta austríaca.
 
 ---
@@ -342,8 +335,8 @@ já não têm horários rígidos que obriguem a manter ou descartar dias, mas a 
 Augsburgo ➔ Munique) manda.
 
 
-**Ordem geográfica do Dia 7** ([Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) ➜ [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) ➜ [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) ➜ MUC) já é a ótima:
-é uma linha de oeste para nordeste que acaba no aeroporto, sem retrocessos.
+**Ordem geográfica do Dia 7** ([Museu BMW](https://www.google.com/maps/search/?api=1&query=BMW%20Museum%2C%20Am%20Olympiapark%202%2C%2080809%20M%C3%BCnchen) ➜ [McDonald's McDrive](https://www.google.com/maps/search/?api=1&query=McDonald%27s%2C%20Maria-Probst-Stra%C3%9Fe%201%2C%2080939%20M%C3%BCnchen) ➔ [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) ➜ MUC) já é a ótima:
+é uma linha direta pelo norte de Munique que acaba no aeroporto, sem retrocessos.
 
 ---
 
@@ -658,7 +651,7 @@ confirmadas abertas à quarta, a terceira não.**
     - **[REWE](https://www.google.com/maps/search/?api=1&query=REWE%2C%20Maximilianstra%C3%9Fe%207%2C%2086150%20Augsburg)** (*Maximilianstraße 7*, a 500 m, 6 min a pé): alternativa central, também aberto até às 20:00.
     - ⚠️ **Atenção aos horários bávaros (*Ladenschlussgesetz*):** na Baviera os supermercados fecham impreterivelmente às **20:00** e **ao domingo estão totalmente encerrados por lei**. Como no sábado (Dia 4) o regresso dos Alpes é após as 21:00, esta sexta-feira à tarde é a única oportunidade para abastecer a carrinha e o frigorífico para o fim de semana.
     - **O que comprar para os 6:** garrafas e garrafões de água (indispensáveis para o roadtrip do Dia 4 aos Alpes/Eibsee), snacks de viagem (frutos secos, fruta, bolachas), cervejas bávaras para o frigorífico (Augustiner, Paulaner, Riegele local) e mantimentos para os pequenos-almoços (pão, café, leite, manteiga).
-  - 🚗 **Carro reservado:** levantamento às **17:00**, 7-Seater SUV automático (VW Touran ou similar, 4 dias). Devolução terça-feira às 17:00 no Mietwagenzentrum do Aeroporto de Munique (MUC).
+  - 🚗 **Carro reservado:** levantamento às **17:00**, 7-Seater SUV automático (VW Touran ou similar, 4 dias). Devolução terça-feira às 17:30 no Mietwagenzentrum do Aeroporto de Munique (MUC).
   - ⏱️ A entrega ao balcão demora ~30 a 40 minutos (papelada, seguro e inspeção de danos). Com o balcão a fechar às 18:00, a marcação às 17:00 assegura margem confortável.
 - **17:40 – 17:55**: A carrinha chega ao apartamento e junta-se ao grupo. O resto da noite é percorrido a pé.
   - 🅿️ ⚠️ **Estacionamento no [Lechviertel](https://www.google.com/maps/search/?api=1&query=Lechviertel%2C%2086150%20Augsburg):** ruelas estreitas com estacionamento reservado a residentes (*Anwohnerparken*). Confirmar com o anfitrião do Lexapartments onde estacionar ou recorrer a um parque coberto do centro (*[Parkhaus Zeughaus](https://www.google.com/maps/search/?api=1&query=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg)* ou *City-Galerie*). 🗺️ [Waze GPS: Parkhaus Zeughaus](https://waze.com/ul?q=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg&navigate=yes)
@@ -950,69 +943,44 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 > às 11:00, com as tendas praticamente vazias. Custa a manhã de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) inteira e um despertar
 > às 08:30, e não se justifica numa segunda: às 13:45 ainda há lugar.
 >
-> **O [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) faz-se no Dia 7**, onde fica ao lado de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen).
+> **O [Museu BMW](https://www.google.com/maps/search/?api=1&query=BMW%20Museum%2C%20Am%20Olympiapark%202%2C%2080809%20M%C3%BCnchen) faz-se no Dia 7**, no norte de Munique.
 
 ---
 
-### ⚽ ✈️ Dia 7: Terça-feira, 29 de Setembro · [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen), [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen), [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) & Regresso
-**⏰ Acordar às 10:00. Depois da noite de [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen), vai fazer falta.**
+### ⚽ ✈️ Dia 7: Terça-feira, 29 de Setembro · [Museu BMW](https://www.google.com/maps/search/?api=1&query=BMW%20Museum%2C%20Am%20Olympiapark%202%2C%2080809%20M%C3%BCnchen) (Coleção Histórica de Clássicos), [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) & Regresso
+**⏰ Acordar 08:45 · Sair 10:00. O dia tem de fechar com a devolução da carrinha às 17:30 (reserva confirmada).**
 
-- **11:00**: Check-out do apartamento em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), bagagens já acomodadas na carrinha
-  *(confirmar a hora de check-out; ⚠️ na Alemanha o normal é **10:00** e não 11:00, e se o
-  Lexapartments não autorizar saída tardia o dia todo recua uma hora)*.
-- **11:00 – 12:00**: Condução [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) ➔ [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) (**60 km, 45 min em fluxo livre**), mais o
-  parque de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) e a caminhada até ao palácio. 🗺️ [Waze GPS: Parkplatz Nymphenburg](https://waze.com/ul?q=Parkplatz%20Schloss%20Nymphenburg%2C%20N%C3%B6rdliches%20Schlossrondell%2C%2080638%20M%C3%BCnchen&navigate=yes)
-- **12:00 – 13:10**: **Palácio e Jardins de [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen)** (zona Oeste): caminhada ao longo do
-  canal central com cisnes e jardins barrocos. Aberto das 09:00 às 18:00 (até 15 de outubro).
-  - 🎟️ **Opções de visita:** o acesso aos jardins, ao parque e ao canal exterior é **gratuito**. O
-    bilhete avulso para o interior do palácio custa **€10 por pessoa** (~35 min de visita, inclui a
-    Galeria das Belezas). A *Gesamtkarte* (**€20 por pessoa**) cobre corpos secundários e museus,
-    exige 2 a 3 horas e não se justifica para o tempo disponível.
-  - 🅿️ **Estacionamento gratuito** no parque à entrada do palácio.
-- **13:10 – 13:40**: **Transição para a [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen).** Voltar ao carro, sair do parque de
-  [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen), **6,0 km pelo Mittlerer Ring (9 min em fluxo livre, 15 a 20 com semáforos)**,
-  entrar na garagem subterrânea da [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) e subir. São **30 minutos**, não 15. 🗺️ [Waze GPS: Parkhaus BMW Welt](https://waze.com/ul?q=Parkhaus%20BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen&navigate=yes)
-- **13:40 – 14:40**: **[BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) e almoço.** Pavilhão futurista com superdesportivos, e a
-  icónica cobertura em tenda de 1972 do Parque Olímpico logo ao lado. **Almoça-se aqui**, nos
-  restaurantes do próprio edifício ou no [Olympiapark](https://www.google.com/maps/search/?api=1&query=Olympiapark%2C%2080809%20M%C3%BCnchen).
-  - ✅ **Entrada gratuita:** acesso livre ao pavilhão e ao parque (área de exposição das 09:00 às
-    18:00).
-  - 💳 🔴 **Pagamentos exclusivamente por cartão:** a BMW Welt **não aceita numerário** em entradas,
-    restauração nem estacionamento subterrâneo *(€3,50/hora, primeiros 15 min grátis)*.
-  - 🏛️ *(Museu BMW, ao lado: ter–dom 10:00–18:00, bilhete €17 avulso ou €16 por pessoa em grupo
-    de 5 ou mais).*
-- **14:40 – 15:20**: **Transição para a [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen).** Pagar o parque na máquina, **~11 km
-  até Fröttmaning (16 min em fluxo livre)**, entrar no parque do estádio e percorrer a
-  **Esplanade, que tem 543 m de rampa**, até ao edifício. São **40 minutos**, não 15. 🗺️ [Waze GPS: Parkhaus Allianz Arena](https://waze.com/ul?q=Parkhaus%20Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen&navigate=yes)
-- **15:20 – 16:00**: **[Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)** (Fröttmaning): acesso livre e gratuito à esplanada
-  exterior para admirar a fachada de almofadas ETFE, fotos de grupo, e visita ao **FC Bayern
-  Store**.
-  - 🎯 **Decisão confirmada: visita estritamente exterior.** O grupo definiu que pretende apenas ver o estádio de fora. Os 40 minutos destinam-se a caminhar pela esplanada monumental, tirar fotografias de grupo à imponente fachada de 2.784 almofadas em ETFE e espreitar a **[FC Bayern Store](https://www.google.com/maps/search/?api=1&query=FC%20Bayern%20Megastore%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)** oficial (loja aberta das 10:00 às 18:00 com acesso livre). Acesso totalmente gratuito à esplanada e à loja; opções de museu (€12) e tours interiores (€19 e €25) ficam expressamente descartadas por opção dos viajantes, garantindo que o fecho da viagem corre sem qualquer pressão horária.
-  - ✅ **Horários confirmados para 29/09/2026:** A allianz-arena.com publica horários dia a dia e para a data da viagem dá a loja aberta das 10:00 às 18:00, com o *[Paulaner Fantreff](https://www.google.com/maps/search/?api=1&query=Paulaner%20Fantreff%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) North* aberto e a restante restauração fechada. O bloco das 15:20 às 16:00 cabe com total folga.
-  - ✂️ **Plano de contingência:** Se a manhã ou o almoço na BMW Welt sofrerem algum atraso, a Allianz Arena é a paragem a cortar por ficar mais a norte (custa €5,00 de parque em dia sem jogo). Cortando-a, segue-se diretamente para o aeroporto, ganhando uma hora de folga extra.
+- **10:00**: Check-out do apartamento em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), bagagens já acomodadas na carrinha *(na Alemanha a hora oficial de check-out é habitualmente as 10:00)*.
+- **10:00 – 11:00**: Condução [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) ➔ [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) (**63 km, 47 min em fluxo livre** pela A8 e Mittlerer Ring), mais entrada na garagem subterrânea do Museu BMW (Parkhaus BMW Welt, Am Olympiapark 1). 🗺️ [Waze GPS: Parkhaus BMW Welt](https://waze.com/ul?q=Parkhaus%20BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen&navigate=yes)
+- **11:00 – 13:00**: **[Museu BMW](https://www.google.com/maps/search/?api=1&query=BMW%20Museum%2C%20Am%20Olympiapark%202%2C%2080809%20M%C3%BCnchen) (Coleção Histórica de Clássicos).**
+  - 🏎️ **Foco total e exclusivo nos carros clássicos e na história da marca (2h00 completas no museu):** a famosa taça prateada (*Museumsschüssel*) e as sete galerias temáticas permanentes exibem o acervo histórico autêntico da BMW: o pioneiro Dixi 3/15 dos anos 20, o lendário desportivo BMW 328 Roadster, o raro e deslumbrante BMW 507 dos anos 50, o simpático microcarro BMW Isetta ("bubble car") com porta frontal basculante, o pioneiro BMW 2002 Turbo de 1973, o icónico superdesportivo BMW M1 com motor central desenhado por Giugiaro, motos clássicas R32 e os históricos motores radiais e a jato de aviação.
+  - 🎫 **Bilhetes:** tarifa de grupo (a partir de 5 pessoas) a ✅ **€16,00 por pessoa** (**€96** total para os 6, contra €17 avulso). Aberto das 10:00 às 18:00 (última entrada 17:30).
+  - 💳 🔴 **Pagamentos exclusivamente por cartão:** o Museu BMW **não aceita numerário** em entradas, loja nem estacionamento subterrâneo *(€3,50/hora, primeiros 15 min grátis, total de ~€7,00 para 2h)*.
+- **13:00 – 13:45**: **Saída do parque e almoço fast food (McDrive Euro-Industriepark).**
+  - 🍔 **Almoço rápido e sem filas:** pagar o parque na máquina automática, sair da garagem do museu e conduzir **4,5 km (~8 min)** até ao [McDonald's McDrive](https://www.google.com/maps/search/?api=1&query=McDonald%27s%2C%20Maria-Probst-Stra%C3%9Fe%201%2C%2080939%20M%C3%BCnchen) na *Maria-Probst-Straße 1* (Euro-Industriepark, diretamente no alinhamento da estrada para a Allianz Arena). Serviço rápido em 2 faixas McDrive para levar para o carro ou comer na esplanada (**~€5 a €10 por pessoa**). A curta distância no mesmo complexo comercial há também Burger King e KFC. 🗺️ [Waze GPS: McDonald's Maria-Probst-Str](https://waze.com/ul?q=McDonald%27s%2C%20Maria-Probst-Stra%C3%9Fe%201%2C%2080939%20M%C3%BCnchen&navigate=yes)
+- **13:45 – 14:00**: Condução McDrive ➔ [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) (**5,5 km, 8 min em fluxo livre**), entrada no parque de estacionamento do estádio (P1–P3). 🗺️ [Waze GPS: Parkhaus Allianz Arena](https://waze.com/ul?q=Parkhaus%20Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen&navigate=yes)
+- **14:00 – 15:00**: **[Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)** (Fröttmaning): acesso livre e gratuito à esplanada exterior para admirar a fachada de almofadas ETFE, fotos de grupo, e visita à **[FC Bayern Store](https://www.google.com/maps/search/?api=1&query=FC%20Bayern%20Megastore%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)** oficial.
+  - 🎯 **Visita exterior e FC Bayern Store:** Caminhar pela esplanada monumental, tirar fotografias à imponente fachada de 2.784 almofadas em ETFE (arquitetura de Herzog & de Meuron) e visitar a **[FC Bayern Store](https://www.google.com/maps/search/?api=1&query=FC%20Bayern%20Megastore%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen)** oficial (aberta das 10:00 às 18:00 com acesso livre). Sem tours guiados nem museu (€12 a €25), mantendo a hora livre e sem filas.
+  - ✅ **Horários do estádio:** O portal oficial allianz-arena.com publica os horários dia a dia e indica a loja aberta das 10:00 às 18:00, com o *[Paulaner Fantreff](https://www.google.com/maps/search/?api=1&query=Paulaner%20Fantreff%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) North* aberto e a restante restauração fechada.
+  - 🅿️ **Estacionamento do estádio:** ✅ **€5,00 por dia** em dia sem jogo (pago sem numerário, cartão bancário).
+  - ✂️ **Plano de contingência:** Se a visita ao Museu BMW sofrer algum atraso, a Allianz Arena é a paragem a cortar por ficar no extremo norte. Cortando-a, segue-se diretamente para o aeroporto, ganhando mais de uma hora de folga extra.
   - ✅ **Sem futebol nesta semana:** A pausa internacional da FIFA (21 de setembro a 6 de outubro de 2026) garante que não há jogos da Bundesliga nem da Champions. Zona tranquila em Fröttmaning e acessos completamente desimpedidos.
 
-> ⚠️ **Hoje a carrinha anda com as malas de 6 pessoas lá dentro** e fica estacionada em três
-> sítios diferentes de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland). Uma carrinha carregada é um alvo óbvio. Usar **estacionamento
-> vigiado** nos três pontos: [Nymphenburg](https://www.google.com/maps/search/?api=1&query=Schloss%20Nymphenburg%2C%2080638%20M%C3%BCnchen) tem parque próprio, a [BMW Welt](https://www.google.com/maps/search/?api=1&query=BMW%20Welt%2C%20Am%20Olympiapark%201%2C%2080809%20M%C3%BCnchen) tem garagem
-> subterrânea e a [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen) tem o parque do estádio, e levar passaportes, cartões e
-> eletrónica **sempre convosco**, nunca na bagageira.
-- **16:00 – 16:15**: Regresso ao carro pela Esplanade e pagamento do parque.
-- **16:15 – 17:00**: **A9 e A92 até ao Aeroporto de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland)** (30 km, **23 min em fluxo
-  livre**), **abastecimento de combustível** e entrada no *Mietwagenzentrum*.
-  - ⛽ **Atestar antes de chegar ao aeroporto**, num posto em Eching ou Neufahrn. O posto da
-    Zentralallee é onde toda a gente que devolve carro vai atestar, e é fila garantida à hora
-    de ponta das devoluções.
-- **17:00 – 17:20**: **Devolução da carrinha** e caminhada até ao Terminal 2. Não há shuttle
-  nem é preciso: o *Mietwagenzentrum* liga ao **Terminal 2 a pé pelo Munich Airport Center**,
-  são 350 a 500 m e 6 a 10 minutos com carrinhos de bagagem. 🗺️ [Waze GPS: Mietwagenzentrum MUC](https://waze.com/ul?q=Mietwagenzentrum%2C%20Terminalstra%C3%9Fe%20Mitte%2C%2085356%20M%C3%BCnchen-Flughafen&navigate=yes)
-  - 🔍 **Antes de entregar a chave, revistar o carro todo.** Bolsas das portas, debaixo dos
-    bancos, o porta-luvas. Com seis pessoas a descarregar à pressa é assim que ficam
-    carregadores, casacos e carteiras para trás, e depois já não há como voltar.
-- **17:20 – 19:20**: Terminal 2, despacho de bagagens, controlo de segurança e tempo livre.
-  - ✅ **A margem é confortável e é de propósito.** O *check-in* e a entrega de bagagem de
-    porão fecham às **19:15**, 45 min antes da partida. Chegando às 17:20 há **1h55**, o que
-    aguenta uma fila de 30 minutos no balcão da Star Alliance sem drama nenhum.
+> ⚠️ **Hoje a carrinha anda com as malas de 6 pessoas lá dentro** e fica estacionada na
+> garagem subterrânea do [Museu BMW](https://www.google.com/maps/search/?api=1&query=BMW%20Museum%2C%20Am%20Olympiapark%202%2C%2080809%20M%C3%BCnchen) (Parkhaus BMW Welt) e no parque da [Allianz Arena](https://www.google.com/maps/search/?api=1&query=Allianz%20Arena%2C%20Werner-Heisenberg-Allee%2025%2C%2080939%20M%C3%BCnchen). Ambos são
+> parques vigiados, mas levar passaportes, cartões e eletrónica **sempre convosco**, nunca na bagageira.
+
+- **15:00 – 15:15**: Regresso ao carro pela Esplanade e pagamento do parque.
+- **15:15 – 16:05**: **A9 e A92 até ao Aeroporto de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland)** (30 km, **23 min em fluxo livre**), **abastecimento de combustível** e entrada no *Mietwagenzentrum*.
+  - ⛽ **Posto de combustível mais perto do aeroporto:** [Agip Service-Station](https://www.google.com/maps/search/?api=1&query=Agip%20Service-Station%2C%20Flughafen%20Nordallee%2045%2C%2085356%20M%C3%BCnchen-Flughafen) (*Flughafen Nordallee 45*, 85356 München-Flughafen), no próprio anel viário do aeroporto, a apenas **2,3 km (3 min)** da rampa do *Mietwagenzentrum*. Aberto 24 horas, com lavagem e loja de conveniência. 🗺️ [Waze GPS: Agip Nordallee 45](https://waze.com/ul?q=Agip%2C%20Flughafen%20Nordallee%2045%2C%2085356%20M%C3%BCnchen-Flughafen&navigate=yes)
+  - 💡 *Alternativa fora do perímetro:* para evitar eventuais filas na entrada do aeroporto, o posto [Esso](https://www.google.com/maps/search/?api=1&query=Esso%2C%20Ludwigstra%C3%9Fe%2054%2C%2085399%20Hallbergmoos) em Hallbergmoos (*Ludwigstraße 54*) fica na saída imediata antes do aeroporto.
+- **16:05 – 16:35**: **Devolução da carrinha Enterprise** na *Mietwagenrückgabe* e caminhada até ao Terminal 2. A devolução antes das 17:30 cumpre com folga muito confortável a reserva contratual sem qualquer encargo extra.
+  - 🅿️ **Localização exata e acesso:** Na Zentralallee do aeroporto, ignorar as saídas gerais de terminais e seguir rigorosamente as placas aéreas **«Mietwagenrückgabe / Rental Car Return»**. A entrada fica na *Terminalstraße Mitte*, **em frente ao silo de estacionamento P26** (a norte do P9). 🗺️ [Waze GPS: Mietwagenzentrum MUC](https://waze.com/ul?q=Mietwagenzentrum%2C%20Terminalstra%C3%9Fe%20Mitte%2C%2085356%20M%C3%BCnchen-Flughafen&navigate=yes)
+  - 🤖 **Procedimento no cais de devolução:** Ao entrar na rampa, a viatura passa a passo lento pelo pórtico de scanner digital inteligente (registo fotográfico a 360° da carroçaria). Seguir para a baía de receção indicada pelos assistentes de pista. O funcionário faz a leitura da quilometragem e combustível no leitor portátil (o comprovativo é enviado por e-mail). Retirar toda a bagagem e deixar a chave no interior conforme instrução no local.
+  - 🔍 **Antes de entregar a chave, revistar o carro todo.** Bolsas das portas, debaixo dos bancos, o porta-luvas. Com seis pessoas a descarregar à pressa é assim que ficam carregadores, casacos e carteiras para trás, e depois já não há como voltar.
+  - 🚶 **Caminhada até ao Terminal 2:** Não há shuttle nem é preciso. A saída pedonal das faixas dá diretamente para o átrio coberto do **Munich Airport Center (MAC)** no Piso 03. Caminha-se 350 a 500 m (6 a 8 min a pé, piso plano com passadeiras rolantes) diretamente até aos balcões do Terminal 2. Há carrinhos de bagagem disponíveis logo à saída dos cais de devolução.
+- **16:35 – 19:20**: Terminal 2, despacho de bagagens, controlo de segurança e tempo livre.
+  - ✅ **A margem é confortável e é de propósito.** O *check-in* e a entrega de bagagem de porão fecham às **19:15**, 45 min antes da partida. Chegando ao Terminal 2 às 16:35 há **2h40** até ao fecho de balcão, o que aguenta qualquer fila no balcão da Star Alliance com tranquilidade absoluta.
 - **20:00 – 22:25**: **Voo direto TAP TP 555** (MUC ➔ LIS). Chegada a [Lisboa](https://www.google.com/maps/search/?api=1&query=Lisboa%2C%20Portugal) às 22:25.
 
 ---
@@ -1079,7 +1047,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 3. **Aluguer de Viatura, reservado:**
    - *Enterprise Rent-A-Car [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)*: Aindlinger Str. 14 · **+49 821 448360**
    - Horário do balcão: **Sexta 08:00–18:00 · Sábado 09:00–12:00**
-   - **Levantamento: sexta 25 Set às 17:00** · **Devolução: terça 29 Set às 17:00**, no MUC
+   - **Levantamento: sexta 25 Set às 17:00** · **Devolução: terça 29 Set às 17:30**, no MUC
      (*Mietwagenzentrum*, Terminal 2)
    - **7-Seater SUV automático** (VW Touran ou similar) · 4 dias a €81,89 · quilometragem
      ilimitada · proteção de franquia €100 · **total €427,58** (≈ €71 por pessoa)
@@ -1090,8 +1058,8 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
    - 🚨 **Não se passa pelo apartamento antes.** Os condutores vão diretos da estação para a
      Enterprise, de táxi, e estão ao balcão por volta das **16:30**, para que o carro não
      dependa de o check-in correr bem. Ver o Dia 3.
-   - ⏰ **E porque é que a devolução é à mesma hora:** mantém o aluguer em **exatamente 4 dias**.
-     Uma hora a mais podia disparar um 5.º dia de tarifa.
+   - ⏰ **Devolução às 17:30:** horário confirmado da reserva, oferecendo 30 minutos adicionais de tolerância e margem operacional face às 96 horas normais.
+   - ⛽ **Posto de combustível mais perto:** [Agip Service-Station](https://www.google.com/maps/search/?api=1&query=Agip%20Service-Station%2C%20Flughafen%20Nordallee%2045%2C%2085356%20M%C3%BCnchen-Flughafen) (*Flughafen Nordallee 45*, 85356 München-Flughafen), no anel do aeroporto a 2,3 km (3 min) do *Mietwagenzentrum*. 🗺️ [Waze GPS: Agip Nordallee 45](https://waze.com/ul?q=Agip%2C%20Flughafen%20Nordallee%2045%2C%2085356%20M%C3%BCnchen-Flughafen&navigate=yes)
    - 🇦🇹 **Sem viagem à Áustria:** com a rota do Dia 4 invertida, o percurso é todo em estrada
      alemã. Não é preciso declarar travessia de fronteira nem comprar vinheta.
 

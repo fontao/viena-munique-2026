@@ -12,6 +12,46 @@ examinada e rejeitada, ela volta a ser proposta na revisão seguinte.
 > comportamento (porquê às 14:00, porquê este comboio, o que a escolha custou). A arqueologia
 > vem toda para aqui.
 
+## 42.ª revisão · 23 de setembro de 2026
+
+**Substituição do Palácio de Nymphenburg e exclusão da BMW Welt: Dia 7 focado a 100% na Coleção Histórica de Clássicos do Museu BMW, almoço fast-food no McDrive Euro-Industriepark, e fecho rigoroso da devolução da carrinha às 17:30 e voo TAP TP 555.**
+
+1. **Substituição de Nymphenburg e exclusão da BMW Welt (Foco Exclusivo nos Clássicos do Museu BMW):**
+   - O grupo decidiu prescindir da paragem nos jardins barrocos do Palácio Nymphenburg (estilo e grandiosidade imperial já amplamente explorados nos palácios de Hofburg e Schönbrunn em Viena no Dia 2).
+   - Subsequentemente, o grupo optou por prescindir também da visita à **BMW Welt** («We can remove also bmw welt!»), que expõe os modelos contemporâneos da gama comercial.
+   - Desta forma, a manhã do Dia 7 fica 100% concentrada no **Museu BMW** e na sua prestigiada coleção permanente de automóveis e motos clássicas na icónica "taça" prateada (*Museumsschüssel*) e nas sete galerias permanentes, dispondo de 2 horas completas e tranquilas (11:00–13:00) sem divisões de tempo.
+   - Foco nos marcos históricos da marca: BMW Dixi 3/15 (o primeiro carro da BMW, 1929), o roadster de corrida BMW 328, o elegante BMW 507 dos anos 50, o famoso minicarro "bolha" BMW Isetta com porta frontal basculante, o BMW 2002 Turbo pioneiro dos anos 70, o lendário superdesportivo BMW M1 com motor central desenhado por Giugiaro, motos clássicas R32 e os motores aeronáuticos e radiais originais.
+   - **Bilhética e estacionamento:** Museu BMW a ✅ **€16,00/pessoa** na tarifa oficial de grupo (mínimo de 5 pagantes em bilhete único, gerando uma poupança de €4/pax face ao bilhete individual de €20) = **€96 no total para os 6 passageiros** (adquirido no balcão de atendimento, pagamento por cartão). Estacionamento na garagem subterrânea do complexo (Parkhaus BMW Welt) a €3,50/hora (~€7,00 para as 2 horas de permanência).
+
+2. **Almoço Fast-Food no McDrive Euro-Industriepark (Maria-Probst-Straße 1):**
+   - Em resposta direta à preferência do grupo por uma refeição rápida sem as demoras ou protocolos de serviço de mesa num restaurante tradicional («for lunch we can do fast food, like drive through or stuff like that»), selecionou-se o **McDonald's com McDrive no Euro-Industriepark** (*Maria-Probst-Straße 1, 80939 München*).
+   - **Vantagem geográfica e de fluxo de trânsito:** fica exatamente a meio caminho na rota norte entre o Museu BMW (4,5 km / 8 min pela B13/Ingolstädter Straße) e a Allianz Arena em Fröttmaning (5,5 km / 8 min pela Heidemannstraße / Werner-Heisenberg-Allee).
+   - A recolha da refeição pelo McDrive ou serviço expresso ao balcão e consumo no local ou na carrinha cabe perfeitamente num bloco de 45 minutos (13:00–13:45), sem qualquer desvio ou quilómetro redundante. Orçamento estimado em cerca de €8 a €12 por pessoa.
+
+3. **Manutenção da Allianz Arena exterior e Megastore:**
+   - Após o almoço, os 15 minutos de condução rápida (13:45–14:00) levam o grupo ao Estacionamento da Allianz Arena (€5,00/dia), dispondo de 1 hora completa (14:00–15:00) para subir a Esplanade pedonal, fotografar a impressionante fachada exterior de 2.784 almofadas pneumáticas em ETFE (arquitetura de Herzog & de Meuron) e visitar a loja oficial FC Bayern Megastore.
+
+4. **Cadeia horária blindada e salvaguarda dos prazos contratuais e do voo:**
+   - **15:00–15:15:** Regresso ao carro e pagamento do parque.
+   - **15:15–16:05 (50 min):** 30 km pela A9/A92 + abastecimento completo do depósito em Eching/Neufahrn antes de entrar no aeroporto.
+   - **16:05–16:35:** Entrada no Mietwagenzentrum (P26) e devolução da carrinha à Enterprise. Uma devolução efetuada entre as 16:05 e as 16:35 garante **entre 55 e 85 minutos de folga** antes do teto contratual confirmado das 17:30 (evitando qualquer risco de encargo de dia suplementar de €81,89).
+   - **16:35–19:20:** Caminhada confortável pelo Munich Airport Center (MAC) até ao Terminal 2. Chegada à zona de embarque e entrega de bagagens com **2h40 de avanço** sobre o fecho dos balcões da TAP às 19:15 e 3h25 antes da descolagem às 20:00 do voo TP 555 com destino a Lisboa.
+
+5. **Ordem geográfica linear e sem retrocessos:**
+   - A rota de viagem do Dia 7 consolida-se numa linha reta fluida de oeste para nordeste: **Augsburg ➔ Museu BMW ➔ McDrive Euro-Industriepark ➔ Allianz Arena ➔ Aeroporto MUC**, totalizando 103 km no dia e ~790 km no cômputo global dos 4 dias de carrinha.
+
+6. **Posto de combustível mais próximo do aeroporto com link Waze:**
+   - Adicionada a indicação precisa do posto de combustível mais perto do Mietwagenzentrum: a **Agip Service-Station** (*Flughafen Nordallee 45, 85356 München-Flughafen*), situada no próprio perímetro viário norte do aeroporto, a apenas **2,3 km e 3 minutos** de condução da rampa de devolução de viaturas. Aberta 24 horas, com lavagem e loja de conveniência.
+   - Acrescentado link de navegação Waze dedicado em `itinerario_viagem.md`, no nó da linha temporal e no cartão da carrinha em `partials/itinerary.html` e `partials/dossier.html`. Alternativa fora do perímetro referenciada no posto Esso em Hallbergmoos (*Ludwigstraße 54*).
+
+7. **Auditoria de estilo do Dia 7 e validação exata do cais de devolução da Enterprise com subagente:**
+   - Auditoria rigorosa de redação: eliminação de meta-narrativa de planeador e justificações de bastidores nos nós da Allianz Arena e Museu BMW nos dois documentos, mantendo a voz exclusivamente instrucional e operacional no terreno (sem marcas de confirmação na prosa, português europeu estrito, sem travessões de pontuação).
+   - O subagente de investigação confirmou junto das fontes oficiais do Aeroporto de Munique (munich-airport.de, enterprise.de e portais técnicos) que o ponto físico de devolução da carrinha Enterprise é a infraestrutura centralizada da **Mietwagenrückgabe**, situada na *Terminalstraße Mitte*, **diretamente em frente ao silo de estacionamento P26** (a norte do P9).
+   - O acesso é efetuado seguindo os pórticos superiores **«Mietwagenrückgabe / Rental Car Return»** na Zentralallee. A viatura passa à entrada pelo pórtico de scanner digital automatizado (Wenn ASA) que efetua o registo fotográfico a 360° do estado da carroçaria, sendo depois recebida pelos assistentes de pista que recolhem quilometragem e combustível via leitor móvel.
+   - Percurso pedonal até ao Terminal 2: 350 a 500 metros (6 a 8 minutos a pé) através do átrio coberto do Munich Airport Center (MAC, Piso 03), com carrinhos de bagagem disponíveis no local (€2 de caução).
+
+---
+
 ## 41.ª revisão · 21 de setembro de 2026
 
 **Auditoria mobile exaustiva a links Waze e Google Maps: validação de navegação em telemóvel e blindagem de moradas de estacionamento.**
@@ -2104,13 +2144,13 @@ os dois bilhetes são contratos de transporte independentes e não reembolsávei
 | **Manter o comboio direto das 11:28 (Dia 3)** | ❌ Não | €202 a mais para chegar exatamente à mesma hora. |
 | **Comboio das 10:47 em vez do das 11:17 (Dia 6)** | ❌ Não | Devolvia ~45 min e salvava a Eisbachwelle, mas obrigava a acordar às 09:30 no dia que só acaba às 23:46. Rejeitada duas vezes. |
 | **Comboio das 09:17 (Dia 6)** | ❌ Não | Punha o grupo na Wiesn às 11:00 com as tendas vazias, mas custa a manhã de Munique inteira. Numa segunda, às 13:45 ainda há lugar. |
-| **BMW Welt: Dia 6 ➔ Dia 7** | ✅ Feito | Fica a 45 min do centro e não cabia no dia da Oktoberfest; no Dia 7 fica a ~15 min de Nymphenburg, no caminho para o aeroporto. |
+| **BMW Welt** | ❌ Rejeitado | Exclusão formal a pedido dos viajantes («We can remove also bmw welt!»). O showroom comercial contemporâneo foi suprimido para dedicar 100% das 2 horas da manhã aos carros e motos clássicas no interior do Museu BMW. |
+| **Nymphenburg ➔ Museu BMW (Clássicos)** | ✅ Feito | O grupo preferiu a coleção histórica e modelos clássicos de automóveis/motos da BMW em vez de jardins palacianos barrocos (já visitados em Schönbrunn no Dia 2). Elimina o desvio urbano a oeste e liberta tempo para o museu e almoço rápido. |
 | **Noite do Dia 3 em Augsburg** | ✅ Feito | O dia acabava no check-in. Ganhou Fuggerei, jantar e passeio noturno, tudo a pé. |
 | **Desvio a Nuremberga (Dia 5)** | ❌ Rejeitado | Não interessa aos viajantes. Um centro de documentação sobre a encenação nazi a meio de um domingo de cidades medievais e cerveja francónia altera totalmente o registo da viagem. Além disso, o desvio (+110 km e +2h10 de carro) sacrificava o Kriminalmuseum (de manhã) ou o descanso e deitar cedo antes da Oktoberfest (à tarde). Opção descartada em definitivo e removida do itinerário e do guia. |
 | **Vigia Noturno em Rothenburg (Dia 5)** | ❌ Rejeitado | Não interessa aos viajantes. Ficar para a ronda das 20:00 adiava o regresso a Augsburg para as 23:30, sacrificando o descanso e o recolher cedo na véspera da Oktoberfest. Opção descartada em definitivo e removida do itinerário, do guia e da tabela de bilhetes. |
 
-**Ordem geográfica do Dia 7** (Nymphenburg ➔ BMW Welt ➔ Allianz Arena ➔ MUC) já é a ótima: uma
-linha de oeste para nordeste que acaba no aeroporto, sem retrocessos.
+**Ordem geográfica do Dia 7** (Museu BMW ➔ McDrive Euro-Industriepark ➔ Allianz Arena ➔ MUC) já é a ótima: uma linha de oeste para nordeste que acaba no aeroporto, sem retrocessos.
 
 ---
 
