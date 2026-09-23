@@ -17,7 +17,7 @@ tomadas, as alternativas rejeitadas e o que cada escolha custou.
 
 | Prioridade | O quê | Porquê agora | Onde |
 |---|---|---|---|
-| ✅ ~~1~~ | ~~**[Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau)** (6 pax) · ~~**€141**~~ | **DECIDIDO a 28/08/2026: não se compra.** O interior só existia em alemão às horas que serviam ao Dia 4, e o áudio-guia em português só às 17:55, dependente do último shuttle das 17:30. **Vai-se à [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), que é grátis.** O prazo desaparece e o Dia 4 muda de forma. | - |
+| ✅ ~~1~~ | ~~**[Neuschwanstein](https://www.google.com/maps/search/?api=1&query=Schloss%20Neuschwanstein%2C%2087645%20Schwangau)** (6 pax) · ~~**€141**~~ | **DECIDIDO: não se compra.** O interior só existia em alemão às horas que serviam ao Dia 4, e o áudio-guia em português só às 17:55, dependente do último shuttle das 17:30. **Vai-se à [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau), que é grátis.** O prazo desaparece e o Dia 4 muda de forma. | - |
 | ✅ ~~2~~ | ~~**Mesa na [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen)**~~ | **DECIDIDO: não se reserva mesa.** Vai-se sem reserva, a andar entre tendas. **O prazo de 27 de agosto deixa de existir**, e o Dia 6 muda de forma por causa disso. Ver o ponto 2 do hub. | - |
 | ✅ ~~3~~ | ~~**Viagem [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich) ➔ [Augsburgo](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)** (4 pax)~~ | **COMPRADO**: Westbahn 910 (€175,96) + ICE 116 na DB (€157,96). **Total €333,92.** | - |
 | ✅ ~~4~~ | ~~**[Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien)** (4 pax) · ~~**€168**~~~~ | **DECIDIDO: cancelado.** Substituído pelo [Tesouro Imperial](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien) e [Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien) no Hofburg. Poupam-se €168 e o dia não tem travessias a meio. Ver ponto 4 do hub. | - |
@@ -36,8 +36,7 @@ tomadas, as alternativas rejeitadas e o que cada escolha custou.
 26 de setembro de 2026 as faixas da manhã e do meio-dia eram todas de guia alemão ao vivo. O
 áudio-guia em português existe, mas só na faixa das **17:55**, e o **último shuttle sobe às
 17:30 e o último desce às 18:45**: era pagar €141 não reembolsáveis para depender do último
-autocarro do dia, e perder o pôr do sol no [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) por causa disso. *(Disponibilidade lida no
-shop.ticket-center-hohenschwangau.de a 28/08/2026.)*
+autocarro do dia, e perder o pôr do sol no [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau) por causa disso. *(shop.ticket-center-hohenschwangau.de)*
 
 **O que se faz em vez disso.** Sobe-se de shuttle à **[Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau)**, que **não precisa de
 bilhete nenhum**, e é de lá que vem a fotografia que toda a gente conhece do castelo.
@@ -310,19 +309,11 @@ fechada (até outubro de 2027):
 - **Railjet: não é afetado.** É a única ligação ferroviária fiável ao centro, e é a que
   este roteiro usa.
 
-**Obras no metro de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich).** Duas coisas que é preciso não acreditar, porque circulam muito:
+**Estado do metro de [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich):**
 
-- ❌ **"U2 cortado entre Schottentor e [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien)": FALSO.** A U2 **voltou a circular
-  integralmente de [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) até Seestadt a 6 de dezembro de 2024**, depois de três anos de
-  obras. A informação tinha quase dois anos de atraso.
-  *E para [Praterstern](https://www.google.com/maps/search/?api=1&query=Praterstern%2C%201020%20Wien)*: a U1 é sempre a linha rápida (duas paragens a partir do [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)),
-  ao passo que a U2 dá a volta ao Ring.
-- ✅ **"U4 cortado entre Hütteldorf e [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) de 2 de julho a 4 de setembro de 2026": esse
-  corte não existiu.** Foi ao ficheiro da Wiener Linien e o que houve na U4 em 2026 foi
-  outra coisa: uma **interrupção de 3 de julho a 3 de agosto entre [Schwedenplatz](https://www.google.com/maps/search/?api=1&query=Schwedenplatz%2C%201010%20Wien) e
-  Landstraße**, no centro. Como o [Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) saiu do plano, a U4 nem sequer é necessária no Dia 2.
-- ✅ **Boa notícia inesperada:** a partir de 7 de setembro de 2026, para compensar o fecho da
-  Stammstrecke, as linhas **U1, U2, U4 e U6 passam a circular com frequência reforçada**.
+- ✅ **U2:** a circular integralmente de [Karlsplatz](https://www.google.com/maps/search/?api=1&query=Karlsplatz%2C%201010%20Wien) até Seestadt (obras concluídas). Para o [Praterstern](https://www.google.com/maps/search/?api=1&query=Praterstern%2C%201020%20Wien), a U1 é sempre a linha mais direta (duas paragens a partir de [Stephansplatz](https://www.google.com/maps/search/?api=1&query=Stephansplatz%2C%201010%20Wien)).
+- ✅ **U4:** serviço regular sem condicionamentos no troço do centro histórico.
+- ✅ **Frequências reforçadas:** para compensar as obras da Stammstrecke, as linhas **U1, U2, U4 e U6 circulam com frequência reforçada**.
 
 ---
 
@@ -547,21 +538,8 @@ confirmadas abertas à quarta, a terceira não.**
 ### 🇦🇹 Dia 2: Quinta-feira, 24 de Setembro · [Hofburg](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien), Centro & [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien)
 **⏰ Acordar 10:00 · Sair 11:00**
 
-> ### 🚨 O que estava errado e mudou
-> **O [Palácio de Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) saiu do Dia 2.** Custava **3h05** do meio do dia
-> e era a única travessia do dia que não servia para nada: o resto do Dia 2 é em volta de casa e
-> do [Prater](https://www.google.com/maps/search/?api=1&query=Prater%2C%201020%20Wien), e o palácio obrigava a ir a oeste à hora de almoço para voltar ao centro e
-> seguir para leste à tarde. Sobretudo, era a **entrada de hora marcada das 14:00** que estragava
-> a paragem no Sacher: obrigava a despachar o café em 40 minutos, e era por causa dela que aqui se
-> dizia para não tentar mesa.
->
-> **O que entra:** o **[Tesouro Imperial](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien) (Schatzkammer)** e o **[Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien)**, os dois
-> **dentro do Hofburg**, a 8 e 10 minutos a pé de casa. É a mesma matéria imperial em dois terços
-> do tempo, e sem uma única viagem de metro a meio.
->
-> **O que custa:** perdem-se o palácio, os jardins e a subida à Gloriete, e o dia passa a ter dois
-> blocos de sala em vez de um. **As [entradas de Schönbrunn](https://www.google.com/maps/search/?api=1&query=Schloss%20Sch%C3%B6nbrunn%2C%201130%20Wien) ainda não estavam compradas**, portanto
-> a troca devolve ao grupo os **€168** que estavam reservados para os 4 pax.
+> ### 🏛️ Visitas Imperiais no Hofburg
+> O dia concentra o património imperial no coração histórico de Viena: o **[Tesouro Imperial](https://www.google.com/maps/search/?api=1&query=Kaiserliche%20Schatzkammer%2C%20Hofburg%2C%201010%20Wien) (Schatzkammer)** e o **[Prunksaal](https://www.google.com/maps/search/?api=1&query=Prunksaal%2C%20Josefsplatz%201%2C%201010%20Wien)** da Biblioteca Nacional, ambos a escassos minutos a pé do alojamento e sem necessidade de transportes a meio do dia. À tarde, o programa segue direto de metro U1 até ao Prater.
 
 - **11:00 – 12:30**: Brunch no **[Café Korb](https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Korb%2C%20Brandst%C3%A4tte%209%2C%201010%20Wien)**
   (*[Brandstätte](https://www.google.com/maps/search/?api=1&query=Brandst%C3%A4tte%2C%201010%20Wien) 9*), a 5 min a pé de casa. Casa de café histórica de 1904, com a sala dos anos 60
@@ -774,7 +752,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
   - Jantar descontraído ou petisco à beira da água numa das tabernas históricas dos canais ([Zunfthaus der Schiffleute](https://www.google.com/maps/search/?api=1&query=Zunfthaus%20der%20Schiffleute%2C%20Fischergasse%2031%2C%2089073%20Ulm), [Zur Lochmühle](https://www.google.com/maps/search/?api=1&query=Zur%20Lochm%C3%BChle%2C%20Gerbergasse%206%2C%2089073%20Ulm) ou [Zur Forelle](https://www.google.com/maps/search/?api=1&query=Zur%20Forelle%2C%20Fischergasse%2025%2C%2089073%20Ulm)).
 - **20:45 – 21:40**: **Condução [Ulm](https://www.google.com/maps/search/?api=1&query=Ulm%2C%20Deutschland) ➔ [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150) pela A8 (82 km, ~55 min) & descanso.**
   - Regresso célere a Augsburg pela A8 também livre de camiões.
-  - Chegada ao alojamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%2C%2086152%20Augsburg) às 21:40. Recolher e descansar cedo para a grande jornada de segunda-feira (Dia 6) na [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland). 🗺️ [Waze GPS: Am Bogen 6](https://waze.com/ul?q=Am%20Bogen%206%2C%20Augsburg&navigate=yes) · [Parkhaus Zeughaus](https://waze.com/ul?q=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg&navigate=yes)
+  - Chegada ao alojamento na [Am Bogen 6](https://www.google.com/maps/search/?api=1&query=Am%20Bogen%2C%2086152%20Augsburg) às 21:40. Recolher e descansar cedo para a grande jornada de segunda-feira (Dia 6) na [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland). 🗺️ [Waze GPS: Am Bogen 6](https://waze.com/ul?q=Am%20Bogen%206%2C%20Augsburg&navigate=yes) · [Waze GPS: Parkhaus Zeughaus](https://waze.com/ul?q=Parkhaus%20Zeughaus%2C%20Zeugplatz%205%2C%2086150%20Augsburg&navigate=yes)
 
 *ℹ️ **Nota de Domingo (Sonntagsruhe):*** o comércio comum fecha ao domingo na Alemanha, mas nas vilas e cidades turísticas da rota (Harburg, Nördlingen, Dinkelsbühl, Rothenburg e Ulm) os monumentos, torres históricas, museus, pastelarias e restaurantes abrem normalmente, incluindo a **[Käthe Wohlfahrt](https://www.google.com/maps/search/?api=1&query=K%C3%A4the%20Wohlfahrt%20-%20Weihnachtsdorf&query_place_id=ChIJPQIGSKaPmEcR-DPz7P7GHQI)** (10:00–18:00). Fecham apenas os supermercados e lojas convencionais.
 
@@ -803,7 +781,7 @@ O apartamento fica em pleno [Lechviertel](https://www.google.com/maps/search/?ap
 > - Deslumbre com o interior barroco rococó da [Asamkirche](https://www.google.com/maps/search/?api=1&query=Asamkirche%2C%20Sendlinger%20Stra%C3%9Fe%2032%2C%2080331%20M%C3%BCnchen) na Sendlinger Straße.
 > - **Não se sobe ao Alter Peter**: 306 degraus com escadaria estreita e fila imprevisível em dia de Wiesn; a vista de cima já se faz no Dia 1 na torre do Stephansdom (€30 poupados para o grupo).
 
-- **09:40 – 09:58**: **Sair de casa a pé para a [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg).** São **17 minutos a pé** (1,2 km) desde o Am Bogen 6. Chegada às 09:58, dando **19 minutos de margem** para confirmar o cais nos monitores, descer à plataforma com calma e ter os **2× Bayern-Ticket preenchidos com os 6 nomes** antes de embarcar.
+- **09:35 – 09:56**: **Sair de casa a pé para a [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg).** São **21 minutos a pé** (1,6 km) desde o Am Bogen 6. Chegada às 09:56, dando **21 minutos de margem** para confirmar o cais nos monitores, descer à plataforma com calma e ter os **2× Bayern-Ticket preenchidos com os 6 nomes** antes de embarcar.
   - ✅ **O melhor é levá-los já comprados de casa**, na app da DB Navigator: poupam-se **€2 por bilhete** de taxa de balcão e os 19 minutos ficam livres de burocracia.
   - 🔴 **Os nomes têm de estar preenchidos antes de entrar no comboio.** O bilhete exige o nome e o apelido de cada passageiro nos campos próprios antes do início da viagem. Sem os nomes preenchidos, o bilhete não é válido na fiscalização.
 - **10:17 – 10:55**: Comboio regional RE9 (ou RE80) de [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg) para [München Hbf](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%20Hauptbahnhof%2C%2080335%20M%C3%BCnchen) (**38 min** diretos) com os **2× Bayern-Ticket** (válidos a partir das 09:00, **€108 para os 6**).
@@ -1000,35 +978,30 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
       chegam. **Perguntar isto na entrega** e, se for o caso, pedir a troca de categoria.
       *(Com sete pessoas isto era o risco n.º 1 da viagem e obrigava a uma carrinha de 9 lugares.
       Com 6, deixa de ser.)*
-- [x] ~~🔴 **Decidir até 27 de agosto qual é o caminho da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen).**~~ **DECIDIDO: sem mesa
-      reservada, a andar entre tendas.** O prazo de 27 de agosto deixou de existir. O Dia 6 foi
-      reconstruído em cima disso, com chegada à [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) às **13:45** em vez das 17:00.
+- [x] ~~🔴 **Caminho da [Oktoberfest](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen).**~~ **DECIDIDO: sem mesa
+      reservada, a andar entre tendas.** Chegada à [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen) às **13:45** em vez das 17:00.
 - [ ] 🟡 **Combinar entre os 6 a regra das 15:30**, antes de chegarem à [Wiesn](https://www.google.com/maps/search/?api=1&query=Oktoberfest%2C%20Theresienwiese%2C%2080339%20M%C3%BCnchen): às 15:30 pára-se
       de andar entre tendas e fica-se sentado na última, na zona não reservável, e a partir daí
       ninguém sai da tenda. Seis pessoas a decidir isto às 15:30, já com duas *Maß* dentro, não
       decidem nada.
 - [x] ✅ **Táxi/van de 6+ lugares em [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland): Taxi-[München](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland) eG, +49 89 2161-0** (*21610* de
-      dentro de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland)). Fechado a 10/09/2026 na página da própria central, que anuncia
-      serviço **24 horas** e **Großraumtaxi** (viatura de grande capacidade). Guardar no
+      dentro de [Munique](https://www.google.com/maps/search/?api=1&query=M%C3%BCnchen%2C%20Deutschland)). Serviço **24 horas** e **Großraumtaxi** (viatura de grande capacidade, taxi-muenchen.com). Guardar no
       telemóvel antes do Dia 6: é o plano B se falharem o comboio das 22:58.
-- [ ] 🔴 **Estado da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau)**, na véspera do Dia 4. **Subiu de importância a 28/08/2026:**
-      sem bilhete de castelo, a ponte é o Dia 4. Se estiver fechada, o dia passa a ser o [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau),
+- [ ] 🔴 **Estado da [Marienbrücke](https://www.google.com/maps/search/?api=1&query=Marienbr%C3%BCcke%2C%2087645%20Schwangau)**, na véspera do Dia 4:
+      sem bilhete de castelo, a ponte é o ponto central da visita. Se estiver fechada, o dia passa a ser o [Alpsee](https://www.google.com/maps/search/?api=1&query=Alpsee%2C%2087645%20Schwangau),
       o miradouro e uma tarde mais longa em [Oberammergau](https://www.google.com/maps/search/?api=1&query=Oberammergau%2C%2082487) e no [Eibsee](https://www.google.com/maps/search/?api=1&query=Eibsee%2C%2082491%20Grainau).
 - [ ] **Número de passageiros efetivo em [Viena](https://www.google.com/maps/search/?api=1&query=Wien%2C%20%C3%96sterreich)**: confirmado, são **4**. Os outros **2** juntam-se em [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150).
 - [ ] **Táxi de [Augsburg Hbf](https://www.google.com/maps/search/?api=1&query=Augsburg%20Hauptbahnhof%2C%2086150%20Augsburg) para a Enterprise** reservado por telefone.
 - [ ] **Como e a que horas chegam os 2 amigos a [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)** no Dia 3, e se voltam no TP 555.
 - [ ] **N.º de lugares reservados no voo de regresso**: 4 ou 6?
-- [x] ✅ **Horário de sábado da Enterprise de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150): 09:00–12:00.** Fechado a 10/09/2026 na
-      página da própria estação (*(enterprise.de)*), que dá também **domingo 09:00–12:00** e
-      **segunda a sexta 08:00–18:00**. Deixa de ser preciso telefonar, e **o plano B do Dia 4 já
-      contava com esta janela da manhã**, portanto não muda nada no plano.
+- [x] ✅ **Horário da Enterprise de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150):** confirmado em enterprise.de: sábado **09:00–12:00**, domingo **09:00–12:00** e
+      **segunda a sexta 08:00–18:00**.
 - [ ] **Mesas reservadas:** [Schöne Perle](https://www.google.com/maps/search/?api=1&query=Sch%C3%B6ne%20Perle%2C%20Gro%C3%9Fe%20Pfarrgasse%202%2C%201020%20Wien) ou Pöschl (Dia 1, **não crítica**), Bauerntanz (Dia 3), jantar de sábado
       às **21:30** (Dia 4), almoço em [Dinkelsbühl](https://www.google.com/maps/search/?api=1&query=Dinkelsb%C3%BChl%2C%2091550) às **13:00** (Dia 5).
-      🔴 *O **[Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien)** saiu desta lista a 27/08/2026: para o bar não se reserva, é walk-in, e
-      reservar mesa para depois só beber custa €25 por pessoa.*
+      *(O **[Das Loft](https://www.google.com/maps/search/?api=1&query=Das%20Loft%2C%20Praterstra%C3%9Fe%201%2C%201010%20Wien)** funciona como walk-in para o bar; reservar mesa apenas para bebidas tem consumo mínimo de €25 por pessoa).*
 - [ ] **Levar dinheiro vivo:** a **Torre Sul do [Stephansdom](https://www.google.com/maps/search/?api=1&query=Stephansdom%2C%20Stephansplatz%201%2C%201010%20Wien)** no Dia 1 (€8 × 4 = **€32**) não
       aceita cartão, e as bancas de Schneeballen e as torres medievais (Torre Daniel em [Nördlingen](https://www.google.com/maps/search/?api=1&query=N%C3%B6rdlingen%2C%2086720) e torre do Rathaus em [Rothenburg](https://www.google.com/maps/search/?api=1&query=Rothenburg%20ob%20der%20Tauber%2C%2091541)) também não. (St. Jakobskirche é apreciada do exterior, poupando €30).
-      🔴 *A Torre Sul entrou nesta lista a 28/08/2026: não se compra online e custa €8, não €4.*
+      *(A Torre Sul do Stephansdom não se compra online e custa €8 por pessoa).*
 - [ ] **Confirmar no DB Navigator, na manhã do Dia 6**, se o RE9 das 22:58 se mantém e se
       existe algum ICE/IC mais tarde.
 
@@ -1042,7 +1015,7 @@ beber quatro litros em duas horas e a chegar à noite sem conseguir estar de pé
 
 2. **Alojamento Alemanha (25 a 29 Set.), 6 pessoas:**
    - *Lexapartments Zentral 101m²*: Am Bogen 6 (R/C), 86152 [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150), Alemanha
-   - 17 min a pé da estação central de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)
+   - 21 min a pé (1,6 km) da estação central de [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)
 
 3. **Aluguer de Viatura, reservado:**
    - *Enterprise Rent-A-Car [Augsburg](https://www.google.com/maps/search/?api=1&query=Augsburg%2C%2086150)*: Aindlinger Str. 14 · **+49 821 448360**
